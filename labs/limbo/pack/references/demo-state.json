@@ -1,0 +1,40 @@
+{
+  "stateType": "synthetic-reference-fixture",
+  "persistent": false,
+  "screens": [
+    {
+      "id": "pause",
+      "title": "Pause veil",
+      "state": {
+        "open": true,
+        "selectedAction": "resume",
+        "actions": ["resume", "chapters", "controls"]
+      }
+    },
+    {
+      "id": "chapters",
+      "title": "Chapter path",
+      "state": {
+        "currentChapter": "Lowlands",
+        "previewChapter": "Old Mill",
+        "chapters": [
+          {"id": "lowlands", "label": "Lowlands", "status": "current"},
+          {"id": "old-mill", "label": "Old Mill", "status": "available"},
+          {"id": "upper-woods", "label": "Upper Woods", "status": "unknown"}
+        ],
+        "startRequiresExplicitCommit": true
+      }
+    },
+    {
+      "id": "context-hints",
+      "title": "Contextual hint",
+      "state": {
+        "visible": true,
+        "prompt": "Inspect the iron lever",
+        "key": "E",
+        "dismissible": true
+      }
+    }
+  ]
+}
+

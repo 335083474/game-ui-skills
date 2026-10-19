@@ -1,0 +1,55 @@
+{
+  "name": "mundaun-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/index.html",
+      "bytes": 5525,
+      "sha256": "9d8f8b166f2fc0746aea279d227ab122b6b599908478a352363e2ac856698b0f"
+    },
+    {
+      "path": "assets/references/direction-board.svg",
+      "bytes": 1539,
+      "sha256": "bf3931105223c8241e074a29d1f3807930fca3a9afe0030d9e1fc09b1e32b340"
+    },
+    {
+      "path": "assets/tokens.css",
+      "bytes": 4138,
+      "sha256": "07e8888a1989ff45a77c9a898bac131f1a13c8205b5f2dd7469779087c362b7b"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1747,
+      "sha256": "e80524dc0253a57f2b9e45ddc3b54f0af1df2ceb4702456a680be11a0d4f9d74"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 110850,
+      "sha256": "f90940e8bf5e599ea61343ef98037525d700c3dcbd4f6b502e2bec3259f332fa"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1418,
+      "sha256": "24168a10d996f3f9acac5ca265881b4d872eb9e8da8f68dbc764a20d2b8262d5"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2061,
+      "sha256": "82e28b8e0b57aabbbad00e7f260b11b30f503247c2ba6f06d492870eef375d52"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1638,
+      "sha256": "a241bc9a53c33d35c9d136efd22576338110cd087d7eafd41d3d3f78d5135741"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1112,
+      "sha256": "a2196d393891cb809231e763068ffb9852d0bd07fc03af95de81206a1c7ce3fa"
+    }
+  ]
+}

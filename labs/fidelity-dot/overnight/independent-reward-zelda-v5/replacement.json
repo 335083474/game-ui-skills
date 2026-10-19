@@ -1,0 +1,28 @@
+{
+  "eventId": "mountain-cache-02",
+  "title": "MOUNTAIN CACHE",
+  "selectedIndex": 1,
+  "rewards": [
+    {
+      "id": "bombs",
+      "name": "Trail Bombs",
+      "icon": "components/sprite_bomb_native.png",
+      "count": 12,
+      "description": "A bundle of twelve trail bombs. Use one to break a cracked stone wall. Each use consumes one bomb. Carry them carefully through the forest."
+    },
+    {
+      "id": "boots",
+      "name": "Golden Boots",
+      "icon": "components/sprite_boots_gold_native.png",
+      "count": 7,
+      "description": "Seven pairs of sturdy golden boots. The courier can share the spare pairs with the mountain patrol. Replacement configuration verified."
+    },
+    {
+      "id": "field-notes",
+      "name": "Field Notes",
+      "icon": "components/sprite_book_green_native.png",
+      "count": 1,
+      "description": "These field notes were left by the last keeper of the western wood. The first chapter describes safe paths beside the river, while the second records the songs heard near the old bridge.\n\nRead every page before setting out. Some paths change after rain. Look for pale stones at each crossing, and avoid the hollow tree after sunset. The keeper marked hidden shelters with three small leaves.\n\nThis reward is a single complete book. Its notes do not grant a spell, change your equipment, or use a consumable. Keep it as a guide for the next expedition.\n\nFinal note: take only what you need, leave a light for the next traveler, and return the book to the village archive when your journey ends. END OF FIELD NOTES."
+    }
+  ]
+}

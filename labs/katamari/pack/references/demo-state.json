@@ -1,0 +1,41 @@
+{
+  "catalog": {
+    "groups": [
+      {
+        "id": "kitchen",
+        "label": "Kitchen finds",
+        "items": [
+          {
+            "id": "blue-kettle",
+            "found": true
+          },
+          {
+            "id": "citrus-wedge",
+            "found": true
+          },
+          {
+            "id": "tin-whistle",
+            "found": false
+          }
+        ]
+      }
+    ]
+  },
+  "level": {
+    "id": "harbor-noon",
+    "objective": {
+      "diameterCm": 15,
+      "timeSec": 180
+    },
+    "route": "seaside"
+  },
+  "result": {
+    "diameterCm": 17,
+    "newFindIds": [
+      "paper-kite"
+    ],
+    "rank": "A",
+    "canReplay": true
+  }
+}
+

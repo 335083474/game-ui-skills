@@ -1,0 +1,49 @@
+{
+  "slug": "cuphead",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "equipment-cards",
+      "title": "Equipment cards",
+      "description": "A clear loadout compares shot, charm, and super choices with readable names and selected checkmarks."
+    },
+    {
+      "id": "shop-counter",
+      "title": "Shop counter",
+      "description": "A compact purchase counter exposes price and owned state, previews the item, and separates buy from back."
+    },
+    {
+      "id": "level-results",
+      "title": "Level results",
+      "description": "A punchy results reveal reads grade, time, and objective marks in a stable order before replay choices."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "equipment-cards",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select Charge Shot, long-range burst · hold to release" },
+        { "action": "click", "role": "button", "name": "Review equipment change" },
+        { "action": "click", "role": "button", "name": "Confirm loadout: Charge Shot" }
+      ],
+      "expectedText": ["Shot slot updated to Charge Shot. Loadout change committed once."]
+    },
+    {
+      "screenId": "shop-counter",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Review purchase: Roundabout Shot, 3 coins" },
+        { "action": "click", "role": "button", "name": "Confirm purchase: Roundabout Shot for 3 coins" }
+      ],
+      "expectedText": ["Purchase complete: Roundabout Shot added. 1 coin left."]
+    },
+    {
+      "screenId": "level-results",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Review stage ledger" },
+        { "action": "click", "role": "button", "name": "Record Grade A- to notebook" }
+      ],
+      "expectedText": ["Stage grade A- recorded once; notebook line: “Parried through the spinning reel”"]
+    }
+  ]
+}

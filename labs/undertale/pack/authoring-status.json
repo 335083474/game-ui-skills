@@ -1,0 +1,41 @@
+{
+  "slug": "undertale",
+  "packageName": "undertale-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "battle-commands",
+      "title": "Battle commands",
+      "description": "Select a compact command with a heart pointer and open a target layer only when needed."
+    },
+    {
+      "id": "items",
+      "title": "Item list",
+      "description": "Inspect item name, quantity, and effect; consume once only after explicit target confirmation."
+    },
+    {
+      "id": "dialogue",
+      "title": "Dialogue",
+      "description": "Read an original framed passage with skippable pacing and a small set of text choices."
+    }
+  ],
+  "referenceImage": "references/images/style-reference.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental 2015 original UI interpretation; not an official or pixel-exact recreation.",
+    "All dialogue, characters, encounters, items, and values are synthetic; no official sprites, music, or fonts are included.",
+    "Pixel Graphics rank and generic asset supply are not measured title-specific UI demand."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "genshin-impact",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "character",
+      "title": "Traveler profile",
+      "description": "Preview one fictional traveler, then set that profile active beside three readable attributes."
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "description": "Compare an artifact feather, its level and effect, and one attack change before equipping."
+    },
+    {
+      "id": "quest-journal",
+      "title": "Travel journal",
+      "description": "Preview a main or optional route and commit one tracked objective on the field map."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "character",
+      "steps": [
+        {
+          "action": "click",
+          "role": "button",
+          "name": "Choose Serein Arclight"
+        },
+        {
+          "action": "click",
+          "role": "button",
+          "name": "Set active traveler"
+        }
+      ],
+      "expectedText": [
+        "Serein Arclight is now the active traveler."
+      ]
+    },
+    {
+      "screenId": "equipment",
+      "steps": [
+        {
+          "action": "click",
+          "role": "button",
+          "name": "Choose Gale-thread Plume"
+        },
+        {
+          "action": "click",
+          "role": "button",
+          "name": "Equip selected"
+        }
+      ],
+      "expectedText": [
+        "Gale-thread Plume equipped · attack 412 → 443."
+      ]
+    },
+    {
+      "screenId": "quest-journal",
+      "steps": [
+        {
+          "action": "click",
+          "role": "button",
+          "name": "Choose Return the blue letter"
+        },
+        {
+          "action": "click",
+          "role": "button",
+          "name": "Track objective"
+        }
+      ],
+      "expectedText": [
+        "Tracking Return the blue letter: visit the lower bridge keeper."
+      ]
+    }
+  ]
+}

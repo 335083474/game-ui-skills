@@ -1,0 +1,15 @@
+{
+  "slug": "terraria",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"inventory","title":"Inventory","description":"Blue bevels, 20-cell backpack, quickbar, equipment rail, and item inspector; inspect and assign a tool."},
+    {"id":"crafting","title":"Crafting","description":"A field alchemy bench consumes local ingredients to make one Glowroot Flask."},
+    {"id":"equipment","title":"Equipment","description":"A body-shaped armor layout compares the current head slot and equips a Cobalt Helm."}
+  ],
+  "smokeTests": [
+    {"screenId":"inventory","steps":[{"action":"click","role":"button","name":"Select Moon Ore, 8"},{"action":"click","role":"button","name":"EQUIP SELECTED TOOL"}],"expectedText":["Moon Ore assigned to the quickbar tool slot."]},
+    {"screenId":"crafting","steps":[{"action":"click","role":"button","name":"ASSEMBLE GLOWROOT FLASK"}],"expectedText":["Crafted 1 Glowroot Flask. Gel 4, Glowroot 0.","Flasks made this visit 1"]},
+    {"screenId":"equipment","steps":[{"action":"click","role":"button","name":"EQUIP COBALT HELM"}],"expectedText":["Cobalt Helm equipped. Defense is now 9.","Cobalt Helm"]}
+  ]
+}

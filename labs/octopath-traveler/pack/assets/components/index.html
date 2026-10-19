@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>HD-2D party UI specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="board">
+    <header class="board-head">
+      <p class="eyebrow">OCTOPATH TRAVELER · ORIGINAL 2019 PC DIRECTION STUDY</p>
+      <h1>Pixel party, dimensional stage</h1>
+      <p class="intro-copy">A battle-stage composition with compact order and command controls. Party and equipment fragments below remain editable specimen components.</p>
+    </header>
+
+    <section class="battle-stage" aria-labelledby="battle-title">
+      <img class="stage-art" src="../reference-atmosphere.png" alt="Original pixel travelers on a lantern-lit dimensional stone plaza">
+      <div class="stage-wash" aria-hidden="true"></div>
+      <div class="turn-strip" aria-label="Synthetic turn order">
+        <span class="turn-label">NEXT</span>
+        <span class="turn-chip current">Vela</span>
+        <span class="turn-chip">Stone Mote</span>
+        <span class="turn-chip">Orin</span>
+        <span class="turn-chip">Sela</span>
+      </div>
+      <div class="target-readout"><span class="target-dot" aria-hidden="true"></span><span><strong>Stone Mote</strong><small>Target · sample state</small></span></div>
+      <div class="command-console">
+        <div class="active-actor"><span class="pixel-sprite sprite-gold" aria-hidden="true"></span><span><small>ACTIVE MEMBER</small><strong id="active-member">Vela · Wayfinder</strong></span></div>
+        <div class="command-row" role="group" aria-label="Preview a battle command">
+          <button type="button" class="command selected" aria-pressed="true" data-command="Strike">Strike</button>
+          <button type="button" class="command" aria-pressed="false" data-command="Guard">Guard</button>
+          <button type="button" class="command" aria-pressed="false" data-command="Focus">Focus</button>
+        </div>
+        <button type="button" class="confirm" data-action="confirm-command">Confirm action</button>
+        <p class="status" role="status" aria-live="polite">Command preview only. No battle engine is connected.</p>
+      </div>
+      <h2 id="battle-title" class="visually-hidden">Integrated battle stage specimen</h2>
+      <span class="stage-caption">Original generated stagediorama · all actors and turn data are synthetic</span>
+    </section>
+
+    <section class="support-grid" aria-label="Reusable party and equipment specimens">
+      <article class="specimen">
+        <p class="eyebrow">01 · PARTY</p>
+        <h2>Party rail</h2>
+        <div class="party-rail" role="group" aria-label="Select a party member">
+          <button type="button" class="party-member selected" aria-pressed="true" data-member="Vela" data-role="Wayfinder">
+            <span class="pixel-sprite sprite-gold" aria-hidden="true"></span><strong>Vela</strong><small data-role-label>Wayfinder · lead</small><span class="sample-meter">HP sample 8 / 10</span>
+          </button>
+          <button type="button" class="party-member" aria-pressed="false" data-member="Orin" data-role="Guard">
+            <span class="pixel-sprite sprite-blue" aria-hidden="true"></span><strong>Orin</strong><small data-role-label>Guard</small><span class="sample-meter">HP sample 7 / 10</span>
+          </button>
+          <button type="button" class="party-member" aria-pressed="false" data-member="Sela" data-role="Scholar">
+            <span class="pixel-sprite sprite-rose" aria-hidden="true"></span><strong>Sela</strong><small data-role-label>Scholar</small><span class="sample-meter">HP sample 6 / 10</span>
+          </button>
+          <button type="button" class="party-member" aria-pressed="false" data-member="Bram" data-role="Warden">
+            <span class="pixel-sprite sprite-green" aria-hidden="true"></span><strong>Bram</strong><small data-role-label>Warden</small><span class="sample-meter">HP sample 9 / 10</span>
+          </button>
+        </div>
+        <div class="commit-row"><span data-lead>Lead: Vela</span><button type="button" class="secondary" data-action="set-lead">Set lead</button></div>
+        <p class="status" role="status" aria-live="polite">Roster values are synthetic examples.</p>
+      </article>
+
+      <article class="specimen">
+        <p class="eyebrow">02 · CHARACTER EQUIPMENT</p>
+        <h2>Compare one slot</h2>
+        <div class="equipment-heading"><span class="pixel-sprite sprite-gold" aria-hidden="true"></span><span><strong>Vela</strong><small>Hand slot · sample state</small></span></div>
+        <div class="equipment-list" role="group" aria-label="Preview equipment">
+          <button type="button" class="equipment current" aria-pressed="false" data-gear="Bronze staff">
+            <span class="equip-mark" aria-hidden="true">I</span><span><strong>Bronze staff</strong><small data-item-status>Equipped now</small></span><span class="compare">ATK sample 6</span>
+          </button>
+          <button type="button" class="equipment selected" aria-pressed="true" data-gear="Glasswood rod">
+            <span class="equip-mark" aria-hidden="true">II</span><span><strong>Glasswood rod</strong><small data-item-status>Pending preview</small></span><span class="compare">ATK sample 8</span>
+          </button>
+        </div>
+        <p class="delta">Example comparison · focus +2 · guard −1</p>
+        <div class="commit-row">
+          <button type="button" class="text-action" data-action="cancel-equipment">Cancel preview</button>
+          <button type="button" class="secondary" data-action="apply-equipment">Apply equipment</button>
+        </div>
+        <p class="status" role="status" aria-live="polite">Equipment remains pending until Apply.</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>Original HD-2D mood study · no named travelers</span>
+      <span>Local specimens · keyboard state · reduced motion</span>
+    </footer>
+  </main>
+  <script src="demo.js"></script>
+</body>
+</html>
+

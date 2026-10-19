@@ -1,0 +1,12 @@
+/* Customer adaptation: original 3-choice geometry remains; preview is right of frame. */
+.scene-toolbar button,.upgrade-panel button,dialog button{background:#222c2b;color:#f0e7cc;border:1px solid #a69c63;padding:.35em .7em;font-family:DraftControls,sans-serif}
+button:focus-visible{outline:3px solid #fff;outline-offset:3px}button:disabled{cursor:not-allowed;opacity:.58}
+.upgrade-panel{position:absolute;left:78%;top:22%;width:21%;height:67%;border:2px solid #b1a45a;background:#070c10ed;font-size:1.35cqw;--safe-status-font:1.25cqw;--safe-panel-padding:.8cqw;--safe-panel-gap:.6cqw}
+.upgrade-panel .safe-panel-body{display:flex;flex-direction:column;gap:.45cqw}
+.upgrade-panel p,.upgrade-panel h2{margin:0}.upgrade-panel h2{font-family:DraftControls,sans-serif;font-size:1.65cqw;line-height:1.15;overflow-wrap:anywhere}
+.eyebrow{color:#c1b17a;font-size:1.15cqw;letter-spacing:.12em}.balance{font-size:2.6cqw;font-weight:bold;color:#ead17c;line-height:1.05}
+.comparison{display:flex;align-items:center;justify-content:space-between;border-block:1px solid #6e6844;padding:.6cqw 0;color:#bdb8a9}.comparison strong{display:block;font-size:2cqw;color:#a3d877;line-height:1.1}
+.upgrade-panel button{width:100%;font-size:1.3cqw;line-height:1.2}.upgrade-panel #buy{background:#3d502b;border-color:#adc971}.upgrade-panel #status{color:#e9d9a4}
+#upgrade-warning{left:78%;width:21%;top:90%;font-size:1cqw}.bottom-hint{position:absolute;left:29%;top:90%;font-size:1.1cqw;color:#d0c6a8;margin:0}
+dialog{color:#eee8d8;background:#101819;border:2px solid #a89b60;padding:24px;width:min(760px,90vw);max-height:85dvh;overflow:auto;font:20px/1.5 DraftBody,sans-serif;overflow-wrap:anywhere}
+dialog::backdrop{background:#000b}dialog h2{margin-top:12px}dialog button{font-size:18px;margin:6px 12px 6px 0;min-height:42px}#description-copy{white-space:pre-wrap}#confirm-values{color:#b6db8d;font-weight:700}

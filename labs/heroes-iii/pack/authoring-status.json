@@ -1,0 +1,42 @@
+{
+  "slug": "heroes-iii",
+  "packageName": "heroes-iii-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "hero-sheet",
+      "title": "Hero Sheet",
+      "description": "A framed hero portrait, skill medallions, army row, and concise attribute summary."
+    },
+    {
+      "id": "town-recruitment",
+      "title": "Town Recruitment",
+      "description": "A town specimen with creature family, available quantity, cost, and recruit confirmation."
+    },
+    {
+      "id": "spellbook",
+      "title": "Spellbook",
+      "description": "An open parchment book with category rail, selectable spell glyphs, and one selected-spell note."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Example names, item content, statistics, quantities, maps, costs, and outcomes are synthetic.",
+    "Original vector art only; no official game art, logo, font, or screenshot is included.",
+    "The official source identifies the product/edition but does not verify exact UI fidelity or runtime behavior.",
+    "This is a visual reference and component specimen set, not a playable game or engine export."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

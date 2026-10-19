@@ -1,0 +1,15 @@
+{
+  "slug": "cogmind",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id": "equipment", "title": "Equipment", "description": "Inspect a glyph-coded slot schematic with synthetic condition values and keyboard-accessible row selection."},
+    {"id": "exploration-map", "title": "Exploration Map", "description": "Navigate an actual 17-column by 9-row text-glyph grid with coordinates, visible legend, and keyboard contract."},
+    {"id": "event-log", "title": "Event Log", "description": "Review ordered fictional events with labeled information, warning, and discovery marks."}
+  ],
+  "smokeTests": [
+    {"screenId": "equipment", "steps": [{"action": "click", "role": "button", "name": "Select Arc Projector"}, {"action": "click", "role": "button", "name": "Inspect selected part"}], "expectedText": ["WEAPON / Arc Projector", "Inspected Arc Projector · synthetic condition 58%."]},
+    {"screenId": "exploration-map", "steps": [{"action": "click", "role": "button", "name": "Move cursor east"}, {"action": "click", "role": "button", "name": "Inspect focused cell"}], "expectedText": ["(9,4) / empty passage", "Inspected empty passage at (9,4)."]},
+    {"screenId": "event-log", "steps": [{"action": "click", "role": "button", "name": "Inspect E-017 scanner"}], "expectedText": ["DISCOVERY", "An irregular return appears on the east wall."]}
+  ]
+}

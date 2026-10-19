@@ -1,0 +1,7 @@
+{
+  "scope":"Synthetic browser demo values only; page state is not persisted.",
+  "rig":{"installedUtility":"Survey Lens","pendingUtility":null,"resources":{"hullReserve":"72/100","air":"04:30","powerCells":2},"stock":{"patchKit":1,"chargeCells":2}},
+  "store":{"credits":48,"prices":{"patchKit":14,"chargeCells":22}},
+  "locator":{"tracked":null,"targets":[{"id":"cargo-lift","name":"Cargo Lift","range":"86 m","bearing":"042 degrees"},{"id":"tram-access","name":"Tram Access","range":"124 m","bearing":"310 degrees"}]},
+  "controlBoundary":"Every quantity, price, bearing, range, and module name is invented demo state."
+}

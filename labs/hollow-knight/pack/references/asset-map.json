@@ -1,0 +1,29 @@
+{
+  "art": {
+    "hero": {
+      "path": "assets/art/hero-illustration.svg",
+      "provenance": "Original vector illustration created for this reference package; no source-game character or screenshot."
+    },
+    "icons": {
+      "path": "assets/art/icons.svg",
+      "provenance": "Original reusable SVG icon symbols created for this package."
+    },
+    "reference": {
+      "path": "references/images/reference-direction.webp",
+      "provenance": "Copy of the approved local generated style study; not an official game asset."
+    }
+  },
+  "specimen": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "js": "assets/components/showcase.js",
+    "scope": "Editable component specimen showing three selectable design patterns; not an independent usage-test output."
+  },
+  "fonts": {
+    "bundled": false,
+    "remote": false,
+    "stacks": "Palatino Linotype, Georgia, serif / ui-sans-serif, system-ui"
+  },
+  "sourceGameFiles": [],
+  "runtimeNetworkDependencies": []
+}

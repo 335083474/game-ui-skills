@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Chrono Trigger — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<main class="ct-lab">
+  <header class="ct-head"><div><p class="eyebrow">1995 SUPER NINTENDO DIRECTION / PARTS BOARD</p><h1>Three slots.<br>One moving timeline.</h1></div><div class="head-state">ATB / SAMPLE<br>NO COMBAT SIMULATION</div></header>
+  <section class="time-sky" aria-label="Active Time Battle bar specimen">
+    <div><div class="atb-title"><span>ACTIVE TIME / PARTY</span><b>READY STATES ARE LABELED</b></div><div class="atb-track" aria-label="Sample time meter"><i class="ready"></i><i class="ready"></i><i></i><i class="ready"></i><i></i><i></i><i class="ready"></i><i></i><i></i><i class="ready"></i><i></i><i></i></div></div>
+    <div class="time-readout"><span>LOCAL SPECIMEN</span><strong>03 / 12</strong></div>
+  </section>
+  <section class="battle-board" aria-label="Reusable blue RPG interface pieces">
+    <article class="ct-window">
+      <header class="win-title"><h2>Party / three</h2><small>FOCUS A MEMBER</small></header>
+      <div class="party-slots">
+        <button class="party-member" aria-pressed="true" data-group="party"><span class="portrait"><svg viewBox="0 0 56 90"><use href="../art/ui-atlas.svg#portrait-a"/game-ui-skills/></svg></span><span class="party-stats"><b>RYN <small>LV 18</small></b><span class="meter-line"><span>HP</span><span class="meter"><i style="width:78%"></i></span><b>078/100</b></span><span class="meter-line"><span>MP</span><span class="meter mp"><i style="width:55%"></i></span><b>022/040</b></span></span></button>
+        <button class="party-member" aria-pressed="false" data-group="party"><span class="portrait"><svg viewBox="0 0 56 90"><use href="../art/ui-atlas.svg#portrait-b"/game-ui-skills/></svg></span><span class="party-stats"><b>ORA <small>LV 17</small></b><span class="meter-line"><span>HP</span><span class="meter"><i style="width:91%"></i></span><b>091/100</b></span><span class="meter-line"><span>MP</span><span class="meter mp"><i style="width:72%"></i></span><b>029/040</b></span></span></button>
+        <button class="party-member" aria-pressed="false" data-group="party"><span class="portrait"><svg viewBox="0 0 56 90"><use href="../art/ui-atlas.svg#portrait-c"/game-ui-skills/></svg></span><span class="party-stats"><b>UNIT-7 <small>LV 19</small></b><span class="meter-line"><span>HP</span><span class="meter"><i style="width:65%"></i></span><b>065/100</b></span><span class="meter-line"><span>MP</span><span class="meter mp"><i style="width:35%"></i></span><b>014/040</b></span></span></button>
+      </div>
+      <p class="ct-live" aria-live="polite">Ryn focused · sample values only.</p>
+    </article>
+    <article class="ct-window">
+      <header class="win-title"><h2>Tech combinations</h2><small>SELECT TO PREVIEW</small></header>
+      <div class="tech-list">
+        <button class="tech-row" aria-pressed="true" data-group="tech"><span class="tech-icon"><svg><use href="../art/ui-atlas.svg#tech-mark"/game-ui-skills/></svg></span><span><b>AETHER ARC</b><small>ONE MEMBER / RYN</small></span><span class="tech-cost">1P</span></button>
+        <button class="tech-row" aria-pressed="false" data-group="tech"><span class="tech-icon"><svg><use href="../art/ui-atlas.svg#tech-mark"/game-ui-skills/></svg></span><span><b>TWIN FLARE</b><small>TWO MEMBERS / RYN + ORA</small></span><span class="tech-cost">2P</span></button>
+        <button class="tech-row" aria-pressed="false" data-group="tech"><span class="tech-icon"><svg><use href="../art/ui-atlas.svg#tech-mark"/game-ui-skills/></svg></span><span><b>TRIAD BURST</b><small>THREE MEMBERS / ALL</small></span><span class="tech-cost">3P</span></button>
+      </div>
+      <div class="participant-key"><span>RYN / READY</span><span>ORA / WAIT</span><span>UNIT-7 / READY</span></div>
+      <p class="ct-live" aria-live="polite">Aether Arc preview · no Tech was executed.</p>
+    </article>
+    <article class="ct-window orders-window">
+      <header class="win-title"><h2>Battle orders</h2><small>QUEUE / DEMO</small></header>
+      <div class="order-list">
+        <button class="order" aria-pressed="true" data-group="order"><span class="n">01</span><span><b>STRIKE</b><small>RYN / TARGET A</small></span><em>READY</em></button>
+        <button class="order" aria-pressed="false" data-group="order"><span class="n">02</span><span><b>TECH</b><small>ORA / SELECT TECH</small></span><em>WAIT</em></button>
+        <button class="order" aria-pressed="false" data-group="order"><span class="n">03</span><span><b>ITEM</b><small>UNIT-7 / SELECT ITEM</small></span><em>READY</em></button>
+      </div>
+      <p class="ct-live" aria-live="polite">Strike selected · the queue is a visual example.</p>
+    </article>
+  </section>
+  <footer class="ct-foot"><span>COMPACT PANES / CRISP STATUS / THREE MEMBERS</span><span>ORIGINAL PIXEL-STYLE ART / NO SOURCE SCREENSHOTS</span></footer>
+</main>
+<script>
+document.querySelectorAll("[data-group]").forEach(button=>button.addEventListener("click",()=>{
+  document.querySelectorAll('[data-group="'+button.dataset.group+'"]').forEach(item=>item.setAttribute("aria-pressed","false"));
+  button.setAttribute("aria-pressed","true");
+  const live=button.closest(".ct-window").querySelector(".ct-live");
+  if(live) live.textContent=(button.innerText||"Selection").replace(/\s+/g," ").trim()+" selected · local preview only.";
+}));
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ace Attorney Court UI"
+  short_description: "Build original evidence and testimony interfaces"
+  default_prompt: "Use the ace-attorney-ui reference package for original court record and cross-examination screens."

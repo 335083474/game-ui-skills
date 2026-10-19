@@ -1,0 +1,48 @@
+@import url("tokens.css");
+@font-face{font-family:DraftBody;src:url("fonts/AlegreyaSans-Regular.ttf");font-weight:400}
+@font-face{font-family:DraftBody;src:url("fonts/AlegreyaSans-Bold.ttf");font-weight:700}
+@font-face{font-family:DraftBody;src:url("fonts/AlegreyaSans-Italic.ttf");font-style:italic}
+@font-face{font-family:DraftTitle;src:url("fonts/SpectralSC-Regular.ttf");font-weight:400}
+@font-face{font-family:DraftTitle;src:url("fonts/SpectralSC-Bold.ttf");font-weight:700}
+@font-face{font-family:DraftControlsRegular;src:url("fonts/AlegreyaSansSC-Regular.ttf");font-weight:400}
+@font-face{font-family:DraftControls;src:url("fonts/AlegreyaSansSC-Bold.ttf");font-weight:700}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 var(--font-body)}
+a{color:var(--link-accent)}main{max-width:1200px;margin:0 auto;padding:24px}
+header{border-block:2px solid #766841;padding:18px;background:#272e29}
+h1,h2,h3{font-family:var(--font-title)}h1{font-weight:400;letter-spacing:.045em}
+button,input,textarea,select{font:inherit}button{cursor:pointer}
+.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0;align-items:center}
+.toolbar button,.file-button{background:#292f32;color:var(--ink);border:1px solid #7f795e;padding:8px 16px}
+.file-button{display:inline-block;position:relative;cursor:pointer;white-space:nowrap}
+.file-button input{position:absolute;width:1px;height:1px;opacity:0;padding:0;border:0;overflow:hidden}
+.file-button:focus-within{outline:2px solid var(--focus-ring);outline-offset:2px}
+.row{display:block;position:relative;width:100%;aspect-ratio:var(--row-core-ratio);border:0;padding:0;background:transparent;color:var(--ink);text-align:left;container-type:inline-size}
+.row .base{position:absolute;left:0;top:0;width:var(--row-image-width);height:auto;transform:translate(var(--row-image-shift-x),var(--row-image-shift-y));pointer-events:none}
+.row:focus-visible{outline:3px solid var(--focus-ring);outline-offset:2px}
+.symbol{position:absolute;left:2%;top:50%;width:17.2%;height:auto;aspect-ratio:1;transform:translateY(-50%);display:grid;place-items:center;isolation:isolate}
+.symbol::before{content:"";position:absolute;inset:-3%;clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);background:linear-gradient(125deg,#d7bd64,#5e4c2b 25%,#d7bd64 48%,#705d31 80%,#b39c55);z-index:-1}
+.symbol .boon-icon{width:92%;height:92%;object-fit:contain}
+.text{position:absolute;left:23%;right:7%;top:25%;bottom:25%;overflow:auto;font-size:2cqw;line-height:1.35}
+.title-line{display:flex;justify-content:space-between;gap:12px;color:var(--rare);font-family:var(--font-boon);font-weight:400;font-size:2.6cqw}
+.title-name{min-width:0;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rarity-label{flex:none;font-family:var(--font-boon);font-weight:400}
+.epic .title-line{color:var(--epic)}.description{margin:5px 0}
+.stat{display:block;color:var(--positive);font-weight:700;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.rarity-wedge{position:absolute;left:4%;top:19%;width:25%;height:60%;background:var(--rare);clip-path:polygon(0 0,100% 100%,0 100%);opacity:.85;pointer-events:none}
+.epic .rarity-wedge{background:var(--epic)}
+.row .selection-art{display:none;pointer-events:none;z-index:4}
+.row[aria-selected=true] .selection-art{display:block}
+.overflow-note{position:absolute;bottom:1%;left:31%;max-width:67%;font:1.8cqw var(--font-body);color:#ffd396;background:#362015;z-index:5;pointer-events:none}
+.overflow-note[hidden]{display:none}
+.row[data-asset-error=true] .symbol{outline:2px dashed #f66}
+#detail{border:42px solid transparent;border-image:url('components/greek-frame-v27.png') 190 155 180 155 fill /42px round;padding:18px;background:var(--panel);min-height:240px}
+.disclaimer{color:#d9b57b}.editor{padding:18px;border:1px solid #606970;margin:22px 0}
+.editor label{display:block;margin:12px 0}input,textarea,select{background:#242a2e;color:white;border:1px solid #68757d;padding:8px;max-width:100%;width:100%}
+input:invalid,textarea:invalid{outline:1px solid #e9a669}
+textarea{min-height:90px}.editor-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+#event-log{padding:8px;background:#080b0d}
+#screen-detail[hidden],#screen-select[hidden]{display:none}
+@media(max-width:600px){main{padding:12px}.editor-grid{grid-template-columns:1fr}.text{font-size:2.15cqw}.title-line{font-size:2.7cqw}}
+
+.row .base.selection-art{width:102.746962%;transform:translate(-1.285347%,-20.39555%)}

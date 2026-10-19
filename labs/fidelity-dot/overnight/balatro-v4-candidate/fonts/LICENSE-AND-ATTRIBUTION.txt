@@ -1,0 +1,14 @@
+m6x11 / m6x11plus by Daniel Linssen
+Creator and download source: https://managore.itch.io/m6x11
+Creator's exact permission statement: "free to use with attribution"
+Observed 2026-10-18 via creator's page in cloud browser and web search.
+m6x11plus.ttf additionally embeds name-table ID13: "Free to use with attribution".
+
+Suggested project credit:
+Font: m6x11 / m6x11plus by Daniel Linssen, https://managore.itch.io/m6x11
+Used with attribution under the creator's published permission.
+
+This file records the creator's permission; it does not invent or expand it.
+No separate formal license document or CC/OFL version was supplied with these
+individual TTF downloads. Do not label this font OFL, public domain, or CC0.
+No game executable or commercial game archive was accessed or extracted.

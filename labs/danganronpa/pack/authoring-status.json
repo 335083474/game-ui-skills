@@ -1,0 +1,41 @@
+{
+  "slug": "danganronpa",
+  "packageName": "danganronpa-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "student-handbook",
+      "title": "Student handbook",
+      "description": "Navigate a small student / map / investigation index and keep selected page state stable."
+    },
+    {
+      "id": "evidence-locker",
+      "title": "Evidence locker",
+      "description": "Select an exhibit and inspect its source and limits before linking it to a claim."
+    },
+    {
+      "id": "trial-debate",
+      "title": "Trial debate",
+      "description": "Select evidence and one testimony claim, then submit an explicit contradiction match with recoverable feedback."
+    }
+  ],
+  "referenceImage": "assets/student-portrait.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental first-PC style interpretation; not an official or pixel-exact recreation.",
+    "All students, dialogue, evidence, and outcomes are synthetic; no official art, mascot, or game text is included.",
+    "The frozen research entry's tag rank is not measured UI search demand."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

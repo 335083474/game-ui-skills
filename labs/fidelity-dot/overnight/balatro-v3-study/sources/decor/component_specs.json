@@ -1,0 +1,29 @@
+{
+  "voucher": {
+    "size": [
+      78,
+      122
+    ],
+    "file": "voucher_art.png",
+    "caption": "VOUCHER",
+    "caption_bounds": [
+      9,
+      13,
+      69,
+      24
+    ],
+    "caption_color": "#465971",
+    "caption_note": "No baked caption: render with canonical atlas, centered within bounds, glyph-aware fit; do not use TTF."
+  },
+  "marquee": {
+    "size": [
+      200,
+      100
+    ],
+    "file": "shop_marquee.png",
+    "letters": "SHOP",
+    "letter_source": "independent 35x60 sculpted masks",
+    "ui_font_dependency": false
+  },
+  "provenance": "new authored procedural native raster; no source pixels read; rights not cleared"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "paper-mario",
+  "packageName": "paper-mario-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "badges",
+      "title": "Badge folio",
+      "description": "A perforated paper folio of original badge emblems, cost pips, equipped states, and one clear swap preview."
+    },
+    {
+      "id": "items",
+      "title": "Field items",
+      "description": "Loose cut-paper item tiles with a short name, use count, and a readable preview/confirm state."
+    },
+    {
+      "id": "battle-orders",
+      "title": "Stage commands",
+      "description": "A theatre-stage command strip with one selected action, target cue, audience meter, and a clear action boundary."
+    }
+  ],
+  "referenceImage": "references/images/reference-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

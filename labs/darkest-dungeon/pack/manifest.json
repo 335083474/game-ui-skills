@@ -1,0 +1,55 @@
+{
+  "name": "darkest-dungeon-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/index.html",
+      "bytes": 6410,
+      "sha256": "c87ea5e7be03606427a6f53ce3924ca08267eec581d78965d89637f6360c03e4"
+    },
+    {
+      "path": "assets/references/direction-board.svg",
+      "bytes": 1567,
+      "sha256": "e0a501e9ab06e8c3941742e2ff9ff32bddda9ddc6cd9e57e28732f130ed6c1bb"
+    },
+    {
+      "path": "assets/tokens.css",
+      "bytes": 5174,
+      "sha256": "83245a39f37fa6f3fe6e615f6ed9256811e334ea497d540ebe699d92d0512c7c"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1815,
+      "sha256": "d360b7fde40d8e8b28a030fc3304085390b4a6664953a7bcda145f186e159524"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 105875,
+      "sha256": "50bc50b9a8ec2e5634834e96546630f3d4515306740f150abc3a686b6fd648fb"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1497,
+      "sha256": "82f647ef9272172a77d9b614aa12c9835a72d9b11efa3fead4b43326ca00f2c7"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2107,
+      "sha256": "f318460fccad258b6792be5e5f81c6eb2fe6e8a9627d4fef1dccd14486b049e3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1723,
+      "sha256": "cdf47414371bb6ee9f35bc5ccca8abfdc1e5d0166da466324c4083ff2d9a3604"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1146,
+      "sha256": "890910dcb8d1ef54077e0c0c9817eaaa43035d340350154c798adab8f25084b4"
+    }
+  ]
+}

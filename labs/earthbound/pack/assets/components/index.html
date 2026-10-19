@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EarthBound — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<main class="eb-lab">
+  <header class="eb-head"><div><p class="eyebrow">1994 SNES ORIGINAL DIRECTION / PARTS BOARD</p><h1>Ordinary stuff.<br>Cosmic windows.</h1></div><div class="head-status">NOT A SOURCE SCREEN<br>DEMO DATA / LOCAL PREVIEW</div></header>
+  <figure class="psy-scene"><img src="../../references/images/reference-board.svg" alt="Original psychedelic field with rounded black and white RPG windows"><figcaption class="psy-label">LIFE IS WEIRD / READ THE LABELS</figcaption></figure>
+  <section class="window-board" aria-label="Reusable rounded RPG windows">
+    <article class="eb-window">
+      <header class="window-title"><h2>Goods</h2><small>04 / EXAMPLE</small></header>
+      <div class="goods-list">
+        <button class="goods-row" aria-pressed="true" data-group="good"><svg><use href="../art/ui-atlas.svg#snack"/game-ui-skills/></svg><b>CRACKER</b><small>× 2</small></button>
+        <button class="goods-row" aria-pressed="false" data-group="good"><svg><use href="../art/ui-atlas.svg#ticket"/game-ui-skills/></svg><b>BUS TICKET</b><small>× 1</small></button>
+        <button class="goods-row" aria-pressed="false" data-group="good"><svg><use href="../art/ui-atlas.svg#signal"/game-ui-skills/></svg><b>OLD NOTE</b><small>× 3</small></button>
+        <button class="goods-row" aria-pressed="false" data-group="good"><svg><use href="../art/ui-atlas.svg#note"/game-ui-skills/></svg><b>LOST BUTTON</b><small>× 1</small></button>
+      </div>
+      <p class="eb-live" aria-live="polite">Cracker selected · sample inventory only.</p>
+    </article>
+    <article class="eb-window">
+      <header class="window-title"><h2>Party status</h2><small>4 / DEMO</small></header>
+      <div class="party-list">
+        <div class="party-row"><span class="party-glyph">A</span><div><div class="party-name">ALEX <small>READY</small></div><div class="hp-track"><i style="width:78%"></i></div></div><b>078</b></div>
+        <div class="party-row"><span class="party-glyph">B</span><div><div class="party-name">BEE <small>FOCUSED</small></div><div class="hp-track"><i style="width:62%"></i></div></div><b>062</b></div>
+        <div class="party-row"><span class="party-glyph">C</span><div><div class="party-name">CAL <small>OK</small></div><div class="hp-track"><i style="width:91%"></i></div></div><b>091</b></div>
+        <div class="party-row"><span class="party-glyph">D</span><div><div class="party-name">DEE <small>OK</small></div><div class="hp-track"><i style="width:48%"></i></div></div><b>048</b></div>
+      </div>
+      <div class="hp-roll"><small>HP IS ROLLING / SAMPLE TRAIL</small><div class="roll-digits"><span>031</span><span>028</span><span>025</span><b>022</b></div></div>
+      <p class="eb-live" aria-live="polite">Demo values only · no calculation is running.</p>
+    </article>
+    <article class="eb-window commands-window">
+      <header class="window-title"><h2>Battle commands</h2><small>FIELD / STRANGE</small></header>
+      <div class="commands">
+        <button class="command-row" aria-pressed="true" data-group="cmd">FIGHT <span>PHYSICAL</span></button>
+        <button class="command-row" aria-pressed="false" data-group="cmd">PSI <span>ENERGY</span></button>
+        <button class="command-row" aria-pressed="false" data-group="cmd">GOODS <span>INVENTORY</span></button>
+        <button class="command-row" aria-pressed="false" data-group="cmd">GUARD <span>WAIT</span></button>
+      </div>
+      <div class="target-note"><span>TARGET / UNKNOWN SHAPE</span><b>PREVIEW</b></div>
+      <p class="eb-live" aria-live="polite">Fight selected · target and action remain a preview.</p>
+    </article>
+  </section>
+  <footer class="eb-footer"><span>WINDOWS STAY OPAQUE AND READABLE</span><span>ALL NAMES / VALUES / STATES ARE INVENTED</span></footer>
+</main>
+<script>
+document.querySelectorAll("[data-group]").forEach(button=>button.addEventListener("click",()=>{
+  document.querySelectorAll('[data-group="'+button.dataset.group+'"]').forEach(item=>item.setAttribute("aria-pressed","false"));
+  button.setAttribute("aria-pressed","true");
+  const live=button.closest(".eb-window").querySelector(".eb-live");
+  if(live) live.textContent=(button.innerText||"Selection").replace(/\s+/g," ").trim()+" selected · local preview only.";
+}));
+</script>
+</body>
+</html>

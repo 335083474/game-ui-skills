@@ -1,0 +1,129 @@
+{
+  "name": "final-fantasy-vii-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "style": "Final Fantasy VII Original",
+  "reference_images": [
+    "references/images/screen-direction.png",
+    "references/images/component-board.png"
+  ],
+  "new_art": {
+    "file": "assets/items-atlas.png",
+    "method": "built-in image_gen",
+    "prompt_record": "references/generation.json"
+  },
+  "runtime_art": {
+    "method": "built-in image_gen",
+    "mapping_and_provenance": "references/asset-map.json"
+  },
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 270,
+      "sha256": "05ad27652a7b098c0996995c6a81bd82fc29998e7b55ead16e3ae57d721bcc3a"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 8361,
+      "sha256": "d06c9624636ce36f71d567772dfcb6eb29a94afd5dd6f3dc08de24b9f18b7529"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 6892,
+      "sha256": "b9fa29e92c330631916581db5ea4f72e0c14460bef71872ef80e1514e07c622d"
+    },
+    {
+      "path": "assets/fonts/IBMPlexSans-Variable.ttf",
+      "bytes": 537244,
+      "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "assets/items-atlas.png",
+      "bytes": 2259620,
+      "sha256": "a4f88bff6e45610e03b0eb958f6f4bcc5a831f94087f47ca50c3bdbfc9397fae"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 2727,
+      "sha256": "13d236b1b92fc81fe369df1473def677719a6b46ffb2d9ecb96684ea591fb02a"
+    },
+    {
+      "path": "references/consistency-checks.md",
+      "bytes": 3931,
+      "sha256": "262d9660e30a00d8e9985e2fa9e155a2ae91fde3ee81ea623205972a7c8851a7"
+    },
+    {
+      "path": "references/demo-state.json",
+      "bytes": 3768,
+      "sha256": "708c6d8ba66f38b8d853763c39177d4dce27b8e54218e9c4a5a4713f3f8f2377"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 5088,
+      "sha256": "8dfbde0f2a9b9432c82b8998e6ca2fbde33c21639697c32bd99ddfec11cfe6d9"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 177417,
+      "sha256": "3b7f068dc3d0dcb2653db55e0a456e5d5bbda6332e4928617dc605ab2fb2e6fb"
+    },
+    {
+      "path": "references/images/screen-direction.png",
+      "bytes": 1528234,
+      "sha256": "f082b4a0b8c3eb2ff980b28798f14a1058dd3d7df4adc86c56f4326cc9076c64"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 7073,
+      "sha256": "8eaad4515664fc5e9dc868645680e8c677661a0bbf02935fed7689732fbf1402"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 5697,
+      "sha256": "6ebf02b000acb66d64d689b8fe5579f68f8f3ae0f907bbe3b248e3c5136effcb"
+    },
+    {
+      "path": "references/steam-gallery.json",
+      "bytes": 4435,
+      "sha256": "d6339e1be312967b4919e0ab995eb796cf2c9be120ec55d71feb3ccad55acb53"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1793,
+      "sha256": "caab0ab6ef03fdb458734d5fd6a68f462a0d2253004f6318f5b7105801627e6a"
+    },
+    {
+      "path": "references/validation.json",
+      "bytes": 1892,
+      "sha256": "fccfd682f9ad49de821a791ae2e585c81d999ba0bd16adcec59fa04dcac2e1e6"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 5477,
+      "sha256": "4fc07a96b9a34255fe9d44a3d36a5b71e75e0c51020bb194dfd438eb3d688afa"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3525,
+      "sha256": "3e6741d4090fd3b48d16de95872f25dd8c6fe08b5dd3fdee467de70812d4a9cf"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 2615,
+      "sha256": "39b9a92561a88747a6bd03f2d97ad1e136aef4f5e1ee69bd2a0fabc02e0cdce3"
+    }
+  ],
+  "runtime_network_dependencies": [],
+  "not_included": [
+    "finished screen layouts",
+    "engine scenes",
+    "Figma source",
+    "hosted generation",
+    "payment service"
+  ]
+}

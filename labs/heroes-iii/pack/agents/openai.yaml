@@ -1,0 +1,6 @@
+interface:
+  display_name: "Heroes of Might and Magic III UI"
+  short_description: "ornate classical strategy fantasy game UI with original local art"
+  default_prompt: "Use $heroes-iii-ui to build an editable browser-game interface using its local rules and screen patterns."
+policy:
+  allow_implicit_invocation: true

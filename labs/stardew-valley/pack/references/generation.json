@@ -1,0 +1,10 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: transparent game item sprite atlas. ONE landscape image, 1536x1024, EXACTLY THREE columns and TWO rows of equal 512x512 square cells. Reference images define style only, not edit targets. SIX original items centered in regular cells at x=16.667%,50%,83.333% and y=25%,75%. Every item fully inside its cell with at least 15% transparent gutter on each side; similar visual weight. Real transparent RGBA background. No text, labels, borders, panels, numerical counts, logos, watermarks, checkerboard or decorative objects in the gaps. This is a reusable 3x2 CSS sprite sheet; clean cell placement is essential. Style strongly inspired by attached Stardew Valley-style approved studies: crisp friendly chunky pixel art, dark brown stepped outlines, warm 16-bit farm inventory objects, few well-defined highlight bands, nearest-neighbor look. NO painterly strokes, smooth gradients or 3D. Exact cell order: row1 left small brown coin purse with bright gold coins; row1 middle round red healing potion with cork; row1 right faceted green luck crystal; row2 left ripe red strawberry with leafy green top; row2 middle silver-blue farm watering can with wooden handle; row2 right small tan seed packet with a tiny green sprout illustration (no writing). Every object occupies similar scale and the same coarse pixel grid. No background scene, shadows far outside objects or stray sparkles.",
+  "references": [
+    "D:\\SEA\\game-ui-skills\\public\\previews\\stardew-valley.png",
+    "D:\\SEA\\game-ui-skills\\public\\style-studies\\v2\\stardew-valley.png"
+  ],
+  "defaultSource": "[local reference omitted]",
+  "workspaceOutput": "skill-packages/stardew-valley-ui/assets/items-atlas.png"
+}

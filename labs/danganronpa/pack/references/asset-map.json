@@ -1,0 +1,8 @@
+{
+  "assets":[
+    {"path":"assets/student-portrait.png","role":"Original reusable fictional student cutout and visual reference","provenance":"Built-in image_gen; exact prompt in generation.json","use":"Keep as a small rectangular identity fragment; never present as official art."},
+    {"path":"assets/components/index.html","role":"Editable evidence token, statement strip, and tribunal-index primitive specimens","provenance":"Authored package code","use":"Open locally; controls toggle focus / state only."},
+    {"path":"assets/components/theme.css","role":"Original hard-edge, slanted strip, shell, pink / yellow signal, and radial-index primitives","provenance":"Authored package code","use":"Compose full screens separately and keep evidence / statement selection distinct."}
+  ],
+  "notBundled":["official portraits or mascot", "game dialogue", "screenshots", "font binaries", "finished target-screen layouts"]
+}

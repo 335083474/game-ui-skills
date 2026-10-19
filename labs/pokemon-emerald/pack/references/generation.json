@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-10-16",
+  "mode": "built-in image_gen",
+  "direction": {
+    "status": "generated-and-inspected",
+    "file": "images/screen-direction.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "transparent_background": false,
+    "prompt": "Use case: ui-mockup\nAsset type: single visual-direction reference sheet, landscape exactly 1536x1024 pixels.\nPrimary request: a faithful 2004 Game Boy Advance Pokemon Emerald visual UI study, with small separate component motifs arranged on one sheet: cream text boxes with navy double pixel frames, restrained teal/green party selection tiles with tiny creature icons and level/HP bars, compact bag pocket tabs with a little backpack icon and item list, and the bottom four-choice FIGHT/BAG/POKEMON/RUN combat command panel. The visual language must be actual early GBA monster RPG, not modern Pokemon menus and not a cozy farming game.\nStyle/medium: crisp limited-palette raster pixel art with visible hard square 1–2 source-pixel edges, source grammar 240x160 with integer enlargement. Small dark compact glyphs. Navy outlines, pale cream interiors, muted emerald teal.\nComposition: one cohesive component direction board on pale green field, with generous separation between primitive specimens, no browser chrome, no glossy cards. A few original green gecko, orange fire bird and blue amphibian motifs. Do not use official logos or claim a real screenshot.\nText: short clear labels HP, Lv12, PARTY, ITEMS, FIGHT, BAG, RUN, 24/36.\nConstraints: flat pixel fills, double dark frames, no rounded modern controls, no gradients, no fake scanlines, no watermarks, no decorative wood, no soft antialiasing. This is a generated interpretation for a reference Skill, not an official game screenshot.",
+    "defaultGeneratedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a141d9-81c7-77b1-9576-1ed907d7330b\\exec-832be5fe-4f59-4e3b-afb8-6b126473b572.png",
+    "inspection": "Useful double frames, compact glyphs and command motifs. Soft shading and symmetrical party grid are interpretation errors; written rules override. No official screenshot."
+  },
+  "atlas": {
+    "status": "not-generated-output-moderation-blocked",
+    "requestedFile": "../assets/items-atlas.png",
+    "requestedDimensions": [
+      1536,
+      1024
+    ],
+    "transparent_background": true,
+    "attempts": [
+      {
+        "prompt": "Use case: stylized-concept\nAsset type: reusable transparent pixel sprite atlas, exactly 1536x1024 pixels.\nPrimary request: a THREE-column TWO-row atlas with exactly SIX separate sprites, each in its equal 512x512 cell. Each sprite centered in its own cell, maximum 340x340 bounding box, at least 15 percent blank gutter on all four cell edges. Row 1 cell 1: original little green leaf gecko monster front view, long curled tail and leaf crest, cheerful. Row 1 cell 2: original little orange fire bird monster front view, tiny wings, yellow beak, red crest, two feet. Row 1 cell 3: original little blue amphibian monster front view, broad head with fin crest, small orange cheek fins, four squat limbs. Row 2 cell 1: purple potion bottle item with white spray top. Row 2 cell 2: red and white capture sphere with dark middle band and small central button. Row 2 cell 3: single red berry with two green leaves.\nStyle: Game Boy Advance 16-bit monster RPG sprite art, original creatures, very limited color palette, clean square pixel clusters, hard stepped navy outlines, flat 2 or 3 tone shading, no smooth curves or antialiased illustration. Every sprite stands alone, no letters or text.\nBackground: genuinely transparent RGBA everywhere outside sprites, also transparent gutters. No floor, no shadows under sprites, no background shape, no cell borders, no grid, no checkerboard. No extra objects, no watermark. Six sprites exactly, one per cell.",
+        "error": "http400 moderation_blocked at output stage; category other",
+        "requestId": "8f3d18a3-ffce-4cef-b5cc-b0f930b0c315"
+      },
+      {
+        "prompt": "Create a transparent PNG sprite atlas exactly 1536 by 1024 pixels. Six original fantasy adventure sprites in a 3 column, 2 row grid of equal 512 pixel cells. No visible grid. Center each single sprite inside its cell with generous 80 pixel clear transparent margins. First row, left to right: a friendly small green leaf gecko facing forward with a curled tail; a friendly small orange bird facing forward with a yellow beak and red feather crest; a friendly small blue amphibian facing forward with orange cheek fins and squat limbs. Second row, left to right: a purple potion bottle with a white spray top; a red and white capture sphere with a navy center band; one red berry with two green leaves. Early handheld adventure game 16-bit pixel art, limited colors, crisp square pixels, hard dark stepped outlines, flat two-tone shading, no antialiasing. Three creatures must be clearly distinct. Exactly six sprites, one per cell. Absolutely no text, letters, numbers, cell borders, watermark, background, floor, ground shadows, or checkerboard. RGBA transparent outside each sprite and throughout all gutters.",
+        "error": "http400 moderation_blocked at output stage; category other",
+        "requestId": "df8f6480-d74e-4fe1-903f-c7b35c35d637"
+      },
+      {
+        "prompt": "Create ONE landscape 1536 by 1024 PNG game sprite sheet. It has exactly three columns and two rows, six equally spaced 512 by 512 cells. Transparent background, no panels, no lettering, no words, no numbers. Each object centered within its cell, leave a wide 20 percent empty transparent gutter on all sides. All six are ORIGINAL friendly pixel-art assets, limited 16-color palette, hard square pixel edges, simple flat highlights, readable silhouette, old handheld adventure aesthetic. Row 1: a small cheerful green leaf-tailed gecko facing forward; a small cheerful orange songbird facing forward; a small cheerful blue pond frog facing forward. Row 2: a little lavender glass healing vial; a red and cream round toy capsule; a small yellow berry with two leaves. Keep all six visually distinct, similar size, fully separated. This is original asset art for a local game UI design prototype. No characters or designs from any existing franchise, no logos, no additional decorations, no checkerboard.",
+        "error": "Root reported http400 moderation_blocked at output stage; category other",
+        "requestId": "b6c22dbc-2af6-4bf9-8457-2ff51798336d"
+      }
+    ],
+    "defaultGeneratedPath": null,
+    "notes": "No image output or placeholder atlas exists. Root authorized fallback to unmodified CC0 creator sprites instead of further retries or CLI."
+  },
+  "fallback": {
+    "status": "downloaded-originals",
+    "artGenerated": false,
+    "editing": "None. Original PNG bytes retained; cropping only in CSS.",
+    "sources": [
+      {
+        "creator": "Clint Bellanger",
+        "name": "Tiny Creatures 1.0",
+        "page": "https://opengameart.org/node/160872",
+        "archive": "https://opengameart.org/sites/default/files/tiny-creatures.zip",
+        "archiveEntry": "tiny-creatures/Tilemap/tilemap_packed.png",
+        "file": "../assets/sprites/tiny-creatures.png",
+        "dimensions": [
+          160,
+          288
+        ],
+        "cell": [
+          16,
+          16
+        ],
+        "license": "CC0 1.0",
+        "licenseFile": "../assets/licenses/tiny-creatures-License.txt",
+        "sha256": "1fd68a8434e3269bb10a76e50491dc61ac45b1da4ad543c7588970f2c582ca81",
+        "pngMode": "P",
+        "alphaInspection": "Original indexed PNG palette transparency; in-memory decoded alpha range 0..255; original file unchanged",
+        "licenseSha256": "2e1bcf98eb76cc5c38eeaec6f15a20f3980a075314813985453702f17f650982"
+      },
+      {
+        "creator": "Kenney",
+        "name": "Tiny Dungeon 1.0",
+        "page": "https://opengameart.org/content/tiny-dungeon",
+        "archive": "https://opengameart.org/sites/default/files/kenney_tinydungeon.zip",
+        "archiveEntry": "Tilemap/tilemap_packed.png",
+        "file": "../assets/sprites/tiny-dungeon.png",
+        "dimensions": [
+          192,
+          176
+        ],
+        "cell": [
+          16,
+          16
+        ],
+        "license": "CC0 1.0",
+        "licenseFile": "../assets/licenses/tiny-dungeon-License.txt",
+        "sha256": "d24e60a41e4ac7a745c0304dfde121143688557f40215f23221c29cfe683825f",
+        "pngMode": "P",
+        "alphaInspection": "Original indexed PNG palette transparency; in-memory decoded alpha range 0..255; original file unchanged",
+        "licenseSha256": "9f574a2f1f636a3db8a0665ba90212f34e2b5e61ecb533d77c05237766374111"
+      }
+    ],
+    "limitation": "Fallback art uses a green dragon, orange fire spirit, blue water spirit and medicine icons. It is not the originally requested generated gecko/bird/amphibian plus potion/sphere/berry atlas. Do not claim otherwise.",
+    "inspection": "Root rendered the primitive board in a browser and inspected all six enlarged crops: three distinct creatures and three bottle items (grey/green/red). All current crops accepted. component-board.png is the actual browser capture."
+  }
+}

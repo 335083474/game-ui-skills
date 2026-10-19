@@ -1,0 +1,15 @@
+{
+  "slug": "darkest-dungeon",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"expedition-roster","title":"Expedition Roster","description":"Select a companion and deploy them to the open front rank; stress remains a dedicated vermilion signal."},
+    {"id":"provision-shop","title":"Provision Counter","description":"Choose one field supply and confirm to update the purse and pack count on a shared ledger."},
+    {"id":"expedition-reward","title":"Expedition Spoils","description":"Mark one recovered heirloom and secure it for the journey through a separate action rail."}
+  ],
+  "smokeTests": [
+    {"screenId":"expedition-roster","steps":[{"action":"click","role":"button","name":"Select Sister Althea"},{"action":"click","role":"button","name":"Deploy selected companion"}],"expectedText":["Sister Althea assigned to the first rank."]},
+    {"screenId":"provision-shop","steps":[{"action":"click","role":"button","name":"Select Bandage"},{"action":"click","role":"button","name":"Confirm purchase"}],"expectedText":["Bandage added to provisions · 215 gold remaining."]},
+    {"screenId":"expedition-reward","steps":[{"action":"click","role":"button","name":"Select Ancient Portrait"},{"action":"click","role":"button","name":"Take selected heirloom"}],"expectedText":["Ancient Portrait secured for the journey."]}
+  ]
+}

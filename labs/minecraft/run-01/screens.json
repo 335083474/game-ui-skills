@@ -1,0 +1,15 @@
+{
+  "slug": "minecraft",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id": "inventory", "title": "Inventory", "description": "A 9-column item matrix with a compact selected-item rail, stack counts, and a separate 9-slot hotbar."},
+    {"id": "crafting", "title": "Crafting", "description": "A 3×3 recipe grid with one consumed input, a single output, and explicit ready or missing-ingredient states."},
+    {"id": "building-palette", "title": "Building Palette", "description": "A compact material-family palette with swatches, active selection, a world preview, and explicit commit state."}
+  ],
+  "smokeTests": [
+    {"screenId": "inventory", "steps": [{"action": "click", "role": "button", "name": "Select Oak Planks"}, {"action": "click", "role": "button", "name": "Assign selected item to hotbar slot 1"}], "expectedText": ["Oak Planks assigned to hotbar slot 1.", "Hotbar · 9 slots"]},
+    {"screenId": "crafting", "steps": [{"action": "click", "role": "button", "name": "Craft 4 Oak Buttons"}], "expectedText": ["Crafted 4 Oak Buttons · consumed 1 Oak Plank.", "11"]},
+    {"screenId": "building-palette", "steps": [{"action": "click", "role": "button", "name": "Choose Stone Block"}, {"action": "click", "role": "button", "name": "Commit selected block"}], "expectedText": ["Stone Block active · selection committed.", "Active block: Stone Block"]}
+  ]
+}

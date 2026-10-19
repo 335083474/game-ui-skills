@@ -1,0 +1,15 @@
+{
+  "slug": "hollow-knight",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "charms", "title": "Charm rack", "description": "Choose and commit a charm while seeing how its notch cost changes the worn ring." },
+    { "id": "inventory", "title": "Satchel", "description": "Inspect stack counts and pin a carried object into the one-slot quick pouch." },
+    { "id": "kingdom-map", "title": "Kingdom map", "description": "Preview an open linked room and commit the route; sealed rooms remain unavailable." }
+  ],
+  "smokeTests": [
+    { "screenId": "charms", "steps": [{ "action": "click", "role": "button", "name": "Choose Deepwater shell" }, { "action": "click", "role": "button", "name": "Set charm" }], "expectedText": ["Deepwater shell is worn; notch use is 5 / 8."] },
+    { "screenId": "inventory", "steps": [{ "action": "click", "role": "button", "name": "Choose Pale seed" }, { "action": "click", "role": "button", "name": "Pin to quick pouch" }], "expectedText": ["Pale seed is pinned to the quick pouch."] },
+    { "screenId": "kingdom-map", "steps": [{ "action": "click", "role": "button", "name": "Choose Blue reservoir" }, { "action": "click", "role": "button", "name": "Set route" }], "expectedText": ["Route set: Blue reservoir is the next crossing."] }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "hylics-2-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/demo.js",
+      "bytes": 910,
+      "sha256": "2f9e1767ecd239a05c074c0ecb2d3bbd30e4bcddff037d160246032866b5bd25"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 4930,
+      "sha256": "16a34715a5909c318db476549c741b17e8a9923d863e760c0851b0305b06fc82"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 8861,
+      "sha256": "ee26a6d476143808f04b43213e1614f94815561391e2d9db32ba4413d9ee3fc5"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1531,
+      "sha256": "da3eb8d9e03ec0edcff0476f31d36be78ee8aaa3af9700e5d18ef5e9cc931983"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 731,
+      "sha256": "2a12c660976eaaeba6017d5eb8cea1d403623b5895c130de7cf165237f6a324c"
+    },
+    {
+      "path": "references/demo-state.json",
+      "bytes": 1214,
+      "sha256": "b695136f5b7d8cd290f60900f7169f3edfa2e34814d6c6e0a21f5370ee365e5d"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 1390,
+      "sha256": "38d83a12750675b720313fc3c86acce60e83cedb4a4e6e983ec184a39e8a24cd"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 144057,
+      "sha256": "9cb7aaff97d53dac2e04600d873d0ba16e7aad9b43fcc078a27150869c764460"
+    },
+    {
+      "path": "references/images/reference-plate.png",
+      "bytes": 2711512,
+      "sha256": "4560c82234bee2a450b98d29c958b6fcea1525a0e195a464bb43044530055171"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1194,
+      "sha256": "e66e507390f70143f8ca114967e6b76f510e6c6067d25769f8e99c45e6b55f5e"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1231,
+      "sha256": "5e4fea2a7a424a239f7bf94e24d82bac6f2b619d1a87cbeeebf535d4f47cdc75"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1000,
+      "sha256": "bceea59d6439b9b4436192497a712239694a2beb20e48268c60806eb7f8be88c"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1630,
+      "sha256": "d0540de72f49478b4524e65861c9437d7af2019fae149e44092094bfe48260e2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1927,
+      "sha256": "e7b6f1e333c3f0783427cd68b818325906b6204132709d2fb302dc151d9c382a"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 781,
+      "sha256": "b6d3d1cd8d5d4c7e565f049d458af1774af84513d625b3733b253f874f4e58c9"
+    }
+  ]
+}

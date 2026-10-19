@@ -1,0 +1,39 @@
+{
+  "slug": "ori-wisps",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "abilities", "title": "A constellation of small lights", "description": "A large forest plate sets the scene beside an ability constellation. Choosing a node reveals its point cost and prerequisite; unlocking asks for confirmation." },
+    { "id": "shards", "title": "A quiet balance of found things", "description": "A prominent forest illustration anchors a two-slot loadout. The player selects a slot, previews benefit and tradeoff, then explicitly confirms or cancels." },
+    { "id": "forest-map", "title": "Read the forest by its paths", "description": "A full-height forest plate sits beside labeled waypoints with distinct filled-circle, diamond, and dashed-ring states. Focus and route planning leave the current location unchanged." }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "abilities",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Choose Air Bloom" },
+        { "action": "click", "role": "button", "name": "Unlock and equip Air Bloom" },
+        { "action": "click", "role": "button", "name": "Confirm spend 2 light points on Air Bloom" }
+      ],
+      "expectedText": ["Air Bloom is now equipped. 2 light points remain."]
+    },
+    {
+      "screenId": "shards",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select slot 1" },
+        { "action": "click", "role": "button", "name": "Choose Moonlit Lens" },
+        { "action": "click", "role": "button", "name": "Replace slot 1 with Moonlit Lens" },
+        { "action": "click", "role": "button", "name": "Confirm replace slot 1" }
+      ],
+      "expectedText": ["Slot 1 now carries Moonlit Lens. Benefit: Reveals route hints."]
+    },
+    {
+      "screenId": "forest-map",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Focus Root Arch, discovered" },
+        { "action": "click", "role": "button", "name": "Plot path to Root Arch" }
+      ],
+      "expectedText": ["Route planned: Willow Bank → Root Arch. Current location is still Willow Bank."]
+    }
+  ]
+}

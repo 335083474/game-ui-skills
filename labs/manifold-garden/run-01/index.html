@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172624">
+  <title>Manifold Garden UI Study — Repeating World</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <a class="brand" href="#pause" aria-label="Repeating World, pause">
+        <span class="brand-mark" aria-hidden="true"><i></i><b></b></span>
+        <span><strong>Repeating World</strong><small>Field state · no compass</small></span>
+      </a>
+      <nav class="route-nav" aria-label="Scene studies">
+        <a href="#pause">Pause</a>
+        <a href="#chapter-gates">Gate</a>
+        <a href="#spatial-hint">Hint</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="pause" class="screen screen-pause" data-screen aria-labelledby="pause-title">
+        <header class="screen-intro">
+          <p class="eyebrow">Resting state · movement held</p>
+          <h1 id="pause-title" tabindex="-1">A quiet place between steps.</h1>
+        </header>
+        <div class="world-view pause-world">
+          <svg class="architecture" viewBox="0 0 1200 620" role="img" aria-label="Repeating square arches, a suspended path, and a small plant on a pale plane">
+            <rect width="1200" height="620" fill="#dfe5da"/game-ui-skills/>
+            <path d="M0 0h1200v265H0z" fill="#e9ece2"/game-ui-skills/>
+            <path d="M0 392 196 276h808l196 116v228H0z" fill="#b4c7b5"/game-ui-skills/>
+            <path d="M0 392h1200M194 276l-56-74h916l-56 74M194 276h808" fill="none" stroke="#6e8d81" stroke-width="5"/game-ui-skills/>
+            <g fill="none" stroke="#486c63" stroke-width="12">
+              <path d="M65 391V117q0-29 29-29h126q29 0 29 29v274"/game-ui-skills/>
+              <path d="M113 391V148q0-27 27-27h80q27 0 27 27v243"/game-ui-skills/>
+              <path d="M838 276V56q0-27 27-27h136q27 0 27 27v220"/game-ui-skills/>
+              <path d="M888 276V91q0-23 23-23h75q23 0 23 23v185"/game-ui-skills/>
+              <path d="M1030 391V150q0-22 22-22h74q22 0 22 22v241"/game-ui-skills/>
+            </g>
+            <path d="m0 392 196-116 212 116v228H0zm1200 0-196-116-212 116v228h408z" fill="#a5bcae" opacity=".6"/game-ui-skills/>
+            <path d="m390 620 210-224 210 224" fill="none" stroke="#76998c" stroke-width="5"/game-ui-skills/>
+            <path d="M585 396 600 325l15 71m-15-24-30-21m30 8 27-30m-27 56 32-13" fill="none" stroke="#568168" stroke-width="5"/game-ui-skills/>
+            <path d="M533 397h134" stroke="#4f6d61" stroke-width="5"/game-ui-skills/>
+            <path d="M92 432h150m720 0h150" stroke="#e5c454" stroke-width="5"/game-ui-skills/>
+          </svg>
+          <div class="pause-status edge-status" data-result id="pause-result" aria-live="polite">Paused · camera input locked.</div>
+          <aside class="pause-edge" data-show-when="paused" aria-label="Paused menu">
+            <p class="menu-kicker">PAUSED</p>
+            <button type="button" data-commit="resume">Resume</button>
+            <button type="button" data-commit="restart">Restart room</button>
+            <button type="button" data-commit="options">Options</button>
+          </aside>
+          <div class="playing-edge" data-show-when="moving" hidden>
+            <span>SCENE ACTIVE</span><button type="button" data-commit="pause">Pause movement</button>
+          </div>
+          <div class="scene-coordinate">LOWER ARCH / STILL WATER</div>
+        </div>
+      </section>
+
+      <section id="chapter-gates" class="screen screen-gates" data-screen aria-labelledby="gates-title" hidden>
+        <header class="screen-intro">
+          <p class="eyebrow">Orientation marker · temporary</p>
+          <h1 id="gates-title" tabindex="-1">The architecture repeats ahead.</h1>
+        </header>
+        <div class="world-view gate-world">
+          <svg class="architecture" viewBox="0 0 1200 620" role="img" aria-label="A long impossible corridor of connected square portals leading toward a small gate">
+            <rect width="1200" height="620" fill="#dbe3d8"/game-ui-skills/>
+            <path d="M0 0h1200v310H0z" fill="#e7ebe2"/game-ui-skills/>
+            <path d="M0 425 180 310h840l180 115v195H0z" fill="#b1c7b5"/game-ui-skills/>
+            <path d="M180 310h840M0 425h1200" fill="none" stroke="#66877b" stroke-width="5"/game-ui-skills/>
+            <g fill="none" stroke-width="10">
+              <path d="M70 425V170q0-25 25-25h105q25 0 25 25v255" stroke="#4b6c63"/game-ui-skills/>
+              <path d="M260 376V161q0-22 22-22h90q22 0 22 22v215" stroke="#5c7d70"/game-ui-skills/>
+              <path d="M432 338V150q0-20 20-20h76q20 0 20 20v188" stroke="#739488"/game-ui-skills/>
+              <path d="M585 310V144q0-18 18-18h58q18 0 18 18v166" stroke="#54766c"/game-ui-skills/>
+              <path d="M716 338V150q0-20 20-20h76q20 0 20 20v188" stroke="#76968a"/game-ui-skills/>
+              <path d="M874 376V161q0-22 22-22h90q22 0 22 22v215" stroke="#52756b"/game-ui-skills/>
+              <path d="M1000 425V170q0-25 25-25h105q25 0 25 25v255" stroke="#45685f"/game-ui-skills/>
+            </g>
+            <path d="M195 425 600 311l405 114M380 620l220-309 220 309M0 425l600-114 600 114" fill="none" stroke="#8aa89a" stroke-width="4"/game-ui-skills/>
+            <path d="M565 310v-47q0-35 35-35t35 35v47" fill="none" stroke="#e3c256" stroke-width="5"/game-ui-skills/>
+            <path d="M600 225v-37m-14 14 14-14 14 14" fill="none" stroke="#66896e" stroke-width="4"/game-ui-skills/>
+          </svg>
+          <div class="gate-marker" aria-live="polite"><span>GARDEN GATE</span><strong data-bind="gate-chapter">IV · ROOTED</strong></div>
+          <aside class="gate-edge">
+            <p class="menu-kicker">CROSSING READY</p>
+            <p data-result id="gate-result" aria-live="polite">At the Rooted Gate · movement held for the crossing.</p>
+            <button type="button" data-commit="enter">Enter Rooted Gate</button>
+          </aside>
+          <div class="scene-coordinate">PORTAL SEQUENCE / INWARD</div>
+        </div>
+      </section>
+
+      <section id="spatial-hint" class="screen screen-hint" data-screen aria-labelledby="hint-title" hidden>
+        <header class="screen-intro">
+          <p class="eyebrow">Traversal state · one edge prompt</p>
+          <h1 id="hint-title" tabindex="-1">The next face is out of reach.</h1>
+        </header>
+        <div class="world-view hint-world">
+          <svg class="architecture" viewBox="0 0 1200 620" role="img" aria-label="A pale geometric shaft with offset platforms and a square opening above">
+            <rect width="1200" height="620" fill="#dfe5da"/game-ui-skills/>
+            <path d="M0 0h1200v620H0z" fill="#e8ebe2"/game-ui-skills/>
+            <path d="M0 470 205 334h790l205 136v150H0z" fill="#b5c9b7"/game-ui-skills/>
+            <path d="M0 470h1200M205 334h790" fill="none" stroke="#62867a" stroke-width="5"/game-ui-skills/>
+            <g fill="none" stroke="#4d7066" stroke-width="11">
+              <path d="M115 470V180q0-24 24-24h114q24 0 24 24v154"/game-ui-skills/>
+              <path d="M865 334V114q0-24 24-24h119q24 0 24 24v356"/game-ui-skills/>
+              <path d="M928 334V151q0-20 20-20h77q20 0 20 20v319"/game-ui-skills/>
+              <path d="M400 470V249q0-20 20-20h100q20 0 20 20v85" stroke="#75968a"/game-ui-skills/>
+            </g>
+            <path d="m205 334 190-85 220 86-197 110z" fill="#d0ddd0" stroke="#6c9082" stroke-width="4"/game-ui-skills/>
+            <path d="m605 422 199-88 191 100-198 91z" fill="#a0bba9" stroke="#5b8175" stroke-width="4"/game-ui-skills/>
+            <path d="M486 334 600 204l111 130" fill="none" stroke="#729488" stroke-width="5"/game-ui-skills/>
+            <path d="M577 212h46v44h-46z" fill="none" stroke="#e1bf4e" stroke-width="5"/game-ui-skills/>
+            <path d="M310 499h170m422-5h170" stroke="#e1bf4e" stroke-width="5"/game-ui-skills/>
+            <path d="M600 438v-36m-15 15 15-15 15 15" fill="none" stroke="#557b68" stroke-width="4"/game-ui-skills/>
+          </svg>
+          <div class="blocked-status edge-status" data-result id="spatial-result" aria-live="polite">Movement blocked · landing face misaligned.</div>
+          <aside class="hint-edge" aria-label="Movement hint">
+            <span class="hint-cube" aria-hidden="true"><i></i><b></b><em></em></span>
+            <div><strong>SHIFT GRAVITY</strong><small data-bind="hint-copy">Turn toward the open face.</small></div>
+            <button type="button" data-commit="rotate">Rotate gravity clockwise</button>
+            <button type="button" data-commit="resume" disabled>Resume movement</button>
+          </aside>
+          <div class="scene-coordinate">UPPER FACE / LANDING HELD</div>
+        </div>
+      </section>
+    </main>
+    <footer class="prototype-note">Interface study · original architecture and sample state · movement is a local UI demonstration.</footer>
+  </div>
+</body>
+</html>

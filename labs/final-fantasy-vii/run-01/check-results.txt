@@ -1,0 +1,12 @@
+PASS Package initial values and derived gear stats
+PASS Potion changes HP/count exactly once, clamps, blocks full and empty
+PASS Equipment preview remains pure; commit/free counts/no-op correct
+PASS Wrong slot, compatibility and no free ownership are guarded
+PASS Initial Fire spends only on resolve, resets Time, blocks repeated activation
+PASS Attack reads committed equipment, enemy clamps and dead target blocks
+PASS Manual ATB selects Lyra, Flare blocked at 67, Cure capped and cost once
+PASS Battle Potion uses shared count once and actor readiness guard
+PASS Victory stops commands and a new demo restores all state
+PASS Member IDs retain resources/equipment when party order changes
+PASS All referenced local HTML/CSS/script/font/atlas resources exist
+11 checks passed. Model and static resources only; browser/render/keyboard QA not performed.

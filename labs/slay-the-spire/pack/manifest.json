@@ -1,0 +1,141 @@
+{
+  "name": "slay-the-spire-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "style": "Slay the Spire",
+  "reference_images": [
+    "references/images/reward-direction.png",
+    "references/images/component-direction.png",
+    "references/images/component-board.png"
+  ],
+  "new_art": {
+    "file": "assets/items-atlas.png",
+    "method": "built-in image_gen",
+    "prompt_record": "references/generation.json"
+  },
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 274,
+      "sha256": "8d30978a33c36dedb0c0a41c673168795ded4017a0155a20e30777d44da7bbe6"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 8043,
+      "sha256": "73b0d1b6ed2c9174851d530bb1ccdc3f1245c73b7db365a3d25d710bc9ef1f04"
+    },
+    {
+      "path": "assets/components/paper.svg",
+      "bytes": 624,
+      "sha256": "4d7b4cdd6aff7c588c8bd89f8ce7b4c795844f12e06870c584687ac5797a95e4"
+    },
+    {
+      "path": "assets/components/stone.svg",
+      "bytes": 1385,
+      "sha256": "538e5664207669ae9f531bd6c0aa50958d4a265fb09d9f9b2b640e418ed8f127"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 11797,
+      "sha256": "3c85f9aa3ddf414f4899e2958ce3ab18f2e01b0ef06501c9cf62f4f1c3c882b6"
+    },
+    {
+      "path": "assets/fonts/alegreya-sc/AlegreyaSC-Bold.ttf",
+      "bytes": 378796,
+      "sha256": "3ef96cbf3be7b84d9dff9b1aa1e2ac40eec0cf323ccd0638395cdef9c5a91528"
+    },
+    {
+      "path": "assets/fonts/alegreya-sc/AlegreyaSC-Regular.ttf",
+      "bytes": 367628,
+      "sha256": "5c8fba800b848b851e308dfdfdc573b64135e498db41cbd0b6d78ba9d267d9a1"
+    },
+    {
+      "path": "assets/fonts/alegreya-sc/OFL.txt",
+      "bytes": 4395,
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+    },
+    {
+      "path": "assets/fonts/crimson-text/CrimsonText-Bold.ttf",
+      "bytes": 112796,
+      "sha256": "a3a0765fc5e8d0b49b540a23aefe0184887dd79f06a0bdf4db7035cea6befa93"
+    },
+    {
+      "path": "assets/fonts/crimson-text/CrimsonText-Regular.ttf",
+      "bytes": 107200,
+      "sha256": "48e6c5d5ad1d01599d374ecb817e15890d1feb3b8a3a88e527d44c90389e1f06"
+    },
+    {
+      "path": "assets/fonts/crimson-text/OFL.txt",
+      "bytes": 4393,
+      "sha256": "50fd67cddc097377a5c871e8452b778bc5aedfa3480a705cb27c5e3a078218df"
+    },
+    {
+      "path": "assets/items-atlas.png",
+      "bytes": 2086296,
+      "sha256": "8668723e3ef6a45a74631fa7faef92bd75b638385b0778c44945907ea22ea584"
+    },
+    {
+      "path": "assets/tokens.json",
+      "bytes": 1216,
+      "sha256": "2565c3487c92c399dfa0274b3367634cf4634a6e6874088fcae9fb5f75e64215"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 3454,
+      "sha256": "f44e55e419a816d807ed4940562f0784a6f7c49ee97e9264fd03b3b96a5501cf"
+    },
+    {
+      "path": "references/consistency-checks.md",
+      "bytes": 2274,
+      "sha256": "6db47b4e8c02fe143691870b2b9db9fc193cdb4e49ce13610fa41f38488e7a44"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 1846,
+      "sha256": "f34539e4e84afbc0ceaf87c8a842e0a85deeafd2b015c5f317fdbf8289c9deda"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 227717,
+      "sha256": "b09364f926d3f37c72a2abcaca1d68aea994c390e5164a0e5527f2c528deb4c5"
+    },
+    {
+      "path": "references/images/component-direction.png",
+      "bytes": 2185485,
+      "sha256": "7851b2ee38ff7ccd26a0e2cdf13b7b45525e042aa79c4d2b804caf30353764cd"
+    },
+    {
+      "path": "references/images/reward-direction.png",
+      "bytes": 1809741,
+      "sha256": "1b66e3e91c5d95f4a33985277f4c4233832d051994cc76275ef2138c712cbbca"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2980,
+      "sha256": "bf7fa8b26443280c14698ea0c5cb0d261a8a0e8bb4efc196134ccb75fc755686"
+    },
+    {
+      "path": "references/style-rules.md",
+      "bytes": 3650,
+      "sha256": "0d5207ffa8abe31e37e889da56234e419049dabc1f907cd4638c6448a5dabd4b"
+    },
+    {
+      "path": "references/usage.md",
+      "bytes": 2831,
+      "sha256": "b91ddd66082ee96818e4cce7e1afb23b736a87ed086884fc838096cab7d9acb1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4133,
+      "sha256": "195c768b43a62a6e1a9085d74e5dc1f2f4233d7c699704e53fd0562c3363ac29"
+    }
+  ],
+  "runtime_network_dependencies": [],
+  "not_included": [
+    "finished screen layouts",
+    "engine scenes",
+    "Figma source",
+    "hosted generation",
+    "payment service"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "curse-monkey-island",
+  "packageName": "curse-monkey-island-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "inventory-tray",
+      "title": "Inventory tray",
+      "description": "A small set of tactile item tokens stays distinct from the scene and supports inspect, select, combine, and cancel."
+    },
+    {
+      "id": "item-interaction",
+      "title": "Item interaction",
+      "description": "A selected item and target form a clear contextual action with feedback about a plausible or rejected use."
+    },
+    {
+      "id": "dialogue-scene",
+      "title": "Dialogue scene",
+      "description": "A character-forward line, expression cue, and a small response set sit over a mostly open painted scene."
+    }
+  ],
+  "referenceImage": "assets/illustrations/curse-monkey-island-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original generated art is a style cue, not official or canonical source-game UI.",
+    "Title-specific keyword demand remains unknown; rank/category data is not search-volume evidence."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

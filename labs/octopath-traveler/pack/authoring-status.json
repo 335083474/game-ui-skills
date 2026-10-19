@@ -1,0 +1,41 @@
+{
+  "slug": "octopath-traveler",
+  "packageName": "octopath-traveler-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "party",
+      "title": "Party rail",
+      "description": "A compact roster marks the selected member and keeps lead changes behind an explicit action."
+    },
+    {
+      "id": "character-equipment",
+      "title": "Equipment comparison",
+      "description": "One actor and gear slot are compared at a time, with separate Apply and Cancel controls."
+    },
+    {
+      "id": "battle-orders",
+      "title": "Integrated battle stage",
+      "description": "Turn order and command choices sit inside one layered stage while the actors remain visible."
+    }
+  ],
+  "referenceImage": "assets/reference-atmosphere.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original generated party and plaza are an HD-2D mood study, not official OCTOPATH TRAVELER art or exact characters.",
+    "Party names, equipment, turn order, and values are synthetic interface fixtures.",
+    "The Web specimen does not run combat, persist state, or export a game-engine scene."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

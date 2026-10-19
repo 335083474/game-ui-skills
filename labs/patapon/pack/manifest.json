@@ -1,0 +1,85 @@
+{
+  "name": "patapon-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 216,
+      "sha256": "10bfac15d74381bf9ced26c8cb24624d27cd58da36ced14604590e62341f90d6"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 2530,
+      "sha256": "bf7065b3b42b10cef2e62caa52e078030c43fb7fb5cc0ae9e46e585ca25d835a"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 2970,
+      "sha256": "dcff2a59fa249ceb451d779304a0480e8b615460bf47f741dda675c51dd457d0"
+    },
+    {
+      "path": "assets/illustrations/patapon-art.png",
+      "bytes": 1406291,
+      "sha256": "5335e30bcbf7d6ec81c5e4d027a48ebba585a3137ba2a1b0d5e3915ecf6eadfb"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1485,
+      "sha256": "f100613f3f9aed02db7b5d9cfbacebcdbb0e3a2217090ced3e49774044177c43"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 674,
+      "sha256": "8699c0fbfa9d1de739037c244a7a935c0db616fa5410fbbded3a1be3afa8102d"
+    },
+    {
+      "path": "references/demo-state.json",
+      "bytes": 532,
+      "sha256": "18510c187993b39a3f6d23ab0da87a7755e464390b2c1e664e63bf082b7abcc1"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 693,
+      "sha256": "952454e1c1a9dc12a573e11e61fdfaf3d6b42084a9b0556069055c680778a9d5"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 82998,
+      "sha256": "de99973a7513ee0dae30edd3ff7ccb33b167c270c14d02d162b49e1a2fb75a6d"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1181,
+      "sha256": "7732a88a25f875f25c619a7461d207d5ad6d1b16cd32ecbe91324f31398b2bd1"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 665,
+      "sha256": "4d46675fca5f419dca47043c995e61db9d61d66806d6c6af0ff142f8e0ebddc8"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 942,
+      "sha256": "24ca2929fd756eb2a84a45ef775ee37da8c1b834c5598949fcce15e63846c15f"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1082,
+      "sha256": "9cbd6e4d84b5efe9559b222c5616efe291d3326a4d9761b649a4b6c3ef200730"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2062,
+      "sha256": "03ae1a88e70deb1278279f4edbd426efeee6200876137fb0f64990afa928fe19"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 445,
+      "sha256": "e2ac35c611ed578a225c3319596c2f28f5e4590a03f6d574482558dec9a63898"
+    }
+  ]
+}

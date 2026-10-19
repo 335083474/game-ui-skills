@@ -1,0 +1,41 @@
+{
+  "slug": "civilization-vi",
+  "packageName": "civilization-vi-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "technology-tree",
+      "title": "Technology Tree",
+      "description": "Prerequisite-linked research branches with completed, available and blocked node states."
+    },
+    {
+      "id": "city-production",
+      "title": "City Production",
+      "description": "Selected city panel with numbered production queue and turn estimates."
+    },
+    {
+      "id": "diplomatic-trade",
+      "title": "Diplomatic Trade",
+      "description": "Two-sided exchange draft with quantities, comparison and explicit confirmation."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Turn, resource, research, queue, diplomacy and map values are synthetic.",
+    "Generated terrain and civic icon atlas is original; no Firaxis assets included.",
+    "Expansion and patch are not specified; no copied font."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

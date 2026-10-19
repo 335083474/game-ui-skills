@@ -1,0 +1,6 @@
+interface:
+  display_name: "Terraria UI"
+  short_description: "compact deep-blue pixel adventure game UI with original local art"
+  default_prompt: "Use $terraria-ui to build an editable browser-game interface using its local rules and screen patterns."
+policy:
+  allow_implicit_invocation: true

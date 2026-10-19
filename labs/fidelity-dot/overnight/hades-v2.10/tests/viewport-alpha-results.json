@@ -1,0 +1,37 @@
+{
+  "scope": "Exact source pixels outside CSS viewport; no browser render test",
+  "results": [
+    {
+      "file": "exec-b6aa8ee7-ed1f-4b03-a947-90b02b7632ad.png",
+      "canvas": [
+        1942,
+        809
+      ],
+      "sha256": "7392ab2dcb95e0554acdbbba8666ffb06c4140c70133eee8e407637fbdf5d95b",
+      "excluded_alpha_max": 1,
+      "alpha_above1_bounds": [
+        23,
+        162,
+        1920,
+        603
+      ],
+      "all_above1_retained": true
+    },
+    {
+      "file": "exec-10265750-e76b-4474-915d-439442e919af.png",
+      "canvas": [
+        1945,
+        809
+      ],
+      "sha256": "2435e9544fac99937838b6781a403e4da57cdb2da6c78e6a46e5c9139408f1d1",
+      "excluded_alpha_max": 1,
+      "alpha_above1_bounds": [
+        10,
+        151,
+        1935,
+        619
+      ],
+      "all_above1_retained": true
+    }
+  ]
+}

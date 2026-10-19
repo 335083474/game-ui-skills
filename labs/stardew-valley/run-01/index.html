@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fern Hollow · A little farm adventure</title>
+  <link rel="stylesheet" href="assets/components/theme.css"><link rel="stylesheet" href="app.css">
+  <script src="state.js" defer></script><script src="app.js" defer></script>
+</head>
+<body class="svui-meadow">
+  <div class="landscape" aria-hidden="true"><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div><div class="mountains"></div><div class="hill"></div><div class="farmhouse"><i></i></div><div class="tree tree-left"></div><div class="tree tree-right"></div><div class="fence"></div><div class="flowers"></div></div>
+  <div class="app-shell">
+    <header class="topbar"><a class="brand" href="#reward"><span class="brand-sprout" aria-hidden="true">✦</span><span>FERN HOLLOW<small>A little farm adventure</small></span></a><div class="day-stamp">SPRING 12 <span>·</span> YEAR 1</div></header>
+    <nav class="main-nav" aria-label="Game screens"><a href="#reward" data-route="reward"><span>01</span> Reward</a><a href="#inventory" data-route="inventory"><span>02</span> Inventory</a><a href="#shop" data-route="shop"><span>03</span> General store</a></nav>
+    <main id="screen" class="svui-frame" tabindex="-1"></main>
+    <div id="announcement" class="session-message" role="status" aria-live="polite">Welcome home. Your next little adventure starts here.</div>
+    <footer class="app-footer"><span>Fictional in-game coins · No real-money purchases<br>Tab session saved locally. Reloads keep progress; closing the tab ends this session.</span><button class="reset-button" id="reset-session" type="button">Reset demo session</button></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path": "references/images/style-board.svg", "kind": "authored-vector-style-board", "role": "Design grammar reference; not a game screenshot or finished screen."},
+  "assets": [
+    {"path": "assets/art/score-rule.svg", "kind": "original-authored-vector", "role": "Reusable abstract score-line divider.", "sourceGameAsset": false}
+  ],
+  "fonts": {"copied": false, "cssFallback": "Segoe UI, Arial, sans-serif"},
+  "screenshots": {"officialScreenshotRedistributed": false, "packageCapture": "pending parent capture"}
+}

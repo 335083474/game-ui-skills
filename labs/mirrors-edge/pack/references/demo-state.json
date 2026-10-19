@@ -1,0 +1,23 @@
+{
+  "scope": "Invented local demo values only; nothing is persisted.",
+  "routes": {
+    "selected": null,
+    "options": [
+      {"id": "canal-edge", "name": "Canal Edge", "demoDistance": "2.4 km", "tradeoff": "Open crossing"},
+      {"id": "service-roof", "name": "Service Roof", "demoDistance": "3.1 km", "tradeoff": "Covered approach"}
+    ],
+    "confirmed": false
+  },
+  "brief": {
+    "operation": "North Relay Courier",
+    "objectives": ["Reach relay door", "Carry sealed packet", "Leave via east stair"],
+    "accepted": false
+  },
+  "movementCue": {
+    "text": "Vault the low barrier",
+    "demoKey": "Space",
+    "visible": true,
+    "used": false
+  },
+  "controlBoundary": "The Space label is an invented local demo mapping, not an official game binding."
+}

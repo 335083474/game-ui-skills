@@ -1,0 +1,415 @@
+{
+  "version": "5",
+  "files": [
+    {
+      "path": "QA.json",
+      "bytes": 2004,
+      "sha256": "163bb136c74489ab22ea173de3a464e88d36a355dc1b317b91de0c77a701a771"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8008,
+      "sha256": "63e5fe303ea66caa22c47fca55b64084c987957947fa884fd29456d9adf8a20e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5259,
+      "sha256": "c3f7b90a3cc5008ac38b6a740340e357df5e2553078b0926c26cdecbd53e7005"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 6884,
+      "sha256": "74adb0657a85868f717070ae65d1927a667caca630b62887960153c9150e820f"
+    },
+    {
+      "path": "build_assets.py",
+      "bytes": 1405,
+      "sha256": "2ef8bea59c194d9dc0ded984b1ab95bb1f61e06ed90b985e72c24c85a924d892"
+    },
+    {
+      "path": "build_data.py",
+      "bytes": 534,
+      "sha256": "569936f587c0aae71cfbbf41727a759cdb1b07a512888722f9029811765a22dc"
+    },
+    {
+      "path": "build_runtime_fonts.py",
+      "bytes": 403,
+      "sha256": "e78c87770fc3885611bd8cce0f403076e61b42114c927636472fb6cf4c305ef9"
+    },
+    {
+      "path": "components/background_native.png",
+      "bytes": 3901,
+      "sha256": "6107c05152fa8122deabcdc14441d6ea89692819d0fb0075bbb8cfee7becd916"
+    },
+    {
+      "path": "components/panel_actions_native.png",
+      "bytes": 395,
+      "sha256": "b6a2db650fb46afc9d10940c2e91cd61f94e6a82d62b484a2b9bf9f46ab7bf41"
+    },
+    {
+      "path": "components/panel_crystals_native.png",
+      "bytes": 333,
+      "sha256": "54f75abdd1d3f1417babb612e4187a4215d3501b0b0fe80a7f2b82bf4d4b4a55"
+    },
+    {
+      "path": "components/panel_equipment_native.png",
+      "bytes": 335,
+      "sha256": "1d2b41f32e84b7cf1bfa8fdb3b41292ba73bf0065ed7da3344ce2b1ec8f0114f"
+    },
+    {
+      "path": "components/panel_items_native.png",
+      "bytes": 522,
+      "sha256": "795235921c0736a60c1a2953b370ec57003ce38244a9348e75e77e20df3fb248"
+    },
+    {
+      "path": "components/panel_preview_native.png",
+      "bytes": 290,
+      "sha256": "8a8daaffc1ccfe9456ad60d0cb2eaeff7eed84da659e262f4a8f5c98e04c7355"
+    },
+    {
+      "path": "components/sprite_armor_red_native.png",
+      "bytes": 307,
+      "sha256": "da6913aa65343fdb5eb4754b36fd0f0748ffe8bcd997f2c81d3d289b2a375a2c"
+    },
+    {
+      "path": "components/sprite_bomb_native.png",
+      "bytes": 243,
+      "sha256": "e8c61c0b5d58131e743595e4b496d2097b0df56d853f2e7a4fe33a60a9334f7b"
+    },
+    {
+      "path": "components/sprite_book_green_native.png",
+      "bytes": 228,
+      "sha256": "8c8f97b2ac34de21d04f584f3e1a0bc140a564f5c64b1de7eb8900f49f4d5657"
+    },
+    {
+      "path": "components/sprite_boomerang_native.png",
+      "bytes": 178,
+      "sha256": "d47a25cab6e1cabe7e14ccd2058d2e5e49fd4cb135d9b438b3b7bb98e2caa2c5"
+    },
+    {
+      "path": "components/sprite_boots_gold_native.png",
+      "bytes": 242,
+      "sha256": "4443287b9ab24de36c76e1d3eecad18c02383afb0218f570e7465234d4f94b7c"
+    },
+    {
+      "path": "components/sprite_bottle_red_native.png",
+      "bytes": 260,
+      "sha256": "b6ccf8154e06bd19f12f9b55044ae6db062a33b7a424e6046ec804a1594a6646"
+    },
+    {
+      "path": "components/sprite_bow_native.png",
+      "bytes": 242,
+      "sha256": "9652b2da511fae7903ee448d9319183758c33352d80d2f844e7e1b44fdc8b44c"
+    },
+    {
+      "path": "components/sprite_bug_net_native.png",
+      "bytes": 197,
+      "sha256": "307b792bb742d104c174d1b8d44c75abd41d72a15565db380e845656fc7344b0"
+    },
+    {
+      "path": "components/sprite_cane_blue_native.png",
+      "bytes": 222,
+      "sha256": "3635634a7da55a9d9ce6a323a1ab650038321508649656ef1b7ae8df7206bef0"
+    },
+    {
+      "path": "components/sprite_cane_red_native.png",
+      "bytes": 217,
+      "sha256": "ce639dff647ce7e4ee87df462caf6410aec188c488f7511b296200c1c37ec00a"
+    },
+    {
+      "path": "components/sprite_cape_red_native.png",
+      "bytes": 221,
+      "sha256": "e18a94726b230970b91fcdda903102aa7da71f18e9099a680f4c798e8cd13e46"
+    },
+    {
+      "path": "components/sprite_crystal_faceted_native.png",
+      "bytes": 152,
+      "sha256": "ef37d78bd6d0bbc6281d4ec0faab2817f07481f582a30ecd5f00809ad9adcd4b"
+    },
+    {
+      "path": "components/sprite_fire_rod_native.png",
+      "bytes": 226,
+      "sha256": "49bd170f6a65bc1624924066fbea3ef3a4ab233d09dae5cbf2e89751fd29611a"
+    },
+    {
+      "path": "components/sprite_flippers_blue_native.png",
+      "bytes": 259,
+      "sha256": "52f5db62e3122dbd891ac1eb33686d4debdf172fa755c89ece4dd37700e43312"
+    },
+    {
+      "path": "components/sprite_flute_observed_native.png",
+      "bytes": 215,
+      "sha256": "bbbf0c4165bd83a558fddea53314ea24923ac5eed86ef55ac6c7405436ba7e8f"
+    },
+    {
+      "path": "components/sprite_glove_gold_native.png",
+      "bytes": 231,
+      "sha256": "ab2b3fbd72e1f2dfa57a945c5838b6a960779b71abfdfcef7ba6b2c665b5a9f0"
+    },
+    {
+      "path": "components/sprite_hammer_gold_native.png",
+      "bytes": 251,
+      "sha256": "d28fa53578a2611a26ce41b9375a08b52cd043e8011a35774aab06ae163e813e"
+    },
+    {
+      "path": "components/sprite_heart_red_native.png",
+      "bytes": 218,
+      "sha256": "440293ec14c2bfbcac7ee8f35748ce3a4f9a6b384b3ca2d799b0124650a8d985"
+    },
+    {
+      "path": "components/sprite_hookshot_native.png",
+      "bytes": 167,
+      "sha256": "e37155be8eafcf7d830bcf6a0917dfb6cc66a649f5cd6bf033dd1cee0af64579"
+    },
+    {
+      "path": "components/sprite_ice_rod_native.png",
+      "bytes": 233,
+      "sha256": "ae6d6491e18a10796981c5c3da50f16dfbd7fa2b94a496db4596bd5d415526ea"
+    },
+    {
+      "path": "components/sprite_lantern_native.png",
+      "bytes": 249,
+      "sha256": "812ddc742c7e143f6d94c864b97be89f28d1b4f93114755b63f176ca948a54f4"
+    },
+    {
+      "path": "components/sprite_medallion_flame_native.png",
+      "bytes": 227,
+      "sha256": "1bd94716cbc0a046fae5ac48a2a0d2773b57a5eb409a4656e21bf90ed3a2903b"
+    },
+    {
+      "path": "components/sprite_medallion_lightning_native.png",
+      "bytes": 227,
+      "sha256": "770884b636f95f98125c54cd459c66765c90784159bc502f5f1dc95d3ad8ea92"
+    },
+    {
+      "path": "components/sprite_medallion_quake_native.png",
+      "bytes": 231,
+      "sha256": "586b5585fbda74e9bfe74aa81b41c882f6d2cf8f0581d655267fa87bf3c528df"
+    },
+    {
+      "path": "components/sprite_mirror_native.png",
+      "bytes": 267,
+      "sha256": "617aa1862d3a72f2a9a31eb2b6186151c3c557eb3350c93f804efb98e1db09f6"
+    },
+    {
+      "path": "components/sprite_mushroom_native.png",
+      "bytes": 266,
+      "sha256": "c2f04909285bb5221071c3401f6ed99206a2d47ecbcd2da891130328a20369ee"
+    },
+    {
+      "path": "components/sprite_pearl_red_native.png",
+      "bytes": 243,
+      "sha256": "eef4e4be935d2a0b0d991cf9203fdcfaf4da66492012025c2e1aaf6c54a81cea"
+    },
+    {
+      "path": "components/sprite_shield_gold_native.png",
+      "bytes": 272,
+      "sha256": "3834ff1a256dd79aea7d68b833a87acb5e879fe8e90f8573b6e051e2f2e718ef"
+    },
+    {
+      "path": "components/sprite_sword_metal_native.png",
+      "bytes": 186,
+      "sha256": "cd130e43d7a50c075144f9ffeb08d404a7da5025b096778a074fa2648c52cf47"
+    },
+    {
+      "path": "data.cjs",
+      "bytes": 1484,
+      "sha256": "dbc792ad00412a634f47535e88690c35fb997bfe1585371c7f8fcb617fc9a416"
+    },
+    {
+      "path": "equipment.html",
+      "bytes": 2396,
+      "sha256": "2b5d52a9c6b765402e6124487d68a9db9abc0850fa51c0d5f0676287b8d4c681"
+    },
+    {
+      "path": "example-data.js",
+      "bytes": 5292,
+      "sha256": "f62bd894f7e63cf92741d67eb2490c321b1bc3e1e60b131e92f272ecae0016c5"
+    },
+    {
+      "path": "example-data.json",
+      "bytes": 6209,
+      "sha256": "e6b6cb9f688c3fd3e64791f0b7a4e3fc11342ddb9541cc9a1ea8821061ab6aaa"
+    },
+    {
+      "path": "font-data.js",
+      "bytes": 31906,
+      "sha256": "420b9ec7177f7d7dc7e02a66ef51e51c671250f71184e7a59f19bd0413193350"
+    },
+    {
+      "path": "index.html",
+      "bytes": 376,
+      "sha256": "f73aadf9dec10414fb0a93f1af7f7799299f97497b38e9f62178d52a089c1540"
+    },
+    {
+      "path": "inventory.html",
+      "bytes": 2396,
+      "sha256": "9c440f1765b66b89f8dc81f44e5154c4a69152cd742201a4fac6d25e47735e25"
+    },
+    {
+      "path": "layout-data.js",
+      "bytes": 1296,
+      "sha256": "5b8f5dd56dc3a592da3174aa5a63c26aff8e66b42c9b3334d5af53946fa8f3ca"
+    },
+    {
+      "path": "output/equipment_offline_4x.png",
+      "bytes": 15409,
+      "sha256": "894e1af5deb830332738c7a29c9e25341043e3c061ea0d907f6bf1ef93bd8fed"
+    },
+    {
+      "path": "output/equipment_offline_native.png",
+      "bytes": 6956,
+      "sha256": "dcbcde195f889f89d730c0d8bf2dd74f08d5abcb03a63ba21277ff989eac75e0"
+    },
+    {
+      "path": "output/inventory_offline_4x.png",
+      "bytes": 17233,
+      "sha256": "03e3e66d1bd57278da8f374f45a505f5ab472f64f90ba5ec765553901dbaf400"
+    },
+    {
+      "path": "output/inventory_offline_native.png",
+      "bytes": 8418,
+      "sha256": "c699f019831fbb0d1e85f17c8fcc2ce27225becc3ddd76b4342da26684e1364e"
+    },
+    {
+      "path": "references/runtime-contract.md",
+      "bytes": 7707,
+      "sha256": "42afa3cacdc882071273d5e6e763f4ef0952d3f646561fc6e6305608a32edf1f"
+    },
+    {
+      "path": "references/visual-spec.md",
+      "bytes": 5858,
+      "sha256": "1456b6caf297f39ae0073c649a239cf34314f3ea99e1b4ac48cadf9da990ee60"
+    },
+    {
+      "path": "render_preview.py",
+      "bytes": 3909,
+      "sha256": "e27a748b45bd1ab56487c821d30aaa6e97a6f8e59f3dff610490ffa7d5030787"
+    },
+    {
+      "path": "runtime.js",
+      "bytes": 9998,
+      "sha256": "03b949a559ea26da874f633ae6cef1ef1df6e05971ef1744538c5980aa0eba68"
+    },
+    {
+      "path": "sources/background/README.txt",
+      "bytes": 409,
+      "sha256": "9d3b6d25832ffa43ac4dbc021ae177eaa3bea1a7b36ca9f347471471d8b01221"
+    },
+    {
+      "path": "sources/background/map_indices.json",
+      "bytes": 151207,
+      "sha256": "d09c74654752b4bc9bcb97157a948e38278b8c7d4c7efdec80f169b5dca0f730"
+    },
+    {
+      "path": "sources/background/palette.json",
+      "bytes": 967,
+      "sha256": "189a9b74d7399e35be72b40340d75e8e0478fcbedb88bd6df4b0d803c8e7ef19"
+    },
+    {
+      "path": "sources/background/reference_visibility_mask.png",
+      "bytes": 568,
+      "sha256": "6e73781033a1fcd6664684c10c0e06ccf386d0beaf5a2fe63c9ad2dc478f163d"
+    },
+    {
+      "path": "sources/glyphs/build_fonts.py",
+      "bytes": 1048,
+      "sha256": "c1ed9a2cdca64ee35c1790adb1f7bdd394987c5ba5f5e011913201e97211b8a6"
+    },
+    {
+      "path": "sources/glyphs/font_arrays.json",
+      "bytes": 34728,
+      "sha256": "cb784e0d197b64cbf98982829c4f9a5629871bd189a3e1431abd531ffccb887f"
+    },
+    {
+      "path": "sources/glyphs/font_compat.json",
+      "bytes": 33026,
+      "sha256": "7ed2bfb6bfef2744fcd657b733f8e2740f514a77bb44f612f8c18cddf59ec5dd"
+    },
+    {
+      "path": "sources/glyphs/font_data.js",
+      "bytes": 31906,
+      "sha256": "420b9ec7177f7d7dc7e02a66ef51e51c671250f71184e7a59f19bd0413193350"
+    },
+    {
+      "path": "sources/glyphs/glyph_arrays.json",
+      "bytes": 33026,
+      "sha256": "7ed2bfb6bfef2744fcd657b733f8e2740f514a77bb44f612f8c18cddf59ec5dd"
+    },
+    {
+      "path": "sources/glyphs/pixel_font.js",
+      "bytes": 3049,
+      "sha256": "679cdceed91b0488925df002245e072b3923fd4fc0a023b4fc8ccb9a1f334c70"
+    },
+    {
+      "path": "sources/glyphs/pixel_font.py",
+      "bytes": 3187,
+      "sha256": "82e155b6c95c2793dd0d54a54a527aec5db400851d3eb11c6af05c319323ebe9"
+    },
+    {
+      "path": "sources/layout.json",
+      "bytes": 2585,
+      "sha256": "8c89e4da13931d374802571ae4b1912bc361ddb8899b0e084023020f9cfdc153"
+    },
+    {
+      "path": "sources/panels.json",
+      "bytes": 1220,
+      "sha256": "d1261c2352e99d7a370545cde8147873fa5a54fb61444a7598220102a5f6c8e2"
+    },
+    {
+      "path": "sources/sprites/README.md",
+      "bytes": 385,
+      "sha256": "4489b869920ac69bb60f080f0e4d3a056818b83ef4c54f22ff7d44f5cb50bc0c"
+    },
+    {
+      "path": "sources/sprites/asset_index.json",
+      "bytes": 1429,
+      "sha256": "93d30b7278c6dc12994956560f020dfa7dd37486d38c1ed3876beddb1d26bf94"
+    },
+    {
+      "path": "sources/sprites/integration_index.json",
+      "bytes": 636,
+      "sha256": "4f49ec9d520082b60453dd4b67a3f83ca42bc2c63d676d6e005156ad1596aafd"
+    },
+    {
+      "path": "sources/sprites/palette.json",
+      "bytes": 1191,
+      "sha256": "ac4c5edee8ef536915b4a8900568d220d2a5fb9de4089eb4890d09a157db80e0"
+    },
+    {
+      "path": "sources/sprites/sprite_grids.json",
+      "bytes": 11498,
+      "sha256": "beb24a7723033bb8d5aa0078aa064fddd49cce9588d9727b45b1d2cd24039cf8"
+    },
+    {
+      "path": "style.css",
+      "bytes": 965,
+      "sha256": "1f797d8fa4fedaf19045decd8b822b099054c548989f6e9f8cae59b26930f4f8"
+    },
+    {
+      "path": "tests/browser-harness.html",
+      "bytes": 1839,
+      "sha256": "00eeccb1727e1afc08e86133bd2589b683815af19b8563dc8e64edfc0a64e5fe"
+    },
+    {
+      "path": "tests/check_package.py",
+      "bytes": 1179,
+      "sha256": "a07c2ef7020f9f592ae8ee4bd92a2d8b87c92792929480e4aa8536e0dbbb78e6"
+    },
+    {
+      "path": "tests/data-results.txt",
+      "bytes": 469,
+      "sha256": "901735f0dc2a1c83dd86706c1a2f5b7f895767ac8f2d7b6009d0e604dbf70dc5"
+    },
+    {
+      "path": "tests/data.test.cjs",
+      "bytes": 1828,
+      "sha256": "dbe6b4e9e73fa05a03f81be47f7d3e00c2dcb9cd66b51dbdda787e066ab35106"
+    },
+    {
+      "path": "tests/layout.test.cjs",
+      "bytes": 1263,
+      "sha256": "74b5c8309651e400ca85d86bf47d5603202186f8400452c84b17ab2df8635305"
+    }
+  ]
+}

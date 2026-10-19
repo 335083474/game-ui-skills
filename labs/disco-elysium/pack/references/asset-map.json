@@ -1,0 +1,8 @@
+{
+  "assets":[
+    {"path":"assets/archivist-portrait.png","role":"Reusable original character clipping and visual reference","provenance":"Built-in image_gen; exact final prompt in generation.json","use":"Keep the loose impasto silhouette; use as a compact inset, never as a full-screen background."},
+    {"path":"assets/components/index.html","role":"Editable portrait, check, thought-slip, and text-flow primitives","provenance":"Authored package code","use":"Open locally; interactions toggle specimen selection only."},
+    {"path":"assets/components/theme.css","role":"Dusty reading palette, painted portrait crop, check marker, and note slip styling","provenance":"Authored package code","use":"Copy only the primitives needed by a requested screen."}
+  ],
+  "notBundled":["official portraits", "game dialogue", "screenshots", "font binaries", "finished target-screen layouts"]
+}

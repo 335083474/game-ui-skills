@@ -1,0 +1,16 @@
+{
+  "slug": "starcraft",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"command-console","title":"Command Console","description":"A central open sector map with a lower Terran order matrix that updates the selected unit's order and map position."},
+    {"id":"unit-roster","title":"Unit Roster","description":"A personnel list, selected-unit file, and compact squad board support a local Bravo assignment."},
+    {"id":"mission-brief","title":"Mission Brief","description":"A sector sketch and three ordered objectives gate the launch of the fictional Glass Harbor operation."}
+  ],
+  "smokeTests": [
+    {"screenId":"command-console","steps":[{"action":"click","role":"button","name":"Order: Move to North Ridge"}],"expectedText":["Moving to North Ridge","Marine / Rook-03 · order transmitted: Moving to North Ridge.","NORTH RIDGE"]},
+    {"screenId":"unit-roster","steps":[{"action":"click","role":"button","name":"Select Firebat Torch-02"},{"action":"click","role":"button","name":"Assign selected unit to Bravo"}],"expectedText":["Firebat / Torch-02 assigned to Bravo / west ridge.","BRAVO / WEST RIDGE","3 / 4"]},
+    {"screenId":"mission-brief","steps":[{"action":"click","role":"button","name":"CONFIRM MISSION BRIEF"},{"action":"click","role":"button","name":"LAUNCH GLASS HARBOR"}],"expectedText":["Operation Glass Harbor launched. Field comms are live.","TRANSMISSION LIVE · Echo relay secured"]}
+  ]
+}
+

@@ -1,0 +1,40 @@
+{
+  "slug": "inscryption",
+  "packageName": "inscryption-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "card-reward",
+      "title": "Card reward",
+      "description": "Two or three full-height forest cards; inspect a selected card and add it once to the deck."
+    },
+    {
+      "id": "deck",
+      "title": "Deck binder",
+      "description": "Browse owned cards and sigils; selection is separate from any explicit remove action."
+    },
+    {
+      "id": "trade-table",
+      "title": "Trade table",
+      "description": "Compare what leaves and enters, show the token price, then commit both sides atomically."
+    }
+  ],
+  "referenceImage": "assets/woodcut-creatures.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental style interpretation, not an official or pixel-exact recreation.",
+    "All card names, rules, and values are synthetic; later acts and official game art are out of scope."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Component rendering only; full-screen independent use tests follow."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "her-story-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/interview-still.svg",
+      "bytes": 1265,
+      "sha256": "a440d4ff50c61f93e584a95b8c37fc93b67c1217e3e6308dfe5a8843f7f847fd"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 6891,
+      "sha256": "0af5596f1e7f471ca6d939fbee0dc34476cf1eed89ef21669283d34834ce838e"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 6325,
+      "sha256": "15de860fa097ccb3641d1cc1fec9f75e0412d659e714d88ed7fea455274bea89"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1561,
+      "sha256": "6226d757c9e5d86b8f67d9dae9280d409d0f33d6b9e1e5004045f8b3b8dce308"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 86915,
+      "sha256": "3da2651b6228aa0607599bb3ed1b8cc546177aee509e15ede63993ea81d6d9ae"
+    },
+    {
+      "path": "references/images/style-board.svg",
+      "bytes": 5276,
+      "sha256": "6ebf831ae0ddb00ce6750b37f7b2e17eb8d8148a494b50aa1f3d007d3df4459a"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1859,
+      "sha256": "b58b480aaeb4fc681dc5facbbca785542d6a7d4b4f4330c3b066fb565750b647"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1286,
+      "sha256": "4077ca2b5ad825518ce9771f862a572924edcafae77578727f1d1e66cb8c59de"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2217,
+      "sha256": "c51a93e7288951b881d4b21269b95f7fe599119b058f78842ed6c81e358a2bf9"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2144,
+      "sha256": "63463c3f2b87be418e74a30e71ac2fcc470edfed89f69731ef0adb1742275264"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1130,
+      "sha256": "a844d52461d81024b0070b1f86eee3d55aee13ed783b60129e032c5597ec61f1"
+    }
+  ]
+}

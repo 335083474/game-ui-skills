@@ -1,0 +1,21 @@
+PASS default20
+PASS count 2
+PASS count 3
+PASS count 4
+PASS count 19
+PASS count 20
+PASS reject count 0
+PASS reject count 1
+PASS reject count 21
+PASS reject quantity -1
+PASS reject quantity 1.2
+PASS reject quantity 10000
+PASS long text and unicode preserved
+PASS roundtrip
+PASS copy isolated
+PASS unsafe icon https://host/a.png
+PASS unsafe icon components/../a.png
+PASS unsafe icon /tmp/a.png
+PASS invalid selection
+PASS duplicate ids
+{"passed":20,"browserTested":false}

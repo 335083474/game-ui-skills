@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f1efdf">
+  <title>In Other Waters · Scientific instrument component plate</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="field">
+    <header class="mast"><div class="brand"><div class="brand-mark" aria-hidden="true">I/O<br>W</div><div><p class="eyebrow">Experimental reference package</p><h1>FIELD INSTRUMENT / OCEAN STUDY</h1><p class="edition">2020 PC direction · original interface specimens</p></div></div><span class="plate-tag">COMPONENT PLATE<br>NOT A FULL GAME SCREEN</span></header>
+    <section class="intro"><div><p class="label">Navigation / scan / observation</p><h2>A map made of instrument marks.</h2><p>Warm field notes, clear cyan contours, and a single yellow route signal. All coordinates and organisms on this board are original fictional examples.</p></div><div class="demo-tag">SYNTHETIC READINGS / LOCAL DEMO STATE</div></section>
+    <section class="instrument-board" aria-label="Scientific instrument components">
+      <div class="board-top"><span>Instrument bank / sector 03</span><span>Contour data · fictional</span></div>
+      <div class="instrument-grid">
+        <article class="surface radial-card">
+          <div class="surface-head"><div><p class="label">01 / Heading instrument</p><h3>RADIAL SCANNER</h3></div><span class="readout">DEPTH 42 m</span></div>
+          <div class="dial" aria-label="Original radial instrument illustration, heading 064 degrees"><span class="needle"></span><span class="dial-center"></span><span class="dial-return one"></span><span class="dial-return two"></span><span class="dial-return three"></span></div>
+          <div class="dial-caption"><span>N / REFERENCE</span><span>RETURNS / 03</span></div><div class="bearing">HEADING 064°</div><p class="instrument-note">Local sample geometry · no scan or traversal recorded</p>
+        </article>
+        <article class="surface contour-card">
+          <div class="surface-head"><div><p class="label">02 / Topographic path</p><h3>CONTOUR MAP / SECTOR 03</h3></div><span class="readout" id="selected-return">R-01 / RIDGE</span></div>
+          <div class="map-frame">
+            <img src="../art/contour-map.svg" alt="Original fictional alien-ocean contour map with a dotted yellow route and three return marks">
+            <span class="map-label">SYNTHETIC RETURN MARKS / NOT GAME MAP</span><span class="map-scale">NOT TO SCALE</span>
+            <button class="pin r1" type="button" data-return="R-01" data-name="Ridge" data-coordinate="03,11" aria-label="Select synthetic return R-01, ridge" aria-pressed="true">01</button>
+            <button class="pin r2" type="button" data-return="R-02" data-name="Moving speck" data-coordinate="07,09" aria-label="Select synthetic return R-02, moving speck" aria-pressed="false">02</button>
+            <button class="pin r3" type="button" data-return="R-03" data-name="Hollow" data-coordinate="12,05" aria-label="Select synthetic return R-03, hollow" aria-pressed="false">03</button>
+          </div>
+          <div class="return-readout"><div><strong id="return-name">RIDGE / RETURN R-01</strong><span id="return-coordinate">Coordinate 03,11 · synthetic</span></div><span id="return-kind">MARK / DEMO</span></div>
+        </article>
+      </div>
+      <div class="detail-grid">
+        <article class="surface">
+          <div class="surface-head"><div><p class="label">03 / Catalog specimen</p><h3>ORIGINAL ORGANISM MARK</h3></div><span class="readout">S-03</span></div>
+          <div class="specimen-card"><img class="specimen-art" src="../art/specimen-ribbon.svg" alt="Original illustration of the fictional Ribbon glider specimen"><div><p class="specimen-id">S-03 / FICTIONAL SAMPLE</p><h4 class="specimen-name">Dapple float</h4><p class="specimen-description">Pale edge response; shape not classified.</p><span class="fiction-label">NOT TAXONOMY / INVENTED</span></div></div>
+          <button class="sample-button" id="sample-toggle" type="button" aria-pressed="false">MARK SAMPLE NOTE</button><p class="sample-status" id="sample-status" role="status">No sample action recorded. Local prototype state only.</p>
+        </article>
+        <article class="surface">
+          <div class="surface-head"><div><p class="label">04 / Observation list</p><h3>FIELD LOG STRIP</h3></div><span class="readout">DEMO TIME</span></div>
+          <ol class="field-log">
+            <li><time>08:12</time><span class="coord">(03,11)</span><p>Cyan return behind the shelf.</p></li>
+            <li><time>08:19</time><span class="coord">(04,12)</span><p>Suit marker moved east.</p></li>
+            <li><time>08:26</time><span class="coord">(05,13)</span><p>Route ended at an uncharted contour.</p></li>
+          </ol>
+          <p class="log-disclosure">FICTIONAL OBSERVATIONS / SAMPLE VALUES / NO GAME SAVE</p>
+        </article>
+      </div>
+      <div class="board-bottom"><span>CREAM INSTRUMENT FIELD / CYAN TOPOLOGY</span><strong>YELLOW = ACTIVE HEADING / PATH</strong></div>
+    </section>
+    <footer class="folio"><span>ORIGINAL LOCAL VECTOR ART / NO OFFICIAL GAME MEDIA</span><span><strong>ALL COORDINATES AND SPECIES ARE INVENTED</strong></span></footer>
+  </main>
+  <script>
+    (()=>{
+      const pins=[...document.querySelectorAll('.pin')];
+      const select=button=>{
+        for(const pin of pins){const active=pin===button;pin.setAttribute('aria-pressed',String(active));}
+        const id=button.dataset.return,name=button.dataset.name,coordinate=button.dataset.coordinate;
+        document.querySelector('#selected-return').textContent=`${id} / ${name.toUpperCase()}`;
+        document.querySelector('#return-name').textContent=`${name.toUpperCase()} / RETURN ${id}`;
+        document.querySelector('#return-coordinate').textContent=`Coordinate ${coordinate} · synthetic`;
+        document.querySelector('#return-kind').textContent='MARK / DEMO';
+      };
+      pins.forEach(pin=>pin.addEventListener('click',()=>select(pin)));
+      const toggle=document.querySelector('#sample-toggle');
+      toggle.addEventListener('click',()=>{
+        const active=toggle.getAttribute('aria-pressed')!=='true';toggle.setAttribute('aria-pressed',String(active));
+        document.querySelector('#sample-status').textContent=active?'S-03 note marked in this page only. No real sample was collected.':'Demo mark cleared. No data was saved.';
+      });
+    })();
+  </script>
+</body>
+</html>

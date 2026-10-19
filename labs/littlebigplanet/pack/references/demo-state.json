@@ -1,0 +1,32 @@
+{
+  "sticker-book": {
+    "collection": "Sunny scraps",
+    "items": [
+      {"id": "sun-patch", "label": "Sun patch", "state": "available"},
+      {"id": "wave-patch", "label": "Wave patch", "state": "available"},
+      {"id": "star-patch", "label": "Star patch", "state": "locked"}
+    ],
+    "selectedId": null,
+    "committedId": null
+  },
+  "costume-workbench": {
+    "avatar": "Original felt explorer",
+    "swatches": ["Tide", "Berry", "Marigold"],
+    "selectedSwatch": null,
+    "appliedSwatch": null
+  },
+  "level-pods": {
+    "pods": [
+      {"id": "cloud-pod", "label": "Cloud Garden", "state": "played"},
+      {"id": "button-pod", "label": "Button Hollow", "state": "new"},
+      {"id": "night-pod", "label": "Night Loom", "state": "locked"}
+    ],
+    "selectedId": null,
+    "committedId": null
+  },
+  "interactionContract": {
+    "previewIsReversible": true,
+    "commitRequiresExplicitAction": true,
+    "persistence": "none; specimen state exists only in the local page"
+  }
+}

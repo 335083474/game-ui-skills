@@ -1,0 +1,15 @@
+{
+  "slug": "persona-5",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "party", "title": "Crew lineup", "description": "Select a ready crew member, preview the position, and commit the lead slot." },
+    { "id": "equipment", "title": "Loadout", "description": "Compare a worn piece to one replacement and commit its single visible stat change." },
+    { "id": "requests", "title": "Requests", "description": "Review a short evidence file and track one objective with a clear deadline." }
+  ],
+  "smokeTests": [
+    { "screenId": "party", "steps": [{ "action": "click", "role": "button", "name": "Choose Paper Ghost" }, { "action": "click", "role": "button", "name": "Set lead" }], "expectedText": ["Paper Ghost is set as the crew lead."] },
+    { "screenId": "equipment", "steps": [{ "action": "click", "role": "button", "name": "Choose Night courier coat" }, { "action": "click", "role": "button", "name": "Equip item" }], "expectedText": ["Night courier coat equipped · defense 32 → 40."] },
+    { "screenId": "requests", "steps": [{ "action": "click", "role": "button", "name": "Choose Glasshouse at Third" }, { "action": "click", "role": "button", "name": "Track request" }], "expectedText": ["Tracking Glasshouse at Third: check the east stair before 19:00."] }
+  ]
+}

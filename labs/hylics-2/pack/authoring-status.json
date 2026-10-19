@@ -1,0 +1,41 @@
+{
+  "slug": "hylics-2",
+  "packageName": "hylics-2-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "party",
+      "title": "Party",
+      "description": "An irregular clay companion lineup shows identity, role, and condition before an explicit action sets the active member."
+    },
+    {
+      "id": "gesture-battle",
+      "title": "Gesture Battle",
+      "description": "The acting member chooses a vivid gesture and target; preview stays reversible until the player commits the turn."
+    },
+    {
+      "id": "curio-bag",
+      "title": "Curio Bag",
+      "description": "A small spill of strange objects separates inspection, known effect, unknown effect, and explicit item use."
+    }
+  ],
+  "referenceImage": "references/images/reference-plate.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated figures are original clay studies, not canonical Hylics characters or source-game UI.",
+    "Demo party names and item effects are synthetic; they are not verified game data.",
+    "No engine export, official font, or search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

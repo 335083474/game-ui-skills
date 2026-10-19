@@ -1,0 +1,5 @@
+interface:
+  display_name: "Tribal silhouette and rhythm"
+  short_description: "Original geometric rhythm-game UI direction"
+  default_prompt: "Use $patapon-ui to create an original squad, expedition, or beat HUD."
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Original FFVII Blue Menus"
+  short_description: "Classic blue party, equipment and battle menus"
+  default_prompt: "Use $final-fantasy-vii-ui to build a compact classic blue JRPG menu with working party, equipment and battle-command states."

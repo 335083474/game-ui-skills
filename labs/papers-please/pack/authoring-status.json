@@ -1,0 +1,40 @@
+{
+  "slug": "papers-please",
+  "packageName": "papers-please-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "inspection",
+      "title": "Document inspection",
+      "description": "Compare fields across synthetic documents and commit an explicit stamped outcome."
+    },
+    {
+      "id": "rulebook",
+      "title": "Policy handbook",
+      "description": "Read page-based rules with stable section tabs and effective dates."
+    },
+    {
+      "id": "daily-ledger",
+      "title": "Daily ledger",
+      "description": "Review wages and household deductions in a compact typed statement."
+    }
+  ],
+  "referenceImage": "references/images/style-reference.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental interpretation based on the PC desktop direction; no official component specification is published.",
+    "All people, policies, document values, and outcomes are synthetic; no real identity documents or game assets are included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Component rendering only; full-screen independent use tests follow."
+  }
+}

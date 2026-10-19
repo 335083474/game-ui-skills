@@ -1,0 +1,5 @@
+interface:
+  display_name: "Nordic hand-painted travel and war UI"
+  short_description: "Original banner saga-inspired game UI direction"
+  default_prompt: "Use $banner-saga-ui to create an original game UI surface in this visual direction."
+

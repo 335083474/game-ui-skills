@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-16",
+  "skillValidator": "quick_validate.py: Skill is valid!",
+  "resourceChecks": {
+    "jsonParse": true,
+    "markdownLocalLinksResolve": true,
+    "offlineHtmlCssResourcesResolve": true,
+    "atlasDimensionsAlphaAndSixBounds": true,
+    "directionDimensions": true,
+    "componentBrowserCapturePresent": true,
+    "generatedImagesUnchangedFromToolOutput": true,
+    "demoStateTransitionsConsistent": true,
+    "fontParsesAndLicensePresent": true,
+    "researchScratchAbsent": true
+  },
+  "images": {
+    "atlas": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 254,
+      "fullyTransparentPixels": 877092
+    },
+    "direction": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB"
+    },
+    "componentCapture": {
+      "size": [
+        1264,
+        1121
+      ],
+      "mode": "RGB",
+      "captureBy": "root agent via actual browser; visual inspection reported by root"
+    }
+  },
+  "fontInternalVersion": "Version 3.201",
+  "sha256": {
+    "assets/items-atlas.png": "a4f88bff6e45610e03b0eb958f6f4bcc5a831f94087f47ca50c3bdbfc9397fae",
+    "references/images/screen-direction.png": "f082b4a0b8c3eb2ff980b28798f14a1058dd3d7df4adc86c56f4326cc9076c64",
+    "assets/fonts/IBMPlexSans-Variable.ttf": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3",
+    "assets/fonts/OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+    "assets/components/index.html": "d06c9624636ce36f71d567772dfcb6eb29a94afd5dd6f3dc08de24b9f18b7529",
+    "assets/components/theme.css": "b9fa29e92c330631916581db5ea4f72e0c14460bef71872ef80e1514e07c622d"
+  },
+  "scope": "Structural/resource validation of reference package only. Independent runnable-screen forward test is a separate step; not claimed here."
+}

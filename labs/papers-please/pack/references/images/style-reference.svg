@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="650" viewBox="0 0 960 650" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel-like border desk document primitive</title><desc id="desc">A generic aged-paper permit with aligned field rows, a field mismatch, and a separate pending ink stamp. This is an original visual reference, not a game screenshot.</desc>
+  <rect width="960" height="650" fill="#454944"/game-ui-skills/><path d="M0 34H960M0 38H960M0 612H960M0 616H960" stroke="#303530" stroke-width="4"/game-ui-skills/>
+  <text x="52" y="82" fill="#e4d7b7" font-family="monospace" font-size="20" font-weight="700" letter-spacing="3">DESK DOCUMENT PRIMITIVE</text>
+  <rect x="160" y="125" width="620" height="390" fill="#252b26"/game-ui-skills/><rect x="145" y="110" width="620" height="390" fill="#d8caa5" stroke="#a99a75" stroke-width="3"/game-ui-skills/><rect x="154" y="119" width="602" height="372" fill="none" stroke="#9e916f"/game-ui-skills/>
+  <text x="180" y="158" fill="#302e26" font-family="monospace" font-size="17" font-weight="700">ENTRY PERMIT / ORIGINAL SAMPLE</text><text x="666" y="158" fill="#695f4b" font-family="monospace" font-size="14">DOC 0471-A</text><path d="M180 174H730" stroke="#645d4a" stroke-width="3"/game-ui-skills/>
+  <g font-family="monospace" font-size="14"><text x="180" y="218" fill="#695f4b">FAMILY NAME</text><text x="365" y="218" fill="#302e26">VEY</text><path d="M180 228H730" stroke="#9c8f70" stroke-dasharray="2 4"/game-ui-skills/>
+    <text x="180" y="274" fill="#695f4b">DISTRICT</text><rect x="352" y="244" width="250" height="42" fill="#e3b79d" stroke="#a33d32"/game-ui-skills/><text x="365" y="271" fill="#302e26" font-weight="700">NORTH QUAY</text><text x="624" y="271" fill="#a33d32" font-weight="700">MISMATCH</text>
+    <text x="180" y="330" fill="#695f4b">EXPIRATION</text><text x="365" y="330" fill="#302e26">12 / 04 / 2026</text><path d="M180 340H730" stroke="#9c8f70" stroke-dasharray="2 4"/game-ui-skills/></g>
+  <g transform="rotate(-4 495 411)"><rect x="362" y="376" width="270" height="66" fill="none" stroke="#a33d32" stroke-width="5"/game-ui-skills/><rect x="368" y="382" width="258" height="54" fill="none" stroke="#a33d32" stroke-width="2"/game-ui-skills/><text x="497" y="420" text-anchor="middle" fill="#a33d32" font-family="monospace" font-size="28" font-weight="700" letter-spacing="4">PENDING</text></g>
+  <text x="52" y="570" fill="#c3c7b8" font-family="monospace" font-size="15">ONE SHEET · EXPLICIT FIELD MISMATCH · STAMP REQUIRES CONFIRMATION</text>
+  <text x="52" y="600" fill="#aab0a4" font-family="monospace" font-size="13">Synthetic values; authored vector reference; not official game art.</text>
+</svg>

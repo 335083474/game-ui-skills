@@ -1,0 +1,8 @@
+{
+  "assets": [
+    {"path":"references/images/style-reference.svg","role":"Standalone generic document-form visual reference","provenance":"Authored SVG; native vector suits crisp document UI geometry","use":"Read as one document primitive and stamp example, not a screen capture."},
+    {"path":"assets/components/index.html","role":"Editable document, mismatch, stamp, and ledger primitive specimens","provenance":"Authored package code","use":"Open locally; only isolated specimen controls change state."},
+    {"path":"assets/components/theme.css","role":"Desk surface, paper edges, pixel-like type, field rows, and stamp styling","provenance":"Authored package code","use":"Copy primitives and preserve explicit text states."}
+  ],
+  "notBundled": ["official screenshots", "game sprites", "personal identity documents", "font binaries", "finished target-screen layouts"]
+}

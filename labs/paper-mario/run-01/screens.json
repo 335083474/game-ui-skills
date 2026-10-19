@@ -1,0 +1,15 @@
+{
+  "slug": "paper-mario",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"badges","title":"Badge folio","description":"A perforated paper pinboard with original badge emblems, slot costs, and a separate equip preview."},
+    {"id":"items","title":"Field items","description":"Cut-paper inventory slips with quantities, a readable item note, and a distinct use action."},
+    {"id":"battle-orders","title":"Stage commands","description":"A paper theatre command ribbon with a named target, supporting audience meter, and local queue state."}
+  ],
+  "smokeTests": [
+    {"screenId":"badges","steps":[{"action":"click","role":"button","name":"Cloud Bell"},{"action":"click","role":"button","name":"Equip Cloud Bell"}],"expectedText":["Cloud Bell is pinned in this session folio","04 / 06"]},
+    {"screenId":"items","steps":[{"action":"click","role":"button","name":"Breeze Ribbon"},{"action":"click","role":"button","name":"Use Breeze Ribbon"}],"expectedText":["Breeze Ribbon used in the local preview","0 remain in the pouch"]},
+    {"screenId":"battle-orders","steps":[{"action":"click","role":"button","name":"Jump"},{"action":"select","role":"combobox","name":"Select front-row target","value":"Paper Moth"},{"action":"click","role":"button","name":"Lock Jump on Paper Moth"}],"expectedText":["Jump is locked on Paper Moth","command queue 1"]}
+  ]
+}

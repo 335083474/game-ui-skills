@@ -1,0 +1,8 @@
+{
+  "method":"built-in image_gen",
+  "generatedAt":"2026-10-16",
+  "output":"assets/witness-portrait.png",
+  "sourceFile":"[local reference omitted]",
+  "prompt":"Use case: illustration-story. Asset type: reusable fictional witness bust portrait for a courtroom mystery UI reference package. Draw an original older woman court witness with a tightly pinned silver bob, expressive eyes, and a stern but human expression; chest-up, simple dark blazer, no recognizable real-person or existing character likeness. Style: clean hand-inked Japanese courtroom-comic illustration, two to three flat cel colors, confident black contour, very restrained crosshatch, sharp facial expression. Palette: warm skin, ink black, deep navy, paper ivory, small red accent. Composition: centered transparent bust crop, broad clean silhouette, face readable at 80px. No game UI, text, speech bubbles, sound effect lettering, frame, logo, watermark, or copied character design.",
+  "notes":"Original generated fiction. It is not a finished screen or an official character portrait."
+}

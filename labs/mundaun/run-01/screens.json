@@ -1,0 +1,15 @@
+{
+  "slug": "mundaun",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"satchel","title":"Satchel","description":"Select a hand-drawn object and place it in the quick slot on a graphite paper spread."},
+    {"id":"journal","title":"Field Journal","description":"Choose a dated observation and pin that notebook entry to the trail map."},
+    {"id":"trail-map","title":"Alpine Trail Map","description":"Select a ridge landmark and mark it as the next point on a red-pencil trail."}
+  ],
+  "smokeTests": [
+    {"screenId":"satchel","steps":[{"action":"click","role":"button","name":"Select brass key"},{"action":"click","role":"button","name":"Place in quick slot"}],"expectedText":["Brass key readied in quick slot 1."]},
+    {"screenId":"journal","steps":[{"action":"click","role":"button","name":"Select chapel tracks observation"},{"action":"click","role":"button","name":"Pin observation"}],"expectedText":["Tracks beside the chapel pinned to the map."]},
+    {"screenId":"trail-map","steps":[{"action":"click","role":"button","name":"Select Old Chapel landmark"},{"action":"click","role":"button","name":"Mark as next landmark"}],"expectedText":["Old Chapel marked · follow the red pencil trail."]}
+  ]
+}

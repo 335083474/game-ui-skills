@@ -1,0 +1,85 @@
+{
+  "name": "samorost-3-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/demo.js",
+      "bytes": 2384,
+      "sha256": "e4f0f75746a20988796de798c8b5c3ed0efb47381dc0ecd7f4d4f0b470fa915d"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 4800,
+      "sha256": "0fc5048854f170e54a90c0fbe5d8cb2215da5370059df012567319a19baa8869"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 8531,
+      "sha256": "fc3778146737ebca5a1031840d4e587fc4efe90adf34fa63e509d6bc34ca7a7f"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1590,
+      "sha256": "10df6b8064ad95ab0eeccddd9bcb6261854bdf418d957c7593c11587b9cf9cef"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 761,
+      "sha256": "52e96ef1aa351684eb76c84bf72a460ca1aaa3a32194962d075ce00e2994c1c0"
+    },
+    {
+      "path": "references/demo-state.json",
+      "bytes": 1160,
+      "sha256": "93450bc5212b4112994d0a0fa923f0fc1eda078735b01cb7cbac8047b7eba39d"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 1262,
+      "sha256": "6ac10d88a4af9588714ad346bd75433e35293e1d1886cfa6e508b24843a98aba"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 108915,
+      "sha256": "5f3f2a604eb84e9ff16842114aaa65ffe3276d9a53c36e1918bf1e7ad9096568"
+    },
+    {
+      "path": "references/images/reference-plate.png",
+      "bytes": 2520862,
+      "sha256": "75e0b9b9d5ecf93230c41a143dd3c87baa18e338a56833ba60f046e657370079"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1193,
+      "sha256": "500bcea11d476b2538a9241eacd5fb6da9d93f48a37bc43a56a9c36c4de505ec"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1401,
+      "sha256": "5ad593d74df1a0d4ea15bb7d93704b27e866dcf93ca4b92a5edc48316a7342a3"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1021,
+      "sha256": "8b6ceb66807de89321c1b62c9c24a4633d6ed71f92828b94e224a3e211ebb46e"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1678,
+      "sha256": "04799eff5f6952f95f35a4812eee1bcd7aac4edf6a2f45559065bca43c9f5b9a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1946,
+      "sha256": "1112b57e5468c9fe6efebb0435707143a64a1979731c51581ed6663eb04b7720"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 827,
+      "sha256": "b7c91090922ee9096df3906cfe10cf3fee865ac1e22a8864e1e770f217a6d3ed"
+    }
+  ]
+}

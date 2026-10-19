@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {
+    "path": "references/images/style-board.png",
+    "kind": "original-generated-context-art",
+    "role": "Atmosphere and palette reference only; not a primary game source or screenshot."
+  },
+  "assets": [
+    {
+      "path": "references/images/style-board.png",
+      "kind": "original-generated-art",
+      "sourceGameAsset": false,
+      "role": "Invented cel-shaded skater and urban street context plate."
+    }
+  ],
+  "fonts": {"copied": false, "cssFallback": "Impact, Bahnschrift Condensed, Arial Black, Arial, sans-serif"},
+  "runtime": {"externalAssets": false, "externalFonts": false, "engineExport": false}
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "The Sims 4 Life UI"
+  short_description: "Build bright life-simulation needs and relationship interfaces"
+  default_prompt: "Use the the-sims-4-ui reference package for original household needs, build catalog, and relationships screens."

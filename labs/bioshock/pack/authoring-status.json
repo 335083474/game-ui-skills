@@ -1,0 +1,41 @@
+{
+  "slug": "bioshock",
+  "packageName": "bioshock-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "tonic-vending",
+      "title": "Tonic Vending",
+      "description": "Symmetrical machine plaque, stock rows, balance and purchase preview."
+    },
+    {
+      "id": "plasmid-upgrade",
+      "title": "Plasmid Upgrade",
+      "description": "Current-to-preview upgrade values with seal cost and commit state."
+    },
+    {
+      "id": "hacking-relay",
+      "title": "Hacking Relay",
+      "description": "Rectangular relay grid with path focus, hazards, timer and reset."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Costs and mechanics are synthetic and do not reproduce the game.",
+    "Generated transparent atlas is original; no official game art is included.",
+    "No copied font or exact UI specification."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

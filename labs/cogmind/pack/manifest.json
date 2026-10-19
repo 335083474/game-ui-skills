@@ -1,0 +1,60 @@
+{
+  "name": "cogmind-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/index.html",
+      "bytes": 8741,
+      "sha256": "04aa8b21d2642b82e950a37c1b858a4b03db3c6049f8ef2de6ab1e22a896c18d"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 6692,
+      "sha256": "173cf1cf09526a69197963fd0f34590a011300fd60911cec2cbe074ef25560d8"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1430,
+      "sha256": "1d0de8187f63f27d4730f06fc2e779452224e5f3d2d9f7677ef6aec81f036d6b"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 84826,
+      "sha256": "d03f7ea3e0bcf0df8a86ba8b0613cdcce93caa08b837a0f477b0f0e86c56b521"
+    },
+    {
+      "path": "references/images/style-board.svg",
+      "bytes": 5046,
+      "sha256": "f1f2d73931f139d341939dc562022f56c19d76734db1ffe283d5f2dc2a8900d9"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1759,
+      "sha256": "9a2d90f423576b1641e687860fc404928888eab88e86c263d39e9db16d30d741"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1093,
+      "sha256": "5a9771db88f50d766b7060a03f14f28aaf969669b9aef2990a275d1abe0a1a24"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2157,
+      "sha256": "fbe62d8b801d2c574ce54f8a948beeda7f2fe50c8ef394e4c0ead40d7cdf3b61"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1948,
+      "sha256": "e88f349e764920440e4a894cb9ba668dbcb58aabe984b611f1525e00e8f8a5a4"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1069,
+      "sha256": "dd015a8475714b125bd8119af7cfe7bd9938a7785bf0c46ad98094e0f24d3f79"
+    }
+  ]
+}

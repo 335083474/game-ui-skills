@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Early-print manuscript investigation UI — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="specimen-board">
+    <header class="board-head">
+      <div><p class="eyebrow">STYLE SPECIMEN · Pentiment (2022)</p><h1>The Waking Scriptorium</h1><p class="lede">Editable primitives for early-print manuscript investigation ui; not a finished game screen.</p></div>
+      <figure class="art-crop"><img src="../illustrations/pentiment-art.png" alt="An original apprentice at a writing desk, with a dog, marginal doodles, and a tiny chart"><figcaption>Original generated direction study</figcaption></figure>
+    </header>
+    <section class="specimen-grid" aria-label="Component examples">
+      <article class="specimen">
+        <p class="eyebrow">01 · relationship-map</p><h2>Rubric heading</h2>
+        <button class="choice is-selected" type="button" aria-pressed="true"><span class="marker" aria-hidden="true">◆</span><span><strong>Rubric heading</strong><small>A chapter label with a red initial and an ink-black title, using hierarchy rather than boxes.</small></span><span class="state">SELECTED</span></button>
+        <button class="choice" type="button" aria-pressed="false"><span class="marker" aria-hidden="true">◇</span><span><strong>Alternate path</strong><small>Preview the cost before committing.</small></span><span class="state">AVAILABLE</span></button>
+      </article>
+      <article class="specimen">
+        <p class="eyebrow">02 · investigation-log</p><h2>Evidence note</h2>
+        <div class="record"><span class="record-mark" aria-hidden="true">✦</span><div><strong>Evidence note</strong><p>A clipped manuscript note with source, confidence, and a contradiction marker.</p><small>STATUS · RECORDED / FICTIONAL</small></div></div>
+        <div class="meter" role="img" aria-label="Example resource: 7 of 10"><span style="width:70%"></span></div>
+      </article>
+      <article class="specimen">
+        <p class="eyebrow">03 · dialogue-exchange</p><h2>Voice choice</h2>
+        <div class="decision"><div><strong>Voice choice</strong><p>Two response lines with distinct rhetorical tones and a clear selected state.</p></div><button class="commit" type="button">Preview choice</button></div>
+        <p class="notice" role="status" aria-live="polite">No choice committed. Specimen state only.</p>
+      </article>
+    </section>
+    <footer><span>Tassing-inspired fictional abbey</span><span>Original fictional data · keyboard and pointer ready</span></footer>
+  </main>
+  <script>
+    document.querySelectorAll(".choice").forEach((button) => button.addEventListener("click", () => {
+      document.querySelectorAll(".choice").forEach((item) => { item.classList.remove("is-selected"); item.setAttribute("aria-pressed", "false"); });
+      button.classList.add("is-selected"); button.setAttribute("aria-pressed", "true");
+      document.querySelector(".notice").textContent = button.querySelector("strong").textContent + " selected for preview. No persistent game state changed.";
+    }));
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "XCOM 2 Tactical Command"
+  short_description: "Turn action brackets, soldier dossiers and hit chance"
+  default_prompt: "Use $xcom-2-ui to build a base-game tactical interface with visible action costs, soldier identity and explicit target commitment."

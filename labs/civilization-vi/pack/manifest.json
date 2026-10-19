@@ -1,0 +1,80 @@
+{
+  "name": "civilization-vi-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 274,
+      "sha256": "dfd3648ed4352108dff5affd1acb79df0ff6071d36c8f6bcb20a891483e14753"
+    },
+    {
+      "path": "assets/art/civ-atlas.png",
+      "bytes": 2092778,
+      "sha256": "f1e1eba1eba702a491d6bbd29123ab755e7f68d312b07a6c6f2e9293ec191db5"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 1591,
+      "sha256": "6586fa5578b454c714789757229b6b763b3185ac2e311a5d1ed3d90112eec139"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 3985,
+      "sha256": "0265edf2f25b350933725d4e2ddce8e8dbe343abfcc6b5ea5bb222310a007720"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1432,
+      "sha256": "1f90fbf9eef8c65ec72e7e5c31fdf5ac5eeac5f08dd59a119a295187be813f52"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 2402,
+      "sha256": "183949fd8ce84daf122a294f30e42e6c1c661cc2c68a2d9be1812cbe6d917c7a"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 61080,
+      "sha256": "a880944a82c1e209ac564cdb845e8d808e97c12db3f00cf4b9064a16583551f2"
+    },
+    {
+      "path": "references/images/style-board.svg",
+      "bytes": 3706,
+      "sha256": "2bf662ad24846c8cdf468e2bd2caea991c978911996c09753dfd3e64786900f7"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2268,
+      "sha256": "6092d3a400e3f01b685992230119d91bf97d5626ea52eda67e51d12d37a68057"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1105,
+      "sha256": "4d1ac98d666f3bc8689afd602ade88da533f32a54908545cb174ef80c7f587dc"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1147,
+      "sha256": "0cbd3e2f2aa8c6a01ba0bbdf96b944857ad33309ef3626dcc7e77300ba4fc36f"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2317,
+      "sha256": "acd2784f48afe2f90be0805f9e64c02854347adb66e861915ffba54922cd9c95"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2124,
+      "sha256": "9f8e729cdf9ba2536636f7c9f53aeae0997322eda174145b2208479719f53777"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 975,
+      "sha256": "c74587930ca6b9918ee6a543127d1cbcdf4d4473c1cbcae462b323e73e26f678"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "the-sims-4",
+  "packageName": "the-sims-4-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "needs",
+      "title": "Household needs",
+      "description": "Inspect one selected member's six named meters and switch household member without changing values."
+    },
+    {
+      "id": "build-catalogue",
+      "title": "Build catalogue",
+      "description": "Filter original furniture tiles, preview one item, and commit placement only after confirmation."
+    },
+    {
+      "id": "relationships",
+      "title": "Relationships",
+      "description": "Explore a small labeled relationship graph with a text-list fallback and selected tie detail."
+    }
+  ],
+  "referenceImage": "references/images/style-reference.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental base-game UI hypothesis, not an official or pixel-exact recreation.",
+    "The frozen research entry does not name a build number or contain a current-patch capture; exact edition fidelity remains unverified.",
+    "All household members, objects, prices, needs, and relationship states are synthetic; no official EA assets are included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

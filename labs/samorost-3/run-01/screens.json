@@ -1,0 +1,15 @@
+{
+  "slug": "samorost-3",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"object-combination","title":"Object Combination","description":"A scene-led natural miniature lets two distinct found objects form a reversible preview before one explicit attempt whose puzzle result stays unknown."},
+    {"id":"pictorial-hints","title":"Pictorial Hints","description":"A short ordered sequence of named nature symbols carries a concise picture clue that can be revealed, hidden, and revisited."},
+    {"id":"planet-chapters","title":"Planet Chapters","description":"A sparse moss-world orbit distinguishes current, visited, and unvisited stops; route selection is committed separately."}
+  ],
+  "smokeTests": [
+    {"screenId":"object-combination","steps":[{"action":"click","role":"button","name":"Select Amber shell"},{"action":"click","role":"button","name":"Select Moss ring"},{"action":"click","role":"button","name":"Combine objects"}],"expectedText":["Combination attempt recorded for Amber shell + Moss ring. Puzzle result remains unknown."]},
+    {"screenId":"pictorial-hints","steps":[{"action":"click","role":"button","name":"Reveal picture clue"}],"expectedText":["Follow the root hollow to the amber shell and moss ring."]},
+    {"screenId":"planet-chapters","steps":[{"action":"click","role":"button","name":"Preview Quiet Reef world — unvisited"},{"action":"click","role":"button","name":"Set route"}],"expectedText":["Route set to Quiet Reef for this session only."]}
+  ]
+}

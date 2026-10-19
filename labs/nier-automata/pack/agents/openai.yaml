@@ -1,0 +1,4 @@
+interface:
+  display_name: "NieR:Automata Beige System"
+  short_description: "Quiet beige menus, chip grids and score-line dividers"
+  default_prompt: "Use $nier-automata-ui to create a restrained beige system menu with fine-grid surfaces, a black selection rule and coherent chip or inventory states."

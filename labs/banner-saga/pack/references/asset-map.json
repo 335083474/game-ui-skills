@@ -1,0 +1,23 @@
+{
+  "illustration": {
+    "path": "assets/illustrations/banner-saga-art.png",
+    "role": "Original generated visual-direction study; optional crop or inspiration, not a full-screen background.",
+    "provenance": "OpenAI image generation, 2026-10-16; see generation.json"
+  },
+  "components": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "role": "Editable specimen fragments only"
+  },
+  "fonts": {
+    "bundled": false,
+    "stack": "Georgia, 'Palatino Linotype', serif / 'Trebuchet MS', Arial, sans-serif",
+    "license": "System fonts; no font files copied"
+  },
+  "externalAssets": [],
+  "notes": [
+    "Do not use image as an interface screenshot or evidence of the source game's original UI.",
+    "Create original characters, labels, and game-specific assets for the implementation."
+  ]
+}
+

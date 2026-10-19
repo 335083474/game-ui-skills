@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f47758">
+  <title>Drumbeat Muster — Squad loadout</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-style="patapon">
+  <header class="beat-head">
+    <a class="drum-brand" href="#squad-loadout" aria-label="Drumbeat Muster home"><span class="drum-symbol" aria-hidden="true"><i></i></span><span><small>EXPEDITION CORPS</small><strong>DRUMBEAT MUSTER</strong></span></a>
+    <nav class="command-nav" aria-label="Camp screens">
+      <a href="#squad-loadout" data-screen="squad-loadout">01 · FORM</a>
+      <a href="#expedition-select" data-screen="expedition-select">02 · ROUTE</a>
+      <a href="#rhythm-hud" data-screen="rhythm-hud">03 · BEAT</a>
+    </nav>
+    <span class="day-count">CAMP<br><b>DAY 08</b></span>
+  </header>
+  <main id="screen" tabindex="-1"></main>
+  <footer class="beat-foot"><span>ORIGINAL GEOMETRIC FIELD STUDY · FICTIONAL UNITS</span><span>SESSION RESET ON RELOAD</span></footer>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title">
+    <span class="dialog-beat" aria-hidden="true">●</span>
+    <p class="eyebrow">COUNT THE COST</p>
+    <h2 id="confirm-title">Confirm this command?</h2>
+    <p id="confirm-copy"></p>
+    <div class="dialog-actions"><button type="button" class="command-button light" data-cancel>Cancel command</button><button type="button" class="command-button dark" data-confirm>Confirm command</button></div>
+  </dialog>
+</body>
+</html>

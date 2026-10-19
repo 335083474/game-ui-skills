@@ -1,0 +1,21 @@
+{
+  "assets": [
+    {
+      "path": "../assets/art/symbol-atlas.svg",
+      "role": "Original reusable vector art."
+    },
+    {
+      "path": "images/style-board.svg",
+      "role": "Original visual direction reference, not a finished screen."
+    },
+    {
+      "path": "../assets/components/index.html",
+      "role": "Editable responsive component specimens."
+    },
+    {
+      "path": "../assets/components/theme.css",
+      "role": "Local tokens and editable CSS."
+    }
+  ],
+  "externalRuntimeAssets": []
+}

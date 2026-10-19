@@ -1,0 +1,65 @@
+{
+  "name": "hypnospace-outlaw-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/desktop-wallpaper.svg",
+      "bytes": 1428,
+      "sha256": "cc60e70eab1d93bec66f407f9d632c9f5507aae440143c23f9d1f5a0778fe926"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 10352,
+      "sha256": "ee1a58c749b4ad444fec006f5668942813c54ef18a5a82b5a606f2840c10e5ea"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 8872,
+      "sha256": "a487f74799ede9d71a6dd190a12b603065fde939ee15965dbc49e4c31a4f45f8"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1556,
+      "sha256": "06fc8d8ed900fabbf46f58af6b0680b1ccd844ebe1ca1f8b1934ae3e3bad5a5f"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 140114,
+      "sha256": "75ede6e9f9ec5cac457c7d7b8980865b58f34d1fff619b1fa12e0e2a456785b3"
+    },
+    {
+      "path": "references/images/style-board.svg",
+      "bytes": 7776,
+      "sha256": "706fe3a58f6d2abeae91aae646f1f3f5094293edb3f4a2db043a0306c543ea46"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1708,
+      "sha256": "f123997c2841cf51ae2b0184c94ddb5e73e3755f1aed26c3d6dcbf2844d4675a"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1260,
+      "sha256": "bc1d924baa379b80244594ed43ab519ebab38e6c655210c6b75d9c62b2febdc0"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2101,
+      "sha256": "7495cd9bf1aa78f163a03143e590a3ec4a0f2eb64005e6340dc2460db601774a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2086,
+      "sha256": "9a17ca1ab15ec39df33b29ffcb89bdb5ee78c148a51bfd8a7b291c4cb1043ab5"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1103,
+      "sha256": "ab7322ef85c9d4b1c7c7e3d4fdca8c7a88d6b09d766456655f373076bbb7e337"
+    }
+  ]
+}

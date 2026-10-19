@@ -1,0 +1,15 @@
+{
+  "slug": "cyberpunk-2077",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id": "cyberware", "title": "Cyberware", "description": "An abstract body-slot schematic with installed, available, and locked implants plus a capability readout."},
+    {"id": "mission-journal", "title": "Mission Journal", "description": "A compact job ledger with one tracked objective, related entries, and an action rail."},
+    {"id": "district-map", "title": "District Map", "description": "An angular city-grid map with route traces, district labels, selected location, and a narrow inspector."}
+  ],
+  "smokeTests": [
+    {"screenId": "cyberware", "steps": [{"action": "click", "role": "button", "name": "Select Kiroshi Optics"}, {"action": "click", "role": "button", "name": "Install selected module"}], "expectedText": ["Kiroshi Optics installed · demo state.", "INSTALLED", "Scan range"]},
+    {"screenId": "mission-journal", "steps": [{"action": "click", "role": "button", "name": "Select Find the relay broker"}, {"action": "click", "role": "button", "name": "Track selected job"}], "expectedText": ["TRACKED / Find the relay broker", "TRACKED · WATSON / 23:10"]},
+    {"screenId": "district-map", "steps": [{"action": "click", "role": "button", "name": "Select destination Arroyo Clinic"}, {"action": "click", "role": "button", "name": "Route to selected destination"}], "expectedText": ["Route staged to Arroyo Clinic · demo path.", "SANTO DOMINGO"]}
+  ]
+}

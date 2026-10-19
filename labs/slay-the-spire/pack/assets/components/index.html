@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Slay the Spire UI — editable component specimens</title><link rel="stylesheet" href="theme.css"></head>
+<body class="sui-scene">
+<main class="sui-board">
+  <header class="sui-board__header">
+    <div><div class="sui-eyebrow">Reference-driven component library</div><h1 class="sui-title">Stone, Gold &amp; Parchment</h1><p class="sui-muted">Painted dungeon objects. Worn edges. A quiet, readable hierarchy.</p></div>
+    <span class="sui-badge">Unofficial Web specimens · 1.0</span>
+  </header>
+  <section class="sui-board__hero" aria-label="Card and action specimens">
+    <div class="sui-board__card"><h2 class="sui-board__section-title">01 · Item frame</h2>
+      <button type="button" class="sui-card is-selected" aria-pressed="true" aria-label="Healing draught, selected specimen">
+        <div class="sui-card__body"><div class="sui-card__art"><span class="sui-icon sui-icon--potion" aria-hidden="true"></span></div><div class="sui-card__paper"><h3>Healing Draught</h3><p>Restore 20 HP</p><span class="sui-selected">✓ Selected</span></div></div>
+      </button><p class="sui-board__label">Painted art / slate recess / paper effect</p>
+    </div>
+    <div class="sui-board__controls">
+      <section class="sui-panel"><h2 class="sui-board__section-title">02 · Actions &amp; states</h2>
+        <div class="sui-board__buttons">
+          <div><button type="button" class="sui-action" data-sui-action><span>Continue</span></button><span class="sui-board__label">Default · activate me</span></div>
+          <div><button type="button" class="sui-action is-hovered" data-sui-action><span>Continue</span></button><span class="sui-board__label">Hover · warm edge / lift</span></div>
+          <div><button type="button" class="sui-action is-pressed" data-sui-action><span>Continue</span></button><span class="sui-board__label">Pressed · inset / lower</span></div>
+          <div><button type="button" class="sui-action" disabled aria-describedby="disabled-reason"><span>Unavailable</span></button><span class="sui-board__label" id="disabled-reason">Disabled · no item selected</span></div>
+          <div><button type="button" class="sui-action sui-action--secondary" data-sui-action><span>Return</span></button><span class="sui-board__label">Secondary · slate inset</span></div>
+          <div><span class="sui-selected">✓ Selected</span><span class="sui-board__label">Text + gold edge, never color alone</span></div>
+        </div><p class="sui-board__status" id="specimen-status" role="status" aria-live="polite">Tab to inspect the keyboard focus treatment.</p>
+      </section>
+      <section class="sui-panel"><h2 class="sui-board__section-title">03 · Resources</h2><div class="sui-board__resources">
+        <span class="sui-money"><span class="sui-icon sui-icon--coins" aria-hidden="true"></span>125 gold</span>
+        <span class="sui-price">45 gold</span>
+        <div class="sui-health" aria-label="Health: 42 of 65"><span>Health <b>42 / 65</b></span><div class="sui-health__track"><span class="sui-health__fill" style="--sui-hp:64.6%"></span></div></div>
+      </div></section>
+      <section class="sui-paper"><h3>Parchment carries meaning</h3><p>Keep the item name, numerical effect and action in real text. The painted object supports the decision.</p></section>
+    </div>
+  </section>
+  <section class="sui-board__items sui-panel"><h2 class="sui-board__section-title">04 · Fixed-cell atlas &amp; recessed slots</h2>
+    <div class="sui-board__slots">
+      <figure><button class="sui-slot" type="button" data-sui-slot aria-label="Coins, quantity 50" aria-pressed="false"><span class="sui-icon sui-icon--coins" aria-hidden="true"></span><span class="sui-slot__count">50</span></button><figcaption>Coins · default</figcaption></figure>
+      <figure><button class="sui-slot is-selected" type="button" data-sui-slot aria-label="Potion, quantity 2" aria-pressed="true"><span class="sui-icon sui-icon--potion" aria-hidden="true"></span><span class="sui-slot__count">2</span><span class="sui-slot__mark" aria-hidden="true">✓</span></button><figcaption>Potion · selected</figcaption></figure>
+      <figure><button class="sui-slot is-hovered" type="button" data-sui-slot aria-label="Crystal, quantity 3" aria-pressed="false"><span class="sui-icon sui-icon--crystal" aria-hidden="true"></span><span class="sui-slot__count">3</span></button><figcaption>Crystal · hover</figcaption></figure>
+      <figure><button class="sui-slot" type="button" data-sui-slot aria-label="Scroll, quantity 1" aria-pressed="false"><span class="sui-icon sui-icon--scroll" aria-hidden="true"></span><span class="sui-slot__count">1</span></button><figcaption>Scroll</figcaption></figure>
+      <figure><button class="sui-slot" type="button" data-sui-slot aria-label="Key, quantity 1" aria-pressed="false"><span class="sui-icon sui-icon--key" aria-hidden="true"></span><span class="sui-slot__count">1</span></button><figcaption>Key</figcaption></figure>
+      <figure><button class="sui-slot" type="button" data-sui-slot aria-label="Sun relic, quantity 1" aria-pressed="false"><span class="sui-icon sui-icon--relic" aria-hidden="true"></span><span class="sui-slot__count">1</span></button><figcaption>Relic</figcaption></figure>
+      <figure><span class="sui-slot sui-slot--empty" role="img" aria-label="Empty slot"></span><figcaption>Empty slot</figcaption></figure>
+      <figure><button class="sui-slot" type="button" disabled aria-label="Locked slot"><span class="sui-icon sui-icon--key" aria-hidden="true"></span></button><figcaption>Locked · disabled</figcaption></figure>
+    </div>
+  </section>
+  <div class="sui-board__footer">
+    <section class="sui-panel"><h2 class="sui-board__section-title">05 · Material palette</h2><p class="sui-muted sui-small">Cool ruin / old metal / warm paper / painted red</p><div class="sui-board__swatches">
+      <span class="sui-board__swatch"><i style="background:#10191e"></i>#10191e</span><span class="sui-board__swatch"><i style="background:#26343b"></i>#26343b</span><span class="sui-board__swatch"><i style="background:#a77a3d"></i>#a77a3d</span><span class="sui-board__swatch"><i style="background:#e4bd71"></i>#e4bd71</span><span class="sui-board__swatch"><i style="background:#cfb17b"></i>#cfb17b</span><span class="sui-board__swatch"><i style="background:#8f2f29"></i>#8f2f29</span>
+    </div></section>
+    <section class="sui-panel"><h2 class="sui-board__section-title">06 · Local serif typography</h2><p class="sui-board__type">Alegreya SC · The Ancient Gate</p><p>Crimson Text · Restore 20 HP. Carry what you need.</p><p class="sui-muted sui-small">Titles 48 / names 28 / body 21 / support 18 px</p></section>
+  </div>
+  <p class="sui-board__note">Component specimens only · generated reference art · editable text · local fonts under SIL OFL · no complete screen template</p>
+</main>
+<script>
+  const status = document.getElementById('specimen-status');
+  let activations = 0;
+  document.querySelectorAll('[data-sui-action]').forEach(button => button.addEventListener('click', () => {
+    activations += 1;
+    status.textContent = `${button.textContent.trim()} activated. Specimen activations: ${activations}.`;
+  }));
+  document.querySelectorAll('[data-sui-slot]').forEach(button => button.addEventListener('click', () => {
+    document.querySelectorAll('[data-sui-slot]').forEach(slot => {
+      slot.classList.remove('is-selected');
+      slot.setAttribute('aria-pressed', 'false');
+      slot.querySelector('.sui-slot__mark')?.remove();
+    });
+    button.classList.add('is-selected');
+    button.setAttribute('aria-pressed', 'true');
+    const mark = document.createElement('span');
+    mark.className = 'sui-slot__mark'; mark.setAttribute('aria-hidden', 'true'); mark.textContent = '✓';
+    button.append(mark);
+    status.textContent = `${button.getAttribute('aria-label')}. Selected specimen.`;
+  }));
+</script>
+</body></html>

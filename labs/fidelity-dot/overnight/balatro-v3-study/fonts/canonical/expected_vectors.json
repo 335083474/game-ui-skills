@@ -1,0 +1,4006 @@
+[
+  {
+    "text": "Next",
+    "size": 16,
+    "measure": {
+      "text": "Next",
+      "size": 16,
+      "width": 28,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        28,
+        11
+      ],
+      "advance64": 1856,
+      "advance": 29,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      28,
+      11
+    ],
+    "rawSHA256": "36c98e5a2a2a8d7bac98cac5fdf58011f87140e821dc222ab60f38c087868ea7"
+  },
+  {
+    "text": "Round",
+    "size": 16,
+    "measure": {
+      "text": "Round",
+      "size": 16,
+      "width": 34,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        34,
+        11
+      ],
+      "advance64": 2240,
+      "advance": 35,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      34,
+      11
+    ],
+    "rawSHA256": "3cd74489b0b770c8e3ab0b560068a998034bb50d134e5c3428f508ee58a79898"
+  },
+  {
+    "text": "Reroll",
+    "size": 16,
+    "measure": {
+      "text": "Reroll",
+      "size": 16,
+      "width": 33,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        33,
+        11
+      ],
+      "advance64": 2176,
+      "advance": 34,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      33,
+      11
+    ],
+    "rawSHA256": "e26d9a371b8428c1f20735cba6e00c3731449e5408343e5eef25cd6efcad0cb4"
+  },
+  {
+    "text": "Hands",
+    "size": 16,
+    "measure": {
+      "text": "Hands",
+      "size": 16,
+      "width": 34,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        34,
+        11
+      ],
+      "advance64": 2240,
+      "advance": 35,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      34,
+      11
+    ],
+    "rawSHA256": "ddae4e02390ed1a9e49e1e027762c6aa89762a55395259b019c1226ce9b2c1e4"
+  },
+  {
+    "text": "Discards",
+    "size": 16,
+    "measure": {
+      "text": "Discards",
+      "size": 16,
+      "width": 51,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        51,
+        11
+      ],
+      "advance64": 3328,
+      "advance": 52,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      51,
+      11
+    ],
+    "rawSHA256": "fff8842d221ffcb05a5268a04594df334ecaf8dd43fef0d1562ddf5dfbd635de"
+  },
+  {
+    "text": "Run",
+    "size": 16,
+    "measure": {
+      "text": "Run",
+      "size": 16,
+      "width": 20,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        20,
+        11
+      ],
+      "advance64": 1344,
+      "advance": 21,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      20,
+      11
+    ],
+    "rawSHA256": "67ea2f9092f167bd346628265a85381eabf344e2e5b8cc47d852cd82372f83ea"
+  },
+  {
+    "text": "Info",
+    "size": 16,
+    "measure": {
+      "text": "Info",
+      "size": 16,
+      "width": 27,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        27,
+        11
+      ],
+      "advance64": 1792,
+      "advance": 28,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      27,
+      11
+    ],
+    "rawSHA256": "ccc4d32867e0060a11ed8e2b2d2b8b4cfc5960bb21a1a68ac7fc72ab61008945"
+  },
+  {
+    "text": "Options",
+    "size": 16,
+    "measure": {
+      "text": "Options",
+      "size": 16,
+      "width": 44,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        44,
+        14
+      ],
+      "advance64": 2880,
+      "advance": 45,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      44,
+      14
+    ],
+    "rawSHA256": "d394a5c6cc710a5037b04c4e23f5e383e4a0d2f14fd1f27045d915537593157d"
+  },
+  {
+    "text": "$4",
+    "size": 16,
+    "measure": {
+      "text": "$4",
+      "size": 16,
+      "width": 13,
+      "height": 12,
+      "inkBBox": [
+        0,
+        0,
+        13,
+        12
+      ],
+      "advance64": 896,
+      "advance": 14,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      13,
+      12
+    ],
+    "rawSHA256": "8b12a2690d76edff00091156c72e00642422767b97133d373efbabef92a9f17f"
+  },
+  {
+    "text": "$10",
+    "size": 16,
+    "measure": {
+      "text": "$10",
+      "size": 16,
+      "width": 20,
+      "height": 12,
+      "inkBBox": [
+        0,
+        0,
+        20,
+        12
+      ],
+      "advance64": 1344,
+      "advance": 21,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      20,
+      12
+    ],
+    "rawSHA256": "e2dcd3b7714228b76032dd4a564e3789a2f87235c8b1aad1a3d6065ee10e38a1"
+  },
+  {
+    "text": "$999",
+    "size": 16,
+    "measure": {
+      "text": "$999",
+      "size": 16,
+      "width": 27,
+      "height": 12,
+      "inkBBox": [
+        0,
+        0,
+        27,
+        12
+      ],
+      "advance64": 1792,
+      "advance": 28,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      27,
+      12
+    ],
+    "rawSHA256": "c6123ba2cf8556117cb6ff36779d1455272d05e70e0c9fa26e0b4c5908257aa1"
+  },
+  {
+    "text": "12/8",
+    "size": 16,
+    "measure": {
+      "text": "12/8",
+      "size": 16,
+      "width": 27,
+      "height": 11,
+      "inkBBox": [
+        0,
+        0,
+        27,
+        11
+      ],
+      "advance64": 1792,
+      "advance": 28,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      27,
+      11
+    ],
+    "rawSHA256": "a4611c7b259b9c43e4e6f87894fffb490ae6d2a416885873f3ce65c3f014cac4"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 16,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 16,
+      "width": 112,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        112,
+        14
+      ],
+      "advance64": 7232,
+      "advance": 113,
+      "lineHeight": 16,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_16.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      112,
+      14
+    ],
+    "rawSHA256": "17fbfcdd9e09f6baa9db429bb28b0309aafb2e7e0dcc2dd5f782e2631fc998f9"
+  },
+  {
+    "text": "Next",
+    "size": 18,
+    "measure": {
+      "text": "Next",
+      "size": 18,
+      "width": 32,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        32,
+        13
+      ],
+      "advance64": 2088,
+      "advance": 33,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      32,
+      12
+    ],
+    "rawSHA256": "30f7c064ef9d86c13659c4067d04c9d2e3c92c765c3e21c8b7694cc667ed5c35"
+  },
+  {
+    "text": "Round",
+    "size": 18,
+    "measure": {
+      "text": "Round",
+      "size": 18,
+      "width": 39,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        39,
+        13
+      ],
+      "advance64": 2520,
+      "advance": 39,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      39,
+      12
+    ],
+    "rawSHA256": "c4cd7d691a0738004173cc7f8fde51b49e69cd8160ca079cbdcdf4fa46ff0514"
+  },
+  {
+    "text": "Reroll",
+    "size": 18,
+    "measure": {
+      "text": "Reroll",
+      "size": 18,
+      "width": 37,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        37,
+        13
+      ],
+      "advance64": 2448,
+      "advance": 38,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      37,
+      12
+    ],
+    "rawSHA256": "6dd20f55fcca1a71332309acdd0133599bfece5af5623a1ecd2096e4390cab0c"
+  },
+  {
+    "text": "Hands",
+    "size": 18,
+    "measure": {
+      "text": "Hands",
+      "size": 18,
+      "width": 38,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        38,
+        13
+      ],
+      "advance64": 2520,
+      "advance": 39,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      38,
+      12
+    ],
+    "rawSHA256": "f3514a86f53981c34e42c9069b67d36d2d6fb4a4f167b761821ebc13eb0f9a43"
+  },
+  {
+    "text": "Discards",
+    "size": 18,
+    "measure": {
+      "text": "Discards",
+      "size": 18,
+      "width": 57,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        57,
+        13
+      ],
+      "advance64": 3744,
+      "advance": 59,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      57,
+      12
+    ],
+    "rawSHA256": "bbeb0660bdbf56c311bbe66a9771973c8702bc30c62efae5df8b89c0fcd000b9"
+  },
+  {
+    "text": "Run",
+    "size": 18,
+    "measure": {
+      "text": "Run",
+      "size": 18,
+      "width": 23,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        23,
+        13
+      ],
+      "advance64": 1512,
+      "advance": 24,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      23,
+      12
+    ],
+    "rawSHA256": "d8ddf936922f316595986ced6d976c309d07353752c3cdc5016dae135ff60ff1"
+  },
+  {
+    "text": "Info",
+    "size": 18,
+    "measure": {
+      "text": "Info",
+      "size": 18,
+      "width": 31,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        31,
+        13
+      ],
+      "advance64": 2016,
+      "advance": 32,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      31,
+      12
+    ],
+    "rawSHA256": "f1f93fc440dccf8f20e069c1f384b10b0ec677479bfc3475a2744f5a9f8bb143"
+  },
+  {
+    "text": "Options",
+    "size": 18,
+    "measure": {
+      "text": "Options",
+      "size": 18,
+      "width": 49,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        49,
+        16
+      ],
+      "advance64": 3240,
+      "advance": 51,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      49,
+      15
+    ],
+    "rawSHA256": "fce4760117cb88f3feff81c6aa693f8791beffaa37e7b119b24a7009558541dd"
+  },
+  {
+    "text": "$4",
+    "size": 18,
+    "measure": {
+      "text": "$4",
+      "size": 18,
+      "width": 15,
+      "height": 13,
+      "inkBBox": [
+        0,
+        1,
+        15,
+        14
+      ],
+      "advance64": 1008,
+      "advance": 16,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      15,
+      13
+    ],
+    "rawSHA256": "d02e91c0cc84ef96119b3f4a08474c6daca6aabe0968947880424baed6504bbd"
+  },
+  {
+    "text": "$10",
+    "size": 18,
+    "measure": {
+      "text": "$10",
+      "size": 18,
+      "width": 23,
+      "height": 13,
+      "inkBBox": [
+        0,
+        1,
+        23,
+        14
+      ],
+      "advance64": 1512,
+      "advance": 24,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      23,
+      13
+    ],
+    "rawSHA256": "be8ceb2b379c7d7987138551bbba716c4feada78411510a691e755e67b02cb1e"
+  },
+  {
+    "text": "$999",
+    "size": 18,
+    "measure": {
+      "text": "$999",
+      "size": 18,
+      "width": 31,
+      "height": 13,
+      "inkBBox": [
+        0,
+        1,
+        31,
+        14
+      ],
+      "advance64": 2016,
+      "advance": 32,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      31,
+      13
+    ],
+    "rawSHA256": "0d058d6664a544bb8b1a4aed3a8020c9d97a0da844770bae63d200ac72ae9ac3"
+  },
+  {
+    "text": "12/8",
+    "size": 18,
+    "measure": {
+      "text": "12/8",
+      "size": 18,
+      "width": 31,
+      "height": 12,
+      "inkBBox": [
+        0,
+        1,
+        31,
+        13
+      ],
+      "advance64": 2016,
+      "advance": 32,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      31,
+      12
+    ],
+    "rawSHA256": "bc56fed512f58ffacab5dbd3979c5878cd0a7b4611ca695ee6db95c44de10652"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 18,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 18,
+      "width": 126,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        126,
+        16
+      ],
+      "advance64": 8136,
+      "advance": 127,
+      "lineHeight": 18,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_18.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      126,
+      15
+    ],
+    "rawSHA256": "8c4c6ead1fddba6acdeec18aecb649d2e749d926bfc1b9f92f4118ac8d4705c0"
+  },
+  {
+    "text": "Next",
+    "size": 19,
+    "measure": {
+      "text": "Next",
+      "size": 19,
+      "width": 33,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        33,
+        14
+      ],
+      "advance64": 2204,
+      "advance": 34,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      33,
+      14
+    ],
+    "rawSHA256": "b6fa635f85c877d2939ba9330dbf3bb6a94f37ff503c0002968b2a1f4e7f69eb"
+  },
+  {
+    "text": "Round",
+    "size": 19,
+    "measure": {
+      "text": "Round",
+      "size": 19,
+      "width": 40,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        40,
+        14
+      ],
+      "advance64": 2660,
+      "advance": 42,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      40,
+      14
+    ],
+    "rawSHA256": "07a7a7bf9c7939d93e5a1bf102d842cf2343abfd9af9dfbb096f4be4025402c8"
+  },
+  {
+    "text": "Reroll",
+    "size": 19,
+    "measure": {
+      "text": "Reroll",
+      "size": 19,
+      "width": 39,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        39,
+        14
+      ],
+      "advance64": 2584,
+      "advance": 40,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      39,
+      14
+    ],
+    "rawSHA256": "b69112410477912d2ee9eb8a47af38387643eacb6d5d5a3b32f04bf81b3379e3"
+  },
+  {
+    "text": "Hands",
+    "size": 19,
+    "measure": {
+      "text": "Hands",
+      "size": 19,
+      "width": 40,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        40,
+        14
+      ],
+      "advance64": 2660,
+      "advance": 42,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      40,
+      14
+    ],
+    "rawSHA256": "fb39078ebe7a66c24502c13527bac5b9290578d95ac92751f2ef861b81267753"
+  },
+  {
+    "text": "Discards",
+    "size": 19,
+    "measure": {
+      "text": "Discards",
+      "size": 19,
+      "width": 60,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        60,
+        14
+      ],
+      "advance64": 3952,
+      "advance": 62,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      60,
+      14
+    ],
+    "rawSHA256": "47f8fdd0638f9a8f1f7d08133a7b0420661463f676d813bce2bd4312f4a7c8dd"
+  },
+  {
+    "text": "Run",
+    "size": 19,
+    "measure": {
+      "text": "Run",
+      "size": 19,
+      "width": 24,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        24,
+        14
+      ],
+      "advance64": 1596,
+      "advance": 25,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      24,
+      14
+    ],
+    "rawSHA256": "efbb49890a41b2d4f3af94141bd5fec7ad8d5e4bd7beec3fde17782b42086007"
+  },
+  {
+    "text": "Info",
+    "size": 19,
+    "measure": {
+      "text": "Info",
+      "size": 19,
+      "width": 32,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        32,
+        14
+      ],
+      "advance64": 2128,
+      "advance": 33,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      32,
+      14
+    ],
+    "rawSHA256": "80e194f4f72063bbfbed11b89f3b1ace3851cc8233fbce708ada0ab3b8646e68"
+  },
+  {
+    "text": "Options",
+    "size": 19,
+    "measure": {
+      "text": "Options",
+      "size": 19,
+      "width": 52,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        52,
+        18
+      ],
+      "advance64": 3420,
+      "advance": 53,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      52,
+      18
+    ],
+    "rawSHA256": "6ec69655a69624441f735423ce3b8da2e345796952e58caabf57de8d36a08645"
+  },
+  {
+    "text": "$4",
+    "size": 19,
+    "measure": {
+      "text": "$4",
+      "size": 19,
+      "width": 15,
+      "height": 16,
+      "inkBBox": [
+        0,
+        0,
+        15,
+        16
+      ],
+      "advance64": 1064,
+      "advance": 17,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      15,
+      16
+    ],
+    "rawSHA256": "6336dd52950b1b87dad591fb4a1421ad1cfa502f2f1b5e604f68be8be46cb639"
+  },
+  {
+    "text": "$10",
+    "size": 19,
+    "measure": {
+      "text": "$10",
+      "size": 19,
+      "width": 24,
+      "height": 16,
+      "inkBBox": [
+        0,
+        0,
+        24,
+        16
+      ],
+      "advance64": 1596,
+      "advance": 25,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      24,
+      16
+    ],
+    "rawSHA256": "e96dda2e46d926cf00d4f1d99b1f08a1134b03eb6ed24676af97ffbfb65fe3b0"
+  },
+  {
+    "text": "$999",
+    "size": 19,
+    "measure": {
+      "text": "$999",
+      "size": 19,
+      "width": 32,
+      "height": 16,
+      "inkBBox": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "advance64": 2128,
+      "advance": 33,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      32,
+      16
+    ],
+    "rawSHA256": "d598bad8ef1e6e6f59ec33b6b5a8a87c59a9971f98d1a6b5dc33a3f9ee94e8c1"
+  },
+  {
+    "text": "12/8",
+    "size": 19,
+    "measure": {
+      "text": "12/8",
+      "size": 19,
+      "width": 32,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        32,
+        14
+      ],
+      "advance64": 2128,
+      "advance": 33,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      32,
+      14
+    ],
+    "rawSHA256": "c8f6e9184a98f5c9430dd4a013ffb4173b2009fc4f479d7be422b9902708a6c2"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 19,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 19,
+      "width": 133,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        133,
+        18
+      ],
+      "advance64": 8588,
+      "advance": 134,
+      "lineHeight": 19,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_19.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      133,
+      18
+    ],
+    "rawSHA256": "5beebde12d6148a250d67aa9e8c33090275c65196610c116ffdc527d2a1e733d"
+  },
+  {
+    "text": "Next",
+    "size": 20,
+    "measure": {
+      "text": "Next",
+      "size": 20,
+      "width": 36,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        36,
+        14
+      ],
+      "advance64": 2320,
+      "advance": 36,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      36,
+      14
+    ],
+    "rawSHA256": "5b50c0c79247dc1fd3280fd448c09ec3ba979f513d3cc8c7461ffa0d5abf11b3"
+  },
+  {
+    "text": "Round",
+    "size": 20,
+    "measure": {
+      "text": "Round",
+      "size": 20,
+      "width": 43,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        43,
+        14
+      ],
+      "advance64": 2800,
+      "advance": 44,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      43,
+      14
+    ],
+    "rawSHA256": "59e4110ea217c806750358dd983f2528076d1e12560a0eedb8a982b10caadf2b"
+  },
+  {
+    "text": "Reroll",
+    "size": 20,
+    "measure": {
+      "text": "Reroll",
+      "size": 20,
+      "width": 42,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        42,
+        14
+      ],
+      "advance64": 2720,
+      "advance": 43,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      42,
+      14
+    ],
+    "rawSHA256": "4fbf090b518e559275b448f52a7409475c0c661ae0fb41b4606bd6eddaab99ec"
+  },
+  {
+    "text": "Hands",
+    "size": 20,
+    "measure": {
+      "text": "Hands",
+      "size": 20,
+      "width": 42,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        42,
+        14
+      ],
+      "advance64": 2800,
+      "advance": 44,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      42,
+      14
+    ],
+    "rawSHA256": "707271f86a0c5802158ce02210cbaaef6ac627e0baa1f4401ebe15364a64822c"
+  },
+  {
+    "text": "Discards",
+    "size": 20,
+    "measure": {
+      "text": "Discards",
+      "size": 20,
+      "width": 63,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        63,
+        14
+      ],
+      "advance64": 4160,
+      "advance": 65,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      63,
+      14
+    ],
+    "rawSHA256": "aad0a6ded4becaf600441218affd1dcb44aabbf1f1e6b0dd1d7e187388084187"
+  },
+  {
+    "text": "Run",
+    "size": 20,
+    "measure": {
+      "text": "Run",
+      "size": 20,
+      "width": 26,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        26,
+        14
+      ],
+      "advance64": 1680,
+      "advance": 26,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      26,
+      14
+    ],
+    "rawSHA256": "cf61bd9a30fcb8d2b6a780de25174e76117d2a2a6669147817e0a1fa52b9cc02"
+  },
+  {
+    "text": "Info",
+    "size": 20,
+    "measure": {
+      "text": "Info",
+      "size": 20,
+      "width": 34,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        34,
+        14
+      ],
+      "advance64": 2240,
+      "advance": 35,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      34,
+      14
+    ],
+    "rawSHA256": "767f72a9fafe0f7172a28465b83132e6bc7dde0a126866e1037d0632ac1f39fe"
+  },
+  {
+    "text": "Options",
+    "size": 20,
+    "measure": {
+      "text": "Options",
+      "size": 20,
+      "width": 55,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        55,
+        18
+      ],
+      "advance64": 3600,
+      "advance": 56,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      55,
+      18
+    ],
+    "rawSHA256": "e468159de0ce32927dc502bf032f1cacbbfa1696a9c9bb637d04d84b8b8b3ecd"
+  },
+  {
+    "text": "$4",
+    "size": 20,
+    "measure": {
+      "text": "$4",
+      "size": 20,
+      "width": 17,
+      "height": 16,
+      "inkBBox": [
+        0,
+        0,
+        17,
+        16
+      ],
+      "advance64": 1120,
+      "advance": 18,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      17,
+      16
+    ],
+    "rawSHA256": "57d64ee0d783569d58c2c1a760f0ab1404694ed36e395b67eea03e734ad4d863"
+  },
+  {
+    "text": "$10",
+    "size": 20,
+    "measure": {
+      "text": "$10",
+      "size": 20,
+      "width": 26,
+      "height": 16,
+      "inkBBox": [
+        0,
+        0,
+        26,
+        16
+      ],
+      "advance64": 1680,
+      "advance": 26,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      26,
+      16
+    ],
+    "rawSHA256": "893a1879378b4d9a9ebf0f20d7d1f100be71e7ab3936f8e584a9865575dfc35d"
+  },
+  {
+    "text": "$999",
+    "size": 20,
+    "measure": {
+      "text": "$999",
+      "size": 20,
+      "width": 34,
+      "height": 16,
+      "inkBBox": [
+        0,
+        0,
+        34,
+        16
+      ],
+      "advance64": 2240,
+      "advance": 35,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      34,
+      16
+    ],
+    "rawSHA256": "8a66c0111a8521fc8abe173be91b9081f95e1db58c0e3209b75c798571132d9c"
+  },
+  {
+    "text": "12/8",
+    "size": 20,
+    "measure": {
+      "text": "12/8",
+      "size": 20,
+      "width": 34,
+      "height": 14,
+      "inkBBox": [
+        0,
+        0,
+        34,
+        14
+      ],
+      "advance64": 2240,
+      "advance": 35,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      34,
+      14
+    ],
+    "rawSHA256": "d7f44163f43a5260b8d685ae812bed7a86a55a323512679054bdba0cc18b69ad"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 20,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 20,
+      "width": 141,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        141,
+        18
+      ],
+      "advance64": 9040,
+      "advance": 141,
+      "lineHeight": 20,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_20.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      141,
+      18
+    ],
+    "rawSHA256": "210ec8881ccc850f9a515cdafdd1d7582a5f7cbeb68765c5c5998874c2463622"
+  },
+  {
+    "text": "Next",
+    "size": 22,
+    "measure": {
+      "text": "Next",
+      "size": 22,
+      "width": 38,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        38,
+        16
+      ],
+      "advance64": 2552,
+      "advance": 40,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      38,
+      15
+    ],
+    "rawSHA256": "3e2aab056154034620a2a698c7021f7b21efd034ac03aa8cdbdd76790e923e22"
+  },
+  {
+    "text": "Round",
+    "size": 22,
+    "measure": {
+      "text": "Round",
+      "size": 22,
+      "width": 47,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        47,
+        16
+      ],
+      "advance64": 3080,
+      "advance": 48,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      47,
+      15
+    ],
+    "rawSHA256": "ee6197b42783688135ca962b32c5c915b4681f6cfced2c782891c7479c461885"
+  },
+  {
+    "text": "Reroll",
+    "size": 22,
+    "measure": {
+      "text": "Reroll",
+      "size": 22,
+      "width": 46,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        46,
+        16
+      ],
+      "advance64": 2992,
+      "advance": 47,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      46,
+      15
+    ],
+    "rawSHA256": "f89cac95f8e2a46a6d411c9752e86dd013f2c5254afb188789d75902103e146d"
+  },
+  {
+    "text": "Hands",
+    "size": 22,
+    "measure": {
+      "text": "Hands",
+      "size": 22,
+      "width": 47,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        47,
+        16
+      ],
+      "advance64": 3080,
+      "advance": 48,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      47,
+      15
+    ],
+    "rawSHA256": "030cf3bb78167f2d8b16aff689f4964aa386908cb8c50c4f22ddb7bff4738b0f"
+  },
+  {
+    "text": "Discards",
+    "size": 22,
+    "measure": {
+      "text": "Discards",
+      "size": 22,
+      "width": 70,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        70,
+        16
+      ],
+      "advance64": 4576,
+      "advance": 72,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      70,
+      15
+    ],
+    "rawSHA256": "5003269f23c9941579c52f4cf9164b0c4f64baf172929047f605510cadb81fe9"
+  },
+  {
+    "text": "Run",
+    "size": 22,
+    "measure": {
+      "text": "Run",
+      "size": 22,
+      "width": 27,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        27,
+        16
+      ],
+      "advance64": 1848,
+      "advance": 29,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      27,
+      15
+    ],
+    "rawSHA256": "ca11552ffd84bee057c9544039dbfe7f12fb011dbae93f7038aed79479094bb2"
+  },
+  {
+    "text": "Info",
+    "size": 22,
+    "measure": {
+      "text": "Info",
+      "size": 22,
+      "width": 37,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        37,
+        16
+      ],
+      "advance64": 2464,
+      "advance": 39,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      37,
+      15
+    ],
+    "rawSHA256": "a8dbb762888ae58ab7b6c00a39237104e9ce6cee7ab0b70ab165c64a3f46da76"
+  },
+  {
+    "text": "Options",
+    "size": 22,
+    "measure": {
+      "text": "Options",
+      "size": 22,
+      "width": 60,
+      "height": 19,
+      "inkBBox": [
+        0,
+        1,
+        60,
+        20
+      ],
+      "advance64": 3960,
+      "advance": 62,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      60,
+      19
+    ],
+    "rawSHA256": "12aa04686d5cec2e109ee64928fb294c908928025c019dedb92190685ae11936"
+  },
+  {
+    "text": "$4",
+    "size": 22,
+    "measure": {
+      "text": "$4",
+      "size": 22,
+      "width": 18,
+      "height": 16,
+      "inkBBox": [
+        0,
+        1,
+        18,
+        17
+      ],
+      "advance64": 1232,
+      "advance": 19,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      18,
+      16
+    ],
+    "rawSHA256": "0c4c4e2a56eb1f67a89897561023b00437854a3e06bb674797f0abd28e39227e"
+  },
+  {
+    "text": "$10",
+    "size": 22,
+    "measure": {
+      "text": "$10",
+      "size": 22,
+      "width": 27,
+      "height": 16,
+      "inkBBox": [
+        0,
+        1,
+        27,
+        17
+      ],
+      "advance64": 1848,
+      "advance": 29,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      27,
+      16
+    ],
+    "rawSHA256": "24489a2719151a964e43065d79939ba8102f27341b862e5b0bebe37185c9b41a"
+  },
+  {
+    "text": "$999",
+    "size": 22,
+    "measure": {
+      "text": "$999",
+      "size": 22,
+      "width": 37,
+      "height": 16,
+      "inkBBox": [
+        0,
+        1,
+        37,
+        17
+      ],
+      "advance64": 2464,
+      "advance": 39,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      37,
+      16
+    ],
+    "rawSHA256": "f23e88a77761fb6df18c4c83783a9ba72359c5fe02231362968402ae2f9ac85b"
+  },
+  {
+    "text": "12/8",
+    "size": 22,
+    "measure": {
+      "text": "12/8",
+      "size": 22,
+      "width": 37,
+      "height": 15,
+      "inkBBox": [
+        0,
+        1,
+        37,
+        16
+      ],
+      "advance64": 2464,
+      "advance": 39,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      37,
+      15
+    ],
+    "rawSHA256": "e0ffef16e63b40021fd519fead598ce459c7667a52cad0e41255135e579b80ba"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 22,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 22,
+      "width": 154,
+      "height": 19,
+      "inkBBox": [
+        0,
+        1,
+        154,
+        20
+      ],
+      "advance64": 9944,
+      "advance": 155,
+      "lineHeight": 22,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_22.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      154,
+      19
+    ],
+    "rawSHA256": "016ee91654389a48265cd329f43ad153a2601ffc33b9f16131b7ae73ee92b059"
+  },
+  {
+    "text": "Next",
+    "size": 24,
+    "measure": {
+      "text": "Next",
+      "size": 24,
+      "width": 42,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        42,
+        17
+      ],
+      "advance64": 2784,
+      "advance": 44,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      42,
+      17
+    ],
+    "rawSHA256": "bfdf266ff65a23473444f9d45aecff4e68fea0fc8e8f7a93fd38e2dfe5b7ad6d"
+  },
+  {
+    "text": "Round",
+    "size": 24,
+    "measure": {
+      "text": "Round",
+      "size": 24,
+      "width": 51,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        51,
+        17
+      ],
+      "advance64": 3360,
+      "advance": 53,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      51,
+      17
+    ],
+    "rawSHA256": "a201ae0e73bcf8f084a7b1c223ce6ccf5698a96935620aa43b0f917da4943f9e"
+  },
+  {
+    "text": "Reroll",
+    "size": 24,
+    "measure": {
+      "text": "Reroll",
+      "size": 24,
+      "width": 50,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        50,
+        17
+      ],
+      "advance64": 3264,
+      "advance": 51,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      50,
+      17
+    ],
+    "rawSHA256": "be90fc921e39d776d71be2e78f33617771cc401a1facb19ee954797cbc8bc33f"
+  },
+  {
+    "text": "Hands",
+    "size": 24,
+    "measure": {
+      "text": "Hands",
+      "size": 24,
+      "width": 51,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        51,
+        17
+      ],
+      "advance64": 3360,
+      "advance": 53,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      51,
+      17
+    ],
+    "rawSHA256": "b5059b8e8a09fd2d1017dff80f93778a8b026a730fdb0a786d3153cbd4b36ad2"
+  },
+  {
+    "text": "Discards",
+    "size": 24,
+    "measure": {
+      "text": "Discards",
+      "size": 24,
+      "width": 77,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        77,
+        17
+      ],
+      "advance64": 4992,
+      "advance": 78,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      77,
+      17
+    ],
+    "rawSHA256": "d8080dc3158547931bde076a1114a3098612e57ca5d12d40f48611b4c66eaa87"
+  },
+  {
+    "text": "Run",
+    "size": 24,
+    "measure": {
+      "text": "Run",
+      "size": 24,
+      "width": 30,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        30,
+        17
+      ],
+      "advance64": 2016,
+      "advance": 32,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      30,
+      17
+    ],
+    "rawSHA256": "225a04d5f34353a1ced3e4d8f8cbd57fe2eb279123feb538a2bb49d490a05bf5"
+  },
+  {
+    "text": "Info",
+    "size": 24,
+    "measure": {
+      "text": "Info",
+      "size": 24,
+      "width": 41,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        41,
+        17
+      ],
+      "advance64": 2688,
+      "advance": 42,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      41,
+      17
+    ],
+    "rawSHA256": "4639407c0b539891ee817f16a17d0df9a2f513f4eda9dcf1fa82345d40445155"
+  },
+  {
+    "text": "Options",
+    "size": 24,
+    "measure": {
+      "text": "Options",
+      "size": 24,
+      "width": 66,
+      "height": 21,
+      "inkBBox": [
+        0,
+        0,
+        66,
+        21
+      ],
+      "advance64": 4320,
+      "advance": 68,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      66,
+      21
+    ],
+    "rawSHA256": "144e29a5a05000d2b0c491ed7f7040cea98df78996b17b51d70d0b0734fdec49"
+  },
+  {
+    "text": "$4",
+    "size": 24,
+    "measure": {
+      "text": "$4",
+      "size": 24,
+      "width": 20,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        20,
+        18
+      ],
+      "advance64": 1344,
+      "advance": 21,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      20,
+      18
+    ],
+    "rawSHA256": "2bb978548a3de39e56fd316cb451f178cb9bd51b786dc33a8b08c150de06ad66"
+  },
+  {
+    "text": "$10",
+    "size": 24,
+    "measure": {
+      "text": "$10",
+      "size": 24,
+      "width": 30,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        30,
+        18
+      ],
+      "advance64": 2016,
+      "advance": 32,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      30,
+      18
+    ],
+    "rawSHA256": "5e22908a5c5911b2e887407cc0ae5e3d204dacbea499afe8d52e23a13f0c75ae"
+  },
+  {
+    "text": "$999",
+    "size": 24,
+    "measure": {
+      "text": "$999",
+      "size": 24,
+      "width": 41,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        41,
+        18
+      ],
+      "advance64": 2688,
+      "advance": 42,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      41,
+      18
+    ],
+    "rawSHA256": "8efac671f5ec1a25de34b44351462a5eac3cca4203adfce47bdc6414ee524d40"
+  },
+  {
+    "text": "12/8",
+    "size": 24,
+    "measure": {
+      "text": "12/8",
+      "size": 24,
+      "width": 41,
+      "height": 17,
+      "inkBBox": [
+        0,
+        0,
+        41,
+        17
+      ],
+      "advance64": 2688,
+      "advance": 42,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      41,
+      17
+    ],
+    "rawSHA256": "87f26162b861be4e3f0174b02758c9bccde5149cf7f9bc3d9cb9f65b2346f306"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 24,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 24,
+      "width": 168,
+      "height": 21,
+      "inkBBox": [
+        0,
+        0,
+        168,
+        21
+      ],
+      "advance64": 10848,
+      "advance": 170,
+      "lineHeight": 24,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_24.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      168,
+      21
+    ],
+    "rawSHA256": "4b40bd1784c4d53ca27d8f5440d04cef8554b880e8d4ba4375ba293925a79857"
+  },
+  {
+    "text": "Next",
+    "size": 26,
+    "measure": {
+      "text": "Next",
+      "size": 26,
+      "width": 46,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        46,
+        18
+      ],
+      "advance64": 3016,
+      "advance": 47,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      46,
+      18
+    ],
+    "rawSHA256": "43c248e50ad5a075f93cfbdfe5cdb5745f43f28d53da863a4373de4f97342d3f"
+  },
+  {
+    "text": "Round",
+    "size": 26,
+    "measure": {
+      "text": "Round",
+      "size": 26,
+      "width": 56,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        56,
+        18
+      ],
+      "advance64": 3640,
+      "advance": 57,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      56,
+      18
+    ],
+    "rawSHA256": "157f16ec20af29a089d97897d81eaef5417fa9c4d5edb7dcca45e4af25bee3e4"
+  },
+  {
+    "text": "Reroll",
+    "size": 26,
+    "measure": {
+      "text": "Reroll",
+      "size": 26,
+      "width": 53,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        53,
+        18
+      ],
+      "advance64": 3536,
+      "advance": 55,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      53,
+      18
+    ],
+    "rawSHA256": "824e5adf679412ab12ce505aa43b478748f78fe0a5785d3d63ddbd925f4e3b96"
+  },
+  {
+    "text": "Hands",
+    "size": 26,
+    "measure": {
+      "text": "Hands",
+      "size": 26,
+      "width": 56,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        56,
+        18
+      ],
+      "advance64": 3640,
+      "advance": 57,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      56,
+      18
+    ],
+    "rawSHA256": "2005612560c87ea5ae61d1d22b30fce6348cea7a0da72be0c28099cdda04e095"
+  },
+  {
+    "text": "Discards",
+    "size": 26,
+    "measure": {
+      "text": "Discards",
+      "size": 26,
+      "width": 83,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        83,
+        18
+      ],
+      "advance64": 5408,
+      "advance": 85,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      83,
+      18
+    ],
+    "rawSHA256": "75117f2c760c4bad34d9ce3a0dcc3bab865bba54633a234e3631d36b4531614b"
+  },
+  {
+    "text": "Run",
+    "size": 26,
+    "measure": {
+      "text": "Run",
+      "size": 26,
+      "width": 33,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        33,
+        18
+      ],
+      "advance64": 2184,
+      "advance": 34,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      33,
+      18
+    ],
+    "rawSHA256": "1898e8b8608604719340fcc6b68d0b5be7e5c7eb15ee38365f78e0b67c743743"
+  },
+  {
+    "text": "Info",
+    "size": 26,
+    "measure": {
+      "text": "Info",
+      "size": 26,
+      "width": 44,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        44,
+        18
+      ],
+      "advance64": 2912,
+      "advance": 46,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      44,
+      18
+    ],
+    "rawSHA256": "23a49fb868d99a9f7f2cc8c04d174d521725779acfe87db23e58140e7d35e9b9"
+  },
+  {
+    "text": "Options",
+    "size": 26,
+    "measure": {
+      "text": "Options",
+      "size": 26,
+      "width": 72,
+      "height": 23,
+      "inkBBox": [
+        0,
+        0,
+        72,
+        23
+      ],
+      "advance64": 4680,
+      "advance": 73,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      72,
+      23
+    ],
+    "rawSHA256": "39bdde97f6bf351e9235a61548ae7ac77b0287da2af5dbebcfd7418182af73cb"
+  },
+  {
+    "text": "$4",
+    "size": 26,
+    "measure": {
+      "text": "$4",
+      "size": 26,
+      "width": 21,
+      "height": 20,
+      "inkBBox": [
+        0,
+        0,
+        21,
+        20
+      ],
+      "advance64": 1456,
+      "advance": 23,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      21,
+      20
+    ],
+    "rawSHA256": "7b059c1229bd4ea7f8114c4596e0e05af8e6d8e385f18b303119ff915c18d123"
+  },
+  {
+    "text": "$10",
+    "size": 26,
+    "measure": {
+      "text": "$10",
+      "size": 26,
+      "width": 33,
+      "height": 20,
+      "inkBBox": [
+        0,
+        0,
+        33,
+        20
+      ],
+      "advance64": 2184,
+      "advance": 34,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      33,
+      20
+    ],
+    "rawSHA256": "957e9cdd44d5c92463b1ff7f06e60c457fdfbdda210eba9b96c9442b037dc38a"
+  },
+  {
+    "text": "$999",
+    "size": 26,
+    "measure": {
+      "text": "$999",
+      "size": 26,
+      "width": 44,
+      "height": 20,
+      "inkBBox": [
+        0,
+        0,
+        44,
+        20
+      ],
+      "advance64": 2912,
+      "advance": 46,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      44,
+      20
+    ],
+    "rawSHA256": "a8121b699e4529a9a1c7308795410d78cd212f40034e518c6dfa4bb9de294e8b"
+  },
+  {
+    "text": "12/8",
+    "size": 26,
+    "measure": {
+      "text": "12/8",
+      "size": 26,
+      "width": 44,
+      "height": 18,
+      "inkBBox": [
+        0,
+        0,
+        44,
+        18
+      ],
+      "advance64": 2912,
+      "advance": 46,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      44,
+      18
+    ],
+    "rawSHA256": "70947d2eacf2188da521302d232ff37a3a6f63f33ec6ce1039daed17394a704d"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 26,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 26,
+      "width": 182,
+      "height": 23,
+      "inkBBox": [
+        0,
+        0,
+        182,
+        23
+      ],
+      "advance64": 11752,
+      "advance": 184,
+      "lineHeight": 26,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_26.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      182,
+      23
+    ],
+    "rawSHA256": "df9a28c29d50807efa5cd2b11cc9b1d5f52e9747fd4d3ca6f6a15f6629472879"
+  },
+  {
+    "text": "Next",
+    "size": 32,
+    "measure": {
+      "text": "Next",
+      "size": 32,
+      "width": 56,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        56,
+        22
+      ],
+      "advance64": 3712,
+      "advance": 58,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      56,
+      22
+    ],
+    "rawSHA256": "8f32a5ab00eaac3df15032ded4bcb3586c8cc74a6d842f1fe51baf35dff15bf6"
+  },
+  {
+    "text": "Round",
+    "size": 32,
+    "measure": {
+      "text": "Round",
+      "size": 32,
+      "width": 68,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        68,
+        22
+      ],
+      "advance64": 4480,
+      "advance": 70,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      68,
+      22
+    ],
+    "rawSHA256": "1a15747bc84df12b19bcade215196ae367fee19c5e572dcd61eb29360a560ad0"
+  },
+  {
+    "text": "Reroll",
+    "size": 32,
+    "measure": {
+      "text": "Reroll",
+      "size": 32,
+      "width": 66,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        66,
+        22
+      ],
+      "advance64": 4352,
+      "advance": 68,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      66,
+      22
+    ],
+    "rawSHA256": "57e21a51b338c7c826de995fcbcd6c7f62137996f0698180272b1b3e4cae4b2b"
+  },
+  {
+    "text": "Hands",
+    "size": 32,
+    "measure": {
+      "text": "Hands",
+      "size": 32,
+      "width": 68,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        68,
+        22
+      ],
+      "advance64": 4480,
+      "advance": 70,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      68,
+      22
+    ],
+    "rawSHA256": "9bc28b944701b062a702b1bf78caf5fc4470b06693dc9ec50651cd164df4a003"
+  },
+  {
+    "text": "Discards",
+    "size": 32,
+    "measure": {
+      "text": "Discards",
+      "size": 32,
+      "width": 102,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        102,
+        22
+      ],
+      "advance64": 6656,
+      "advance": 104,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      102,
+      22
+    ],
+    "rawSHA256": "a1df63cf24e3a16f2eabf5ac699a6dfe0b1e2d85fc130edca199819c99a2004d"
+  },
+  {
+    "text": "Run",
+    "size": 32,
+    "measure": {
+      "text": "Run",
+      "size": 32,
+      "width": 40,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        40,
+        22
+      ],
+      "advance64": 2688,
+      "advance": 42,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      40,
+      22
+    ],
+    "rawSHA256": "e96995ea57b66a0df9e172170ffdd9bef759faba8aa326dc9296886dbd96b90a"
+  },
+  {
+    "text": "Info",
+    "size": 32,
+    "measure": {
+      "text": "Info",
+      "size": 32,
+      "width": 54,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        54,
+        22
+      ],
+      "advance64": 3584,
+      "advance": 56,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      54,
+      22
+    ],
+    "rawSHA256": "a09c901ad1b232f9fabd664a7b7c5f62a924b3d4317132a43f3bd692cb34f179"
+  },
+  {
+    "text": "Options",
+    "size": 32,
+    "measure": {
+      "text": "Options",
+      "size": 32,
+      "width": 88,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        88,
+        28
+      ],
+      "advance64": 5760,
+      "advance": 90,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      88,
+      28
+    ],
+    "rawSHA256": "0a47d794ec2dc133492ec4a85aaad154c1e29183085825e592534930eab4d850"
+  },
+  {
+    "text": "$4",
+    "size": 32,
+    "measure": {
+      "text": "$4",
+      "size": 32,
+      "width": 26,
+      "height": 24,
+      "inkBBox": [
+        0,
+        0,
+        26,
+        24
+      ],
+      "advance64": 1792,
+      "advance": 28,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      26,
+      24
+    ],
+    "rawSHA256": "4d5ba3845173c7a93c4bcbcc3372a25ebb70e00d84c72569bf9179e975440129"
+  },
+  {
+    "text": "$10",
+    "size": 32,
+    "measure": {
+      "text": "$10",
+      "size": 32,
+      "width": 40,
+      "height": 24,
+      "inkBBox": [
+        0,
+        0,
+        40,
+        24
+      ],
+      "advance64": 2688,
+      "advance": 42,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      40,
+      24
+    ],
+    "rawSHA256": "685b0c0e3f668b09c9ec0bfba43cfbda7a0d48fec55e51e22e97428ac0788cff"
+  },
+  {
+    "text": "$999",
+    "size": 32,
+    "measure": {
+      "text": "$999",
+      "size": 32,
+      "width": 54,
+      "height": 24,
+      "inkBBox": [
+        0,
+        0,
+        54,
+        24
+      ],
+      "advance64": 3584,
+      "advance": 56,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      54,
+      24
+    ],
+    "rawSHA256": "d0f31e71d9a820c6e074bae41c4c72ad4618aaa114060c768f0d44532e317a9d"
+  },
+  {
+    "text": "12/8",
+    "size": 32,
+    "measure": {
+      "text": "12/8",
+      "size": 32,
+      "width": 54,
+      "height": 22,
+      "inkBBox": [
+        0,
+        0,
+        54,
+        22
+      ],
+      "advance64": 3584,
+      "advance": 56,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      54,
+      22
+    ],
+    "rawSHA256": "64548a590151298235cf300c8661e6682dd5812d13d5959874a8817832b668dd"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 32,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 32,
+      "width": 224,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        224,
+        28
+      ],
+      "advance64": 14464,
+      "advance": 226,
+      "lineHeight": 32,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_32.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      224,
+      28
+    ],
+    "rawSHA256": "e274247ddb97b149609ba1fbf8f1f380825e794256c814b990a9f4ccbd30e217"
+  },
+  {
+    "text": "Next",
+    "size": 40,
+    "measure": {
+      "text": "Next",
+      "size": 40,
+      "width": 70,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        70,
+        28
+      ],
+      "advance64": 4640,
+      "advance": 73,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      70,
+      28
+    ],
+    "rawSHA256": "7f7cbb77218ed1c006096a1ab9938bf97ab0cea4be1bad025693bee52f20fde5"
+  },
+  {
+    "text": "Round",
+    "size": 40,
+    "measure": {
+      "text": "Round",
+      "size": 40,
+      "width": 85,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        85,
+        28
+      ],
+      "advance64": 5600,
+      "advance": 88,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      85,
+      28
+    ],
+    "rawSHA256": "e9d07424a5e139bf2d43c16d28004367d46127a87bb466df370df376e0c90e76"
+  },
+  {
+    "text": "Reroll",
+    "size": 40,
+    "measure": {
+      "text": "Reroll",
+      "size": 40,
+      "width": 83,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        83,
+        28
+      ],
+      "advance64": 5440,
+      "advance": 85,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      83,
+      28
+    ],
+    "rawSHA256": "3e1960f3a53d39f835d71434e9f50324b3a4d46b8d6b8dbce3b4be0eb8926d60"
+  },
+  {
+    "text": "Hands",
+    "size": 40,
+    "measure": {
+      "text": "Hands",
+      "size": 40,
+      "width": 85,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        85,
+        28
+      ],
+      "advance64": 5600,
+      "advance": 88,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      85,
+      28
+    ],
+    "rawSHA256": "a935c059f7fc85a6f6b2a359ee5cd5a903f16295da5ab3901bb48d3176df2e1f"
+  },
+  {
+    "text": "Discards",
+    "size": 40,
+    "measure": {
+      "text": "Discards",
+      "size": 40,
+      "width": 128,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        128,
+        28
+      ],
+      "advance64": 8320,
+      "advance": 130,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      128,
+      28
+    ],
+    "rawSHA256": "5957ebf075c31b7fdfc46a6a3c50aafe552ba8a05cfd8db4d77f1c2218244389"
+  },
+  {
+    "text": "Run",
+    "size": 40,
+    "measure": {
+      "text": "Run",
+      "size": 40,
+      "width": 50,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        50,
+        28
+      ],
+      "advance64": 3360,
+      "advance": 53,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      50,
+      28
+    ],
+    "rawSHA256": "5d8204574a76e3801c50f223a8caa8da79ad9085ed8559952dee6a162876fded"
+  },
+  {
+    "text": "Info",
+    "size": 40,
+    "measure": {
+      "text": "Info",
+      "size": 40,
+      "width": 68,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        68,
+        28
+      ],
+      "advance64": 4480,
+      "advance": 70,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      68,
+      28
+    ],
+    "rawSHA256": "b4ffd7789414230bf520f39faa3851c14062106573053e8b426466dcadac1b18"
+  },
+  {
+    "text": "Options",
+    "size": 40,
+    "measure": {
+      "text": "Options",
+      "size": 40,
+      "width": 110,
+      "height": 35,
+      "inkBBox": [
+        0,
+        0,
+        110,
+        35
+      ],
+      "advance64": 7200,
+      "advance": 113,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      110,
+      35
+    ],
+    "rawSHA256": "1cf0fde82931851cf04030087a81ac580a7c191c889932a86a32587dae4e141b"
+  },
+  {
+    "text": "$4",
+    "size": 40,
+    "measure": {
+      "text": "$4",
+      "size": 40,
+      "width": 33,
+      "height": 30,
+      "inkBBox": [
+        0,
+        0,
+        33,
+        30
+      ],
+      "advance64": 2240,
+      "advance": 35,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      33,
+      30
+    ],
+    "rawSHA256": "da51ae482321bdc12f27257b2c7802d91705f802891bcca8d164a07a6743be3a"
+  },
+  {
+    "text": "$10",
+    "size": 40,
+    "measure": {
+      "text": "$10",
+      "size": 40,
+      "width": 50,
+      "height": 30,
+      "inkBBox": [
+        0,
+        0,
+        50,
+        30
+      ],
+      "advance64": 3360,
+      "advance": 53,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      50,
+      30
+    ],
+    "rawSHA256": "2a392d8fd4a6c57c752985773b2f3d5b56a7cb17fefc9a835cf9e570916ef742"
+  },
+  {
+    "text": "$999",
+    "size": 40,
+    "measure": {
+      "text": "$999",
+      "size": 40,
+      "width": 68,
+      "height": 30,
+      "inkBBox": [
+        0,
+        0,
+        68,
+        30
+      ],
+      "advance64": 4480,
+      "advance": 70,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      68,
+      30
+    ],
+    "rawSHA256": "852a4400db5b32b129501f864bcf3fe4ab8a116a428aecf3cb2ec51bda23e039"
+  },
+  {
+    "text": "12/8",
+    "size": 40,
+    "measure": {
+      "text": "12/8",
+      "size": 40,
+      "width": 68,
+      "height": 28,
+      "inkBBox": [
+        0,
+        0,
+        68,
+        28
+      ],
+      "advance64": 4480,
+      "advance": 70,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      68,
+      28
+    ],
+    "rawSHA256": "60276df3456e05a206944fad0385cbd36df0aa165c5a01a526ae5b440414626f"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 40,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 40,
+      "width": 280,
+      "height": 35,
+      "inkBBox": [
+        0,
+        0,
+        280,
+        35
+      ],
+      "advance64": 18080,
+      "advance": 283,
+      "lineHeight": 40,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_40.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      280,
+      35
+    ],
+    "rawSHA256": "0523e44b66b7f5746170c8088a50a161e45fd86f9106ef57f4cb5d42f8aaec3f"
+  },
+  {
+    "text": "Next",
+    "size": 48,
+    "measure": {
+      "text": "Next",
+      "size": 48,
+      "width": 84,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        84,
+        33
+      ],
+      "advance64": 5568,
+      "advance": 87,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      84,
+      33
+    ],
+    "rawSHA256": "574f6b544071b5a3b5f670b763484eced3f95827b40425917d3fedeff98bca2b"
+  },
+  {
+    "text": "Round",
+    "size": 48,
+    "measure": {
+      "text": "Round",
+      "size": 48,
+      "width": 102,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        102,
+        33
+      ],
+      "advance64": 6720,
+      "advance": 105,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      102,
+      33
+    ],
+    "rawSHA256": "290480f7c6f5d0a0cdb382c72c671ccd17548b3745a00eeceaa44a34c64fb028"
+  },
+  {
+    "text": "Reroll",
+    "size": 48,
+    "measure": {
+      "text": "Reroll",
+      "size": 48,
+      "width": 99,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        99,
+        33
+      ],
+      "advance64": 6528,
+      "advance": 102,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      99,
+      33
+    ],
+    "rawSHA256": "0bf9d4c37a51f12b6fcd4cc48c399bf131f9fb25df4ce38b8da836729ed6b5a2"
+  },
+  {
+    "text": "Hands",
+    "size": 48,
+    "measure": {
+      "text": "Hands",
+      "size": 48,
+      "width": 102,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        102,
+        33
+      ],
+      "advance64": 6720,
+      "advance": 105,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      102,
+      33
+    ],
+    "rawSHA256": "49a42b603a440e05561c4c17324c2349de3151c016a3459eda6524b79a99be83"
+  },
+  {
+    "text": "Discards",
+    "size": 48,
+    "measure": {
+      "text": "Discards",
+      "size": 48,
+      "width": 153,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        153,
+        33
+      ],
+      "advance64": 9984,
+      "advance": 156,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      153,
+      33
+    ],
+    "rawSHA256": "eb7ed6ba03f2c28f4cd71d0d2a6149d54a5731726f63d7f755918cf8ad55fee0"
+  },
+  {
+    "text": "Run",
+    "size": 48,
+    "measure": {
+      "text": "Run",
+      "size": 48,
+      "width": 60,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        60,
+        33
+      ],
+      "advance64": 4032,
+      "advance": 63,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      60,
+      33
+    ],
+    "rawSHA256": "285ca65640ff0d76aa4c6f8a221b761f95c2f21e7750a988616527fe405a2500"
+  },
+  {
+    "text": "Info",
+    "size": 48,
+    "measure": {
+      "text": "Info",
+      "size": 48,
+      "width": 81,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        81,
+        33
+      ],
+      "advance64": 5376,
+      "advance": 84,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      81,
+      33
+    ],
+    "rawSHA256": "f50e9996517cf954e5b7c30177be821e564b7c789ec75e8fb43f19d734873b08"
+  },
+  {
+    "text": "Options",
+    "size": 48,
+    "measure": {
+      "text": "Options",
+      "size": 48,
+      "width": 132,
+      "height": 42,
+      "inkBBox": [
+        0,
+        0,
+        132,
+        42
+      ],
+      "advance64": 8640,
+      "advance": 135,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      132,
+      42
+    ],
+    "rawSHA256": "60ef802806b232d9e2133a8c8246b9671be92bfe2e40c7f611f88dddacefd903"
+  },
+  {
+    "text": "$4",
+    "size": 48,
+    "measure": {
+      "text": "$4",
+      "size": 48,
+      "width": 39,
+      "height": 36,
+      "inkBBox": [
+        0,
+        0,
+        39,
+        36
+      ],
+      "advance64": 2688,
+      "advance": 42,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      39,
+      36
+    ],
+    "rawSHA256": "fb5c8119a1d191c581b0c3552f246b2862edd60a08c21d8b0a6c264cbef2d305"
+  },
+  {
+    "text": "$10",
+    "size": 48,
+    "measure": {
+      "text": "$10",
+      "size": 48,
+      "width": 60,
+      "height": 36,
+      "inkBBox": [
+        0,
+        0,
+        60,
+        36
+      ],
+      "advance64": 4032,
+      "advance": 63,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      60,
+      36
+    ],
+    "rawSHA256": "2f4dd5a930a432328e8028f645f016d757016356bc29eac61aeca5a046ceca09"
+  },
+  {
+    "text": "$999",
+    "size": 48,
+    "measure": {
+      "text": "$999",
+      "size": 48,
+      "width": 81,
+      "height": 36,
+      "inkBBox": [
+        0,
+        0,
+        81,
+        36
+      ],
+      "advance64": 5376,
+      "advance": 84,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      81,
+      36
+    ],
+    "rawSHA256": "91029d2adc26935a66b5a08d12d797950ff6fc5192f093be25bda989e4f69734"
+  },
+  {
+    "text": "12/8",
+    "size": 48,
+    "measure": {
+      "text": "12/8",
+      "size": 48,
+      "width": 81,
+      "height": 33,
+      "inkBBox": [
+        0,
+        0,
+        81,
+        33
+      ],
+      "advance64": 5376,
+      "advance": 84,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      81,
+      33
+    ],
+    "rawSHA256": "e398c1dc27cd25c43bedc9969ddc0a216305e3caf63282775607e9fcb4ddef0e"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 48,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 48,
+      "width": 336,
+      "height": 42,
+      "inkBBox": [
+        0,
+        0,
+        336,
+        42
+      ],
+      "advance64": 21696,
+      "advance": 339,
+      "lineHeight": 48,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_48.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      336,
+      42
+    ],
+    "rawSHA256": "b74feb05bb9d6e946daa17316b4d22362067c889a7baa466b395dfc0fb357280"
+  },
+  {
+    "text": "Next",
+    "size": 96,
+    "measure": {
+      "text": "Next",
+      "size": 96,
+      "width": 168,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        168,
+        66
+      ],
+      "advance64": 11136,
+      "advance": 174,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      168,
+      66
+    ],
+    "rawSHA256": "5b90479bb6275d7d693f7b6ed54e74baa51cc898d35d31aef6b70fc1bb295d61"
+  },
+  {
+    "text": "Round",
+    "size": 96,
+    "measure": {
+      "text": "Round",
+      "size": 96,
+      "width": 204,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        204,
+        66
+      ],
+      "advance64": 13440,
+      "advance": 210,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      204,
+      66
+    ],
+    "rawSHA256": "930ff6ef1484996180c4f5d556e76a658c1f267f877144b777b961dfae5a6a62"
+  },
+  {
+    "text": "Reroll",
+    "size": 96,
+    "measure": {
+      "text": "Reroll",
+      "size": 96,
+      "width": 198,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        198,
+        66
+      ],
+      "advance64": 13056,
+      "advance": 204,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      198,
+      66
+    ],
+    "rawSHA256": "ae3022180961c1e5911faf5e5f6f663879a21cbc4517b0086299d033319ddf92"
+  },
+  {
+    "text": "Hands",
+    "size": 96,
+    "measure": {
+      "text": "Hands",
+      "size": 96,
+      "width": 204,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        204,
+        66
+      ],
+      "advance64": 13440,
+      "advance": 210,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      204,
+      66
+    ],
+    "rawSHA256": "211f2235f04c4810a44e8b5ccc5cbb050bb2ae962fe820d205fe8ea2af678ce8"
+  },
+  {
+    "text": "Discards",
+    "size": 96,
+    "measure": {
+      "text": "Discards",
+      "size": 96,
+      "width": 306,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        306,
+        66
+      ],
+      "advance64": 19968,
+      "advance": 312,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      306,
+      66
+    ],
+    "rawSHA256": "91f837fd56ed3505985995322914422cd77b63941adb6341a1f9bbbf61ba5516"
+  },
+  {
+    "text": "Run",
+    "size": 96,
+    "measure": {
+      "text": "Run",
+      "size": 96,
+      "width": 120,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        120,
+        66
+      ],
+      "advance64": 8064,
+      "advance": 126,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      120,
+      66
+    ],
+    "rawSHA256": "09c796a16a737e1dfbe049a2d39d65280b14155ee81cd133422992e9178b312b"
+  },
+  {
+    "text": "Info",
+    "size": 96,
+    "measure": {
+      "text": "Info",
+      "size": 96,
+      "width": 162,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        162,
+        66
+      ],
+      "advance64": 10752,
+      "advance": 168,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      162,
+      66
+    ],
+    "rawSHA256": "053c5ffaad96dd8e724a67ea615582d97414b3c05cb8b5ca8d802b344f3dd2de"
+  },
+  {
+    "text": "Options",
+    "size": 96,
+    "measure": {
+      "text": "Options",
+      "size": 96,
+      "width": 264,
+      "height": 84,
+      "inkBBox": [
+        0,
+        0,
+        264,
+        84
+      ],
+      "advance64": 17280,
+      "advance": 270,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      264,
+      84
+    ],
+    "rawSHA256": "6dd04628b0da798bd77a198ffb9257ab37bcff392a938fa5a6206474b9a4f841"
+  },
+  {
+    "text": "$4",
+    "size": 96,
+    "measure": {
+      "text": "$4",
+      "size": 96,
+      "width": 78,
+      "height": 72,
+      "inkBBox": [
+        0,
+        0,
+        78,
+        72
+      ],
+      "advance64": 5376,
+      "advance": 84,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      78,
+      72
+    ],
+    "rawSHA256": "fb56ce33522dd11f5aec7c1bddc5b12032d928f7c610edbfa11c37d305b0880b"
+  },
+  {
+    "text": "$10",
+    "size": 96,
+    "measure": {
+      "text": "$10",
+      "size": 96,
+      "width": 120,
+      "height": 72,
+      "inkBBox": [
+        0,
+        0,
+        120,
+        72
+      ],
+      "advance64": 8064,
+      "advance": 126,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      120,
+      72
+    ],
+    "rawSHA256": "4f3dcdfdee6f2ee9869834f797102c3577b04676a2b5456f6a18aff50fee1cfc"
+  },
+  {
+    "text": "$999",
+    "size": 96,
+    "measure": {
+      "text": "$999",
+      "size": 96,
+      "width": 162,
+      "height": 72,
+      "inkBBox": [
+        0,
+        0,
+        162,
+        72
+      ],
+      "advance64": 10752,
+      "advance": 168,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      162,
+      72
+    ],
+    "rawSHA256": "3cdef1d283582c591f2295817eff2480155fee25af22dd430cdb4b790c2bedb3"
+  },
+  {
+    "text": "12/8",
+    "size": 96,
+    "measure": {
+      "text": "12/8",
+      "size": 96,
+      "width": 162,
+      "height": 66,
+      "inkBBox": [
+        0,
+        0,
+        162,
+        66
+      ],
+      "advance64": 10752,
+      "advance": 168,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      162,
+      66
+    ],
+    "rawSHA256": "a3bd3a236eb607e77de6ed275f9cff38c0bd6d73c860d9b2fcb4c3aaf93a4304"
+  },
+  {
+    "text": "Improve your run!",
+    "size": 96,
+    "measure": {
+      "text": "Improve your run!",
+      "size": 96,
+      "width": 672,
+      "height": 84,
+      "inkBBox": [
+        0,
+        0,
+        672,
+        84
+      ],
+      "advance64": 43392,
+      "advance": 678,
+      "lineHeight": 96,
+      "diagnostics": [],
+      "rasterSource": "canonical_atlas_96.png",
+      "runtimeFreeType": false,
+      "frozenIndependentMaster": true
+    },
+    "maskSize": [
+      672,
+      84
+    ],
+    "rawSHA256": "2118a50ead6343883bacfd00f282d62ccf809e05cec3562bdb91c3fc92ad54e7"
+  }
+]

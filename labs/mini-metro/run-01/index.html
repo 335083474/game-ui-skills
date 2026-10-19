@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f3ec">
+  <title>Mini Metro — Network Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="demo-head">
+    <a href="#route-editor" class="city-mark" aria-label="Network study home"><span class="route-mark"><i></i><i></i><i></i></span><span><b>METRO / 01</b><small>NETWORK STUDY · LOCAL DEMO</small></span></a>
+    <nav class="screen-nav" aria-label="Screen navigation">
+      <a href="#route-editor">01 / Route editor</a>
+      <a href="#capacity-upgrade">02 / Capacity</a>
+      <a href="#day-results">03 / Day results</a>
+    </nav>
+  </header>
+  <main id="app" class="app-shell">
+    <section id="route-editor" class="screen route-screen" aria-labelledby="route-title">
+      <div class="route-heading"><div><p class="eyebrow">SAMPLE CITY / NETWORK CONTROL</p><h1 id="route-title">Network control.</h1></div><div class="day-stamp"><b id="route-day">18</b><span>DAY<br>DEMO</span></div></div>
+      <div class="map-toolbar"><span>NETWORK / 10 STATIONS</span><label>ACTIVE LINE <select aria-label="Active route line" id="active-line"><option value="blue">Blue route</option><option value="red">Red route</option><option value="yellow">Yellow route</option></select></label><span class="toolbar-hint">SELECT TWO STATIONS TO DRAFT A SEGMENT</span></div>
+      <div class="map-surface route-map" aria-label="Route editor map">
+        <img src="assets/network.svg" alt="A paper map with blue, red, and yellow transit lines connecting circle, square, triangle, and diamond stations">
+        <svg class="route-layer" viewBox="0 0 1200 520" aria-hidden="true"><g id="committed-routes"></g><path class="draft-path" id="draft-route" d=""></path></svg>
+        <div class="map-hotspots" id="route-hotspots"></div>
+      </div>
+      <div class="map-bottom"><div class="line-legend" aria-label="Route legend"><span><i class="legend-line blue"></i><b>BLUE</b><small>8 STOPS</small></span><span><i class="legend-line red"></i><b>RED</b><small>4 STOPS</small></span><span><i class="legend-line yellow"></i><b>YELLOW</b><small>3 STOPS</small></span></div><div class="route-tools"><p id="route-feedback" aria-live="polite">BLUE LINE SELECTED · ROUTE CHANGES ARE A LOCAL PREVIEW</p><button class="text-button" type="button" id="cancel-route" disabled>Cancel draft</button><button class="apply-button" type="button" id="apply-route" aria-label="Apply route segment" disabled>Apply route segment <span>↗</span></button></div></div>
+      <p class="prototype-note">ALL STATIONS, ROUTES AND COUNTS ARE INVENTED · EDITS STAY IN THIS PAGE</p>
+    </section>
+
+    <section id="capacity-upgrade" class="screen capacity-screen" aria-labelledby="capacity-title" hidden>
+      <div class="utility-heading"><div><p class="eyebrow">SERVICE RESOURCE / TRANSFER 05</p><h1 id="capacity-title">Transfer 05 / capacity</h1></div><div class="resource-count"><b id="token-count">02</b><span>WEEKLY<br>TOKENS</span></div></div>
+      <div class="capacity-map-row">
+        <div class="map-surface compact-map" aria-label="Network with Transfer 05 selected">
+          <img src="assets/network.svg" alt="The sample city network centered on the Transfer 05 interchange and marked queue station">
+          <div class="station-callout"><i class="diamond-mark"></i><span><b>TRANSFER 05</b><small>INTERCHANGE / NORTH LOOP</small></span></div>
+          <span class="capacity-ring" aria-hidden="true"></span>
+        </div>
+        <div class="selected-station"><span class="eyebrow">SELECTED STATION</span><b>Transfer 05</b><span>4 routes meet here<br>Current links: <strong id="link-count">3</strong></span></div>
+      </div>
+      <div class="capacity-control">
+        <div class="capacity-topline"><span>CHOOSE ONE RESOURCE</span><span id="capacity-feedback" aria-live="polite">SELECTED: CARRIAGE CAPACITY</span></div>
+        <div class="token-rail" role="group" aria-label="Capacity resource options">
+          <button class="token-option is-selected" type="button" data-upgrade="carriage" aria-pressed="true" aria-label="Carriage +2 seats"><i class="carriage-mark"></i><span><b>Carriage</b><small>+2 seats / train</small></span><em>01</em></button>
+          <button class="token-option" type="button" data-upgrade="signal" aria-pressed="false" aria-label="Signal +1 train"><i class="signal-mark"></i><span><b>Signal</b><small>+1 train / line</small></span><em>01</em></button>
+          <button class="token-option" type="button" data-upgrade="interchange" aria-pressed="false" aria-label="Interchange +1 branch"><i class="interchange-mark"></i><span><b>Interchange</b><small>+1 branch / station</small></span><em>01</em></button>
+        </div>
+        <div class="capacity-footer"><span id="upgrade-feedback" aria-live="polite">NO RESOURCE SPENT · CHOICE IS A PREVIEW</span><button type="button" class="apply-button" id="reserve-upgrade" aria-label="Reserve upgrade">Reserve upgrade <span>↗</span></button></div>
+      </div>
+      <p class="prototype-note">RESOURCE COUNTS ARE A FICTIONAL PAGE STATE · NO GAME DATA IS SAVED</p>
+    </section>
+
+    <section id="day-results" class="screen results-screen" aria-labelledby="results-title" hidden>
+      <div class="results-heading"><div><p class="eyebrow">SERVICE INTERVAL / SAMPLE CITY</p><h1 id="results-title">Service / day results</h1></div><div class="day-stamp"><b id="results-day">18</b><span>DAY<br>DEMO</span></div></div>
+      <div class="results-map-row">
+        <div class="map-surface results-map" aria-label="Service map with passenger flow and queue pressure">
+          <img src="assets/network.svg" alt="Transit network showing thicker service lines and a red queue ring at Transfer 05">
+          <span class="flow-band" aria-hidden="true"></span><span class="queue-callout"><i></i>QUEUE / TRANSFER 05</span>
+        </div>
+        <div class="result-number"><span>PASSENGERS / INTERVAL</span><b id="passenger-count">1,284</b><small><i></i> QUEUE PRESSURE / ELEVATED</small></div>
+      </div>
+      <div class="service-readout"><div><span>BUSIEST LINE</span><b>BLUE / 8 STOPS</b></div><div><span>WAITING AT TRANSFER 05</span><b id="queue-count">37 PEOPLE</b></div><div class="bar-chart" aria-label="Synthetic passenger counts by hour"><i style="--h:36%"></i><i style="--h:52%"></i><i style="--h:65%"></i><i style="--h:49%"></i><i style="--h:78%"></i><i class="hot" style="--h:92%"></i><i style="--h:60%"></i></div></div>
+      <div class="results-footer"><p id="advance-feedback" aria-live="polite">SERVICE HELD · QUEUE PRESSURE MARKED ON THE MAP</p><button type="button" class="apply-button" id="advance-day" aria-label="Advance to day 19">Advance to day 19 <span>↗</span></button></div>
+      <p class="prototype-note">COUNTS ARE SYNTHETIC · DAY ADVANCE CHANGES THIS LOCAL DEMO ONLY</p>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

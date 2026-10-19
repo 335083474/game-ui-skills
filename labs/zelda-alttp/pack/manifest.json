@@ -1,0 +1,75 @@
+{
+  "name": "zelda-alttp-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/ui-atlas.svg",
+      "bytes": 3044,
+      "sha256": "7e9ee8c1e1ae15a931afb98416bcc1c64ef15764f5320b2698476b36d8b71ff6"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 6039,
+      "sha256": "a9dd9e5b2f8dba1bbea5e7b749a8a0f79035e1e94c7257df9d10f690214abcc6"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 5440,
+      "sha256": "bd842fadf15f3d7ca7d56496e29e46167f60fa04afa123c8c744594440b652bc"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1257,
+      "sha256": "a81196438e41c8660a95846538256d7dc092a979b325ba67275a5ad3f164a4b1"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 388,
+      "sha256": "145f3b208ec1ad0eff39b2ab611cc20f232481dfb869b93ee3bc3c5c6ec7b927"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 90220,
+      "sha256": "6987009d30e97e39edb3bb08cd8488cb3fa4abb4c291569b7291e9344faf338d"
+    },
+    {
+      "path": "references/images/reference-board.svg",
+      "bytes": 2582,
+      "sha256": "c896c050452913380ec5d0505a6e71203de32ee70c9a7f37e15906e276076844"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 824,
+      "sha256": "50d03f6d84e4ec10b2a4c3e8fbce156984afbd37008e8934b68a6507cdd54a5a"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1299,
+      "sha256": "b30d4d32767397a6ef01679971e4d3cda0866ceabf85364f455613f31f797864"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 841,
+      "sha256": "bcded133bb9e73383ac04634fa7ccf2bff622d250c67c88032bf7a16ede839fa"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1315,
+      "sha256": "bc4a5e4577048e1a558b5174b7476c72d92f0296e6e203ef618da471f7c67c9c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2460,
+      "sha256": "9286cb034c1bc9b6739e6bdbfcdcc443114b4091926f084b2ac34d692843d51b"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 773,
+      "sha256": "34e1c3b8d45f801ae633f163395d6cadf4d9ea6535ecb7dfe2dddeb898b9e925"
+    }
+  ]
+}

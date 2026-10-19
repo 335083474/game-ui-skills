@@ -1,0 +1,41 @@
+{
+  "version": "5",
+  "status": "candidate-awaiting-recipient-review",
+  "checksActuallyRun": [
+    {
+      "command": "node tests/data.test.cjs",
+      "exit": 0,
+      "stdout": "PASS default20\nPASS count 2\nPASS count 3\nPASS count 4\nPASS count 19\nPASS count 20\nPASS reject count 0\nPASS reject count 1\nPASS reject count 21\nPASS reject quantity -1\nPASS reject quantity 1.2\nPASS reject quantity 10000\nPASS long text and unicode preserved\nPASS roundtrip\nPASS copy isolated\nPASS unsafe icon https://host/a.png\nPASS unsafe icon components/../a.png\nPASS unsafe icon /tmp/a.png\nPASS invalid selection\nPASS duplicate ids\n{\"passed\":20,\"browserTested\":false}\n",
+      "stderr": ""
+    },
+    {
+      "command": "node tests/layout.test.cjs",
+      "exit": 0,
+      "stdout": "PASS runtime glyph widths, space-aware wrapping, long token fallback, compact/display space metrics, unknown diagnostics. Not browser tested.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python tests/check_package.py",
+      "exit": 0,
+      "stdout": "Static local links, complete A-Z/0-9 fallback, explicit UTF-8, exact nearest previews: PASS. Browser not tested.\n",
+      "stderr": ""
+    },
+    {
+      "command": "node --check runtime.js",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "browserTestsRun": false,
+  "nativeWindowsTestsRun": false,
+  "previewType": "Offline Python/Pillow independent-component renders, not browser screenshots",
+  "knownLimits": [
+    "Authored style approximation, not original game assets or font",
+    "Uppercase visual policy; original strings preserved in JSON and full-text dialog",
+    "Native text pages are word-aware with codepoint fallback, not grapheme-cluster shaping",
+    "Small viewports below256x224 may scroll at1x; no fractional scaling",
+    "Custom component icon paths must point to suitable native pixel sprites; runtime cannot establish visual fidelity",
+    "Overall acceptance and independent reuse are pending"
+  ]
+}

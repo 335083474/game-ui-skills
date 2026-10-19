@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0a09">
+  <title>DUSK — Corridor Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="demo-head">
+    <a class="study-mark" href="#combat-hud" aria-label="DUSK corridor UI study home"><span class="mark-cross">✛</span><span><b>DUSK</b><small>ORIGINAL 2018 / UI STUDY</small></span></a>
+    <nav class="screen-nav" aria-label="Screen navigation">
+      <a href="#weapon-loadout">01 / Loadout</a>
+      <a href="#combat-hud">02 / Combat</a>
+      <a href="#pause-settings">03 / Pause</a>
+    </nav>
+  </header>
+
+  <main id="app" class="app-shell">
+    <section id="combat-hud" class="screen combat-screen" aria-labelledby="combat-title">
+      <div class="screen-kicker"><span>ROOM 01 / THE SERVICE CORRIDOR</span><span class="live-led"><i></i> LOCAL INPUT ECHO</span></div>
+      <h1 id="combat-title" class="visually-hidden">Combat HUD</h1>
+      <div class="combat-frame">
+        <img class="corridor-art" src="assets/corridor.svg" alt="A low-resolution brick corridor ending at a red square practice target">
+        <div class="hud health-hud"><span>VITAL</span><strong><span id="health-value">064</span><small> / 100</small></strong><i class="meter"><b></b></i></div>
+        <div class="hud ammo-hud"><span id="weapon-readout">SCATTERGUN</span><strong><span id="clip-value">008</span><small> / </small><span id="reserve-value">024</span></strong><i class="meter gold"><b></b></i></div>
+        <div class="target-readout"><span class="target-square"></span><b>PRACTICE MARK</b><small>STATIC · UI DEMO</small></div>
+        <span class="scene-code">LOW-RES STUDY / 2018 DIRECTION</span>
+      </div>
+      <div class="combat-foot">
+        <div class="weapon-current"><span class="weapon-chip">01</span><div><small>EQUIPPED</small><strong id="equipped-readout">SCATTERGUN</strong></div></div>
+        <p id="combat-feedback" class="feedback" aria-live="polite">LOCAL INPUT ECHO · READY</p>
+        <div class="combat-actions" aria-label="Local demo controls">
+          <button type="button" class="pixel-button fire-button" data-action="fire" aria-label="Fire • Space">FIRE <kbd>SPACE</kbd></button>
+          <button type="button" class="pixel-button" data-action="reload" aria-label="Reload • R">RELOAD <kbd>R</kbd></button>
+          <button type="button" class="pixel-button pause-button" data-action="pause" aria-label="Pause • Esc">PAUSE <kbd>ESC</kbd></button>
+        </div>
+      </div>
+      <p class="prototype-note">LOCAL SESSION DEMO · INPUTS UPDATE THIS HUD ONLY · NO GAME ENGINE</p>
+    </section>
+
+    <section id="weapon-loadout" class="screen loadout-screen" aria-labelledby="loadout-title" hidden>
+      <div class="loadout-scene">
+        <img class="corridor-art" src="assets/corridor.svg" alt="A low-resolution corridor used as a backdrop for the local weapon rack">
+        <div class="scene-banner"><span>SAFE ROOM / LOCKER 04</span><span>ARSENAL / LOCAL INVENTORY</span></div>
+        <div class="locker-light" aria-hidden="true"></div>
+      </div>
+      <div class="loadout-content">
+        <div class="loadout-heading"><div><p class="screen-kicker">01 / READY WEAPONS</p><h1 id="loadout-title">Choose your instrument.</h1></div><p class="inventory-count"><b>03</b><span>AVAILABLE<br>IN THIS DEMO</span></p></div>
+        <div class="weapon-rack" role="group" aria-label="Choose a weapon">
+          <button type="button" class="weapon-option is-selected" data-weapon="scattergun" aria-pressed="true" aria-label="Scattergun, 8 shells">
+            <span class="slot-number">01</span><svg class="weapon-icon" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons.svg#scattergun"></use></svg><span class="weapon-name">Scattergun</span><span class="weapon-ammo"><b>008</b> SHELLS</span><span class="slot-state">SELECTED</span>
+          </button>
+          <button type="button" class="weapon-option" data-weapon="rivet" aria-pressed="false" aria-label="Rivet gun, 24 nails">
+            <span class="slot-number">02</span><svg class="weapon-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M5 18h21v7H5zm21-4h16v11H26zM13 25h7v13h-7zm20-1h5v8h-5z" fill="#868176" stroke="#0b0a09" stroke-width="2"/game-ui-skills/><path d="M7 14h31v4H7z" fill="#c2a35b"/game-ui-skills/></svg><span class="weapon-name">Rivet gun</span><span class="weapon-ammo"><b>024</b> NAILS</span><span class="slot-state">READY</span>
+          </button>
+          <button type="button" class="weapon-option" data-weapon="sheller" aria-pressed="false" aria-label="Shell launcher, 4 rounds">
+            <span class="slot-number">03</span><svg class="weapon-icon" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons.svg#shell"></use></svg><span class="weapon-name">Shell launcher</span><span class="weapon-ammo"><b>004</b> ROUNDS</span><span class="slot-state">READY</span>
+          </button>
+        </div>
+        <div class="rack-bottom"><p id="loadout-feedback" class="feedback" aria-live="polite">SCATTERGUN SELECTED · 8 SHELLS (DEMO)</p><button type="button" class="pixel-button confirm-button" data-action="equip" aria-label="Equip selected weapon">EQUIP SELECTED WEAPON <span>↗</span></button></div>
+        <p class="prototype-note">WEAPONS AND COUNTS ARE INVENTED UI SAMPLES · EQUIP CHANGES PAGE STATE ONLY</p>
+      </div>
+    </section>
+
+    <section id="pause-settings" class="screen pause-screen" aria-labelledby="pause-title" hidden>
+      <img class="pause-backdrop" src="assets/corridor.svg" alt="Paused view of the blocky practice corridor">
+      <div class="pause-shade" aria-hidden="true"></div>
+      <div class="pause-layout">
+        <div class="pause-title-block"><p class="screen-kicker">ROOM 01 / SESSION PAUSED</p><h1 id="pause-title">Hold position.</h1><p>Pointer and movement inputs are at rest while this page menu is open.</p><button type="button" class="pixel-button resume-button" data-action="resume">RESUME HUD <kbd>ESC</kbd></button></div>
+        <div class="settings-panel">
+          <div class="panel-heading"><span>INPUT / DISPLAY</span><span>DEMO CONFIG</span></div>
+          <label class="setting-row range-row" for="look-sensitivity"><span><b>Look sensitivity</b><small>PREVIEW ONLY</small></span><input id="look-sensitivity" type="range" min="20" max="100" value="54" aria-label="Look sensitivity"><output id="look-value">54</output></label>
+          <div class="setting-row"><span><b>Screen shake</b><small>IMPACT RESPONSE</small></span><button type="button" class="switch-button" data-setting="shake" aria-pressed="false" aria-label="Screen shake Off">OFF</button></div>
+          <div class="setting-row"><span><b>Pixel filter</b><small>COARSE SCALE</small></span><button type="button" class="switch-button is-on" data-setting="filter" aria-pressed="true" aria-label="Pixel filter On">ON</button></div>
+          <div class="settings-foot"><span id="settings-feedback" aria-live="polite">FOCUS A VALUE TO PREVIEW IT</span><button type="button" class="pixel-button" data-action="apply-settings" aria-label="Apply preview">APPLY PREVIEW</button></div>
+        </div>
+      </div>
+      <p class="prototype-note">PAUSE MENU / PAGE-LOCAL SETTINGS · NO ENGINE SETTINGS ARE WRITTEN</p>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

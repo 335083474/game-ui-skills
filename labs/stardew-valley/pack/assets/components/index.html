@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stardew Valley UI · Component specimens</title><link rel="stylesheet" href="theme.css"></head>
+<body class="svui-meadow">
+  <div class="svui-scene" aria-hidden="true"></div>
+  <main class="svui-board svui-frame">
+    <header class="svui-board-header">
+      <div><p class="svui-kicker">Wood · Paper · Pixel craft</p><h1 class="svui-heading">A little field guide</h1><p class="svui-subtitle">Editable component specimens · unofficial farm-game study</p></div>
+      <div class="svui-wallet" aria-label="125 fictional game coins"><span class="svui-icon svui-icon--small svui-icon--coins" aria-hidden="true"></span><strong>125</strong><small>COINS</small></div>
+    </header>
+
+    <section class="svui-board-section" aria-labelledby="cards-title">
+      <h2 class="svui-section-label" id="cards-title">01 · Wood-framed cards</h2>
+      <div class="svui-grid-three">
+        <button type="button" class="svui-card is-hovered" aria-pressed="false"><span class="svui-icon svui-icon--large svui-icon--strawberry" aria-hidden="true"></span><span class="svui-card-title">Sweet strawberry</span><span class="svui-card-note">Sun-ripened and freshly picked.</span><span class="svui-marker svui-marker--quiet">Hover specimen</span></button>
+        <button type="button" class="svui-card is-selected" aria-pressed="true"><span class="svui-icon svui-icon--large svui-icon--potion" aria-hidden="true"></span><span class="svui-card-title">Healing potion</span><span class="svui-card-note">Keep a little care close at hand.</span><span class="svui-marker">✓ Selected</span></button>
+        <button type="button" class="svui-card" disabled><span class="svui-icon svui-icon--large svui-icon--crystal" aria-hidden="true"></span><span class="svui-card-title">Lucky crystal</span><span class="svui-card-note">This specimen is unavailable.</span><span class="svui-marker svui-marker--quiet">Disabled · locked</span></button>
+      </div>
+    </section>
+
+    <section class="svui-board-section" aria-labelledby="buttons-title">
+      <h2 class="svui-section-label" id="buttons-title">02 · Buttons &amp; interaction states</h2>
+      <div class="svui-row">
+        <div class="svui-state-sample"><button type="button" class="svui-button">Continue</button><span class="svui-caption">Rest · 48px target</span></div>
+        <div class="svui-state-sample"><button type="button" class="svui-button is-hovered">Continue</button><span class="svui-caption">Hover · amber shine</span></div>
+        <div class="svui-state-sample"><button type="button" class="svui-button is-pressed">Continue</button><span class="svui-caption">Pressed · lower face</span></div>
+        <div class="svui-state-sample"><button type="button" class="svui-button" disabled>Unavailable</button><span class="svui-caption">Disabled · no stock</span></div>
+        <div class="svui-state-sample"><button type="button" class="svui-button svui-button--leaf">Back</button><span class="svui-caption">Secondary · leaf green</span></div>
+      </div>
+    </section>
+
+    <section class="svui-board-section" aria-labelledby="slots-title">
+      <h2 class="svui-section-label" id="slots-title">03 · Fixed-cell item sprites &amp; quantities</h2>
+      <div class="svui-slots">
+        <div><button type="button" class="svui-slot" aria-label="Coin purse, quantity 50"><span class="svui-icon svui-icon--coins" aria-hidden="true"></span><span class="svui-count">50</span></button><span class="svui-slot-name">Coin purse</span></div>
+        <div><button type="button" class="svui-slot" aria-label="Healing potion, quantity 3" aria-pressed="true"><span class="svui-icon svui-icon--potion" aria-hidden="true"></span><span class="svui-count">3</span></button><span class="svui-slot-name">✓ Potion</span></div>
+        <div><button type="button" class="svui-slot" aria-label="Lucky crystal, quantity 1"><span class="svui-icon svui-icon--crystal" aria-hidden="true"></span><span class="svui-count">1</span></button><span class="svui-slot-name">Crystal</span></div>
+        <div><button type="button" class="svui-slot" aria-label="Strawberry, quantity 8"><span class="svui-icon svui-icon--strawberry" aria-hidden="true"></span><span class="svui-count">8</span></button><span class="svui-slot-name">Strawberry</span></div>
+        <div><button type="button" class="svui-slot" aria-label="Watering can, quantity 1"><span class="svui-icon svui-icon--watering-can" aria-hidden="true"></span><span class="svui-count">1</span></button><span class="svui-slot-name">Watering can</span></div>
+        <div><button type="button" class="svui-slot" aria-label="Seed packet, quantity 12"><span class="svui-icon svui-icon--seeds" aria-hidden="true"></span><span class="svui-count">12</span></button><span class="svui-slot-name">Seed packet</span></div>
+      </div>
+      <div class="svui-detail-strip"><p class="svui-note"><strong>Tool description:</strong> A watering can carries water for crops.<br>This board demonstrates item display, not a farming simulation.</p><span class="svui-caption">Counts are editable text.<br>Sprites use fixed 512px cells.</span></div>
+    </section>
+
+    <section class="svui-board-section" aria-labelledby="type-title">
+      <h2 class="svui-section-label" id="type-title">04 · Palette &amp; typography</h2>
+      <div class="svui-type-row"><div><strong class="svui-value">Aa 0123456789</strong><p class="svui-note">Pixelify Sans · local font · body 18 / value 30</p></div><div class="svui-swatches" aria-label="Wood, amber, paper, ink, leaf and sky"><span class="svui-swatch" style="--swatch:#a95f2a" title="Wood #a95f2a"></span><span class="svui-swatch" style="--swatch:#f6b534" title="Amber #f6b534"></span><span class="svui-swatch" style="--swatch:#f9dba0" title="Paper #f9dba0"></span><span class="svui-swatch" style="--swatch:#4b2818" title="Ink #4b2818"></span><span class="svui-swatch" style="--swatch:#4f7538" title="Leaf #4f7538"></span><span class="svui-swatch" style="--swatch:#80bbca" title="Sky #80bbca"></span></div></div>
+    </section>
+    <footer class="svui-footer"><span>STARDEW VALLEY INSPIRED · v1.0.0 · WEB SPECIMENS</span><span>Not official game assets · no finished screen templates</span></footer>
+  </main>
+</body>
+</html>

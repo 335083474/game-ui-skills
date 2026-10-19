@@ -1,0 +1,40 @@
+{
+  "stateType": "synthetic-reference-fixture",
+  "persistent": false,
+  "screens": [
+    {
+      "id": "chapter-selection",
+      "title": "Chapter path",
+      "state": {
+        "currentChapter": "Stone Steps",
+        "previewChapter": "Quiet Bridge",
+        "chapters": [
+          {"id": "red-steps", "label": "Stone Steps", "status": "visited", "tone": "rose"},
+          {"id": "quiet-bridge", "label": "Quiet Bridge", "status": "current", "tone": "slate"},
+          {"id": "blue-arch", "label": "Blue Arch", "status": "unreached", "tone": "blue"}
+        ],
+        "enterRequiresExplicitCommit": true
+      }
+    },
+    {
+      "id": "memories",
+      "title": "Memory fragment",
+      "state": {
+        "visibleMemory": null,
+        "memories": [
+          {"id": "paper-bird", "label": "Paper bird", "status": "found", "summary": "A folded shape resting on a quiet ledge"}
+        ]
+      }
+    },
+    {
+      "id": "pause",
+      "title": "Pause",
+      "state": {
+        "open": true,
+        "selectedAction": "continue",
+        "actions": ["continue", "chapters", "controls"]
+      }
+    }
+  ]
+}
+

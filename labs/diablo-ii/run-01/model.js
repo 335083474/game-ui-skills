@@ -1,0 +1,64 @@
+(function(root){
+'use strict';
+const types={
+ watchBlade:{kind:'sword',name:'Watchman’s Blade',w:1,h:3,requirements:{level:1,strength:20},damage:[4,8],price:120,description:'A serviceable one-handed blade, darkened by years of watch duty.'},
+ ironHelm:{kind:'helmet',name:'Weathered Helm',w:2,h:2,requirements:{level:1,strength:20},defense:8,price:80,description:'Plain iron, carefully repaired.'},
+ oakShield:{kind:'shield',name:'Oak Ward',w:2,h:2,requirements:{level:1,strength:20},defense:12,price:100,description:'An old round shield bound in iron.'},
+ ashenBlade:{kind:'sword',name:'Ashen Iron Sword',rarity:'magic',w:1,h:3,requirements:{level:8,strength:35,dexterity:20},damage:[7,13],price:330,description:'A balanced one-handed sword from the cinder road.'},
+ heavyHelm:{kind:'helmet',name:'Gatekeeper’s Helm',w:2,h:2,requirements:{level:10,strength:50},defense:22,price:420,description:'Heavy iron plate. Its weight exceeds your current strength.'},
+ lightHelm:{kind:'helmet',name:'Riveted Sallet',w:2,h:2,requirements:{level:6,strength:30},defense:14,price:280,description:'A lighter helm with close-set rivets.'},
+ potion:{kind:'potion',name:'Crimson Draught',w:1,h:1,requirements:{},heal:35,price:50,description:'Restores 35 Life. One draught is consumed on use.'},
+ amberSeal:{kind:'amulet',name:'Amber Vigil',rarity:'magic',w:1,h:1,requirements:{level:10},mana:10,price:900,description:'An amber seal worn by the keepers of the night watch.'},
+ ironShield:{kind:'shield',name:'Ironbound Round',w:2,h:2,requirements:{level:8,strength:40},defense:18,price:240,description:'Dense oak and an unbroken ring of iron.'}
+};
+const slotKind={head:'helmet',neck:'amulet',weapon:'sword',offhand:'shield',torso:'armor',hands:'gloves',belt:'belt',feet:'boots',ringLeft:'ring',ringRight:'ring'};
+const slotNames={head:'Head',neck:'Amulet',weapon:'Weapon',offhand:'Offhand',torso:'Armor',hands:'Gloves',belt:'Belt',feet:'Boots',ringLeft:'Left ring',ringRight:'Right ring'};
+const nodes=[
+ {id:'ember',tree:'Fire',name:'Ember',level:1,prereqs:[],x:1,y:0,effect:'A focused ember strikes one foe.',benefit:'+3 fire damage',mana:2,art:'flame'},
+ {id:'cinder',tree:'Fire',name:'Cinder Wake',level:6,prereqs:['ember'],x:0,y:1,effect:'A trail of cinders burns beneath your feet.',benefit:'+4 trail damage',mana:5,art:'flame'},
+ {id:'ash',tree:'Fire',name:'Ash Mantle',level:6,prereqs:['ember'],x:2,y:1,effect:'A veil of ash scorches nearby enemies.',benefit:'+2 return damage',mana:4,art:'ward'},
+ {id:'kiln',tree:'Fire',name:'Kiln Lance',level:12,prereqs:['cinder'],x:0,y:2,effect:'Condense cinders into a piercing lance.',benefit:'+8 fire damage',mana:8,art:'spear'},
+ {id:'redoubt',tree:'Fire',name:'Burning Redoubt',level:18,prereqs:['ash'],x:2,y:2,effect:'Raise a circle of flame around the watch.',benefit:'+5 circle damage',mana:12,art:'ward'},
+ {id:'pyre',tree:'Fire',name:'Last Pyre',level:24,prereqs:['kiln','redoubt'],x:1,y:3,effect:'Unite both paths in a pillar of embers.',benefit:'+12 fire damage',mana:18,art:'flame'},
+ {id:'rime',tree:'Frost',name:'Rime Needle',level:1,prereqs:[],x:1,y:0,effect:'A shard of frost slows one foe.',benefit:'+2 cold damage',mana:2,art:'crystal'},
+ {id:'hoar',tree:'Frost',name:'Hoarfrost',level:6,prereqs:['rime'],x:0,y:1,effect:'A cold mist settles over the ground.',benefit:'+3 cold damage',mana:4,art:'crystal'},
+ {id:'iceward',tree:'Frost',name:'Ice Ward',level:6,prereqs:['rime'],x:2,y:1,effect:'Brittle ice lashes out when struck.',benefit:'+2 return damage',mana:5,art:'ward'},
+ {id:'sleet',tree:'Frost',name:'Sleet Spear',level:12,prereqs:['hoar'],x:0,y:2,effect:'Drive a heavy shard through a foe.',benefit:'+7 cold damage',mana:8,art:'spear'},
+ {id:'still',tree:'Frost',name:'Still Winter',level:18,prereqs:['iceward'],x:2,y:2,effect:'Bitter air slows enemies nearby.',benefit:'+3 slow duration',mana:12,art:'crystal'},
+ {id:'white',tree:'Frost',name:'White Silence',level:24,prereqs:['sleet','still'],x:1,y:3,effect:'Envelop the field in deep frost.',benefit:'+10 cold damage',mana:18,art:'crystal'},
+ {id:'spark',tree:'Storm',name:'Pale Spark',level:1,prereqs:[],x:1,y:0,effect:'A spark arcs toward a single foe.',benefit:'+3 lightning damage',mana:2,art:'bolt'},
+ {id:'arc',tree:'Storm',name:'Forked Arc',level:6,prereqs:['spark'],x:0,y:1,effect:'Split lightning between two enemies.',benefit:'+4 arc damage',mana:5,art:'bolt'},
+ {id:'thunder',tree:'Storm',name:'Thunder Skin',level:6,prereqs:['spark'],x:2,y:1,effect:'A charged veil snaps at attackers.',benefit:'+2 return damage',mana:4,art:'ward'},
+ {id:'lance',tree:'Storm',name:'Storm Lance',level:12,prereqs:['arc'],x:0,y:2,effect:'Cast a straight spear of lightning.',benefit:'+8 lightning damage',mana:8,art:'spear'},
+ {id:'tempest',tree:'Storm',name:'Tempest Ring',level:18,prereqs:['thunder'],x:2,y:2,effect:'A ring of static guards the watch.',benefit:'+5 ring damage',mana:12,art:'ward'},
+ {id:'sky',tree:'Storm',name:'Sundered Sky',level:24,prereqs:['lance','tempest'],x:1,y:3,effect:'Call down a cascade of lightning.',benefit:'+12 lightning damage',mana:18,art:'bolt'}
+];
+function createState(){
+ const s={version:1,character:{name:'Mara',title:'Keeper of the Ashen Watch',level:12,strength:45,dexterity:35,life:85,maxLife:120,mana:65,maxMana:65,gold:840},items:[],backpack:[],equipment:Object.fromEntries(Object.keys(slotKind).map(k=>[k,null])),skills:{unspent:3,ranks:Object.fromEntries(nodes.map(n=>[n.id,n.id==='ember'?1:0])),active:'ember'},merchant:[{typeId:'potion',stock:3,buyPrice:50,sellPrice:12},{typeId:'ashenBlade',stock:1,buyPrice:330,sellPrice:82},{typeId:'lightHelm',stock:1,buyPrice:280,sellPrice:70},{typeId:'amberSeal',stock:1,buyPrice:900,sellPrice:225},{typeId:'ironShield',stock:1,buyPrice:240,sellPrice:60}],nextId:20};
+ function add(id,typeId,x,y,slot){s.items.push({id,typeId,...JSON.parse(JSON.stringify(types[typeId]))});if(slot)s.equipment[slot]=id;else s.backpack.push({itemId:id,x,y});}
+ add('watch-blade','watchBlade',0,0,'weapon');add('worn-helm','ironHelm',0,0,'head');add('oak-ward','oakShield',0,0,'offhand');
+ add('ashen-sword','ashenBlade',0,0);add('heavy-helm','heavyHelm',2,0);add('draught-1','potion',5,0);add('draught-2','potion',6,0);add('amber-seal','amberSeal',8,0);add('round-shield','ironShield',5,2);add('sallet','lightHelm',2,2);return s;
+}
+const item=(s,id)=>s.items.find(i=>i.id===id);
+const ownedBag=(s,id)=>s.backpack.some(p=>p.itemId===id);
+function stats(s){const eq=Object.values(s.equipment).filter(Boolean).map(id=>item(s,id));const weapon=eq.find(i=>i.kind==='sword');return {defense:10+eq.reduce((a,i)=>a+(i.defense||0),0),damage:weapon?weapon.damage:[1,2],maxLife:s.character.maxLife,maxMana:s.character.maxMana+eq.reduce((a,i)=>a+(i.mana||0),0)};}
+function findSpace(s,i,bag=s.backpack){for(let y=0;y<=4-i.h;y++)for(let x=0;x<=10-i.w;x++)if(bag.every(p=>{const b=item(s,p.itemId);return x+i.w<=p.x||p.x+b.w<=x||y+i.h<=p.y||p.y+b.h<=y;}))return {x,y};return null;}
+function requirements(s,i){for(const [k,v] of Object.entries(i.requirements||{}))if(s.character[k]<v)return `Requires ${k.charAt(0).toUpperCase()+k.slice(1)} ${v} (you have ${s.character[k]})`;return '';}
+function equipReason(s,id,slot){const i=item(s,id);if(!i||!ownedBag(s,id))return 'Select a backpack item';if(slotKind[slot]!==i.kind)return `${i.kind==='helmet'?'Head':Object.keys(slotKind).find(k=>slotKind[k]===i.kind)?slotNames[Object.keys(slotKind).find(k=>slotKind[k]===i.kind)]:i.kind} slot only`;const req=requirements(s,i);if(req)return req;const old=item(s,s.equipment[slot]);if(old&&!findSpace(s,old,s.backpack.filter(p=>p.itemId!==id)))return `No room for equipped ${old.kind}`;return '';}
+function equip(s,id,slot){const why=equipReason(s,id,slot);if(why)return {ok:false,message:why};const old=item(s,s.equipment[slot]);const bag=s.backpack.filter(p=>p.itemId!==id);if(old)bag.push({itemId:old.id,...findSpace(s,old,bag)});s.backpack=bag;s.equipment[slot]=id;return {ok:true,message:`Equipped ${item(s,id).name}${old?`; ${old.name} returned to backpack`:''}.`};}
+function unequipReason(s,slot){const i=item(s,s.equipment[slot]);if(!i)return 'Select an occupied equipment well';return findSpace(s,i)?'':`No room for equipped ${i.kind}`;}
+function unequip(s,slot){const why=unequipReason(s,slot);if(why)return {ok:false,message:why};const i=item(s,s.equipment[slot]);s.backpack.push({itemId:i.id,...findSpace(s,i)});s.equipment[slot]=null;s.character.mana=Math.min(s.character.mana,stats(s).maxMana);return {ok:true,message:`${i.name} returned to backpack.`};}
+function useReason(s,id){const i=item(s,id);if(!i||!ownedBag(s,id)||i.kind!=='potion')return 'Select a backpack draught';return s.character.life>=stats(s).maxLife?'Life is already full':'';}
+function use(s,id){const why=useReason(s,id);if(why)return {ok:false,message:why};const old=s.character.life;s.character.life=Math.min(stats(s).maxLife,old+item(s,id).heal);s.backpack=s.backpack.filter(p=>p.itemId!==id);s.items=s.items.filter(i=>i.id!==id);return {ok:true,message:`Draught consumed. Restored ${s.character.life-old} Life.`};}
+function skillReason(s,id){const n=nodes.find(n=>n.id===id);if(!n)return 'Select a skill';const rank=s.skills.ranks[id];const missing=n.prereqs.filter(p=>s.skills.ranks[p]<1);if(missing.length)return `Locked: learn ${missing.map(p=>nodes.find(n=>n.id===p).name).join(' and ')} first`;if(s.character.level<n.level)return `Requires level ${n.level}`;if(rank>=20)return 'Rank limit reached (20)';if(rank>=s.character.level-n.level+1)return `Rank limit reached for level ${s.character.level}`;if(s.skills.unspent<1)return 'No skill points';return '';}
+function spend(s,id){const why=skillReason(s,id);if(why)return {ok:false,message:why};s.skills.unspent--;s.skills.ranks[id]++;return {ok:true,message:`${nodes.find(n=>n.id===id).name} advanced to rank ${s.skills.ranks[id]}. ${s.skills.unspent} point${s.skills.unspent===1?'':'s'} remain.`};}
+function activate(s,id){if(!(s.skills.ranks[id]>0))return {ok:false,message:'Learn this skill before making it active'};s.skills.active=id;return {ok:true,message:`${nodes.find(n=>n.id===id).name} is your active skill.`};}
+function buyReason(s,typeId){const m=s.merchant.find(m=>m.typeId===typeId);if(!m)return 'Select a merchant item';if(m.stock<1)return 'Sold out';if(s.character.gold<m.buyPrice)return 'Not enough gold';if(!findSpace(s,types[typeId]))return 'No room in backpack';return '';}
+function buy(s,typeId){const why=buyReason(s,typeId);if(why)return {ok:false,message:why};const m=s.merchant.find(m=>m.typeId===typeId),pos=findSpace(s,types[typeId]);const id=`bought-${s.nextId++}`;s.items.push({id,typeId,...JSON.parse(JSON.stringify(types[typeId]))});s.backpack.push({itemId:id,...pos});s.character.gold-=m.buyPrice;m.stock--;return {ok:true,itemId:id,message:`Purchased ${types[typeId].name} for ${m.buyPrice} gold. Stock ${m.stock}; ${s.character.gold} gold remains.`};}
+function sellPrice(s,id){const i=item(s,id);if(!i)return 0;return s.merchant.find(m=>m.typeId===i.typeId)?.sellPrice??Math.floor(i.price/4);}
+function sellReason(s,id){return ownedBag(s,id)?'':'Only backpack items may be sold';}
+function sell(s,id){const why=sellReason(s,id);if(why)return {ok:false,message:why};const i=item(s,id),price=sellPrice(s,id);let m=s.merchant.find(m=>m.typeId===i.typeId);if(!m){m={typeId:i.typeId,stock:0,buyPrice:i.price,sellPrice:price};s.merchant.push(m);}m.stock++;s.character.gold+=price;s.backpack=s.backpack.filter(p=>p.itemId!==id);s.items=s.items.filter(i=>i.id!==id);return {ok:true,message:`Sold ${i.name} for ${price} gold. ${s.character.gold} gold remains.`};}
+function validate(s){const errors=[],seen=new Set();for(const p of s.backpack){const i=item(s,p.itemId);if(!i){errors.push('Missing bag instance');continue;}if(p.x<0||p.y<0||p.x+i.w>10||p.y+i.h>4)errors.push('Out of bounds');for(let y=p.y;y<p.y+i.h;y++)for(let x=p.x;x<p.x+i.w;x++){const k=x+','+y;if(seen.has(k))errors.push('Overlap');seen.add(k);}}const ids=[...s.backpack.map(p=>p.itemId),...Object.values(s.equipment).filter(Boolean)];if(new Set(ids).size!==ids.length||ids.length!==s.items.length)errors.push('Item identity conservation');if(!Number.isInteger(s.character.gold)||s.character.gold<0)errors.push('Gold');if(s.merchant.some(m=>!Number.isInteger(m.stock)||m.stock<0||m.sellPrice>m.buyPrice))errors.push('Stock / price');if(s.skills.unspent<0||Object.values(s.skills.ranks).some(r=>r<0||r>20))errors.push('Skill rank');return errors;}
+const api={types,nodes,slotKind,slotNames,createState,item,ownedBag,stats,findSpace,requirements,equipReason,equip,unequipReason,unequip,useReason,use,skillReason,spend,activate,buyReason,buy,sellPrice,sellReason,sell,validate};
+if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.DemoModel=api;
+})(typeof window==='undefined'?globalThis:window);

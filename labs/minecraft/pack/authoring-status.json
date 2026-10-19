@@ -1,0 +1,41 @@
+{
+  "slug": "minecraft",
+  "packageName": "minecraft-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "inventory",
+      "title": "Inventory",
+      "description": "A 9-column item matrix with a compact equipment rail, selected-slot treatment, stack counts, and a separate hotbar."
+    },
+    {
+      "id": "crafting",
+      "title": "Crafting",
+      "description": "A recipe grid with input slots, a single output slot, and explicit ready, missing, and blocked states."
+    },
+    {
+      "id": "building-palette",
+      "title": "Building Palette",
+      "description": "A compact block palette grouped by material and use, with swatch, name, and selection state."
+    }
+  ],
+  "referenceImage": "references/images/style-reference.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "All vector art, block labels, counts, and recipe data are original examples; no Minecraft game assets or official font are included.",
+    "This is a Java Edition visual-language study, not a version-specific reproduction or verified interface specification.",
+    "No engine integration, gameplay logic, or measured search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

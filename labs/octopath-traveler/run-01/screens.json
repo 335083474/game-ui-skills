@@ -1,0 +1,51 @@
+{
+  "slug": "octopath-traveler",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "party",
+      "title": "Party rail",
+      "description": "A compact roster marks the selected member and keeps lead changes behind an explicit action."
+    },
+    {
+      "id": "character-equipment",
+      "title": "Equipment comparison",
+      "description": "One actor and gear slot are compared at a time, with separate Apply and Cancel controls."
+    },
+    {
+      "id": "battle-orders",
+      "title": "Integrated battle stage",
+      "description": "Turn order and command choices sit inside one layered stage while the actors remain visible."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "party",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Orin" },
+        { "action": "click", "role": "button", "name": "Set lead" },
+        { "action": "click", "role": "button", "name": "Confirm lead Orin" }
+      ],
+      "expectedText": ["Lead changed to Orin in this local sample."]
+    },
+    {
+      "screenId": "character-equipment",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Glasswood rod" },
+        { "action": "click", "role": "button", "name": "Apply equipment" },
+        { "action": "click", "role": "button", "name": "Confirm equip Glasswood rod" }
+      ],
+      "expectedText": ["Glasswood rod equipped in this local sample; stats are not game data."]
+    },
+    {
+      "screenId": "battle-orders",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Guard" },
+        { "action": "click", "role": "button", "name": "Confirm action" },
+        { "action": "click", "role": "button", "name": "Confirm Guard" }
+      ],
+      "expectedText": ["Vela braces for the next sample hit. Orin is next."]
+    }
+  ]
+}

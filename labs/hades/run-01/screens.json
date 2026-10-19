@@ -1,0 +1,15 @@
+{
+  "slug": "hades",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "boon-choice", "title": "Boon choice", "description": "Compare three distinct run effects, preview one, then bind it to the current descent." },
+    { "id": "weapon-aspects", "title": "Weapon aspects", "description": "Compare alternate weapon handling notes, preview the stat shift, then set an aspect." },
+    { "id": "keepsakes", "title": "Keepsakes", "description": "Preview a token and commit it into the single worn place for this passage." }
+  ],
+  "smokeTests": [
+    { "screenId": "boon-choice", "steps": [{ "action": "click", "role": "button", "name": "Choose Quiet bulwark" }, { "action": "click", "role": "button", "name": "Claim boon" }], "expectedText": ["Quiet bulwark is bound to this descent."] },
+    { "screenId": "weapon-aspects", "steps": [{ "action": "click", "role": "button", "name": "Choose Longstep Edge" }, { "action": "click", "role": "button", "name": "Set aspect" }], "expectedText": ["Longstep Edge is now set on the Oathbound Blade."] },
+    { "screenId": "keepsakes", "steps": [{ "action": "click", "role": "button", "name": "Choose Silt coin" }, { "action": "click", "role": "button", "name": "Wear keepsake" }], "expectedText": ["Silt coin is now worn for this passage."] }
+  ]
+}

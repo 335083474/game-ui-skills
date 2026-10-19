@@ -1,0 +1,39 @@
+{
+  "crew": [
+    {
+      "id": "crew-07",
+      "name": "Ada Bell",
+      "identity": "suspected",
+      "lastSeen": "lower deck"
+    },
+    {
+      "id": "crew-08",
+      "name": "Niko Venn",
+      "identity": "confirmed",
+      "lastSeen": "cargo hold"
+    }
+  ],
+  "log": [
+    {
+      "id": "observation-01",
+      "kind": "observed",
+      "text": "Lantern found at stairwell",
+      "chapterId": "night-02"
+    },
+    {
+      "id": "deduction-02",
+      "kind": "inferred",
+      "text": "Crew member left deck before bell",
+      "chapterId": "night-02"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "night-02",
+      "label": "Night watch",
+      "unlocked": true,
+      "complete": false
+    }
+  ]
+}
+

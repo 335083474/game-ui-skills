@@ -1,0 +1,63 @@
+{
+  "sourceURL": "https://www.playbalatro.com/press-kit/Screenshots/Balatro_ui_3840x2160_2.png",
+  "sourceSHA256": "e53d61f9c36c44ab5009b41c6e4f3a6477a9d7da5fb3c46d803fbc434676b2ae",
+  "sourceSize": [
+    3840,
+    2160
+  ],
+  "normalizedSize": [
+    1024,
+    576
+  ],
+  "scaleDivisor": 3.75,
+  "method": "Read-only threshold bounding boxes in manually isolated text regions of original-resolution source. White text min(R,G,B)>180/210/230; gold R>threshold,G>110,B<170. Bounds divided by3.75. Approximate ink extent, excluding shadows; not pristine glyph extraction.",
+  "thresholdSensitivity": "Listed label bounds usually differ less than0.3 normalized pixels across thresholds. Region selection/CRT/fringing can introduce additional1\u20132 pixel uncertainty. Run crop may include adjacent fringe.",
+  "measurements": {
+    "Next": [
+      33.07,
+      12.8
+    ],
+    "Round": [
+      40.0,
+      13.07
+    ],
+    "Reroll": [
+      38.93,
+      12.8
+    ],
+    "Hands": [
+      33.87,
+      10.93
+    ],
+    "Discards": [
+      50.93,
+      11.2
+    ],
+    "Run": [
+      28.27,
+      15.73
+    ],
+    "Info": [
+      31.73,
+      12.8
+    ],
+    "Options": [
+      51.73,
+      16.27
+    ],
+    "$4": [
+      19.2,
+      17.6
+    ],
+    "$10": [
+      29.33,
+      17.87
+    ],
+    "Improve your run!": [
+      181.6,
+      20.0
+    ]
+  },
+  "sourcePixelsIncluded": false,
+  "directCreator40Glyph4MatchesFrozenMask": true
+}

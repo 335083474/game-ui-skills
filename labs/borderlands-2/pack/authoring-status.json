@@ -1,0 +1,41 @@
+{
+  "slug": "borderlands-2",
+  "packageName": "borderlands-2-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "weapon-comparison",
+      "title": "Weapon comparison",
+      "description": "Compare an equipped weapon with a focused candidate using visible tier, element, and signed stat deltas."
+    },
+    {
+      "id": "inventory",
+      "title": "Inventory",
+      "description": "Browse a compact bag, sort it, inspect one item, and equip or remove it explicitly."
+    },
+    {
+      "id": "skill-tree",
+      "title": "Skill tree",
+      "description": "Preview a connected node and purchase it once when its prerequisites and point cost are met."
+    }
+  ],
+  "referenceImage": "assets/comic-weapons.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental 2012-era style interpretation; not an official or pixel-exact recreation.",
+    "Weapon silhouettes and item values are synthetic; no official characters, weapon models, game files, or font binaries are included.",
+    "The frozen research entry did not sample individual Borderlands UI search terms; demand remains unverified."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "sable-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/index.html",
+      "bytes": 5084,
+      "sha256": "f712c4500f86fa80b612a1b1d15675d4c6ee1681410e72e4a14467fd0b590ebc"
+    },
+    {
+      "path": "assets/references/direction-board.svg",
+      "bytes": 1242,
+      "sha256": "05ccf785177bdbdc841709728c5e5071d7060be718d1635354ed313e8cf951ac"
+    },
+    {
+      "path": "assets/tokens.css",
+      "bytes": 3967,
+      "sha256": "7f6a6c0720512ba675e69e7f6c04ac00b76d102316e13adab1782ea144648cad"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1743,
+      "sha256": "188e0d35d7a537d631156189aeefbc523e430cd83a5981a3916dd11ff5a25dc4"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 76296,
+      "sha256": "9aaf7aeeacec6024a84526e36e4f780e8c4781974f92b30efd379e49c5a62ca3"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1468,
+      "sha256": "67cd2b33e371cbe7d9bfc476c93f275904eabc96427282f2ecb8a236171ca666"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2009,
+      "sha256": "4f76a70a0bbc35612f926ad437bf82d7109d571f9f91928db68f9e1129904725"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1601,
+      "sha256": "cc17f474d5093e1426208d26b774ba1554a61ed86e3b479ecedda6429fc1331a"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1112,
+      "sha256": "0a0042db61ba08ba136586de43ffcd139f2d293409e96e1533367bdb8dbf107d"
+    }
+  ]
+}

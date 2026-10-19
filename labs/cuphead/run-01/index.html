@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff0d0">
+  <title>The Laughing Marquee — Loadout</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-style="cuphead">
+  <div class="ticker"><span>THE LAUGHING MARQUEE</span><span>PLAYER ONE · LOCAL SHOW</span><span>INKED BY HAND · NO CLOUD SAVE</span></div>
+  <header class="masthead">
+    <a class="brand" href="#equipment-cards" aria-label="The Laughing Marquee home">
+      <span class="brand-mark" aria-hidden="true">LM</span>
+      <span><small>THE LAUGHING</small><strong>MARQUEE</strong></span>
+    </a>
+    <nav class="screen-nav" aria-label="Game screens">
+      <a href="#equipment-cards" data-screen="equipment-cards">LOADOUT</a>
+      <a href="#shop-counter" data-screen="shop-counter">SHOP</a>
+      <a href="#level-results" data-screen="level-results">RESULTS</a>
+    </nav>
+    <div class="run-stamp"><span class="seal-star" aria-hidden="true">✦</span><span>ACT II<br><b>SHOW 04</b></span></div>
+  </header>
+  <main id="screen" tabindex="-1"></main>
+  <footer class="footer-line"><span>ORIGINAL FICTIONAL GAME STATE</span><span>PREVIEWS RESET WHEN THIS PAGE RELOADS</span></footer>
+  <dialog id="confirm-dialog" class="confirm-dialog" aria-labelledby="confirm-title">
+    <div class="dialog-ribbon">ONE LAST LOOK</div>
+    <h2 id="confirm-title">Confirm this action?</h2>
+    <p id="confirm-copy"></p>
+    <div class="dialog-actions">
+      <button class="button button-quiet" type="button" data-cancel>Keep looking</button>
+      <button class="button button-hot" type="button" data-confirm>Confirm</button>
+    </div>
+  </dialog>
+</body>
+</html>

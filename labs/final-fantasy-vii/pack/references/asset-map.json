@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "atlas": "assets/items-atlas.png",
+  "canvas": {"width":1536,"height":1024,"columns":3,"rows":2,"cellWidth":512,"cellHeight":512,"mode":"RGBA"},
+  "coordinates": "Top-left origin, x right, y down. Crop full 512 square cell; no art resampling required. CSS background-size:300% 200%; percentage positions listed below.",
+  "assets": [
+    {"id":"portrait-scout","name":"Rook portrait","kind":"portrait","rect":[0,0,512,512],"cssPosition":"0% 0%","alphaBoundsWithinCell":[31,24,483,503]},
+    {"id":"portrait-guard","name":"Bran portrait","kind":"portrait","rect":[512,0,512,512],"cssPosition":"50% 0%","alphaBoundsWithinCell":[16,41,500,503]},
+    {"id":"portrait-mage","name":"Lyra portrait","kind":"portrait","rect":[1024,0,512,512],"cssPosition":"100% 0%","alphaBoundsWithinCell":[32,53,487,503]},
+    {"id":"steel-sword","name":"Steel sword study","kind":"item","rect":[0,512,512,512],"cssPosition":"0% 100%","alphaBoundsWithinCell":[60,25,474,455]},
+    {"id":"silver-wristguard","name":"Silver wristguard study","kind":"item","rect":[512,512,512,512],"cssPosition":"50% 100%","alphaBoundsWithinCell":[72,79,436,418]},
+    {"id":"green-orb","name":"Verdant materia orb study","kind":"materia","rect":[1024,512,512,512],"cssPosition":"100% 100%","alphaBoundsWithinCell":[78,60,434,412]}
+  ],
+  "alphaNotes": "Bounds measured at alpha>16. Full atlas contains 877092 fully transparent pixels and no alpha=255 pixels; foreground reaches alpha254. This is real transparency. Requested 56px margins were not uniformly achieved by generation; all six alpha>16 bounds remain within their correct cells. Preserve original PNG unchanged.",
+  "direction": {"path":"references/images/screen-direction.png","role":"Generated visual interpretation, not official screenshot or exact mechanics/text. Use frame/window/density motifs, not accidental franchise names."},
+  "componentBoard": {"source":"assets/components/index.html","css":"assets/components/theme.css","capturePath":"references/images/component-board.png","role":"Real browser capture of editable isolated primitives, added by package assembly workflow"},
+  "font": {"path":"assets/fonts/IBMPlexSans-Variable.ttf","license":"assets/fonts/OFL.txt","source":"https://github.com/google/fonts/tree/main/ofl/ibmplexsans","role":"Redistributable sans substitute, not original game font"},
+  "licenseNotes": "Generated atlas and direction were made for this reference experiment. Official game screenshots are linked as provenance and are not redistributed in the package. Square Enix game assets and trademarks remain with their owners. Font is distributed under its included SIL OFL 1.1. No claim of official affiliation or production asset clearance."
+}

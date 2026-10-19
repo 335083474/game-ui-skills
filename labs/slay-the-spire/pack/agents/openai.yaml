@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slay the Spire UI"
+  short_description: "Painted dungeon UI with parchment, worn gold and real Web states"
+  default_prompt: "Use $slay-the-spire-ui to build a coherent dungeon game interface from the bundled references and editable components."

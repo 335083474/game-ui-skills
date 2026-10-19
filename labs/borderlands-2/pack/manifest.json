@@ -1,0 +1,80 @@
+{
+  "name": "borderlands-2-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 247,
+      "sha256": "bdbabdcaae770c3928a64cb485a2c8d18fc6ac27a380363a86fbe071f83625ec"
+    },
+    {
+      "path": "assets/comic-weapons.png",
+      "bytes": 1189340,
+      "sha256": "d9ea3a629bb73544e81abf8aefa69d7ae1dffa6c230bfb7192580e8526f90b2f"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 2483,
+      "sha256": "5de5fa7ce1ceef4f9d5c0a40f2b8e765fadbd2e0c7da6bda7e3aa075289644fb"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 3874,
+      "sha256": "7e733f3b7facd3ada79b2cc6a02100c276f91a55683f8bd776a5f410548736e3"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1560,
+      "sha256": "78e9178d60fc873695e2bfa087cf33121babcfdcbd425da1b58a96c299884c56"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 1655,
+      "sha256": "043874e71e5dcd7d0263c5b0e60b103d3e1e8479e15f3bb082f96ce9fd7cfa9e"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 1214,
+      "sha256": "e2e5d7343de5dc2a1f5fecc37316687c57773982e5b6ad394a2f80bd3bd27470"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 94531,
+      "sha256": "e640d6af95a197795affcdccdaf6cd076bdc962e98be1609acf404328af68087"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2330,
+      "sha256": "9df830cb0528b8a63c300d446f6330328573b7a5164ea7957cb8a1e98eaeb240"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 991,
+      "sha256": "5434729c7479acceb404c836ba8e0058bfc81e5843ffe48f6418c13b27fd14af"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1090,
+      "sha256": "4c732a919ccde76551e19968816196df0dd4bd3ec6dc9f2388271cc175f7e7bd"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 4224,
+      "sha256": "f7037fe1a86cc0b9fc67bbc617b030be57f20645613e79f36e253721d8881bc2"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2309,
+      "sha256": "f7085aa0cb9b220774c718b92d931e4ac2dfde16190d9e4598c5ff1cc91b4267"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1035,
+      "sha256": "430be6867477f11dcd46616a7972ffed751e5677aa76ae099b1dc6ddfe19f25a"
+    }
+  ]
+}

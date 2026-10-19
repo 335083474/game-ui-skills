@@ -1,0 +1,64 @@
+html,body{height:100%;overflow:hidden}
+.scene-page{height:100dvh;max-width:none;display:grid;grid-template-rows:42px minmax(0,1fr);padding:8px;gap:4px}
+.scene-toolbar{display:flex;gap:14px;align-items:center;font-size:13px;white-space:nowrap;overflow:auto}
+.scene-toolbar button,.scene-toolbar .file-button{font-size:13px;padding:5px 9px}
+.scene-scroll{width:100%;height:100%;display:grid;place-items:center;overflow:hidden}
+.scene{width:min(100%,calc((100dvh - 66px)*16/9));aspect-ratio:var(--scene-ratio);position:relative;background:#141719;container-type:inline-size;isolation:isolate;overflow:hidden}
+.background-slot{position:absolute;inset:0;z-index:-3}
+.background-slot img{width:100%;height:100%;object-fit:cover;display:block;opacity:.78}
+.background-slot::after{content:"";position:absolute;inset:0;background:#05090d33;pointer-events:none}
+.portrait-slot{position:absolute;left:0;top:19%;height:81%;width:30%;z-index:3;pointer-events:none}
+.portrait-slot img{height:100%;width:100%;object-fit:contain;object-position:left bottom}
+.scene-banner{position:absolute;left:12.5%;top:.2%;width:77%;height:15%;padding:0;background:none;border:0;text-align:center;z-index:4}
+.scene-banner h1{position:absolute;left:12%;width:76%;top:41.02384%;transform:translateY(-50%);font-size:var(--scene-title-size);letter-spacing:var(--scene-title-tracking);line-height:1.5;margin:0;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.scene-banner p{position:absolute;left:19%;width:62%;top:67.321%;transform:translateY(-50%);font-size:1.15cqw;line-height:1;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.banner-warning{position:absolute;right:0;top:100%;font:1cqw var(--font-body);background:#362015;color:#ffd396}
+.outer-panel{position:absolute;left:24%;top:15.5%;width:53%;height:var(--panel-height);background:#080b0ee8;border:3cqw solid transparent;border-image:url('components/greek-frame-v27.png') 190 155 180 155 fill /3cqw round;z-index:-1}
+.choose-label{position:absolute;left:28%;top:calc(15.5% + 3.04cqw);font-size:1.6cqw;line-height:1.1;margin:0}
+#scene-options{position:absolute;left:var(--list-left);top:var(--list-top);width:var(--list-width);display:flex;flex-direction:column;gap:var(--list-gap)}
+.scene .row{aspect-ratio:var(--row-core-ratio);overflow:visible}
+.scene .row .base{position:absolute;inset:auto;left:0;top:0;width:var(--row-image-width);height:auto;transform:translate(var(--row-image-shift-x),var(--row-image-shift-y))}
+.scene .symbol{left:2%;top:50%;height:auto;width:17.2%;aspect-ratio:1;transform:translateY(-50%);z-index:1}
+.scene .text{top:var(--row-text-top);bottom:var(--row-text-bottom);left:var(--row-text-left);right:var(--row-text-right);overflow:hidden;font-size:var(--body-row-size);line-height:1.25;z-index:1}
+.scene .title-line{font-size:var(--boon-title-size);line-height:1.15;white-space:nowrap}
+.scene .description{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:.15cqw 0;line-height:1.2;max-height:2.4em}
+.scene .stat{font-size:var(--stat-row-size)}
+.scene .rarity-wedge{left:2.5%;top:4%;width:25%;height:92%}
+.scene-tooltip{position:absolute;left:76%;top:64%;width:23%;height:24%;border:2px solid #b1a45a;background:#05090b;font-size:1.1cqw}
+.scene-tooltip h3{font-family:DraftControls,sans-serif;margin:0;font-size:1.5cqw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.scene-tooltip p{margin:.4cqw 0;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+#tooltip-overflow{font-size:.8cqw;color:#ffd396}
+.scene-state{color:#b3aa92}
+.scene-limits{position:fixed;inset:60px 5% 5%;margin:0;padding:24px;overflow:auto;background:#11191ff5;border:1px solid #9e8b55;z-index:20}
+.scene-limits[hidden]{display:none}
+#scene-full-text{padding:18px;background:#0b1014;border:1px solid #65735c;overflow-wrap:anywhere}
+.scene-limits button{margin-top:14px}.data-error{color:#ffbca1;background:#2b1616;padding:20px}
+
+/* Count-aware composition: original-like 3 default; 2 and 4 are adaptations. */
+.scene[data-option-count="4"] .description{line-height:1.1;max-height:2.2em;margin:.1cqw 0}
+
+
+.banner-canvas{position:absolute;left:0;top:0;width:100%;aspect-ratio:169862/37076;transform:translateY(-28.75175%)}
+.banner-art{display:block;width:100%;height:auto}
+
+/* Three-slice header: full source stays unchanged. Caps uniformly scaled; blank middle stretches X only. */
+.banner-slice{position:absolute;top:0;height:100%;overflow:hidden;pointer-events:none}
+.banner-slice img{position:absolute;top:0;height:100%;max-width:none;display:block}
+.banner-left,.banner-right{width:13.775771%}
+.banner-left{left:0}.banner-right{right:0}
+.banner-left img,.banner-right img{width:490.222222%}
+.banner-left img{left:0}.banner-right img{right:0}
+.banner-middle{left:13.775771%;right:13.775771%}
+.banner-middle img{left:-34.456355%;width:168.912711%}
+
+.scene[data-option-count="4"] .title-line,.scene[data-option-count="4"] .stat{line-height:1.1}
+
+.scene .description{white-space:pre-line}
+
+.scene .row .base.selection-art{width:102.746962%;transform:translate(-1.285347%,-20.39555%)}
+.hermes-emblem{position:absolute;left:3%;top:4%;width:12.5%;aspect-ratio:1;z-index:5;pointer-events:none}
+.hermes-emblem img{width:100%;height:100%;object-fit:contain;display:block}
+
+/* Approved R20: viewport excludes only alpha<=1 source margins; PNG bytes unchanged. */
+.scene:not(.overview-scene) .row .base{clip-path:inset(18.66501854% .36045314% 23.48578492% .51493306%)}
+.scene:not(.overview-scene) .row .base.selection-art{clip-path:inset(18.66501854% .51413882% 23.48578492% .51413882%)}

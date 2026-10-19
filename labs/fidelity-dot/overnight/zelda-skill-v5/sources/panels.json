@@ -1,0 +1,101 @@
+{
+  "panels": [
+    {
+      "id": "items",
+      "origin": [
+        8,
+        15
+      ],
+      "size": [
+        152,
+        120
+      ],
+      "color": [
+        56,
+        208,
+        64,
+        255
+      ]
+    },
+    {
+      "id": "preview",
+      "origin": [
+        168,
+        15
+      ],
+      "size": [
+        80,
+        48
+      ],
+      "color": [
+        56,
+        208,
+        64,
+        255
+      ]
+    },
+    {
+      "id": "crystals",
+      "origin": [
+        168,
+        64
+      ],
+      "size": [
+        80,
+        71
+      ],
+      "color": [
+        232,
+        192,
+        0,
+        255
+      ]
+    },
+    {
+      "id": "actions",
+      "origin": [
+        8,
+        143
+      ],
+      "size": [
+        152,
+        72
+      ],
+      "color": [
+        240,
+        24,
+        24,
+        255
+      ]
+    },
+    {
+      "id": "equipment",
+      "origin": [
+        168,
+        143
+      ],
+      "size": [
+        80,
+        72
+      ],
+      "color": [
+        232,
+        192,
+        0,
+        255
+      ]
+    }
+  ],
+  "rail_order_outside_to_inside": [
+    "black keyline",
+    "color",
+    "color",
+    "white"
+  ],
+  "corner_steps": [
+    4,
+    3,
+    2,
+    1
+  ]
+}

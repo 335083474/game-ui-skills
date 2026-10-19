@@ -1,0 +1,4 @@
+interface:
+  display_name: "Splatoon 3 Street Ink"
+  short_description: "Ink splashes, gear stickers and match-result modules"
+  default_prompt: "Use $splatoon-3-ui to create an energetic street-ink game interface with editable gear, shop or match-result primitives and coherent state."

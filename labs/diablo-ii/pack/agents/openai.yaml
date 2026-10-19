@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diablo II Classic UI"
+  short_description: "Carved gothic menus, grids and skill trees"
+  default_prompt: "Use $diablo-ii-ui to build an editable classic gothic game menu with functional equipment, skills or trade states."

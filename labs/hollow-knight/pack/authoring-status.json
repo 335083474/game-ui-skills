@@ -1,0 +1,37 @@
+{
+  "slug": "hollow-knight",
+  "packageName": "hollow-knight-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "charms",
+      "title": "Charm Rack",
+      "description": "Set a small collection of found charms into the worn ring before entering the next room."
+    },
+    {
+      "id": "inventory",
+      "title": "Satchel",
+      "description": "A handful of found objects, counted plainly and spaced for quick recognition."
+    },
+    {
+      "id": "kingdom-map",
+      "title": "Kingdom Map",
+      "description": "Follow the linked rooms; the pale node marks the current crossing."
+    }
+  ],
+  "referenceImage": "references/images/reference-direction.webp",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "source": "generated-card-sheet.png",
+  "regions": {
+    "joker_orange": [
+      49,
+      65,
+      326,
+      454
+    ],
+    "joker_red": [
+      390,
+      64,
+      675,
+      454
+    ],
+    "joker_purple": [
+      746,
+      65,
+      1024,
+      454
+    ],
+    "joker_teal": [
+      49,
+      526,
+      325,
+      923
+    ],
+    "wheel_fortune": [
+      399,
+      519,
+      671,
+      924
+    ],
+    "joker_green": [
+      746,
+      526,
+      1024,
+      923
+    ],
+    "joker_ballot": [
+      50,
+      978,
+      337,
+      1410
+    ],
+    "buffoon_pack": [
+      401,
+      973,
+      674,
+      1420
+    ],
+    "arcana_pack": [
+      738,
+      973,
+      1024,
+      1420
+    ]
+  },
+  "policy": "Tight rectangular separation of independently generated components; no screenshot crops, no noise deletion or restoration; nearest rescaling in renderer"
+}

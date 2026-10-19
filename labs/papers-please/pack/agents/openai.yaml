@@ -1,0 +1,4 @@
+interface:
+  display_name: "Papers, Please Desk UI"
+  short_description: "Build original pixel-like document inspection interfaces"
+  default_prompt: "Use the papers-please-ui reference package to create original desk, document, policy, and ledger screens."

@@ -1,0 +1,75 @@
+{
+  "name": "earthbound-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/ui-atlas.svg",
+      "bytes": 1532,
+      "sha256": "f0e4bd5af3f48d378be305c25ad7ce48d46534992ff8511b8546715ca05da240"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 4484,
+      "sha256": "6f784d10837a57601f41ec1afb3ec7db421220980e91722204e6e2e2a9d8d9ab"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 5388,
+      "sha256": "2c8b182af74d38e154dc592e3ac936243d9103c4c8c2944072372f62ce1a501f"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1250,
+      "sha256": "5a286e7e2007d06a8589e30829864e9a067897754a8735f09c73a658d89f6556"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 402,
+      "sha256": "b8ece6fafb0e57d238918e8a69f0a57715383aa1019f232978c884c0c8e79fe9"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 123730,
+      "sha256": "38f0471bd27bc78966b75d7fd81eff713796280825dac7167157d95bb6192750"
+    },
+    {
+      "path": "references/images/reference-board.svg",
+      "bytes": 2061,
+      "sha256": "df3e41e58be69da60e4ed3452806db354e853e10f5ce3cff3d04f27d681c1b51"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 768,
+      "sha256": "83dddfd989916c9c01a063a5cd577181cafb0be559cb7578490770c0ff2fe3b0"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1340,
+      "sha256": "b85349093a4ec57a6b9ef1da1efcbbd471208e53c92f3bb894dcf254341abe79"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 822,
+      "sha256": "3a83a0ceb3f84ad5752cb9a36f6b37df8da20b2e0827015b23d7ede67a16b0d4"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1383,
+      "sha256": "8e5482349388e6f59575cb309ab32f28041dcf9f8add41daeb084a287753ac22"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2400,
+      "sha256": "5cbf7e670659ac64aadb610bf6d904e2a95b14479dd6c76ee6d84f08af95234e"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 790,
+      "sha256": "defdec34c59e4b34bc6c36f9e683831a5097b4e24b401f17d49f2dbd8cade9b2"
+    }
+  ]
+}

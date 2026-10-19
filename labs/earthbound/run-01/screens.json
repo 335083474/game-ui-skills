@@ -1,0 +1,15 @@
+{
+  "slug":"earthbound",
+  "model":"gpt-6-luna",
+  "reasoningEffort":"max",
+  "screens":[
+    {"id":"goods","title":"Goods window","description":"A chunky rounded two-column inventory window for everyday objects, with one selected row and a separate use action."},
+    {"id":"party-status","title":"Party status","description":"Four readable party rows with HP/PP labels, conditions, and an explicitly labeled rolling-HP sample trail."},
+    {"id":"battle-commands","title":"Battle commands","description":"A stable command window over a vivid abstract field with action, target, sample PP, and a local queue preview."}
+  ],
+  "smokeTests":[
+    {"screenId":"goods","steps":[{"action":"click","role":"button","name":"Pocket notebook"},{"action":"click","role":"button","name":"Use Pocket notebook"}],"expectedText":["Pocket notebook used in the local preview","3 remain"]},
+    {"screenId":"party-status","steps":[{"action":"click","role":"button","name":"Dee"},{"action":"click","role":"button","name":"Apply Pocket Bandage to Dee"}],"expectedText":["48 → 60 HP","01"]},
+    {"screenId":"battle-commands","steps":[{"action":"click","role":"button","name":"PSI Spark"},{"action":"select","role":"combobox","name":"Choose a target","value":"Neon Pigeon"},{"action":"click","role":"button","name":"Queue PSI Spark for Bea"}],"expectedText":["PSI Spark queued for Neon Pigeon","050"]}
+  ]
+}

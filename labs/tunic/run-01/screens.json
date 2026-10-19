@@ -1,0 +1,15 @@
+{
+  "slug": "tunic",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"inventory","title":"Inventory","description":"Choose a tactile carried object and equip it into the attack slot while its silhouette stays prominent."},
+    {"id":"manual","title":"Instruction Manual","description":"Choose a printed page from the leaf index and bookmark its page number on a separate paper surface."},
+    {"id":"island-map","title":"Island Map","description":"Choose a miniature island landmark and set one crossing through the oblique terrain."}
+  ],
+  "smokeTests": [
+    {"screenId":"inventory","steps":[{"action":"click","role":"button","name":"Select worn blade"},{"action":"click","role":"button","name":"Equip selected item"}],"expectedText":["Worn blade equipped · attack slot ready."]},
+    {"screenId":"manual","steps":[{"action":"click","role":"button","name":"Select page 18 — Movement"},{"action":"click","role":"button","name":"Bookmark this page"}],"expectedText":["Page 18 bookmarked · Movement."]},
+    {"screenId":"island-map","steps":[{"action":"click","role":"button","name":"Select Bell Tower"},{"action":"click","role":"button","name":"Set route"}],"expectedText":["Bell Tower route set · one crossing."]}
+  ]
+}

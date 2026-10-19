@@ -1,0 +1,50 @@
+{
+  "abilities": {
+    "points": 5,
+    "selectedId": "veil-step",
+    "items": [
+      {
+        "id": "veil-step",
+        "cost": 2,
+        "unlocked": true
+      },
+      {
+        "id": "glide-burst",
+        "cost": 4,
+        "unlocked": false,
+        "requires": "veil-step"
+      }
+    ]
+  },
+  "shards": {
+    "slots": [
+      {
+        "id": "slot-1",
+        "shardId": "quiet-current"
+      },
+      {
+        "id": "slot-2",
+        "shardId": null
+      }
+    ],
+    "pendingSwap": null
+  },
+  "map": {
+    "current": "gloamwater-bank",
+    "places": [
+      {
+        "id": "gloamwater-bank",
+        "state": "current"
+      },
+      {
+        "id": "root-arch",
+        "state": "discovered"
+      },
+      {
+        "id": "amber-hollow",
+        "state": "unknown"
+      }
+    ]
+  }
+}
+

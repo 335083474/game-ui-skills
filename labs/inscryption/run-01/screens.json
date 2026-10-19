@@ -1,0 +1,15 @@
+{
+  "slug": "inscryption",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "card-reward", "title": "Card reward", "description": "Three carved forest cards show costs, stats, and sigils; select an affordable card and add it once." },
+    { "id": "deck", "title": "Deck binder", "description": "Browse owned cards and sigils; selection is separate from a confirmed one-copy removal." },
+    { "id": "trade-table", "title": "Trade table", "description": "Inspect both sides, then confirm an atomic two-bone exchange for Moss Bell." }
+  ],
+  "smokeTests": [
+    { "screenId": "card-reward", "steps": [{ "action": "click", "role": "button", "name": "Add Ash Owl to deck" }], "expectedText": ["Reward added once: Ash Owl joined the binder."] },
+    { "screenId": "deck", "steps": [{ "action": "click", "role": "button", "name": "Select Lantern Moth" }, { "action": "click", "role": "button", "name": "Remove one copy" }, { "action": "click", "role": "button", "name": "Confirm remove Lantern Moth" }], "expectedText": ["Removed one copy of Lantern Moth. Binder count is now 0."] },
+    { "screenId": "trade-table", "steps": [{ "action": "click", "role": "button", "name": "Inspect exchange" }, { "action": "click", "role": "button", "name": "Confirm trade: pay 2 bone for Moss Bell" }], "expectedText": ["Trade complete: Moss Bell entered your binder; bones 4 → 2."] }
+  ]
+}

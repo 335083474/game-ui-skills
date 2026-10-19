@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#d9ccad">
+  <title>Her Story · Archive UI component plate</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="archive">
+    <header class="masthead">
+      <div class="brand"><div class="brand-mark" aria-hidden="true">08<br>DB</div><div><p class="eyebrow">Experimental reference package</p><strong>INTERVIEW INDEX / ARCHIVE DESK</strong></div></div>
+      <span class="stamp">COMPONENT PLATE<br>NOT A COMPLETE SCREEN</span>
+    </header>
+    <section class="intro" aria-labelledby="plate-title">
+      <div><p class="eyebrow">Her Story · 2015 PC direction</p><h1 id="plate-title">A records desk built around search.</h1><p>Original interface specimens for querying fictional clip text, selecting a metadata record, and attaching a note.</p></div>
+      <div class="case-id">CASE 08 / ALL CONTENT IS INVENTED</div>
+    </section>
+    <section class="plate" aria-label="Reusable archive components">
+      <div class="plate-label"><span>Index components / local sample data</span><span>NO GAME MEDIA INCLUDED</span></div>
+      <div class="plate-grid">
+        <article class="specimen search-specimen">
+          <p class="micro">01 / Query + results</p><h2>TRANSCRIPT SEARCH</h2>
+          <form id="search-form" role="search">
+            <label class="query-label" for="query">SEARCH INVENTED SAMPLE TEXT</label>
+            <div class="search-row"><input id="query" name="query" type="search" value="envelope" autocomplete="off"><button type="submit">FIND</button></div>
+          </form>
+          <p class="result-count" id="result-count" aria-live="polite">3 fictional records · 1 match for “envelope”</p>
+          <ul class="results" id="results">
+            <li class="result is-current" data-search="08-a morning interview blue envelope desk came back">
+              <button type="button" data-clip="08-A" data-title="Morning interview"><span class="clip-code">08-A / MORNING INTERVIEW</span><span class="clip-line">“The blue envelope was still on the desk when I came back.”</span></button>
+            </li>
+            <li class="result" data-search="08-b follow-up station clock past nine">
+              <button type="button" data-clip="08-B" data-title="Follow-up"><span class="clip-code">08-B / FOLLOW-UP</span><span class="clip-line">“I remember the station clock; it was already past nine.”</span></button>
+            </li>
+            <li class="result" data-search="08-c room check key beside paper cup">
+              <button type="button" data-clip="08-C" data-title="Room check"><span class="clip-code">08-C / ROOM CHECK</span><span class="clip-line">“There was a key beside the paper cup.”</span></button>
+            </li>
+          </ul>
+          <p class="empty" id="empty-state" hidden>No sample records match this query.</p>
+        </article>
+        <article class="specimen clip-specimen">
+          <p class="micro">02 / Clip metadata</p><h2 id="clip-heading">SELECTED RECORD / 08-A</h2>
+          <div class="media-frame"><img src="../../assets/art/interview-still.svg" alt="Original illustration placeholder, not game footage"><span class="media-disclosure">SIMULATED / NO FOOTAGE</span></div>
+          <div class="clip-meta"><div class="meta-line"><span>RECORD</span><b id="meta-id">08-A · MORNING INTERVIEW</b></div><div class="meta-line"><span>STATE</span><b>METADATA ONLY</b></div><div class="meta-line"><span>MEDIA FILE</span><b>NOT ATTACHED</b></div></div>
+          <div class="media-actions"><button class="index-button" id="show-state" type="button">SHOW CLIP STATE</button><span class="player-note" id="clip-state" role="status">No video or audio is playing.</span></div>
+        </article>
+        <article class="specimen note-specimen">
+          <p class="micro">03 / Evidence note</p><h2>CASE NOTE CARD</h2>
+          <div class="note-card"><textarea aria-label="Fictional case note">Check whether the envelope detail appears in another sample record.</textarea><div class="link-clip"><span>LINKED SAMPLE CLIP<br><strong id="note-clip">08-A / MORNING INTERVIEW</strong></span><button id="link-current" type="button">LINK SELECTED</button></div></div>
+          <p class="status" id="note-state" role="status">User-authored demo note · local page state</p>
+        </article>
+      </div>
+      <div class="plate-footer"><span>FICTIONAL TEXT / ORIGINAL VECTOR ART</span><span>SEARCH AND SELECTION DEMONSTRATION ONLY</span></div>
+    </section>
+    <footer class="folio"><span>INTERNAL SPECIMEN / <strong>NO FOOTAGE, AUDIO, OR PLAYBACK</strong></span><span>WARM PAPER · INDEX TYPE · RESTRAINED CRT TEXTURE</span></footer>
+  </main>
+  <script>
+    (()=>{
+      const form=document.querySelector('#search-form');
+      const query=document.querySelector('#query');
+      const results=[...document.querySelectorAll('.result')];
+      const count=document.querySelector('#result-count');
+      const empty=document.querySelector('#empty-state');
+      const state=document.querySelector('#clip-state');
+      let selected={id:'08-A',title:'Morning interview'};
+      const search=()=>{
+        const term=query.value.trim().toLowerCase();let matches=0;
+        for(const row of results){const hit=!term||row.dataset.search.includes(term);row.hidden=!hit;if(hit)matches++;}
+        count.textContent=`${results.length} fictional records · ${matches} match${matches===1?'':'es'}${term?` for “${query.value.trim()}”`:''}`;
+        empty.hidden=matches!==0;
+      };
+      form.addEventListener('submit',event=>{event.preventDefault();search();});
+      query.addEventListener('input',search);
+      for(const row of results){row.querySelector('button').addEventListener('click',event=>{
+        for(const item of results)item.classList.remove('is-current');row.classList.add('is-current');
+        selected={id:event.currentTarget.dataset.clip,title:event.currentTarget.dataset.title};
+        document.querySelector('#clip-heading').textContent=`SELECTED RECORD / ${selected.id}`;
+        document.querySelector('#meta-id').textContent=`${selected.id} · ${selected.title.toUpperCase()}`;
+        state.textContent='Selected fictional metadata. No video or audio is playing.';
+      });}
+      document.querySelector('#show-state').addEventListener('click',()=>{state.textContent=`${selected.id} selected · metadata only · no media file attached.`;});
+      document.querySelector('#link-current').addEventListener('click',()=>{
+        document.querySelector('#note-clip').textContent=`${selected.id} / ${selected.title.toUpperCase()}`;
+        document.querySelector('#note-state').textContent='Demo note linked to the selected fictional clip.';
+      });
+      search();
+    })();
+  </script>
+</body>
+</html>

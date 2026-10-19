@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inscryption Act 1 UI"
+  short_description: "Build original carved-paper forest-card interfaces"
+  default_prompt: "Use the inscryption-ui reference package to create original Act 1 tabletop card screens."

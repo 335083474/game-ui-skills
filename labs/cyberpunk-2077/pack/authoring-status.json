@@ -1,0 +1,41 @@
+{
+  "slug": "cyberpunk-2077",
+  "packageName": "cyberpunk-2077-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "cyberware",
+      "title": "Cyberware",
+      "description": "A body-slot schematic with installed implants, a selected module, and a compact before/after capability readout."
+    },
+    {
+      "id": "mission-journal",
+      "title": "Mission Journal",
+      "description": "A dense job ledger with one active objective, related entries, and a short action/status rail."
+    },
+    {
+      "id": "district-map",
+      "title": "District Map",
+      "description": "An angular city-grid map with route traces, district labels, selected location, and a narrow destination inspector."
+    }
+  ],
+  "referenceImage": "references/images/style-reference.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "All vector art, implant names, district labels, and sample values are original; no Cyberpunk 2077 game assets or font are included.",
+    "This is an independent PC 2.0-era visual interpretation, not a captured menu or canonical interface specification.",
+    "No engine integration, gameplay logic, or measured search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

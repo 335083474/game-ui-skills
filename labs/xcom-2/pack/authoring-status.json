@@ -1,0 +1,41 @@
+{
+  "slug": "xcom-2",
+  "packageName": "xcom-2-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "squad-equipment",
+      "title": "Squad Equipment",
+      "description": "Soldier dossier, loadout slots, action identity and current-to-preview comparisons."
+    },
+    {
+      "id": "tactical-orders",
+      "title": "Tactical Orders",
+      "description": "Low-chrome playfield with selected soldier, action costs, cover preview and demo hit chance."
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "description": "Compact project list, scientist assignment and remaining-hour progress."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Squad values, hit chance, project duration and equipment changes are synthetic.",
+    "Vector marks are original; no official XCOM art or font is included.",
+    "War of the Chosen and expansion UI are excluded."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

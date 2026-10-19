@@ -1,0 +1,41 @@
+{
+  "slug": "manifold-garden",
+  "packageName": "manifold-garden-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "pause",
+      "title": "Pause",
+      "description": "A narrow paused-state menu sits at an edge while the repeated architecture remains the dominant scene."
+    },
+    {
+      "id": "chapter-gates",
+      "title": "Chapter Gates",
+      "description": "A transition label floats as a small architectural marker, not a full-screen title card."
+    },
+    {
+      "id": "spatial-hint",
+      "title": "Spatial Hint",
+      "description": "A tiny geometric glyph and one instruction sit near the edge and preserve the first-person movement view."
+    }
+  ],
+  "referenceImage": "assets/references/direction-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "The impossible-geometry rules translate the official premise into original SVG architecture and interface studies; they do not reproduce source-game screenshots or exact UI.",
+    "All geometry, colors, typography, and diagram marks are original vector work using local system fonts; no official assets are included.",
+    "The pause and transient specimens are visual fragments only. Camera gating, puzzle state, input behavior, engine integration, and independent use testing remain for later work."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

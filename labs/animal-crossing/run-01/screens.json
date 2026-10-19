@@ -1,0 +1,15 @@
+{
+  "slug": "animal-crossing",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"pockets","title":"Pockets","description":"A dotted-pocket grid and keepsake card let the player place one found cedar cone on the north path."},
+    {"id":"diy-recipes","title":"DIY Recipes","description":"A handmade recipe card tracks shells and twine, then assembles a Shell Wind Chime."},
+    {"id":"island-map","title":"Island Map","description":"A soft island sketch shows three walkable destinations and sets the next local route."}
+  ],
+  "smokeTests": [
+    {"screenId":"pockets","steps":[{"action":"click","role":"button","name":"Place Cedar Cone"}],"expectedText":["Cedar Cone placed beside the north path. 6 remain."]},
+    {"screenId":"diy-recipes","steps":[{"action":"click","role":"button","name":"Make Shell Wind Chime"}],"expectedText":["Made 1 Shell Wind Chime. 2 shells and 1 twine remain.","Made this visit 1 wind chime"]},
+    {"screenId":"island-map","steps":[{"action":"click","role":"button","name":"South Dock 6 min"},{"action":"click","role":"button","name":"Set destination"}],"expectedText":["Route set to South Dock. Pack a light lunch and go."]}
+  ]
+}

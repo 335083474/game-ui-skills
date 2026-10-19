@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diablo II classic — component specimens</title><link rel="stylesheet" href="theme.css"></head>
+<body><main class="board">
+  <header class="masthead"><div><h1>Diablo II · Classic Menu Studies</h1><p>Carved stone · blackened iron · painted inventory objects</p></div><small>Original editable specimens / experimental reference v1</small></header>
+  <div class="catalogue">
+    <section class="stone" aria-labelledby="anatomy"><div class="section-title"><h2 id="anatomy">Equipment anatomy</h2><small>01 / WELLS</small></div>
+      <div class="equipment" aria-label="Body-shaped equipment wells">
+        <div class="well equip-head" aria-label="Equipped iron helm"><span class="item-art item--helmet" role="img" aria-label="Hornless iron helmet"></span></div>
+        <div class="well equip-neck" aria-label="Equipped amulet"><span class="item-art item--amulet" role="img" aria-label="Amulet"></span></div>
+        <div class="well equip-weapon" aria-label="Equipped sword"><span class="item-art item--sword" role="img" aria-label="Iron sword"></span><span class="well-label">Weapon</span></div>
+        <div class="well equip-body" aria-label="Empty armor slot"><svg class="silhouette" viewBox="0 0 80 90" aria-hidden="true"><path d="M24 8 8 19 2 40 18 46 21 82 59 82 62 46 78 40 72 19 56 8 50 20 30 20Z"/game-ui-skills/></svg><span class="well-label">Armor</span></div>
+        <div class="well equip-shield" aria-label="Equipped round shield"><span class="item-art item--shield" role="img" aria-label="Round shield"></span><span class="well-label">Offhand</span></div>
+        <div class="well equip-belt"><span class="well-label">Belt</span></div>
+        <div class="well equip-hands"><svg class="silhouette" viewBox="0 0 80 70" aria-hidden="true"><path d="m20 60-7-26 5-3 5 12V14h6v24l3-30h6v30l4-24h6v27l5-19 6 2-4 25-10 12Z"/game-ui-skills/></svg><span class="well-label">Gloves</span></div>
+        <div class="equip-rings"><div class="well ring" aria-label="Empty left ring slot"><span class="well-label">Ring</span></div><div class="well ring" aria-label="Empty right ring slot"><span class="well-label">Ring</span></div></div>
+        <div class="well equip-feet"><svg class="silhouette" viewBox="0 0 80 70" aria-hidden="true"><path d="M19 8h17v35l-5 9H7v-9l12-9Zm28 0h17v26l10 9v9H47Z"/game-ui-skills/></svg><span class="well-label">Boots</span></div>
+      </div>
+      <dl class="stats"><div class="stat-line"><dt>Strength</dt><dd><strong>45</strong></dd></div><div class="stat-line"><dt>Defense</dt><dd><strong>28</strong> <span class="magic">+12</span></dd></div><div class="stat-line"><dt>Required level</dt><dd>12</dd></div></dl>
+      <div class="carved-line">◆</div><p class="hint">Body placement carries meaning. Empty slots retain quiet silhouettes.</p>
+    </section>
+    <section class="stone" aria-labelledby="grid"><div class="section-title"><h2 id="grid">Backpack &amp; inspection</h2><small>02 / CELLS</small></div>
+      <p class="specimen-label">10 columns × 4 rows · 32 px base cell</p>
+      <div class="pack" aria-label="Backpack specimen, 10 by 4 cells">
+        <button class="pack-item selected" style="--x:0;--y:0;--w:1;--h:3" aria-label="Selected iron sword, 1 by 3 cells" aria-pressed="true"><span class="item-art item--sword"></span></button>
+        <button class="pack-item" style="--x:2;--y:0;--w:2;--h:2" aria-label="Iron helmet, 2 by 2 cells"><span class="item-art item--helmet"></span></button>
+        <button class="pack-item" style="--x:5;--y:0;--w:1;--h:1" aria-label="Red potion, 1 cell"><span class="item-art item--potion"></span></button>
+        <button class="pack-item" style="--x:7;--y:0;--w:1;--h:1" aria-label="Amulet, 1 cell"><span class="item-art item--amulet"></span></button>
+        <button class="pack-item invalid-fit" style="--x:5;--y:2;--w:2;--h:2" aria-label="Shield, invalid equipment requirement"><span class="item-art item--shield"></span></button>
+      </div>
+      <div class="tooltip"><p class="name magic">Ashen Iron Sword</p><p>One-hand damage: 7–13</p><p>Durability: 20 of 24</p><p>Required Strength: 35</p><p>Required Level: 8</p><small>Selected specimen · 1 × 3 cells</small></div>
+      <div class="actions"><button class="iron-button">Equip</button><button class="iron-button pressed">Pressed</button><button class="iron-button focus-sample">Focus</button></div>
+      <p class="feedback invalid">Requires Strength 50 · swap rejected</p>
+      <p class="hint">Invalid wash + explicit reason. Failed moves preserve both items.</p>
+      <div class="rule"></div><h3>Atlas material specimens</h3>
+      <div class="mini-list stack-gap"><div class="mini-item"><span class="item-art item--potion" role="img" aria-label="Potion"></span><small>Glass / blood red</small></div><div class="mini-item"><span class="item-art item--amulet" role="img" aria-label="Amulet"></span><small>Old gold / amber</small></div><div class="mini-item"><span class="item-art item--shield" role="img" aria-label="Shield"></span><small>Wood / iron</small></div></div>
+    </section>
+    <section class="stone" aria-labelledby="states"><div class="section-title"><h2 id="states">Ranks &amp; transactions</h2><small>03 / STATES</small></div>
+      <div class="tabs" role="tablist" aria-label="Category appearance specimens"><button class="tab" role="tab" aria-selected="true">Fire</button><button class="tab" role="tab" aria-selected="false" tabindex="-1">Frost</button><button class="tab" role="tab" aria-selected="false" tabindex="-1">Storm</button></div>
+      <p class="stat-line"><span class="gold">Skill points remaining</span><strong>2</strong></p>
+      <div class="skill-row stack-gap"><button class="skill-icon" aria-label="Ember, rank 1 of 20"><span class="item-art item--flame"></span><span class="rank">1 / 20</span></button><div class="skill-copy"><strong>Ember</strong><small>Learned · next rank +3 damage</small><small>Level 1 · Mana 2</small></div></div>
+      <div class="connector" aria-hidden="true"></div>
+      <div class="skill-row"><button class="skill-icon locked" aria-label="Cinder Wake, locked until level 18"><span class="item-art item--flame"></span><span class="rank">0 / 20</span></button><div class="skill-copy"><strong>Cinder Wake</strong><small class="invalid">Requires level 18</small><small>Requires Ember rank 1</small></div></div>
+      <div class="actions"><button class="iron-button">Spend point</button><button class="iron-button" disabled>Locked</button></div>
+      <p class="hint">Original sample node names. Reused emblem is a state comparison.</p>
+      <div class="carved-line">◆</div><h3>Merchant action strip</h3>
+      <dl class="stats stack-gap"><div class="stat-line"><dt>Carried gold</dt><dd class="gold">840</dd></div><div class="stat-line"><dt>Red potion</dt><dd>50 gold</dd></div><div class="stat-line"><dt>Stock remaining</dt><dd>3</dd></div></dl>
+      <div class="actions"><button class="iron-button">Buy · 50</button><button class="iron-button">Sell · 12</button></div>
+      <p class="feedback valid">Purchased 1 potion · 790 gold remains</p>
+      <div class="status-pair"><button class="iron-button" disabled>Sold out</button><span class="state-chip">Stock 0</span></div>
+      <p class="hint">Separate state specimens; numbers illustrate before/after behavior. Finite stock is the experiment contract.</p>
+    </section>
+  </div>
+  <section class="resource-bar stone" aria-label="Resource and belt specimens"><div class="resource"><div class="globe" role="img" aria-label="Red life globe"></div><div><strong>Life 120 / 120</strong><small>Deep red glass</small></div></div><div><p class="specimen-label" style="text-align:center">Belt / action strip</p><div class="belt"><div class="well" data-key="1"><span class="item-art item--potion"></span></div><div class="well" data-key="2"><span class="item-art item--potion"></span></div><div class="well" data-key="3"></div><div class="well" data-key="4"></div><button class="iron-button" aria-label="Close specimen">Close</button></div></div><div class="resource"><div><strong>Mana 65 / 65</strong><small>Cobalt blue glass</small></div><div class="globe mana" role="img" aria-label="Blue mana globe"></div></div></section>
+  <footer class="board-footer"><span>Original generated art · OFL substitute fonts · editable HTML / CSS</span><span>Visual specimens only · not a complete game or official screenshot</span></footer>
+</main></body></html>

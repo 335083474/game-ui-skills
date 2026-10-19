@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Original miniature island study</title><desc id="desc">An oblique island with stacked grassy ledges, stone paths, shrubs, water and a tiny unnamed traveler.</desc>
+<rect width="1200" height="260" fill="#9fc3bd"/game-ui-skills/><path d="M0 218h1200v42H0z" fill="#76a5a2"/game-ui-skills/>
+<path d="M183 182l190-100 188 37 193-48 250 106-37 68H229z" fill="#759979" stroke="#42674f" stroke-width="3"/game-ui-skills/>
+<path d="M183 182l190-100 188 37 193-48 250 106-37 28-230-89-177 51-188-32-160 73z" fill="#8ead7c" stroke="#42674f" stroke-width="3"/game-ui-skills/>
+<path d="M371 82l33 45 170 48 180-55 112 62-10 32-206-66-149 43-184-36-134 62-25-35z" fill="#d3c58f" stroke="#677b55" stroke-width="3"/game-ui-skills/>
+<path d="M443 116l43-23 35 17-11 25-41 15zM725 111l50-14 37 24-20 26-49-9zM288 168l43-24 39 20-17 25-52 9z" fill="#c2b47f" stroke="#657952" stroke-width="2"/game-ui-skills/>
+<g fill="#4d7954" stroke="#3c6448" stroke-width="2"><circle cx="346" cy="131" r="17"/game-ui-skills/><circle cx="368" cy="122" r="20"/game-ui-skills/><circle cx="865" cy="148" r="20"/game-ui-skills/><circle cx="895" cy="140" r="16"/game-ui-skills/><path d="M339 147v21m27-26v29m489-6v19m37-30v29"/game-ui-skills/></g>
+<path d="M491 206l42-27 35 10-20 19-34 4z" fill="#e0c66e" stroke="#4b674a" stroke-width="2"/game-ui-skills/>
+<g fill="#42634d"><path d="M603 153h17v27l-17 9z"/game-ui-skills/><circle cx="611" cy="146" r="10"/game-ui-skills/></g><path d="M600 161l21 5" stroke="#eee3be" stroke-width="2"/game-ui-skills/>
+<path d="M260 220q198-37 330-9t254-13 211 23" fill="none" stroke="#b9d4c5" stroke-width="2"/game-ui-skills/>
+</svg>

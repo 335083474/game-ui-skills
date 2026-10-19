@@ -1,0 +1,90 @@
+[
+  {
+    "asset": "hermes-emblem-v27",
+    "size": [
+      1254,
+      1254
+    ],
+    "bytes": 1516842,
+    "sha256": "26b47da38e8d060b0507b593585c5f133db9a7585049b317e419d8c93a526d4c",
+    "base64_chars": 2022456,
+    "parts": [
+      {
+        "name": "hermes-emblem-v27-part01-of03.txt",
+        "chars": 700000,
+        "txt_bytes": 700024
+      },
+      {
+        "name": "hermes-emblem-v27-part02-of03.txt",
+        "chars": 700000,
+        "txt_bytes": 700024
+      },
+      {
+        "name": "hermes-emblem-v27-part03-of03.txt",
+        "chars": 622456,
+        "txt_bytes": 622480
+      }
+    ]
+  },
+  {
+    "asset": "neutral-row-v27",
+    "size": [
+      1942,
+      809
+    ],
+    "bytes": 747751,
+    "sha256": "7392ab2dcb95e0554acdbbba8666ffb06c4140c70133eee8e407637fbdf5d95b",
+    "base64_chars": 997004,
+    "parts": [
+      {
+        "name": "neutral-row-v27-part01-of02.txt",
+        "chars": 700000,
+        "txt_bytes": 700024
+      },
+      {
+        "name": "neutral-row-v27-part02-of02.txt",
+        "chars": 297004,
+        "txt_bytes": 297028
+      }
+    ]
+  },
+  {
+    "asset": "selection-overlay-v27",
+    "size": [
+      1945,
+      809
+    ],
+    "bytes": 327594,
+    "sha256": "2435e9544fac99937838b6781a403e4da57cdb2da6c78e6a46e5c9139408f1d1",
+    "base64_chars": 436792,
+    "parts": [
+      {
+        "name": "selection-overlay-v27-part01-of01.txt",
+        "chars": 436792,
+        "txt_bytes": 436816
+      }
+    ]
+  },
+  {
+    "asset": "greek-frame-v27",
+    "size": [
+      1448,
+      1086
+    ],
+    "bytes": 731291,
+    "sha256": "e89a9ca049f0faaa415e7f376293775783be52c92a84389260f95b0eab04cff4",
+    "base64_chars": 975056,
+    "parts": [
+      {
+        "name": "greek-frame-v27-part01-of02.txt",
+        "chars": 700000,
+        "txt_bytes": 700024
+      },
+      {
+        "name": "greek-frame-v27-part02-of02.txt",
+        "chars": 275056,
+        "txt_bytes": 275080
+      }
+    ]
+  }
+]

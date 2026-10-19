@@ -1,0 +1,8 @@
+{
+  "method":"built-in image_gen",
+  "generatedAt":"2026-10-16",
+  "output":"assets/woodcut-creatures.png",
+  "sourceFile":"[local reference omitted]",
+  "prompt":"Use case: illustration-story. Asset type: reusable transparent game card illustration atlas for a private UI reference package. Create four separate original forest creature illustrations, each isolated with generous transparent spacing and no card frames: an alert marsh owl, a small field mouse, a bristled wild boar, and a pale moth. Style/medium: hand-cut 19th-century natural-history wood engraving translated into rough ink and dry-brush printmaking, dense carved hatch marks, imperfect black contours, warm sepia paper highlights, restrained charcoal and bone colors with a tiny ember-orange accent. Composition: four evenly spaced head-and-shoulder or full-creature vignettes in one horizontal row, each clearly distinct and crop-friendly. Constraints: transparent background, preserve strong silhouettes and high contrast at small UI icon size. No text, letters, numbers, card borders, game interface, logos, recognizable characters, copyrighted game motifs, blood, gore, watermark, or photorealism.",
+  "notes":"Original generated art; no official image was supplied as a reference. The raster is not a finished UI screen."
+}

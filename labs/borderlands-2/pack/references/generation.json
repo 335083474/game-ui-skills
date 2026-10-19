@@ -1,0 +1,8 @@
+{
+  "method":"built-in image_gen",
+  "generatedAt":"2026-10-16",
+  "output":"assets/comic-weapons.png",
+  "sourceFile":"[local reference omitted]",
+  "prompt":"Use case: illustration-story. Asset type: reusable original weapon-icon atlas for a comic cel-shaded sci-fi shooter UI reference package. Create three clearly separate, fictional tool-like sci-fi weapons only: a blocky short-range rivet launcher, a compact pulse pistol, and a long improvised coil rifle. Style/medium: heavy uneven ink outlines, angular industrial shapes, flat cel-shaded planes, sparse Ben-Day halftone dots, hand-drawn scratches and crosshatching, high-contrast cream, rust orange, cobalt, and charcoal. Composition: three isolated side-view weapons arranged horizontally with generous transparent spacing, each silhouette crop-friendly and readable at 64px. Transparent background. No text, brand marks, logos, borders, game UI, named franchise weapon, real firearm model, gore, person, watermark, or photographic rendering.",
+  "notes":"Original generated fictional prop art; not a finished UI screen or extracted game asset."
+}

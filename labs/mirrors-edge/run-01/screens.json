@@ -1,0 +1,35 @@
+{
+  "slug": "mirrors-edge",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "runner-map", "title": "Runner Map", "description": "The rooftop plate stays open behind a red route diagram and two anchored choices with explicit distance and exposure trade-offs." },
+    { "id": "mission-brief", "title": "Mission Brief", "description": "A paper dispatch separates the courier target, three-step objective sequence, editable note, and accept/back decision from traversal." },
+    { "id": "movement-hud", "title": "Movement HUD", "description": "The generated rooftop scene remains broad and open while one small edge cue shows a single next action and a clearly synthetic demo key." }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "runner-map",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview Canal Edge route" },
+        { "action": "click", "role": "button", "name": "Plot selected line" }
+      ],
+      "expectedText": [ "Canal Edge confirmed for this page session." ]
+    },
+    {
+      "screenId": "mission-brief",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Accept North Relay Courier brief" }
+      ],
+      "expectedText": [ "North Relay Courier accepted for this page session." ]
+    },
+    {
+      "screenId": "movement-hud",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview low barrier cue" },
+        { "action": "click", "role": "button", "name": "Use cue for this session" }
+      ],
+      "expectedText": [ "Low barrier cue used for this page session; Space remains a demo-only label." ]
+    }
+  ]
+}

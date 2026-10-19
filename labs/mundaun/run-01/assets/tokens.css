@@ -1,0 +1,41 @@
+/* Graphite and paper experiment; system fonts only. */
+:root{color-scheme:light;--paper:#e8e4d8;--paper-light:#f0ece1;--graphite:#302f2c;--lead:#565650;--soft:#89877f;--pencil:#a44136;--ochre:#a28c66;--rule:#a7a397;--title:Georgia,"Times New Roman",serif;--body:"Palatino Linotype",Palatino,Georgia,serif;--mono:"Courier New",monospace}
+*{box-sizing:border-box}
+body{margin:0;color:var(--graphite);font-family:var(--body);background:repeating-linear-gradient(112deg,transparent 0 17px,#32312d09 17px 18px,transparent 18px 22px),repeating-linear-gradient(8deg,#e9e5d9 0 5px,#e6e2d5 5px 6px)}
+.page{width:min(1190px,calc(100% - 42px));margin:auto;padding:24px 0 46px}
+.masthead{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:26px;align-items:end;padding-bottom:15px;border-bottom:2px solid #585750}
+.eyebrow,.specimen-kicker,.caption,.micro{font:10px/1.25 var(--mono);text-transform:uppercase;letter-spacing:.13em}
+.eyebrow{color:#8a3f36}
+h1{margin:7px 0 5px;font:700 clamp(28px,4vw,44px)/1 var(--title);letter-spacing:.02em}
+.lede{max-width:660px;margin:0;color:#6d6c65;font-size:14px;line-height:1.5}
+.mast-note{padding-left:13px;border-left:1px solid var(--pencil);color:#73716a;font:10px/1.5 var(--mono)}
+.art-strip{margin:17px 0 23px;border:1px solid #727067;background:#dddbd2;box-shadow:3px 4px #cbc7bb}
+.art-strip img{display:block;width:100%;height:clamp(92px,12vw,140px);object-fit:cover;filter:grayscale(1)}
+.art-strip figcaption{padding:6px 9px;border-top:1px solid #aaa69b;color:#68675f;font:9px var(--mono);letter-spacing:.12em}
+.gallery{display:grid;grid-template-columns:1.05fr 1fr 1.22fr;gap:17px;align-items:start}
+.specimen{position:relative;min-width:0;padding:12px;border:1px solid #6c6a63;background:#f0ece1e8;box-shadow:3px 4px #504e481c}
+.specimen:after{content:"";position:absolute;inset:4px;border:1px solid #43423c26;pointer-events:none}
+.specimen-head{min-height:56px;border-bottom:1px solid #9b988d;padding-bottom:8px}
+.specimen-kicker{color:#8d473b}
+h2{margin:5px 0 0;font:700 19px/1.05 var(--title)}
+.specimen-note{min-height:35px;margin:9px 0 11px;color:#66655f;font-size:11px;line-height:1.45}
+.satchel{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;padding:7px;border:1px solid #66645e;background:#dbd7ca}
+.slot{position:relative;min-height:82px;display:grid;place-items:center;border:1px solid #8e8a7e;background:#ece8dc}
+.slot svg{width:53px;height:56px;filter:drop-shadow(1px 1px #b8b5aa)}
+.count{position:absolute;right:4px;bottom:3px;color:#55534d;font:9px var(--mono)}
+.field-label{display:flex;justify-content:space-between;margin-top:8px;color:#747168;font:8px var(--mono);text-transform:uppercase;letter-spacing:.09em}
+.journal-page{display:grid;grid-template-columns:minmax(0,1fr) 68px;gap:9px;min-height:218px;padding:11px 9px;border-left:2px solid #b3473b;background:#eae6da;box-shadow:inset 0 0 14px #cfcbbf}
+.journal-date{color:#8c4539;font:9px var(--mono);letter-spacing:.1em}
+.journal-title{margin:8px 0 7px;font:italic 700 16px/1.1 var(--title)}
+.journal-copy{margin:0;color:#4f4e49;font-size:11px;line-height:1.5}
+.scribble{margin-top:9px;color:#706e66;font:italic 10px/1.3 var(--title);transform:rotate(-1deg)}
+.sketch{align-self:center;width:68px;height:110px;border-left:1px solid #b6b1a5;padding-left:6px}
+.sketch svg{width:100%;height:100%}
+.trail{position:relative;overflow:hidden;border:1px solid #6e6c65;background:#dedbd0}
+.trail svg{display:block;width:100%;height:211px}
+.trail-tag{position:absolute;left:7px;top:7px;padding:3px 5px;color:#4d4c46;background:#e8e4d8e8;font:8px var(--mono);letter-spacing:.1em}
+.trail-legend{display:flex;justify-content:space-between;gap:6px;margin-top:8px;color:#68675f;font:8px var(--mono)}
+.trail-legend b{color:#a44136}
+.fineprint{margin-top:17px;color:#747168;font:9px/1.5 var(--mono)}
+@media(max-width:850px){.gallery{grid-template-columns:1fr 1fr}.specimen:last-child{grid-column:1/-1}}
+@media(max-width:590px){.page{width:calc(100% - 24px);padding-top:17px}.masthead{grid-template-columns:1fr;gap:12px}.mast-note{max-width:340px}.gallery{grid-template-columns:1fr;gap:16px}.specimen:last-child{grid-column:auto}}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171322">
+  <title>Lantern Keep · UI Study</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#inventory"><span class="brand-gem" aria-hidden="true">✦</span><span><b>LANTERN KEEP</b><small>THE LOW ROOMS / SAMPLE JOURNAL</small></span></a>
+      <nav class="screen-nav" aria-label="Game screens"><a href="#inventory">Inventory</a><a href="#dungeon-map">Dungeon map</a><a href="#item-shop">Item shop</a></nav>
+      <span class="sample-tag">1991 MENU STUDY</span>
+    </header>
+    <main class="playfield">
+      <div class="topline"><span id="screen-kicker">EQUIPMENT / INVENTORY 01</span><span>GOLD EDGE <b>▪</b> RED FOCUS</span></div>
+
+      <section class="screen inventory-screen" id="inventory" data-screen="inventory" aria-labelledby="inventory-title" hidden>
+        <div class="life-strip"><span>LIFE / SAMPLE</span><div class="hearts" aria-label="Seven sample hearts"><i>♥</i><i>♥</i><i>♥</i><i>♥</i><i>♥</i><i>♥</i><i>♥</i><i class="empty">♥</i><i class="empty">♥</i></div><span class="rupee-tag">RUPEES <b data-rupees>120</b></span></div>
+        <div class="inventory-layout">
+          <section class="gold-frame item-grid-panel" aria-label="Inventory items">
+            <div class="panel-head"><b>INVENTORY</b><small>SELECT / ITEM</small></div>
+            <div class="item-grid">
+              <button class="item-slot selected" data-select="item" data-value="Crest Blade" aria-label="Crest Blade" aria-pressed="true"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#blade"></use></svg><span>Crest Blade</span><i class="assign-key">A</i></button>
+              <button class="item-slot" data-select="item" data-value="Round Guard" aria-label="Round Guard" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#shield"></use></svg><span>Round Guard</span><i class="assign-key">B</i></button>
+              <button class="item-slot" data-select="item" data-value="Sun Lantern" aria-label="Sun Lantern" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#lamp"></use></svg><span>Sun Lantern</span><i class="assign-key">—</i></button>
+              <button class="item-slot" data-select="item" data-value="Red Tonic" aria-label="Red Tonic" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#flask"></use></svg><span>Red Tonic</span><i class="assign-key">—</i></button>
+              <button class="item-slot" data-select="item" data-value="Old Key" aria-label="Old Key" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#key"></use></svg><span>Old Key</span><i class="assign-key">—</i></button>
+              <button class="item-slot" data-select="item" data-value="Room Map" aria-label="Room Map" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#map"></use></svg><span>Room Map</span><i class="assign-key">—</i></button>
+              <button class="item-slot" data-select="item" data-value="Star Ring" aria-label="Star Ring" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#ring"></use></svg><span>Star Ring</span><i class="assign-key">—</i></button>
+              <div class="item-slot empty-slot" aria-label="Empty inventory slot"><span class="empty-mark">· · ·</span><span>Empty</span><i class="assign-key">—</i></div>
+            </div>
+            <div class="panel-foot"><span>FIND THE RIGHT TOOL</span><span>8 / 12 SLOTS</span></div>
+          </section>
+          <aside class="gold-frame item-detail"><div class="panel-head"><b>ITEM NOTE</b><small>PREVIEW ONLY</small></div><div class="detail-art"><svg aria-hidden="true" viewBox="0 0 64 64"><use href="./assets/ui-atlas.svg#blade"></use></svg></div><p class="eyebrow">SELECTED ITEM</p><h2 data-preview>Crest Blade</h2><p class="detail-description" data-description>A balanced little blade, filed by hand and kept close.</p><div class="item-meta"><span>ASSIGN TO</span><select aria-label="Choose assignment slot"><option value="A">A slot</option><option value="B">B slot</option></select></div><div class="assignment-readout"><span>A SLOT</span><b data-a-slot>Crest Blade</b></div><div class="assignment-readout"><span>B SLOT</span><b data-b-slot>Round Guard</b></div><button class="commit-button" data-commit="assign" disabled>Assign Crest Blade to A</button><p class="result-line" data-result aria-live="polite">Choose a tool, then assign it to a slot.</p></aside>
+        </div>
+      </section>
+
+      <section class="screen map-screen" id="dungeon-map" data-screen="dungeon-map" aria-labelledby="map-title" hidden>
+        <div class="map-heading"><div><p class="eyebrow">UNDER THE NORTH TOWER / LEVEL 02</p><h1 id="map-title">Rooms known by lantern-light.</h1></div><div class="map-seal">DUNGEON<br><b>02</b></div></div>
+        <div class="map-layout">
+          <section class="gold-frame map-panel" aria-label="Dungeon room map"><div class="panel-head"><b>ROOM CHART</b><small>FICTIONAL GEOMETRY / 5 × 5</small></div><div class="room-map" role="group" aria-label="Selectable dungeon rooms">
+            <span class="room void-room" aria-hidden="true"></span><button class="room unknown" data-select="room" data-value="B-1" aria-label="Unknown room B-1" aria-pressed="false">?</button><button class="room unknown" data-select="room" data-value="C-1" aria-label="Unknown room C-1" aria-pressed="false">?</button><button class="room unknown" data-select="room" data-value="D-1" aria-label="Unknown room D-1" aria-pressed="false">?</button><span class="room void-room" aria-hidden="true"></span>
+            <button class="room unknown" data-select="room" data-value="A-2" aria-label="Unknown room A-2" aria-pressed="false">?</button><button class="room explored" data-select="room" data-value="B-2" aria-label="Explored room B-2" aria-pressed="false">·</button><button class="room explored" data-select="room" data-value="C-2" aria-label="Explored room C-2" aria-pressed="false">·</button><button class="room unknown" data-select="room" data-value="D-2" aria-label="Unknown room D-2" aria-pressed="false">?</button><button class="room unknown" data-select="room" data-value="E-2" aria-label="Unknown room E-2" aria-pressed="false">?</button>
+            <span class="room void-room" aria-hidden="true"></span><button class="room explored" data-select="room" data-value="B-3" aria-label="Explored room B-3" aria-pressed="false">·</button><button class="room current" data-select="room" data-value="C-3" aria-label="Current room C-3" aria-pressed="false">C</button><button class="room unknown" data-select="room" data-value="D-3" aria-label="Unknown room D-3" aria-pressed="false">?</button><span class="room void-room" aria-hidden="true"></span>
+            <button class="room unknown" data-select="room" data-value="A-4" aria-label="Unknown room A-4" aria-pressed="false">?</button><button class="room unknown" data-select="room" data-value="B-4" aria-label="Unknown room B-4" aria-pressed="false">?</button><button class="room explored" data-select="room" data-value="C-4" aria-label="Explored room C-4" aria-pressed="false">·</button><button class="room unknown" data-select="room" data-value="D-4" aria-label="Unknown room D-4" aria-pressed="false">?</button><button class="room unknown" data-select="room" data-value="E-4" aria-label="Unknown room E-4" aria-pressed="false">?</button>
+            <span class="room void-room" aria-hidden="true"></span><button class="room unknown" data-select="room" data-value="B-5" aria-label="Unknown room B-5" aria-pressed="false">?</button><button class="room unknown" data-select="room" data-value="C-5" aria-label="Unknown room C-5" aria-pressed="false">?</button><button class="room unknown" data-select="room" data-value="D-5" aria-label="Unknown room D-5" aria-pressed="false">?</button><span class="room void-room" aria-hidden="true"></span>
+          </div><div class="map-legend"><span><i class="legend-current"></i>CURRENT</span><span><i class="legend-explored"></i>EXPLORED</span><span><i class="legend-unknown">?</i>UNKNOWN</span></div></section>
+          <aside class="gold-frame map-detail"><div class="panel-head"><b>CHARTING NOTE</b><small>SESSION MAP</small></div><div class="compass" aria-hidden="true">N</div><p class="eyebrow">ROOM SELECTED</p><h2 data-preview>C-3 · CURRENT</h2><p class="detail-description" data-description>The square around the lantern marks the party's present room.</p><div class="map-readout"><span>ROOM STATUS</span><b data-room-status>CURRENT</b></div><button class="commit-button" data-commit="chart" disabled>Chart room</button><p class="result-line" data-result aria-live="polite">Select a neighboring room to preview its route state.</p></aside>
+        </div>
+      </section>
+
+      <section class="screen shop-screen" id="item-shop" data-screen="item-shop" aria-labelledby="shop-title" hidden>
+        <div class="shop-heading"><div><p class="eyebrow">NORTH TOWER / MERCHANT'S NOOK</p><h1 id="shop-title">The lantern seller.</h1></div><div class="wallet"><span>RUPEES IN PURSE</span><b><i aria-hidden="true">◆</i> <span data-rupees>120</span></b><small>DEMO BUDGET</small></div></div>
+        <div class="shop-layout">
+          <section class="gold-frame merchant-window" aria-label="Shop offers"><div class="merchant-top"><span class="merchant-mark" aria-hidden="true">⌂</span><span><b>TAKE WHAT THE ROAD NEEDS</b><small>PRICES AND STOCK ARE SAMPLE VALUES</small></span><span class="merchant-count" data-stock>03 OFFERS</span></div>
+            <div class="offer-list">
+              <button class="offer-row selected" data-select="offer" data-value="Moon Dew" aria-label="Moon Dew" aria-pressed="true"><span class="offer-icon dew" aria-hidden="true">◉</span><span class="offer-copy"><b>Moon Dew</b><small>A cool drink for a dry stair</small></span><span class="offer-price">048 <i>RUPEES</i></span><span class="offer-status" data-offer-status="Moon Dew">IN STOCK</span></button>
+              <button class="offer-row" data-select="offer" data-value="Copper Bell" aria-label="Copper Bell" aria-pressed="false"><span class="offer-icon bell" aria-hidden="true">♢</span><span class="offer-copy"><b>Copper Bell</b><small>Its note reaches the next room</small></span><span class="offer-price">072 <i>RUPEES</i></span><span class="offer-status" data-offer-status="Copper Bell">IN STOCK</span></button>
+              <button class="offer-row" data-select="offer" data-value="Blue Resin" aria-label="Blue Resin" aria-pressed="false"><span class="offer-icon resin" aria-hidden="true">✦</span><span class="offer-copy"><b>Blue Resin</b><small>Small tin / for stubborn hinges</small></span><span class="offer-price">090 <i>RUPEES</i></span><span class="offer-status" data-offer-status="Blue Resin">IN STOCK</span></button>
+            </div>
+            <div class="merchant-foot"><span>PREVIEW BEFORE CONFIRMING</span><span>NOTHING IS SAVED</span></div>
+          </section>
+          <aside class="gold-frame shop-receipt"><div class="panel-head"><b>OFFER NOTE</b><small>PREVIEW / CONFIRM</small></div><div class="receipt-sun" aria-hidden="true">☼</div><p class="eyebrow">CURRENT OFFER</p><h2 data-preview>Moon Dew</h2><p class="detail-description" data-description>A cool drink for a dry stair.</p><div class="receipt-line"><span>DEMO PRICE</span><b><i>◆</i> <span data-price>048</span></b></div><div class="receipt-line"><span>YOUR PURSE</span><b><i>◆</i> <span data-budget>120</span></b></div><button class="commit-button" data-commit="purchase" disabled>Purchase Moon Dew · 48 rupees</button><p class="result-line" data-result aria-live="polite">Choose an offer to preview the sample budget.</p></aside>
+        </div>
+      </section>
+
+      <p class="lab-caption">Prototype caption: rooms, stock, item names, and prices are invented; interactions change this page only and never update a save.</p>
+    </main>
+  </div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

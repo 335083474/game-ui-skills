@@ -1,0 +1,75 @@
+{
+  "name": "the-sims-4-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 266,
+      "sha256": "048aa7d0bc53bc5705f09851fe098d3db8e3e3be64f415cadeb6cc225829c1f7"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 3076,
+      "sha256": "d1ad02302aaf44b04618c719d6e85845b18b9af2e6f44f19531b0784f4f6b1ce"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 3964,
+      "sha256": "db44495d99af3cc2a28158b6fb605943ce188e2fa9d733aa7e6fb3e7200c2a19"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1590,
+      "sha256": "48bef4ae162bfd0363f76683f2c1578effa98a3b0dd68b2bf2563dc26730891e"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 937,
+      "sha256": "a63d1587a43c2463059bfd919bb3f37844f651e5e40b9c8c84c8331df40eb8de"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 61744,
+      "sha256": "1a6ac8fd615477d4da563f9f03afa405516846898de64a7cb834d3a0cd4b8a8f"
+    },
+    {
+      "path": "references/images/style-reference.svg",
+      "bytes": 3589,
+      "sha256": "ce897c67ce1eb5b24528d85bb59f191d6bdee422cea457494084a3547e04fc8f"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2314,
+      "sha256": "1d7cdc04610e4dbfda86b2600086325eabe7d0c3940c6166e662ef0568a3b5c0"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1127,
+      "sha256": "0f52e01a2c1644d977340075d88853085b085e9a4af54628c952ee580c284676"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1122,
+      "sha256": "f4f5ac1438a304cb7c8ce93ef304688e7cbf11d53d57f32b44636a272d6c6e50"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 3787,
+      "sha256": "416bf426cb674d35ce089c3828ef2bde2de1f0b9182d9d503d44068197ad2ef1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2414,
+      "sha256": "599a2e0d62e628b3f773cbfd1bb1cb4a2f8c94612f10d95a630a681b4d37866b"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1040,
+      "sha256": "85ee832800a707875d53cd666c8b69c8ad0f9553254e29327e4d6ea24ea59bde"
+    }
+  ]
+}

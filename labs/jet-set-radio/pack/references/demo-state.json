@@ -1,0 +1,29 @@
+{
+  "scope": "Local invented demonstration values only; none are saved.",
+  "crew": {
+    "active": "Mina",
+    "pending": null,
+    "options": [
+      {"id": "arlo", "name": "Arlo", "style": "Line cutter"},
+      {"id": "mina", "name": "Mina", "style": "Wall painter"},
+      {"id": "jo", "name": "Jo", "style": "Switchback"}
+    ]
+  },
+  "missions": {
+    "selected": null,
+    "options": [
+      {"id": "north-arcade", "name": "North Arcade Switchback", "tags": 5, "demoWindow": "02:40", "routeNote": "Narrow roof line"},
+      {"id": "canal-market", "name": "Canal Market Loop", "tags": 4, "demoWindow": "03:10", "routeNote": "Broad plaza"}
+    ],
+    "confirmed": false
+  },
+  "result": {
+    "points": 82400,
+    "tags": "5/6",
+    "combo": "8 beats",
+    "style": "High Line",
+    "rank": "S demo stamp",
+    "stampedInPageSession": false
+  },
+  "controlBoundary": "Button behavior in the HTML specimen is local UI demonstration logic, not game input."
+}

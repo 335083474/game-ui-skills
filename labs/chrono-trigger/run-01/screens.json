@@ -1,0 +1,15 @@
+{
+  "slug":"chrono-trigger",
+  "model":"gpt-6-luna",
+  "reasoningEffort":"max",
+  "screens":[
+    {"id":"party","title":"Three-person party","description":"Three compact member records with original portraits, HP/MP labels, sample equipment summaries, and one focused member."},
+    {"id":"techs","title":"Tech combinations","description":"A compact Tech list distinguishes one-, two-, and three-person combinations, names every required participant, and shows sample MP cost."},
+    {"id":"battle-orders","title":"ATB battle orders","description":"A labeled ATB strip and three-member queue distinguish ready/waiting states, with a selected order and target preview."}
+  ],
+  "smokeTests":[
+    {"screenId":"party","steps":[{"action":"click","role":"button","name":"Ora"},{"action":"click","role":"button","name":"Set focus to Ora"}],"expectedText":["Focus set to Ora","02 / 03"]},
+    {"screenId":"techs","steps":[{"action":"click","role":"button","name":"Triad Burst"},{"action":"click","role":"button","name":"Reserve Triad Burst · 09 MP"}],"expectedText":["Triad Burst reserved","056 MP"]},
+    {"screenId":"battle-orders","steps":[{"action":"click","role":"button","name":"Tech"},{"action":"select","role":"combobox","name":"Choose command slot","value":"Ora"},{"action":"select","role":"combobox","name":"Choose target","value":"Glass Warden"},{"action":"click","role":"button","name":"Lock Tech for Ora"}],"expectedText":["Tech locked for Ora / Glass Warden","LOCKED"]}
+  ]
+}

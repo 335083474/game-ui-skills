@@ -1,0 +1,70 @@
+{
+  "scope": "Node-only model and static resource verification. No browser QA.",
+  "passed": 16,
+  "results": [
+    {
+      "name": "Initial model, IDs, HP, inventory and PP satisfy invariant checks",
+      "pass": true
+    },
+    {
+      "name": "Potion caps at max HP and stock commits once; repeat full-HP use is inert",
+      "pass": true
+    },
+    {
+      "name": "Full HP, fainted, unknown target, unsupported effect, zero stock are inert",
+      "pass": true
+    },
+    {
+      "name": "Tonic heals ten capped and decrements only its own stock",
+      "pass": true
+    },
+    {
+      "name": "Attack at one PP spends once, deals declared damage and gets one response",
+      "pass": true
+    },
+    {
+      "name": "No PP changes no HP/stock/PP/turn; message opening and cancellation are inert",
+      "pass": true
+    },
+    {
+      "name": "Killing blow skips enemy response, terminal battle blocks further damage",
+      "pass": true
+    },
+    {
+      "name": "Battle medicine commits one heal, one stock, one turn and one enemy response",
+      "pass": true
+    },
+    {
+      "name": "Switch rejects current/FNT; living reserve becomes active and receives response",
+      "pass": true
+    },
+    {
+      "name": "Zero active HP marks FNT and blocks moves until valid switch",
+      "pass": true
+    },
+    {
+      "name": "Last living member fainting produces loss and suppresses later actions",
+      "pass": true
+    },
+    {
+      "name": "First Run fails with one response; second escapes with no response",
+      "pass": true
+    },
+    {
+      "name": "canEscape=false always fails, taking exactly one response each time",
+      "pass": true
+    },
+    {
+      "name": "Source/local runtime paths resolve; no remote runtime requests",
+      "pass": true
+    },
+    {
+      "name": "Copied font, CSS, both PNGs and original licenses match frozen input SHA-256",
+      "pass": true
+    },
+    {
+      "name": "PNG dimensions/indexed transparency match source atlas contract",
+      "pass": true
+    }
+  ]
+}

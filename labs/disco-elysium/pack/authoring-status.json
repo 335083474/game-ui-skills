@@ -1,0 +1,40 @@
+{
+  "slug": "disco-elysium",
+  "packageName": "disco-elysium-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "dialogue-check",
+      "title": "Dialogue and skill check",
+      "description": "Read an original narrative feed, inspect a skill interruption and modifiers, then confirm one choice."
+    },
+    {
+      "id": "skills",
+      "title": "Skill journal",
+      "description": "Browse compact skill values and inspect a selected voice with named modifiers."
+    },
+    {
+      "id": "thought-cabinet",
+      "title": "Thought cabinet",
+      "description": "Track a few original ideas through considering, internalizing, and formed states."
+    }
+  ],
+  "referenceImage": "assets/archivist-portrait.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental style interpretation, not an official or pixel-exact recreation.",
+    "Portrait, dialogue, skills, and effects are original synthetic examples; official characters and game text are excluded."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

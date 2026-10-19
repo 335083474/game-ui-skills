@@ -1,0 +1,15 @@
+{
+  "slug": "fallout-2",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id": "character", "title": "Character Record", "description": "A dense character sheet with seven aligned attributes, selectable conditions, and a monochrome status panel."},
+    {"id": "inventory", "title": "Inventory", "description": "A compact item field with count and weight, selected-object description, and an action strip."},
+    {"id": "barter", "title": "Barter Ledger", "description": "Two clearly owned offer columns, visible caps balance, and explicit propose/withdraw state."}
+  ],
+  "smokeTests": [
+    {"screenId": "character", "steps": [{"action": "click", "role": "button", "name": "Select Agility"}], "expectedText": ["AGILITY / 06 selected.", "Selected / Agility · 06"]},
+    {"screenId": "inventory", "steps": [{"action": "click", "role": "button", "name": "Select Water Flask"}, {"action": "click", "role": "button", "name": "Use"}], "expectedText": ["Used Water Flask · 1 remaining.", "COUNT × 1"]},
+    {"screenId": "barter", "steps": [{"action": "click", "role": "button", "name": "Propose balanced trade"}, {"action": "click", "role": "button", "name": "Withdraw proposal"}], "expectedText": ["PROPOSAL WITHDRAWN · offer remains at 16 / 16 caps.", "GAP / 0 CAPS", "BALANCED"]}
+  ]
+}

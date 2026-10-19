@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Ember Archive · Dialogue & Settings</title>
+  <link rel="stylesheet" href="assets/components/theme.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="sui-scene">
+  <div class="vault" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="shell">
+    <header class="masthead">
+      <a class="wordmark" href="#dialogue"><span class="crest" aria-hidden="true">✦</span> The Ember Archive</a>
+      <nav aria-label="Prototype screens"><a href="#dialogue" data-route="dialogue">Dialogue</a><a href="#settings" data-route="settings">Settings</a></nav>
+    </header>
+
+    <main>
+      <section id="dialogue" aria-labelledby="dialogue-title">
+        <header class="page-heading"><p class="sui-eyebrow">Act I · The quiet antechamber</p><h1 class="sui-title" id="dialogue-title">A Keeper of Small Fires</h1><p class="sui-muted">An old archive. One patient voice beyond the gate.</p></header>
+        <div class="encounter frame">
+          <aside class="keeper">
+            <div class="identity-seal" aria-hidden="true"><span>✦</span></div>
+            <p class="sui-eyebrow">The archivist</p><h2>Maera</h2><p class="sui-muted">Keeper of the<br>Ember Archive</p>
+            <div class="keeper-rule"></div><p class="atmosphere">A coal glows in a shallow iron bowl. She turns a page, then waits for you to speak.</p>
+            <div class="prop"><span class="sui-icon sui-icon--scroll" aria-hidden="true"></span><span>A sealed record<br><small>Still unread</small></span></div>
+          </aside>
+          <div class="conversation">
+            <div class="conversation-label"><span>Maera speaks</span><span id="chapter-label">First meeting</span></div>
+            <div class="sui-paper speech" tabindex="-1" id="speech" aria-live="polite"><h2 id="speech-title"></h2><p id="speech-text"></p></div>
+            <div class="responses"><p class="response-label" id="response-label">Your reply</p><div id="choices"></div></div>
+            <div class="dialogue-actions"><button type="button" class="text-action" id="dialogue-back" disabled>← Back to replies</button><button type="button" class="text-action" id="dialogue-restart">Restart conversation</button></div>
+          </div>
+        </div>
+        <p class="footnote">A branching encounter study · conversation resets on refresh · no game rewards are granted.</p>
+      </section>
+
+      <section id="settings" aria-labelledby="settings-title" hidden>
+        <header class="page-heading"><p class="sui-eyebrow">Pause · Make yourself at home</p><h1 class="sui-title" id="settings-title">Journey Settings</h1><p class="sui-muted">A few comforts for the road ahead.</p></header>
+        <div class="settings-layout">
+          <form id="settings-form" class="settings-form frame">
+            <div class="section-caption"><span>Preferences</span><span id="save-state" class="save-state">Saved</span></div>
+            <div class="setting volume-setting"><div class="setting-top"><label for="volume">Volume preference</label><output id="volume-value" for="volume">70%</output></div><p class="setting-help" id="volume-help">Stored for this prototype. No audio is connected.</p><input id="volume" name="volume" type="range" min="0" max="100" step="1" value="70" aria-describedby="volume-help"><div class="range-labels" aria-hidden="true"><span>Silent</span><span>Full</span></div></div>
+            <label class="setting toggle-setting" for="large-text"><span><span class="setting-title">Large text</span><span class="setting-help">Enlarge dialogue and interface copy.</span></span><input id="large-text" name="largeText" type="checkbox"><span class="check-box" aria-hidden="true"></span></label>
+            <label class="setting toggle-setting" for="reduce-motion"><span><span class="setting-title">Reduce motion</span><span class="setting-help">Remove lifts, fades and moving embers.</span></span><input id="reduce-motion" name="reduceMotion" type="checkbox"><span class="check-box" aria-hidden="true"></span></label>
+            <div class="settings-bottom"><button type="button" class="text-action defaults" id="restore-defaults">Restore defaults</button><p class="setting-help">Defaults are previewed. Save to keep them.</p></div>
+            <div class="form-actions"><button type="submit" class="sui-action" id="save-settings"><span>Save settings</span></button><button type="button" class="sui-action sui-action--secondary" id="cancel-settings"><span>Cancel changes</span></button></div>
+            <p class="form-status" id="settings-status" role="status" aria-live="polite">Your saved settings are active.</p>
+          </form>
+          <aside class="settings-preview">
+            <div class="sui-paper preview-paper"><p class="paper-eyebrow">Live reading preview</p><span class="sui-icon sui-icon--scroll" aria-hidden="true"></span><h2>The words remain</h2><p class="preview-copy">“Some travellers carry a sword. Others carry a question. Both are welcome here.”</p><p class="preview-credit">— Maera, keeper of the archive</p></div>
+            <div class="preview-info"><span class="sui-badge" id="preview-mode">Standard text</span><p>Text and motion changes preview immediately, including in the dialogue.</p><p>Save keeps preferences on this browser after refresh. Cancel restores the last saved values.</p></div>
+          </aside>
+        </div>
+        <p class="footnote">Local interface prototype · no audio playback or game engine integration.</p>
+      </section>
+    </main>
+    <footer class="site-footer"><span>Unofficial dungeon interface study</span><span>Stone · Gold · Parchment</span></footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

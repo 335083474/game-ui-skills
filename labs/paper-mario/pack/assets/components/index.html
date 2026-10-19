@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Paper Mario — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<main class="paper-lab">
+  <header class="paper-head">
+    <div><p class="eyebrow">PAPER / INK / STAGE · COMPONENT SPECIMENS</p><h1>Small parts for<br><em>big moments.</em></h1></div>
+    <div class="head-note">2024 SWITCH DIRECTION<br>ORIGINAL UI STUDY / NOT SOURCE ART</div>
+  </header>
+  <figure class="theatre">
+    <img src="../../references/images/reference-board.svg" alt="Original cut-paper theatre with layered stage and badge emblems">
+    <figcaption>STAGE LANGUAGE / EDGE · LAYER · COMMAND</figcaption>
+  </figure>
+  <section class="piece-board" aria-label="Reusable paper interface parts">
+    <article class="piece">
+      <header class="piece-head"><div><p class="specimen-no">01 / EQUIPMENT MARKS</p><h2>Badge folio</h2></div><small>SELECT A PIN</small></header>
+      <div class="badge-list">
+        <button class="badge-chip" aria-pressed="true" data-group="badge"><svg><use href="../art/ui-atlas.svg#rosette"/game-ui-skills/></svg><span><b>STAR SPARK</b><small>Action / 2 slots</small></span></button>
+        <button class="badge-chip" aria-pressed="false" data-group="badge"><svg><use href="../art/ui-atlas.svg#leaf"/game-ui-skills/></svg><span><b>GREEN LUCK</b><small>Travel / 1 slot</small></span></button>
+        <button class="badge-chip" aria-pressed="false" data-group="badge"><svg><use href="../art/ui-atlas.svg#ticket"/game-ui-skills/></svg><span><b>QUICK TICKET</b><small>Battle / 3 slots</small></span></button>
+        <button class="badge-chip" aria-pressed="false" data-group="badge"><svg><use href="../art/ui-atlas.svg#rosette"/game-ui-skills/></svg><span><b>LOUD CROWD</b><small>Stage / 1 slot</small></span></button>
+      </div>
+      <div class="capacity" aria-label="Two of five demo slots used"><i></i><i></i><i class="empty"></i><i class="empty"></i><i class="empty"></i></div>
+      <p class="live" aria-live="polite">Star Spark selected · equip remains a preview.</p>
+    </article>
+    <article class="piece">
+      <header class="piece-head"><div><p class="specimen-no">02 / FIELD KIT</p><h2>Loose items</h2></div><small>DEMO STOCK</small></header>
+      <div class="folio-items">
+        <button class="item-choice" aria-pressed="true" data-group="item"><svg><use href="../art/ui-atlas.svg#ticket"/game-ui-skills/></svg><span><b>TRAVEL PASS</b><small>Opens a shortcut / sample</small></span><span class="qty">× 2</span></button>
+        <button class="item-choice" aria-pressed="false" data-group="item"><svg><use href="../art/ui-atlas.svg#leaf"/game-ui-skills/></svg><span><b>HERB PACK</b><small>Restores a little / sample</small></span><span class="qty">× 1</span></button>
+        <button class="item-choice" aria-pressed="false" data-group="item"><svg><use href="../art/ui-atlas.svg#rosette"/game-ui-skills/></svg><span><b>STAR BISCUIT</b><small>A bright little snack / sample</small></span><span class="qty">× 3</span></button>
+      </div>
+      <p class="paper-hint">Original symbols and invented contents. Select to preview.</p>
+      <p class="live" aria-live="polite">Travel Pass preview · nothing was used.</p>
+    </article>
+    <article class="piece commands-piece">
+      <header class="piece-head"><div><p class="specimen-no">03 / THEATRE FLOOR</p><h2>Stage commands</h2></div><small>TARGET / FRONT ROW</small></header>
+      <div class="command-stage">
+        <div class="commands">
+          <button class="command" aria-pressed="true" data-group="command">HAMMER</button><button class="command" aria-pressed="false" data-group="command">JUMP</button>
+          <button class="command" aria-pressed="false" data-group="command">PARTNER</button><button class="command" aria-pressed="false" data-group="command">ITEM</button>
+        </div>
+        <div class="audience"><span>HOUSE / CHEER</span><span class="audience-meter" aria-hidden="true"></span><span>03</span></div>
+        <p class="live" aria-live="polite">Hammer preview · choose a target before confirming.</p>
+      </div>
+    </article>
+  </section>
+  <footer class="paper-footer"><span>LOCAL SPECIMEN CONTROLS ONLY</span><span>ORIGINAL CUT-PAPER ART / NO SOURCE-GAME ASSETS</span></footer>
+</main>
+<script>
+document.querySelectorAll("[data-group]").forEach(button=>button.addEventListener("click",()=>{
+  document.querySelectorAll('[data-group="'+button.dataset.group+'"]').forEach(item=>item.setAttribute("aria-pressed","false"));
+  button.setAttribute("aria-pressed","true");
+  const live=button.closest(".piece").querySelector(".live");
+  if(live) live.textContent=(button.innerText||"Selection").replace(/\s+/g," ").trim()+" selected · local preview only.";
+}));
+</script>
+</body>
+</html>

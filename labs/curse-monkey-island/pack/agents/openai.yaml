@@ -1,0 +1,5 @@
+interface:
+  display_name: "Hand-painted pirate-cartoon adventure UI"
+  short_description: "Original curse monkey island game UI direction"
+  default_prompt: "Use $curse-monkey-island-ui to build an original game interface in this visual direction."
+

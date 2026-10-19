@@ -1,0 +1,85 @@
+{
+  "name": "cuphead-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 220,
+      "sha256": "0c15c5bcf62acb94415b1bcfa91141439c77309614c91fb74b594df1df5a6851"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 2887,
+      "sha256": "c92723fad97f1054c8d23c9a3fd117189b11d0ed663e42e466fc2b441888bccb"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 4195,
+      "sha256": "0770bbe589d19f617146f5c4413dd88d29c5d8d5f882c21e7bfe05f54e07773d"
+    },
+    {
+      "path": "assets/illustrations/cuphead-art.png",
+      "bytes": 3049089,
+      "sha256": "92ac9331f0d55f16c9f7947992a95edde938989ed075e7b2bec11dd5c46a2cb9"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1440,
+      "sha256": "4c6d1811ca9e3fda10f6affabb42028e836f6f9d61ab9a9fc9098315e4daece2"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 766,
+      "sha256": "c8af93e1fba4c852e54f563d232b1fa9d750b8e2aa91306934270875bc1e1171"
+    },
+    {
+      "path": "references/demo-state.json",
+      "bytes": 594,
+      "sha256": "03cbd68ca417a0ee9dcaf6f4cf3ccf50c588ad85a57e4b64dcd754c847780927"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 782,
+      "sha256": "b2847edcad8e2cd136f12b9ffea198dd8ded83c1821683b0acb76ba1f1af35ec"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 131218,
+      "sha256": "3eb619d60a8b133178caa9f454cdd9b40c5ed28cc4066c5c33c17d032b0b1108"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1578,
+      "sha256": "400279cd53bb09f6e9c2b94d956713e72db0c814bf0295133263d42ac1452319"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1098,
+      "sha256": "be20bbd7a7e59c0968ce8fb3c8aa4b7415e243726f2352626fd299984e6e5fb3"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1066,
+      "sha256": "2c13eb5733d6f5cdde13a6d2e763eed2155e72865ccc2aca6a842e3f94de75c9"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1695,
+      "sha256": "506ee37f763867a1095a57fc5fea3dd3cbda6e9cd8a845bb315effdcdf6b33a6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2443,
+      "sha256": "fab4845146af648d11b704e88b862966ea9c06d16d6a9b916b60cff82376dca9"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 728,
+      "sha256": "1836f70ca9fcc682283dc86820b3881e3a8bb6431b01315a504dbed5f820aee0"
+    }
+  ]
+}

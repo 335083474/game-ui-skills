@@ -1,0 +1,6 @@
+interface:
+  display_name: "Stardew Valley UI"
+  short_description: "Warm pastoral pixel UI with wood, paper and local sprites"
+  default_prompt: "Use $stardew-valley-ui to build an editable farm-game Web interface after inspecting its references and component specimens."
+policy:
+  allow_implicit_invocation: true

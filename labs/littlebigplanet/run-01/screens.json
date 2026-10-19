@@ -1,0 +1,15 @@
+{
+  "slug": "littlebigplanet",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"sticker-book","title":"Sticker Book","description":"A felt-bound open spread uses a prominent original craft scene, cutout patches, locked labeling, and a reversible placement preview."},
+    {"id":"costume-workbench","title":"Costume Workbench","description":"A character-led fabric bench separates the worn cloth, a reversible swatch preview, and the explicit apply action."},
+    {"id":"level-pods","title":"Level Pods","description":"Chunky cardboard destinations sit in a loose landscape shelf; a pod preview is separate from opening it."}
+  ],
+  "smokeTests": [
+    {"screenId":"sticker-book","steps":[{"action":"click","role":"button","name":"Choose Wave patch"},{"action":"click","role":"button","name":"Place sticker"}],"expectedText":["Placed: Wave patch on the Sunny scraps page."]},
+    {"screenId":"costume-workbench","steps":[{"action":"click","role":"button","name":"Preview Berry fabric"},{"action":"click","role":"button","name":"Apply costume"}],"expectedText":["Applied: Berry fabric. This outfit change is session-only."]},
+    {"screenId":"level-pods","steps":[{"action":"click","role":"button","name":"Button Hollow pod — new"},{"action":"click","role":"button","name":"Open pod"}],"expectedText":["Opening Button Hollow. New destination selected for this session."]}
+  ]
+}

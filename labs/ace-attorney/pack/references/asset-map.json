@@ -1,0 +1,8 @@
+{
+  "assets":[
+    {"path":"assets/witness-portrait.png","role":"Original reusable fictional witness clipping and style reference","provenance":"Built-in image_gen; full prompt in generation.json","use":"Place beside a speaker identity strip; no known character likeness intended."},
+    {"path":"assets/components/index.html","role":"Editable evidence file, witness strip, testimony, and exhibit-state specimens","provenance":"Authored package code","use":"Open locally; toggles are primitive demonstrations only."},
+    {"path":"assets/components/theme.css","role":"Court navy, filed paper, evidence tab, speaker strip, and statement selection primitives","provenance":"Authored package code","use":"Compose requested screens separately; preserve distinct Press / Present actions."}
+  ],
+  "notBundled":["Capcom characters", "official text or evidence", "screenshots", "font binaries", "finished target-screen layouts"]
+}

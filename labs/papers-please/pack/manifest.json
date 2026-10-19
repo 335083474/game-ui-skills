@@ -1,0 +1,75 @@
+{
+  "name": "papers-please-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 258,
+      "sha256": "8bc61f681806c105191fd9621283401fe67b0dd09a7d8f76cda05eb34f699431"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 2272,
+      "sha256": "3f7d10749f2ad19632f291ebab2114db0442115dcf1bc10c9d83f88bc594deb5"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 3185,
+      "sha256": "280b89030e5be4ccf106cd7711ff8e79bd2f9dfd1f18147e040b1715c7aa412d"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1406,
+      "sha256": "2b28bdc00c312d98a412dce56125a29612d316fb553c4e375aedd22fbe8a502f"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 879,
+      "sha256": "559a7e07766f47460679f7ca753c28c9e4e90092d39e42b50099c86c8a586020"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 79268,
+      "sha256": "de14b5b78fd05812a57cdd74773e1f38ecf92d4a7b05a4d0920ca98548b65be7"
+    },
+    {
+      "path": "references/images/style-reference.svg",
+      "bytes": 2549,
+      "sha256": "9f12ef34455331840d2cf9ce6eb0c43429d998586213c370fd56d16d1e2d0730"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2382,
+      "sha256": "5829315fb0e7ea23764befae6f4134928ef4239d0994c36f0cbab3557dcc0c7a"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 999,
+      "sha256": "dbc774e156c92437680dc04d262800f86ac8f211acc8e04ccb34e7a6ea67914a"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1069,
+      "sha256": "47105f52690cf82a83409a1d78e4af89d73e3c2cd4c4a612ae01c040059a4f9a"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 3470,
+      "sha256": "5ff9a634f126a237959813b3455c92c76b43a5a2fd9039acdfafda64db6bdf7f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2405,
+      "sha256": "ce7d13c8346d81afd9ce8c1706f05d9a04dc963d3108e77d93de68b12695d2a6"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1010,
+      "sha256": "ab4b717dd7b4111fc1bb1426135c8901e7a48f37bca937702fac3347fee782f0"
+    }
+  ]
+}

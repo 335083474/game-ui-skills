@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Field notebook — pictorial component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+  <script defer src="demo.js"></script>
+</head>
+<body>
+  <main class="field-notebook" aria-labelledby="page-title">
+    <header class="notebook-heading">
+      <div><p class="field-number">Naturalist's folio / specimen 04</p><h1 id="page-title">Things found between worlds</h1></div>
+      <span class="notebook-mark">Field copy · local</span>
+    </header>
+
+    <section class="field-spread" aria-label="Object, pictorial clue, and chapter specimens">
+      <article class="combination-fragment" aria-labelledby="combine-title">
+        <p class="specimen-note">01 / object combination</p>
+        <h2 id="combine-title">Bring two things together</h2>
+        <div class="object-line" data-combine-group>
+          <button class="found-object shell-object" type="button" data-object data-name="Amber shell" aria-pressed="false" aria-label="Select amber shell"><span class="shell-shape" aria-hidden="true"></span><small>Shell</small></button>
+          <span class="join-mark" aria-hidden="true">+</span>
+          <button class="found-object ring-object" type="button" data-object data-name="Moss ring" aria-pressed="false" aria-label="Select moss ring"><span class="ring-shape" aria-hidden="true"></span><small>Ring</small></button>
+          <span class="join-mark" aria-hidden="true">↘</span>
+          <span class="result-object" role="img" aria-label="Unknown result until the combination is tried"><span class="result-shape" aria-hidden="true">?</span><small>Result</small></span>
+        </div>
+        <div class="fragment-foot"><p id="combine-status" aria-live="polite">Select two objects to preview a pair.</p><button id="combine-button" type="button">Combine</button></div>
+      </article>
+
+      <figure class="habitat-photo">
+        <img src="../../references/images/reference-plate.png" alt="A tiny seed-pod traveler among moss, bark, and pale mushrooms in a miniature woodland">
+        <figcaption><span>Habitat / found object</span><b>Scale is part of the clue</b></figcaption>
+      </figure>
+
+      <article class="hint-fragment" aria-labelledby="hint-title">
+        <div class="hint-heading"><div><p class="specimen-note">02 / pictorial hint</p><h2 id="hint-title">Follow the small path</h2></div><span class="eye-mark" aria-hidden="true">◉</span></div>
+        <ol class="picture-path" aria-label="A root hollow, then a shell, then a moss ring">
+          <li><span class="path-glyph root-glyph" aria-hidden="true"><i></i><i></i><i></i></span><small>Root</small></li>
+          <li class="path-arrow" aria-hidden="true">→</li>
+          <li><span class="path-glyph cap-glyph" aria-hidden="true"><i></i></span><small>Shell</small></li>
+          <li class="path-arrow" aria-hidden="true">→</li>
+          <li><span class="path-glyph loop-glyph" aria-hidden="true"><i></i></span><small>Ring</small></li>
+        </ol>
+        <button class="reveal-button" id="hint-toggle" type="button" aria-expanded="false" aria-controls="hint-copy">Show picture clue</button>
+        <p class="hint-copy" id="hint-copy" hidden>Follow the root hollow to the amber shell and moss ring.</p>
+      </article>
+
+      <article class="planet-fragment" aria-labelledby="planet-title">
+        <p class="specimen-note">03 / planet chapters</p>
+        <h2 id="planet-title">Choose a world</h2>
+        <div class="orbit" aria-label="World selection" data-select-group>
+          <span class="orbit-line" aria-hidden="true"></span>
+          <button class="world world-fern" type="button" data-select data-name="Fern Moon · current" aria-pressed="false" aria-label="Fern Moon, current"><i aria-hidden="true"></i><span>Fern Moon</span></button>
+          <button class="world world-amber" type="button" data-select data-name="Amber Orchard · visited" aria-pressed="false" aria-label="Amber Orchard, visited"><i aria-hidden="true"></i><span>Amber Orchard</span></button>
+          <button class="world world-reef" type="button" data-select data-name="Quiet Reef · unvisited" aria-pressed="false" aria-label="Quiet Reef, unvisited"><i aria-hidden="true"></i><span>Quiet Reef</span></button>
+        </div>
+        <div class="fragment-foot"><p data-message aria-live="polite">A selected world is only a route preview.</p><button type="button" data-apply>Set route</button></div>
+      </article>
+    </section>
+    <footer class="notebook-footer"><span>Small pictures carry the action</span><span>Tab · Enter · Space</span><span>Every symbol has a text name</span></footer>
+  </main>
+</body>
+</html>

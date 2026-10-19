@@ -1,0 +1,37 @@
+{
+  "slug": "zelda-alttp",
+  "packageName": "zelda-alttp-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "inventory",
+      "title": "Inventory grid",
+      "description": "A square item-slot grid with one red selection frame, a short item label, and compact equipment assignment cues."
+    },
+    {
+      "id": "dungeon-map",
+      "title": "Dungeon room map",
+      "description": "A small room-by-room map with current room, explored path, and a labeled unknown-room state."
+    },
+    {
+      "id": "item-shop",
+      "title": "Item shop",
+      "description": "A compact merchant choice with original item symbols, simple price values, and a separate purchase preview/confirm state."
+    }
+  ],
+  "referenceImage": "references/images/reference-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

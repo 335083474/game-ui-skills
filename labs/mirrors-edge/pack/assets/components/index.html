@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Open Line — traversal UI specimens</title>
+<link rel="stylesheet" href="theme.css">
+</head>
+<body class="me-board">
+<header class="me-hero">
+  <img class="me-hero-art" src="../../references/images/style-board.png" alt="Original generated view of an invented white rooftop with a red route stripe and clear sky">
+  <div class="me-hero-copy">
+    <p class="me-kicker">Original Mirror’s Edge scope / experimental visual direction</p>
+    <h1>Open line</h1>
+    <p>Let the architecture stay visible. A route diagram offers choice, a brief holds longer intent, and the movement cue gives one next action.</p>
+  </div>
+</header>
+<div class="me-section">
+  <h2>Component specimens / three information jobs</h2>
+  <span class="me-demo">Synthetic locations, objectives, times and key mapping · local page state only</span>
+</div>
+<main class="me-specimens">
+  <section class="me-specimen" aria-labelledby="map-heading">
+    <span class="me-index">01 / Spatial choice</span>
+    <h3 id="map-heading">Runner Map</h3>
+    <p class="me-sub">The line does the work; notes stay secondary.</p>
+    <div class="me-map-surface">
+      <div class="me-map-top"><span>North approach</span><span>Demo schematic</span></div>
+      <svg class="me-map-svg" viewBox="0 0 420 132" role="img" aria-label="A starting node, two route branches, and one destination">
+        <path d="M30 98 L117 98 L171 58 L252 58 L337 30 L392 30" fill="none" stroke="#d9272e" stroke-width="4"/game-ui-skills/>
+        <path d="M30 98 L117 98 L171 113 L252 113 L337 76 L392 30" fill="none" stroke="#8e999a" stroke-width="2" stroke-dasharray="5 5"/game-ui-skills/>
+        <circle cx="30" cy="98" r="7" fill="#11191c"/game-ui-skills/><circle cx="171" cy="58" r="6" fill="#d9272e"/game-ui-skills/><circle cx="252" cy="58" r="6" fill="#d9272e"/game-ui-skills/><circle cx="171" cy="113" r="5" fill="#f8faf9" stroke="#717c7e" stroke-width="2"/game-ui-skills/><path d="M392 20 L402 30 L392 40 L382 30Z" fill="#d9272e"/game-ui-skills/>
+        <text x="20" y="83" font-size="9" fill="#4b585b">START</text><text x="351" y="18" font-size="9" fill="#4b585b">RELAY</text>
+      </svg>
+      <div class="me-map-bottom"><span>Two possible lines</span><span>Demo only</span></div>
+    </div>
+    <div class="me-route-options" role="group" aria-label="Preview a synthetic route">
+      <button type="button" class="me-route-option" data-route="Canal Edge" data-detail="2.4 km demo estimate · open crossing" aria-pressed="false"><i class="me-pin" aria-hidden="true"></i><span><strong>Canal Edge</strong><small>Open crossing</small></span><span class="me-distance">2.4 km</span></button>
+      <button type="button" class="me-route-option" data-route="Service Roof" data-detail="3.1 km demo estimate · covered approach" aria-pressed="false"><i class="me-pin" aria-hidden="true"></i><span><strong>Service Roof</strong><small>Covered approach</small></span><span class="me-distance">3.1 km</span></button>
+    </div>
+    <div class="me-actions"><button type="button" class="me-button" id="map-confirm" disabled>Plot line</button><button type="button" class="me-button secondary" id="map-cancel">Clear preview</button></div>
+    <p class="me-live" id="map-live" aria-live="polite">Choose a line to preview it.</p>
+  </section>
+
+  <section class="me-specimen" aria-labelledby="brief-heading">
+    <span class="me-index">02 / Purpose</span>
+    <h3 id="brief-heading">Mission Brief</h3>
+    <p class="me-sub">Longer intent belongs on a calm, separate surface.</p>
+    <article class="me-placard">
+      <span class="me-operation">Synthetic dispatch / North Relay</span>
+      <h4 class="me-target">North Relay Courier</h4>
+      <ol class="me-objectives">
+        <li><span class="me-check">1</span><span>Reach the relay door</span></li>
+        <li><span class="me-check">2</span><span>Carry the sealed packet</span></li>
+        <li><span class="me-check">3</span><span>Leave by the east stair</span></li>
+      </ol>
+      <div class="me-route-note"><i class="me-red-rule" aria-hidden="true"></i><span><strong>Route note</strong><br>Use the upper path in this invented scenario.</span></div>
+      <p class="me-kicker">Demo data · not an original mission</p>
+    </article>
+    <div class="me-actions"><button type="button" class="me-button" id="brief-accept">Accept brief</button><button type="button" class="me-button secondary" id="brief-back">Back</button></div>
+    <p class="me-live" id="brief-live" aria-live="polite">Brief is unaccepted.</p>
+  </section>
+
+  <section class="me-specimen" aria-labelledby="hud-heading">
+    <span class="me-index">03 / Next action</span>
+    <h3 id="hud-heading">Movement HUD</h3>
+    <p class="me-sub">One transient cue leaves the central view open.</p>
+    <div class="me-hud-scene" aria-label="Architectural movement cue specimen">
+      <div class="me-architecture" aria-hidden="true"></div><div class="me-floormark" aria-hidden="true"></div>
+      <div class="me-cue" id="movement-cue">
+        <div class="me-cue-line"><span class="me-arrow" aria-hidden="true">↗</span><span><strong>Vault the low barrier</strong><small>Next useful action / demo scenario</small></span></div>
+        <span class="me-cue-key">Demo key · Space</span>
+      </div>
+    </div>
+    <div class="me-actions"><button type="button" class="me-button" id="cue-use">Use cue</button><button type="button" class="me-button secondary" id="cue-dismiss">Dismiss cue</button><button type="button" class="me-button secondary" id="cue-restore">Restore</button></div>
+    <p class="me-cue-state" id="cue-live" aria-live="polite">Cue ready. The key label is invented for this page.</p>
+  </section>
+</main>
+<footer class="me-foot">The architectural plate is generated original context art. This study includes no official image, character, logo, level, or control mapping.</footer>
+<script>
+(function(){
+ var selectedRoute=null, accepted=false, cueVisible=true, cueUsed=false;
+ var routes=Array.from(document.querySelectorAll(".me-route-option"));
+ routes.forEach(function(button){button.addEventListener("click",function(){selectedRoute=button;routes.forEach(function(item){item.setAttribute("aria-pressed",String(item===button));});document.getElementById("map-confirm").disabled=false;document.getElementById("map-live").textContent=button.dataset.detail+" — preview only.";});});
+ document.getElementById("map-confirm").addEventListener("click",function(){if(!selectedRoute){return;}document.getElementById("map-live").textContent=selectedRoute.dataset.route+" plotted for this page session.";});
+ document.getElementById("map-cancel").addEventListener("click",function(){selectedRoute=null;routes.forEach(function(item){item.setAttribute("aria-pressed","false");});document.getElementById("map-confirm").disabled=true;document.getElementById("map-live").textContent="Route preview cleared.";});
+ document.getElementById("brief-accept").addEventListener("click",function(){accepted=true;document.getElementById("brief-live").textContent="Brief accepted for this page session; no mission is launched.";});
+ document.getElementById("brief-back").addEventListener("click",function(){accepted=false;document.getElementById("brief-live").textContent="Brief choice cancelled.";});
+ var cue=document.getElementById("movement-cue");
+ function cueMessage(){document.getElementById("cue-live").textContent=cueUsed?"Demo cue marked used for this page session.":(cueVisible?"Cue ready. The key label is invented for this page.":"Cue dismissed; the route objective remains elsewhere.");}
+ document.getElementById("cue-use").addEventListener("click",function(){if(!cueVisible){document.getElementById("cue-live").textContent="Restore the cue before using it.";return;}cueUsed=true;cueMessage();});
+ document.getElementById("cue-dismiss").addEventListener("click",function(){cueVisible=false;cue.hidden=true;cueMessage();});
+ document.getElementById("cue-restore").addEventListener("click",function(){cueVisible=true;cue.hidden=false;cueUsed=false;cueMessage();});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "stateType": "synthetic-reference-fixture",
+  "persistent": false,
+  "screens": [
+    {
+      "id": "chapter-gates",
+      "title": "Desert gate path",
+      "state": {
+        "currentGate": "Sand Arch",
+        "previewGate": "Wind Gate",
+        "gates": [
+          {"id": "sand-arch", "label": "Sand Arch", "status": "here"},
+          {"id": "wind-gate", "label": "Wind Gate", "status": "ahead"},
+          {"id": "high-dune", "label": "High Dune", "status": "distant"}
+        ],
+        "crossingRequiresExplicitCommit": true
+      }
+    },
+    {
+      "id": "journey-progress",
+      "title": "Waypoints",
+      "state": {
+        "here": "Lower Shelf",
+        "ahead": "Sunlit Rise",
+        "waypoints": [
+          {"id": "lower-shelf", "label": "Lower Shelf", "status": "passed"},
+          {"id": "sand-step", "label": "Sand Step", "status": "here"},
+          {"id": "sunlit-rise", "label": "Sunlit Rise", "status": "ahead"}
+        ],
+        "percentage": null
+      }
+    },
+    {
+      "id": "companion-signals",
+      "title": "Companion signal",
+      "state": {
+        "participant": "Fellow traveler · local example",
+        "pendingSignal": "chime",
+        "sentSignal": null,
+        "signalTypes": ["chime", "wave", "glow"],
+        "sendRequiresExplicitCommit": true,
+        "networkConnected": false
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "art": {
+    "path": "references/images/reference-plate.png",
+    "role": "Original generated natural miniature and invented traveler; use as a material cue, not canonical game art.",
+    "provenance": "Built-in image generation, 2026-10-16; see references/generation.json."
+  },
+  "specimens": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "js": "assets/components/demo.js",
+    "scope": "Object pair, picture sequence, and planet-orbit fragments; not finished screens."
+  },
+  "fonts": {
+    "bundled": false,
+    "stack": "Georgia, Cambria, serif / Trebuchet MS, Arial, sans-serif",
+    "license": "Local system fonts; no font files copied."
+  },
+  "runtimeDependencies": [],
+  "sourceGameAssets": "None."
+}

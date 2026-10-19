@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path":"references/images/style-board.svg","kind":"authored-vector-style-board","role":"Deco component grammar; not a screenshot."},
+  "atlas": {"path":"assets/art/bioshock-atlas.png","mode":"RGBA","layout":"3 columns by 3 rows; 0/50/100% crop positions in each axis."},
+  "assets": [
+    {"id":"amber-tonic","cell":[0,0],"role":"vending item specimen"},
+    {"id":"blue-vial","cell":[1,0],"role":"upgrade specimen"},
+    {"id":"deco-key","cell":[2,0],"role":"lock or relay specimen"},
+    {"id":"machine-dial","cell":[0,1],"role":"machine control"},
+    {"id":"fan-medallion","cell":[1,1],"role":"centered section seal"},
+    {"id":"blank-token","cell":[2,1],"role":"currency specimen"},
+    {"id":"pressure-gauge","cell":[0,2],"role":"meter specimen"},
+    {"id":"blank-plaque","cell":[1,2],"role":"editable machine label backing"},
+    {"id":"patina-gear","cell":[2,2],"role":"small decorative component"}
+  ],
+  "generatedArt": {
+    "method":"built-in image_gen",
+    "prompt":"Use case: reusable game UI asset atlas for an original 1930s Art Deco underwater city interface study, not an official BioShock asset. Square 3-by-3 sprite atlas of nine separate isolated objects on a truly transparent background with wide gutters: small amber tonic bottle with brass cap, cobalt serum vial, stylized brass key, circular mechanical dial, fan-shaped Art Deco sunburst medallion, cream enamel vending token, compact brass pressure gauge, blank vertical elevator plaque, tiny oxidized copper gear. Art Deco illustration: precise stepped geometry, symmetrical fan rays, blackened bronze, warm brass, aged ivory enamel, restrained sea-green patina; polished but not photoreal, finely engraved lines, consistent upper-left light. No characters, no architecture background, no words, no logos, no guns, no glow. Keep each object separate and fully visible; preserve actual transparent alpha.",
+    "transparencyRequested":true,
+    "officialAsset":false
+  },
+  "fonts":{"copied":false,"cssFallback":"Georgia, Garamond, Arial, sans-serif"},
+  "screenshots":{"officialRedistributed":false,"packageCapture":"pending parent capture"}
+}

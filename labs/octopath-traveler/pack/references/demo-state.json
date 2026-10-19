@@ -1,0 +1,50 @@
+{
+  "stateType": "synthetic-reference-fixture",
+  "persistent": false,
+  "screens": [
+    {
+      "id": "party",
+      "title": "Party arrangement",
+      "state": {
+        "leadMember": "Vela",
+        "selectedMember": "Vela",
+        "members": [
+          {"id": "vela", "name": "Vela", "role": "Wayfinder", "sampleHp": "8 / 10"},
+          {"id": "orin", "name": "Orin", "role": "Guard", "sampleHp": "7 / 10"},
+          {"id": "sela", "name": "Sela", "role": "Scholar", "sampleHp": "6 / 10"},
+          {"id": "bram", "name": "Bram", "role": "Warden", "sampleHp": "9 / 10"}
+        ],
+        "valuesAreSynthetic": true,
+        "leadChangeRequiresExplicitCommit": true
+      }
+    },
+    {
+      "id": "character-equipment",
+      "title": "Character equipment",
+      "state": {
+        "actor": "Vela",
+        "selectedSlot": "Hand",
+        "currentItem": "Bronze staff",
+        "pendingItem": "Glasswood rod",
+        "comparison": {"focus": "sample +2", "guard": "sample -1"},
+        "valuesAreSynthetic": true,
+        "applyRequiresExplicitCommit": true
+      }
+    },
+    {
+      "id": "battle-orders",
+      "title": "Battle orders",
+      "state": {
+        "activeMember": "Vela",
+        "turnOrder": ["Vela", "Stone Mote", "Orin", "Sela"],
+        "target": "Stone Mote",
+        "selectedCommand": "Strike",
+        "commands": ["Strike", "Guard", "Focus"],
+        "confirmedCommand": null,
+        "confirmRequiresExplicitCommit": true,
+        "battleValuesAreSynthetic": true
+      }
+    }
+  ]
+}
+

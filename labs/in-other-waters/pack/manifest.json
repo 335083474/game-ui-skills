@@ -1,0 +1,70 @@
+{
+  "name": "in-other-waters-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/contour-map.svg",
+      "bytes": 2215,
+      "sha256": "2875915a58f4555154ec2b6ee5e4eef727b756a15c14103924db5f0aa3932df9"
+    },
+    {
+      "path": "assets/art/specimen-ribbon.svg",
+      "bytes": 1469,
+      "sha256": "47a2e96028548c5ccb5e6006b2f4d8bc0312909f12f8d08b66ba5dcfa18ecc33"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 6561,
+      "sha256": "7cd044c7fd859cc54738d40302fa1adb1553be26fb1bdbf1a0c8594160239bbd"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 9033,
+      "sha256": "ab536f7e1b32a440636e433ec499a14e12c1a0e820c163bd469c311432a9732b"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1568,
+      "sha256": "d3e71aa0075b30edeb7cb74086c8d7418cc1436d8b5700cc5322e7ebfcedb5df"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 89898,
+      "sha256": "a5289656f9be24fe0eacc0eddd0eb507a310bb93b41684588f189c296119c615"
+    },
+    {
+      "path": "references/images/style-board.svg",
+      "bytes": 4980,
+      "sha256": "3105732413e698b814b0a41adebac293a7c36ab9b595ffb68fa201a88eb2ac15"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1727,
+      "sha256": "3bb7a909b1406480a58034c35aba96cdf9cfd11bcfbbe6e4ea79cf1c49fb47af"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1333,
+      "sha256": "f5f92dc83ee8ad41b044e0d874af9a21582a9ce885856fd9f2a5e34c59b0b220"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2169,
+      "sha256": "55047e52013435a4a71543a3e118d30e71cba2fe53857ecb8527f5c45754c2a8"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2141,
+      "sha256": "8804a6e481b5bc2a79105aa9111ce0128dea0c9ae6afe60002b46abdd0b67b50"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1154,
+      "sha256": "30457cd883eaa5e23094ed167cf80689f7ed05b07eb3778a50e5643f9bbe227f"
+    }
+  ]
+}

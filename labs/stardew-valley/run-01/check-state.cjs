@@ -1,0 +1,21 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs'),vm=require('node:vm');
+const context={module:{exports:{}}};
+vm.runInNewContext(fs.readFileSync(__dirname+'/state.js','utf8'),context);
+const M=context.module.exports;
+let checks=0;
+function check(name,fn){fn();checks++;console.log(`PASS ${name}`);}
+const unchanged=(s,fn)=>{const before=JSON.stringify(s);assert.equal(fn().ok,false);assert.equal(JSON.stringify(s),before);};
+check('default state and restored-data validation',()=>{assert(M.valid(M.initial()));assert(!M.valid({...M.initial(),coins:-1}));assert(!M.valid({...M.initial(),hp:101}));assert(!M.valid({...M.initial(),reward:'unknown'}));});
+check('unselected reward leaves state unchanged',()=>{const s=M.initial();unchanged(s,()=>M.claim(s,null));});
+check('each reward grants only its stated effect once',()=>{for(const id of Object.keys(M.rewards)){const s=M.initial(),before=structuredClone(s);assert(M.claim(s,id).ok);assert.equal(s.reward,id);assert.equal(s.coins,before.coins+(id==='coins'?50:0));for(const item of Object.keys(M.catalog))assert.equal(s.items[item],before.items[item]+(id===item?1:0));for(let i=0;i<100;i++)unchanged(s,()=>M.claim(s,id));}});
+check('potion quantity and maximum HP cap',()=>{const s=M.initial();assert(M.usePotion(s).ok);assert.equal(s.hp,85);assert.equal(s.items.potion,1);assert(M.usePotion(s).ok);assert.equal(s.hp,100);assert.equal(s.items.potion,0);unchanged(s,()=>M.usePotion(s));});
+check('full HP and empty potion guards preserve stock and HP',()=>{const s=M.initial();s.hp=100;unchanged(s,()=>M.usePotion(s));s.hp=20;s.items.potion=0;unchanged(s,()=>M.usePotion(s));});
+check('near-cap healing consumes exactly one potion',()=>{const s=M.initial();s.hp=95;const r=M.usePotion(s);assert(r.ok);assert.equal(s.hp,100);assert.equal(s.items.potion,1);assert.match(r.message,/Restored 5 HP/);});
+check('multi-quantity purchase changes all three balances exactly',()=>{const s=M.initial();assert(M.buy(s,'potion',3).ok);assert.equal(s.coins,20);assert.equal(s.stock.potion,1);assert.equal(s.items.potion,5);});
+check('insufficient balance and sold out are atomic failures',()=>{const s=M.initial();unchanged(s,()=>M.buy(s,'crystal',1));unchanged(s,()=>M.buy(s,'strawberry',1));assert.match(M.purchaseReason(s,'crystal',1),/Not enough coins/);assert.match(M.purchaseReason(s,'strawberry',1),/Sold out/);});
+check('invalid quantities and excessive stock cannot mutate state',()=>{for(const q of [0,-1,1.5,NaN,Infinity,100,'1',null,undefined]){const s=M.initial();unchanged(s,()=>M.buy(s,'potion',q));}const s=M.initial();unchanged(s,()=>M.buy(s,'potion',5));unchanged(s,()=>M.buy(s,'unknown',1));});
+check('repeated purchases cannot overspend or overdraw stock',()=>{const s=M.initial();for(let i=0;i<100;i++)M.buy(s,'potion',1);assert.equal(s.coins,20);assert.equal(s.stock.potion,1);assert.equal(s.items.potion,5);assert(M.valid(s));});
+check('sold-out state reached through real purchases',()=>{const s=M.initial();assert(M.buy(s,'seeds',8).ok);assert.equal(s.stock.seeds,0);assert.equal(s.items.seeds,20);assert.equal(s.coins,29);unchanged(s,()=>M.buy(s,'seeds',1));});
+check('shared state survives JSON round-trip',()=>{const s=M.initial();M.claim(s,'coins');M.buy(s,'potion',1);M.usePotion(s);const restored=JSON.parse(JSON.stringify(s));assert(M.valid(restored));assert.equal(JSON.stringify(restored),JSON.stringify(s));});
+console.log(`${checks} state checks passed. No browser or visual checks were run by this script.`);

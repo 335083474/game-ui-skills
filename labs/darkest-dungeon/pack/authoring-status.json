@@ -1,0 +1,41 @@
+{
+  "slug": "darkest-dungeon",
+  "packageName": "darkest-dungeon-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "expedition-roster",
+      "title": "Expedition Roster",
+      "description": "A three-member roster fragment uses rank, vitality, and stress as the visual hierarchy; stress is the only saturated red signal."
+    },
+    {
+      "id": "provision-shop",
+      "title": "Provision Counter",
+      "description": "A compact supply shelf presents quantity, silhouette, and cost with inked object marks instead of generic product tiles."
+    },
+    {
+      "id": "expedition-reward",
+      "title": "Expedition Spoils",
+      "description": "A torn-paper reward choice gives one heirloom a clear selection state while keeping the action rail separate."
+    }
+  ],
+  "referenceImage": "assets/references/direction-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "The crowquill and stress grammar is an authored interpretation of the plan and official store text, not a frame-accurate recreation of the game UI.",
+    "All visible figures, objects, ornaments, and SVG art are original vector studies; no game screenshots, character portraits, or official fonts are included.",
+    "The three specimens show component anatomy only. Screen behavior, game-state wiring, engine integration, and independent use testing remain for later work."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

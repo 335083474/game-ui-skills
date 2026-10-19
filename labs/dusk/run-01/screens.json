@@ -1,0 +1,15 @@
+{
+  "slug": "dusk",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "weapon-loadout", "title": "Weapon Loadout", "description": "Choose and equip a compact set of invented low-resolution weapons against a corridor backdrop." },
+    { "id": "combat-hud", "title": "Combat HUD", "description": "Use a thin edge HUD with a static practice target, local fire and reload echoes, and an explicit pause action." },
+    { "id": "pause-settings", "title": "Pause Settings", "description": "Preview compact input and display settings while the page-local session is paused." }
+  ],
+  "smokeTests": [
+    { "screenId": "weapon-loadout", "steps": [ { "action": "click", "role": "button", "name": "Rivet gun, 24 nails" }, { "action": "click", "role": "button", "name": "Equip selected weapon" } ], "expectedText": [ "RIVET GUN READY — 24 NAILS / LOCAL DEMO" ] },
+    { "screenId": "combat-hud", "steps": [ { "action": "click", "role": "button", "name": "Fire • Space" } ], "expectedText": [ "LOCAL INPUT ECHO · SHOT 1" ] },
+    { "screenId": "pause-settings", "steps": [ { "action": "click", "role": "button", "name": "Pixel filter On" }, { "action": "click", "role": "button", "name": "Apply preview" } ], "expectedText": [ "SETTINGS APPLIED FOR THIS PAGE" ] }
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Atmospheric hand-painted forest"
+  short_description: "Original luminous forest game UI direction"
+  default_prompt: "Use $ori-wisps-ui to create the requested abilities, shards, or forest map surface."
+

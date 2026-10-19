@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Emerald field study — Party / Bag / Battle</title>
+  <link rel="stylesheet" href="assets/components/theme.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="engine.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="lab">
+    <header class="page-header">
+      <div><p class="eyebrow">HANDHELD INTERFACE STUDY · 01</p><h1>Three views. One adventure.</h1></div>
+      <span class="study-mark">240 × 160<br>EMERALD / GBA</span>
+    </header>
+    <nav class="page-nav" aria-label="Demo screens">
+      <a href="#party" data-page="party"><span>01</span> PARTY</a>
+      <a href="#bag" data-page="bag"><span>02</span> BAG</a>
+      <a href="#battle" data-page="battle"><span>03</span> BATTLE</a>
+    </nav>
+    <div class="game-stage">
+      <div class="screen-meta"><span id="screen-name">PARTY / FIELD</span><span id="scale-label">INTEGER PIXEL SCALE</span></div>
+      <div class="screen-scroll"><div class="emu-viewport"><section id="game" class="emu-screen em-ui" tabindex="-1" aria-label="Interactive game screen"></section></div></div>
+      <div class="stage-foot"><p>Arrows select · Enter / Space confirm · Esc goes back</p><button id="reset" type="button">RESET DEMO</button></div>
+    </div>
+    <div class="notes-row"><p id="context-note">Choose a member to view its current status and moves.</p><p>IN-MEMORY DEMO<br><span>Changes last until reset or reload.</span></p></div>
+    <details class="state-inspector"><summary>Inspect shared state</summary><pre id="state-output"></pre></details>
+    <footer>Unofficial Emerald-inspired UI experiment. Original CC0 creature art: Clint Bellanger; item art: Kenney. Local Pixelify Sans / SIL OFL. Deterministic demo rules: moves deal listed power; enemy deals 5 HP. First escape fails, second succeeds. No official game artwork or game engine.</footer>
+  </main>
+  <p id="announcer" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>

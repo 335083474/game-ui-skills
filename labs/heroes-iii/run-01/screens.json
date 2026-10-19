@@ -1,0 +1,15 @@
+{
+  "slug": "heroes-iii",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"hero-sheet","title":"Hero Sheet","description":"An ornamental parchment record combines Maera's portrait, four attributes, learned arts, and a selected army formation stack."},
+    {"id":"town-recruitment","title":"Town Recruitment","description":"Rillhaven's troop roll and stamped recruitment receipt spend gold and reduce a selected creature stock."},
+    {"id":"spellbook","title":"Spellbook","description":"An open two-page book selects an elemental spell and memorizes it against the hero's mana."}
+  ],
+  "smokeTests": [
+    {"screenId":"hero-sheet","steps":[{"action":"click","role":"button","name":"Select Warden stack"},{"action":"click","role":"button","name":"MOVE SELECTED STACK TO FRONT RANK"}],"expectedText":["Wardens moved to the vanguard. Griffins now hold rank 2.","1 · Vanguard"]},
+    {"screenId":"town-recruitment","steps":[{"action":"click","role":"button","name":"Select Cloud Griffins"},{"action":"click","role":"button","name":"Recruit 3 selected creatures"}],"expectedText":["Recruited 3 Cloud Griffins for 960 gold. 280 gold remain.","3"]},
+    {"screenId":"spellbook","steps":[{"action":"click","role":"button","name":"Select Gale Ward spell"},{"action":"click","role":"button","name":"Memorize selected spell"}],"expectedText":["Memorized Gale Ward. 13 mana remains.","Gale Ward"]}
+  ]
+}

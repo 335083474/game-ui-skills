@@ -1,0 +1,41 @@
+{
+  "slug": "ftl",
+  "packageName": "ftl-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "ship-upgrade",
+      "title": "Ship Upgrade",
+      "description": "Room schematic, system modules, reactor reserve and explicit upgrade cost."
+    },
+    {
+      "id": "sector-shop",
+      "title": "Sector Shop",
+      "description": "Compact merchant manifest with stock, scrap price and purchase preview."
+    },
+    {
+      "id": "crew-room-hud",
+      "title": "Crew and Room HUD",
+      "description": "Ship plan, named crew positions, system power and fire/oxygen status."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Ship plan, power values, costs, crew and conditions are synthetic.",
+    "Ship diagram is original vector work, not a copied FTL blueprint.",
+    "No copied font or exact ship rule reconstruction."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

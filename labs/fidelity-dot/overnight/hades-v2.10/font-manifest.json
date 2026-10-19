@@ -1,0 +1,64 @@
+{
+  "version": "hades-draft-v2.10",
+  "fonts": [
+    {
+      "path": "fonts/AlegreyaSans-Regular.ttf",
+      "bytes": 263804,
+      "sha256": "8fab634196007afca839f1e5a6fb300976daff55d8528b590ef032f01b14ea10",
+      "delivery": "separate font ZIP; not in code ZIP",
+      "required": true
+    },
+    {
+      "path": "fonts/AlegreyaSans-Bold.ttf",
+      "bytes": 266856,
+      "sha256": "a3055a1893759bdbd7504bb22abc583769e7974c49353176eac0b03792c9fb8e",
+      "delivery": "separate font ZIP; not in code ZIP",
+      "required": true
+    },
+    {
+      "path": "fonts/AlegreyaSans-Italic.ttf",
+      "bytes": 271096,
+      "sha256": "f49f6f2bdd84df850b25b0f8185d8a051e1d1eb2dd08e2f91b8c7b86d9a9e1a6",
+      "delivery": "separate font ZIP; not in code ZIP",
+      "required": true
+    },
+    {
+      "path": "fonts/AlegreyaSansSC-Regular.ttf",
+      "bytes": 267620,
+      "sha256": "0c5d4abcdd83af0ce9f5d4ca49f226c2b3030d2a83adf92cb5a5c2638c8e68b0",
+      "delivery": "separate font ZIP; not in code ZIP",
+      "required": true
+    },
+    {
+      "path": "fonts/AlegreyaSansSC-Bold.ttf",
+      "bytes": 275612,
+      "sha256": "1f7f1ca33c4ae013a94d374106fd4044820b3d915e7f7a22182ddaf49b9c7912",
+      "delivery": "separate font ZIP; not in code ZIP",
+      "required": true
+    },
+    {
+      "path": "fonts/SpectralSC-Regular.ttf",
+      "bytes": 260936,
+      "sha256": "11b89ee8eff243c4068a9fc105650f8d90005b288f90c98c6d40fecd85a0306d",
+      "delivery": "separate font ZIP; not in code ZIP",
+      "required": true
+    },
+    {
+      "path": "fonts/SpectralSC-Bold.ttf",
+      "bytes": 273068,
+      "sha256": "ddbd53f4b1fd856f5a9b6f5110c095a4a4f4382bdab6decfd79cffd15656dddc",
+      "delivery": "separate font ZIP; not in code ZIP",
+      "required": true
+    }
+  ],
+  "licenses": [
+    "fonts/alegreyasans-OFL.txt",
+    "fonts/alegreyasanssc-OFL.txt",
+    "fonts/spectralsc-OFL.txt"
+  ],
+  "source_urls": [
+    "https://github.com/google/fonts/tree/main/ofl/alegreyasans",
+    "https://github.com/google/fonts/tree/main/ofl/alegreyasanssc",
+    "https://github.com/google/fonts/tree/main/ofl/spectralsc"
+  ]
+}

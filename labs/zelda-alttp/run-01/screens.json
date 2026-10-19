@@ -1,0 +1,15 @@
+{
+  "slug":"zelda-alttp",
+  "model":"gpt-6-luna",
+  "reasoningEffort":"max",
+  "screens":[
+    {"id":"inventory","title":"Inventory grid","description":"A compact 16-bit item grid with original symbols, red active frame, A/B assignment preview, and a separate commit."},
+    {"id":"dungeon-map","title":"Dungeon room map","description":"A 5×5 original room chart distinguishes current, explored, and unknown rooms with labels and shapes."},
+    {"id":"item-shop","title":"Item shop","description":"A short merchant offer list with invented prices, a sample rupee budget, preview, and separate purchase confirmation."}
+  ],
+  "smokeTests":[
+    {"screenId":"inventory","steps":[{"action":"click","role":"button","name":"Sun Lantern"},{"action":"select","role":"combobox","name":"Choose assignment slot","value":"A"},{"action":"click","role":"button","name":"Assign Sun Lantern to A"}],"expectedText":["Sun Lantern assigned to A slot","A SLOT","Sun Lantern"]},
+    {"screenId":"dungeon-map","steps":[{"action":"click","role":"button","name":"Unknown room D-3"},{"action":"click","role":"button","name":"Chart room D-3"}],"expectedText":["D-3 charted","Current room D-3"]},
+    {"screenId":"item-shop","steps":[{"action":"click","role":"button","name":"Moon Dew"},{"action":"click","role":"button","name":"Purchase Moon Dew · 48 rupees"}],"expectedText":["Moon Dew purchased","72 remain in the sample purse"]}
+  ]
+}

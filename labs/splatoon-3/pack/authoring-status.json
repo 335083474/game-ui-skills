@@ -1,0 +1,41 @@
+{
+  "slug": "splatoon-3",
+  "packageName": "splatoon-3-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "weapon-kit",
+      "title": "Weapon Kit",
+      "description": "Weapon, sub/special labels and three gear sticker slots."
+    },
+    {
+      "id": "catalog-shop",
+      "title": "Catalog Shop",
+      "description": "Pasted catalog shelf with price stamps and stock-aware purchasing."
+    },
+    {
+      "id": "match-results",
+      "title": "Match Results",
+      "description": "Uneven turf split, readable numeric contribution and placement ribbon."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Match values, gear, prices and player labels are synthetic.",
+    "Generated transparent atlas is original and does not contain characters or logos.",
+    "No copied font or official asset is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

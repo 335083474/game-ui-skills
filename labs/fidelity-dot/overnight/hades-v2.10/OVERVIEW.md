@@ -1,0 +1,2 @@
+# Overview v1.2 included in v2.10
+Open overview.html. Same editable2–4-item JSON schema; name/icon/rarity/description/stat edit in modal, import/export preserve page data. Arrow/Home/End select, Enter focuses details, Escape returns focus. Label left18% clears emblem; Apply refreshes new title in status. Status is now inside right detail safe-panel grid. Existing assets unchanged. Browser regression pending.

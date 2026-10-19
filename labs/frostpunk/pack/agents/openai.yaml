@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frostpunk Cold Industry"
+  short_description: "Temperature gauges, decree slips and city resources"
+  default_prompt: "Use $frostpunk-ui to create a cold industrial strategy interface with a clear thermal signal and coherent city resources."

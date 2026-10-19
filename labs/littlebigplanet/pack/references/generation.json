@@ -1,0 +1,8 @@
+{
+  "tool": "OpenAI built-in image generation",
+  "generatedAt": "2026-10-16",
+  "outputId": "exec-7a41cd8d-e03d-4226-9387-6eeaec24c935",
+  "file": "references/images/reference-plate.png",
+  "prompt": "Create one original 3:2 landscape raster art plate for a reference skill package's visual specimen. Photographed miniature handmade craft diorama: a small original round felt-and-yarn explorer doll with simple button eyes (not a known character), standing beside a layered cardboard level pod, a bright stitched fabric badge, two real wooden buttons, scraps of patterned cloth, visible blanket stitching, fuzzy felt fibers, soft studio side light, gently imperfect hand-built edges. Tactile felt, fabric, stitches, buttons and cardboard must be unmistakable; warm aqua, raspberry, mustard and cream palette; charming dimensional craft realism with crisp macro material detail. Compose as a clean art plate without any UI, borders, labels, readable text, logos, watermarks, or references to existing characters. The central doll and objects should remain distinct when cropped into a small card.",
+  "sourceImageCopiedUnchanged": true
+}

@@ -1,0 +1,80 @@
+{
+  "name": "potion-craft-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 281,
+      "sha256": "8aea7ef521a7039e0d3d27b6707c57c76bcc53c8e96a374a14c0a59a176537e6"
+    },
+    {
+      "path": "assets/art/potion-atlas.png",
+      "bytes": 1925080,
+      "sha256": "8d9c30e1cdd63e169b5e0e594822b0129232c649ca28013c02a8e5942b9c6c1e"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 2117,
+      "sha256": "89688e6c4e5710bcd811f39fb69f554ac1a1f852645c613403c5a813b6c1d6b5"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 2872,
+      "sha256": "373876b74ec01095148d9f4e0abb6bfea6b09b634cadd769e4db4cdef3e90a38"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1348,
+      "sha256": "4dff99ff6962b1162d3a355940504d44e14853d9f448de22c37f116f9663480a"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 2472,
+      "sha256": "385eb09ec420740f81c0244557f82e4f7052c55729256b9cf684e96e37298317"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 63689,
+      "sha256": "6143ecac009cf48b6c71a98c92ee7af2f4b720f72f4a215a1bc730322e052258"
+    },
+    {
+      "path": "references/images/style-board.svg",
+      "bytes": 3759,
+      "sha256": "a75595f84cbe8440fbe635e1abefdde0eb14c0e735aa681308e1e34d527f8259"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2149,
+      "sha256": "e4352b5e7b2d4181691d0a14e75014d83173d278639919c7653e6a88db443cc9"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1276,
+      "sha256": "6de318a67d40c488cfcc3d8c9db8213436b465f32a129ccdfb0044f41cfdca7d"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1088,
+      "sha256": "2b19c302000bb0466539447f405d823f9a5608b7960fd07e1a4aa3c82675d6ab"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2669,
+      "sha256": "d14a4ef2f237ddd09e4118d1b5efd79cff5e9ba373882c6fc656e61cd69ee89d"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2357,
+      "sha256": "2d2b5ad8e037420b0ea7e44d13ad9ff62e01fd0d35c2fc893f4d30cf07c65dce"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 972,
+      "sha256": "44c73ddb01a9b52b3e9eabc5cd111ef7c71f3522ce7a30b57eae81b861e15725"
+    }
+  ]
+}

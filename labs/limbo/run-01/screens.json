@@ -1,0 +1,48 @@
+{
+  "slug": "limbo",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "pause",
+      "title": "Pause veil",
+      "description": "A sparse pause surface keeps the scene visible and gives Resume a clear, explicit action."
+    },
+    {
+      "id": "chapters",
+      "title": "Chapter path",
+      "description": "A quiet checkpoint path marks current, completed, and unknown chapters, with a separate commit to start."
+    },
+    {
+      "id": "context-hints",
+      "title": "Contextual hint",
+      "description": "A transient action prompt can be inspected, dismissed, and restored without implying a permanent HUD."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "pause",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Resume" }
+      ],
+      "expectedText": ["Pause veil lifted for this local example; no game session is running."]
+    },
+    {
+      "screenId": "chapters",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Lowlands" },
+        { "action": "click", "role": "button", "name": "Start at checkpoint" },
+        { "action": "click", "role": "button", "name": "Confirm start at Lowlands" }
+      ],
+      "expectedText": ["Local checkpoint now begins at Lowlands. Progress exists only until reload."]
+    },
+    {
+      "screenId": "context-hints",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Dismiss prompt" },
+        { "action": "click", "role": "button", "name": "Show prompt" }
+      ],
+      "expectedText": ["Prompt restored at the edge of the field."]
+    }
+  ]
+}

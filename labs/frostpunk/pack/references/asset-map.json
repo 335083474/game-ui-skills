@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path":"references/images/style-board.svg","kind":"authored-vector-style-board","role":"Thermal and industrial component grammar; not a screenshot."},
+  "atlas": {"path":"assets/art/frostpunk-atlas.png","mode":"RGBA","layout":"3 columns by 3 rows; crop with background-size 300% 300%; 0/50/100% positions."},
+  "assets": [
+    {"id":"generator","cell":[0,0],"role":"city heat source specimen"},
+    {"id":"snow-houses","cell":[1,0],"role":"district vignette"},
+    {"id":"stove","cell":[2,0],"role":"heat appliance"},
+    {"id":"coal","cell":[0,1],"role":"fuel resource specimen"},
+    {"id":"thermometer","cell":[1,1],"role":"temperature cue"},
+    {"id":"blank-decree","cell":[2,1],"role":"law slip specimen"},
+    {"id":"winter-tree","cell":[0,2],"role":"city-edge vignette"},
+    {"id":"ration-sack","cell":[1,2],"role":"food resource specimen"},
+    {"id":"frozen-cog","cell":[2,2],"role":"technology icon specimen"}
+  ],
+  "generatedArt": {
+    "method":"built-in image_gen",
+    "prompt":"Use case: reusable game UI asset atlas for an original frozen industrial city management interface study informed by Frostpunk 1's broad coal-and-cold survival premise, not an official 11 bit studios asset. Square 3-by-3 sprite atlas of nine separate isolated original objects on true transparent background with generous gutters: compact coal-fired city generator, snow-buried timber housing block, iron stove with short chimney, bundled coal chunks, thermometer with frost rim, folded city ordinance paper with blank surface, bare winter tree, canvas ration sack, heavy iron cog. Graphic painted concept-art objects with cold chalk whites, soot charcoal, dull iron and tiny muted brass; etched ice edges, restrained brush texture, strong readable forms, bleak overcast light. No people, no gore, no branded emblems, no text, no landscape or background, no overlapping objects. Preserve alpha transparency.",
+    "transparencyRequested":true,
+    "officialAsset":false
+  },
+  "fonts":{"copied":false,"cssFallback":"Arial, Segoe UI, sans-serif"},
+  "screenshots":{"officialRedistributed":false,"packageCapture":"pending parent capture"}
+}

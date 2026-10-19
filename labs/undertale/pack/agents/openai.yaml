@@ -1,0 +1,4 @@
+interface:
+  display_name: "Undertale Command UI"
+  short_description: "Build original monochrome pixel RPG command and dialogue frames"
+  default_prompt: "Use the undertale-ui reference package for original monochrome command, item, and dialogue screens."

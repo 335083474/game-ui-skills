@@ -1,0 +1,5 @@
+interface:
+  display_name: "Early-print manuscript investigation UI"
+  short_description: "Original pentiment-inspired game UI direction"
+  default_prompt: "Use $pentiment-ui to create an original game UI surface in this visual direction."
+

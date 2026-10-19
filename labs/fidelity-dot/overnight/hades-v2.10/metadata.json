@@ -1,0 +1,21 @@
+{
+  "version": "hades-draft-v2.10",
+  "status": "candidate_not_approved",
+  "scope": [
+    "R20 default3 frame/group/transparent-margin geometry",
+    "R21 heading letterspacing"
+  ],
+  "assets": "All prior PNG/font bytes unchanged",
+  "viewport": "Source x10..1935,y151..619; discarded margins alpha<=1 only, all alpha>1 retained",
+  "static_checks": [
+    "22 pure-data tests",
+    "spec/code consistency",
+    "GBK-default UTF8 audit",
+    "2/3/4 layout arithmetic",
+    "exact source pixel cutoff/hash audit",
+    "JavaScript syntax",
+    "ZIP CRC and TXT decode"
+  ],
+  "browser": "not run; recipient review required",
+  "external_independent_output": "not modified"
+}

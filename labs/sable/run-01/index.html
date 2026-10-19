@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee2c1">
+  <title>Sable UI Study — The Open Road</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <a class="brand" href="#mask-collection" aria-label="Open Road journal, masks">
+        <span class="brand-glyph" aria-hidden="true">◌</span>
+        <span><strong>Open Road</strong><small>Journey notes · eastward</small></span>
+      </a>
+      <nav class="route-nav" aria-label="Journey screens">
+        <a href="#mask-collection">Masks</a>
+        <a href="#quest-journal">Journal</a>
+        <a href="#desert-map">Map</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="mask-collection" class="screen screen-masks" data-screen aria-labelledby="masks-title">
+        <header class="screen-intro">
+          <p class="eyebrow">Keepsakes · found along the flats</p>
+          <h1 id="masks-title" tabindex="-1">A face for the next crossing.</h1>
+          <p>Each mask carries a different story. Choose one to wear before leaving the shade.</p>
+        </header>
+        <div class="mask-scene" aria-hidden="true">
+          <span class="mask-sun"></span><span class="mask-dune dune-a"></span><span class="mask-dune dune-b"></span>
+          <span class="scene-post"></span><span class="scene-wheel"></span>
+        </div>
+        <div class="collection-label"><span>THE TRAVELER'S RACK</span><span>4 FOUND · 1 WORN</span></div>
+        <div class="mask-rail" aria-label="Collected masks">
+          <button class="mask-choice" type="button" data-select="ibex" aria-label="Select Ibex mask" aria-pressed="false">
+            <svg viewBox="0 0 90 110" aria-hidden="true"><path d="M23 14Q45 5 67 14L74 46 62 82 45 98 27 82 16 46z" fill="#efe4c6" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="M22 15 12 3m10 13 2-17M68 15l10-12m-10 14L66 0" fill="none" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="m28 43 9 4m25-4-9 4M38 65l7 5 8-5m-8 5v12" fill="none" stroke="#29322f" stroke-width="2"/game-ui-skills/><circle cx="34" cy="44" r="2" fill="#a8543e"/game-ui-skills/><circle cx="56" cy="44" r="2" fill="#a8543e"/game-ui-skills/></svg>
+            <strong>Ibex</strong><small>FOUND · WIND-SCARRED</small><span class="mask-select-label">Select Ibex mask</span>
+          </button>
+          <button class="mask-choice" type="button" data-select="beetle" aria-label="Select Beetle mask" aria-pressed="false">
+            <svg viewBox="0 0 90 110" aria-hidden="true"><path d="M45 10 69 25 74 54 62 82 45 96 28 82 16 54 21 25z" fill="#adc2bb" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="M45 15v72m-23-50 23 7 23-7m-40 23 17-4 17 4" fill="none" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="m31 47 7 2m21-2-7 2m-13 17 6 3 7-3" fill="none" stroke="#29322f" stroke-width="2"/game-ui-skills/></svg>
+            <strong>Beetle</strong><small>FOUND · SALT-PALE</small><span class="mask-select-label">Select Beetle mask</span>
+          </button>
+          <button class="mask-choice" type="button" data-select="hare" aria-label="Select Hare mask" aria-pressed="false">
+            <svg viewBox="0 0 90 110" aria-hidden="true"><path d="M31 23 25 2 41 18 49 18 66 2 61 24 70 49 61 79 45 95 29 79 20 49z" fill="#d8ac9b" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="M29 45 39 49m22-4-10 4m-13 15 7 5 8-5" fill="none" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="m25 30 7 9m34-9-7 9" stroke="#b14e3e" stroke-width="2"/game-ui-skills/></svg>
+            <strong>Hare</strong><small>RUMORED · UNSEEN</small><span class="mask-select-label">Select Hare mask</span>
+          </button>
+          <button class="mask-choice" type="button" data-select="makak" aria-label="Select Makak mask" aria-pressed="false">
+            <svg viewBox="0 0 90 110" aria-hidden="true"><path d="M23 20 45 8 67 20 71 49 61 79 45 96 29 79 19 49z" fill="#d89064" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="M28 36 39 42m23-6-11 6m-14 23 8-3 8 3m-8-9v10" fill="none" stroke="#29322f" stroke-width="2"/game-ui-skills/><path d="M24 52h-8m50 0h8" stroke="#a94d37" stroke-width="2"/game-ui-skills/></svg>
+            <strong>Makak</strong><small>WORN · DUST-WARM</small><span class="mask-select-label">Select Makak mask</span>
+          </button>
+        </div>
+        <div class="wear-strip">
+          <p><span class="micro">CURRENTLY WORN</span><strong data-bind="worn-mask">Makak</strong><small>Carried light · no two journeys are alike</small></p>
+          <div class="wear-action"><p id="mask-result" class="action-result" data-result aria-live="polite">Select a mask to make it your own.</p><button class="primary-action" type="button" data-commit="wear" disabled>Wear selected mask</button></div>
+        </div>
+      </section>
+
+      <section id="quest-journal" class="screen screen-journal" data-screen aria-labelledby="journal-title" hidden>
+        <header class="screen-intro">
+          <p class="eyebrow">A few lines before the engine cools</p>
+          <h1 id="journal-title" tabindex="-1">A place to call home.</h1>
+          <p>Keep one lead close. The rest can wait until the road brings you back.</p>
+        </header>
+        <div class="journal-book">
+          <aside class="entry-index" aria-label="Journal leads">
+            <p class="micro">INDEX / BONE 02</p>
+            <button type="button" data-select="old-hull" aria-label="Select the Old Hull lead" aria-pressed="false"><span>06</span><strong>The old hull</strong><small>CLAN MARKER</small></button>
+            <button type="button" data-select="glass-well" aria-label="Select the Glass Well lead" aria-pressed="false"><span>11</span><strong>Glass well</strong><small>WATER TRACE</small></button>
+            <button type="button" data-select="north-fork" aria-label="Select the North Fork lead" aria-pressed="false"><span>14</span><strong>North fork</strong><small>RIDER'S NOTE</small></button>
+            <div class="index-foot">LAST SEEN · EASTERN FLATS</div>
+          </aside>
+          <article class="journal-entry">
+            <div class="entry-meta"><span>TRAVEL STORY</span><span>ENTRY <b data-bind="entry-number">—</b></span></div>
+            <p class="entry-date">Clue <span data-bind="clue-number">06</span> · dune line</p>
+            <h2 data-bind="lead-title">A Place to Call Home</h2>
+            <p class="entry-copy" data-bind="lead-copy">Find the machinist near the old hull. She knows which parts can still cross the western flats.</p>
+            <div class="route-clue"><span class="route-dot" aria-hidden="true"></span><p><small>ROUTE CLUE</small><strong data-bind="route-clue">Follow the long shadow toward the broken mast.</strong></p></div>
+            <div class="journal-bottom"><span>INKED AFTER SUNSET</span><span>KEEP THE PAGE OPEN ↗</span></div>
+          </article>
+        </div>
+        <div class="track-row"><p id="journal-result" class="action-result" data-result aria-live="polite">Choose a lead from the index, then track it.</p><button class="primary-action" type="button" data-commit="track" disabled>Track this lead</button></div>
+      </section>
+
+      <section id="desert-map" class="screen screen-map" data-screen aria-labelledby="map-title" hidden>
+        <header class="screen-intro">
+          <p class="eyebrow">Open flats · eastern approach</p>
+          <h1 id="map-title" tabindex="-1">Where will the road bend?</h1>
+          <p>Read the dune bands, choose a landmark, and leave one quiet marker for the next ride.</p>
+        </header>
+        <div class="map-art" role="group" aria-label="Desert route map with three landmarks">
+          <img class="map-reference-art" src="./assets/direction-board.svg" alt="" aria-hidden="true">
+          <svg class="dune-map" viewBox="0 0 1000 470" role="img" aria-label="Contour map of open sand, a tracked road, and a winding route east">
+            <path d="M0 66Q150 12 306 74T604 83T1000 35V470H0Z" fill="#e2c998"/game-ui-skills/>
+            <path d="M0 170Q133 93 289 167t275 24q189-84 436-9v288H0Z" fill="#d3b67f"/game-ui-skills/>
+            <path d="M0 267q179-96 333-25t298 4q169-63 369-5v229H0Z" fill="#e9d9b2"/game-ui-skills/>
+            <path d="M0 359q183-65 341-26t278 5q185-47 381 2v130H0Z" fill="#c9ab75"/game-ui-skills/>
+            <path d="M45 114q105-71 202-31m-201 9q110-68 206-27m360 41q119-61 219-7m-217 29q132-61 224-8M90 296q94-62 188-21m172 50q126-58 222-12m101-123q91-41 177 5" fill="none" stroke="#7f8675" stroke-width="2" opacity=".75"/game-ui-skills/>
+            <path d="M103 394C209 360 281 329 343 298S453 254 526 253s100-41 149-60 93-34 166-27" fill="none" stroke="#a94f3c" stroke-width="5" stroke-dasharray="7 11"/game-ui-skills/>
+            <circle cx="103" cy="394" r="8" fill="#f7f0df" stroke="#35423c" stroke-width="3"/game-ui-skills/>
+            <g fill="none" stroke="#35423c" stroke-width="3"><path d="M510 235v40m-16-16h32m-24-20h17"/game-ui-skills/><path d="M825 149v52m-20-24h40m-32-25 23 12"/game-ui-skills/></g>
+            <circle cx="841" cy="166" r="10" fill="#b9533c" stroke="#f7f0df" stroke-width="3"/game-ui-skills/>
+          </svg>
+          <span class="map-label label-wash">THE WASH</span>
+          <button class="map-marker marker-windmill" type="button" data-select="windmill" aria-label="Select Windmill waypoint" aria-pressed="false"><span class="marker-dot"></span><span>Windmill</span></button>
+          <button class="map-marker marker-old-hull" type="button" data-select="old-hull" aria-label="Select Old Hull waypoint" aria-pressed="false"><span class="marker-dot"></span><span>Old Hull</span></button>
+          <button class="map-marker marker-salt" type="button" data-select="salt-road" aria-label="Select Salt Road waypoint" aria-pressed="false"><span class="marker-dot"></span><span>Salt Road</span></button>
+          <span class="map-scale">N ↑ · 1.0 KM</span>
+        </div>
+        <div class="map-footer">
+          <div><span class="micro">TRACKED DESTINATION</span><strong data-bind="waypoint">None marked</strong></div>
+          <p id="map-result" class="action-result" data-result aria-live="polite">Select a landmark to mark the next crossing.</p>
+          <button class="primary-action" type="button" data-commit="waypoint" disabled>Set destination</button>
+        </div>
+      </section>
+    </main>
+    <footer class="prototype-note">Interface study · sample places and route notes · choices stay in this tab.</footer>
+  </div>
+</body>
+</html>

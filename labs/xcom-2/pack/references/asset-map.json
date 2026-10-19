@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path":"references/images/style-board.svg","kind":"authored-vector-style-board","role":"Dossier and tactical command grammar; not a screenshot."},
+  "assets": [
+    {"path":"assets/art/tactical-markers.svg","kind":"original-authored-vector","role":"Corner bracket, targeting reticle and action diamond specimens.","sourceGameAsset":false}
+  ],
+  "fonts":{"copied":false,"cssFallback":"Arial Narrow, Segoe UI, monospace"},
+  "screenshots":{"officialRedistributed":false,"packageCapture":"pending parent capture"}
+}

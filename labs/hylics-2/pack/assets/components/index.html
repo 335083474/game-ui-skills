@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Clay choreography — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+  <script defer src="demo.js"></script>
+</head>
+<body>
+  <main class="clay-lab" aria-labelledby="page-title">
+    <header class="lab-heading">
+      <div><p class="lab-code">Material lab / specimen 03</p><h1 id="page-title">Clay choreography</h1><p class="lab-intro">Party, gesture, and curio pieces for an original turn-based world.</p></div>
+      <span class="demo-stamp">Local state only</span>
+    </header>
+
+    <section class="upper-specimens" aria-label="Party and turn components">
+      <figure class="clay-plate">
+        <img src="../../references/images/reference-plate.png" alt="Three original hand-sculpted clay travelers stand among surreal arches and bright forms">
+        <figcaption><span>Original clay scan study</span><b>Thumb marks · odd silhouettes</b></figcaption>
+      </figure>
+
+      <article class="gesture-specimen" aria-labelledby="gesture-title">
+        <div class="ink-scribble" aria-hidden="true">03</div>
+        <p class="specimen-label">Gesture battle / turn choice</p>
+        <h2 id="gesture-title">Choose a gesture</h2>
+        <div class="gesture-orbit" data-select-group>
+          <button class="gesture gesture-spiral" type="button" data-select data-name="Spiral · focus" aria-pressed="false"><span class="gesture-shape spiral-shape" aria-hidden="true">↝</span><b>Spiral</b><small>Focus</small></button>
+          <button class="gesture gesture-pulse" type="button" data-select data-name="Pulse · stagger" aria-pressed="false"><span class="gesture-shape pulse-shape" aria-hidden="true">✹</span><b>Pulse</b><small>Stagger</small></button>
+          <button class="gesture gesture-echo" type="button" data-select data-name="Echo · guard" aria-pressed="false"><span class="gesture-shape echo-shape" aria-hidden="true">◉</span><b>Echo</b><small>Guard</small></button>
+        </div>
+        <div class="commit-line"><p data-message aria-live="polite">Choose a gesture. A turn is not spent until commit.</p><button type="button" data-apply>Commit turn</button></div>
+      </article>
+    </section>
+
+    <section class="lower-specimens" aria-label="Party and curio component specimens">
+      <article class="party-ribbon" aria-labelledby="party-title">
+        <div class="ribbon-heading"><p class="specimen-label">Party / active member</p><h2 id="party-title">Clay companions</h2></div>
+        <div class="party-orbit" data-select-group>
+          <button class="party-member member-palla" type="button" data-select data-name="Palla · front" aria-pressed="false"><span class="member-crop crop-one" aria-hidden="true"></span><b>Palla</b><small>Front</small></button>
+          <button class="party-member member-orren" type="button" data-select data-name="Orren · support" aria-pressed="false"><span class="member-crop crop-two" aria-hidden="true"></span><b>Orren</b><small>Support</small></button>
+          <button class="party-member member-vesh" type="button" data-select data-name="Vesh · reserve" aria-pressed="false"><span class="member-crop crop-three" aria-hidden="true"></span><b>Vesh</b><small>Reserve</small></button>
+        </div>
+        <div class="commit-line"><p data-message aria-live="polite">Choose a member to preview the active slot.</p><button type="button" data-apply>Set active</button></div>
+      </article>
+
+      <article class="curio-spill" aria-labelledby="curio-title">
+        <div class="spill-header"><p class="specimen-label">Curio-bag / inspect first</p><h2 id="curio-title">Objects with effects</h2><span class="bag-mark" aria-hidden="true">◉</span></div>
+        <div class="curio-row" data-select-group>
+          <button class="curio curio-lumen" type="button" data-select data-name="Lumen gel · small restore" aria-pressed="false"><span aria-hidden="true">●</span><b>Lumen gel</b><small>Restore</small></button>
+          <button class="curio curio-glass" type="button" data-select data-name="Glass hum · clear one condition" aria-pressed="false"><span aria-hidden="true">◈</span><b>Glass hum</b><small>Clear</small></button>
+          <button class="curio curio-salt" type="button" data-select data-name="Salt orbit · unknown effect" aria-pressed="false"><span aria-hidden="true">◌</span><b>Salt orbit</b><small>Unknown</small></button>
+        </div>
+        <div class="commit-line"><p data-message aria-live="polite">Inspecting does not consume a curio.</p><button type="button" data-apply>Use item</button></div>
+      </article>
+    </section>
+    <footer class="lab-footer"><span>Component fragments only</span><span>Tab · Enter · Space</span><span>Each commit is local to this specimen</span></footer>
+  </main>
+</body>
+</html>

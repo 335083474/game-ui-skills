@@ -1,0 +1,15 @@
+{
+  "slug": "sable",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"mask-collection","title":"Mask Collection","description":"Choose a found mask and wear it before leaving the open desert rack."},
+    {"id":"quest-journal","title":"Quest Journal","description":"Select one road lead from a ruled journal index and track it for the next ride."},
+    {"id":"desert-map","title":"Desert Map","description":"Choose a visible landmark on the dune map and set one waypoint along the route."}
+  ],
+  "smokeTests": [
+    {"screenId":"mask-collection","steps":[{"action":"click","role":"button","name":"Select Ibex mask"},{"action":"click","role":"button","name":"Wear selected mask"}],"expectedText":["Ibex mask worn. Journey continues."]},
+    {"screenId":"quest-journal","steps":[{"action":"click","role":"button","name":"Select the Old Hull lead"},{"action":"click","role":"button","name":"Track this lead"}],"expectedText":["A Place to Call Home marked for your next ride."]},
+    {"screenId":"desert-map","steps":[{"action":"click","role":"button","name":"Select Windmill waypoint"},{"action":"click","role":"button","name":"Set destination"}],"expectedText":["Windmill waypoint set · 2.4 km east."]}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "her-story",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id": "search", "title": "Keyword Search", "description": "Search fictional interview-index text, inspect matching clip IDs, and update clearly simulated metadata-only clip state."},
+    {"id": "clip-library", "title": "Clip Library", "description": "Filter invented interview entries, inspect metadata, and pin clips into the local demo case index."},
+    {"id": "case-notes", "title": "Case Notes", "description": "Edit user-authored demo notes and link each one to a stable fictional clip ID."}
+  ],
+  "smokeTests": [
+    {"screenId": "search", "steps": [{"action": "fill", "role": "textbox", "name": "Search fictional transcript text", "value": "key"}, {"action": "click", "role": "button", "name": "Search records"}], "expectedText": ["1 match • “key”", "08-C / Room check", "SIMULATED / NO FOOTAGE"]},
+    {"screenId": "clip-library", "steps": [{"action": "select", "role": "combobox", "name": "Filter interview session", "value": "Follow-up"}, {"action": "click", "role": "button", "name": "Pin selected record to case notes"}], "expectedText": ["Pinned in this demo", "08-B"]},
+    {"screenId": "case-notes", "steps": [{"action": "fill", "role": "textbox", "name": "Demo note text", "value": "Compare this sample detail."}, {"action": "click", "role": "button", "name": "Save demo note"}], "expectedText": ["Saved demo text for 08-A.", "Compare this sample detail."]}
+  ]
+}

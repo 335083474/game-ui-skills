@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-10-16",
+  "generatedInterpretation": true,
+  "images": [
+    {
+      "role": "visual direction reference",
+      "path": "references/images/screen-direction.png",
+      "defaultGeneratedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a141d9-481a-7f03-b667-493cb9eca333\\exec-9908343e-ccfa-41f2-a7fb-b4f93833afd4.png",
+      "prompt": "Use case: ui-mockup\nAsset type: 1536 x 1024 visual direction reference sheet for a classic 1997 PlayStation-era blue JRPG menu system. Generated interpretation, not an official game screenshot.\nPrimary request: Match the ORIGINAL FINAL FANTASY VII menu grammar: deep saturated blue corner-gradient windows, brighter royal blue top left becoming nearly navy bottom right; very thin double silver and white beveled frame with tiny corner radius, small crisp white sans serif text and numeric columns, tiny white right-pointing hand or triangle cursor. Make one cohesive reference sheet with separated specimens, NOT a finished application screen.\nComposition: landscape 1536x1024. Upper left a compact stack of three left-aligned painted character bust portraits beside names level and HP/MP numeric fractions with skinny green HP and magenta MP gauges. Original characters: spiky-haired young male scout, darker-skinned sturdy middle-aged male guard, dark-haired young female mage. Upper right: a narrow vertical command window with Attack Magic Item Defend; one selected white pointer. Lower left: a dense equipment window with Weapon Armour Accessory labels and aligned item names and two numeric stat columns; steel sword silver wristguard green crystal orb motifs. Lower right: a compact spell list with MP costs and a small blue help line. All elements share same blue gradient, frame thickness and font scale.\nPalette: near-black #02020a outside panels, blue corners #0000b0 #000080 #000050 #000020, silver-white frames and text; modest green/magenta gauges. 1990s painted/pre-rendered portrait art. Quiet, utilitarian, dense, charming old console menu look.\nConstraints: No modern card dashboard, no neon, no frosted glass, no oversized headings, no rounded pills, no Remake/Rebirth interface, no official logos, no dramatic full screen character artwork. Legible short labels if used; no invented branding, no watermark.",
+      "transparent_background": false,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "notes": "Generated image uses franchise names despite requested original characters. Do not treat its labels/costs as source data. Copy unchanged."
+    },
+    {
+      "role": "portrait and item atlas",
+      "path": "assets/items-atlas.png",
+      "defaultGeneratedPath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a141d9-481a-7f03-b667-493cb9eca333\\exec-d9dbde2f-4ee0-48d8-9c5a-d59f8226504d.png",
+      "prompt": "Use case: stylized-concept\nAsset type: transparent RGBA sprite atlas, EXACT canvas 1536x1024 pixels, three columns and two rows of six equal 512x512 cells. Genuine alpha transparency, no solid background and no checkerboard painted into image.\nPrimary request: SIX DISTINCT assets in a 1990s pre-rendered / painted Japanese RPG art style. Top row: cell 1 (x0-511 y0-511) bust portrait of an original young spiky sandy-haired male scout in dark navy practical uniform; cell 2 (x512-1023 y0-511) bust portrait of an original darker-skinned sturdy middle-aged male guard with close cropped hair, short beard and olive armoured vest; cell 3 (x1024-1535 y0-511) bust portrait of an original young dark-haired female mage in muted burgundy clothing, with shoulder-length black hair. These must be three distinct fully painted human character busts, not silhouettes, not icons, not letters. Original characters only, not named franchise characters.\nBottom row: cell 4 (x0-511 y512-1023) one steel sword with a modest broad straight blade, simple crossguard and brown grip; cell 5 (x512-1023 y512-1023) one curved silver wristguard with two understated rivets; cell 6 (x1024-1535 y512-1023) one glowing green crystal orb, round with subtle inner facets and restrained green glow.\nComposition: exactly one object per cell, each centered INSIDE its own cell and contained in central 400x400 area, leaving at least 56 transparent pixels around each cell. Busts cropped naturally at chest but inside cell, no object extends beyond its cell. Consistent scale between the three portraits; items have clear compact inventory silhouettes. Orthographic inventory presentation and soft painted shading. Clean transparent gutters. No grid lines, labels, text, numbers, letters, logos, panels, frames, ground shadows, backgrounds or extra objects. Do not merge assets. Preserve actual alpha.",
+      "transparent_background": true,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "notes": "True alpha verified; cell bounds documented in asset-map.json. Requested margins were not uniformly achieved; all objects stay within cells. Copy unchanged; no image editing."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "name": "balatro-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "reference_images": [
+    "references/images/reward-direction.png",
+    "references/images/component-direction.png",
+    "references/images/component-board.png"
+  ],
+  "new_art": {
+    "file": "assets/items-atlas.png",
+    "method": "built-in image_gen",
+    "source": "exec-ab23a85b-8603-41bc-b974-ab4531995a71.png",
+    "prompt_record": "[local reference omitted]"
+  },
+  "font": {
+    "family": "Pixelify Sans",
+    "license": "assets/fonts/OFL.txt",
+    "source": "https://github.com/google/fonts/tree/main/ofl/pixelifysans"
+  },
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 246,
+      "sha256": "cd4a305d6e40b0f7529558bf159de7d3077d72f8f25940dbc7ac4bfcbd6aa349"
+    },
+    {
+      "path": "assets/components/felt.svg",
+      "bytes": 1224,
+      "sha256": "764f3d6d10a6004a81df3258c0f784f906624c0df6e75ca18f2947930d049356"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 5096,
+      "sha256": "bbd3943858fa82f506a0d501304357b5b0525732245077497c12955ba1814078"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 4954,
+      "sha256": "24c757dcabb63b09e301d766f1e077753e8be651b4718a9635ad0e8c457fc27b"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4488,
+      "sha256": "b66ba46f511a851ab09998b5a5a9fdbb102545a3864cb993095e1745996873a7"
+    },
+    {
+      "path": "assets/fonts/PixelifySans.ttf",
+      "bytes": 79160,
+      "sha256": "9ba86cd010a4de309d263ceff8e8044092c9db7efda869620cb9ff1c4389e8a5"
+    },
+    {
+      "path": "assets/items-atlas.png",
+      "bytes": 1409668,
+      "sha256": "73dc7caf1f5b426e563a578d6f6c23385d8b4d3e7261cfaf6dc10433d55e8cc1"
+    },
+    {
+      "path": "assets/tokens.json",
+      "bytes": 890,
+      "sha256": "67523dbedb6e702952c9a1dbca0a253f6f6e07a943c18e0358744f096eceeb43"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 2021,
+      "sha256": "f5ec21d06f6baf352869fe697115a5850bf7a5bf90a57ee8e7f246b1b52955c4"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 1838,
+      "sha256": "1b77555519d0690ca7357b917e0be54e3491ab5b54f2a484530dadba59345157"
+    },
+    {
+      "path": "references/consistency-checks.md",
+      "bytes": 1337,
+      "sha256": "9bd6c3bc2a5473fb5a397add3c62168d3f5e9af22ff53116b6055e8e33a29f82"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 147401,
+      "sha256": "e99477cae9b3ad80b0fbe11f6559515ab5a802d07e2f6e18e7b7f6dc232eaa35"
+    },
+    {
+      "path": "references/images/component-direction.png",
+      "bytes": 1745370,
+      "sha256": "40db3d32a062db83505026699250d23be4ad056d25a865402afe27c3cd723a31"
+    },
+    {
+      "path": "references/images/reward-direction.png",
+      "bytes": 1962360,
+      "sha256": "bed18a590e5b390c39df0a2a1eb6353c02f3e6be1a1edc5caf9c0b33c8348c8f"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1606,
+      "sha256": "f043a1588e9884feb21ffa54f9334ece39825d0411c578e38b1a7ada78eb6b14"
+    },
+    {
+      "path": "references/style-rules.md",
+      "bytes": 3644,
+      "sha256": "991d63234c008dee091392aa4b549b6a634edb74552aefb6ace99fe7e78ca4c3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3910,
+      "sha256": "4ec1ab633e84e96522a21174c7e7d88688c04299f1838ca2592198e8707ae5af"
+    }
+  ],
+  "runtime_network_dependencies": [],
+  "not_included": [
+    "finished screen layouts",
+    "engine scenes",
+    "Figma source",
+    "hosted generation",
+    "payment service"
+  ]
+}

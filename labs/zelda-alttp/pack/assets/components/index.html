@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Zelda: A Link to the Past — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+<main class="hyrule-lab">
+  <header class="zelda-head"><div><p class="eyebrow">1991 SUPER NINTENDO DIRECTION / PARTS BOARD</p><h1>Dungeon inventory study</h1></div><div class="edition-note">ORIGINAL MENU GRAMMAR<br>NOT A MODERN ZELDA MAP</div></header>
+  <section class="heart-status" aria-label="Life meter specimen"><b>LIFE / DEMO</b><i class="heart"></i><i class="heart"></i><i class="heart"></i><i class="heart"></i><i class="heart"></i><i class="heart"></i><i class="heart"></i><i class="heart"></i><i class="heart empty"></i><i class="heart empty"></i><i class="heart empty"></i><i class="heart empty"></i></section>
+  <section class="classic-board" aria-label="Reusable classic menu pieces">
+    <article class="classic-panel">
+      <header class="panel-title"><h2>Inventory grid</h2><small>SELECT / ITEM</small></header>
+      <div class="item-grid">
+        <button class="item-slot" aria-pressed="true" data-group="slot" aria-label="Select Crest blade"><svg><use href="../art/ui-atlas.svg#blade"/game-ui-skills/></svg><small>A</small></button>
+        <button class="item-slot" aria-pressed="false" data-group="slot" aria-label="Select round guard"><svg><use href="../art/ui-atlas.svg#shield"/game-ui-skills/></svg><small>B</small></button>
+        <button class="item-slot" aria-pressed="false" data-group="slot" aria-label="Select lantern"><svg><use href="../art/ui-atlas.svg#lamp"/game-ui-skills/></svg></button>
+        <button class="item-slot" aria-pressed="false" data-group="slot" aria-label="Select tonic"><svg><use href="../art/ui-atlas.svg#flask"/game-ui-skills/></svg></button>
+        <button class="item-slot" aria-pressed="false" data-group="slot" aria-label="Select key"><svg><use href="../art/ui-atlas.svg#key"/game-ui-skills/></svg></button>
+        <button class="item-slot" aria-pressed="false" data-group="slot" aria-label="Select map"><svg><use href="../art/ui-atlas.svg#map"/game-ui-skills/></svg></button>
+        <button class="item-slot" aria-pressed="false" data-group="slot" aria-label="Select crest ring"><svg><use href="../art/ui-atlas.svg#ring"/game-ui-skills/></svg></button>
+        <button class="item-slot" aria-pressed="false" data-group="slot" aria-label="Empty slot"><span>—</span></button>
+      </div>
+      <p class="selection-name" aria-live="polite">CREST BLADE / PREVIEW ONLY</p>
+      <p class="panel-live">Original symbols · example inventory state.</p>
+    </article>
+    <article class="classic-panel">
+      <header class="panel-title"><h2>Dungeon room map</h2><small>LEVEL / SAMPLE</small></header>
+      <div class="room-map" role="img" aria-label="Five by five sample room map: explored rooms in gray, current room in red, unknown rooms dotted">
+        <span class="room unknown">?</span><span class="room unknown">?</span><span class="room unknown">?</span><span class="room unknown">?</span><span class="room unknown">?</span>
+        <span class="room unknown">?</span><span class="room path">·</span><span class="room path">·</span><span class="room path">·</span><span class="room unknown">?</span>
+        <span class="room unknown">?</span><span class="room path">·</span><span class="room current">C</span><span class="room path">·</span><span class="room unknown">?</span>
+        <span class="room unknown">?</span><span class="room path">·</span><span class="room path">·</span><span class="room unknown">?</span><span class="room unknown">?</span>
+        <span class="room unknown">?</span><span class="room unknown">?</span><span class="room unknown">?</span><span class="room unknown">?</span><span class="room unknown">?</span>
+      </div>
+      <div class="room-key"><span><i class="cur"></i>CURRENT</span><span><i></i>EXPLORED</span><span><i></i>UNKNOWN ?</span></div>
+      <p class="panel-live" aria-live="polite">Current room C · fictional map geometry.</p>
+    </article>
+    <article class="classic-panel shop-panel">
+      <header class="panel-title"><h2>Item shop</h2><small>PREVIEW / CONFIRM</small></header>
+      <div class="shop-list">
+        <button class="shop-row" aria-pressed="true" data-group="offer"><svg><use href="../art/ui-atlas.svg#lamp"/game-ui-skills/></svg><span><b>TRAVEL LAMP</b><small>Sample listing / original art</small></span><em>042</em></button>
+        <button class="shop-row" aria-pressed="false" data-group="offer"><svg><use href="../art/ui-atlas.svg#flask"/game-ui-skills/></svg><span><b>RED TONIC</b><small>Sample listing / original art</small></span><em>018</em></button>
+        <button class="shop-row" aria-pressed="false" data-group="offer"><svg><use href="../art/ui-atlas.svg#shield"/game-ui-skills/></svg><span><b>ROUND GUARD</b><small>Sample listing / original art</small></span><em>060</em></button>
+      </div>
+      <button class="shop-confirm" type="button">PREVIEW PURCHASE</button>
+      <p class="panel-live" aria-live="polite">Travel Lamp · sample price 042 · no purchase saved.</p>
+    </article>
+  </section>
+  <footer class="zelda-foot"><span>SQUARE SLOTS / GOLD EDGES / RED FOCUS</span><span>ALL ITEMS / PRICES / ROOMS ARE ORIGINAL EXAMPLES</span></footer>
+</main>
+<script>
+document.querySelectorAll("[data-group]").forEach(button=>button.addEventListener("click",()=>{
+  document.querySelectorAll('[data-group="'+button.dataset.group+'"]').forEach(item=>item.setAttribute("aria-pressed","false"));
+  button.setAttribute("aria-pressed","true");
+  const panel=button.closest(".classic-panel");
+  const live=panel.querySelector(".panel-live");
+  if(live) live.textContent=(button.getAttribute("aria-label")||button.innerText||"Offer").replace(/\s+/g," ").trim()+" selected · local preview only.";
+}));
+document.querySelector(".shop-confirm").addEventListener("click",()=>{
+  document.querySelector(".shop-panel .panel-live").textContent="Purchase preview only · no inventory or currency changed.";
+});
+</script>
+</body>
+</html>

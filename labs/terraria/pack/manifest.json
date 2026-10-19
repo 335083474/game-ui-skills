@@ -1,0 +1,80 @@
+{
+  "name": "terraria-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 302,
+      "sha256": "bb026b9d1cc7364f26aef62af3aca635b3a1c3f3be50c61fbe4abc006f163a84"
+    },
+    {
+      "path": "assets/art/symbol-atlas.svg",
+      "bytes": 1187,
+      "sha256": "ed88ef2706dabe0c0e8995802dad7f539655670c84525843098092e7a88649b9"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 4101,
+      "sha256": "0ac7b2ab7e37460e00c0e39de48bb69e3bc48e6a509f8dab39c7fd4a7fe48ecf"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 5080,
+      "sha256": "90459eb3ffd7dd85db0cfface49ecac7f823e0e8b200346040254483c28292c0"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1511,
+      "sha256": "864f82b1e85b82e44e5f8157fb79f7d4a1d1c55c40dc553c1914dad588ec979d"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 536,
+      "sha256": "608f423eaff3ee809c3dd0b55ef0bef4a6e5fe6ab7acde6c8b4f82f949c6f87d"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 103597,
+      "sha256": "a371f9bd43079a078104d2aaa69ab2e894a41c1374570916819fdb650024494f"
+    },
+    {
+      "path": "references/images/style-board.svg",
+      "bytes": 4804,
+      "sha256": "27c03af94afe67e2bcde850b84351a82505ab448d12237db28e04a8bec71d2bb"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1092,
+      "sha256": "a666b0904c245ee3b04fab6e8951b6eb6f5d2633034f79d87d937d54f66484b7"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 711,
+      "sha256": "09d7411f66df0e04e5712f6a53cd0da6dbdf4f637f3d41b8d64f714e5aaf84e1"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 497,
+      "sha256": "e0e0d1bdec50a0491447e6de52b4d045747f63192c749931aab6c7a3980c08f2"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 853,
+      "sha256": "c2c00cfd36dd8c4c0f316ff30e7d3958ac0681e4386ed32561fff9ac581d8b44"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1370,
+      "sha256": "3271382270a4da3a0de6b3ca6af5665270ab433a5ce60a8670fd29663002e196"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 816,
+      "sha256": "bb8b59af2da943712086f51cb57f5dfb4a873674bdd1213cae2f49d11add8e3b"
+    }
+  ]
+}

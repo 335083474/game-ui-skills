@@ -1,0 +1,17 @@
+PASS Initial geometry, unique IDs, 18 occupied cells, base totals
+PASS Sword swap, ID conservation, repeat refusal and unequip
+PASS Defense replacement and removal restore derived totals
+PASS Equipment Strength, Level, Dexterity, incompatible slot failures are atomic
+PASS Full-bag unequal-footprint swap reserves displaced item atomically
+PASS Mana item adds once and returns to baseline
+PASS Draught consumes exactly once, clamps Life, full-Life refusal
+PASS Skill prerequisite, successful spend, level cap and point budget
+PASS Required level, maximum hard rank, learned and active distinction
+PASS Purchase exact gold/stock deltas and fresh IDs until sold out
+PASS No-gold and no-room purchase failures preserve every field
+PASS Sale uses exact proceeds, registers type, cannot sell equipment
+PASS All nine registered merchant templates fit one 10 x 4 stock grid
+PASS Local resources exist, including both font licenses; no remote runtime URLs
+PASS App renders all routes and shared state via a minimal DOM stub (not browser QA)
+
+15 check groups passed. No browser or rendering validation performed.

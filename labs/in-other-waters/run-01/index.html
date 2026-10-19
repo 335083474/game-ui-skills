@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f1e3">
+  <title>In Other Waters — Field Instrument Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="demo-head">
+    <a href="#scanner" class="station-mark" aria-label="Field instrument study home"><span class="mark-ring">I/O<br>W</span><span><b>FIELD INSTRUMENT</b><small>OCEAN STUDY / SECTOR 03</small></span></a>
+    <nav class="screen-nav" aria-label="Screen navigation">
+      <a href="#scanner">01 / Scanner</a>
+      <a href="#specimen-catalog">02 / Catalog</a>
+      <a href="#field-log">03 / Field log</a>
+    </nav>
+  </header>
+  <main id="app" class="app-shell">
+    <section id="scanner" class="screen scanner-screen" aria-labelledby="scanner-title">
+      <div class="screen-heading"><div><p class="eyebrow">NAVIGATION / SCAN / OBSERVATION</p><h1 id="scanner-title">Scanner / Sector 03</h1><p class="intro">DEPTH 42 m <span>·</span> HEADING <b>064°</b></p></div><div class="data-seal">SYNTHETIC READINGS<br><b>LOCAL DEMO STATE</b></div></div>
+      <div class="scanner-grid">
+        <section class="dial-panel" aria-labelledby="dial-title">
+          <div class="panel-label"><span>01 / HEADING INSTRUMENT</span><span>DEPTH 42 m</span></div>
+          <h2 id="dial-title">Radial scanner</h2>
+          <div class="dial-wrap">
+            <svg class="radial-dial" viewBox="0 0 320 320" role="img" aria-label="Radial instrument at heading 064 degrees with three synthetic returns">
+              <circle cx="160" cy="160" r="138" class="dial-outer"></circle><circle cx="160" cy="160" r="104" class="dial-mid"></circle><circle cx="160" cy="160" r="47" class="dial-inner"></circle>
+              <path d="M22 160h276M160 22v276" class="dial-cross"></path><path d="M160 160 216 40" class="heading-ray"></path><path d="M211 43l13-17 2 22z" class="heading-tip"></path>
+              <circle cx="195" cy="92" r="7" class="dial-return return-r02"></circle><circle cx="92" cy="215" r="7" class="dial-return return-r01"></circle><circle cx="247" cy="212" r="7" class="dial-return return-r03"></circle><circle cx="160" cy="160" r="4" class="dial-center"></circle>
+            </svg>
+            <div class="dial-caption"><span>N / REFERENCE</span><span>RETURNS / 03</span></div>
+            <div class="heading-value">HEADING <b>064°</b></div>
+          </div>
+          <p class="instrument-note">LOCAL SAMPLE GEOMETRY · NO SCAN OR TRAVERSAL RECORDED</p>
+        </section>
+        <section class="contour-panel" aria-labelledby="contour-title">
+          <div class="panel-label"><span>02 / TOPOGRAPHIC PATH</span><span>CONTOUR DATA / FICTIONAL</span></div>
+          <div class="contour-title"><h2 id="contour-title">Contour map / Sector 03</h2><span id="coordinate-readout" aria-live="polite">R-01 / (03,11) · SYNTHETIC</span></div>
+          <div class="contour-plot">
+            <img src="assets/contour-map.svg" alt="Layered cyan ocean contours with a yellow dotted sample route and three return marks">
+            <div class="return-targets" id="return-targets"></div>
+            <span class="map-stamp">SYNTHETIC RETURN MARKS / NOT GAME MAP</span>
+            <span class="not-to-scale">NOT TO SCALE</span>
+          </div>
+          <div class="return-selector" role="group" aria-label="Select a map return">
+            <button type="button" class="return-choice is-selected" data-return="R-01" aria-pressed="true" aria-label="Select R-01 ridge">R-01 <span>ridge</span></button>
+            <button type="button" class="return-choice" data-return="R-02" aria-pressed="false" aria-label="Select R-02 moving speck">R-02 <span>moving speck</span></button>
+            <button type="button" class="return-choice" data-return="R-03" aria-pressed="false" aria-label="Select R-03 hollow">R-03 <span>hollow</span></button>
+          </div>
+          <div class="scan-footer"><p id="scan-feedback" aria-live="polite">R-01 / RIDGE · COORDINATE (03,11)</p><button class="instrument-button" type="button" id="mark-return">Mark return in local notes</button></div>
+        </section>
+      </div>
+      <p class="prototype-note">FICTIONAL READINGS AND COORDINATES · CONTROLS CHANGE THIS PAGE ONLY</p>
+    </section>
+
+    <section id="specimen-catalog" class="screen catalog-screen" aria-labelledby="catalog-title" hidden>
+      <div class="screen-heading catalog-heading"><div><p class="eyebrow">SPECIMEN FILE / SECTOR 03</p><h1 id="catalog-title">Catalog / samples</h1><p class="intro">Fictional shapes and page-local observations.</p></div><div class="fiction-seal">FICTIONAL SAMPLE<br><b>NOT TAXONOMY</b></div></div>
+      <div class="catalog-layout">
+        <div class="specimen-list" role="group" aria-label="Choose a fictional sample">
+          <button type="button" class="specimen-choice is-selected" data-sample="S-01" aria-pressed="true" aria-label="S-01 Ribbon glider"><img src="assets/specimen-ribbon.svg" alt=""><span><b>S-01</b><strong>Ribbon glider</strong><small>OBSERVATION / DRIFTING</small></span><i>↗</i></button>
+          <button type="button" class="specimen-choice" data-sample="S-02" aria-pressed="false" aria-label="S-02 Glass cup"><span class="sample-icon glass-icon" aria-hidden="true"><svg viewBox="0 0 80 70"><path d="M20 10h40l-5 47H25z"/game-ui-skills/><path d="M26 35h28M29 44h22"/game-ui-skills/><path d="M31 10q9 6 18 0"/game-ui-skills/></svg></span><span><b>S-02</b><strong>Glass cup</strong><small>OBSERVATION / TRANSLUCENT</small></span><i>↗</i></button>
+          <button type="button" class="specimen-choice" data-sample="S-03" aria-pressed="false" aria-label="S-03 Dapple float"><span class="sample-icon float-icon" aria-hidden="true"><svg viewBox="0 0 80 70"><path d="M12 42c5-18 19-26 30-18 9-12 25-10 27 2 8 13-5 25-20 21-12 15-32 11-37-5z"/game-ui-skills/><circle cx="49" cy="32" r="4"/game-ui-skills/></svg></span><span><b>S-03</b><strong>Dapple float</strong><small>OBSERVATION / UNCLASSIFIED</small></span><i>↗</i></button>
+          <div class="list-footer">3 LOCAL SAMPLE MARKS <span>↗</span></div>
+        </div>
+        <article class="specimen-sheet">
+          <div class="sheet-meta"><span id="sample-code">S-01 / FICTION</span><span>SECTOR 03</span></div>
+          <div class="specimen-art-wrap">
+            <img id="sample-art-ribbon" class="sample-art" src="assets/specimen-ribbon.svg" alt="Original fictional ribbon glider mark">
+            <svg id="sample-art-glass" class="sample-art alternate-art" viewBox="0 0 280 200" role="img" aria-label="Original fictional glass cup specimen mark" hidden><path d="M55 37h170l-23 126H78z"/game-ui-skills/><path d="M72 102h137M81 126h120M105 42q35 22 70 0"/game-ui-skills/><circle cx="142" cy="90" r="33"/game-ui-skills/></svg>
+            <svg id="sample-art-float" class="sample-art alternate-art" viewBox="0 0 280 200" role="img" aria-label="Original fictional dapple float specimen mark" hidden><path d="M43 106c12-52 60-75 91-48 26-37 82-20 84 20 27 39-13 78-54 64-37 42-103 31-121-10z"/game-ui-skills/><circle cx="157" cy="86" r="10"/game-ui-skills/><path d="M60 109q45-25 91 10t62-2"/game-ui-skills/></svg>
+          </div>
+          <div class="specimen-ident"><div><p class="eyebrow" id="sample-tag">OBSERVATION / DRIFTING</p><h2 id="sample-name">Ribbon glider</h2></div><span class="sample-coordinate" id="sample-coordinate">(03,11)<small>DEMO COORD.</small></span></div>
+          <label class="note-label" for="specimen-note">Observation note <span>EDITABLE / PAGE ONLY</span></label>
+          <textarea id="specimen-note" rows="3" aria-label="Observation note">Ribbon-like drift aligned with the eastern current.</textarea>
+          <div class="sheet-footer"><p id="note-feedback" aria-live="polite">NOT SAVED / LOCAL EDIT</p><button type="button" class="instrument-button" id="save-specimen-note">Save note for this page</button></div>
+        </article>
+      </div>
+      <p class="prototype-note">NAMES, MARKS AND NOTES ARE INVENTED · NO BIOLOGICAL CLASSIFICATION</p>
+    </section>
+
+    <section id="field-log" class="screen log-screen" aria-labelledby="log-title" hidden>
+      <div class="screen-heading"><div><p class="eyebrow">FIELD RECORD / DEMO TIME</p><h1 id="log-title">Field log / demo records</h1><p class="intro">Observation and interpretation stay separate.</p></div><div class="log-stamp">SECTOR 03<br><b>3 ENTRIES</b></div></div>
+      <div class="log-layout">
+        <div class="timeline" role="group" aria-label="Choose a field record">
+          <button type="button" class="log-entry is-selected" data-log="0" aria-pressed="true"><span class="entry-index">01</span><span class="entry-body"><b>08:12 <i>(03,11)</i></b><strong>Cyan return behind the shelf.</strong><small>OBSERVED / DEMO COORDINATE</small></span><span class="entry-arrow">↗</span></button>
+          <button type="button" class="log-entry" data-log="1" aria-pressed="false"><span class="entry-index">02</span><span class="entry-body"><b>08:19 <i>(04,12)</i></b><strong>Ellery's suit marker moved east.</strong><small>OBSERVED / DEMO COORDINATE</small></span><span class="entry-arrow">↗</span></button>
+          <button type="button" class="log-entry" data-log="2" aria-pressed="false"><span class="entry-index">03</span><span class="entry-body"><b>08:26 <i>(05,13)</i></b><strong>Route ended at an uncharted contour.</strong><small>OBSERVED / DEMO COORDINATE</small></span><span class="entry-arrow">↗</span></button>
+          <div class="timeline-end">END OF LOCAL FIELD PAGE <span>—</span></div>
+        </div>
+        <aside class="log-note-panel">
+          <div class="mini-map"><img src="assets/contour-map.svg" alt="Small synthetic contour map with the shared yellow route"><span>AREA 03 / NOT TO SCALE</span></div>
+          <div class="record-columns"><div><p class="eyebrow">OBSERVED</p><p id="selected-observation">Cyan return behind the shelf.</p></div><div><p class="eyebrow">INTERPRETATION</p><p id="selected-interpretation">Possible ridge turbulence; unconfirmed.</p></div></div>
+          <label class="note-label" for="interpretation-note">Interpretation note <span>LOCAL ADDITION</span></label>
+          <textarea id="interpretation-note" rows="3" aria-label="Interpretation note" placeholder="Add a short invented interpretation…"></textarea>
+          <div class="sheet-footer"><p id="log-feedback" aria-live="polite">OBSERVATION AND INTERPRETATION ARE SEPARATE</p><button type="button" class="instrument-button" id="add-log-note">Add interpretation to local log</button></div>
+        </aside>
+      </div>
+      <p class="prototype-note">TIME, LOCATION, OBSERVATIONS AND INTERPRETATIONS ARE INVENTED DEMO CONTENT</p>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

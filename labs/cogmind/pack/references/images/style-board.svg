@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Original Cogmind-inspired ASCII interface study</title>
+  <desc id="desc">A green and amber terminal composition built from editable text glyphs, equipment rows, and a synthetic event log.</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#28402d" stroke-width="1"/game-ui-skills/></pattern><linearGradient id="terminal" x2="0" y2="1"><stop stop-color="#111b14"/game-ui-skills/><stop offset="1" stop-color="#070c09"/game-ui-skills/></linearGradient></defs>
+  <rect width="1200" height="760" fill="#080e0a"/game-ui-skills/><rect x="28" y="28" width="1144" height="704" fill="url(#terminal)" stroke="#48664c" stroke-width="2"/game-ui-skills/><rect x="28" y="28" width="1144" height="704" fill="url(#grid)" opacity=".48"/game-ui-skills/>
+  <text x="61" y="72" fill="#85ba7b" font-family="Consolas,monospace" font-size="18" letter-spacing="3">COGMIND / ASCII INTERFACE STUDY</text><text x="1135" y="72" text-anchor="end" fill="#c6a658" font-family="Consolas,monospace" font-size="12">ORIGINAL SYNTHETIC SPECIMEN</text>
+  <path d="M58 95h1084M58 95v-12m1084 12v-12" stroke="#47684c"/game-ui-skills/>
+  <rect x="58" y="120" width="711" height="402" fill="#07100a" stroke="#5c805a"/game-ui-skills/>
+  <text x="77" y="150" fill="#9bc68f" font-family="Consolas,monospace" font-size="12" letter-spacing="2">SECTOR MAP / CURSOR 08,04</text>
+  <g fill="#5f9c65" font-family="Consolas,monospace" font-size="23" font-weight="600">
+    <text x="84" y="196">#################</text><text x="84" y="226">#....%....+....?#</text><text x="84" y="256">#..[]...|...^^..#</text><text x="84" y="286">#..*...#....&amp;...#</text><text x="84" y="316">#...{...<tspan fill="#edc458">@</tspan>...}..#</text><text x="84" y="346">#...|..=..-.....#</text><text x="84" y="376">#..?.....%......#</text><text x="84" y="406">#......&amp;.....&amp;..#</text><text x="84" y="436">#################</text>
+  </g>
+  <text x="90" y="478" fill="#d6ba64" font-family="Consolas,monospace" font-size="11">@ YOU  + DOOR  &amp; DATA  ^ HAZARD  ? UNKNOWN</text>
+  <text x="90" y="501" fill="#7ea77a" font-family="Consolas,monospace" font-size="10">ARROWS / HJKL MOVE · ENTER INSPECT · ESC BACK</text>
+  <rect x="790" y="120" width="352" height="266" fill="#0b130d" stroke="#526b4b"/game-ui-skills/>
+  <text x="810" y="150" fill="#d9bb68" font-family="Consolas,monospace" font-size="12" letter-spacing="2">PARTS / ATTACHED</text>
+  <g font-family="Consolas,monospace" font-size="13"><text x="813" y="187" fill="#87be7c">[C]</text><text x="861" y="187" fill="#a8c2a0">CORE</text><text x="955" y="187" fill="#e2c364">82%</text><text x="813" y="224" fill="#78b4be">[|]</text><text x="861" y="224" fill="#a8c2a0">PROPULSION</text><text x="955" y="224" fill="#e2c364">64%</text><text x="813" y="261" fill="#78b4be">[?]</text><text x="861" y="261" fill="#a8c2a0">UTILITY / SCAN</text><text x="955" y="261" fill="#e2c364">91%</text><text x="813" y="298" fill="#d38b60">[!]</text><text x="861" y="298" fill="#a8c2a0">WEAPON / ARC</text><text x="955" y="298" fill="#d38b60">58%</text></g>
+  <path d="M810 319h310" stroke="#314734"/game-ui-skills/><text x="813" y="348" fill="#829e7b" font-family="Consolas,monospace" font-size="10">SELECT SLOT / ENTER INSPECT / ESC CLOSE</text>
+  <rect x="790" y="405" width="352" height="117" fill="#0a120c" stroke="#526b4b"/game-ui-skills/>
+  <text x="810" y="434" fill="#9bc68f" font-family="Consolas,monospace" font-size="12" letter-spacing="2">EVENT BUFFER / FICTIONAL</text>
+  <text x="810" y="463" fill="#74a970" font-family="Consolas,monospace" font-size="11">[I] E-017 scanner / irregular return</text><text x="810" y="485" fill="#d9bb68" font-family="Consolas,monospace" font-size="11">[!] E-016 status / heat rising</text><text x="810" y="507" fill="#74a970" font-family="Consolas,monospace" font-size="11">[+] E-015 salvage / sealed case</text>
+  <rect x="58" y="551" width="1084" height="145" fill="#101811" stroke="#45634a"/game-ui-skills/>
+  <text x="80" y="584" fill="#d1b55f" font-family="Consolas,monospace" font-size="12" letter-spacing="2">GLYPH LANGUAGE / TEXT, NOT A RASTER DASH</text>
+  <g font-family="Consolas,monospace" font-size="28" font-weight="600"><text x="84" y="635" fill="#d8bd63">@</text><text x="132" y="635" fill="#7eb178">#</text><text x="180" y="635" fill="#78b4be">+</text><text x="228" y="635" fill="#d38b60">^</text><text x="276" y="635" fill="#80ad79">&amp;</text><text x="324" y="635" fill="#80ad79">%</text><text x="372" y="635" fill="#80ad79">*</text><text x="420" y="635" fill="#80ad79">?</text></g>
+  <g font-family="Consolas,monospace" font-size="11" fill="#9ab394"><text x="83" y="665">CURSOR</text><text x="131" y="665">WALL</text><text x="179" y="665">DOOR</text><text x="227" y="665">HAZARD</text><text x="275" y="665">DATA</text><text x="323" y="665">DEBRIS</text><text x="371" y="665">SALVAGE</text><text x="419" y="665">UNKNOWN</text></g>
+  <text x="1117" y="674" text-anchor="end" fill="#86a07d" font-family="Consolas,monospace" font-size="10">NO GAME FONT OR EXTRACTED ART</text>
+</svg>

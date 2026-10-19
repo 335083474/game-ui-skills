@@ -1,0 +1,4 @@
+interface:
+  display_name: "Disco Elysium Narrative UI"
+  short_description: "Build painterly literary detective RPG screens"
+  default_prompt: "Use the disco-elysium-ui reference package for original dialogue, skills, and thought-cabinet screens."

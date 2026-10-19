@@ -1,0 +1,85 @@
+{
+  "name": "obra-dinn-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 217,
+      "sha256": "369690faeef2f1e1d69685a8fd465ef47991c01c648886ace101f27f5ae19f73"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 2397,
+      "sha256": "75baf109a662d53d3a9cb6f83cefd188904793e125d48f58f73a38e258a7ff77"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 3417,
+      "sha256": "e1a43d35f77579852aa24b1fb46469a7a4ca6527468c06dec70f44dbdf888275"
+    },
+    {
+      "path": "assets/illustrations/obra-dinn-art.png",
+      "bytes": 2368819,
+      "sha256": "f9ad15760f293d6f2ddb95e53c845feda3af6316f2d1d9a6f96f3f5f1cf39e66"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1430,
+      "sha256": "6ff45f29316c2cd31cd4fd996ab07970a7ba7aa2745f9bcd9586b2eed9af2304"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 624,
+      "sha256": "726cb2b56b066d56ff9858f9c723ceafbc97ffe31fcec51d0650e45be1036977"
+    },
+    {
+      "path": "references/demo-state.json",
+      "bytes": 710,
+      "sha256": "bce973c33927024b31650d8e900f6577b6b1cb1891bfffaf212c2ba8b2960552"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 526,
+      "sha256": "a555d421e9b57daf2596b91ca05885605e8d671cd9508a1964df2b723f5fe317"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 103570,
+      "sha256": "02fbaeb3ceb26ddadfec47421d7840f1c275bd75b7abf6961ff6964debbbd3c5"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1315,
+      "sha256": "077e19fff09596d1d23dfcb88ba536cf1366fa86ac4cb6aaffda6ec9b70a85e1"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 714,
+      "sha256": "1598d3f5497635b8ece15654daaad44c6601bc72a894a5ec38f39fc3cd0835c4"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 886,
+      "sha256": "4bf081da9b48708b4f03d18de4982721d0f3dee4d1414cddee6e17ed956acccb"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1067,
+      "sha256": "c1ee4302f8d4dc0d7e1a635f68111ddd02a3376572d3b714e2f50c58025004f0"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1826,
+      "sha256": "fc7e010a6a193762ba53769894d2d63440061cd503e5393ba331db6992ee6cd5"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 444,
+      "sha256": "326a549c399bbd609a5246250c3db19cc89e1e4e71a98943ee2671f95f548f7a"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "hypnospace-outlaw",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "desktop", "title": "Desktop", "description": "Arrange a bright fictional desktop with browser, notes, and file windows that close, minimize, and restore locally." },
+    { "id": "mail", "title": "Mail", "description": "Select invented inbox rows to update a separate detail window while leaving suspicious links inert." },
+    { "id": "file-library", "title": "File Library", "description": "Inspect three fictional files and toggle page-local demo labels without fetching or installing anything." }
+  ],
+  "smokeTests": [
+    { "screenId": "desktop", "steps": [ { "action": "click", "role": "button", "name": "Close Mara's Reef Page" }, { "action": "click", "role": "button", "name": "Mara's Reef Page" } ], "expectedText": [ "Mara's Reef Page restored on this desktop." ] },
+    { "screenId": "mail", "steps": [ { "action": "click", "role": "button", "name": "Tadpole77 / Check this link / Yesterday" } ], "expectedText": [ "EXTERNAL LINK DISABLED IN THIS LOCAL DEMO" ] },
+    { "screenId": "file-library", "steps": [ { "action": "click", "role": "button", "name": "Mark PondParty.wll for demo" } ], "expectedText": [ "PondParty.wll · MARKED IN THIS PAGE" ] }
+  ]
+}

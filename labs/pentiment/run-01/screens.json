@@ -1,0 +1,39 @@
+{
+  "slug": "pentiment",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "relationship-map", "title": "The people around the bells", "description": "A large generated scriptorium plate frames an open, labeled relationship web. Solid and dashed testimony ties state confidence in words; changing inquiry focus asks before it is recorded." },
+    { "id": "investigation-log", "title": "A margin for contradictions", "description": "A chronological manuscript leaf lists each clue beside source and confidence. A selected clue can be marked for comparison after explicit confirmation without altering its evidence." },
+    { "id": "dialogue-exchange", "title": "At the vestry door", "description": "A character-forward conversation uses a readable manuscript text column, speaker attribution, expression cue, and two distinct response voices. A response is recorded only after confirmation." }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "relationship-map",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Focus Marta, witness" },
+        { "action": "click", "role": "button", "name": "Set inquiry focus to Marta" },
+        { "action": "click", "role": "button", "name": "Confirm focus on Marta" }
+      ],
+      "expectedText": ["Inquiry focus set to Marta. Her relation remains witness."]
+    },
+    {
+      "screenId": "investigation-log",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Open wax fragment clue" },
+        { "action": "click", "role": "button", "name": "Mark wax fragment for comparison" },
+        { "action": "click", "role": "button", "name": "Confirm comparison mark for wax fragment" }
+      ],
+      "expectedText": ["Wax fragment is marked for comparison. Source remains vestry floor; confidence remains uncertain."]
+    },
+    {
+      "screenId": "dialogue-exchange",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Choose careful question about the bell time" },
+        { "action": "click", "role": "button", "name": "Record careful question to Marta" },
+        { "action": "click", "role": "button", "name": "Confirm and record careful question" }
+      ],
+      "expectedText": ["Recorded: a careful question about the bell time. Marta's source remains unaltered."]
+    }
+  ]
+}

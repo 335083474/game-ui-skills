@@ -1,0 +1,42 @@
+{
+  "slug": "dead-space",
+  "packageName": "dead-space-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "rig-inventory",
+      "title": "RIG Inventory",
+      "description": "Suit status, installed modules, and one pending utility replacement form a compact equipment surface."
+    },
+    {
+      "id": "store-kiosk",
+      "title": "Store Kiosk",
+      "description": "A balance-first purchase flow previews cost and remaining credit before a confirmed transaction."
+    },
+    {
+      "id": "locator",
+      "title": "Locator",
+      "description": "One target, bearing vector, landmark, and demo range create a spatial wayfinding primitive."
+    }
+  ],
+  "referenceImage": "references/images/style-board.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Equipment, module names, resource meters, prices, credits, bearings, ranges, and effects are synthetic.",
+    "The generated art plate is original context art and separate from EA's product references.",
+    "The official page supports the 2023 remake scope and depicts holo-display scenes but does not validate exact layouts or values.",
+    "The specimens create a Web diegetic illusion with DOM/CSS only; they are not an engine-level 3D projection or runtime export."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

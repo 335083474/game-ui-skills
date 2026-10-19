@@ -1,0 +1,44 @@
+{
+  "items": {
+    "groups": [
+      {
+        "id": "offerings",
+        "items": [
+          {
+            "id": "healing-herb",
+            "count": 3
+          },
+          {
+            "id": "sun-token",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  "techniques": [
+    {
+      "id": "reed-sweep",
+      "cost": 2,
+      "equipped": true
+    },
+    {
+      "id": "stone-ring",
+      "cost": 3,
+      "equipped": false
+    }
+  ],
+  "journal": {
+    "entries": [
+      {
+        "id": "old-pine",
+        "discovered": true
+      },
+      {
+        "id": "bell-shrine",
+        "discovered": false
+      }
+    ]
+  }
+}
+

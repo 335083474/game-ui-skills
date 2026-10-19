@@ -1,0 +1,903 @@
+{
+  "width": 1024,
+  "height": 576,
+  "commands": [
+    {
+      "type": "image",
+      "src": "components/background.png",
+      "x": 0,
+      "y": 0,
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "type": "panel",
+      "x": 13,
+      "y": -5,
+      "w": 240,
+      "h": 590,
+      "fill": "#29363a",
+      "border": "#ff4c40",
+      "radius": 0
+    },
+    {
+      "type": "panel",
+      "x": 18,
+      "y": 38,
+      "w": 230,
+      "h": 154,
+      "fill": "#2b383d",
+      "border": "#ff4c40",
+      "radius": 11
+    },
+    {
+      "type": "image",
+      "src": "components/shop-marquee.png",
+      "x": 33,
+      "y": 50,
+      "w": 200,
+      "h": 100
+    },
+    {
+      "type": "text",
+      "text": "Improve your run!",
+      "x": 42,
+      "y": 162,
+      "size": 26,
+      "color": "#f7c253",
+      "width": 182,
+      "height": 23
+    },
+    {
+      "type": "panel",
+      "x": 18,
+      "y": 207,
+      "w": 230,
+      "h": 41,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 88,
+      "y": 210,
+      "w": 155,
+      "h": 34,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Round",
+      "x": 32,
+      "y": 213,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 40,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "score",
+      "x": 32,
+      "y": 229,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 40,
+      "height": 10
+    },
+    {
+      "type": "image",
+      "src": "components/score-chip.png",
+      "x": 143,
+      "y": 215,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "x": 172,
+      "y": 215,
+      "size": 32,
+      "color": "#f5f4df",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "panel",
+      "x": 18,
+      "y": 254,
+      "w": 230,
+      "h": 116,
+      "fill": "#172426",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 25,
+      "y": 312,
+      "w": 94,
+      "h": 47,
+      "fill": "#009fdd",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 147,
+      "y": 312,
+      "w": 94,
+      "h": 47,
+      "fill": "#ff4c40",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "x": 91,
+      "y": 319,
+      "size": 48,
+      "color": "#f5f4df",
+      "width": 18,
+      "height": 33
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "x": 155,
+      "y": 319,
+      "size": 48,
+      "color": "#f5f4df",
+      "width": 18,
+      "height": 33
+    },
+    {
+      "type": "text",
+      "text": "×",
+      "x": 124,
+      "y": 327,
+      "size": 48,
+      "color": "#ff4c40",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "panel",
+      "x": 26,
+      "y": 384,
+      "w": 70,
+      "h": 81,
+      "fill": "#ff4c40",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Details",
+      "x": 38,
+      "y": 418,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 47,
+      "height": 14
+    },
+    {
+      "type": "panel",
+      "x": 26,
+      "y": 475,
+      "w": 70,
+      "h": 80,
+      "fill": "#efa500",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Edit",
+      "x": 48,
+      "y": 508,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 27,
+      "height": 14
+    },
+    {
+      "type": "panel",
+      "x": 107,
+      "y": 380,
+      "w": 68,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 181,
+      "y": 380,
+      "w": 67,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 107,
+      "y": 444,
+      "w": 141,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 107,
+      "y": 507,
+      "w": 68,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 181,
+      "y": 507,
+      "w": 67,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 112,
+      "y": 399,
+      "w": 57,
+      "h": 30,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 186,
+      "y": 399,
+      "w": 57,
+      "h": 30,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 112,
+      "y": 448,
+      "w": 130,
+      "h": 44,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 112,
+      "y": 528,
+      "w": 57,
+      "h": 29,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 186,
+      "y": 528,
+      "w": 57,
+      "h": 29,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Hands",
+      "x": 122,
+      "y": 384,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 38,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "Discards",
+      "x": 186,
+      "y": 384,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 57,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "Ante",
+      "x": 126,
+      "y": 510,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 31,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "Round",
+      "x": 196,
+      "y": 510,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 39,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "4",
+      "x": 135,
+      "y": 404,
+      "size": 32,
+      "color": "#009fdd",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "text",
+      "text": "3",
+      "x": 209,
+      "y": 404,
+      "size": 32,
+      "color": "#ff4c40",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "text",
+      "text": "$9",
+      "x": 158,
+      "y": 455,
+      "size": 48,
+      "color": "#f7c253",
+      "width": 39,
+      "height": 36
+    },
+    {
+      "type": "text",
+      "text": "3",
+      "x": 125,
+      "y": 530,
+      "size": 32,
+      "color": "#efa500",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "text",
+      "text": "/8",
+      "x": 151,
+      "y": 537,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 15,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "x": 209,
+      "y": 530,
+      "size": 32,
+      "color": "#efa500",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "panel",
+      "x": 275,
+      "y": 20,
+      "w": 731,
+      "h": 540,
+      "fill": "#172426",
+      "border": "#ff4c40",
+      "radius": 12
+    },
+    {
+      "type": "text",
+      "text": "Owned cards",
+      "x": 300,
+      "y": 39,
+      "size": 32,
+      "color": "#f7c253",
+      "width": 152,
+      "height": 22
+    },
+    {
+      "type": "panel",
+      "x": 812,
+      "y": 36,
+      "w": 175,
+      "h": 42,
+      "fill": "#ff4c40",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Back to shop",
+      "x": 853,
+      "y": 48,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 94,
+      "height": 18
+    },
+    {
+      "type": "text",
+      "text": "5 entries",
+      "x": 300,
+      "y": 80,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 66,
+      "height": 14
+    },
+    {
+      "type": "image",
+      "src": "components/joker_orange.png",
+      "x": 300,
+      "y": 119,
+      "w": 80,
+      "h": 112
+    },
+    {
+      "type": "outline",
+      "x": 295,
+      "y": 114,
+      "w": 90,
+      "h": 122,
+      "color": "#f7c253",
+      "width": 3
+    },
+    {
+      "type": "text",
+      "text": "x1",
+      "x": 332,
+      "y": 239,
+      "size": 19,
+      "color": "#f7c253",
+      "width": 17,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Orange Joker",
+      "x": 300,
+      "y": 262,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 81,
+      "height": 14
+    },
+    {
+      "type": "image",
+      "src": "components/joker_red.png",
+      "x": 413,
+      "y": 119,
+      "w": 80,
+      "h": 112
+    },
+    {
+      "type": "text",
+      "text": "x1",
+      "x": 445,
+      "y": 239,
+      "size": 19,
+      "color": "#f7c253",
+      "width": 17,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Red Joker",
+      "x": 413,
+      "y": 262,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 60,
+      "height": 11
+    },
+    {
+      "type": "image",
+      "src": "components/joker_purple.png",
+      "x": 526,
+      "y": 119,
+      "w": 80,
+      "h": 112
+    },
+    {
+      "type": "text",
+      "text": "x1",
+      "x": 558,
+      "y": 239,
+      "size": 19,
+      "color": "#f7c253",
+      "width": 17,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Purple Joker",
+      "x": 526,
+      "y": 262,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 77,
+      "height": 14
+    },
+    {
+      "type": "image",
+      "src": "components/joker_teal.png",
+      "x": 639,
+      "y": 119,
+      "w": 80,
+      "h": 112
+    },
+    {
+      "type": "text",
+      "text": "x1",
+      "x": 671,
+      "y": 239,
+      "size": 19,
+      "color": "#f7c253",
+      "width": 17,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Teal Joker",
+      "x": 639,
+      "y": 262,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 63,
+      "height": 11
+    },
+    {
+      "type": "image",
+      "src": "components/wheel_fortune.png",
+      "x": 300,
+      "y": 309,
+      "w": 80,
+      "h": 112
+    },
+    {
+      "type": "text",
+      "text": "x1",
+      "x": 332,
+      "y": 429,
+      "size": 19,
+      "color": "#f7c253",
+      "width": 17,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Wheel of",
+      "x": 300,
+      "y": 452,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 51,
+      "height": 11
+    },
+    {
+      "type": "text",
+      "text": "Fortune",
+      "x": 300,
+      "y": 469,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 48,
+      "height": 11
+    },
+    {
+      "type": "panel",
+      "x": 300,
+      "y": 511,
+      "w": 145,
+      "h": 32,
+      "fill": "#425e66",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Previous",
+      "x": 343,
+      "y": 520,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 60,
+      "height": 14
+    },
+    {
+      "type": "panel",
+      "x": 586,
+      "y": 511,
+      "w": 145,
+      "h": 32,
+      "fill": "#425e66",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Next",
+      "x": 642,
+      "y": 520,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 33,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "1/1",
+      "x": 504,
+      "y": 519,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 24,
+      "height": 14
+    },
+    {
+      "type": "panel",
+      "x": 770,
+      "y": 105,
+      "w": 215,
+      "h": 345,
+      "fill": "#172426",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Orange Joker",
+      "x": 778,
+      "y": 114,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 81,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Independent",
+      "x": 778,
+      "y": 133,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 76,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "reference-informed example:",
+      "x": 778,
+      "y": 152,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 179,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Orange Joker. Edit this",
+      "x": 778,
+      "y": 171,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 142,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "complete description in the",
+      "x": 778,
+      "y": 190,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 168,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "JSON editor. Game rules and",
+      "x": 778,
+      "y": 209,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 170,
+      "height": 11
+    },
+    {
+      "type": "text",
+      "text": "card artwork are approximate.",
+      "x": 778,
+      "y": 228,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 193,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "1/1",
+      "x": 868,
+      "y": 418,
+      "size": 16,
+      "color": "#f7c253",
+      "width": 20,
+      "height": 11
+    },
+    {
+      "type": "panel",
+      "x": 770,
+      "y": 461,
+      "w": 215,
+      "h": 38,
+      "fill": "#2ebc87",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Full text",
+      "x": 846,
+      "y": 473,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 63,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Orange Joker",
+      "x": 28,
+      "y": 264,
+      "size": 16,
+      "color": "#f7c253",
+      "width": 81,
+      "height": 14
+    }
+  ],
+  "hits": [
+    {
+      "id": "details",
+      "x": 26,
+      "y": 384,
+      "w": 70,
+      "h": 81,
+      "label": "Details",
+      "enabled": true
+    },
+    {
+      "id": "editor",
+      "x": 26,
+      "y": 475,
+      "w": 70,
+      "h": 80,
+      "label": "Edit",
+      "enabled": true
+    },
+    {
+      "id": "shop",
+      "x": 812,
+      "y": 36,
+      "w": 175,
+      "h": 42,
+      "label": "Back to shop",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:0",
+      "x": 300,
+      "y": 119,
+      "w": 80,
+      "h": 112,
+      "label": "Orange Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:1",
+      "x": 413,
+      "y": 119,
+      "w": 80,
+      "h": 112,
+      "label": "Red Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:2",
+      "x": 526,
+      "y": 119,
+      "w": 80,
+      "h": 112,
+      "label": "Purple Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:3",
+      "x": 639,
+      "y": 119,
+      "w": 80,
+      "h": 112,
+      "label": "Teal Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:4",
+      "x": 300,
+      "y": 309,
+      "w": 80,
+      "h": 112,
+      "label": "Wheel of Fortune",
+      "enabled": true
+    },
+    {
+      "id": "prev",
+      "x": 300,
+      "y": 511,
+      "w": 145,
+      "h": 32,
+      "label": "Previous",
+      "enabled": false
+    },
+    {
+      "id": "next",
+      "x": 586,
+      "y": 511,
+      "w": 145,
+      "h": 32,
+      "label": "Next",
+      "enabled": false
+    },
+    {
+      "id": "detail-next",
+      "x": 770,
+      "y": 105,
+      "w": 215,
+      "h": 345,
+      "label": "Next description page",
+      "enabled": false
+    },
+    {
+      "id": "details",
+      "x": 770,
+      "y": 461,
+      "w": 215,
+      "h": 38,
+      "label": "Full text",
+      "enabled": true
+    }
+  ],
+  "notes": [
+    "descriptionPages:1"
+  ],
+  "descriptionPages": 1
+}

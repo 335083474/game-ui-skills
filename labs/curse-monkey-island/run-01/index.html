@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5e4bc">
+  <title>Morrow Cove — pirate-cartoon UI usage test</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#inventory-tray" aria-label="Morrow Cove home"><span class="compass-mark" aria-hidden="true">✣</span><span><strong>Morrow Cove</strong><small>THE GULLSCREAM GAZETTE · FICTIONAL SAMPLE</small></span></a>
+    <nav class="route-nav" aria-label="Game screens">
+      <a href="#inventory-tray" data-route="inventory-tray">Inventory tray</a>
+      <a href="#item-interaction" data-route="item-interaction">Item interaction</a>
+      <a href="#dialogue-scene" data-route="dialogue-scene">Dialogue scene</a>
+    </nav>
+    <span class="reset-note">Reload resets the sample</span>
+  </header>
+  <main id="screen" tabindex="-1"></main>
+
+  <template data-screen="inventory-tray">
+    <section class="screen inventory-screen" aria-labelledby="screen-title">
+      <header class="screen-heading">
+        <p class="eyebrow">01 · A FEW THINGS FROM THE BOAT</p>
+        <h1 id="screen-title">Inventory tray</h1>
+        <p>Inspect a prop, select two, and preview the recipe before anything leaves your bag.</p>
+      </header>
+      <div class="inventory-layout">
+        <figure class="painted-scene inventory-art">
+          <img src="./assets/curse-monkey-island-art.png" alt="An original cartoon cartographer peers through a brass telescope at a crooked harbor, green parrot, tide map, and red crab">
+          <figcaption><strong>MORROW COVE</strong><span>Low tide · the chart room is open</span></figcaption>
+          <span class="scene-marker" aria-hidden="true">✦</span>
+        </figure>
+        <section class="tray-panel" aria-label="Pocket inventory and combine recipe">
+          <div class="tray-heading"><div><p class="eyebrow">POCKET INVENTORY</p><h2>What you carried ashore</h2></div><span class="item-count" data-total-items>3 ITEMS</span></div>
+          <div class="item-tray" role="group" aria-label="Select items to inspect or combine">
+            <button class="item-token" type="button" data-action="toggle-item" data-id="brass-compass" aria-label="Select Brass compass to inspect or combine" aria-pressed="false">
+              <span class="prop-icon compass-icon" aria-hidden="true">✣</span><span class="token-copy"><strong>Brass compass</strong><small>Needle still points east</small><em>IN BAG · <b data-count-for="brass-compass">1</b></em></span><span class="token-mark" aria-hidden="true">○</span>
+            </button>
+            <button class="item-token" type="button" data-action="toggle-item" data-id="waxed-chart" aria-label="Select Waxed chart to inspect or combine" aria-pressed="false">
+              <span class="prop-icon chart-icon" aria-hidden="true">⌖</span><span class="token-copy"><strong>Waxed chart</strong><small>Creased at the east shoal</small><em>IN BAG · <b data-count-for="waxed-chart">1</b></em></span><span class="token-mark" aria-hidden="true">○</span>
+            </button>
+            <button class="item-token" type="button" data-action="toggle-item" data-id="chalk-nub" aria-label="Select Chalk nub to inspect or combine" aria-pressed="false">
+              <span class="prop-icon chalk-icon" aria-hidden="true">▰</span><span class="token-copy"><strong>Chalk nub</strong><small>Short enough for a pocket</small><em>IN BAG · <b data-count-for="chalk-nub">1</b></em></span><span class="token-mark" aria-hidden="true">○</span>
+            </button>
+            <div class="item-token found-token" aria-label="Reef-marked chart, currently not made">
+              <span class="prop-icon marked-icon" aria-hidden="true">✧</span><span class="token-copy"><strong>Reef-marked chart</strong><small>Made from wax and charcoal</small><em>READY · <b data-count-for="reef-marked-chart">0</b></em></span><span class="token-mark" aria-hidden="true">✦</span>
+            </div>
+          </div>
+          <div class="inspect-note"><p class="eyebrow">INSPECTION</p><strong data-inspect-name>No item selected</strong><p data-inspect-detail>Choose a token to inspect its condition and quantity.</p></div>
+          <div class="combine-note">
+            <div><p class="eyebrow">TWO-ITEM RECIPE</p><strong>Waxed chart + Chalk nub</strong><p>Creates one Reef-marked chart. Both ingredients are spent only after confirmation.</p></div>
+            <button class="paper-button" type="button" data-action="preview-combination" aria-label="Preview selected combination" disabled>Preview recipe</button>
+          </div>
+          <p class="review-line" data-review>Nothing is committed. Select both ingredients to preview.</p>
+          <div class="tray-actions"><button class="ink-button" type="button" data-action="confirm-combination" aria-label="Combine Waxed chart and Chalk nub" disabled>Combine the two items</button><button class="quiet-button" type="button" data-action="cancel-selection" aria-label="Cancel selection">Cancel selection</button></div>
+          <p class="status-note" data-status role="status" aria-live="polite" tabindex="-1">Selection and inspection are reversible. Combining is a separate, guarded action.</p>
+        </section>
+      </div>
+      <footer class="screen-foot"><span>Original generated art · fictional inventory state</span><span>Use the item tokens with Enter or Space.</span></footer>
+    </section>
+  </template>
+
+  <template data-screen="item-interaction">
+    <section class="screen interaction-screen" aria-labelledby="screen-title">
+      <header class="screen-heading heading-with-stamp">
+        <div><p class="eyebrow">02 · TRY A PROP ON A SCENE OBJECT</p><h1 id="screen-title">Item interaction</h1><p>Choose a held item and target. The preview names its cost and rejects a poor fit without spending anything.</p></div>
+        <span class="wood-stamp" aria-hidden="true">TRY<br>BEFORE<br>YOU USE</span>
+      </header>
+      <div class="interaction-layout">
+        <figure class="painted-scene interaction-art">
+          <img src="./assets/curse-monkey-island-art.png" alt="A hand-painted harbor worktable holds an unfolded tide map, brass compass, and a cautious green parrot">
+          <figcaption><strong>THE CHART ROOM</strong><span>Mark the reef before the tide turns</span></figcaption>
+        </figure>
+        <section class="context-board" aria-label="Contextual item use">
+          <div class="context-top"><p class="eyebrow">ACTIVE PROP</p><h2>Choose what to use</h2></div>
+          <button class="source-token" type="button" data-action="select-use-item" data-id="chalk-nub" aria-label="Select Chalk nub as the active item" aria-pressed="false"><span class="source-glyph" aria-hidden="true">▰</span><span><strong>Chalk nub</strong><small>Write one reef note · held: <b data-chalk-count>1</b></small></span><span class="select-mark" aria-hidden="true">○</span></button>
+          <p class="control-label">TARGET IN THE SCENE</p>
+          <div class="target-list" role="group" aria-label="Choose a target">
+            <button class="target-token is-selected" type="button" data-action="select-target" data-id="waxed-chart" aria-label="Choose Waxed chart as the target" aria-pressed="true"><span aria-hidden="true">⌖</span><span><strong>Waxed chart</strong><small>Paper and wax · writable</small></span><b class="target-check">✓</b></button>
+            <button class="target-token" type="button" data-action="select-target" data-id="brass-compass" aria-label="Choose Brass compass as the target" aria-pressed="false"><span aria-hidden="true">✣</span><span><strong>Brass compass</strong><small>Metal case · not writable</small></span><b class="target-check">✓</b></button>
+          </div>
+          <div class="cost-plate"><span class="cost-stamp">COST</span><p><strong>1 Chalk nub</strong><br>Only for a valid mark on the Waxed chart.</p></div>
+          <div class="interaction-actions"><button class="paper-button" type="button" data-action="preview-use" aria-label="Preview chalk on the selected target">Preview item use</button><button class="ink-button" type="button" data-action="confirm-use" aria-label="Confirm use: Chalk nub on Waxed chart" disabled>Confirm item use</button></div>
+          <p class="review-line" data-review>Preview first. Your Chalk nub stays in the bag until a valid use is confirmed.</p>
+          <p class="status-note" data-status role="status" aria-live="polite" tabindex="-1">Select an item and scene target to see the contextual action.</p>
+        </section>
+      </div>
+      <footer class="screen-foot"><span>Target descriptions are fictional sample state.</span><span>A rejected target never consumes the active item.</span></footer>
+    </section>
+  </template>
+
+  <template data-screen="dialogue-scene">
+    <section class="screen dialogue-screen" aria-labelledby="screen-title">
+      <header class="screen-heading dialogue-heading">
+        <p class="eyebrow">03 · A QUESTION BEFORE THE TIDE TURNS</p>
+        <h1 id="screen-title">Dialogue scene</h1>
+      </header>
+      <div class="dialogue-layout">
+        <div class="dialogue-stage">
+          <figure class="painted-scene dialogue-art">
+            <img src="./assets/curse-monkey-island-art.png" alt="Captain Vela, an original cartoon cartographer, peers through a spyglass above her tide chart while a bright parrot watches">
+            <figcaption><strong>CAPTAIN VELA</strong><span>Cartographer · presently suspicious of the tide</span></figcaption>
+          </figure>
+          <blockquote class="speech-panel"><span class="speech-tail" aria-hidden="true"></span><p class="speaker-label">CAPTAIN VELA SAYS</p><p class="spoken-line">“The tide has other plans. I left one mark for a careful eye.”</p><span class="expression-cue">One eyebrow climbs. The spyglass stays pointed east.</span></blockquote>
+        </div>
+        <section class="response-board" aria-label="Dialogue responses">
+          <div class="response-heading"><span class="quill-mark" aria-hidden="true">✎</span><div><p class="eyebrow">YOUR REPLY</p><h2>Choose your words</h2></div></div>
+          <div class="response-list" role="group" aria-label="Preview a dialogue response">
+            <button class="response-choice is-selected" type="button" data-action="select-response" data-id="ask-reef" aria-label="Preview ask about the hidden reef" aria-pressed="true"><span class="response-number">01</span><span><strong>Ask about the hidden reef</strong><small>“What did you mark east of the shoal?”</small></span><span class="response-selected">SELECTED</span></button>
+            <button class="response-choice" type="button" data-action="select-response" data-id="ask-tide" aria-label="Preview ask about the tide mark" aria-pressed="false"><span class="response-number">02</span><span><strong>Ask about the tide mark</strong><small>“When does the water uncover it?”</small></span><span class="response-selected">SELECTED</span></button>
+            <button class="response-choice" type="button" data-action="select-response" data-id="change-subject" aria-label="Preview change the subject" aria-pressed="false"><span class="response-number">03</span><span><strong>Change the subject</strong><small>“That parrot has an excellent hat.”</small></span><span class="response-selected">SELECTED</span></button>
+          </div>
+          <div class="response-preview"><p class="eyebrow">LINE PREVIEW</p><p data-response-preview>“What did you mark east of the shoal?”</p></div>
+          <button class="ink-button speak-button" type="button" data-action="speak-response" aria-label="Speak the selected response">Speak the selected response</button>
+          <button class="quiet-button replay-button" type="button" data-action="reset-dialogue" aria-label="Reset dialogue preview">Reset dialogue preview</button>
+          <p class="status-note" data-status role="status" aria-live="polite" tabindex="-1">Your selected line is only a preview until you speak it.</p>
+        </section>
+      </div>
+      <footer class="screen-foot"><span>Original fictional character and dialogue sample.</span><span>Scene text remains outside the art for easy reading.</span></footer>
+    </section>
+  </template>
+</body>
+</html>

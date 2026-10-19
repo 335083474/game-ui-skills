@@ -1,0 +1,48 @@
+/* Clear-line desert experiment. Local fonts; no image dependencies. */
+:root {
+  color-scheme: light;
+  --sand:#f1e6c9; --paper:#f7f0df; --ink:#29322f; --muted:#71766a;
+  --rust:#ba5b42; --sky:#8eb4b3; --sun:#e7b459; --dune:#d9bf8c;
+  --line:#8d8c7c; --title:"Trebuchet MS",Arial,sans-serif; --body:Arial,Helvetica,sans-serif; --mono:"Courier New",monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);background:#eee2c1;font-family:var(--body)}
+.page{width:min(1200px,calc(100% - 48px));margin:auto;padding:28px 0 48px}
+.masthead{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:26px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:18px}
+.eyebrow,.specimen-kicker,.caption,.micro{font:10px/1.25 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.eyebrow{color:#a74f3c}
+h1{margin:7px 0 5px;font:600 clamp(30px,4vw,46px)/1 var(--title);letter-spacing:-.04em}
+.lede{max-width:660px;margin:0;color:#676a60;font-size:14px;line-height:1.5}
+.mast-note{border-left:1px solid #a95441;padding-left:13px;color:#74786e;font:11px/1.5 var(--mono)}
+.art-strip{margin:20px 0 25px;border-block:1px solid #9c9988;background:#ead8af}
+.art-strip img{display:block;width:100%;height:clamp(95px,13vw,150px);object-fit:cover}
+.art-strip figcaption{padding:6px 9px;color:#6e7064;font:9px var(--mono);letter-spacing:.1em}
+.gallery{display:grid;grid-template-columns:1.12fr 1fr 1.25fr;gap:24px;align-items:start}
+.specimen{min-width:0;padding-bottom:12px;border-top:1px solid #555b53}
+.specimen-head{min-height:62px;padding:11px 0 8px;border-bottom:1px solid #b4ad98}
+.specimen-kicker{color:#a74f3c}
+h2{margin:6px 0 0;font:600 19px/1.1 var(--title);letter-spacing:-.02em}
+.specimen-note{min-height:37px;margin:9px 0 13px;color:#696d62;font-size:12px;line-height:1.45}
+.mask-rack{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;align-items:end;padding:10px 0 8px;border-bottom:1px solid #b9ad91}
+.mask-item{text-align:center}
+.mask-art{height:82px;display:grid;place-items:center}
+.mask-art svg{width:100%;max-width:66px;height:76px}
+.mask-name{display:block;margin-top:5px;font:700 9px/1.2 var(--mono);letter-spacing:.06em}
+.mask-state{display:block;margin-top:4px;color:#797c70;font:8px var(--mono)}
+.mask-item.active .mask-name{color:#aa4e3c}
+.journal{display:grid;grid-template-columns:60px minmax(0,1fr);gap:13px;padding:13px 0 10px;border-bottom:1px solid #b9ad91}
+.journal-index{border-right:1px solid #aaa38f;color:#72756a;font:9px/1.8 var(--mono)}
+.journal-index strong{display:block;color:#a84e3c;font-size:15px}
+.journal-title{margin:0 0 7px;font:600 16px/1.2 var(--title)}
+.journal-copy{margin:0;color:#5f645b;font-size:12px;line-height:1.5}
+.route{display:grid;grid-template-columns:12px 1fr;gap:7px;margin-top:11px;color:#a64c3d;font:9px/1.2 var(--mono)}
+.route i{width:8px;height:8px;border:1px solid currentColor;border-radius:50%}
+.journal-foot{display:flex;justify-content:space-between;margin-top:9px;color:#62685f;font:8px var(--mono);text-transform:uppercase}
+.map-window{position:relative;overflow:hidden;border-block:1px solid #66706a;background:#d8ccb0}
+.map-window svg{display:block;width:100%;height:210px}
+.map-label{position:absolute;left:9px;top:8px;padding:4px 6px;color:#3e4d49;background:#f1e7d0;font:9px var(--mono);letter-spacing:.08em}
+.map-coord{position:absolute;right:8px;bottom:7px;color:#44514b;font:8px var(--mono)}
+.map-legend{display:flex;justify-content:space-between;gap:8px;margin-top:8px;color:#62685f;font:8px var(--mono);text-transform:uppercase}
+.fineprint{margin-top:18px;color:#74766c;font:9px/1.5 var(--mono)}
+@media(max-width:850px){.gallery{grid-template-columns:1fr 1fr}.specimen:last-child{grid-column:1/-1}}
+@media(max-width:590px){.page{width:calc(100% - 26px);padding-top:18px}.masthead{grid-template-columns:1fr;gap:12px}.mast-note{max-width:340px}.gallery{grid-template-columns:1fr;gap:20px}.specimen:last-child{grid-column:auto}.art-strip img{height:112px}}

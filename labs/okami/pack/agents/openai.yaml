@@ -1,0 +1,5 @@
+interface:
+  display_name: "Japanese ink-scroll action UI"
+  short_description: "Original okami game UI direction"
+  default_prompt: "Use $okami-ui to build an original game interface in this visual direction."
+

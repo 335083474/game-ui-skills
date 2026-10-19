@@ -1,0 +1,38 @@
+{
+  "inventory": [
+    "bow",
+    "boomerang",
+    "hookshot",
+    "bomb",
+    "mushroom",
+    "fire_rod",
+    "ice_rod",
+    "medallion_lightning",
+    "medallion_flame",
+    "medallion_quake",
+    "lantern",
+    "hammer_gold",
+    "flute_observed",
+    "bug_net",
+    "book_green",
+    "bottle_red",
+    "cane_red",
+    "cane_blue",
+    "cape_red",
+    "mirror"
+  ],
+  "selected": "flute_observed",
+  "action_equipment": [
+    "boots_gold",
+    "glove_gold",
+    "flippers_blue",
+    "pearl_red"
+  ],
+  "equipment": [
+    "sword_metal",
+    "shield_gold",
+    "armor_red"
+  ],
+  "crystal": "crystal_faceted",
+  "heart": "heart_red"
+}

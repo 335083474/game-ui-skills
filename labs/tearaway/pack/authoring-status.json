@@ -1,0 +1,40 @@
+{
+  "slug": "tearaway",
+  "packageName": "tearaway-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "collection-scrapbook",
+      "title": "Collection Scrapbook",
+      "description": "Cutouts sit in a paper pocket with separate available, locked, selected, and pinned states."
+    },
+    {
+      "id": "paper-outfit",
+      "title": "Paper Outfit",
+      "description": "A visible folded figure pairs with a small reversible clothing preview and a clear action to fold the piece onto it."
+    },
+    {
+      "id": "folded-world-map",
+      "title": "Folded World Map",
+      "description": "An accordion route presents labeled stops and progress states; selecting previews a stop before an explicit unfold action."
+    }
+  ],
+  "referenceImage": "references/images/reference-plate.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated original art is a paper-construction cue, not canonical Tearaway artwork or UI.",
+    "No engine export, official font, online companion service, or search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

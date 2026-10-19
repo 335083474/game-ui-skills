@@ -1,0 +1,5 @@
+interface:
+  display_name: "Toybox collage and cosmic pop UI"
+  short_description: "Original katamari-inspired game UI direction"
+  default_prompt: "Use $katamari-ui to create an original game UI surface in this visual direction."
+

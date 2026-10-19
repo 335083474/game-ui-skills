@@ -1,0 +1,4 @@
+interface:
+  display_name: "Danganronpa Trial UI"
+  short_description: "Build original black-white-pink evidence and debate interfaces"
+  default_prompt: "Use the danganronpa-ui reference package for original student handbook, evidence, and trial debate screens."

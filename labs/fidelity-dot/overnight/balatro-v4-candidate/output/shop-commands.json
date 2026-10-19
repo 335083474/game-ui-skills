@@ -1,0 +1,1036 @@
+{
+  "width": 1024,
+  "height": 576,
+  "commands": [
+    {
+      "type": "image",
+      "src": "components/background.png",
+      "x": 0,
+      "y": 0,
+      "w": 1024,
+      "h": 576
+    },
+    {
+      "type": "panel",
+      "x": 13,
+      "y": -5,
+      "w": 240,
+      "h": 590,
+      "fill": "#29363a",
+      "border": "#ff4c40",
+      "radius": 0
+    },
+    {
+      "type": "panel",
+      "x": 18,
+      "y": 38,
+      "w": 230,
+      "h": 154,
+      "fill": "#2b383d",
+      "border": "#ff4c40",
+      "radius": 11
+    },
+    {
+      "type": "image",
+      "src": "components/shop-marquee.png",
+      "x": 33,
+      "y": 50,
+      "w": 200,
+      "h": 100
+    },
+    {
+      "type": "text",
+      "text": "Improve your run!",
+      "x": 42,
+      "y": 162,
+      "size": 26,
+      "color": "#f7c253",
+      "width": 182,
+      "height": 23
+    },
+    {
+      "type": "panel",
+      "x": 18,
+      "y": 207,
+      "w": 230,
+      "h": 41,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 88,
+      "y": 210,
+      "w": 155,
+      "h": 34,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Round",
+      "x": 32,
+      "y": 213,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 40,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "score",
+      "x": 32,
+      "y": 229,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 40,
+      "height": 10
+    },
+    {
+      "type": "image",
+      "src": "components/score-chip.png",
+      "x": 143,
+      "y": 215,
+      "w": 24,
+      "h": 24
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "x": 172,
+      "y": 215,
+      "size": 32,
+      "color": "#f5f4df",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "panel",
+      "x": 18,
+      "y": 254,
+      "w": 230,
+      "h": 116,
+      "fill": "#172426",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 25,
+      "y": 312,
+      "w": 94,
+      "h": 47,
+      "fill": "#009fdd",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 147,
+      "y": 312,
+      "w": 94,
+      "h": 47,
+      "fill": "#ff4c40",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "x": 91,
+      "y": 319,
+      "size": 48,
+      "color": "#f5f4df",
+      "width": 18,
+      "height": 33
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "x": 155,
+      "y": 319,
+      "size": 48,
+      "color": "#f5f4df",
+      "width": 18,
+      "height": 33
+    },
+    {
+      "type": "text",
+      "text": "×",
+      "x": 124,
+      "y": 327,
+      "size": 48,
+      "color": "#ff4c40",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "panel",
+      "x": 26,
+      "y": 384,
+      "w": 70,
+      "h": 81,
+      "fill": "#ff4c40",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Details",
+      "x": 38,
+      "y": 418,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 47,
+      "height": 14
+    },
+    {
+      "type": "panel",
+      "x": 26,
+      "y": 475,
+      "w": 70,
+      "h": 80,
+      "fill": "#efa500",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Edit",
+      "x": 48,
+      "y": 508,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 27,
+      "height": 14
+    },
+    {
+      "type": "panel",
+      "x": 107,
+      "y": 380,
+      "w": 68,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 181,
+      "y": 380,
+      "w": 67,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 107,
+      "y": 444,
+      "w": 141,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 107,
+      "y": 507,
+      "w": 68,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 181,
+      "y": 507,
+      "w": 67,
+      "h": 53,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 112,
+      "y": 399,
+      "w": 57,
+      "h": 30,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 186,
+      "y": 399,
+      "w": 57,
+      "h": 30,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 112,
+      "y": 448,
+      "w": 130,
+      "h": 44,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 112,
+      "y": 528,
+      "w": 57,
+      "h": 29,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 186,
+      "y": 528,
+      "w": 57,
+      "h": 29,
+      "fill": "#29363a",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Hands",
+      "x": 122,
+      "y": 384,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 38,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "Discards",
+      "x": 186,
+      "y": 384,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 57,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "Ante",
+      "x": 126,
+      "y": 510,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 31,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "Round",
+      "x": 196,
+      "y": 510,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 39,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "4",
+      "x": 135,
+      "y": 404,
+      "size": 32,
+      "color": "#009fdd",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "text",
+      "text": "3",
+      "x": 209,
+      "y": 404,
+      "size": 32,
+      "color": "#ff4c40",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "text",
+      "text": "$9",
+      "x": 158,
+      "y": 455,
+      "size": 48,
+      "color": "#f7c253",
+      "width": 39,
+      "height": 36
+    },
+    {
+      "type": "text",
+      "text": "3",
+      "x": 125,
+      "y": 530,
+      "size": 32,
+      "color": "#efa500",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "text",
+      "text": "/8",
+      "x": 151,
+      "y": 537,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 15,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "1",
+      "x": 209,
+      "y": 530,
+      "size": 32,
+      "color": "#efa500",
+      "width": 12,
+      "height": 22
+    },
+    {
+      "type": "image",
+      "src": "components/joker_orange.png",
+      "x": 266,
+      "y": 18,
+      "w": 88,
+      "h": 120
+    },
+    {
+      "type": "image",
+      "src": "components/joker_red.png",
+      "x": 392,
+      "y": 18,
+      "w": 88,
+      "h": 120
+    },
+    {
+      "type": "image",
+      "src": "components/joker_purple.png",
+      "x": 520,
+      "y": 18,
+      "w": 88,
+      "h": 120
+    },
+    {
+      "type": "image",
+      "src": "components/joker_teal.png",
+      "x": 648,
+      "y": 18,
+      "w": 88,
+      "h": 120
+    },
+    {
+      "type": "image",
+      "src": "components/wheel_fortune.png",
+      "x": 821,
+      "y": 18,
+      "w": 78,
+      "h": 120
+    },
+    {
+      "type": "text",
+      "text": "4/5",
+      "x": 273,
+      "y": 144,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 23,
+      "height": 12
+    },
+    {
+      "type": "text",
+      "text": "1/2",
+      "x": 926,
+      "y": 144,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 23,
+      "height": 12
+    },
+    {
+      "type": "panel",
+      "x": 282,
+      "y": 188,
+      "w": 552,
+      "h": 388,
+      "fill": "#172426",
+      "border": "#ff4c40",
+      "radius": 10
+    },
+    {
+      "type": "panel",
+      "x": 288,
+      "y": 194,
+      "w": 540,
+      "h": 377,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 435,
+      "y": 201,
+      "w": 386,
+      "h": 160,
+      "fill": "#425e66",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 304,
+      "y": 389,
+      "w": 258,
+      "h": 166,
+      "fill": "#425e66",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 311,
+      "y": 396,
+      "w": 244,
+      "h": 152,
+      "fill": "#2b383d",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 570,
+      "y": 389,
+      "w": 244,
+      "h": 166,
+      "fill": "#425e66",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "panel",
+      "x": 299,
+      "y": 205,
+      "w": 131,
+      "h": 69,
+      "fill": "#ff4c40",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Collection",
+      "x": 331,
+      "y": 233,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 68,
+      "height": 14
+    },
+    {
+      "type": "panel",
+      "x": 299,
+      "y": 280,
+      "w": 131,
+      "h": 74,
+      "fill": "#2ebc87",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Reroll $5",
+      "x": 334,
+      "y": 309,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 62,
+      "height": 16
+    },
+    {
+      "type": "image",
+      "src": "components/joker_green.png",
+      "x": 536,
+      "y": 220,
+      "w": 90,
+      "h": 122
+    },
+    {
+      "type": "outline",
+      "x": 531,
+      "y": 215,
+      "w": 100,
+      "h": 132,
+      "color": "#f7c253",
+      "width": 3
+    },
+    {
+      "type": "panel",
+      "x": 553,
+      "y": 188,
+      "w": 54,
+      "h": 30,
+      "fill": "#29363a",
+      "border": "#111d20",
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "$4",
+      "x": 570,
+      "y": 196,
+      "size": 24,
+      "color": "#f7c253",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "type": "image",
+      "src": "components/joker_ballot.png",
+      "x": 640,
+      "y": 220,
+      "w": 90,
+      "h": 122
+    },
+    {
+      "type": "panel",
+      "x": 653,
+      "y": 188,
+      "w": 54,
+      "h": 30,
+      "fill": "#29363a",
+      "border": "#111d20",
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "$4",
+      "x": 670,
+      "y": 196,
+      "size": 24,
+      "color": "#f7c253",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "type": "image",
+      "src": "components/voucher.png",
+      "x": 407,
+      "y": 417,
+      "w": 78,
+      "h": 122
+    },
+    {
+      "type": "panel",
+      "x": 420,
+      "y": 381,
+      "w": 54,
+      "h": 30,
+      "fill": "#29363a",
+      "border": "#111d20",
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "$10",
+      "x": 432,
+      "y": 389,
+      "size": 24,
+      "color": "#f7c253",
+      "width": 30,
+      "height": 18
+    },
+    {
+      "type": "text",
+      "text": "VOUCHER",
+      "x": 422,
+      "y": 430,
+      "size": 16,
+      "color": "#465971",
+      "width": 48,
+      "height": 11
+    },
+    {
+      "type": "image",
+      "src": "components/buffoon_pack.png",
+      "x": 592,
+      "y": 399,
+      "w": 96,
+      "h": 151
+    },
+    {
+      "type": "panel",
+      "x": 611,
+      "y": 369,
+      "w": 54,
+      "h": 30,
+      "fill": "#29363a",
+      "border": "#111d20",
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "$4",
+      "x": 628,
+      "y": 377,
+      "size": 24,
+      "color": "#f7c253",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "type": "image",
+      "src": "components/arcana_pack.png",
+      "x": 702,
+      "y": 399,
+      "w": 96,
+      "h": 151
+    },
+    {
+      "type": "panel",
+      "x": 718,
+      "y": 369,
+      "w": 54,
+      "h": 30,
+      "fill": "#29363a",
+      "border": "#111d20",
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "$4",
+      "x": 735,
+      "y": 377,
+      "size": 24,
+      "color": "#f7c253",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "type": "image",
+      "src": "components/deck.png",
+      "x": 866,
+      "y": 425,
+      "w": 98,
+      "h": 137
+    },
+    {
+      "type": "text",
+      "text": "52/52",
+      "x": 894,
+      "y": 557,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 39,
+      "height": 12
+    },
+    {
+      "type": "panel",
+      "x": 850,
+      "y": 370,
+      "w": 48,
+      "h": 35,
+      "fill": "#425e66",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "<",
+      "x": 871,
+      "y": 383,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 6,
+      "height": 10
+    },
+    {
+      "type": "panel",
+      "x": 916,
+      "y": 370,
+      "w": 48,
+      "h": 35,
+      "fill": "#425e66",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": ">",
+      "x": 937,
+      "y": 383,
+      "size": 19,
+      "color": "#f5f4df",
+      "width": 6,
+      "height": 10
+    },
+    {
+      "type": "text",
+      "text": "1/1",
+      "x": 897,
+      "y": 344,
+      "size": 18,
+      "color": "#f5f4df",
+      "width": 23,
+      "height": 12
+    },
+    {
+      "type": "panel",
+      "x": 850,
+      "y": 188,
+      "w": 150,
+      "h": 145,
+      "fill": "#172426",
+      "border": null,
+      "radius": 8
+    },
+    {
+      "type": "text",
+      "text": "Jolly Joker",
+      "x": 858,
+      "y": 197,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 66,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Independent",
+      "x": 858,
+      "y": 216,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 76,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "reference-informed",
+      "x": 858,
+      "y": 235,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 123,
+      "height": 11
+    },
+    {
+      "type": "text",
+      "text": "example: Jolly Joker.",
+      "x": 858,
+      "y": 254,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 125,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "Edit this complete",
+      "x": 858,
+      "y": 273,
+      "size": 16,
+      "color": "#f5f4df",
+      "width": 111,
+      "height": 14
+    },
+    {
+      "type": "text",
+      "text": "1/2",
+      "x": 915,
+      "y": 301,
+      "size": 16,
+      "color": "#f7c253",
+      "width": 20,
+      "height": 11
+    },
+    {
+      "type": "text",
+      "text": "Jolly Joker",
+      "x": 28,
+      "y": 264,
+      "size": 16,
+      "color": "#f7c253",
+      "width": 66,
+      "height": 14
+    }
+  ],
+  "hits": [
+    {
+      "id": "details",
+      "x": 26,
+      "y": 384,
+      "w": 70,
+      "h": 81,
+      "label": "Details",
+      "enabled": true
+    },
+    {
+      "id": "editor",
+      "x": 26,
+      "y": 475,
+      "w": 70,
+      "h": 80,
+      "label": "Edit",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:0",
+      "x": 266,
+      "y": 18,
+      "w": 88,
+      "h": 120,
+      "label": "Orange Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:1",
+      "x": 392,
+      "y": 18,
+      "w": 88,
+      "h": 120,
+      "label": "Red Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:2",
+      "x": 520,
+      "y": 18,
+      "w": 88,
+      "h": 120,
+      "label": "Purple Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:3",
+      "x": 648,
+      "y": 18,
+      "w": 88,
+      "h": 120,
+      "label": "Teal Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:collection:4",
+      "x": 821,
+      "y": 18,
+      "w": 78,
+      "h": 120,
+      "label": "Wheel of Fortune",
+      "enabled": true
+    },
+    {
+      "id": "collection",
+      "x": 299,
+      "y": 205,
+      "w": 131,
+      "h": 69,
+      "label": "Collection",
+      "enabled": true
+    },
+    {
+      "id": "reroll",
+      "x": 299,
+      "y": 280,
+      "w": 131,
+      "h": 74,
+      "label": "Reroll $5",
+      "enabled": true
+    },
+    {
+      "id": "select:shop:0",
+      "x": 536,
+      "y": 220,
+      "w": 90,
+      "h": 122,
+      "label": "Jolly Joker",
+      "enabled": true
+    },
+    {
+      "id": "select:shop:1",
+      "x": 640,
+      "y": 220,
+      "w": 90,
+      "h": 122,
+      "label": "Hanging Chad",
+      "enabled": true
+    },
+    {
+      "id": "select:shop:2",
+      "x": 407,
+      "y": 417,
+      "w": 78,
+      "h": 122,
+      "label": "Discount Voucher",
+      "enabled": true
+    },
+    {
+      "id": "select:shop:3",
+      "x": 592,
+      "y": 399,
+      "w": 96,
+      "h": 151,
+      "label": "Buffoon Pack",
+      "enabled": true
+    },
+    {
+      "id": "select:shop:4",
+      "x": 702,
+      "y": 399,
+      "w": 96,
+      "h": 151,
+      "label": "Arcana Pack",
+      "enabled": true
+    },
+    {
+      "id": "prev",
+      "x": 850,
+      "y": 370,
+      "w": 48,
+      "h": 35,
+      "label": "<",
+      "enabled": false
+    },
+    {
+      "id": "next",
+      "x": 916,
+      "y": 370,
+      "w": 48,
+      "h": 35,
+      "label": ">",
+      "enabled": false
+    },
+    {
+      "id": "detail-next",
+      "x": 850,
+      "y": 188,
+      "w": 150,
+      "h": 145,
+      "label": "Next description page",
+      "enabled": true
+    }
+  ],
+  "notes": [
+    "descriptionPages:2"
+  ],
+  "descriptionPages": 2
+}

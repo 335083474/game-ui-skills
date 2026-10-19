@@ -1,0 +1,15 @@
+{
+  "slug": "hylics-2",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"party","title":"Party","description":"A scene-led clay lineup previews an irregularly arranged companion before a separate action sets the active member."},
+    {"id":"gesture-battle","title":"Gesture Battle","description":"A bright clay target stays open at center while gesture choices preview a synthetic outcome before one explicit turn commit."},
+    {"id":"curio-bag","title":"Curio Bag","description":"A loose clay spill separates item inspection from use, labels unknown effects as unavailable, and leaves quantity unknown."}
+  ],
+  "smokeTests": [
+    {"screenId":"party","steps":[{"action":"click","role":"button","name":"Preview Orren"},{"action":"click","role":"button","name":"Set active member"}],"expectedText":["Active member set to Orren for this session."]},
+    {"screenId":"gesture-battle","steps":[{"action":"click","role":"button","name":"Preview Pulse gesture"},{"action":"click","role":"button","name":"Commit turn"}],"expectedText":["Turn committed: Palla uses Pulse on Moss Orb (synthetic preview only)."]},
+    {"screenId":"curio-bag","steps":[{"action":"click","role":"button","name":"Inspect Lumen gel"},{"action":"click","role":"button","name":"Use selected curio"}],"expectedText":["Lumen gel use recorded in this local specimen; remaining quantity and in-game outcome are unknown."]}
+  ]
+}

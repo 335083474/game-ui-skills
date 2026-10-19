@@ -1,0 +1,644 @@
+{
+  "canvas": [
+    1024,
+    576
+  ],
+  "missingCardComponents": [],
+  "previewType": "Offline independent-component render, not browser screenshot",
+  "originalPixelsRead": false,
+  "status": "representative-candidate",
+  "fontSource": "fonts/canonical independently frozen per-size masters from creator-sourced m6x11; no runtime scaling/FreeType; exact game version unverified",
+  "textBounds": [
+    {
+      "text": "Round",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        32,
+        213,
+        74,
+        229
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "score",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        32,
+        229,
+        74,
+        241
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "0",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        172,
+        215,
+        186,
+        239
+      ],
+      "fontSize": 32,
+      "frozenMasterSize": 32,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "0",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        91,
+        318,
+        111,
+        353
+      ],
+      "fontSize": 48,
+      "frozenMasterSize": 48,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "0",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        155,
+        318,
+        175,
+        353
+      ],
+      "fontSize": 48,
+      "frozenMasterSize": 48,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "\u00d7",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        123,
+        325,
+        143,
+        345
+      ],
+      "fontSize": 48,
+      "frozenMasterSize": 48,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Run",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        49,
+        407,
+        75,
+        423
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Info",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        45,
+        427,
+        79,
+        443
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Options",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        35,
+        510,
+        89,
+        530
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Hands",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        122,
+        384,
+        162,
+        398
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Discards",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        186,
+        384,
+        245,
+        398
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Ante",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        126,
+        510,
+        159,
+        524
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Round",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        196,
+        510,
+        237,
+        524
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "4",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        135,
+        404,
+        149,
+        428
+      ],
+      "fontSize": 32,
+      "frozenMasterSize": 32,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "3",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        209,
+        404,
+        223,
+        428
+      ],
+      "fontSize": 32,
+      "frozenMasterSize": 32,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "$9",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        159,
+        455,
+        200,
+        493
+      ],
+      "fontSize": 48,
+      "frozenMasterSize": 48,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "3",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        125,
+        530,
+        139,
+        554
+      ],
+      "fontSize": 32,
+      "frozenMasterSize": 32,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "/8",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        151,
+        537,
+        168,
+        553
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "1",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        209,
+        530,
+        223,
+        554
+      ],
+      "fontSize": 32,
+      "frozenMasterSize": 32,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Next",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        348,
+        222,
+        383,
+        238
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Round",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        344,
+        241,
+        386,
+        257
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Reroll",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        345,
+        293,
+        386,
+        309
+      ],
+      "fontSize": 19,
+      "frozenMasterSize": 19,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "$5",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        351,
+        316,
+        379,
+        342
+      ],
+      "fontSize": 32,
+      "frozenMasterSize": 32,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "$4",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        570,
+        193,
+        592,
+        213
+      ],
+      "fontSize": 24,
+      "frozenMasterSize": 24,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "$4",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        670,
+        193,
+        692,
+        213
+      ],
+      "fontSize": 24,
+      "frozenMasterSize": 24,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "$10",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        432,
+        386,
+        464,
+        406
+      ],
+      "fontSize": 24,
+      "frozenMasterSize": 24,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "$4",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        628,
+        374,
+        650,
+        394
+      ],
+      "fontSize": 24,
+      "frozenMasterSize": 24,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "$4",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        735,
+        374,
+        757,
+        394
+      ],
+      "fontSize": 24,
+      "frozenMasterSize": 24,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "4/5",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        273,
+        144,
+        298,
+        158
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "1/2",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        937,
+        144,
+        962,
+        158
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "52/52",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        894,
+        557,
+        935,
+        571
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "ANTE 1 VOUCHER",
+      "surface": [
+        160,
+        18
+      ],
+      "bounds": [
+        0,
+        0,
+        105,
+        12
+      ],
+      "fontSize": 18,
+      "frozenMasterSize": 18,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "Improve your run!",
+      "surface": [
+        1024,
+        576
+      ],
+      "bounds": [
+        42,
+        162,
+        226,
+        187
+      ],
+      "fontSize": 26,
+      "frozenMasterSize": 26,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    },
+    {
+      "text": "VOUCHER",
+      "surface": [
+        78,
+        122
+      ],
+      "bounds": [
+        15,
+        13,
+        63,
+        24
+      ],
+      "fontSize": 16,
+      "frozenMasterSize": 16,
+      "runtimeFreeType": false,
+      "nativeTracking": 0
+    }
+  ],
+  "scoreFit": [
+    {
+      "text": "0",
+      "size": 48,
+      "alignment": "right",
+      "bounds": [
+        91,
+        318,
+        111,
+        353
+      ],
+      "fitBox": [
+        33,
+        318,
+        111,
+        353
+      ]
+    },
+    {
+      "text": "0",
+      "size": 48,
+      "alignment": "left",
+      "bounds": [
+        155,
+        318,
+        175,
+        353
+      ],
+      "fitBox": [
+        155,
+        318,
+        233,
+        353
+      ]
+    },
+    {
+      "text": "\u00d7",
+      "size": 48,
+      "alignment": "center",
+      "bounds": [
+        123,
+        325,
+        143,
+        345
+      ],
+      "fitBox": [
+        121,
+        318,
+        145,
+        353
+      ]
+    }
+  ]
+}

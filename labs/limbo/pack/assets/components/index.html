@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Monochrome liminal UI specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="board">
+    <header class="board-head">
+      <div>
+        <p class="eyebrow">LIMBO · ORIGINAL DIRECTION STUDY</p>
+        <h1>Quiet signals in the fog</h1>
+        <p class="intro-copy">Three small interface fragments for a low-UI game. Each control changes only this local specimen.</p>
+      </div>
+      <figure class="art">
+        <img src="../reference-atmosphere.png" alt="An empty mechanical forest clearing receding through pale fog">
+        <figcaption>Original generated atmosphere plate</figcaption>
+      </figure>
+    </header>
+
+    <section class="specimen-grid" aria-label="Reusable interface specimens">
+      <article class="specimen">
+        <p class="eyebrow">01 · PAUSE</p>
+        <h2>Pause veil</h2>
+        <div class="pause-veil">
+          <span class="state-mark" aria-hidden="true"></span>
+          <div>
+            <p class="pause-title">PAUSED</p>
+            <p class="muted">The scene remains visible.</p>
+          </div>
+          <button type="button" class="primary" data-action="resume">Resume</button>
+        </div>
+        <p class="status" role="status" aria-live="polite">Pause surface is open in this specimen.</p>
+      </article>
+
+      <article class="specimen">
+        <p class="eyebrow">02 · CHAPTERS</p>
+        <h2>Checkpoint path</h2>
+        <div class="chapter-list" role="group" aria-label="Preview a checkpoint">
+          <button type="button" class="chapter completed" aria-pressed="false" data-chapter="Lowlands">
+            <span class="marker" aria-hidden="true">✓</span><span>Lowlands</span><span class="chapter-state">Completed</span>
+          </button>
+          <button type="button" class="chapter selected" aria-pressed="true" data-chapter="Old Mill">
+            <span class="marker" aria-hidden="true">●</span><span>Old Mill</span><span class="chapter-state">Current</span>
+          </button>
+          <button type="button" class="chapter unknown" aria-pressed="false" data-chapter="Upper Woods">
+            <span class="marker" aria-hidden="true">○</span><span>Upper Woods</span><span class="chapter-state">Unknown</span>
+          </button>
+        </div>
+        <div class="commit-row">
+          <span class="preview-label" data-preview>Preview: Old Mill</span>
+          <button type="button" class="secondary" data-action="commit-chapter">Start at checkpoint</button>
+        </div>
+        <p class="status" role="status" aria-live="polite">Choosing a marker only previews a destination.</p>
+      </article>
+
+      <article class="specimen">
+        <p class="eyebrow">03 · CONTEXT HINT</p>
+        <h2>Transient prompt</h2>
+        <div class="hint-row" data-hint>
+          <span class="hint-glyph" aria-hidden="true">↗</span>
+          <span class="hint-copy">Inspect the iron lever</span>
+          <kbd>E</kbd>
+          <button type="button" class="text-button" data-action="inspect">Inspect</button>
+          <button type="button" class="text-button" data-action="dismiss">Dismiss</button>
+        </div>
+        <button type="button" class="secondary show-prompt" data-action="show-hint" hidden>Show prompt</button>
+        <p class="status" role="status" aria-live="polite">One contextual action; no permanent control legend.</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>Original reference study · no game character art</span>
+      <span>Native controls · local assets · reduced motion</span>
+    </footer>
+  </main>
+  <script src="demo.js"></script>
+</body>
+</html>
+

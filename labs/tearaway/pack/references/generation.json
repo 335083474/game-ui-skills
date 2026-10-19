@@ -1,0 +1,8 @@
+{
+  "tool": "OpenAI built-in image generation",
+  "generatedAt": "2026-10-16",
+  "outputId": "exec-0872df36-b722-4df6-bef2-a264f51b5d77",
+  "file": "references/images/reference-plate.png",
+  "prompt": "Create one original 3:2 landscape raster art plate for a reference skill package. A tiny three-dimensional handmade paper world photographed at macro scale: a small invented folded-paper courier creature with simple geometric triangular wings and layered cut-paper body (not a known character), standing among folded paper hills, a curled paper stream, a paper windmill, punched paper leaves and two tiny paper keepsakes. Make the paper construction unmistakable: actual mountain/valley creases, scored fold lines, crisp cut edges, doubled paper thickness, tabs and soft cast shadows between stacked forms; visible matte paper fibers and hand-cut irregularity. Bright but controlled palette of cyan, vermilion, butter yellow, leaf green and warm white; whimsical stop-motion miniature set, tactile handmade craft, clean directional light. Arrange as a richly detailed but readable art plate with distinct object silhouettes and some negative space. No felt, cloth, yarn, stitches, buttons, logos, readable text, UI, border or watermark; no existing game characters or copied scene.",
+  "sourceImageCopiedUnchanged": true
+}

@@ -1,0 +1,55 @@
+{
+  "name": "tunic-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/index.html",
+      "bytes": 5532,
+      "sha256": "1b67154372df41555f2868f0095a0819efd390a6553b29c3cadb5262403475a4"
+    },
+    {
+      "path": "assets/references/direction-board.svg",
+      "bytes": 1508,
+      "sha256": "dcee81492955cacddde33fc9f84ca2580c9918d8f3d4a6c2448a4676c6923d85"
+    },
+    {
+      "path": "assets/tokens.css",
+      "bytes": 4478,
+      "sha256": "08c71106c03717ed01ae2aad3fa4e0b2d679edfa0bf741a154f23faf96177cba"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1755,
+      "sha256": "00eff51d43c518323c4e4133107acf72717dbec0002fc0fd534d62c76f3e87a1"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 92295,
+      "sha256": "8e21ff9556ac4712e2eca61cba3531b4dced43937f9288d0c2b9c25122737937"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1474,
+      "sha256": "3b2b5116dbc4fecfc78439ed48586e99699f9bfea5b4c84d93c0b95a3acf1818"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2309,
+      "sha256": "37376e7a7f536f914c963c84c3c230d95ee060b07aa5b4ac4fd9dd95924d63bb"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1741,
+      "sha256": "311003eb7c476c3e51e8949288519ac630a3157afd782aff90bbd00870a06013"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1100,
+      "sha256": "3b1079cef455fc33418b878069a6407867ee0e7dc3fb2ff1099dd0ea0e8777d2"
+    }
+  ]
+}

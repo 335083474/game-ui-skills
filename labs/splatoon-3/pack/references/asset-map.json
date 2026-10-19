@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path":"references/images/style-board.svg","kind":"authored-vector-style-board","role":"Component and material reference; not a game screen."},
+  "atlas": {"path":"assets/art/splatoon-atlas.png","mode":"RGBA","layout":"3 columns by 3 rows; crop with background-size 300% 300% and 0/50/100% positions."},
+  "assets": [
+    {"id":"cyan-splat","cell":[0,0],"role":"team or selection backing"},
+    {"id":"lime-splat","cell":[1,0],"role":"highlight backing"},
+    {"id":"coral-swipe","cell":[2,0],"role":"section accent"},
+    {"id":"halftone-burst","cell":[0,1],"role":"result decal"},
+    {"id":"original-sneaker","cell":[1,1],"role":"gear specimen"},
+    {"id":"generic-goggles","cell":[2,1],"role":"gear specimen"},
+    {"id":"paper-sticker","cell":[0,2],"role":"blank label backing"},
+    {"id":"caution-tape","cell":[1,2],"role":"shop or warning accent"},
+    {"id":"victory-star","cell":[2,2],"role":"result medal backing"}
+  ],
+  "generatedArt": {
+    "method":"built-in image_gen",
+    "prompt":"Use case: reusable game UI asset atlas for an original street-ink multiplayer game interface study, informed by Splatoon 3's broad ink-and-sticker energy but not an official Nintendo asset. Square 3-by-3 sprite atlas with nine separate isolated graphic assets on a truly transparent background and generous gutters: irregular cyan ink splat, irregular electric-lime ink splat, coral-orange paint swipe, black-and-white halftone sticker burst, generic original high-top sneaker with neon laces, generic original angular swim-goggle mask with no face, blank torn-paper price sticker, blank diagonal caution-tape strip, small four-point victory badge. Punchy screenprint and cut-paper style, thick dark outlines, vivid flat spot colors, slight ink misregistration and halftone texture inside objects, energetic tilted silhouettes. No characters, no squid/tentacle shapes, no logos, no legible text, no background, no frame, no shadows between cells. All shapes fully contained; preserve alpha transparency.",
+    "transparencyRequested":true,
+    "officialAsset":false
+  },
+  "fonts":{"copied":false,"cssFallback":"Impact, Arial Narrow, sans-serif"},
+  "screenshots":{"officialRedistributed":false,"packageCapture":"pending parent capture"}
+}

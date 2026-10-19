@@ -1,0 +1,40 @@
+{
+  "slug": "okami",
+  "packageName": "okami-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "item-scroll",
+      "title": "Item scroll",
+      "description": "A scroll catalog groups collected objects by use and story role while keeping the field scene visible."
+    },
+    {
+      "id": "technique-selection",
+      "title": "Technique selection",
+      "description": "A small technique set shows input gesture, cost, and equipped state with an accessible text alternative."
+    },
+    {
+      "id": "field-journal",
+      "title": "Field journal",
+      "description": "A calm record ties discovered places and completed favors to dates and readable progress."
+    }
+  ],
+  "referenceImage": "assets/illustrations/okami-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original generated art is a style cue, not official or canonical source-game UI.",
+    "Title-specific keyword demand remains unknown; rank/category data is not search-volume evidence."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

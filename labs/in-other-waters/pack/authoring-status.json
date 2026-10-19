@@ -1,0 +1,40 @@
+{
+  "slug": "in-other-waters",
+  "packageName": "in-other-waters-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "scanner",
+      "title": "Scanner",
+      "description": "Inspect a synthetic radial instrument and contour returns, with a shared heading, route, and explicit local scan-state disclosure."
+    },
+    {
+      "id": "specimen-catalog",
+      "title": "Specimen Catalog",
+      "description": "Browse three original fictional organism marks and edit short observation notes while keeping synthetic taxonomy disclosure visible."
+    },
+    {
+      "id": "field-log",
+      "title": "Field Log",
+      "description": "Review ordered fictional observations with matching demo coordinates and a clear distinction between observation and interpretation."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Map geometry, organisms, readings, route, coordinates, and field notes are invented samples rather than game or scientific records.",
+    "A parent-captured component image and independent three-screen implementation are pending."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

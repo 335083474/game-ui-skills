@@ -1,0 +1,15 @@
+{
+  "slug": "disco-elysium",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "dialogue-check", "title": "Dialogue and skill check", "description": "Read an original narrative feed, preview a response, confirm it, then resolve a labeled scripted Logic check." },
+    { "id": "skills", "title": "Skill journal", "description": "Browse a grouped voice index and inspect the selected skill's value, voice, and named modifiers." },
+    { "id": "thought-cabinet", "title": "Thought cabinet", "description": "Move a selected idea through considering, internalizing, and formed states with an explicit focus-hour cost." }
+  ],
+  "smokeTests": [
+    { "screenId": "dialogue-check", "steps": [{ "action": "click", "role": "button", "name": "— Ask about the missing day" }, { "action": "click", "role": "button", "name": "Confirm selected response" }, { "action": "click", "role": "button", "name": "Resolve scripted Logic check" }], "expectedText": ["Logic check resolved: scripted pass (44%). The check is settled once in this demo."] },
+    { "screenId": "skills", "steps": [{ "action": "click", "role": "button", "name": "Select Logic" }, { "action": "click", "role": "button", "name": "Record field note for Logic" }], "expectedText": ["Logic field note recorded in this synthetic folio."] },
+    { "screenId": "thought-cabinet", "steps": [{ "action": "click", "role": "button", "name": "Begin internalizing — costs 1 focus hour" }, { "action": "click", "role": "button", "name": "Record one observation" }, { "action": "click", "role": "button", "name": "Record one observation" }], "expectedText": ["Thought formed: The Missing Shift. One synthetic interview detail is now available."] }
+  ]
+}

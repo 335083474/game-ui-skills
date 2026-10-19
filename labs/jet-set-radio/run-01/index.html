@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101313">
+  <title>Street Pulse — Jet Set Radio UI study</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-style="jet-set-radio">
+  <header class="radio-header">
+    <a class="wordmark" href="#crew-select" aria-label="Street Pulse home, crew select">
+      <span class="mark" aria-hidden="true">SP</span>
+      <span><strong>STREET PULSE</strong><small>LOCAL UI STUDY / 2012 PC HD DIRECTION</small></span>
+    </a>
+    <nav class="screen-nav" aria-label="Demo screens">
+      <a href="#crew-select" data-route="crew-select">01 / CREW</a>
+      <a href="#city-missions" data-route="city-missions">02 / ROUTE</a>
+      <a href="#graffiti-results" data-route="graffiti-results">03 / RUN RESULT</a>
+    </nav>
+    <span class="session-tag"><i aria-hidden="true"></i> PAGE-SESSION DEMO</span>
+  </header>
+  <div id="feedback" class="feedback" role="status" aria-live="polite" tabindex="-1">All names and outcomes are synthetic. Changes reset on reload.</div>
+  <main id="screen-root" tabindex="-1"></main>
+  <footer class="study-footer"><span>ORIGINAL DOM / CSS STUDY</span><span>Generated context art · no official characters, marks, logos, or game graffiti</span></footer>
+
+  <template id="screen-crew-select">
+    <section class="jsr-screen crew-screen" aria-labelledby="screen-title">
+      <div class="crew-art-stage">
+        <div class="art-wash" aria-hidden="true"></div>
+        <div class="crew-headline">
+          <p class="eyebrow">CREW SELECT / PICK YOUR LINE</p>
+          <h1 id="screen-title">WHO<br><em>RIDES?</em></h1>
+          <p class="headline-note">One crew name. One style. Your first mark in the city.</p>
+          <span class="hand-mark" aria-hidden="true">NO. 01 <b>✳</b></span>
+        </div>
+        <div class="art-caption">GENERATED CONTEXT PLATE / ORIGINAL STUDY ART</div>
+        <div class="crew-seal" aria-hidden="true"><span>ROLL</span><b data-bind="activeInitial">M</b><span>WITH IT</span></div>
+      </div>
+      <div class="crew-floor">
+        <div class="crew-roster-block">
+          <div class="section-kicker"><span>ROSTER / 03</span><span>SELECT TO PREVIEW</span></div>
+          <div class="crew-roster" role="group" aria-label="Crew selection">
+            <button type="button" class="crew-tag orange" data-action="crew-preview" data-value="arlo" aria-label="Preview Arlo / line cutter" aria-pressed="false">
+              <span class="tag-index">A / 01</span><strong>ARLO</strong><small>LINE CUTTER</small>
+            </button>
+            <button type="button" class="crew-tag cyan" data-action="crew-preview" data-value="mina" aria-label="Preview Mina / wall painter" aria-pressed="false">
+              <span class="tag-index">M / 02</span><strong>MINA</strong><small>WALL PAINTER</small>
+            </button>
+            <button type="button" class="crew-tag violet" data-action="crew-preview" data-value="jo" aria-label="Preview Jo / switchback" aria-pressed="false">
+              <span class="tag-index">J / 03</span><strong>JO</strong><small>SWITCHBACK</small>
+            </button>
+          </div>
+        </div>
+        <aside class="crew-dossier" aria-label="Crew preview and confirmation">
+          <div class="dossier-top"><span>ACTIVE CREW / THIS PAGE</span><span class="scribble" aria-hidden="true">✳</span></div>
+          <div class="dossier-name"><span data-bind="crewPreviewLabel">ACTIVE RIDER</span><h2 data-bind="crewPreviewName">Mina</h2><p data-bind="crewPreviewStyle">Wall painter</p></div>
+          <label class="edit-field">Crew margin note <input id="crew-note" data-edit="crewNote" type="text" maxlength="44" value="Paint the long wall after the turn" aria-label="Edit the crew margin note"></label>
+          <div class="dossier-actions">
+            <button type="button" class="action action-lime" data-action="crew-confirm" aria-describedby="crew-lock-help">Lock selected crew</button>
+            <button type="button" class="action action-paper" data-action="crew-cancel">Cancel preview</button>
+          </div>
+          <p class="helper" id="crew-lock-help">Preview a different rider before locking. This page-session choice is not saved.</p>
+          <p class="feedback-inline" data-bind="crewFeedback">Mina is active for this page session.</p>
+        </aside>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-city-missions">
+    <section class="jsr-screen route-screen" aria-labelledby="screen-title">
+      <div class="route-head">
+        <div><p class="eyebrow">CITY MISSIONS / NORTH WARD</p><h1 id="screen-title">PICK A<br><em>LINE.</em></h1></div>
+        <p class="route-deck">Read the city as a moving path. Preview a route, then tag in to commit it for this page session.</p>
+        <span class="route-edition">DEMO ROUTE<br>ONLY / 02</span>
+      </div>
+      <div class="city-map" aria-label="Synthetic route diagram with three district stops">
+        <div class="map-grid" aria-hidden="true"></div>
+        <svg class="map-lines" viewBox="0 0 1000 340" preserveAspectRatio="none" role="img" aria-label="Two invented routes through three city stops">
+          <path class="line-base" d="M70 252 L270 242 L410 154 L605 126 L800 74 L940 90"/game-ui-skills/>
+          <path class="line-route route-a" data-bind-class="routeA" d="M70 252 L270 242 L410 154 L605 126 L800 74 L940 90"/game-ui-skills/>
+          <path class="line-route route-b" data-bind-class="routeB" d="M70 252 L270 242 L380 270 L560 258 L720 205 L940 90"/game-ui-skills/>
+          <circle class="map-stop stop-one" cx="270" cy="242" r="12"/game-ui-skills/><circle class="map-stop stop-two" cx="560" cy="258" r="12"/game-ui-skills/><circle class="map-destination" cx="940" cy="90" r="16"/game-ui-skills/>
+        </svg>
+        <span class="map-coordinate coord-a">35° / MARKET CUT</span><span class="map-coordinate coord-b">08° / ROOF LINE</span>
+        <span class="map-label map-start">START / 00</span><span class="map-label map-stop-label">STOP / 03</span><span class="map-label map-finish">NORTH WARD / TAG ZONE</span>
+        <div class="route-pin pin-a"><span class="pin-dot" aria-hidden="true">A</span><button type="button" data-action="route-preview" data-value="north-arcade" aria-label="Preview North Arcade Switchback route" aria-pressed="false"><strong>NORTH ARCADE<br>SWITCHBACK</strong><small>5 TAGS · 02:40 · NARROW ROOF LINE</small></button></div>
+        <div class="route-pin pin-b"><span class="pin-dot" aria-hidden="true">B</span><button type="button" data-action="route-preview" data-value="canal-market" aria-label="Preview Canal Market Loop route" aria-pressed="false"><strong>CANAL MARKET<br>LOOP</strong><small>4 TAGS · 03:10 · BROAD PLAZA</small></button></div>
+        <div class="map-sticker" aria-hidden="true">NO<br>SHORT<br>CUTS</div>
+      </div>
+      <div class="route-controls">
+        <div class="route-readout"><span class="section-kicker">PREVIEW / ROUTE INTENT</span><h2 data-bind="routePreviewName">Choose a line on the map</h2><p data-bind="routePreviewDetail">Stops, tag count, and time window are synthetic demo values.</p><label class="edit-field route-note-field">Add a route note <input data-edit="routeNote" type="text" maxlength="48" value="Watch the roof gap near the relay" aria-label="Edit the route margin note"></label></div>
+        <div class="route-actions"><button type="button" class="action action-lime" data-action="route-confirm" aria-describedby="route-confirm-help">Tag in to selected route</button><button type="button" class="action action-paper" data-action="route-cancel">Cancel route preview</button><p id="route-confirm-help" class="helper">Choose a route first. Confirmation only updates this page session.</p><p class="feedback-inline" data-bind="routeFeedback">No route has been previewed.</p></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-graffiti-results">
+    <section class="jsr-screen results-screen" aria-labelledby="screen-title">
+      <div class="results-banner">
+        <div class="results-type"><p class="eyebrow">RUN REPORT / DEMO SESSION 01</p><h1 id="screen-title">THE LINE<br><em>YOU LEFT.</em></h1><p>Score, coverage, combo, and style are synthetic illustration values.</p></div>
+        <div class="score-burst"><span class="score-label">DEMO POINTS</span><strong>82,400</strong><span class="score-rank">S<small>DEMO STAMP</small></span><span class="burst-rays" aria-hidden="true"></span></div>
+        <div class="result-art" aria-hidden="true"></div>
+      </div>
+      <div class="result-ledger">
+        <div class="ledger-title"><span>RUN BREAKDOWN / 03 MARKS</span><span>NO OFFICIAL SCORE FORMULA</span></div>
+        <div class="result-measure coverage"><span class="measure-no">01</span><div><strong>TAG COVERAGE</strong><small>WALLS HIT / DEMO ROUTE TOTAL</small></div><b>5<span>/6</span></b><i aria-hidden="true"><u></u></i></div>
+        <div class="result-measure combo"><span class="measure-no">02</span><div><strong>COMBO CONTINUITY</strong><small>BEATS HELD THROUGH THE RUN</small></div><b>8 <span>BEATS</span></b><i aria-hidden="true"><u></u></i></div>
+        <div class="result-measure style"><span class="measure-no">03</span><div><strong>ROUTE STYLE</strong><small>LINE SHAPE / LOCAL DEMO LABEL</small></div><b>HIGH<br>LINE</b><i aria-hidden="true"><u></u></i></div>
+      </div>
+      <div class="stamp-row">
+        <div class="stamp-copy"><span class="stamp-state" data-bind="stampState">NO PAGE-SESSION STAMP</span><h2 data-bind="stampHeading">Preview the synthetic result mark.</h2><label class="edit-field">Run caption <input data-edit="runCaption" type="text" maxlength="42" value="High line / North Ward" aria-label="Edit the run result caption"></label></div>
+        <div class="stamp-actions"><button type="button" class="action action-violet" data-action="result-preview">Preview demo run stamp</button><button type="button" class="action action-lime" data-action="result-confirm" aria-describedby="stamp-confirm-help">Stamp demo result for this session</button><button type="button" class="action action-paper" data-action="result-cancel">Cancel stamp preview</button><p class="helper" id="stamp-confirm-help">One synthetic reward mark per page session. Reloading resets the demo.</p></div>
+      </div>
+    </section>
+  </template>
+</body>
+</html>

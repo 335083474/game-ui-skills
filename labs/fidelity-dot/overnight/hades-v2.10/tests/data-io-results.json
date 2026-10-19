@@ -1,0 +1,93 @@
+{
+  "scope": "Node pure-data unit tests only; browser download/file picker/render/focus not exercised",
+  "results": [
+    {
+      "name": "valid data normalized without mutating input",
+      "status": "通过"
+    },
+    {
+      "name": "JSON export/import content round trip",
+      "status": "通过"
+    },
+    {
+      "name": "UTF-8 BOM accepted",
+      "status": "通过"
+    },
+    {
+      "name": "unknown fields ignored and no HTML interpretation in validator",
+      "status": "通过"
+    },
+    {
+      "name": "2 options validate and round-trip",
+      "status": "通过"
+    },
+    {
+      "name": "2 options Home/End and wrap",
+      "status": "通过"
+    },
+    {
+      "name": "3 options validate and round-trip",
+      "status": "通过"
+    },
+    {
+      "name": "3 options Home/End and wrap",
+      "status": "通过"
+    },
+    {
+      "name": "4 options validate and round-trip",
+      "status": "通过"
+    },
+    {
+      "name": "4 options Home/End and wrap",
+      "status": "通过"
+    },
+    {
+      "name": "counts outside 2–4 rejected",
+      "status": "通过"
+    },
+    {
+      "name": "rarity enum enforced",
+      "status": "通过"
+    },
+    {
+      "name": "schema version enforced",
+      "status": "通过"
+    },
+    {
+      "name": "empty required title rejected",
+      "status": "通过"
+    },
+    {
+      "name": "numeric content rejected",
+      "status": "通过"
+    },
+    {
+      "name": "remote icon URL rejected",
+      "status": "通过"
+    },
+    {
+      "name": "path traversal and query rejected",
+      "status": "通过"
+    },
+    {
+      "name": "Unicode glyph fallback rejected by shared scene contract",
+      "status": "通过"
+    },
+    {
+      "name": "long text preserved for DOM measurement, not character-count rejection",
+      "status": "通过"
+    },
+    {
+      "name": "oversize file rejected before parsing",
+      "status": "通过"
+    },
+    {
+      "name": "missing file rejected",
+      "status": "通过"
+    },
+    {
+      "name": "file.text JSON import works with file-like test object",
+      "status": "通过"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "journey",
+  "packageName": "journey-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "chapter-gates",
+      "title": "Gates along the route",
+      "description": "A scene-based gate path previews the next destination and requires an explicit crossing action."
+    },
+    {
+      "id": "journey-progress",
+      "title": "Named waypoints",
+      "description": "Passed, current, and ahead locations communicate progress without an invented route percentage."
+    },
+    {
+      "id": "companion-signals",
+      "title": "Companion signal",
+      "description": "Brief signal choices remain previews until an explicit local send action is selected."
+    }
+  ],
+  "referenceImage": "assets/reference-atmosphere.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original generated desert and fabric image is a broad mood study, not official Journey art or a copied scene.",
+    "The approved package boundary is the 2019 PC edition; the Steam PC release is dated 2020 and is not used here.",
+    "Sample gates, waypoints, and signals are synthetic; there is no live multiplayer or network delivery."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

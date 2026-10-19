@@ -1,0 +1,4 @@
+interface:
+  display_name: "BioShock Art Deco"
+  short_description: "Brass fan rays, enamel plaques and machine menus"
+  default_prompt: "Use $bioshock-ui to create a precise Art Deco vending or upgrade interface with stepped geometry and coherent resource changes."

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Street Pulse — UI component specimens</title>
+<link rel="stylesheet" href="theme.css">
+</head>
+<body class="jr-board">
+<header class="jr-hero">
+  <img class="jr-hero-art" src="../../references/images/style-board.png" alt="Original generated cel-shaded illustration of an invented skater turning through a bright city street">
+  <div class="jr-hero-copy">
+    <span class="jr-paint">VISUAL LANGUAGE STUDY</span>
+    <p class="jr-kicker">Arcade street-skating / 2012 PC HD direction</p>
+    <h1>Street <span>Pulse</span></h1>
+    <p>Three reusable jobs: pick a crew, read a route, and understand the run. The art plate is original context artwork, separate from primary game references.</p>
+  </div>
+</header>
+<div class="jr-section-head">
+  <h2>Component specimens / 01—03</h2>
+  <span class="jr-demo-note">All names, routes and results are synthetic. Actions change this page only.</span>
+</div>
+<main class="jr-specimens">
+  <section class="jr-specimen" aria-labelledby="crew-heading">
+    <span class="jr-stamp">01 / CREW</span>
+    <h3 id="crew-heading">Crew Select</h3>
+    <p class="jr-sub">Identity first, one rider in focus.</p>
+    <div class="jr-crew-list" role="group" aria-label="Choose a demo crew member">
+      <button class="jr-crew-option" type="button" data-crew="Arlo" data-style="Line cutter" aria-pressed="false"><strong>Arlo</strong><span class="jr-crew-style">Line cutter</span></button>
+      <button class="jr-crew-option" type="button" data-crew="Mina" data-style="Wall painter" aria-pressed="true"><strong>Mina</strong><span class="jr-crew-style">Wall painter</span></button>
+      <button class="jr-crew-option" type="button" data-crew="Jo" data-style="Switchback" aria-pressed="false"><strong>Jo</strong><span class="jr-crew-style">Switchback</span></button>
+    </div>
+    <div class="jr-profile">
+      <div><span class="jr-kicker">Active crew member</span><div class="jr-profile-name" id="crew-name">Mina</div><span id="crew-style">Wall painter</span></div>
+      <div class="jr-profile-sigil" aria-hidden="true">M</div>
+    </div>
+    <div class="jr-controls"><button type="button" class="jr-button" id="crew-confirm">Lock crew</button><button type="button" class="jr-button is-quiet" id="crew-cancel">Cancel</button></div>
+    <p class="jr-live" id="crew-live" aria-live="polite">Mina is active for this page session.</p>
+  </section>
+
+  <section class="jr-specimen" aria-labelledby="mission-heading">
+    <span class="jr-stamp">02 / ROUTE</span>
+    <h3 id="mission-heading">City Missions</h3>
+    <p class="jr-sub">Route shape and objective travel together.</p>
+    <div class="jr-map">
+      <div class="jr-map-label"><span>North Ward</span><span id="route-map-label">Choose a line</span></div>
+      <svg viewBox="0 0 420 118" role="img" aria-label="Three-stop demo route with two possible paths">
+        <path d="M28 82 L124 82 L196 38 L282 38 L382 76" fill="none" stroke="#21d7d2" stroke-width="5" stroke-dasharray="9 7"/game-ui-skills/>
+        <path d="M28 82 L124 82 L194 91 L282 91 L382 76" fill="none" stroke="#ff7138" stroke-width="3" opacity=".6"/game-ui-skills/>
+        <circle cx="28" cy="82" r="8" fill="#d7f21a" stroke="#fff" stroke-width="3"/game-ui-skills/><circle cx="124" cy="82" r="7" fill="#fff" stroke="#111417" stroke-width="3"/game-ui-skills/><circle cx="196" cy="38" r="7" fill="#fff" stroke="#111417" stroke-width="3"/game-ui-skills/><circle cx="282" cy="38" r="7" fill="#fff" stroke="#111417" stroke-width="3"/game-ui-skills/><path d="M382 64 L394 76 L382 88 L370 76Z" fill="#ff7138" stroke="#fff" stroke-width="3"/game-ui-skills/>
+      </svg>
+      <div class="jr-map-label"><span>Start / 3 stops</span><span>Demo route only</span></div>
+    </div>
+    <div class="jr-route-options" role="group" aria-label="Preview a demo mission route">
+      <button class="jr-route-option" type="button" data-route="North Arcade Switchback" data-detail="5 wall tags · 02:40 demo window · narrow roof line" aria-pressed="false"><i class="jr-node" aria-hidden="true"></i><span><strong>North Arcade Switchback</strong><br><small>5 tags / 02:40 / narrow roof line</small></span><span aria-hidden="true">↗</span></button>
+      <button class="jr-route-option" type="button" data-route="Canal Market Loop" data-detail="4 wall tags · 03:10 demo window · broad plaza" aria-pressed="false"><i class="jr-node" aria-hidden="true"></i><span><strong>Canal Market Loop</strong><br><small>4 tags / 03:10 / broad plaza</small></span><span aria-hidden="true">↗</span></button>
+    </div>
+    <div class="jr-controls"><button type="button" class="jr-button" id="route-confirm" disabled>Tag in</button><button type="button" class="jr-button is-quiet" id="route-cancel">Cancel route</button></div>
+    <p class="jr-live" id="route-live" aria-live="polite">Choose a route to preview it.</p>
+  </section>
+
+  <section class="jr-specimen" aria-labelledby="results-heading">
+    <span class="jr-stamp">03 / RESULTS</span>
+    <h3 id="results-heading">Graffiti Results</h3>
+    <p class="jr-sub">A run has several kinds of style.</p>
+    <div class="jr-score"><b>82,400</b><span class="jr-rank" aria-label="S demo rank">S</span></div>
+    <div class="jr-kicker">Demo points / synthetic</div>
+    <div class="jr-metrics">
+      <div class="jr-metric"><strong>5/6</strong><span>Tag coverage</span></div>
+      <div class="jr-metric"><strong>8</strong><span>Combo beats</span></div>
+      <div class="jr-metric"><strong>High Line</strong><span>Route style</span></div>
+      <div class="jr-metric"><strong>01</strong><span>Demo run</span></div>
+    </div>
+    <div class="jr-controls"><button type="button" class="jr-button" id="stamp-result">Stamp demo result</button><button type="button" class="jr-button is-quiet" id="undo-stamp" disabled>Undo stamp</button></div>
+    <p class="jr-live" id="result-live" aria-live="polite">No page-session stamp yet.</p>
+  </section>
+</main>
+<footer class="jr-foot">Original UI specimens · No official art, logo, character, graffiti, or copied interface is included.</footer>
+<script>
+(function(){
+  var activeCrew="Mina", pendingCrew=null, selectedRoute=null, stamped=false;
+  var crewButtons=Array.from(document.querySelectorAll(".jr-crew-option"));
+  var crewName=document.getElementById("crew-name"), crewStyle=document.getElementById("crew-style");
+  function updateCrew(){crewButtons.forEach(function(button){button.setAttribute("aria-pressed",String(button.dataset.crew===pendingCrew));});}
+  crewButtons.forEach(function(button){button.addEventListener("click",function(){pendingCrew=button.dataset.crew;updateCrew();document.getElementById("crew-live").textContent=pendingCrew+" previewed. Lock crew to make this the active page-session choice.";});});
+  document.getElementById("crew-confirm").addEventListener("click",function(){if(!pendingCrew){document.getElementById("crew-live").textContent="Choose a crew member first.";return;}activeCrew=pendingCrew;crewName.textContent=activeCrew;crewStyle.textContent=crewButtons.find(function(button){return button.dataset.crew===activeCrew;}).dataset.style;document.getElementById("crew-live").textContent=activeCrew+" is active for this page session.";});
+  document.getElementById("crew-cancel").addEventListener("click",function(){pendingCrew=activeCrew;updateCrew();document.getElementById("crew-live").textContent="Preview cancelled. "+activeCrew+" remains active.";});
+  var routeButtons=Array.from(document.querySelectorAll(".jr-route-option"));
+  routeButtons.forEach(function(button){button.addEventListener("click",function(){selectedRoute=button;routeButtons.forEach(function(option){option.setAttribute("aria-pressed",String(option===selectedRoute));});document.getElementById("route-confirm").disabled=false;document.getElementById("route-map-label").textContent=button.dataset.route;document.getElementById("route-live").textContent=button.dataset.detail+" — preview only.";});});
+  document.getElementById("route-confirm").addEventListener("click",function(){if(!selectedRoute){document.getElementById("route-live").textContent="Choose a route first.";return;}document.getElementById("route-live").textContent=selectedRoute.dataset.route+" confirmed for this page session. No mission is launched.";});
+  document.getElementById("route-cancel").addEventListener("click",function(){selectedRoute=null;routeButtons.forEach(function(option){option.setAttribute("aria-pressed","false");});document.getElementById("route-confirm").disabled=true;document.getElementById("route-map-label").textContent="Choose a line";document.getElementById("route-live").textContent="Route preview cancelled.";});
+  document.getElementById("stamp-result").addEventListener("click",function(){stamped=true;document.getElementById("result-live").textContent="Demo result stamped in this page session only.";document.getElementById("stamp-result").disabled=true;document.getElementById("undo-stamp").disabled=false;});
+  document.getElementById("undo-stamp").addEventListener("click",function(){stamped=false;document.getElementById("result-live").textContent="Page-session stamp removed.";document.getElementById("stamp-result").disabled=false;document.getElementById("undo-stamp").disabled=true;});
+})();
+</script>
+</body>
+</html>

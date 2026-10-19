@@ -1,0 +1,105 @@
+{
+  "executedAt": "2026-10-15T16:25:25.019Z",
+  "runner": "v22.16.0",
+  "scope": "Node state tests, filesystem resource inspection and HTTP fetch only; no browser rendering or browser interaction",
+  "checks": [
+    {
+      "name": "Fresh state is valid and independent",
+      "status": "PASS"
+    },
+    {
+      "name": "Selection grants no reward; confirmation requires a choice",
+      "status": "PASS"
+    },
+    {
+      "name": "Gold reward grants exactly once under 100 repeated activations",
+      "status": "PASS"
+    },
+    {
+      "name": "Item rewards increment exactly their own inventory",
+      "status": "PASS"
+    },
+    {
+      "name": "Claim survives a serialized session round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "Near-max potion heals only 7 HP and consumes exactly one",
+      "status": "PASS"
+    },
+    {
+      "name": "Full HP blocks consumption with readable reason",
+      "status": "PASS"
+    },
+    {
+      "name": "Zero potions blocks healing with readable reason",
+      "status": "PASS"
+    },
+    {
+      "name": "Normal +20 heal and zero quantity after last use",
+      "status": "PASS"
+    },
+    {
+      "name": "Purchase subtracts price, adds item and reduces stock",
+      "status": "PASS"
+    },
+    {
+      "name": "Sold-out blocks repeated purchase without mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "Insufficient gold differs from sold-out and preserves state",
+      "status": "PASS"
+    },
+    {
+      "name": "Exact balance succeeds, then no negatives across every offer",
+      "status": "PASS"
+    },
+    {
+      "name": "Reward, purchase and potion share the same run data",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid restored states are rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "All runtime resource references resolve locally; RGBA atlas is 1536×1024; four fonts and two OFL notices present",
+      "status": "PASS",
+      "references": [
+        "index.html → ./assets/components/theme.css",
+        "index.html → ./style.css",
+        "index.html → ./app.js",
+        "app.js → ./state.mjs",
+        "assets/components/theme.css → ../fonts/alegreya-sc/AlegreyaSC-Regular.ttf",
+        "assets/components/theme.css → ../fonts/alegreya-sc/AlegreyaSC-Bold.ttf",
+        "assets/components/theme.css → ../fonts/crimson-text/CrimsonText-Regular.ttf",
+        "assets/components/theme.css → ../fonts/crimson-text/CrimsonText-Bold.ttf",
+        "assets/components/theme.css → stone.svg",
+        "assets/components/theme.css → stone.svg",
+        "assets/components/theme.css → paper.svg",
+        "assets/components/theme.css → ../items-atlas.png",
+        "assets/components/theme.css → paper.svg",
+        "assets/components/theme.css → paper.svg"
+      ]
+    },
+    {
+      "name": "Existing HTTP server returns byte-identical runtime resources",
+      "status": "PASS",
+      "files": [
+        "index.html",
+        "style.css",
+        "app.js",
+        "state.mjs",
+        "assets/items-atlas.png",
+        "assets/components/theme.css",
+        "assets/components/stone.svg",
+        "assets/components/paper.svg",
+        "assets/fonts/alegreya-sc/AlegreyaSC-Regular.ttf",
+        "assets/fonts/alegreya-sc/AlegreyaSC-Bold.ttf",
+        "assets/fonts/crimson-text/CrimsonText-Regular.ttf",
+        "assets/fonts/crimson-text/CrimsonText-Bold.ttf"
+      ]
+    }
+  ]
+}

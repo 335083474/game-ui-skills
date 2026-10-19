@@ -1,0 +1,47 @@
+{
+  "slug": "katamari",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "collection-book",
+      "title": "Collection book",
+      "description": "A playful catalog grouped by found-object families, with readable names and personal discovery states."
+    },
+    {
+      "id": "level-select",
+      "title": "Level select",
+      "description": "A bold destination picker with one clear objective, size target, and accessible route choice."
+    },
+    {
+      "id": "roll-results",
+      "title": "Roll results",
+      "description": "A celebratory result reveal that communicates size, new finds, and replay choices without hiding the score."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "collection-book",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview Citrus wedge" },
+        { "action": "click", "role": "button", "name": "Pin the selected find to field notes" }
+      ],
+      "expectedText": ["Citrus wedge is pinned to the field notes."]
+    },
+    {
+      "screenId": "level-select",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview Rooftop route" },
+        { "action": "click", "role": "button", "name": "Begin the selected roll route" }
+      ],
+      "expectedText": ["Rooftops route is staged for a 15 cm target."]
+    },
+    {
+      "screenId": "roll-results",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Record the 18 cm roll" }
+      ],
+      "expectedText": ["Roll recorded: 18 cm and 1 star added. Paper kite is now in the book."]
+    }
+  ]
+}

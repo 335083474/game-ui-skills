@@ -1,0 +1,85 @@
+{
+  "name": "pentiment-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 241,
+      "sha256": "5af73068924c5556c1aec01bd4fcb5e7bb031addbbb32d5b2d1e380323061c67"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 3247,
+      "sha256": "a221b4ca8d9951e7a71e66cf6595601f2dd0879fd3ca8de7e55a9aa53fdf462b"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 4781,
+      "sha256": "266300377364ab8b87c684fef88d51e933b8d1632833154688cf6b9c52398692"
+    },
+    {
+      "path": "assets/illustrations/pentiment-art.png",
+      "bytes": 3592280,
+      "sha256": "9535af108c62cb2de071f8a746b53ce24f1200d1cac22e5f5698435ec683b736"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1467,
+      "sha256": "020f06f0acfeeafdd2aa6e424d8c0902704a5dbdda4cb33baa02a230913dad60"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 828,
+      "sha256": "21a3aa40c08d010d64e55a693727d5e206eb63845853b3dc9c8066f1fbf749d6"
+    },
+    {
+      "path": "references/demo-state.json",
+      "bytes": 843,
+      "sha256": "4ee82561c734c5f27a00464d03b4158a76d080279ce1f5d76546429119b4858c"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 842,
+      "sha256": "ca46552d5e4dbb450f7d74b6b0f5776bd3a67ed2b7b4476822adf35318a46f29"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 103994,
+      "sha256": "cbfc0b1b91a73fa1cfbdf77ffc21f001b1515622a970a6bc2b05df68bb57ecba"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2122,
+      "sha256": "17c61cb11a4f8057f30c22aed6adfd60f6770dbee59a11f0107b16a2534f7873"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1344,
+      "sha256": "32a66f9ed5c97a9ef737322ed4090028f7cd339e1caf2c877f22e8c5229e11b0"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 1126,
+      "sha256": "21c3c78677d22ad1677545da598e6f33e91d4873f9a8ae6f506bb281fa300c72"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2036,
+      "sha256": "b039bf2d4f52d833c9d2da4c27f62ca22e801246da5f4df6c1338e90e30a1d3a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2634,
+      "sha256": "26481f759ab431679c431025c71d574ee69cace0fe65a9f09de9df4c77ae3913"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 815,
+      "sha256": "a3d5f02965642f7332ef13de1dd0900ecdfff1cf78de58006a4fc74ec3cdf1e5"
+    }
+  ]
+}

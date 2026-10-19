@@ -1,0 +1,41 @@
+{
+  "slug": "potion-craft",
+  "packageName": "potion-craft-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "alchemy-map",
+      "title": "Alchemy Map",
+      "description": "Interactive route nodes, obstacle areas, ingredient rail and destination preview."
+    },
+    {
+      "id": "recipe-ledger",
+      "title": "Recipe Ledger",
+      "description": "Saved formula rows with bottle crops, effect, count and bookmark state."
+    },
+    {
+      "id": "trade-counter",
+      "title": "Trade Counter",
+      "description": "Customer request, selected potion and stock-aware sale acceptance."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Ingredient names, recipe values, effects and prices are synthetic.",
+    "Generated atlas art is original study material, not official or exact game art.",
+    "No copied font is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Component rendering only; full-screen independent use tests follow."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "mirrors-edge",
+  "packageName": "mirrors-edge-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "runner-map",
+      "title": "Runner Map",
+      "description": "An open route diagram makes the start, destination, and route trade-offs legible before commitment."
+    },
+    {
+      "id": "mission-brief",
+      "title": "Mission Brief",
+      "description": "A quiet placard separates target, objective sequence, and route note from traversal."
+    },
+    {
+      "id": "movement-hud",
+      "title": "Movement HUD",
+      "description": "A compact edge cue gives one obstacle, one direction, and an explicitly synthetic demo key."
+    }
+  ],
+  "referenceImage": "references/images/style-board.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Route names, distances, mission objectives, demo key mapping, and cue results are invented.",
+    "The generated plate is original architectural context art and is separate from the official EA source.",
+    "The EA product page is for the original game and lists its PC storefront date as 13 Jan 2009; the approved scope is the original 2008 game, not Catalyst.",
+    "The specimens are a local DOM/CSS wayfinding study; they do not establish exact original HUD behavior, control mappings, or an engine export."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

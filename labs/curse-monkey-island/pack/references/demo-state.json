@@ -1,0 +1,39 @@
+{
+  "inventory": {
+    "items": [
+      {
+        "id": "brass-compass",
+        "name": "Brass compass",
+        "selected": true
+      },
+      {
+        "id": "waxed-chart",
+        "name": "Waxed chart",
+        "selected": false
+      }
+    ]
+  },
+  "targets": [
+    {
+      "id": "reef-marker",
+      "name": "Reef marker",
+      "verbs": [
+        "inspect",
+        "use"
+      ]
+    }
+  ],
+  "dialogue": {
+    "speakerId": "captain-vela",
+    "line": "The tide has other plans.",
+    "responses": [
+      {
+        "id": "ask-channel"
+      },
+      {
+        "id": "change-subject"
+      }
+    ]
+  }
+}
+

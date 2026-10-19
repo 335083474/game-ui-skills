@@ -1,0 +1,8 @@
+{
+  "assets":[
+    {"path":"references/images/style-reference.svg","role":"Standalone visual reference for needs, build object, and relationship primitives","provenance":"Authored native SVG with synthetic data","use":"Component direction only; not a full game screen or official capture."},
+    {"path":"assets/components/index.html","role":"Editable need meter, catalog tile, and relationship-node specimens","provenance":"Authored HTML / CSS / JS","use":"Open locally; values are synthetic and controls affect the specimen only."},
+    {"path":"assets/components/theme.css","role":"Bright household surfaces, meter tracks, catalog tile, and link primitives","provenance":"Authored package code","use":"Keep accessible text and graph fallback when composing screens."}
+  ],
+  "notBundled":["EA artwork or screenshot", "Sims character portraits", "Plumbob icon", "furniture models", "font binaries", "finished target-screen layouts"]
+}

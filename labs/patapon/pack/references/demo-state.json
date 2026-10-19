@@ -1,0 +1,36 @@
+{
+  "squad": [
+    {
+      "id": "scout-01",
+      "role": "scout",
+      "count": 3,
+      "formation": "front"
+    },
+    {
+      "id": "drummer-01",
+      "role": "drummer",
+      "count": 1,
+      "formation": "rear"
+    }
+  ],
+  "expedition": {
+    "id": "reed-pass",
+    "danger": "medium",
+    "cost": {
+      "rations": 2
+    },
+    "unlocked": true
+  },
+  "rhythm": {
+    "sequence": [
+      "pon",
+      "pata",
+      "pon",
+      "chaka"
+    ],
+    "currentBeat": 2,
+    "windowMs": 180,
+    "lastResult": "ready"
+  }
+}
+

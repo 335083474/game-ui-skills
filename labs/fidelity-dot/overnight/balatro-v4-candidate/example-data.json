@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "cash": 9,
+  "rerollPrice": 5,
+  "title": "Improve your run!",
+  "products": [
+    {
+      "id": "joker_green",
+      "name": "Jolly Joker",
+      "icon": "components/joker_green.png",
+      "description": "Independent reference-informed example: Jolly Joker. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 4,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "joker_ballot",
+      "name": "Hanging Chad",
+      "icon": "components/joker_ballot.png",
+      "description": "Independent reference-informed example: Hanging Chad. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 4,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "voucher",
+      "name": "Discount Voucher",
+      "icon": "components/voucher.png",
+      "description": "Independent reference-informed example: Discount Voucher. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 10,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "buffoon_pack",
+      "name": "Buffoon Pack",
+      "icon": "components/buffoon_pack.png",
+      "description": "Independent reference-informed example: Buffoon Pack. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 4,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "arcana_pack",
+      "name": "Arcana Pack",
+      "icon": "components/arcana_pack.png",
+      "description": "Independent reference-informed example: Arcana Pack. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 4,
+      "count": 1,
+      "sold": false
+    }
+  ],
+  "collection": [
+    {
+      "id": "joker_orange",
+      "name": "Orange Joker",
+      "icon": "components/joker_orange.png",
+      "description": "Independent reference-informed example: Orange Joker. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 0,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "joker_red",
+      "name": "Red Joker",
+      "icon": "components/joker_red.png",
+      "description": "Independent reference-informed example: Red Joker. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 0,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "joker_purple",
+      "name": "Purple Joker",
+      "icon": "components/joker_purple.png",
+      "description": "Independent reference-informed example: Purple Joker. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 0,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "joker_teal",
+      "name": "Teal Joker",
+      "icon": "components/joker_teal.png",
+      "description": "Independent reference-informed example: Teal Joker. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 0,
+      "count": 1,
+      "sold": false
+    },
+    {
+      "id": "wheel_fortune",
+      "name": "Wheel of Fortune",
+      "icon": "components/wheel_fortune.png",
+      "description": "Independent reference-informed example: Wheel of Fortune. Edit this complete description in the JSON editor. Game rules and card artwork are approximate.",
+      "price": 0,
+      "count": 1,
+      "sold": false
+    }
+  ],
+  "runStats": {
+    "jokersUsed": 4,
+    "jokersMax": 5,
+    "consumablesUsed": 1,
+    "consumablesMax": 2
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "sable",
+  "packageName": "sable-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "mask-collection",
+      "title": "Mask Collection",
+      "description": "A line-art mask rail gives each collectible a silhouette, name, and state without card shadows or thick comic outlines."
+    },
+    {
+      "id": "quest-journal",
+      "title": "Quest Journal",
+      "description": "A generous journal fragment uses a small route index and one clear quest entry with plenty of unboxed space."
+    },
+    {
+      "id": "desert-map",
+      "title": "Desert Map",
+      "description": "Flat dune bands, a quiet route trace, and one waypoint put orientation ahead of decorative chrome."
+    }
+  ],
+  "referenceImage": "assets/references/direction-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "The fine-line and flat-plane language is an author interpretation of the plan and the official desert, masks, and art-style descriptions; it is not asserted as canonical screen UI.",
+    "All masks, terrain marks, and vector art in this package are original studies; no official art files or font files are included.",
+    "The three specimens demonstrate component patterns only. Route data, quest logic, engine integration, and independent use testing remain for later work."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

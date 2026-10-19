@@ -1,0 +1,41 @@
+{
+  "slug": "her-story",
+  "packageName": "her-story-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "search",
+      "title": "Keyword Search",
+      "description": "Search fictional interview-index text, inspect matching clip IDs, and update a clearly simulated metadata-only clip state."
+    },
+    {
+      "id": "clip-library",
+      "title": "Clip Library",
+      "description": "Browse and filter invented interview entries, pin clips, and keep the no-footage disclosure beside every media affordance."
+    },
+    {
+      "id": "case-notes",
+      "title": "Case Notes",
+      "description": "Edit local demo notes and link each one to a stable fictional clip ID."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Clip identifiers, dates, transcripts, and notes are invented sample data, not in-game content.",
+    "The media illustration and clip controls are metadata-only; this package contains no footage, audio, or playback.",
+    "A parent-captured component image and independent three-screen implementation are pending."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

@@ -1,0 +1,52 @@
+(function () {
+  "use strict";
+  const catalog = {
+    "charms": { eyebrow:"CHARM NOTCHES",title:"Quiet things have weight",description:"A small ring carries a small promise. Check its notch cost before setting a new charm.",chip:"WORN 02 / 08",action:"Set charm",items:[
+      {name:"Mothwing pin",kind:"1 NOTCH · FOUND",glyph:"feather",effect:"A pale wing catches the cave’s last light.",cost:1,result:"Mothwing pin is worn; notch use is 3 / 8."},
+      {name:"Fossil bell",kind:"2 NOTCHES · FOUND",glyph:"bell",effect:"A soft note marks a safe resting place.",cost:2,result:"Fossil bell is worn; notch use is 4 / 8."},
+      {name:"Deepwater shell",kind:"3 NOTCHES · FOUND",glyph:"shell",effect:"A dark pearl waits beneath the silt.",cost:3,result:"Deepwater shell is worn; notch use is 5 / 8."}
+    ]},
+    "inventory": { eyebrow:"FIELD SATCHEL",title:"Carry only what still has a use",description:"Counts sit beside their silhouettes; one small pocket keeps the next useful thing near.",chip:"PACK · 06 OBJECTS",action:"Pin to quick pouch",items:[
+      {name:"Glass map",kind:"PAPER · 1",glyph:"map",effect:"A penciled turn survives the damp.",count:"1",result:"Glass map is pinned to the quick pouch."},
+      {name:"Pale seed",kind:"SEED · 4",glyph:"seed",effect:"A little warmth rests inside the husk.",count:"4",result:"Pale seed is pinned to the quick pouch."},
+      {name:"Shell shard",kind:"RELIC · 2",glyph:"shell",effect:"A small edge from a far quiet shore.",count:"2",result:"Shell shard is pinned to the quick pouch."}
+    ]},
+    "kingdom-map": { eyebrow:"KINGDOM MAP",title:"Choose the next quiet crossing",description:"One linked room becomes the next route. A sealed chamber stays visible but asks for its own key.",chip:"CURRENT · PALE GALLERY",action:"Set route",items:[
+      {name:"Moss stair",kind:"OPEN · NORTH LINK",glyph:"leaf",effect:"A narrow stair climbs through soft green light.",result:"Route set: Moss stair is the next crossing."},
+      {name:"Blue reservoir",kind:"OPEN · EAST LINK",glyph:"drop",effect:"A waterline threads beneath the old bell room.",result:"Route set: Blue reservoir is the next crossing."},
+      {name:"Veil chamber",kind:"SEALED · KEY REQUIRED",glyph:"star",effect:"The pale door has not yet answered.",result:"Veil chamber is sealed; find its key first."}
+    ]}
+  };
+  const state={
+    "charms":{selected:0,committed:false,result:"",notches:2,worn:"Glowlace"},
+    "inventory":{selected:0,committed:false,result:"",quickPouch:"Empty"},
+    "kingdom-map":{selected:0,committed:false,result:"",current:"Pale gallery"}
+  };
+  function icon(name){return '<svg class="sigil" viewBox="0 0 48 48" aria-hidden="true"><use href="assets/icons.svg#'+name+'"></use></svg>'}
+  function intro(id,n){const s=catalog[id];return '<header class="intro"><p class="eyebrow">'+n+' <span>·</span> '+s.eyebrow+'</p><div class="title-line"><div><h1 id="title-'+id+'">'+s.title+'</h1><p>'+s.description+'</p></div><span class="chip">'+s.chip+'</span></div></header>'}
+  function output(id){const item=catalog[id].items[state[id].selected];return '<div class="commit-line"><p id="result-'+id+'" role="status">'+(state[id].committed?state[id].result:"Preview: "+item.name+" · "+item.effect)+'</p><button type="button" class="commit" data-commit="'+id+'">'+catalog[id].action+'</button></div>'}
+  function charmChoice(id,i){const x=catalog[id].items[i],yes=state[id].selected===i;return '<button class="charm-choice'+(yes?' selected':'')+'" type="button" data-pick="'+id+':'+i+'" aria-label="Choose '+x.name+'" aria-pressed="'+yes+'"><span class="socket">'+icon(x.glyph)+'</span><span class="choice-body"><small>'+x.kind+'</small><strong>'+x.name+'</strong><span>'+x.effect+'</span></span><b class="notch-label">'+x.cost+' notch'+(x.cost===1?"":"es")+'</b><span class="state-word">'+(yes?(state[id].committed?"WORN · SELECTED":"PREVIEW SELECTED"):"AVAILABLE")+'</span></button>'}
+  function screen(id){
+    if(id==="charms"){
+      return '<section class="screen charms-screen" id="charms" aria-labelledby="title-charms">'+intro(id,"01")+'<div class="charm-layout"><div class="ring-side"><div class="ring-glass"><div class="ring-track"></div><span class="socket-place place-a">'+icon("shell")+'</span><span class="socket-place place-b">'+icon("leaf")+'</span><span class="socket-place place-c">'+icon("feather")+'</span><span class="socket-place place-d">'+icon("bell")+'</span><div class="ring-center"><span>WORN</span><strong>'+state.charms.notches+'<i>/ 8</i></strong><small>NOTCHES USED</small></div></div><p class="worn-name"><span>ALREADY SET</span><b>'+state.charms.worn+'</b></p><img class="wanderer-thumb" src="assets/hero-illustration.svg" alt="Original wanderer silhouette beneath a blue arch"></div><div class="charm-ledger"><div class="ledger-cap"><span>FOUND CHARMS</span><span>SELECT ONE TO PREVIEW</span></div>'+catalog[id].items.map(function(_,i){return charmChoice(id,i)}).join("")+'<p class="fine-print">One socket is open. Setting a charm replaces that open place and updates the ring total.</p></div></div>'+output(id)+'</section>';
+    }
+    if(id==="inventory"){
+      const selected=catalog[id].items[state[id].selected];
+      const bag=[{name:"Shell shard",glyph:"shell",count:"02"},{name:"Pale seed",glyph:"seed",count:"04"},{name:"Glass map",glyph:"map",count:"01"},{name:"Blue petal",glyph:"leaf",count:"03"},{name:"Bell scrap",glyph:"bell",count:"01"},{name:"Empty space",glyph:"",count:"—"}];
+      return '<section class="screen satchel-screen" id="inventory" aria-labelledby="title-inventory">'+intro(id,"02")+'<div class="satchel-layout"><div class="satchel-board"><div class="bag-stitch"><span>SATCHEL / FOUND OBJECTS</span><span>06 SLOTS</span></div><div class="bag-grid">'+bag.map(function(x,i){return '<div class="bag-slot'+(x.name==="Empty space"?" empty":"")+'"><span class="bag-art">'+(x.glyph?icon(x.glyph):"·")+'</span><strong>'+x.name+'</strong><small>'+x.count+'</small></div>'}).join("")+'</div><div class="quick-pouch"><span class="pouch-icon">'+icon("ring")+'</span><span><small>QUICK POUCH</small><b>'+state.inventory.quickPouch+'</b></span><em>1 SLOT</em></div></div><div class="satchel-choices"><p class="ledger-label">CHOOSE A CARRIED OBJECT</p>'+catalog[id].items.map(function(x,i){const yes=state[id].selected===i;return '<button type="button" class="object-line'+(yes?" selected":"")+'" data-pick="'+id+':'+i+'" aria-label="Choose '+x.name+'" aria-pressed="'+yes+'"><span class="object-icon">'+icon(x.glyph)+'</span><span class="object-copy"><strong>'+x.name+'</strong><small>'+x.kind+' · COUNT '+x.count+'</small><span>'+x.effect+'</span></span><span class="object-state">'+(yes?(state[id].committed?"PINNED":"PREVIEW"):"CHOOSE")+'</span></button>'}).join("")+'<p class="fine-print">The pouch is a quick access slot, not a second inventory.</p></div></div>'+output(id)+'</section>';
+    }
+    const current=state[id].current;
+    return '<section class="screen map-screen" id="kingdom-map" aria-labelledby="title-kingdom-map">'+intro(id,"03")+'<div class="map-layout"><div class="map-art"><div class="map-topline"><span>REGIONAL SKETCH · NOT TO SCALE</span><span>YOU ARE HERE</span></div><div class="map-canvas"><span class="path-stroke path-main"></span><span class="path-stroke path-branch"></span><span class="room-node current"><i></i><b>'+current+'</b><small>CURRENT ROOM</small></span><span class="room-node node-moss"><i></i><b>Moss stair</b><small>OPEN LINK</small></span><span class="room-node node-water"><i></i><b>Blue reservoir</b><small>OPEN LINK</small></span><span class="room-node node-sealed"><i></i><b>Veil chamber</b><small>SEALED</small></span><span class="map-compass">N<br><b>✦</b></span></div><p class="map-legend"><span><i class="legend-current"></i> Current room</span><span><i class="legend-open"></i> Open crossing</span><span><i class="legend-sealed"></i> Sealed door</span></p></div><div class="route-ledger"><p class="ledger-label">LINKED ROOMS · SELECT A ROUTE</p>'+catalog[id].items.map(function(x,i){const yes=state[id].selected===i,locked=x.name==="Veil chamber";return '<button type="button" class="route-line'+(yes?" selected":"")+'" data-pick="'+id+':'+i+'" aria-label="Choose '+x.name+(locked?" locked":"")+'" aria-pressed="'+yes+'" '+(locked?"disabled":"")+'><span class="route-mark">'+icon(x.glyph)+'</span><span><strong>'+x.name+'</strong><small>'+x.kind+'</small><em>'+x.effect+'</em></span><b class="route-state">'+(locked?"LOCKED":yes?"PREVIEW":"FOLLOW")+'</b></button>'}).join("")+'<div class="tracked-crossing"><small>ROUTE PREVIEW</small><b>'+catalog[id].items[state[id].selected].name+'</b><span>Commit to update the next crossing.</span></div></div></div>'+output(id)+'</section>';
+  }
+  function activeId(){const id=window.location.hash.slice(1);return catalog[id]?id:"charms"}
+  function updateNav(id){document.querySelectorAll(".screen-nav a").forEach(function(a){if(a.getAttribute("href")==="#"+id)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")})}
+  function render(id){const app=document.getElementById("app");if(!app)return;app.innerHTML=screen(id);updateNav(id)}
+  function select(id,i){if(!catalog[id]||!catalog[id].items[i]||(id==="kingdom-map"&&i===2))return null;state[id].selected=i;state[id].committed=false;state[id].result="";render(id);return catalog[id].items[i].name}
+  function commit(id){if(!catalog[id])return null;const item=catalog[id].items[state[id].selected];if(id==="kingdom-map"&&state[id].selected===2)return null;state[id].committed=true;state[id].result=item.result;if(id==="charms")state[id].notches=2+item.cost;if(id==="inventory")state[id].quickPouch=item.name;if(id==="kingdom-map")state[id].current=item.name;render(id);return state[id].result}
+  function navigate(id){if(!catalog[id])return null;window.location.hash="#"+id;render(id);return id}
+  document.addEventListener("click",function(e){const p=e.target.closest("[data-pick]"),c=e.target.closest("[data-commit]");if(p){const a=p.dataset.pick.split(":");select(a[0],Number(a[1]));const n=document.querySelector('[data-pick="'+a[0]+":"+a[1]+'"]');if(n)n.focus()}else if(c){const id=c.dataset.commit;commit(id);const n=document.querySelector('[data-commit="'+id+'"]');if(n)n.focus()}});
+  window.addEventListener("hashchange",function(){render(activeId())});
+  window.run01Controller=Object.freeze({navigate:navigate,select:select,commit:commit,snapshot:function(){return JSON.parse(JSON.stringify(state))}});
+  render(activeId());
+}());
+

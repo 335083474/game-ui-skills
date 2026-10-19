@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2158dc">
+  <title>Pocket Cosmos — Katamari UI usage test</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#collection-book" aria-label="Pocket Cosmos home">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span><strong>Pocket Cosmos</strong><small>FIELD NOTES · SESSION SAMPLE</small></span>
+    </a>
+    <nav class="route-nav" aria-label="Game screens">
+      <a href="#collection-book" data-route="collection-book">Collection book</a>
+      <a href="#level-select" data-route="level-select">Level select</a>
+      <a href="#roll-results" data-route="roll-results">Roll results</a>
+    </nav>
+    <span class="reset-note">Reload resets the sample</span>
+  </header>
+  <main id="screen" tabindex="-1" aria-live="off"></main>
+
+  <template data-screen="collection-book">
+    <section class="screen collection-screen" aria-labelledby="screen-title">
+      <header class="screen-heading">
+        <p class="eyebrow">01 · FIND, NAME, PIN</p>
+        <h1 id="screen-title">Collection book</h1>
+        <p>Everyday things get a little cosmic when they stick. Pick a find, then pin one clear favorite for the next outing.</p>
+      </header>
+      <div class="collection-layout">
+        <figure class="art-stage">
+          <img src="./assets/katamari-art.png" alt="A colorful toy planet rolling up a paper kite, orange, kettle, leaf, alarm clock, and shoe beneath a yellow sun">
+          <figcaption><span>THE LITTLE PLANET</span><span>Original generated direction study</span></figcaption>
+          <span class="orbit orbit-one" aria-hidden="true">✦</span>
+          <span class="orbit orbit-two" aria-hidden="true">●</span>
+        </figure>
+        <section class="book-page" aria-label="Found-object collection">
+          <div class="page-label"><span>FIELD BOOK · 02 / 12</span><span data-star-count>0 ✦</span></div>
+          <h2>Small wonders</h2>
+          <div class="find-list" role="group" aria-label="Choose an object to preview">
+            <button class="find-sticker is-selected" type="button" data-action="select-find" data-id="citrus-wedge" aria-label="Preview Citrus wedge" aria-pressed="true">
+              <span class="sticker-icon citrus" aria-hidden="true">◒</span><span class="find-copy"><strong>Citrus wedge</strong><small>Kitchen find · tangy orbit</small></span><span class="find-state" data-find-state="citrus-wedge">FOUND</span>
+            </button>
+            <button class="find-sticker" type="button" data-action="select-find" data-id="blue-kettle" aria-label="Preview Blue kettle" aria-pressed="false">
+              <span class="sticker-icon kettle" aria-hidden="true">♨</span><span class="find-copy"><strong>Blue kettle</strong><small>Kitchen find · warm and round</small></span><span class="find-state" data-find-state="blue-kettle">FOUND</span>
+            </button>
+            <button class="find-sticker find-mystery" type="button" data-action="select-find" data-id="paper-kite" aria-label="Preview Paper kite" aria-pressed="false">
+              <span class="sticker-icon kite" aria-hidden="true">◇</span><span class="find-copy"><strong>Paper kite</strong><small>Sky find · waiting to be filed</small></span><span class="find-state" data-find-state="paper-kite">NOT FOUND</span>
+            </button>
+          </div>
+          <div class="selected-note">
+            <p class="eyebrow">YOUR PICK</p>
+            <h3 data-selected-name>Citrus wedge</h3>
+            <p data-selected-detail>A bright kitchen find, filed under little circles.</p>
+            <p class="pin-caption">Pinned field note: <strong data-pinned-name>Blue kettle</strong></p>
+            <button class="pop-button" type="button" data-action="pin-find" aria-label="Pin the selected find to field notes">Pin Citrus wedge to field notes</button>
+            <p class="inline-reason" data-pin-reason></p>
+          </div>
+          <p class="status-note" data-status role="status" aria-live="polite" tabindex="-1">Choose a found object to preview. A pin changes only the field-note favorite.</p>
+        </section>
+      </div>
+      <footer class="screen-foot"><span>Objects and discoveries are fictional sample state.</span><span>Keyboard: Tab to a find, Enter to preview.</span></footer>
+    </section>
+  </template>
+
+  <template data-screen="level-select">
+    <section class="screen level-screen" aria-labelledby="screen-title">
+      <header class="screen-heading heading-row">
+        <div><p class="eyebrow">02 · PICK A PATCH OF SKY</p><h1 id="screen-title">Level select</h1><p>One target, two breezy ways in. Choose a route before the roll is staged.</p></div>
+        <span class="sunburst" aria-hidden="true">☼</span>
+      </header>
+      <div class="level-layout">
+        <figure class="level-art">
+          <img src="./assets/katamari-art.png" alt="A paper kite and bright found objects are gathered into a colorful rolling ball">
+          <figcaption><strong>HARBOR NOON</strong><span>Warm breeze · open pavement</span></figcaption>
+        </figure>
+        <section class="destination-board" aria-label="Harbor Noon route choice">
+          <div class="target-orb"><span>SIZE TARGET</span><strong>15<small>cm</small></strong><em>180 seconds</em></div>
+          <p class="route-prompt">Where shall the little planet start?</p>
+          <div class="route-choices" role="group" aria-label="Choose a rolling route">
+            <button class="route-choice is-selected" type="button" data-action="select-route" data-id="seaside" aria-label="Preview Seaside route" aria-pressed="true"><span class="route-glyph" aria-hidden="true">≈</span><span><strong>Seaside</strong><small>Wide loop · easy first finds</small></span><span class="route-check">✓</span></button>
+            <button class="route-choice" type="button" data-action="select-route" data-id="rooftops" aria-label="Preview Rooftop route" aria-pressed="false"><span class="route-glyph roof" aria-hidden="true">⌂</span><span><strong>Rooftops</strong><small>Short turns · higher ledges</small></span><span class="route-check">✓</span></button>
+          </div>
+          <p class="route-summary" data-route-summary>Seaside: a wide harbor loop for gathering the first few small finds.</p>
+          <button class="pop-button start-button" type="button" data-action="stage-route" aria-label="Begin the selected roll route">Begin Seaside roll</button>
+          <p class="status-note" data-status role="status" aria-live="polite" tabindex="-1">Route choice is a preview until you begin the roll.</p>
+        </section>
+      </div>
+      <footer class="screen-foot"><span>Route details are sample play state.</span><span>Use the route buttons, then begin the roll.</span></footer>
+    </section>
+  </template>
+
+  <template data-screen="roll-results">
+    <section class="screen results-screen" aria-labelledby="screen-title">
+      <header class="screen-heading results-heading">
+        <p class="eyebrow">03 · THE SKY IS FULL OF STICKERS</p>
+        <h1 id="screen-title">Roll results</h1>
+        <p>A bright reveal for a small, very respectable roll. Record it once to file the new find and star.</p>
+      </header>
+      <div class="results-layout">
+        <figure class="results-art">
+          <img src="./assets/katamari-art.png" alt="A toy planet has rolled up a kite, orange, kettle, clock, leaf, and shoe">
+          <figcaption>ONE MORE LITTLE WORLD</figcaption>
+          <span class="confetti confetti-a" aria-hidden="true">✦</span><span class="confetti confetti-b" aria-hidden="true">●</span><span class="confetti confetti-c" aria-hidden="true">◆</span>
+        </figure>
+        <section class="result-ticket" aria-label="Roll score and reward">
+          <div class="score-seal"><span>ROLL SIZE</span><strong>18<small>cm</small></strong><em>3 cm past target</em></div>
+          <div class="new-find"><span class="new-find-icon" aria-hidden="true">◇</span><div><span class="eyebrow">NEW IN THE BOOK</span><strong>Paper kite</strong><small>Sky find · caught on the breeze</small></div><span class="stamp">NEW!</span></div>
+          <div class="reward-line"><span>Record reward</span><strong>+1 star</strong><small>Added once when this roll is sealed.</small></div>
+          <button class="pop-button seal-button" type="button" data-action="record-roll" aria-label="Record the 18 cm roll">Record this roll</button>
+          <p class="status-note" data-status role="status" aria-live="polite" tabindex="-1">This result is still a preview. Recording adds one star and files Paper kite.</p>
+          <a class="back-link" href="#level-select">Plan another roll →</a>
+        </section>
+      </div>
+      <footer class="screen-foot"><span>Result and reward are fictional sample state.</span><span>Reload resets the sample session.</span></footer>
+    </section>
+  </template>
+</body>
+</html>

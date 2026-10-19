@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path":"references/images/style-board.svg","kind":"authored-vector-style-board","role":"Ship layout and engineering-control grammar; not a screenshot."},
+  "assets": [
+    {"path":"assets/art/ship-plan.svg","kind":"original-authored-vector","role":"Reusable room/corridor diagram with editable room labels and system bays.","sourceGameAsset":false}
+  ],
+  "fonts":{"copied":false,"cssFallback":"Consolas, Lucida Console, monospace"},
+  "screenshots":{"officialRedistributed":false,"packageCapture":"pending parent capture"}
+}

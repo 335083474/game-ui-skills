@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucky Trail — Reward</title>
+  <link rel="stylesheet" href="assets/components/theme.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body class="bui-table">
+  <div class="game-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#reward" aria-label="Lucky Trail home"><span aria-hidden="true">♠</span> LUCKY TRAIL<span class="edition">A SMALL ADVENTURE</span></a>
+      <div id="hud" class="hud" aria-label="Player status"></div>
+    </header>
+    <nav class="screen-nav" aria-label="Game screens">
+      <a href="#reward" data-route="reward"><span>01</span> Reward</a>
+      <a href="#inventory" data-route="inventory"><span>02</span> Inventory</a>
+      <a href="#shop" data-route="shop"><span>03</span> Shop</a>
+    </nav>
+    <main id="screen"></main>
+    <div id="feedback" class="feedback" role="status" aria-live="polite">The trail is yours. Make your next move.</div>
+    <footer><span>LUCKY TRAIL · LOCAL PLAY SESSION</span><button id="reset" class="reset-button">Reset adventure</button></footer>
+  </div>
+</body>
+</html>

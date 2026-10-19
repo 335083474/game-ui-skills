@@ -1,0 +1,40 @@
+{
+  "slug": "cuphead",
+  "packageName": "cuphead-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "equipment-cards",
+      "title": "Equipment cards",
+      "description": "A clear loadout compares shot, charm, and super choices with readable names and selected checkmarks."
+    },
+    {
+      "id": "shop-counter",
+      "title": "Shop counter",
+      "description": "A compact purchase counter exposes price and owned state, previews the item, and separates buy from back."
+    },
+    {
+      "id": "level-results",
+      "title": "Level results",
+      "description": "A punchy results reveal reads grade, time, and objective marks in a stable order before replay choices."
+    }
+  ],
+  "referenceImage": "assets/illustrations/cuphead-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original generated art is a style cue, not official or canonical source-game UI.",
+    "Title-specific keyword demand remains unknown; rank/category data is not search-volume evidence."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

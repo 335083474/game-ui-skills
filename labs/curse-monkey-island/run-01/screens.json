@@ -1,0 +1,52 @@
+{
+  "slug": "curse-monkey-island",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "inventory-tray",
+      "title": "Inventory tray",
+      "description": "A small set of tactile item tokens stays distinct from the scene and supports inspect, select, combine, and cancel."
+    },
+    {
+      "id": "item-interaction",
+      "title": "Item interaction",
+      "description": "A selected item and target form a clear contextual action with feedback about a plausible or rejected use."
+    },
+    {
+      "id": "dialogue-scene",
+      "title": "Dialogue scene",
+      "description": "A character-forward line, expression cue, and a small response set sit over a mostly open painted scene."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "inventory-tray",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select Waxed chart to inspect or combine" },
+        { "action": "click", "role": "button", "name": "Select Chalk nub to inspect or combine" },
+        { "action": "click", "role": "button", "name": "Preview selected combination" },
+        { "action": "click", "role": "button", "name": "Combine Waxed chart and Chalk nub" }
+      ],
+      "expectedText": ["Reef-marked chart is ready; Waxed chart and Chalk nub were spent exactly once."]
+    },
+    {
+      "screenId": "item-interaction",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select Chalk nub as the active item" },
+        { "action": "click", "role": "button", "name": "Choose Waxed chart as the target" },
+        { "action": "click", "role": "button", "name": "Preview chalk on the selected target" },
+        { "action": "click", "role": "button", "name": "Confirm use: Chalk nub on Waxed chart" }
+      ],
+      "expectedText": ["The Waxed chart now bears a reef note. Chalk nub consumed: 1."]
+    },
+    {
+      "screenId": "dialogue-scene",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview ask about the hidden reef" },
+        { "action": "click", "role": "button", "name": "Speak the selected response" }
+      ],
+      "expectedText": ["Captain Vela marks the hidden reef on your chart."]
+    }
+  ]
+}

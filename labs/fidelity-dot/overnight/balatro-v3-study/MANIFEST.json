@@ -1,0 +1,322 @@
+{
+  "version": "3-representative",
+  "approval": "pending-recipient-review",
+  "baseManifestSHA256": "a5d73e5ce7a2e39e9b2543354a5848467a443b7d47729c0eef2ced615fa23c4f",
+  "files": [
+    {
+      "path": "APPLY-v3.md",
+      "bytes": 2862,
+      "sha256": "9f367c4ebd1e2c42adc615ed3f1e273213d56547acc1508fc24fe50241a2ec00"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3526,
+      "sha256": "93fc4f028dab760b3239fe7fc59af8f91eb20008e3c682e889aedc30ebfbb283"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 3437,
+      "sha256": "b06a34ac17a9be2c79f068a409dfa4b85f2190a73d8404eb8cbf8fb6f6b785fd"
+    },
+    {
+      "path": "check.py",
+      "bytes": 1234,
+      "sha256": "ec1cf6b72fa290db4cf11cfa9225d36f47ebf302f6a91992af1138ea6e6ea70a"
+    },
+    {
+      "path": "components/arcana_pack.png",
+      "bytes": 224584,
+      "sha256": "5bb3472ef1e27adc296274e6a0aed744ee573d47523b675383e1683c5266c122"
+    },
+    {
+      "path": "components/background.png",
+      "bytes": 100235,
+      "sha256": "909d10a6720f9ea90c1060490f74d75fa1b9b28a508f57d8c92b36e5eece9d0a"
+    },
+    {
+      "path": "components/buffoon_pack.png",
+      "bytes": 198961,
+      "sha256": "b749d1e256ba65e796c93f8281da72ed61c40e95aa15c9f2d6d466197cfea7ab"
+    },
+    {
+      "path": "components/deck.png",
+      "bytes": 952,
+      "sha256": "bab8eaa1c8b82178701a3ff912743a6503979b1808cc181e40ab57cb1c7e3bc7"
+    },
+    {
+      "path": "components/joker_ballot.png",
+      "bytes": 163164,
+      "sha256": "452134c421ccc00e7fada8410602b7d1b76cb75389064ff9668af5ff43ce503b"
+    },
+    {
+      "path": "components/joker_green.png",
+      "bytes": 142670,
+      "sha256": "b8fa624aad7c8b81a681462017a580616b4afba8e28f0f9c07edd30b75b736b2"
+    },
+    {
+      "path": "components/joker_orange.png",
+      "bytes": 152793,
+      "sha256": "73ca8a0be7806e363b0f5c3db507ab9d642f3d7ab252973f6e0054b39bae14df"
+    },
+    {
+      "path": "components/joker_purple.png",
+      "bytes": 160968,
+      "sha256": "9433979c25f4553c7e2e9ea919886f9056b1e07e02a6da9e21ecb3bb6885b3b1"
+    },
+    {
+      "path": "components/joker_red.png",
+      "bytes": 163435,
+      "sha256": "90d866610b1f9972999a958bd148a743c076184b14f3f56e6ad68541fe768aa0"
+    },
+    {
+      "path": "components/joker_teal.png",
+      "bytes": 156532,
+      "sha256": "584f1562766f1605a7d212a6a0024da903f75f9e4505fbbbf8d2cbe497115a82"
+    },
+    {
+      "path": "components/labels.png",
+      "bytes": 9385,
+      "sha256": "e7db294f313752a8438fb9dfbbfee932ab576fa5d26d135524a13bb23fcf3cf0"
+    },
+    {
+      "path": "components/panels.png",
+      "bytes": 8033,
+      "sha256": "e60a019fef4f6e3883fb58659946921fb8c4a7ffdcebedb88371bcb93b342991"
+    },
+    {
+      "path": "components/score-chip.png",
+      "bytes": 316,
+      "sha256": "3379204644abec146d6283a7c47393141d54a5f0fa9d4f28d9264772383e5625"
+    },
+    {
+      "path": "components/shop-marquee.png",
+      "bytes": 4179,
+      "sha256": "9a50fc0329604f97931141cfd6c0b5cf64b4197f6cc928152c16d1ad10bb5e5c"
+    },
+    {
+      "path": "components/voucher.png",
+      "bytes": 1613,
+      "sha256": "b1d1b4f6d31f6a11d7a5604b8044c76dc115033c2c4a6d340f63b19892beeae7"
+    },
+    {
+      "path": "components/wheel_fortune.png",
+      "bytes": 177902,
+      "sha256": "23772f09c06a339c363c6c01134c3af04610e54561bc4034b6c3dee40c127f8a"
+    },
+    {
+      "path": "fonts/LICENSE-AND-ATTRIBUTION.txt",
+      "bytes": 791,
+      "sha256": "433d626d148a56fa47057aacd5e9fe268249ffedf555d82eb3f0e4a3a7a2eb3c"
+    },
+    {
+      "path": "fonts/canonical/README.md",
+      "bytes": 4987,
+      "sha256": "87addea260a388b0e8e7bf028b8cf17b4f7b4f9ea541b493a33a66a230b589d9"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_16.png",
+      "bytes": 1954,
+      "sha256": "b02bb4362b3ac377fc7a77208dc062aca51ae64a5595cbea12c724e79e3e9356"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_18.png",
+      "bytes": 2087,
+      "sha256": "61b7d972ce69e9b7e8b13bb79c6708ca9f6b38645bf07123e057e7398f426744"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_19.png",
+      "bytes": 2227,
+      "sha256": "1ec1b3ed47a75ade956c3330879f73e032bf3f4f2b40e062f36ce74a7791cef4"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_20.png",
+      "bytes": 2278,
+      "sha256": "221c0e4cee17dc9b0a226d13fde60f86ff22098aaf5aad8890d6ed55a3e80746"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_22.png",
+      "bytes": 2389,
+      "sha256": "d672737596552a23f20e8d9788344c85b074b9146bffb4ffdacc614683e3a744"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_24.png",
+      "bytes": 2591,
+      "sha256": "a64ad38ae3599dee11776e770d72fdedc20abc4c522764d5633c6e9faf0bdb41"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_26.png",
+      "bytes": 2670,
+      "sha256": "6e157378e05b27fb16e1c6a9655ec17445f2ab588e564516ee1816c654ef0259"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_32.png",
+      "bytes": 2703,
+      "sha256": "e907f7a6fc31dd5b69f0b5c42e53dfcf83f9815aba2fcf8cf6254360d1fcb2c2"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_40.png",
+      "bytes": 3329,
+      "sha256": "5a0f5b02504a3ddab619e6ddc9bf0d67b8183b834661cf7db0f16bdf9bc78563"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_48.png",
+      "bytes": 3406,
+      "sha256": "701a9a4498b030cc28a93efea56ca8afbdcbd5f1f74d83dd37c5ce38bbfa214a"
+    },
+    {
+      "path": "fonts/canonical/canonical_atlas_96.png",
+      "bytes": 5417,
+      "sha256": "f3cee0030e156a1caaba95cda948378f7e2079f42a55dc275cc2a0aa3c5d584e"
+    },
+    {
+      "path": "fonts/canonical/canonical_font.py",
+      "bytes": 2287,
+      "sha256": "e759fd084b93e2ee684ff1536b779e5b8c85806cb8c731462310cec3848978e4"
+    },
+    {
+      "path": "fonts/canonical/canonical_metrics.json",
+      "bytes": 474794,
+      "sha256": "985f1143426c42769a460075c3a0dcd343adb05318910629f177b0cdb676c0df"
+    },
+    {
+      "path": "fonts/canonical/comparison_metrics.json",
+      "bytes": 8677,
+      "sha256": "24e81704c457506c3979daaab64c72c06c14d28b4d4c49b05c47d31a44e78901"
+    },
+    {
+      "path": "fonts/canonical/expected_vectors.json",
+      "bytes": 80940,
+      "sha256": "bf63d38987282d55fb0c88dda1cdf9a665d6163f0f8144b240ec599ddfde1ce5"
+    },
+    {
+      "path": "fonts/canonical/generate_masters.py",
+      "bytes": 2069,
+      "sha256": "4d00400db04c21e1c044ce714f876f8814aea18027255564fa0b6fffaa4dee46"
+    },
+    {
+      "path": "fonts/canonical/reference_measurements.json",
+      "bytes": 1431,
+      "sha256": "e5c3093d1e5a761fa76e0c008b2b6d00fcc00f607afa152b7689526d3feff022"
+    },
+    {
+      "path": "fonts/canonical/test_font.py",
+      "bytes": 1210,
+      "sha256": "18b0a98f4856eb9370e8d7422969a42d29d3f7b1514e7fe07c372f77a1d4d1df"
+    },
+    {
+      "path": "fonts/canonical/v2_control_validation.json",
+      "bytes": 187,
+      "sha256": "6269c3265d2bbc5874240df5013eab6dba0c044b409b50fcfece44d56ad9cd26"
+    },
+    {
+      "path": "fonts/canonical/v2_count_controls.json",
+      "bytes": 671,
+      "sha256": "61f432c92491e0d032bf9753ac281dc97c62c13126e8f47c6df63fdafb5a5d9a"
+    },
+    {
+      "path": "fonts/canonical/validation.json",
+      "bytes": 264,
+      "sha256": "e17295070fe6c6937ff1c74c57024aade0f8535faa3788c4a6878f57af351a70"
+    },
+    {
+      "path": "fonts/m6x11.ttf",
+      "bytes": 13068,
+      "sha256": "64697c6fefd4a084dbe28f3df3e658b1f72bd148f81c4ec10fd1f8f944f18a20"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1462,
+      "sha256": "0c5dc6eb590bf06150da67282abdbfd95813fad3e3776222c8efb915701706cb"
+    },
+    {
+      "path": "output/balatro-shop-1024x576.png",
+      "bytes": 291706,
+      "sha256": "33512a1e268932353a41fee05afbb14c8433ce5f15a9da3b16d2b592af06e025"
+    },
+    {
+      "path": "output/balatro-shop-2x.png",
+      "bytes": 389274,
+      "sha256": "b58d057c5d3df613851602d20481e01553ea639ac70d80909b4136ca73fc3686"
+    },
+    {
+      "path": "output/glyph-specimens/button_price_comparison_no_crt.png",
+      "bytes": 6054,
+      "sha256": "73c4e9541618bdf399963a4654d0d77375d31e56b0bd1f5e90e656868581047a"
+    },
+    {
+      "path": "output/glyph-specimens/button_price_comparison_no_crt_2x.png",
+      "bytes": 10477,
+      "sha256": "2f71688ce810549ac1334f81f7f32d357821cd9a03f135a265f1ef579ba8a724"
+    },
+    {
+      "path": "output/render-report.json",
+      "bytes": 10524,
+      "sha256": "a0b71d7388393d89ad49a15bb3562d75e9320a89c7a7b15ea5c9ce593830d403"
+    },
+    {
+      "path": "output/score-fit-cases.png",
+      "bytes": 4569,
+      "sha256": "6866982fbb2e30be02db48c170f277efc19ae018b90fd79eb3f9bd0d33fd4b7e"
+    },
+    {
+      "path": "output/v3-test-results.json",
+      "bytes": 5279,
+      "sha256": "8446e03e000ad6e05de4dd3a7de5b7f55759df71cd4f9861f01cfe5918569f4c"
+    },
+    {
+      "path": "render.py",
+      "bytes": 9873,
+      "sha256": "9828e4ce5f7aeaf43edfb5b5284ae3e02339b1510b3fc42bb2c7e2490369d0d3"
+    },
+    {
+      "path": "separate_cards.py",
+      "bytes": 1266,
+      "sha256": "c0082706c7478ef756f8ef16c05b7c4113ad977321ce77a43909c0ccb0abd743"
+    },
+    {
+      "path": "sources/card-regions.json",
+      "bytes": 872,
+      "sha256": "d7aeadcc09c690a93e6edace83070e35a9d3227fd0ad01a50198d47a6413e3bf"
+    },
+    {
+      "path": "sources/decor/README.md",
+      "bytes": 3079,
+      "sha256": "9b449d838db0c1fd3534cc69abc855c3daec74222a4452bbfdc30b6f3a12508a"
+    },
+    {
+      "path": "sources/decor/component_specs.json",
+      "bytes": 654,
+      "sha256": "7c1561b82da7c9b71b0dcb795b878a6a0eeddbd5f78c0fb307eca6391c46ce72"
+    },
+    {
+      "path": "sources/decor/draw_decor.py",
+      "bytes": 8259,
+      "sha256": "a594110a320b6c21a6317f01eb073fed5f48d36fcbca808c3b9f9b40f87b013c"
+    },
+    {
+      "path": "sources/decor/shop_letter_masks.json",
+      "bytes": 25709,
+      "sha256": "14df6200f496cb062a412172859683c89a7a29bd2ffdcec2055aae84af4cc661"
+    },
+    {
+      "path": "sources/generated-card-sheet.png",
+      "bytes": 1623413,
+      "sha256": "bee2693361e6d264a5f36b0e187ef13e76fd3f94143512216b7b5e9caa9eff92"
+    },
+    {
+      "path": "sources/layout.json",
+      "bytes": 3095,
+      "sha256": "8ca11cb1c46aa8a08fda6f31c27d2385e1c6be2b67ede40048eaf64d038e56ba"
+    },
+    {
+      "path": "sources/palette.json",
+      "bytes": 274,
+      "sha256": "b3ac5a32ae96907a6c0dacff03ed68145bc0026e818d6ec98a7672e62fb94394"
+    },
+    {
+      "path": "test_v3.py",
+      "bytes": 2571,
+      "sha256": "f1a9a54403ce14dc0cc0bc8a82ed9c0656c247303fef04082d9adaf8ef9bffd1"
+    }
+  ]
+}

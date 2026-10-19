@@ -1,0 +1,194 @@
+{
+  "size": [
+    1024,
+    576
+  ],
+  "reference_state": {
+    "score": 0,
+    "chips": 0,
+    "mult": 0,
+    "hands": 4,
+    "discards": 3,
+    "cash": 9,
+    "ante": "3/8",
+    "round": 1,
+    "reroll": 5,
+    "jokerSlots": "4/5",
+    "consumableSlots": "1/2",
+    "deck": "52/52"
+  },
+  "cards": [
+    {
+      "id": "joker_orange",
+      "xy": [
+        266,
+        16
+      ],
+      "size": [
+        88,
+        120
+      ],
+      "rotation": 3
+    },
+    {
+      "id": "joker_red",
+      "xy": [
+        392,
+        18
+      ],
+      "size": [
+        88,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "joker_purple",
+      "xy": [
+        520,
+        16
+      ],
+      "size": [
+        88,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "joker_teal",
+      "xy": [
+        648,
+        18
+      ],
+      "size": [
+        88,
+        120
+      ],
+      "rotation": -2
+    },
+    {
+      "id": "wheel_fortune",
+      "xy": [
+        821,
+        16
+      ],
+      "size": [
+        78,
+        122
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "joker_green",
+      "xy": [
+        536,
+        220
+      ],
+      "size": [
+        90,
+        122
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "joker_ballot",
+      "xy": [
+        640,
+        220
+      ],
+      "size": [
+        90,
+        122
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "voucher",
+      "xy": [
+        407,
+        417
+      ],
+      "size": [
+        78,
+        122
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "buffoon_pack",
+      "xy": [
+        592,
+        399
+      ],
+      "size": [
+        96,
+        151
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "arcana_pack",
+      "xy": [
+        702,
+        399
+      ],
+      "size": [
+        96,
+        151
+      ],
+      "rotation": 0
+    }
+  ],
+  "source_reference": "Official press-kit screenshot, retained separately and not included in distributable",
+  "prices": {
+    "joker_green": 4,
+    "joker_ballot": 4,
+    "voucher": 10,
+    "buffoon_pack": 4,
+    "arcana_pack": 4
+  },
+  "score_slots": {
+    "blue": [
+      25,
+      312,
+      94,
+      47
+    ],
+    "red": [
+      147,
+      312,
+      94,
+      47
+    ],
+    "gap": 28,
+    "seamCenterX": 133,
+    "chipCenterX": 72,
+    "multCenterX": 194,
+    "chipAlign": "right",
+    "multAlign": "left",
+    "textTop": 318,
+    "textMaxWidth": 78,
+    "textMaxHeight": 35,
+    "minInset": 8,
+    "operatorMaxWidth": 24
+  },
+  "background": {
+    "style": "soft non-radial domain-warped green marbling",
+    "nativeGrid": [
+      512,
+      288
+    ],
+    "description": "Visible gentle non-radial domain-warped green flow strands; no distance/angle or concentric rings. Approximation, not original shader."
+  },
+  "font_roles": {
+    "mainButtons": 19,
+    "prices": 24,
+    "sidebarLabels": 18,
+    "otherLabels": 19,
+    "tagline": 26,
+    "approvedCounts": 32,
+    "largeCashAndScore": 48,
+    "voucherCaption": 16,
+    "fontRuntime": "independent frozen masters; no runtime TTF/rasterization/rescaling"
+  }
+}

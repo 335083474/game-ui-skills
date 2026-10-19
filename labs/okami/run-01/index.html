@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3edda">
+  <title>Pine-and-Reed Province — Item Scroll</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-style="okami">
+  <header class="scroll-head">
+    <a class="province-mark" href="#item-scroll" aria-label="Pine-and-Reed Province home"><span class="sun-mark" aria-hidden="true">◉</span><span><small>FIELD NOTES FROM</small><strong>PINE &amp; REED</strong></span></a>
+    <nav class="path-nav" aria-label="Field pages">
+      <a href="#item-scroll" data-screen="item-scroll">Things carried</a>
+      <a href="#technique-selection" data-screen="technique-selection">Ink gestures</a>
+      <a href="#field-journal" data-screen="field-journal">Field journal</a>
+    </nav>
+    <span class="journey-mark">PROVINCE 04 <i aria-hidden="true">·</i> DAY 12</span>
+  </header>
+  <main id="screen" tabindex="-1"></main>
+  <footer class="scroll-foot"><span>ORIGINAL FICTIONAL EXPLORATION</span><span>NOTES AND PREVIEWS LIVE IN THIS PAGE SESSION</span></footer>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title">
+    <span class="seal-stamp" aria-hidden="true">印</span>
+    <p class="eyebrow">PAUSE · READ THE COST</p>
+    <h2 id="confirm-title">Confirm this change?</h2>
+    <p id="confirm-copy"></p>
+    <div class="dialog-actions"><button type="button" class="quiet-action" data-cancel>Leave as it was</button><button type="button" class="ink-action" data-confirm>Confirm</button></div>
+  </dialog>
+</body>
+</html>

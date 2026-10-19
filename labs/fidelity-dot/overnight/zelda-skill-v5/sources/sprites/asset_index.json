@@ -1,0 +1,99 @@
+{
+  "inventory_rows": [
+    [
+      "bow",
+      "boomerang",
+      "hookshot",
+      "bomb",
+      "mushroom"
+    ],
+    [
+      "fire_rod",
+      "ice_rod",
+      "medallion_lightning",
+      "medallion_flame",
+      "medallion_quake"
+    ],
+    [
+      "lantern",
+      "hammer_gold",
+      "flute_observed",
+      "bug_net",
+      "book_green"
+    ],
+    [
+      "bottle_red",
+      "cane_red",
+      "cane_blue",
+      "cape_red",
+      "mirror"
+    ]
+  ],
+  "equipment": [
+    "sword_metal",
+    "shield_gold",
+    "armor_red"
+  ],
+  "actions": [
+    "boots_gold",
+    "glove_gold",
+    "flippers_blue",
+    "pearl_red"
+  ],
+  "crystal": "crystal_faceted",
+  "dimensions": {
+    "default": [
+      16,
+      16
+    ],
+    "crystal_faceted": [
+      6,
+      8
+    ]
+  },
+  "placement": "Native PNG top-left is the cell anchor; no padding is added by the generator.",
+  "heart": "heart_red",
+  "recommended_scene_origins": {
+    "inventory": "(31 + 24*column, 31 + 24*row), zero based",
+    "flute_preview": [
+      200,
+      23
+    ],
+    "equipment": [
+      [
+        175,
+        158
+      ],
+      [
+        199,
+        158
+      ],
+      [
+        223,
+        158
+      ]
+    ],
+    "actions": [
+      [
+        32,
+        191
+      ],
+      [
+        64,
+        191
+      ],
+      [
+        96,
+        191
+      ],
+      [
+        128,
+        191
+      ]
+    ],
+    "heart": [
+      200,
+      191
+    ]
+  }
+}

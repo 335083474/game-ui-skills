@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watercolor narrative UI specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="board">
+    <header class="board-head">
+      <div>
+        <p class="eyebrow">GRIS · ORIGINAL DIRECTION STUDY</p>
+        <h1>Color held in open space</h1>
+        <p class="intro-copy">Small chapter, memory, and pause fragments. Pigment marks narrative tone; labels carry state.</p>
+      </div>
+      <figure class="art">
+        <img src="../reference-atmosphere.png" alt="Original watercolor ruins with open paper space and soft rose and slate pigment">
+        <figcaption>Original generated architecture plate</figcaption>
+      </figure>
+    </header>
+
+    <section class="specimen-grid" aria-label="Reusable interface specimens">
+      <article class="specimen">
+        <p class="eyebrow">01 · CHAPTER PATH</p>
+        <h2>Chapter threshold</h2>
+        <div class="path" role="group" aria-label="Preview a chapter">
+          <button type="button" class="chapter visited" aria-pressed="false" data-chapter="Stone Steps">
+            <span class="chapter-mark" aria-hidden="true">◇</span><span>Stone Steps</span><small>Visited</small>
+          </button>
+          <span class="path-line" aria-hidden="true"></span>
+          <button type="button" class="chapter current" aria-pressed="true" data-chapter="Quiet Bridge">
+            <span class="chapter-mark" aria-hidden="true">●</span><span>Quiet Bridge</span><small>Current</small>
+          </button>
+          <span class="path-line faded" aria-hidden="true"></span>
+          <button type="button" class="chapter unreached" aria-pressed="false" data-chapter="Blue Arch">
+            <span class="chapter-mark" aria-hidden="true">○</span><span>Blue Arch</span><small>Unreached</small>
+          </button>
+        </div>
+        <div class="commit-row">
+          <span data-preview>Preview: Quiet Bridge</span>
+          <button type="button" class="action" data-action="enter">Enter chapter</button>
+        </div>
+        <p class="status" role="status" aria-live="polite">A chapter becomes active only after a separate action.</p>
+      </article>
+
+      <article class="specimen">
+        <p class="eyebrow">02 · MEMORIES</p>
+        <h2>Memory fragment</h2>
+        <div class="memory-fragment">
+          <span class="memory-shape" aria-hidden="true"></span>
+          <div><p class="memory-title">Paper bird</p><p class="memory-state">Found · example state</p></div>
+          <button type="button" class="action" data-action="open-memory">Read</button>
+        </div>
+        <div class="memory-reading" data-memory hidden>
+          <p>A folded shape rests where the wind turns quiet.</p>
+          <button type="button" class="text-action" data-action="close-memory">Close fragment</button>
+        </div>
+        <p class="status" role="status" aria-live="polite">Reading opens a view; it does not change collection state.</p>
+      </article>
+
+      <article class="specimen pause-specimen">
+        <p class="eyebrow">03 · PAUSE</p>
+        <h2>Small pause surface</h2>
+        <div class="pause-surface">
+          <div class="pause-copy"><span class="pause-dot" aria-hidden="true"></span><span>Paused</span></div>
+          <button type="button" class="action" data-action="continue">Continue</button>
+        </div>
+        <p class="secondary-link">Chapters <span aria-hidden="true">·</span> Controls</p>
+        <p class="status" role="status" aria-live="polite">Keep the world visible behind pause choices.</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>Original architecture study · no heroine included</span>
+      <span>Keyboard ready · local assets · reduced motion</span>
+    </footer>
+  </main>
+  <script src="demo.js"></script>
+</body>
+</html>
+

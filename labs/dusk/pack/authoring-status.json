@@ -1,0 +1,41 @@
+{
+  "slug": "dusk",
+  "packageName": "dusk-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "weapon-loadout",
+      "title": "Weapon Loadout",
+      "description": "A compact row of invented weapon silhouettes, ammunition counts, current selection, and one contextual action."
+    },
+    {
+      "id": "combat-hud",
+      "title": "Combat HUD",
+      "description": "A low-chrome live playfield with one central reticle, edge health/ammo readouts, and a transient interaction hint."
+    },
+    {
+      "id": "pause-settings",
+      "title": "Pause Settings",
+      "description": "A paused control list with keyboard bindings, one selected row, and a small display/audio switch group."
+    }
+  ],
+  "referenceImage": "references/images/style-reference.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "The corridor, weapon silhouettes, controls, and numbers are original vector artwork and synthetic examples; no DUSK game assets or font are included.",
+    "The art target is the original 2018 low-resolution 3D direction, not DUSK HD or a captured game screen.",
+    "No engine integration, gameplay logic, or measured search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

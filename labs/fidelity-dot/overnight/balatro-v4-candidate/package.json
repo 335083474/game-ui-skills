@@ -1,0 +1,9 @@
+{
+  "name": "balatro-component-candidate",
+  "version": "4.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tests/qa-model.cjs && node tests/qa-scene.cjs && node tests/qa-runtime-mock.cjs && node tests/font-layout.cjs"
+  }
+}

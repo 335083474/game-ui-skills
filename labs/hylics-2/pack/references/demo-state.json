@@ -1,0 +1,37 @@
+{
+  "party": {
+    "members": [
+      {"id": "palla", "label": "Palla", "role": "front", "condition": "ready"},
+      {"id": "orren", "label": "Orren", "role": "support", "condition": "ready"},
+      {"id": "vesh", "label": "Vesh", "role": "reserve", "condition": "tired"}
+    ],
+    "selectedId": null,
+    "activeId": "palla"
+  },
+  "gesture-battle": {
+    "actorId": "palla",
+    "targetId": "moss-orb",
+    "gestures": [
+      {"id": "spiral", "label": "Spiral", "preview": "Focus"},
+      {"id": "pulse", "label": "Pulse", "preview": "Stagger"},
+      {"id": "echo", "label": "Echo", "preview": "Guard"}
+    ],
+    "selectedGesture": null,
+    "turnCommitted": false
+  },
+  "curio-bag": {
+    "items": [
+      {"id": "lumen-gel", "label": "Lumen gel", "effect": "Restore a small amount"},
+      {"id": "glass-hum", "label": "Glass hum", "effect": "Clear one condition"},
+      {"id": "salt-orbit", "label": "Salt orbit", "effect": "Unknown"}
+    ],
+    "selectedId": null,
+    "usedId": null,
+    "countsAreSynthetic": true
+  },
+  "interactionContract": {
+    "previewIsReversible": true,
+    "commitRequiresExplicitAction": true,
+    "persistence": "none; specimen state exists only in the local page"
+  }
+}

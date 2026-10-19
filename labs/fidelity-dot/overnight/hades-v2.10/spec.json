@@ -1,0 +1,241 @@
+{
+  "version": "hades-draft-v2.10",
+  "status": "draft_not_approved",
+  "tokens": {
+    "--page": "#141819",
+    "--panel": "#080b0d",
+    "--ink": "#eee8d8",
+    "--rare": "#36a7e7",
+    "--epic": "#bb69ed",
+    "--positive": "#a3d877",
+    "--link-accent": "#efd87b",
+    "--focus-ring": "#fff",
+    "--font-body": "DraftBody,sans-serif",
+    "--font-title": "DraftTitle,serif",
+    "--font-boon": "DraftControlsRegular,sans-serif",
+    "--scene-ratio": "16/9",
+    "--row-canvas-ratio": "1942/809",
+    "--row-core-ratio": "1893/435",
+    "--list-left": "28.4%",
+    "--list-top": "27%",
+    "--list-width": "44%",
+    "--list-gap": ".3cqw",
+    "--row-text-left": "23%",
+    "--row-text-right": "6%",
+    "--row-text-top": "4%",
+    "--row-text-bottom": "4%",
+    "--row-image-width": "102.588484%",
+    "--row-image-shift-x": "-1.287333%",
+    "--row-image-shift-y": "-20.39555%",
+    "--scene-title-size": "2.7cqw",
+    "--boon-title-size": "3.763636cqw",
+    "--body-row-size": "3.972727cqw",
+    "--stat-row-size": "2.822727cqw",
+    "--panel-height": "73.5%",
+    "--safe-panel-padding": ".8cqw",
+    "--safe-panel-gap": ".8cqw",
+    "--safe-status-font": "1cqw",
+    "--safe-status-line": "1.3",
+    "--scene-title-tracking": ".3845em"
+  },
+  "counts": {
+    "2": {
+      "--list-top": "33%",
+      "--list-left": "27.65%",
+      "--list-width": "45.5%",
+      "--body-row-size": "3.841758cqw",
+      "--boon-title-size": "3.63956cqw",
+      "--stat-row-size": "2.72967cqw",
+      "--list-gap": "1cqw",
+      "--panel-height": "84.5%"
+    },
+    "3": {},
+    "4": {
+      "--list-top": "31.5%",
+      "--list-left": "33.4%",
+      "--list-width": "34%",
+      "--list-gap": ".15cqw",
+      "--body-row-size": "5.19cqw",
+      "--boon-title-size": "4.82cqw",
+      "--stat-row-size": "3.65cqw",
+      "--row-text-top": "1%",
+      "--row-text-bottom": "1%",
+      "--panel-height": "84.5%"
+    }
+  },
+  "label": {
+    "left": "28%",
+    "top": "calc(15.5% + 3.04cqw)",
+    "font": "1.6cqw",
+    "lineHeight": 1.1
+  },
+  "row": {
+    "normal": "components/neutral-row-v27.png",
+    "normalCanvas": [
+      1942,
+      809
+    ],
+    "normalAlpha32": [
+      25,
+      165,
+      1918,
+      600
+    ],
+    "selection": "components/selection-overlay-v27.png",
+    "selectionCanvas": [
+      1945,
+      809
+    ],
+    "selectionAlpha32": [
+      22,
+      161,
+      1925,
+      607
+    ],
+    "core": [
+      1893,
+      435
+    ],
+    "origin": [
+      25,
+      165
+    ],
+    "normalAlphaNonzero": [
+      0,
+      23,
+      1923,
+      728
+    ],
+    "selectionAlphaNonzero": [
+      0,
+      13,
+      1944,
+      809
+    ],
+    "renderViewport": [
+      10,
+      151,
+      1935,
+      619
+    ],
+    "normalAlphaAbove1": [
+      23,
+      162,
+      1920,
+      603
+    ],
+    "selectionAlphaAbove1": [
+      10,
+      151,
+      1935,
+      619
+    ],
+    "viewportPolicy": "Choice-screen CSS clips only source margins with alpha<=1; all alpha>1 retained. Source PNG bytes unchanged. Full canvas containment no longer claimed for three-row layout."
+  },
+  "header": {
+    "asset": "components/header-banner.png",
+    "canvas": [
+      2206,
+      713
+    ],
+    "slicesX": [
+      0,
+      450,
+      1756,
+      2206
+    ],
+    "width": "77%",
+    "left": "12.5%",
+    "top": ".2%",
+    "titleCenterY": 292.5,
+    "subtitleCenterY": 480,
+    "titleLineHeight": 1.5,
+    "tracking": ".3845em",
+    "titleTargetWidth": "approximately42% scene width for BOONS OF HERMES, font outline advances plus CSS letter spacing; actual browser measure pending"
+  },
+  "frame": {
+    "asset": "components/greek-frame-v27.png",
+    "canvas": [
+      1448,
+      1086
+    ],
+    "alpha32": [
+      34,
+      69,
+      1415,
+      1030
+    ],
+    "slices": [
+      190,
+      155,
+      180,
+      155
+    ],
+    "border": "3cqw",
+    "repeat": "round"
+  },
+  "emblem": {
+    "asset": "components/hermes-emblem-v27.png",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "alpha32": [
+      19,
+      5,
+      1240,
+      1244
+    ],
+    "box": "left3% top4% width12.5% square"
+  },
+  "icons": {
+    "canvas": [
+      1254,
+      1254
+    ],
+    "evasionAlpha32": [
+      0,
+      0,
+      1254,
+      1253
+    ],
+    "hasteAlpha32": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "strikeAlpha32": [
+      1,
+      0,
+      1247,
+      1242
+    ],
+    "symbolWidth": "17.2%",
+    "imageWithinSymbol": "92%",
+    "left": "2%",
+    "textStart": "23%"
+  },
+  "lineHeights": {
+    "defaultTitle": 1.15,
+    "defaultBody": 1.2,
+    "defaultStat": 1.25,
+    "fourTitleBodyStat": 1.1
+  },
+  "sources": [
+    "https://interfaceingame.com/screenshots/hades-boons-of-hermes/",
+    "https://www.gamepressure.com/hades/charons-obol-nectar-and-darkness/z6d9c6"
+  ],
+  "safePanel": {
+    "contract": "CSS grid rows minmax(0,1fr) auto; border-box panel, safe inner padding, body and status are grid children",
+    "padding": ".8 scene cqw",
+    "gap": ".8 scene cqw",
+    "statusFont": "1 scene cqw",
+    "statusLineHeight": 1.3,
+    "statusBottom": "panel.bottom - computedBorderBottom - computedPaddingBottom",
+    "bodyBottom": "status.top - computedRowGap",
+    "baseOwner": "right tooltip left76% top64% width23% height24%, border2px",
+    "overviewOwner": "right detail panel left53% top22% width42% height66%, border2.7 scene cqw",
+    "failure": "If long body or status overflows, report measured bounds; never place text on border or reduce font automatically"
+  }
+}

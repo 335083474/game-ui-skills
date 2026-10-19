@@ -1,0 +1,42 @@
+{
+  "scope": "Node VM with minimal DOM mocks. This does not exercise a browser, layout, accessibility tree or real storage.",
+  "checks": [
+    {
+      "name": "Dialogue exposes three distinct reply branches, follow-ups and endings",
+      "result": "pass"
+    },
+    {
+      "name": "Settings preview changes DOM classes and unsaved marker",
+      "result": "pass"
+    },
+    {
+      "name": "Save survives a new app boot using the same local storage",
+      "result": "pass"
+    },
+    {
+      "name": "Cancel restores saved volume and comfort settings",
+      "result": "pass"
+    },
+    {
+      "name": "Restore defaults remains a draft until saved and can be cancelled",
+      "result": "pass"
+    },
+    {
+      "name": "Both hash routes navigate without losing the current conversation",
+      "result": "pass"
+    },
+    {
+      "name": "Unavailable storage reports failed save without claiming persistence",
+      "result": "pass"
+    },
+    {
+      "name": "Malformed persisted values are safely normalized",
+      "result": "pass"
+    },
+    {
+      "name": "Every runtime file reference is local and resolves inside run-02",
+      "result": "pass"
+    }
+  ],
+  "passed": 9
+}

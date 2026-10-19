@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c151b">
+  <title>Gloamwater — Forest interface study</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="masthead">
+      <a class="wordmark" href="#abilities" aria-label="Gloamwater home"><span class="wordmark-mark" aria-hidden="true">✧</span><span><strong>Gloamwater</strong><small>FIELD INTERFACE STUDY</small></span></a>
+      <nav class="view-nav" aria-label="Forest views">
+        <a href="#abilities" data-route="abilities">Abilities <span>01</span></a>
+        <a href="#shards" data-route="shards">Spirit shards <span>02</span></a>
+        <a href="#forest-map" data-route="forest-map">Forest map <span>03</span></a>
+      </nav>
+      <div class="session-mark"><span class="signal-dot"></span> Session only</div>
+    </header>
+    <main id="screen"></main>
+    <footer class="field-footer">
+      <label class="field-note"><span class="note-label">FIELD NOTE<small>PRIVATE TO THIS VISIT</small></span><textarea id="field-note" rows="2" maxlength="180" aria-label="Forest field note"></textarea></label>
+      <p class="footer-note">Original forest reference · Fictional interface · State resets when this page reloads</p>
+    </footer>
+    <div id="live-region" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+    <div id="dialog-root"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Original scientific instrument and ocean contour study</title>
+  <desc id="desc">A warm cream instrument plate with cyan topographic contours, a yellow route, radial heading dial, and invented sample markers.</desc>
+  <defs>
+    <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#eeeede"/game-ui-skills/><circle cx="2" cy="5" r=".45" fill="#7e9a8b" opacity=".22"/game-ui-skills/><circle cx="10" cy="12" r=".45" fill="#b3a26b" opacity=".22"/game-ui-skills/></pattern>
+    <pattern id="dots" width="15" height="15" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#49b7b0" opacity=".27"/game-ui-skills/></pattern>
+    <linearGradient id="water" x2="1" y2="1"><stop stop-color="#dbefea"/game-ui-skills/><stop offset="1" stop-color="#f4f0df"/game-ui-skills/></linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#grain)"/game-ui-skills/>
+  <rect x="36" y="36" width="1128" height="688" fill="#f5f1e2" stroke="#315b58" stroke-width="2"/game-ui-skills/>
+  <text x="66" y="77" fill="#183e3d" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">FIELD INSTRUMENT / GLIESE 667CC / STUDY</text>
+  <text x="1131" y="77" text-anchor="end" fill="#6b7d71" font-family="Consolas,monospace" font-size="11" letter-spacing="1">ORIGINAL SYNTHETIC DATA</text>
+  <path d="M63 98h1074M63 98v-9m1074 9v-9" stroke="#8eb8ad"/game-ui-skills/>
+  <rect x="62" y="121" width="735" height="485" fill="url(#water)" stroke="#4d7770"/game-ui-skills/>
+  <rect x="62" y="121" width="735" height="485" fill="url(#dots)" opacity=".52"/game-ui-skills/>
+  <g fill="none" stroke="#46aaa5" stroke-width="2" opacity=".8">
+    <path d="M70 221C150 173 222 184 287 220s147 45 202 0 182-51 298 7"/game-ui-skills/><path d="M66 247c97-50 171-38 233 0s152 48 211 5 186-51 288-2"/game-ui-skills/>
+    <path d="M68 274c91-45 170-31 226 8s154 53 217 13 178-51 286-6"/game-ui-skills/><path d="M64 305c98-38 172-24 230 15s154 54 223 18 172-50 280-7"/game-ui-skills/>
+    <path d="M70 459c82-62 156-69 237-30s145 82 218 52 151-88 269-53"/game-ui-skills/><path d="M67 485c89-61 163-65 242-25s147 76 219 47 151-83 270-50"/game-ui-skills/>
+    <path d="M64 512c95-56 168-61 250-20s147 70 224 43 152-78 267-47"/game-ui-skills/><path d="M67 539c101-49 177-54 256-16s148 63 226 38 149-71 261-43"/game-ui-skills/>
+    <path d="M149 343c21-27 69-36 103-22s44 48 24 72-68 28-102 9-45-37-25-59z"/game-ui-skills/><path d="M161 344c18-18 50-24 72-12s28 31 15 46-44 19-67 6-35-24-20-40z"/game-ui-skills/>
+    <path d="M532 367c32-30 88-38 121-17s33 57 1 78-85 22-116-2-34-40-6-59z"/game-ui-skills/><path d="M549 368c24-21 64-25 86-10s20 37-4 51-62 15-83-4-22-25 1-37z"/game-ui-skills/>
+  </g>
+  <path d="M193 429C265 412 332 438 385 414s92-65 150-60 81 38 147 14" fill="none" stroke="#e4c14e" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 10"/game-ui-skills/>
+  <g font-family="Consolas,monospace" font-size="11" fill="#285452">
+    <text x="80" y="151">SECTOR 03 / DEPTH 42 m</text><text x="705" y="151" text-anchor="end">N 064°</text>
+    <text x="90" y="187">01</text><text x="710" y="570" text-anchor="end">CONTOUR INTERVAL / DEMO</text>
+    <text x="126" y="406">R-01</text><text x="493" y="343">R-02</text><text x="669" y="386">R-03</text>
+  </g>
+  <g fill="#1f5754" stroke="#f5f1e2" stroke-width="3"><circle cx="193" cy="429" r="8"/game-ui-skills/><circle cx="535" cy="354" r="8"/game-ui-skills/><circle cx="682" cy="368" r="8"/game-ui-skills/></g>
+  <circle cx="193" cy="429" r="14" fill="none" stroke="#e4c14e" stroke-width="2"/game-ui-skills/>
+  <g transform="translate(919 347)">
+    <circle r="140" fill="#e3f1ec" stroke="#315f5a" stroke-width="2"/game-ui-skills/><circle r="111" fill="none" stroke="#8eb8ad"/game-ui-skills/><circle r="80" fill="none" stroke="#9ac5ba"/game-ui-skills/><circle r="46" fill="none" stroke="#a9cec2"/game-ui-skills/>
+    <path d="M0-128V-99M128 0H99M0 128V99M-128 0h29M90-90l-21 21M90 90l-21-21M-90 90l21-21M-90-90l21 21" stroke="#5e8b83" stroke-width="2"/game-ui-skills/>
+    <path d="M0 0 71-95" stroke="#e4c14e" stroke-width="5" stroke-linecap="round"/game-ui-skills/><path d="M71-95 68-68l-23-16z" fill="#d7b63f"/game-ui-skills/>
+    <circle cx="36" cy="-50" r="8" fill="#43aaa4" stroke="#fff8df" stroke-width="3"/game-ui-skills/><circle cx="-58" cy="27" r="6" fill="#43aaa4" stroke="#fff8df" stroke-width="3"/game-ui-skills/>
+    <circle r="6" fill="#183e3d"/game-ui-skills/>
+    <text x="0" y="-154" text-anchor="middle" fill="#315f5a" font-family="Consolas,monospace" font-size="11">N</text><text x="0" y="174" text-anchor="middle" fill="#315f5a" font-family="Consolas,monospace" font-size="10">HEADING 064°</text>
+  </g>
+  <rect x="817" y="529" width="275" height="76" fill="#e1eee8" stroke="#74aaa0"/game-ui-skills/>
+  <text x="835" y="554" fill="#234d49" font-family="Consolas,monospace" font-size="11" letter-spacing="1">SELECTED RETURN / R-01</text>
+  <text x="835" y="580" fill="#56746d" font-family="Arial,sans-serif" font-size="12">ridge · coordinate 03,11 · synthetic</text>
+  <path d="M63 633h1074" stroke="#9bb7a8"/game-ui-skills/>
+  <text x="66" y="665" fill="#315f5a" font-family="Consolas,monospace" font-size="10" letter-spacing="2">TOPOGRAPHIC PATHS / RADIAL HEADING / SAMPLE MARKINGS</text>
+  <text x="1130" y="665" text-anchor="end" fill="#a68d35" font-family="Consolas,monospace" font-size="10">ALL READINGS ARE INVENTED</text>
+</svg>

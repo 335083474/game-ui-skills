@@ -1,0 +1,328 @@
+{
+  "runtimeFreeTypeCallsBlocked": true,
+  "scoreCases": [
+    [
+      {
+        "text": "0",
+        "size": 48,
+        "alignment": "right",
+        "bounds": [
+          91,
+          318,
+          111,
+          353
+        ],
+        "fitBox": [
+          33,
+          318,
+          111,
+          353
+        ]
+      },
+      {
+        "text": "0",
+        "size": 48,
+        "alignment": "left",
+        "bounds": [
+          155,
+          318,
+          175,
+          353
+        ],
+        "fitBox": [
+          155,
+          318,
+          233,
+          353
+        ]
+      },
+      {
+        "text": "\u00d7",
+        "size": 48,
+        "alignment": "center",
+        "bounds": [
+          123,
+          325,
+          143,
+          345
+        ],
+        "fitBox": [
+          121,
+          318,
+          145,
+          353
+        ]
+      }
+    ],
+    [
+      {
+        "text": "9",
+        "size": 48,
+        "alignment": "right",
+        "bounds": [
+          91,
+          318,
+          111,
+          353
+        ],
+        "fitBox": [
+          33,
+          318,
+          111,
+          353
+        ]
+      },
+      {
+        "text": "99",
+        "size": 48,
+        "alignment": "left",
+        "bounds": [
+          155,
+          318,
+          196,
+          353
+        ],
+        "fitBox": [
+          155,
+          318,
+          233,
+          353
+        ]
+      },
+      {
+        "text": "\u00d7",
+        "size": 48,
+        "alignment": "center",
+        "bounds": [
+          123,
+          325,
+          143,
+          345
+        ],
+        "fitBox": [
+          121,
+          318,
+          145,
+          353
+        ]
+      }
+    ],
+    [
+      {
+        "text": "999",
+        "size": 48,
+        "alignment": "right",
+        "bounds": [
+          49,
+          318,
+          111,
+          353
+        ],
+        "fitBox": [
+          33,
+          318,
+          111,
+          353
+        ]
+      },
+      {
+        "text": "123",
+        "size": 48,
+        "alignment": "left",
+        "bounds": [
+          155,
+          318,
+          217,
+          353
+        ],
+        "fitBox": [
+          155,
+          318,
+          233,
+          353
+        ]
+      },
+      {
+        "text": "\u00d7",
+        "size": 48,
+        "alignment": "center",
+        "bounds": [
+          123,
+          325,
+          143,
+          345
+        ],
+        "fitBox": [
+          121,
+          318,
+          145,
+          353
+        ]
+      }
+    ],
+    [
+      {
+        "text": "1234",
+        "size": 40,
+        "alignment": "right",
+        "bounds": [
+          41,
+          320,
+          111,
+          350
+        ],
+        "fitBox": [
+          33,
+          318,
+          111,
+          353
+        ]
+      },
+      {
+        "text": "9999",
+        "size": 40,
+        "alignment": "left",
+        "bounds": [
+          155,
+          320,
+          225,
+          350
+        ],
+        "fitBox": [
+          155,
+          318,
+          233,
+          353
+        ]
+      },
+      {
+        "text": "\u00d7",
+        "size": 48,
+        "alignment": "center",
+        "bounds": [
+          123,
+          325,
+          143,
+          345
+        ],
+        "fitBox": [
+          121,
+          318,
+          145,
+          353
+        ]
+      }
+    ],
+    [
+      {
+        "text": "999999",
+        "size": 26,
+        "alignment": "right",
+        "bounds": [
+          42,
+          325,
+          111,
+          345
+        ],
+        "fitBox": [
+          33,
+          318,
+          111,
+          353
+        ]
+      },
+      {
+        "text": "99999999",
+        "size": 20,
+        "alignment": "left",
+        "bounds": [
+          155,
+          327,
+          226,
+          343
+        ],
+        "fitBox": [
+          155,
+          318,
+          233,
+          353
+        ]
+      },
+      {
+        "text": "\u00d7",
+        "size": 48,
+        "alignment": "center",
+        "bounds": [
+          123,
+          325,
+          143,
+          345
+        ],
+        "fitBox": [
+          121,
+          318,
+          145,
+          353
+        ]
+      }
+    ],
+    [
+      {
+        "text": "9999999999",
+        "size": 16,
+        "alignment": "right",
+        "bounds": [
+          40,
+          329,
+          111,
+          342
+        ],
+        "fitBox": [
+          33,
+          318,
+          111,
+          353
+        ]
+      },
+      {
+        "text": "1000000000",
+        "size": 16,
+        "alignment": "left",
+        "bounds": [
+          155,
+          329,
+          226,
+          342
+        ],
+        "fitBox": [
+          155,
+          318,
+          233,
+          353
+        ]
+      },
+      {
+        "text": "\u00d7",
+        "size": 48,
+        "alignment": "center",
+        "bounds": [
+          123,
+          325,
+          143,
+          345
+        ],
+        "fitBox": [
+          121,
+          318,
+          145,
+          353
+        ]
+      }
+    ]
+  ],
+  "oversizeExplicitError": true,
+  "slotGapPixels": 28,
+  "actualWindowsRun": false,
+  "fullCrossPlatformPNGIdentity": "v2 recipient Windows24PNG pixel match confirmed; v3 still awaits recipient verification",
+  "scope": "local Linux/Pillow canonical-mask and geometry checks"
+}

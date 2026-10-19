@@ -1,0 +1,3589 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-16",
+  "summary": {
+    "games": 70,
+    "complete": 70,
+    "study": 0,
+    "researched": 0,
+    "candidate": 0,
+    "families": 54,
+    "missingFamilies": 0,
+    "steamdbTerms": 29
+  },
+  "steamTags": [
+    {
+      "id": "1",
+      "name": "2D",
+      "zh": "二维",
+      "axis": "dimension",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "2",
+      "name": "3D",
+      "zh": "三维",
+      "axis": "dimension",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "3",
+      "name": "Colorful",
+      "zh": "多彩",
+      "axis": "descriptor",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "4",
+      "name": "Pixel Graphics",
+      "zh": "像素画",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "5",
+      "name": "Cute",
+      "zh": "可爱",
+      "axis": "descriptor",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "6",
+      "name": "First-Person",
+      "zh": "第一人称",
+      "axis": "perspective",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "7",
+      "name": "Stylized",
+      "zh": "风格化",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "8",
+      "name": "Anime",
+      "zh": "动漫",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "9",
+      "name": "Top-Down",
+      "zh": "俯视",
+      "axis": "perspective",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "10",
+      "name": "Third Person",
+      "zh": "第三人称",
+      "axis": "perspective",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "11",
+      "name": "Realistic",
+      "zh": "写实",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "12",
+      "name": "Cartoony",
+      "zh": "卡通化",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "13",
+      "name": "Hand-drawn",
+      "zh": "手绘",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "14",
+      "name": "Minimalist",
+      "zh": "极简",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "15",
+      "name": "Cartoon",
+      "zh": "卡通",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "16",
+      "name": "VR",
+      "zh": "虚拟现实",
+      "axis": "presentation",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "17",
+      "name": "Text-Based",
+      "zh": "文字呈现",
+      "axis": "presentation",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tag/31275/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "18",
+      "name": "Cinematic",
+      "zh": "电影感",
+      "axis": "presentation",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "19",
+      "name": "2.5D",
+      "zh": "二点五维",
+      "axis": "dimension",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "20",
+      "name": "Isometric",
+      "zh": "等距视角",
+      "axis": "perspective",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "21",
+      "name": "Abstract",
+      "zh": "抽象",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tag/4400/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "22",
+      "name": "Comic Book",
+      "zh": "漫画",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "23",
+      "name": "Psychedelic",
+      "zh": "迷幻",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "24",
+      "name": "Noir",
+      "zh": "黑色电影",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "25",
+      "name": "Split Screen",
+      "zh": "分屏",
+      "axis": "presentation",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "26",
+      "name": "Voxel",
+      "zh": "体素",
+      "axis": "style",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tag/1732/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "27",
+      "name": "FMV",
+      "zh": "实拍全动态影像",
+      "axis": "presentation",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tag/18594/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "28",
+      "name": "Beautiful",
+      "zh": "唯美评价",
+      "axis": "descriptor",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    },
+    {
+      "id": "29",
+      "name": "360 Video",
+      "zh": "全景视频",
+      "axis": "presentation",
+      "sourceCategory": "Visuals & Viewpoint",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16",
+      "classificationBasis": "SteamDB category observed; axis normalized editorially",
+      "catalogCount": null
+    }
+  ],
+  "families": [
+    {
+      "id": "crt-cards",
+      "label": "CRT 街机纸牌",
+      "parent": "像素与复古",
+      "tagIds": [
+        "4",
+        "7",
+        "1"
+      ],
+      "description": "扫描线、像素字、筹码和纸牌桌面",
+      "uiOpportunity": "奖励、牌组、结算",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "balatro"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "painted-fantasy",
+      "label": "手绘奇幻卡牌",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "7",
+        "1"
+      ],
+      "description": "笔触与纸牌层级，强调费用、稀有度和选中状态",
+      "uiOpportunity": "卡牌、背包、商店",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "slay-the-spire"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "cozy-pixel",
+      "label": "温暖生活像素",
+      "parent": "像素与复古",
+      "tagIds": [
+        "4",
+        "5",
+        "1"
+      ],
+      "description": "木框、低分辨率物件和轻松日常；横向动作可作变体",
+      "uiOpportunity": "背包、任务、制作",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "terraria",
+        "stardew-valley"
+      ],
+      "completeCount": 2,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "gradient-jrpg",
+      "label": "经典渐变 JRPG 菜单",
+      "parent": "像素与复古",
+      "tagIds": [
+        "7",
+        "1"
+      ],
+      "description": "渐变底、白色指针与紧凑队伍信息；主要研究菜单",
+      "uiOpportunity": "队伍、装备、战斗指令",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "final-fantasy-vii"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "ornamental-fantasy",
+      "label": "雕刻与金属奇幻",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "7"
+      ],
+      "description": "金属石雕、资源球、网格和密集属性提示",
+      "uiOpportunity": "装备、技能、交易",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "warcraft-iii",
+        "diablo-ii"
+      ],
+      "completeCount": 2,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "handheld-pixel",
+      "label": "掌机与 16-bit 像素",
+      "parent": "像素与复古",
+      "tagIds": [
+        "4",
+        "1"
+      ],
+      "description": "明确格点、短指令、对话框；版本尺寸需单独固定",
+      "uiOpportunity": "队伍、道具、对话",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "earthbound",
+        "chrono-trigger",
+        "zelda-alttp",
+        "pokemon-emerald"
+      ],
+      "completeCount": 4,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "silhouette",
+      "label": "灰雾剪影",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "14",
+        "1"
+      ],
+      "description": "场景轮廓主导，暂停和瞬时提示占很少空间",
+      "uiOpportunity": "暂停、章节、提示",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "limbo"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "watercolor",
+      "label": "水彩留白",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "7",
+        "1"
+      ],
+      "description": "晕染建筑和大片留白；不强行增加密集面板",
+      "uiOpportunity": "章节、回忆、暂停",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "gris"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "sand-symbols",
+      "label": "沙漠织物与符号",
+      "parent": "图形与符号",
+      "tagIds": [
+        "7",
+        "2"
+      ],
+      "description": "沙金、红布和门形符号；低常驻 UI",
+      "uiOpportunity": "章节门、进度、同伴信号",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "journey"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "fabric",
+      "label": "布艺玩具",
+      "parent": "手工与材质",
+      "tagIds": [
+        "7",
+        "5",
+        "2"
+      ],
+      "description": "毛毡、缝线、纽扣和纸板；可触摸的收藏物",
+      "uiOpportunity": "贴纸、装扮、关卡",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "littlebigplanet"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "paper",
+      "label": "折纸与纸片",
+      "parent": "手工与材质",
+      "tagIds": [
+        "7",
+        "12"
+      ],
+      "description": "折痕、剪边、翻页与纸层；平面纸片和立体折纸是不同变体",
+      "uiOpportunity": "收藏册、装扮、地图",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "paper-mario",
+        "tearaway"
+      ],
+      "completeCount": 2,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "clay",
+      "label": "超现实黏土",
+      "parent": "手工与材质",
+      "tagIds": [
+        "7",
+        "23"
+      ],
+      "description": "手工体积、指痕和古怪轮廓；状态仍需清楚",
+      "uiOpportunity": "队伍、手势、物品",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "hylics-2"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "nature-collage",
+      "label": "微观自然拼贴",
+      "parent": "手工与材质",
+      "tagIds": [
+        "7"
+      ],
+      "description": "苔藓、木头、菌类和物件；照片式材质不等于整体写实",
+      "uiOpportunity": "物件组合、图示、章节",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "samorost-3"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "cel-comic",
+      "label": "赛璐璐与强轮廓漫画",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "22",
+        "12",
+        "7"
+      ],
+      "description": "硬边色块、粗轮廓、斜切标签；涂鸦和武器漫画是不同变体",
+      "uiOpportunity": "角色、装备、任务",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "hades",
+        "jet-set-radio",
+        "borderlands-2"
+      ],
+      "completeCount": 3,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "wayfinding",
+      "label": "红白建筑导视",
+      "parent": "图形与符号",
+      "tagIds": [
+        "14",
+        "2",
+        "6"
+      ],
+      "description": "白色建筑上用红色集中引导运动路线",
+      "uiOpportunity": "路线、任务、动作提示",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "mirrors-edge"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "diegetic",
+      "label": "场景内全息设备",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "7",
+        "2",
+        "10"
+      ],
+      "description": "界面投射在场景和装备旁；Web 仅验证视觉与状态",
+      "uiOpportunity": "装备、商店、定位",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "dead-space"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "hd2d",
+      "label": "HD-2D 像素舞台",
+      "parent": "像素与复古",
+      "tagIds": [
+        "4",
+        "19"
+      ],
+      "description": "像素人物与立体舞台、光照和景深共同呈现",
+      "uiOpportunity": "队伍、装备、战斗",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "octopath-traveler"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "beige-system",
+      "label": "米色极简系统",
+      "parent": "图形与符号",
+      "tagIds": [
+        "14",
+        "7"
+      ],
+      "description": "细网格、黑色选中条和克制的系统装饰",
+      "uiOpportunity": "芯片、道具、设置",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "nier-automata"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "woodcut",
+      "label": "木刻恐怖卡牌",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "7",
+        "1"
+      ],
+      "description": "刻印符号、泛黄卡面、木桌与烛光对比",
+      "uiOpportunity": "卡牌、牌组、交换",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "inscryption"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "documents",
+      "label": "文书与档案界面",
+      "parent": "图形与符号",
+      "tagIds": [
+        "17",
+        "7",
+        "1"
+      ],
+      "description": "证件、账簿、证据与印章；像素和插画文书分开记录",
+      "uiOpportunity": "核验、证据、账簿",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "papers-please",
+        "ace-attorney"
+      ],
+      "completeCount": 2,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "alchemy-paper",
+      "label": "羊皮纸炼金地图",
+      "parent": "手工与材质",
+      "tagIds": [
+        "13",
+        "7",
+        "1"
+      ],
+      "description": "墨线原料、纸上路径与药瓶目录",
+      "uiOpportunity": "地图、配方、交易",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "potion-craft"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "ink-stickers",
+      "label": "墨水贴纸与街头排版",
+      "parent": "图形与符号",
+      "tagIds": [
+        "12",
+        "3",
+        "7"
+      ],
+      "description": "荧光撞色、倾斜粗字、胶带与墨点",
+      "uiOpportunity": "配置、商店、结算",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "splatoon-3"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "art-deco",
+      "label": "Art Deco 复古机械",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "7"
+      ],
+      "description": "黄铜、放射纹、几何饰边与售货机信息",
+      "uiOpportunity": "售货机、升级、线路",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "bioshock"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "oil-archive",
+      "label": "油画肖像与文学档案",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "17"
+      ],
+      "description": "粗笔触肖像、窄对话与思维卡",
+      "uiOpportunity": "对话、技能、思维",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "disco-elysium"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "industrial",
+      "label": "工业军事与生存仪表",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "7"
+      ],
+      "description": "仪表、资源趋势、军事科技与研究节点；各游戏变体单列",
+      "uiOpportunity": "研究、资源、战术",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "starcraft",
+        "frostpunk",
+        "xcom-2"
+      ],
+      "completeCount": 3,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "strategy-map",
+      "label": "古典策略地图",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "7",
+        "20"
+      ],
+      "description": "地图地块、科技分支、城市与回合信息",
+      "uiOpportunity": "科技、生产、外交",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "heroes-iii",
+        "civilization-vi"
+      ],
+      "completeCount": 2,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "ship-console",
+      "label": "舰船平面控制台",
+      "parent": "图形与符号",
+      "tagIds": [
+        "1",
+        "9",
+        "7"
+      ],
+      "description": "平面舱室、供能条、船员与紧凑数字",
+      "uiOpportunity": "升级、商店、舱室",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "ftl"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "graphic-trial",
+      "label": "高对比图形推理",
+      "parent": "图形与符号",
+      "tagIds": [
+        "7",
+        "8",
+        "1"
+      ],
+      "description": "倾斜标签、案件索引、证据选择与论点指向",
+      "uiOpportunity": "档案、证据、辩论",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "danganronpa"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "lifestyle",
+      "label": "柔软生活与玩具 UI",
+      "parent": "图形与符号",
+      "tagIds": [
+        "5",
+        "7"
+      ],
+      "description": "柔和面板、情绪需求、装扮与关系；不等同于布艺材质",
+      "uiOpportunity": "需求、建造、关系",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "animal-crossing",
+        "the-sims-4"
+      ],
+      "completeCount": 2,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "nordic-flat",
+      "label": "北欧平涂插画",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "7"
+      ],
+      "description": "宽色面、流动轮廓、旅行插画与物资账",
+      "uiOpportunity": "商队、事件、营地",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "banner-saga"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "manuscript",
+      "label": "手抄本与装饰字",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "1"
+      ],
+      "description": "花饰、首字母、书页证词和关系线",
+      "uiOpportunity": "关系、日志、对话",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "pentiment"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "toy-pop",
+      "label": "低多边形波普玩具",
+      "parent": "图形与符号",
+      "tagIds": [
+        "7",
+        "3",
+        "2"
+      ],
+      "description": "几何物件球、鲜艳色块与夸张比例；不代表所有低多边形",
+      "uiOpportunity": "收集、关卡、结算",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "katamari"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "mono-pixel",
+      "label": "黑白像素与文字命令",
+      "parent": "像素与复古",
+      "tagIds": [
+        "4",
+        "14",
+        "1"
+      ],
+      "description": "低色数边框、文字按钮与局部强调",
+      "uiOpportunity": "战斗、物品、对话",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "undertale"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "painted-adventure",
+      "label": "手绘冒险舞台",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "12",
+        "1"
+      ],
+      "description": "夸张人物、绘景、物件和语言反应",
+      "uiOpportunity": "物品、场景交互、对话",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "curse-monkey-island"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "rubber-hose",
+      "label": "1930 年代橡皮管卡通",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "15",
+        "13",
+        "1"
+      ],
+      "description": "复古墨线、舞台招贴与成绩印章",
+      "uiOpportunity": "装备、商店、成绩",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "cuphead"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "sumi",
+      "label": "水墨与卷轴",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "7"
+      ],
+      "description": "墨线、纸色、朱印、笔势和轻量滚卷",
+      "uiOpportunity": "行囊、笔技、日志",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "okami"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "one-bit",
+      "label": "一比特抖点雕刻",
+      "parent": "像素与复古",
+      "tagIds": [
+        "14",
+        "7"
+      ],
+      "description": "严格两色与点阵明暗；区别于一般黑白像素",
+      "uiOpportunity": "船员、证据、章节",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "obra-dinn"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "rhythm-cutout",
+      "label": "几何剪影节奏",
+      "parent": "图形与符号",
+      "tagIds": [
+        "14",
+        "7",
+        "1"
+      ],
+      "description": "几何群体、节拍符号与醒目命令反馈",
+      "uiOpportunity": "队形、远征、节奏",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "patapon"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "luminous-paint",
+      "label": "发光森林绘景",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "7"
+      ],
+      "description": "深蓝绿绘景、薄有机线与局部冷暖发光",
+      "uiOpportunity": "能力、碎片、地图",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "ori-wisps"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "gothic-ink",
+      "label": "哥特墨线与重影",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "7",
+        "1"
+      ],
+      "description": "枯笔、重黑块、夸张剪影",
+      "uiOpportunity": "背包、队伍、事件",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "hollow-knight",
+        "dont-starve",
+        "darkest-dungeon"
+      ],
+      "completeCount": 3,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "anime-flat",
+      "label": "动漫与潮流平面",
+      "parent": "图形与符号",
+      "tagIds": [
+        "8",
+        "7"
+      ],
+      "description": "角色插画、强切面、装饰字体；需固定具体作品",
+      "uiOpportunity": "角色、装备、任务",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "persona-5",
+        "genshin-impact",
+        "danganronpa"
+      ],
+      "completeCount": 3,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "voxel",
+      "label": "体素方块世界",
+      "parent": "空间与渲染",
+      "tagIds": [
+        "26",
+        "2"
+      ],
+      "description": "离散立方体与像素纹理",
+      "uiOpportunity": "制作、物品、建造",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "minecraft"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "neon",
+      "label": "霓虹赛博界面",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "7",
+        "2"
+      ],
+      "description": "高对比霓虹、数码层叠与城市标识",
+      "uiOpportunity": "装备、任务、地图",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "cyberpunk-2077"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "atomic-retro",
+      "label": "原子时代废土仪表",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "7",
+        "20"
+      ],
+      "description": "复古仪表、锈蚀控制台与废土物品",
+      "uiOpportunity": "角色、物品、对话",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "fallout-2"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "clear-line",
+      "label": "清线漫画与平涂沙漠",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "22",
+        "13",
+        "7"
+      ],
+      "description": "干净细轮廓、少阴影和平面分色；区别于粗描边漫画",
+      "uiOpportunity": "面具、任务、地图",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "sable"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "pencil",
+      "label": "铅笔素描与纸面纹理",
+      "parent": "绘画与线条",
+      "tagIds": [
+        "13",
+        "2"
+      ],
+      "description": "手绘铅笔排线覆盖空间和物件；区别于水墨与木刻",
+      "uiOpportunity": "行囊、地图、日志",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "mundaun"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "retro-3d",
+      "label": "早期 3D 与粗粒度贴图",
+      "parent": "空间与渲染",
+      "tagIds": [
+        "7",
+        "2",
+        "6"
+      ],
+      "description": "低精度模型、低分辨率贴图和紧凑 HUD；FFVII 包仅研究菜单",
+      "uiOpportunity": "武器、HUD、设置",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "dusk"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "fmv",
+      "label": "实拍影像与检索桌面",
+      "parent": "屏幕与媒介",
+      "tagIds": [
+        "27"
+      ],
+      "description": "真人片段作为信息载体，检索与播放共同组织叙事",
+      "uiOpportunity": "检索、片段库、笔记",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "her-story"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "ascii",
+      "label": "ASCII 终端界面",
+      "parent": "屏幕与媒介",
+      "tagIds": [
+        "17",
+        "14",
+        "1"
+      ],
+      "description": "字符地图、等宽布局和高密度键盘操作",
+      "uiOpportunity": "装备、日志、地图",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "cogmind"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "vector-map",
+      "label": "极简矢量与线路图",
+      "parent": "图形与符号",
+      "tagIds": [
+        "14",
+        "21",
+        "1",
+        "9"
+      ],
+      "description": "点、线、基础形状本身承担信息与操作",
+      "uiOpportunity": "线路、资源、结算",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "mini-metro"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "scientific",
+      "label": "科学仪器与数据导航",
+      "parent": "工业与装饰",
+      "tagIds": [
+        "14",
+        "7"
+      ],
+      "description": "拓扑、坐标、扫描与数据读数组成主要视觉",
+      "uiOpportunity": "扫描、日志、样本",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "in-other-waters"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "desktop-web",
+      "label": "90 年代桌面与早期网页",
+      "parent": "屏幕与媒介",
+      "tagIds": [
+        "7",
+        "1"
+      ],
+      "description": "浏览器窗口、桌面控件、网页贴图与文件",
+      "uiOpportunity": "桌面、邮箱、文件库",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "hypnospace-outlaw"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "miniature",
+      "label": "等距微缩模型",
+      "parent": "空间与渲染",
+      "tagIds": [
+        "7",
+        "20",
+        "2"
+      ],
+      "description": "微缩体块、柔和景深与模型舞台；区别于 HD-2D",
+      "uiOpportunity": "地图、装备、说明书",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "tunic"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    },
+    {
+      "id": "geometric",
+      "label": "抽象几何建筑",
+      "parent": "空间与渲染",
+      "tagIds": [
+        "21",
+        "2"
+      ],
+      "description": "重复几何、空间悖论与极少常驻 UI",
+      "uiOpportunity": "暂停、章节、空间提示",
+      "classificationBasis": "editorial",
+      "sourceUrl": "https://steamdb.info/tags/",
+      "gameIds": [
+        "manifold-garden"
+      ],
+      "completeCount": 1,
+      "studyCount": 0,
+      "coverage": "covered",
+      "coverageBasis": "Existence of our experimental packages, not Steam demand or art-quality certification."
+    }
+  ],
+  "games": [
+    {
+      "id": "hades",
+      "title": "哈迪斯",
+      "englishTitle": "Hades",
+      "version": "2020 first game / not Hades II",
+      "status": "complete",
+      "familyIds": [
+        "cel-comic"
+      ],
+      "variant": "神话漫画",
+      "officialUrl": "https://www.supergiantgames.com/games/hades/",
+      "preview": "/game-ui-skills/labs/hades/previews/boon-choice.png",
+      "labUrl": "/game-ui-skills/labs/hades/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/hades-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "eccf39874049efd643de975937f27d463a9ec925af72e8055ea8f32c0c09d28b",
+        "labUrl": "/game-ui-skills/labs/hades/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "hollow-knight",
+      "title": "空洞骑士",
+      "englishTitle": "Hollow Knight",
+      "version": "2017 first game / not Silksong",
+      "status": "complete",
+      "familyIds": [
+        "gothic-ink"
+      ],
+      "variant": "精致哥特",
+      "officialUrl": "https://www.hollowknight.com/",
+      "preview": "/game-ui-skills/labs/hollow-knight/previews/charms.png",
+      "labUrl": "/game-ui-skills/labs/hollow-knight/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/hollow-knight-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "e10eaece25b4a8f8c3f4693040d2f8f86fba3c4be1b12dafb2ceaec20ffb35ea",
+        "labUrl": "/game-ui-skills/labs/hollow-knight/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "dont-starve",
+      "title": "饥荒",
+      "englishTitle": "Don’t Starve",
+      "version": "2013 single-player original direction / not Together",
+      "status": "complete",
+      "familyIds": [
+        "gothic-ink"
+      ],
+      "variant": "荒诞钢笔",
+      "officialUrl": "https://www.klei.com/games/dont-starve",
+      "preview": "/game-ui-skills/labs/dont-starve/previews/crafting.png",
+      "labUrl": "/game-ui-skills/labs/dont-starve/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/dont-starve-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "0147731a775605777bc5ce5d080cfc235d5cdca23cb54f210e7da75c9aa5903a",
+        "labUrl": "/game-ui-skills/labs/dont-starve/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "persona-5",
+      "title": "女神异闻录 5",
+      "englishTitle": "Persona 5 Royal",
+      "version": "2022 PC Royal visual direction",
+      "status": "complete",
+      "familyIds": [
+        "anime-flat"
+      ],
+      "variant": "叛逆拼贴",
+      "officialUrl": "https://store.steampowered.com/app/1687950/",
+      "preview": "/game-ui-skills/labs/persona-5/previews/party.png",
+      "labUrl": "/game-ui-skills/labs/persona-5/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/persona-5-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "126b7f1c5309946eee51f135409682944f4f3e17aac6e4344d6d4a5a492401a1",
+        "labUrl": "/game-ui-skills/labs/persona-5/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 1687950,
+      "steamdbUrl": "https://steamdb.info/app/1687950/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "genshin-impact",
+      "title": "原神",
+      "englishTitle": "Genshin Impact",
+      "version": "early Mondstadt-era character/equipment direction / no current live-build claim",
+      "status": "complete",
+      "familyIds": [
+        "anime-flat"
+      ],
+      "variant": "清雅幻想",
+      "officialUrl": "https://genshin.hoyoverse.com/en/",
+      "preview": "/game-ui-skills/labs/genshin-impact/previews/character.png",
+      "labUrl": "/game-ui-skills/labs/genshin-impact/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/genshin-impact-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "ec47c9f5f20be8a626589a3a34a2ec11ebc564807d0f403da3e511bdbe090da2",
+        "labUrl": "/game-ui-skills/labs/genshin-impact/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "terraria",
+      "title": "泰拉瑞亚",
+      "englishTitle": "Terraria",
+      "version": "PC 1.4-era interface direction / no exact build claim",
+      "status": "complete",
+      "familyIds": [
+        "cozy-pixel"
+      ],
+      "variant": "像素冒险",
+      "officialUrl": "https://terraria.org/",
+      "preview": "/game-ui-skills/labs/terraria/previews/inventory.png",
+      "labUrl": "/game-ui-skills/labs/terraria/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/terraria-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "36e6ddc9d91ccd35fbd2a06da75a5d7ee962829b76ba5462109089e7d2ff7762",
+        "labUrl": "/game-ui-skills/labs/terraria/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "animal-crossing",
+      "title": "集合啦！动物森友会",
+      "englishTitle": "Animal Crossing: New Horizons",
+      "version": "2020 Switch New Horizons direction",
+      "status": "complete",
+      "familyIds": [
+        "lifestyle"
+      ],
+      "variant": "柔软生活感",
+      "officialUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html",
+      "preview": "/game-ui-skills/labs/animal-crossing/previews/pockets.png",
+      "labUrl": "/game-ui-skills/labs/animal-crossing/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/animal-crossing-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "665230d4cd8aff8391880c7d394ccfac348fc696bd315bfd71d2bae1aaf057fb",
+        "labUrl": "/game-ui-skills/labs/animal-crossing/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "starcraft",
+      "title": "星际争霸",
+      "englishTitle": "StarCraft",
+      "version": "1998 original Terran console / not Remastered",
+      "status": "complete",
+      "familyIds": [
+        "industrial"
+      ],
+      "variant": "工业科幻",
+      "officialUrl": "https://ftp.blizzard.com/pub/misc/StarCraft.PDF",
+      "preview": "/game-ui-skills/labs/starcraft/previews/command-console.png",
+      "labUrl": "/game-ui-skills/labs/starcraft/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/starcraft-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "953b25d04bfef99d9b9e32a4eafdf1af83dd51d32618be5bf173f8ad2fef154f",
+        "labUrl": "/game-ui-skills/labs/starcraft/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "paper-mario",
+      "title": "纸片马力欧：千年之门",
+      "englishTitle": "Paper Mario: The Thousand-Year Door",
+      "version": "2024 Switch remake direction",
+      "status": "complete",
+      "familyIds": [
+        "paper"
+      ],
+      "variant": "纸片拼贴",
+      "officialUrl": "https://www.nintendo.com/au/games/nintendo-switch/paper-mario-the-thousand-year-door/",
+      "preview": "/game-ui-skills/labs/paper-mario/previews/badges.png",
+      "labUrl": "/game-ui-skills/labs/paper-mario/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/paper-mario-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "3bb77249bf78d9bf8cc1fb9f1ad49a8257d487ac88feed1029e5744561dc4f54",
+        "labUrl": "/game-ui-skills/labs/paper-mario/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "earthbound",
+      "title": "EarthBound",
+      "englishTitle": "EarthBound",
+      "version": "1994 SNES original direction",
+      "status": "complete",
+      "familyIds": [
+        "handheld-pixel"
+      ],
+      "variant": "古怪日常 RPG",
+      "officialUrl": "https://www.nintendo.com/en-gb/Games/Super-Nintendo/EarthBound-771110.html",
+      "preview": "/game-ui-skills/labs/earthbound/previews/goods.png",
+      "labUrl": "/game-ui-skills/labs/earthbound/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/earthbound-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "a9641ffdc1a50a9029807ff1b70785f6c699497681344d4d03818ead6fa98dfe",
+        "labUrl": "/game-ui-skills/labs/earthbound/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "heroes-iii",
+      "title": "魔法门之英雄无敌 III",
+      "englishTitle": "Heroes of Might and Magic III",
+      "version": "1999 Complete original direction / not HD",
+      "status": "complete",
+      "familyIds": [
+        "strategy-map"
+      ],
+      "variant": "古典策略",
+      "officialUrl": "https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition",
+      "preview": "/game-ui-skills/labs/heroes-iii/previews/hero-sheet.png",
+      "labUrl": "/game-ui-skills/labs/heroes-iii/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/heroes-iii-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "21f7d3a7254664e440c10c874fbfd62441bfddbf146e031f8ea14df502917dae",
+        "labUrl": "/game-ui-skills/labs/heroes-iii/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "warcraft-iii",
+      "title": "魔兽争霸 III",
+      "englishTitle": "Warcraft III",
+      "version": "2002 Reign of Chaos Human console / not Reforged",
+      "status": "complete",
+      "familyIds": [
+        "ornamental-fantasy"
+      ],
+      "variant": "雕刻奇幻 RTS",
+      "officialUrl": "https://ftp.blizzard.com/pub/misc/Warcraft%20III%20Manual.pdf",
+      "preview": "/game-ui-skills/labs/warcraft-iii/previews/command-console.png",
+      "labUrl": "/game-ui-skills/labs/warcraft-iii/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/warcraft-iii-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "3377b39d436f5bfe9a993ee4b54e5a245bd48f61e2568abd68c9f43a6c3a4dca",
+        "labUrl": "/game-ui-skills/labs/warcraft-iii/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "chrono-trigger",
+      "title": "时空之轮",
+      "englishTitle": "Chrono Trigger",
+      "version": "1995 SNES interface direction / not PC UI",
+      "status": "complete",
+      "familyIds": [
+        "handheld-pixel"
+      ],
+      "variant": "轻量 16-bit JRPG",
+      "officialUrl": "https://store.steampowered.com/app/613830/",
+      "preview": "/game-ui-skills/labs/chrono-trigger/previews/party.png",
+      "labUrl": "/game-ui-skills/labs/chrono-trigger/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/chrono-trigger-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "13b5eb9ace71cf058e9c9ef6c8b405dded977aa2f11c40005ca5b92ca793c530",
+        "labUrl": "/game-ui-skills/labs/chrono-trigger/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 613830,
+      "steamdbUrl": "https://steamdb.info/app/613830/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "zelda-alttp",
+      "title": "塞尔达传说：众神的三角力量",
+      "englishTitle": "The Legend of Zelda: A Link to the Past",
+      "version": "1991 SNES original direction",
+      "status": "complete",
+      "familyIds": [
+        "handheld-pixel"
+      ],
+      "variant": "像素冒险",
+      "officialUrl": "https://www.nintendo.com/es-es/games/oms/snes-classic/manuals/zelda/manual.pdf",
+      "preview": "/game-ui-skills/labs/zelda-alttp/previews/inventory.png",
+      "labUrl": "/game-ui-skills/labs/zelda-alttp/index.html",
+      "notes": "固定上述版本和画面方向；样品内容为原创界面实验，未声称逐帧还原原作或引擎导出。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/zelda-alttp-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "8cf5fe02a3ed6fedb82c1d622943f6603cebca31cba6751e4cbe9b953da949d1",
+        "labUrl": "/game-ui-skills/labs/zelda-alttp/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "darkest-dungeon",
+      "title": "暗黑地牢",
+      "englishTitle": "Darkest Dungeon",
+      "version": "2016 PC original / not sequel",
+      "status": "complete",
+      "familyIds": [
+        "gothic-ink"
+      ],
+      "variant": "哥特墨线与重影",
+      "officialUrl": "https://store.steampowered.com/app/262060/",
+      "preview": "/game-ui-skills/labs/darkest-dungeon/previews/expedition-roster.png",
+      "labUrl": "/game-ui-skills/labs/darkest-dungeon/index.html",
+      "notes": "原首页样品保留；本轮另外验证可复用规则、组件和三个 Web 界面。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/darkest-dungeon-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "ba24abad7423c20eb07172815c08483c8e4346450d05bc3f86af4e50003f1e39",
+        "labUrl": "/game-ui-skills/labs/darkest-dungeon/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 262060,
+      "steamdbUrl": "https://steamdb.info/app/262060/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "minecraft",
+      "title": "我的世界",
+      "englishTitle": "Minecraft",
+      "version": "Java Edition visual grammar / local UI study",
+      "status": "complete",
+      "familyIds": [
+        "voxel"
+      ],
+      "variant": "体素方块世界",
+      "officialUrl": "https://www.minecraft.net/en-us/about-minecraft",
+      "preview": "/game-ui-skills/labs/minecraft/previews/inventory.png",
+      "labUrl": "/game-ui-skills/labs/minecraft/index.html",
+      "notes": "原首页样品保留；本轮另外验证可复用规则、组件和三个 Web 界面。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/minecraft-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "6beac6fc6d2835c25d643ffa32a257d6d91cd766f0888841dc107fedfee8b3db",
+        "labUrl": "/game-ui-skills/labs/minecraft/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "cyberpunk-2077",
+      "title": "赛博朋克 2077",
+      "englishTitle": "Cyberpunk 2077",
+      "version": "PC 2.0-era interface direction",
+      "status": "complete",
+      "familyIds": [
+        "neon"
+      ],
+      "variant": "霓虹赛博界面",
+      "officialUrl": "https://store.steampowered.com/app/1091500/",
+      "preview": "/game-ui-skills/labs/cyberpunk-2077/previews/cyberware.png",
+      "labUrl": "/game-ui-skills/labs/cyberpunk-2077/index.html",
+      "notes": "原首页样品保留；本轮另外验证可复用规则、组件和三个 Web 界面。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/cyberpunk-2077-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "d0ce1921e3723976e7158361cae8c0d72e314045c4bab1cc9a9fc6d1a8a3ee74",
+        "labUrl": "/game-ui-skills/labs/cyberpunk-2077/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 1091500,
+      "steamdbUrl": "https://steamdb.info/app/1091500/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "fallout-2",
+      "title": "辐射 2",
+      "englishTitle": "Fallout 2",
+      "version": "1998 original PC interface / not modern Pip-Boy",
+      "status": "complete",
+      "familyIds": [
+        "atomic-retro"
+      ],
+      "variant": "原子时代废土仪表",
+      "officialUrl": "https://store.steampowered.com/app/38410/Fallout_2_A_Post_Nuclear_Role_Playing_Game/",
+      "preview": "/game-ui-skills/labs/fallout-2/previews/character.png",
+      "labUrl": "/game-ui-skills/labs/fallout-2/index.html",
+      "notes": "磨损灰绿金属、复古仪器、绿色读数、机械按钮",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/fallout-2-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "b0cd6353d1923fc4e052560d2ab9608d72670e1a20893fddc3fbe8e05d525f22",
+        "labUrl": "/game-ui-skills/labs/fallout-2/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 38410,
+      "steamdbUrl": "https://steamdb.info/app/38410/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "sable",
+      "title": "Sable",
+      "englishTitle": "Sable",
+      "version": "2021 PC original direction",
+      "status": "complete",
+      "familyIds": [
+        "clear-line"
+      ],
+      "variant": "清线漫画与平涂沙漠",
+      "officialUrl": "https://store.steampowered.com/app/757310/",
+      "preview": "/game-ui-skills/labs/sable/previews/mask-collection.png",
+      "labUrl": "/game-ui-skills/labs/sable/index.html",
+      "notes": "可从面具收藏、任务和地图验证细线与留白。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": [
+        "Stylized",
+        "Comic Book",
+        "Hand-drawn"
+      ],
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/sable-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "5915eae4ac307cfb57b849dd1a637a0f0d018ce85b1d31241262bb438efb82e8",
+        "labUrl": "/game-ui-skills/labs/sable/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 757310,
+      "steamdbUrl": "https://steamdb.info/app/757310/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "mundaun",
+      "title": "蒙道恩",
+      "englishTitle": "Mundaun",
+      "version": "2021 PC original direction",
+      "status": "complete",
+      "familyIds": [
+        "pencil"
+      ],
+      "variant": "铅笔素描与纸面纹理",
+      "officialUrl": "https://store.steampowered.com/app/720350/",
+      "preview": "/game-ui-skills/labs/mundaun/previews/satchel.png",
+      "labUrl": "/game-ui-skills/labs/mundaun/index.html",
+      "notes": "原商店明确写手绘铅笔；可从行囊、日志和地图入手。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/mundaun-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "5552bc6ade38872e11a136f7332b8d267682f7d4169c8363ad9973d0ad624ef1",
+        "labUrl": "/game-ui-skills/labs/mundaun/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 720350,
+      "steamdbUrl": "https://steamdb.info/app/720350/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "dusk",
+      "title": "DUSK",
+      "englishTitle": "DUSK",
+      "version": "2018 original / not HD remaster",
+      "status": "complete",
+      "familyIds": [
+        "retro-3d"
+      ],
+      "variant": "早期 3D 与粗粒度贴图",
+      "officialUrl": "https://store.steampowered.com/app/519860/",
+      "preview": "/game-ui-skills/labs/dusk/previews/weapon-loadout.png",
+      "labUrl": "/game-ui-skills/labs/dusk/index.html",
+      "notes": "建议先固定原版；模型/贴图风格与 HUD 需要分别研究。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/dusk-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "f3e0df79e2e706ad869f5ff907ea4e4788b9a40f6a7a0d41c43973308890574f",
+        "labUrl": "/game-ui-skills/labs/dusk/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 519860,
+      "steamdbUrl": "https://steamdb.info/app/519860/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "her-story",
+      "title": "她的故事",
+      "englishTitle": "Her Story",
+      "version": "2015 PC database interface direction",
+      "status": "complete",
+      "familyIds": [
+        "fmv"
+      ],
+      "variant": "实拍影像与检索桌面",
+      "officialUrl": "https://store.steampowered.com/app/368370/",
+      "preview": "/game-ui-skills/labs/her-story/previews/search.png",
+      "labUrl": "/game-ui-skills/labs/her-story/index.html",
+      "notes": "官方描述确认真人录像数据库；适合检索、片段库与笔记。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/her-story-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "008336e7b6a5dffdfb70b4821dc73dcb2909a1ba51ace8c0fbf16c82aba79ebc",
+        "labUrl": "/game-ui-skills/labs/her-story/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 368370,
+      "steamdbUrl": "https://steamdb.info/app/368370/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "cogmind",
+      "title": "Cogmind",
+      "englishTitle": "Cogmind",
+      "version": "PC ASCII presentation direction / no pinned build claim",
+      "status": "complete",
+      "familyIds": [
+        "ascii"
+      ],
+      "variant": "ASCII 终端界面",
+      "officialUrl": "https://store.steampowered.com/app/722730/",
+      "preview": "/game-ui-skills/labs/cogmind/previews/equipment.png",
+      "labUrl": "/game-ui-skills/labs/cogmind/index.html",
+      "notes": "官方说明确认 ASCII / 终端界面；可做装备、部件和日志。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/cogmind-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "bf96dc5a65929cb7142b891883f78ffe975363e66dd1028b4538409806c16794",
+        "labUrl": "/game-ui-skills/labs/cogmind/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 722730,
+      "steamdbUrl": "https://steamdb.info/app/722730/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "mini-metro",
+      "title": "迷你地铁",
+      "englishTitle": "Mini Metro",
+      "version": "2015 PC route-map direction",
+      "status": "complete",
+      "familyIds": [
+        "vector-map"
+      ],
+      "variant": "极简矢量与线路图",
+      "officialUrl": "https://store.steampowered.com/app/287980/",
+      "preview": "/game-ui-skills/labs/mini-metro/previews/route-editor.png",
+      "labUrl": "/game-ui-skills/labs/mini-metro/index.html",
+      "notes": "官方标签包含 Minimalist；适合验证线路编辑与容量状态。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": [
+        "Minimalist",
+        "2D",
+        "Top-Down"
+      ],
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/mini-metro-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "fc43e310d40555ea219098587f82cc8db36692795beb8b547d5f2fef9b7bb42f",
+        "labUrl": "/game-ui-skills/labs/mini-metro/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 287980,
+      "steamdbUrl": "https://steamdb.info/app/287980/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "in-other-waters",
+      "title": "异星之海",
+      "englishTitle": "In Other Waters",
+      "version": "2020 PC original direction",
+      "status": "complete",
+      "familyIds": [
+        "scientific"
+      ],
+      "variant": "科学仪器与数据导航",
+      "officialUrl": "https://store.steampowered.com/app/890720/",
+      "preview": "/game-ui-skills/labs/in-other-waters/previews/scanner.png",
+      "labUrl": "/game-ui-skills/labs/in-other-waters/index.html",
+      "notes": "以商店页面和配图为依据的设计判断；可从扫描和样本目录研究。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": [
+        "Stylized",
+        "Beautiful"
+      ],
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/in-other-waters-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "4fb9c2180dd48686fec8b7d103f760edf020fa5c971ae7b6282888c67abfc004",
+        "labUrl": "/game-ui-skills/labs/in-other-waters/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 890720,
+      "steamdbUrl": "https://steamdb.info/app/890720/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "hypnospace-outlaw",
+      "title": "Hypnospace Outlaw",
+      "englishTitle": "Hypnospace Outlaw",
+      "version": "2019 PC original direction",
+      "status": "complete",
+      "familyIds": [
+        "desktop-web"
+      ],
+      "variant": "90 年代桌面与早期网页",
+      "officialUrl": "https://store.steampowered.com/app/844590/",
+      "preview": "/game-ui-skills/labs/hypnospace-outlaw/previews/desktop.png",
+      "labUrl": "/game-ui-skills/labs/hypnospace-outlaw/index.html",
+      "notes": "官方描述确认 90 年代互联网与可定制桌面；适合桌面、邮件和档案。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/hypnospace-outlaw-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "917c24ee0a2504c612035eed361b001ca5d7259827fdaa1b60aa28fa2889a54c",
+        "labUrl": "/game-ui-skills/labs/hypnospace-outlaw/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 844590,
+      "steamdbUrl": "https://steamdb.info/app/844590/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "tunic",
+      "title": "TUNIC",
+      "englishTitle": "TUNIC",
+      "version": "2022 PC original direction",
+      "status": "complete",
+      "familyIds": [
+        "miniature"
+      ],
+      "variant": "等距微缩模型",
+      "officialUrl": "https://store.steampowered.com/app/553420/",
+      "preview": "/game-ui-skills/labs/tunic/previews/inventory.png",
+      "labUrl": "/game-ui-skills/labs/tunic/index.html",
+      "notes": "模型舞台和纸面说明书需要分开取样；先固定 UI 范围。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/tunic-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "fd6a65ccc445e003ec774323df58318d7c79fcba5da1c47fa738f74f7e37c04f",
+        "labUrl": "/game-ui-skills/labs/tunic/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 553420,
+      "steamdbUrl": "https://steamdb.info/app/553420/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "manifold-garden",
+      "title": "多重花园",
+      "englishTitle": "Manifold Garden",
+      "version": "2019 original direction",
+      "status": "complete",
+      "familyIds": [
+        "geometric"
+      ],
+      "variant": "抽象几何建筑",
+      "officialUrl": "https://store.steampowered.com/app/473950/",
+      "preview": "/game-ui-skills/labs/manifold-garden/previews/pause.png",
+      "labUrl": "/game-ui-skills/labs/manifold-garden/index.html",
+      "notes": "官方描述确认无限重复建筑；主要是空间与场景语言，常驻 UI 少。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "primary-page-checked-this-run",
+      "archiveUrl": "/game-ui-skills/downloads/manifold-garden-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "a0a3a60867468e7d74d0d16316e650226e380c429bc1f5d6cda999944c6cf081",
+        "labUrl": "/game-ui-skills/labs/manifold-garden/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 473950,
+      "steamdbUrl": "https://steamdb.info/app/473950/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "limbo",
+      "title": "地狱边境 LIMBO",
+      "englishTitle": "LIMBO",
+      "version": "2010 原版",
+      "status": "complete",
+      "familyIds": [
+        "silhouette"
+      ],
+      "variant": "黑白雾化剪影",
+      "officialUrl": "https://playdead.com/games/limbo/",
+      "preview": "/game-ui-skills/labs/limbo/previews/pause.png",
+      "labUrl": "/game-ui-skills/labs/limbo/index.html",
+      "notes": "主要是场景和氛围语言，原作 UI 很少，适合轻 HUD 专题。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/limbo-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "741542051bcfd251bb5f2dc85b9711b02e27c8b082cbf1092c6e7ff9c6c9c0f8",
+        "labUrl": "/game-ui-skills/labs/limbo/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "gris",
+      "title": "GRIS",
+      "englishTitle": "GRIS",
+      "version": "2018 原版",
+      "status": "complete",
+      "familyIds": [
+        "watercolor"
+      ],
+      "variant": "水彩建筑与色彩叙事",
+      "officialUrl": "https://store.steampowered.com/app/683320/",
+      "preview": "/game-ui-skills/labs/gris/previews/chapter-selection.png",
+      "labUrl": "/game-ui-skills/labs/gris/index.html",
+      "notes": "场景、转场和色彩占主导；通用背包商店需另作设计验证。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/gris-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "709b61dbb3dd4748220d9fba01f87df3b28821f6ec7af071d0b0d450b894aa92",
+        "labUrl": "/game-ui-skills/labs/gris/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 683320,
+      "steamdbUrl": "https://steamdb.info/app/683320/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "journey",
+      "title": "风之旅人 Journey",
+      "englishTitle": "Journey",
+      "version": "2019 Epic PC 版 / 原作视觉方向",
+      "status": "complete",
+      "familyIds": [
+        "sand-symbols"
+      ],
+      "variant": "沙漠织物与符号",
+      "officialUrl": "https://store.epicgames.com/p/journey?lang=en-US",
+      "preview": "/game-ui-skills/labs/journey/previews/chapter-gates.png",
+      "labUrl": "/game-ui-skills/labs/journey/index.html",
+      "notes": "原作低 UI，重点是符号、动效及对场景的克制。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/journey-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "33b9ff43a3fdf100e731c2e65d20f823bf04acec78e44205dac6ae23567b9cf3",
+        "labUrl": "/game-ui-skills/labs/journey/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "littlebigplanet",
+      "title": "小小大星球 3",
+      "englishTitle": "LittleBigPlanet 3",
+      "version": "2014 PS4 版 / 离线 UI 研究",
+      "status": "complete",
+      "familyIds": [
+        "fabric"
+      ],
+      "variant": "布艺玩具与手工拼装",
+      "officialUrl": "https://www.playstation.com/en-us/games/littlebigplanet-3/",
+      "preview": "/game-ui-skills/labs/littlebigplanet/previews/sticker-book.png",
+      "labUrl": "/game-ui-skills/labs/littlebigplanet/index.html",
+      "notes": "区别于纯纸片和高饱和玩具风；材质与插画资产成本高。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/littlebigplanet-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "a0f714c2614d5a08c266eca372b4d081b69910e8629b7d5ca67ce6f73e35d46f",
+        "labUrl": "/game-ui-skills/labs/littlebigplanet/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "tearaway",
+      "title": "撕纸小邮差 Tearaway Unfolded",
+      "englishTitle": "Tearaway Unfolded",
+      "version": "2015 PS4 版",
+      "status": "complete",
+      "familyIds": [
+        "paper"
+      ],
+      "variant": "立体折纸与切割手作",
+      "officialUrl": "https://www.playstation.com/en-us/games/tearaway-unfolded/",
+      "preview": "/game-ui-skills/labs/tearaway/previews/collection-scrapbook.png",
+      "labUrl": "/game-ui-skills/labs/tearaway/index.html",
+      "notes": "与已研究 Paper Mario 的贴纸舞台区分，强调立体折纸与手作。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/tearaway-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "427142947842533a55239dfbc911cbd2fbaa6b063c89e209a885493ae7e8cd38",
+        "labUrl": "/game-ui-skills/labs/tearaway/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "hylics-2",
+      "title": "Hylics 2",
+      "englishTitle": "Hylics 2",
+      "version": "2020 原版",
+      "status": "complete",
+      "familyIds": [
+        "clay"
+      ],
+      "variant": "超现实黏土定格",
+      "officialUrl": "https://store.steampowered.com/app/1286710/",
+      "preview": "/game-ui-skills/labs/hylics-2/previews/party.png",
+      "labUrl": "/game-ui-skills/labs/hylics-2/index.html",
+      "notes": "黏土角色并不自动形成完整 UI 语法；需先确认菜单与运行美术的一致性。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/hylics-2-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "d17b4f94f379157d657eac6ae3f3077853852367b8e281990c2b596de6ac3c65",
+        "labUrl": "/game-ui-skills/labs/hylics-2/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 1286710,
+      "steamdbUrl": "https://steamdb.info/app/1286710/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "samorost-3",
+      "title": "银河历险记 3 Samorost 3",
+      "englishTitle": "Samorost 3",
+      "version": "2016 原版",
+      "status": "complete",
+      "familyIds": [
+        "nature-collage"
+      ],
+      "variant": "微观自然拼贴",
+      "officialUrl": "https://samorost3.net/index.html",
+      "preview": "/game-ui-skills/labs/samorost-3/previews/object-combination.png",
+      "labUrl": "/game-ui-skills/labs/samorost-3/index.html",
+      "notes": "以环境与谜题物件为主，适合无字交互专题。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/samorost-3-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "b99f05883d57b4b1b4e7eceb11e63de57b09877afb4647278db50b4d9ad70005",
+        "labUrl": "/game-ui-skills/labs/samorost-3/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "jet-set-radio",
+      "title": "涂鸦小子 Jet Set Radio",
+      "englishTitle": "Jet Set Radio",
+      "version": "2012 PC HD 版",
+      "status": "complete",
+      "familyIds": [
+        "cel-comic"
+      ],
+      "variant": "街头涂鸦与赛璐璐",
+      "officialUrl": "https://store.steampowered.com/app/205950/",
+      "preview": "/game-ui-skills/labs/jet-set-radio/previews/crew-select.png",
+      "labUrl": "/game-ui-skills/labs/jet-set-radio/index.html",
+      "notes": "与 Splatoon 墨水贴纸区分；偏涂鸦标记、城市街头与音乐运动。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/jet-set-radio-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "77a2d4223acfc7fbd6372a477cb124a5f34bc15ec2ed856a1fc5aa348f3ed3ae",
+        "labUrl": "/game-ui-skills/labs/jet-set-radio/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 205950,
+      "steamdbUrl": "https://steamdb.info/app/205950/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "mirrors-edge",
+      "title": "镜之边缘",
+      "englishTitle": "Mirror’s Edge",
+      "version": "2008 原版 / 不含 Catalyst",
+      "status": "complete",
+      "familyIds": [
+        "wayfinding"
+      ],
+      "variant": "洁白建筑与红色路线",
+      "officialUrl": "https://www.ea.com/en-ca/games/mirrors-edge/mirrors-edge",
+      "preview": "/game-ui-skills/labs/mirrors-edge/previews/runner-map.png",
+      "labUrl": "/game-ui-skills/labs/mirrors-edge/index.html",
+      "notes": "原作与 Catalyst 要固定版本；场景导视比常驻面板更关键。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/mirrors-edge-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "44d831918f8159d21a129e57ddfaa47b30649681a7115a8c8d64c39ca738e554",
+        "labUrl": "/game-ui-skills/labs/mirrors-edge/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "dead-space",
+      "title": "死亡空间",
+      "englishTitle": "Dead Space",
+      "version": "2023 重制版",
+      "status": "complete",
+      "familyIds": [
+        "diegetic"
+      ],
+      "variant": "场景内全息设备",
+      "officialUrl": "https://www.ea.com/games/dead-space/dead-space",
+      "preview": "/game-ui-skills/labs/dead-space/previews/rig-inventory.png",
+      "labUrl": "/game-ui-skills/labs/dead-space/index.html",
+      "notes": "先固定 2023 重制版；Web 可验证投影视觉，不能宣称已完成 3D 引擎内设备 UI。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/dead-space-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "e7d18748bcb59b9d6a9eb28dc327910c40e21f23cd67e8ed7e731dbe5ec50434",
+        "labUrl": "/game-ui-skills/labs/dead-space/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "octopath-traveler",
+      "title": "歧路旅人",
+      "englishTitle": "Octopath Traveler",
+      "version": "2019 PC 版 / 第一作",
+      "status": "complete",
+      "familyIds": [
+        "hd2d"
+      ],
+      "variant": "HD-2D 像素舞台",
+      "officialUrl": "https://store.steampowered.com/app/921570/",
+      "preview": "/game-ui-skills/labs/octopath-traveler/previews/party.png",
+      "labUrl": "/game-ui-skills/labs/octopath-traveler/index.html",
+      "notes": "HD-2D 主要是运行画面的表现，不等价于特殊菜单；需与现有 FFVII、绿宝石比较新增价值。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/octopath-traveler-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "525c2e6a66f9e0f9202b04ac63b8e03a39ddba4051806912c2fd37cd77522a6c",
+        "labUrl": "/game-ui-skills/labs/octopath-traveler/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 921570,
+      "steamdbUrl": "https://steamdb.info/app/921570/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "nier-automata",
+      "title": "尼尔：机械纪元",
+      "englishTitle": "NieR:Automata",
+      "version": "2017 原版 UI",
+      "status": "complete",
+      "familyIds": [
+        "beige-system"
+      ],
+      "variant": "米色极简系统",
+      "officialUrl": "https://store.steampowered.com/app/524220/",
+      "preview": "/game-ui-skills/labs/nier-automata/previews/chip-loadout.png",
+      "labUrl": "/game-ui-skills/labs/nier-automata/index.html",
+      "notes": "与赛博朋克霓虹、FFVII 蓝框区别明显；重点是系统感和低色数。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/nier-automata-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "3ddd9fe046cb2273ad2a714901c7ba2c343298b0cc2e30fb2be0dfc8732a0edc",
+        "labUrl": "/game-ui-skills/labs/nier-automata/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 524220,
+      "steamdbUrl": "https://steamdb.info/app/524220/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "inscryption",
+      "title": "邪恶冥刻",
+      "englishTitle": "Inscryption",
+      "version": "Act 1 / Leshy 木屋桌面",
+      "status": "complete",
+      "familyIds": [
+        "woodcut"
+      ],
+      "variant": "木刻恐怖桌游",
+      "officialUrl": "https://store.steampowered.com/app/1092790/",
+      "preview": "/game-ui-skills/labs/inscryption/previews/card-reward.png",
+      "labUrl": "/game-ui-skills/labs/inscryption/index.html",
+      "notes": "先限定第一幕；不能把后续章节的另一套画风混进来。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/inscryption-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "559b06943a8c413a7372b4a46ab1d47efee430db40cf56bea6f6b60df834c00b",
+        "labUrl": "/game-ui-skills/labs/inscryption/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 1092790,
+      "steamdbUrl": "https://steamdb.info/app/1092790/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "papers-please",
+      "title": "请出示文件",
+      "englishTitle": "Papers, Please",
+      "version": "PC 桌面版方向",
+      "status": "complete",
+      "familyIds": [
+        "documents"
+      ],
+      "variant": "官僚证件像素",
+      "officialUrl": "https://www.papersplea.se/presskit/",
+      "preview": "/game-ui-skills/labs/papers-please/previews/inspection.png",
+      "labUrl": "/game-ui-skills/labs/papers-please/index.html",
+      "notes": "核心是文件与桌面交互；不要强套三张奖励卡布局。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/papers-please-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "df87711c2edba279347f7261d514f6af896342c5212c5004d4982e98d0449828",
+        "labUrl": "/game-ui-skills/labs/papers-please/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "potion-craft",
+      "title": "药剂工艺",
+      "englishTitle": "Potion Craft",
+      "version": "2022 正式版方向",
+      "status": "complete",
+      "familyIds": [
+        "alchemy-paper"
+      ],
+      "variant": "羊皮纸炼金工坊",
+      "officialUrl": "https://store.steampowered.com/app/1210320/",
+      "preview": "/game-ui-skills/labs/potion-craft/previews/alchemy-map.png",
+      "labUrl": "/game-ui-skills/labs/potion-craft/index.html",
+      "notes": "与星露谷的像素木框区分；配方、地图与材料联动有价值。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/potion-craft-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "d85ec67f20d1783abd98e723af3436ba0696e350c4561092fe1f42200282ada7",
+        "labUrl": "/game-ui-skills/labs/potion-craft/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 1210320,
+      "steamdbUrl": "https://steamdb.info/app/1210320/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "splatoon-3",
+      "title": "喷射战士 3",
+      "englishTitle": "Splatoon 3",
+      "version": "Switch 基础游戏 / DLC 分开",
+      "status": "complete",
+      "familyIds": [
+        "ink-stickers"
+      ],
+      "variant": "街头墨水贴纸",
+      "officialUrl": "https://www.nintendo.com/sg/switch/av5j/index.html",
+      "preview": "/game-ui-skills/labs/splatoon-3/previews/weapon-kit.png",
+      "labUrl": "/game-ui-skills/labs/splatoon-3/index.html",
+      "notes": "与 Persona 5 的红黑戏剧排版区分；重点在墨水、服饰标签和年轻街头感。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/splatoon-3-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "d0cfb6c23d69d0e201cdce5a604f72b3164ec9d515271b8c14ed04e514452bce",
+        "labUrl": "/game-ui-skills/labs/splatoon-3/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "bioshock",
+      "title": "生化奇兵",
+      "englishTitle": "BioShock",
+      "version": "2007 第一代 / 非 Infinite",
+      "status": "complete",
+      "familyIds": [
+        "art-deco"
+      ],
+      "variant": "Art Deco 复古机械",
+      "officialUrl": "https://store.steampowered.com/app/7670/",
+      "preview": "/game-ui-skills/labs/bioshock/previews/tonic-vending.png",
+      "labUrl": "/game-ui-skills/labs/bioshock/index.html",
+      "notes": "与暗黑哥特石雕、辐射废土仪表区分；保持几何装饰而非泛金属皮肤。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/bioshock-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "1060a3e23f19ab3338cb132859dff98c5673f09d6c3f64329c8356d9b795ca5d",
+        "labUrl": "/game-ui-skills/labs/bioshock/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 7670,
+      "steamdbUrl": "https://steamdb.info/app/7670/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "disco-elysium",
+      "title": "极乐迪斯科",
+      "englishTitle": "Disco Elysium",
+      "version": "The Final Cut 菜单方向",
+      "status": "complete",
+      "familyIds": [
+        "oil-archive"
+      ],
+      "variant": "油画肖像与文学档案",
+      "officialUrl": "https://store.steampowered.com/app/632470/",
+      "preview": "/game-ui-skills/labs/disco-elysium/previews/dialogue-check.png",
+      "labUrl": "/game-ui-skills/labs/disco-elysium/index.html",
+      "notes": "叙事信息流而非卡牌战斗；肖像风格是关键资产成本。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/disco-elysium-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "e1a13f57729d563db1178fcb8636e4a0f4d9757e18749d5259eb86ba961784e9",
+        "labUrl": "/game-ui-skills/labs/disco-elysium/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 632470,
+      "steamdbUrl": "https://steamdb.info/app/632470/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "frostpunk",
+      "title": "冰汽时代",
+      "englishTitle": "Frostpunk",
+      "version": "2018 第一代 / 非二代",
+      "status": "complete",
+      "familyIds": [
+        "industrial"
+      ],
+      "variant": "冰霜工业仪表",
+      "officialUrl": "https://store.steampowered.com/app/323190/",
+      "preview": "/game-ui-skills/labs/frostpunk/previews/book-of-laws.png",
+      "labUrl": "/game-ui-skills/labs/frostpunk/index.html",
+      "notes": "城市治理信息密度和温度/压力语义有特色；与现有科幻控制台区分。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/frostpunk-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "d220da4fc09e2df490aa9a8253131769c9a1856cedfd4f5ed1356f334b27ef30",
+        "labUrl": "/game-ui-skills/labs/frostpunk/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 323190,
+      "steamdbUrl": "https://steamdb.info/app/323190/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "borderlands-2",
+      "title": "无主之地 2",
+      "englishTitle": "Borderlands 2",
+      "version": "2012 第二代",
+      "status": "complete",
+      "familyIds": [
+        "cel-comic"
+      ],
+      "variant": "描边漫画武器目录",
+      "officialUrl": "https://store.steampowered.com/app/49520/",
+      "preview": "/game-ui-skills/labs/borderlands-2/previews/weapon-comparison.png",
+      "labUrl": "/game-ui-skills/labs/borderlands-2/index.html",
+      "notes": "风格不只来自场景描边；必须同时取样属性卡、分类页和比较状态。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/borderlands-2-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "e1fe2bde8824da58849541242b9fa5ba4a986ff047e8f026420a1c50932b6823",
+        "labUrl": "/game-ui-skills/labs/borderlands-2/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 49520,
+      "steamdbUrl": "https://steamdb.info/app/49520/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "civilization-vi",
+      "title": "文明 VI",
+      "englishTitle": "Civilization VI",
+      "version": "VI / 非 VII",
+      "status": "complete",
+      "familyIds": [
+        "strategy-map"
+      ],
+      "variant": "制图与古典战略",
+      "officialUrl": "https://store.steampowered.com/app/289070/",
+      "preview": "/game-ui-skills/labs/civilization-vi/previews/technology-tree.png",
+      "labUrl": "/game-ui-skills/labs/civilization-vi/index.html",
+      "notes": "大规模策略 UI；取样时固定资料片与界面版本。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/civilization-vi-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "9051f16d607c3fa654ccbed884c0157c60c07956814ac430ea23369981b939d1",
+        "labUrl": "/game-ui-skills/labs/civilization-vi/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 289070,
+      "steamdbUrl": "https://steamdb.info/app/289070/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "xcom-2",
+      "title": "幽浮 2",
+      "englishTitle": "XCOM 2",
+      "version": "基础版 / WotC 分开",
+      "status": "complete",
+      "familyIds": [
+        "industrial"
+      ],
+      "variant": "蓝色军事战术终端",
+      "officialUrl": "https://store.steampowered.com/app/268500/",
+      "preview": "/game-ui-skills/labs/xcom-2/previews/squad-equipment.png",
+      "labUrl": "/game-ui-skills/labs/xcom-2/index.html",
+      "notes": "与星际争霸常驻 RTS 控制台区分：以回合命令、队员档案与基地运营为主。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/xcom-2-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "5e331992a09896245f2d6b919f29fa20dc9623fce6fb8af7bc9acebec6328991",
+        "labUrl": "/game-ui-skills/labs/xcom-2/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 268500,
+      "steamdbUrl": "https://steamdb.info/app/268500/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "ftl",
+      "title": "超越光速",
+      "englishTitle": "FTL: Faster Than Light",
+      "version": "Advanced Edition 方向",
+      "status": "complete",
+      "familyIds": [
+        "ship-console"
+      ],
+      "variant": "飞船工程示意图",
+      "officialUrl": "https://store.steampowered.com/app/212680/",
+      "preview": "/game-ui-skills/labs/ftl/previews/ship-upgrade.png",
+      "labUrl": "/game-ui-skills/labs/ftl/index.html",
+      "notes": "轻量工程仪表而非华丽全息；非常适合模拟经营与太空游戏。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/ftl-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "41dfe8ab715fcfeb262ebc83f01550a061a8639d1f3dad6c0ba521ebd4b015f4",
+        "labUrl": "/game-ui-skills/labs/ftl/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 212680,
+      "steamdbUrl": "https://steamdb.info/app/212680/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "ace-attorney",
+      "title": "逆转裁判 123",
+      "englishTitle": "Phoenix Wright: Ace Attorney Trilogy",
+      "version": "2019 HD 合集 / GBA 另列",
+      "status": "complete",
+      "familyIds": [
+        "documents"
+      ],
+      "variant": "法庭漫画与证据档案",
+      "officialUrl": "https://store.steampowered.com/app/787480/",
+      "preview": "/game-ui-skills/labs/ace-attorney/previews/evidence-file.png",
+      "labUrl": "/game-ui-skills/labs/ace-attorney/index.html",
+      "notes": "与极乐迪斯科的纵向信息流、弹丸论破的动态审判区分。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/ace-attorney-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "9b7d887ca40f74eaa002b36b5208f5b2773b4b0b6bf78dde5abf622addba5100",
+        "labUrl": "/game-ui-skills/labs/ace-attorney/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 787480,
+      "steamdbUrl": "https://steamdb.info/app/787480/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "danganronpa",
+      "title": "弹丸论破",
+      "englishTitle": "Danganronpa: Trigger Happy Havoc",
+      "version": "第一代 PC 版",
+      "status": "complete",
+      "familyIds": [
+        "graphic-trial",
+        "anime-flat"
+      ],
+      "variant": "黑白粉红校园审判",
+      "officialUrl": "https://store.steampowered.com/app/413410/",
+      "preview": "/game-ui-skills/labs/danganronpa/previews/student-handbook.png",
+      "labUrl": "/game-ui-skills/labs/danganronpa/index.html",
+      "notes": "与 Persona 5 有动态排版邻近性，新增差异需靠证据弹和审判信息语法。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/danganronpa-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "9e24caafa8599022b35545a7d3b7410f272c2a663c60f4ae9b0207b4828311db",
+        "labUrl": "/game-ui-skills/labs/danganronpa/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 413410,
+      "steamdbUrl": "https://steamdb.info/app/413410/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "the-sims-4",
+      "title": "模拟人生 4",
+      "englishTitle": "The Sims 4",
+      "version": "基础游戏 UI / 版本冻结后取样",
+      "status": "complete",
+      "familyIds": [
+        "lifestyle"
+      ],
+      "variant": "明亮生活模拟面板",
+      "officialUrl": "https://www.ea.com/games/the-sims/the-sims-4",
+      "preview": "/game-ui-skills/labs/the-sims-4/previews/needs.png",
+      "labUrl": "/game-ui-skills/labs/the-sims-4/index.html",
+      "notes": "与动森的纸张有机轮廓区分；偏现代生活模拟与多人状态。当前版本需重新逐屏取样。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/the-sims-4-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "ee1268ad94fba7717cebb85453c1aeee4e525365c9b6fa8d9efc409106858400",
+        "labUrl": "/game-ui-skills/labs/the-sims-4/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "banner-saga",
+      "title": "旗帜的传说",
+      "englishTitle": "The Banner Saga",
+      "version": "第一代",
+      "status": "complete",
+      "familyIds": [
+        "nordic-flat"
+      ],
+      "variant": "北欧手绘纹章",
+      "officialUrl": "https://store.steampowered.com/app/237990/",
+      "preview": "/game-ui-skills/labs/banner-saga/previews/caravan-prep.png",
+      "labUrl": "/game-ui-skills/labs/banner-saga/index.html",
+      "notes": "与暗黑恐怖和纸片卡通区分；手绘肖像和北欧纹样会提高资产成本。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/banner-saga-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "041230fb968da9ed3e58144076d4e601723a69f5029c1af085262884c1099a6d",
+        "labUrl": "/game-ui-skills/labs/banner-saga/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 237990,
+      "steamdbUrl": "https://steamdb.info/app/237990/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "pentiment",
+      "title": "隐迹渐现",
+      "englishTitle": "Pentiment",
+      "version": "2022 原版方向",
+      "status": "complete",
+      "familyIds": [
+        "manuscript"
+      ],
+      "variant": "彩绘手抄本与早期印刷",
+      "officialUrl": "https://store.steampowered.com/app/1205520/",
+      "preview": "/game-ui-skills/labs/pentiment/previews/relationship-map.png",
+      "labUrl": "/game-ui-skills/labs/pentiment/index.html",
+      "notes": "与 Potion Craft 同属历史纸本但用途不同；前者是书页叙事，后者是工坊和配方操作。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/pentiment-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "0104b8bc8608ca4d658b61a7ea83dccfb1385818635d292397a5dca62d7c5bcf",
+        "labUrl": "/game-ui-skills/labs/pentiment/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 1205520,
+      "steamdbUrl": "https://steamdb.info/app/1205520/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "katamari",
+      "title": "块魂",
+      "englishTitle": "Katamari Damacy REROLL",
+      "version": "REROLL / 非 Royal Reverie",
+      "status": "complete",
+      "familyIds": [
+        "toy-pop"
+      ],
+      "variant": "玩具拼贴与宇宙波普",
+      "officialUrl": "https://store.steampowered.com/app/848350/",
+      "preview": "/game-ui-skills/labs/katamari/previews/collection-book.png",
+      "labUrl": "/game-ui-skills/labs/katamari/index.html",
+      "notes": "与星露谷、动森的生活感不同；必须依靠图形、排版与动效组合，不能只用亮色。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/katamari-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "8ac959a1c3da7f986617da1eec4b3c4b331b576860c29bcb31dda020dfebc540",
+        "labUrl": "/game-ui-skills/labs/katamari/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 848350,
+      "steamdbUrl": "https://steamdb.info/app/848350/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "undertale",
+      "title": "传说之下",
+      "englishTitle": "Undertale",
+      "version": "2015 原作",
+      "status": "complete",
+      "familyIds": [
+        "mono-pixel"
+      ],
+      "variant": "黑白点阵命令框",
+      "officialUrl": "https://store.steampowered.com/app/391540/",
+      "preview": "/game-ui-skills/labs/undertale/previews/battle-commands.png",
+      "labUrl": "/game-ui-skills/labs/undertale/index.html",
+      "notes": "与既有 EarthBound 候选较近，因此不抢第一批名额；适合低资产成本路线。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/undertale-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "acfdfbf0243487960cfa3a626c3c91381e96f0ac1134b6ab34f27b9418be9cbe",
+        "labUrl": "/game-ui-skills/labs/undertale/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 391540,
+      "steamdbUrl": "https://steamdb.info/app/391540/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "curse-monkey-island",
+      "title": "猴岛的诅咒",
+      "englishTitle": "The Curse of Monkey Island",
+      "version": "1997 第三代 / 非 Return to Monkey Island",
+      "status": "complete",
+      "familyIds": [
+        "painted-adventure"
+      ],
+      "variant": "手绘海盗动画片",
+      "officialUrl": "https://store.steampowered.com/app/730820/",
+      "preview": "/game-ui-skills/labs/curse-monkey-island/previews/inventory-tray.png",
+      "labUrl": "/game-ui-skills/labs/curse-monkey-island/index.html",
+      "notes": "场景、物件和人物贡献很大；适合点选冒险专题，通用管理面板较少。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/curse-monkey-island-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "6155e90080947bce780d9b6e7d55adb90f2d7b9c777567b49c25f5ccf850ea95",
+        "labUrl": "/game-ui-skills/labs/curse-monkey-island/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 730820,
+      "steamdbUrl": "https://steamdb.info/app/730820/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "cuphead",
+      "title": "茶杯头",
+      "englishTitle": "Cuphead",
+      "version": "基础游戏 / DLC 分开",
+      "status": "complete",
+      "familyIds": [
+        "rubber-hose"
+      ],
+      "variant": "1930 年代橡皮管动画",
+      "officialUrl": "https://store.steampowered.com/app/268910/",
+      "preview": "/game-ui-skills/labs/cuphead/previews/equipment-cards.png",
+      "labUrl": "/game-ui-skills/labs/cuphead/index.html",
+      "notes": "美术识别度高，菜单语法相对简单；角色、字体、动效比通用组件更重要。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/cuphead-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "1c85e2f99923c6fa89c9b895bab89b7441b98fd4f245c44a399c58edf2a852ef",
+        "labUrl": "/game-ui-skills/labs/cuphead/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 268910,
+      "steamdbUrl": "https://steamdb.info/app/268910/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "okami",
+      "title": "大神",
+      "englishTitle": "Okami HD",
+      "version": "HD 菜单方向 / 原作比例单列",
+      "status": "complete",
+      "familyIds": [
+        "sumi"
+      ],
+      "variant": "日式水墨卷轴",
+      "officialUrl": "https://store.steampowered.com/app/587620/",
+      "preview": "/game-ui-skills/labs/okami/previews/item-scroll.png",
+      "labUrl": "/game-ui-skills/labs/okami/index.html",
+      "notes": "水墨场景风格不能直接等价于 UI 系统；需先做书法、印章和图标资产板。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/okami-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "0d244f2a2cea5d06753d3a8318dbe5a773a1281c7e7d93f0e59479fb378826ce",
+        "labUrl": "/game-ui-skills/labs/okami/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 587620,
+      "steamdbUrl": "https://steamdb.info/app/587620/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "obra-dinn",
+      "title": "奥伯拉丁的回归",
+      "englishTitle": "Return of the Obra Dinn",
+      "version": "2018 PC / 固定显示配色",
+      "status": "complete",
+      "familyIds": [
+        "one-bit"
+      ],
+      "variant": "1-bit 抖动与航海账簿",
+      "officialUrl": "https://obradinn.com/",
+      "preview": "/game-ui-skills/labs/obra-dinn/previews/crew-roster.png",
+      "labUrl": "/game-ui-skills/labs/obra-dinn/index.html",
+      "notes": "极强辨识度但偏档案与推理；不建议硬套商店/奖励卡，更不等价于通用 RPG 包。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/obra-dinn-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "f9996333763ba2d0a44cd1657e6bb43b925ec94173d6ddae121432843d778627",
+        "labUrl": "/game-ui-skills/labs/obra-dinn/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "patapon",
+      "title": "战鼓啪打碰",
+      "englishTitle": "Patapon",
+      "version": "PS4 Remastered / Replay 另列",
+      "status": "complete",
+      "familyIds": [
+        "rhythm-cutout"
+      ],
+      "variant": "部落剪影与节奏图腾",
+      "officialUrl": "https://store.playstation.com/en-us/product/UP9000-CUSA06171_00-UCUS987110000001/",
+      "preview": "/game-ui-skills/labs/patapon/previews/squad-loadout.png",
+      "labUrl": "/game-ui-skills/labs/patapon/index.html",
+      "notes": "识别度更多来自角色轮廓、节奏动画与符号；完整 UI 包需一起定义动态规则。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/patapon-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "ae39ebd3d4b39ae63c6d44979d5bf3f0e8530916212de6677ed0b5fc9bf2b736",
+        "labUrl": "/game-ui-skills/labs/patapon/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "ori-wisps",
+      "title": "奥日：精灵与萤火意志",
+      "englishTitle": "Ori and the Will of the Wisps",
+      "version": "2020 Will of the Wisps / 非 Blind Forest",
+      "status": "complete",
+      "familyIds": [
+        "luminous-paint"
+      ],
+      "variant": "发光森林与轻薄灵性界面",
+      "officialUrl": "https://www.orithegame.com/media/",
+      "preview": "/game-ui-skills/labs/ori-wisps/previews/abilities.png",
+      "labUrl": "/game-ui-skills/labs/ori-wisps/index.html",
+      "notes": "优先研究。与 Blind Forest 技能树分开取样；发光不能遮蔽小字号。",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/ori-wisps-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "2e34c38aaba7594e3d9cbd1cdfba3168013d2382337082f681ff3a265de82ba4",
+        "labUrl": "/game-ui-skills/labs/ori-wisps/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "balatro",
+      "title": "小丑牌",
+      "englishTitle": "Balatro",
+      "version": "既有实验参考版",
+      "status": "complete",
+      "familyIds": [
+        "crt-cards"
+      ],
+      "variant": "复古街机",
+      "officialUrl": null,
+      "preview": "/game-ui-skills/labs/balatro/previews/reward.png",
+      "labUrl": "/game-ui-skills/labs/balatro/index.html",
+      "notes": "",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/balatro-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "df1655bbd03a8afa30dee5fe0ae9b27c377df6bd33de5451a38f5c1455c17258",
+        "labUrl": "/game-ui-skills/labs/balatro/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "slay-the-spire",
+      "title": "杀戮尖塔",
+      "englishTitle": "Slay the Spire",
+      "version": "既有实验参考版",
+      "status": "complete",
+      "familyIds": [
+        "painted-fantasy"
+      ],
+      "variant": "手绘奇幻",
+      "officialUrl": null,
+      "preview": "/game-ui-skills/labs/slay-the-spire/previews/reward.png",
+      "labUrl": "/game-ui-skills/labs/slay-the-spire/index.html",
+      "notes": "",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/slay-the-spire-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "e61985343134152ce8e5078121486e17719f6ddbc6577b6a4268433f762ac7c1",
+        "labUrl": "/game-ui-skills/labs/slay-the-spire/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "stardew-valley",
+      "title": "星露谷",
+      "englishTitle": "Stardew Valley",
+      "version": "既有实验参考版",
+      "status": "complete",
+      "familyIds": [
+        "cozy-pixel"
+      ],
+      "variant": "田园像素",
+      "officialUrl": null,
+      "preview": "/game-ui-skills/labs/stardew-valley/previews/reward.png",
+      "labUrl": "/game-ui-skills/labs/stardew-valley/index.html",
+      "notes": "",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/stardew-valley-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "2a28cde2e6c048cf2ff9d0af4ca4b592ec0bee78870670769fc3f816dfbe02f4",
+        "labUrl": "/game-ui-skills/labs/stardew-valley/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "final-fantasy-vii",
+      "title": "最终幻想 VII",
+      "englishTitle": "Final Fantasy Vii",
+      "version": "原作菜单方向 / 非 Remake",
+      "status": "complete",
+      "familyIds": [
+        "gradient-jrpg"
+      ],
+      "variant": "蓝色 JRPG",
+      "officialUrl": "https://store.steampowered.com/app/3837340/",
+      "preview": "/game-ui-skills/labs/final-fantasy-vii/previews/battle.png",
+      "labUrl": "/game-ui-skills/labs/final-fantasy-vii/index.html",
+      "notes": "深蓝渐变、细白框、白色指针、紧凑命令列表",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/final-fantasy-vii-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "e369b01972db87030d8988af829f7c83f4d6ffb7c358fd4b1c7cffec2608974e",
+        "labUrl": "/game-ui-skills/labs/final-fantasy-vii/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": 3837340,
+      "steamdbUrl": "https://steamdb.info/app/3837340/",
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "diablo-ii",
+      "title": "暗黑破坏神 II",
+      "englishTitle": "Diablo Ii",
+      "version": "经典界面方向 / 重制版分开取样",
+      "status": "complete",
+      "familyIds": [
+        "ornamental-fantasy"
+      ],
+      "variant": "哥特装备栏",
+      "officialUrl": "https://download.blizzard.com/pub/misc/Diablo%20II%20Manual.pdf",
+      "preview": "/game-ui-skills/labs/diablo-ii/previews/inventory.png",
+      "labUrl": "/game-ui-skills/labs/diablo-ii/index.html",
+      "notes": "石雕金属面板、红蓝资源球、多格物品、暗色压纹",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/diablo-ii-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "507d76c2000a6eb5815eec1096ec2d492184c5c631a709572a04bd82b1c149c6",
+        "labUrl": "/game-ui-skills/labs/diablo-ii/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    },
+    {
+      "id": "pokemon-emerald",
+      "title": "宝可梦 绿宝石",
+      "englishTitle": "Pokemon Emerald",
+      "version": "GBA 版本",
+      "status": "complete",
+      "familyIds": [
+        "handheld-pixel"
+      ],
+      "variant": "掌机像素",
+      "officialUrl": "https://www.nintendo.co.jp/n08/bpej/index.html",
+      "preview": "/game-ui-skills/labs/pokemon-emerald/previews/bag.png",
+      "labUrl": "/game-ui-skills/labs/pokemon-emerald/index.html",
+      "notes": "高对比像素描边、浅色文字框、短指令、队伍列表",
+      "mappingBasis": "editorial-reference-classification",
+      "observedSteamTags": null,
+      "keywordVolume": null,
+      "demandValidated": false,
+      "evidenceDate": "2026-10-16",
+      "sourceType": "existing-local-research-and-artifacts",
+      "archiveUrl": "/game-ui-skills/downloads/pokemon-emerald-ui-1.0.0.zip",
+      "completionEvidence": {
+        "archiveSha256": "ff1e433954ccf1f45ee640b164654f6aa743b4b2f24356b4b7601fcfe646cbfe",
+        "labUrl": "/game-ui-skills/labs/pokemon-emerald/index.html",
+        "basis": "Local archive and runnable examples; experimental reference Skill."
+      },
+      "steamAppId": null,
+      "steamdbUrl": null,
+      "steamdbAppTagsVerified": false
+    }
+  ],
+  "sources": [
+    {
+      "title": "SteamDB · All Steam Game Tags",
+      "url": "https://steamdb.info/tags/",
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "title": "Steamworks · Steam Tags",
+      "url": "https://partner.steamgames.com/doc/store/tags?l=english",
+      "checkedAt": "2026-10-16"
+    }
+  ],
+  "methodology": {
+    "scope": "Curated seed index, not all Steam games.",
+    "steamdbImport": "29 observed Visuals & Viewpoint terms; direct HTTP fetch returned 403, so no bulk crawl or automatic sync is claimed.",
+    "axes": "Art style, rendering dimensions, perspective, presentation and evaluative descriptors are separated editorially.",
+    "mapping": "Family and vocabulary mappings are our design interpretation, not verified SteamDB tag profiles for every game.",
+    "coverage": "Covered means at least one local complete experimental reference Skill in that family; variants can remain unmade.",
+    "metrics": "No SteamDB title counts, keyword volume, sales or demand scores are used."
+  }
+}

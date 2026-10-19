@@ -1,0 +1,41 @@
+{
+  "slug": "fallout-2",
+  "packageName": "fallout-2-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "character",
+      "title": "Character Record",
+      "description": "A dense character sheet with seven attribute rows, condition markers, and a compact monochrome status panel."
+    },
+    {
+      "id": "inventory",
+      "title": "Inventory",
+      "description": "A tightly packed item field with count/weight, selected-object description, and a small action strip."
+    },
+    {
+      "id": "barter",
+      "title": "Barter Ledger",
+      "description": "Two offer columns, a visible balance/gap, and an explicit propose/withdraw state."
+    }
+  ],
+  "referenceImage": "references/images/style-reference.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "All metalwork, symbols, character data, item names, and barter values are original; no Fallout art, logo, or font is included.",
+    "The visual boundary is the original 1998 PC interface direction. Fallout 4 Pip-Boy and wrist-device styling are excluded.",
+    "No engine integration, gameplay logic, or measured search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

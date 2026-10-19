@@ -1,0 +1,41 @@
+{
+  "slug": "obra-dinn",
+  "packageName": "obra-dinn-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "crew-roster",
+      "title": "Crew roster",
+      "description": "A stable crew index supports sorting by name, location, and identity confidence."
+    },
+    {
+      "id": "investigation-log",
+      "title": "Investigation log",
+      "description": "A chronological deduction record separates observed evidence from inferred fate."
+    },
+    {
+      "id": "chapter-index",
+      "title": "Chapter index",
+      "description": "A ship and deck index reveals access and completion while preserving the investigative route."
+    }
+  ],
+  "referenceImage": "assets/illustrations/obra-dinn-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original illustration is not canonical source-game UI evidence.",
+    "Synthetic contracts must be adapted to an actual product state model.",
+    "Component capture and independent forward implementation QA are pending."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

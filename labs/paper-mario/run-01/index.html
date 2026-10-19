@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9dfc9">
+  <title>Paper Parade · UI Study</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#badges" aria-label="Paper Parade home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span><b>THE PAPER PARADE</b><small>FIELD UI STUDY · 2024 PAPER-THEATRE DIRECTION</small></span>
+      </a>
+      <nav class="screen-nav" aria-label="Game screens">
+        <a href="#badges">Badge folio</a>
+        <a href="#items">Field items</a>
+        <a href="#battle-orders">Stage commands</a>
+      </nav>
+      <span class="save-state"><i></i> SESSION PREVIEW</span>
+    </header>
+
+    <main class="playfield">
+      <div class="stage-topline"><span id="screen-kicker">EQUIPMENT / FOLIO 01</span><span>INK • PAPER • STAGE</span></div>
+
+      <section class="screen folio-screen" id="badges" data-screen="badges" aria-labelledby="badges-title" hidden>
+        <div class="folio-rail">
+          <span class="rail-stamp">P<br>A<br>P<br>E<br>R</span>
+          <span class="rail-number">01</span>
+          <span class="rail-dash"></span>
+          <span class="rail-note">PIN<br>BOARD</span>
+        </div>
+        <div class="screen-body">
+          <div class="screen-heading">
+            <div><p class="eyebrow">EQUIPMENT / BADGE FOLIO</p><h1 id="badges-title">A little room for<br><em>bright ideas.</em></h1></div>
+            <div class="folio-count"><strong>03 / 06</strong><small>INKED SLOTS</small></div>
+          </div>
+          <div class="badges-layout">
+            <section class="folio-board" aria-label="Available badges">
+              <div class="board-label"><span>THE PINBOARD</span><span>SELECT A BADGE TO PREVIEW</span></div>
+              <div class="badge-grid">
+                <button class="badge-tile selected" data-select="badge" data-value="Sunlit Spark" aria-label="Sunlit Spark" aria-pressed="true"><span class="badge-emblem sunburst" aria-hidden="true">✦</span><span class="tile-copy"><b>Sunlit Spark</b><small>Brightens a careful strike</small></span><span class="slot-cost">◆ ◆</span></button>
+                <button class="badge-tile" data-select="badge" data-value="Leafstep" aria-label="Leafstep" aria-pressed="false"><span class="badge-emblem leaf" aria-hidden="true">❧</span><span class="tile-copy"><b>Leafstep</b><small>A lighter crossing</small></span><span class="slot-cost">◆</span></button>
+                <button class="badge-tile" data-select="badge" data-value="Ticket Wink" aria-label="Ticket Wink" aria-pressed="false"><span class="badge-emblem ticket" aria-hidden="true">◇</span><span class="tile-copy"><b>Ticket Wink</b><small>Draws a little applause</small></span><span class="slot-cost">◆</span></button>
+                <button class="badge-tile" data-select="badge" data-value="Cloud Bell" aria-label="Cloud Bell" aria-pressed="false"><span class="badge-emblem bell" aria-hidden="true">♢</span><span class="tile-copy"><b>Cloud Bell</b><small>Softens one rough edge</small></span><span class="slot-cost">◆ ◆</span></button>
+              </div>
+              <div class="folio-capacity"><span class="capacity-label">CAPACITY</span><span class="pips" aria-label="Three of six badge slots used"><i class="filled"></i><i class="filled"></i><i class="filled"></i><i></i><i></i><i></i></span><span class="capacity-value" data-capacity>03 / 06</span></div>
+            </section>
+            <aside class="preview-sheet">
+              <span class="paper-clip" aria-hidden="true"></span>
+              <div class="preview-stamp">PIN<br>PREVIEW</div>
+              <p class="eyebrow">ON THE TABLE</p>
+              <h2 data-preview>Sunlit Spark</h2>
+              <p class="preview-copy">A warm little burst for the next page of this invented adventure.</p>
+              <div class="tiny-stat"><span>INK COST</span><b data-cost>02 SLOTS</b></div>
+              <div class="tiny-stat"><span>FOLIO SPACE</span><b>03 OPEN</b></div>
+              <button class="commit-button" data-commit="equip" disabled>Equip Sunlit Spark</button>
+              <p class="result-line" data-result aria-live="polite">Choose a badge, then pin it to the folio.</p>
+            </aside>
+          </div>
+          <div class="specimen-foot"><span>ORIGINAL EMBLEMS / SAMPLE SLOT COSTS</span><span>PREVIEW FIRST · EQUIP SECOND</span></div>
+        </div>
+      </section>
+
+      <section class="screen items-screen" id="items" data-screen="items" aria-labelledby="items-title" hidden>
+        <div class="screen-body items-body">
+          <div class="screen-heading item-heading">
+            <div><p class="eyebrow">FIELD KIT / LOOSE SLIPS</p><h1 id="items-title">Pocket-sized<br><em>good fortune.</em></h1></div>
+            <div class="paper-inventory"><span>TRAVEL POUCH</span><b data-pouch>10 / 12</b><small>ITEMS CARRIED · SAMPLE</small></div>
+          </div>
+          <div class="item-shelf">
+            <div class="shelf-edge" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="item-slips" aria-label="Field inventory">
+              <button class="item-slip chosen" data-select="item" data-value="Honeycomb Tart" aria-label="Honeycomb Tart" aria-pressed="true"><span class="slip-icon tart" aria-hidden="true">✣</span><span class="slip-copy"><b>Honeycomb Tart</b><small>Restores 24 lantern sparks</small></span><span class="qty" data-item-count="Honeycomb Tart">× 2</span></button>
+              <button class="item-slip" data-select="item" data-value="Breeze Ribbon" aria-label="Breeze Ribbon" aria-pressed="false"><span class="slip-icon ribbon" aria-hidden="true">〰</span><span class="slip-copy"><b>Breeze Ribbon</b><small>Points toward a kinder road</small></span><span class="qty" data-item-count="Breeze Ribbon">× 1</span></button>
+              <button class="item-slip" data-select="item" data-value="Pocket Ticket" aria-label="Pocket Ticket" aria-pressed="false"><span class="slip-icon ticket-mark" aria-hidden="true">◇</span><span class="slip-copy"><b>Pocket Ticket</b><small>One seat near the stage</small></span><span class="qty" data-item-count="Pocket Ticket">× 3</span></button>
+              <button class="item-slip" data-select="item" data-value="Daisy Seed" aria-label="Daisy Seed" aria-pressed="false"><span class="slip-icon seed" aria-hidden="true">❧</span><span class="slip-copy"><b>Daisy Seed</b><small>A tiny green beginning</small></span><span class="qty" data-item-count="Daisy Seed">× 4</span></button>
+            </div>
+            <aside class="item-receipt">
+              <p class="eyebrow">PICK-UP WINDOW</p><div class="receipt-rule"></div>
+              <span class="receipt-glyph" aria-hidden="true">✿</span>
+              <h2 data-preview>Honeycomb Tart</h2>
+              <p data-item-note>Sweet, sturdy, wrapped in a square of sunshine.</p>
+              <div class="receipt-value"><span>IN POUCH</span><b data-selected-qty>02</b></div>
+              <button class="commit-button" data-commit="use" disabled>Use Honeycomb Tart</button>
+              <p class="result-line" data-result aria-live="polite">Select a slip to read its field note.</p>
+            </aside>
+          </div>
+          <div class="item-bottom"><span>FIELD USE IS A LOCAL PREVIEW</span><img src="./assets/ui-atlas.svg" alt="Original paper emblems: rosette, leaf, and ticket" width="192" height="48"></div>
+        </div>
+      </section>
+
+      <section class="screen battle-screen" id="battle-orders" data-screen="battle-orders" aria-labelledby="battle-title" hidden>
+        <div class="screen-body theatre-body">
+          <div class="stage-skyline"><div><p class="eyebrow">ACT II / THE GARDEN OF GLOWING SEEDS</p><h1 id="battle-title">One brave<br><em>little choice.</em></h1></div><div class="audience-note"><span>HOUSE / CHEER</span><b>03</b><div class="cheer-meter" aria-label="Audience cheer sample: three segments"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+          <div class="theatre-set" aria-label="Original paper stage scene">
+            <div class="curtain curtain-left"></div><div class="curtain curtain-right"></div>
+            <div class="spotlight"></div><div class="enemy-shadow"><span>✷</span><b>Lantern Wisp</b><small>FRONT ROW</small></div>
+            <div class="stage-plank"></div><div class="stage-caption">A STAGE CUE, NOT A COMBAT SIMULATION</div>
+          </div>
+          <div class="command-strip">
+            <div class="command-title"><span class="ribbon-label">CHOOSE AN ORDER</span><small>ONE AT A TIME</small></div>
+            <div class="command-options">
+              <button data-select="command" data-value="Hammer" aria-label="Hammer" aria-pressed="true"><span class="command-symbol" aria-hidden="true">✦</span>Hammer</button>
+              <button data-select="command" data-value="Jump" aria-label="Jump" aria-pressed="false"><span class="command-symbol" aria-hidden="true">↗</span>Jump</button>
+              <button data-select="command" data-value="Partner Flourish" aria-label="Partner Flourish" aria-pressed="false"><span class="command-symbol" aria-hidden="true">❧</span>Partner flourish</button>
+              <label class="target-picker">TARGET<select aria-label="Select front-row target"><option>Lantern Wisp</option><option>Paper Moth</option></select></label>
+              <button class="commit-button" data-commit="queue" disabled>Lock Hammer on Lantern Wisp</button>
+            </div>
+            <p class="result-line" data-result aria-live="polite">Choose a command to preview its target cue.</p>
+          </div>
+          <div class="specimen-foot"><span>LOCAL COMMAND QUEUE <b data-queue>00</b></span><span>AUDIENCE METER IS SUPPORTING FEEDBACK</span></div>
+        </div>
+      </section>
+
+      <p class="lab-caption">Prototype caption: every item, name, capacity, and outcome is fictional sample data; controls change this page only and never write a save.</p>
+    </main>
+  </div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

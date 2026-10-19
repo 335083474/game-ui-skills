@@ -1,0 +1,41 @@
+{
+  "slug": "frostpunk",
+  "packageName": "frostpunk-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "book-of-laws",
+      "title": "Book of Laws",
+      "description": "Decree slips show costs and consequences before signature."
+    },
+    {
+      "id": "technology-tree",
+      "title": "Technology Tree",
+      "description": "Short branching research nodes distinguish completed, available and blocked states."
+    },
+    {
+      "id": "city-resource-hud",
+      "title": "City Resource HUD",
+      "description": "Thermal instrument, compact resource trends and a restrained city vignette."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Temperature, law effects, resources, technology costs and population are synthetic.",
+    "Generated atlas is original, not official 11 bit studios art.",
+    "No copied font or exact game UI specification."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

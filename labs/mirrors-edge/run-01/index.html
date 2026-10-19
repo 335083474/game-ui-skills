@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8faf9">
+  <title>Open Line — Mirror’s Edge UI study</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-style="mirrors-edge">
+  <header class="me-header">
+    <a class="me-brand" href="#runner-map" aria-label="Open Line home, runner map"><span class="red-bar" aria-hidden="true"></span><span><strong>OPEN LINE</strong><small>ORIGINAL MIRROR’S EDGE / EXPERIMENTAL STUDY</small></span></a>
+    <nav aria-label="Demo screens" class="me-nav">
+      <a href="#runner-map" data-route="runner-map">01&nbsp; MAP</a>
+      <a href="#mission-brief" data-route="mission-brief">02&nbsp; BRIEF</a>
+      <a href="#movement-hud" data-route="movement-hud">03&nbsp; MOVEMENT</a>
+    </nav>
+    <span class="scope-label">LOCAL DEMO / 2008 SCOPE</span>
+  </header>
+  <div id="feedback" class="feedback" role="status" aria-live="polite" tabindex="-1">Synthetic route values · page-session state only</div>
+  <main id="screen-root" tabindex="-1"></main>
+  <footer class="me-footer"><span>DOM / CSS WAYFINDING STUDY</span><span>Generated rooftop context · not a game capture · demo controls are invented</span></footer>
+
+  <template id="screen-runner-map">
+    <section class="map-screen" aria-labelledby="screen-title">
+      <div class="map-heading"><div><p class="eyebrow">NORTH APPROACH / SPATIAL CHOICE</p><h1 id="screen-title">Find the<br><span>clean line.</span></h1></div><p class="map-intro">Two routes cross the same invented rooftop stretch. Follow the red mark, then choose how to reach the relay.</p><span class="map-north"><b>N</b><i aria-hidden="true">↑</i></span></div>
+      <div class="roof-map" role="group" aria-label="Synthetic rooftop route diagram">
+        <div class="roof-photo" aria-hidden="true"></div><div class="roof-fade" aria-hidden="true"></div>
+        <svg class="wayfinding" viewBox="0 0 1000 430" preserveAspectRatio="none" role="img" aria-label="Two possible routes from start to the relay">
+          <path class="route-ghost" d="M100 340 L310 330 L460 260 L620 230 L820 115 L910 78"/game-ui-skills/>
+          <path class="route-open" data-route-line="canal-edge" d="M100 340 L310 330 L460 260 L620 230 L820 115 L910 78"/game-ui-skills/>
+          <path class="route-covered" data-route-line="service-roof" d="M100 340 L310 330 L390 355 L550 350 L710 292 L820 210 L910 78"/game-ui-skills/>
+          <circle class="waypoint" cx="310" cy="330" r="10"/game-ui-skills/><circle class="waypoint" cx="620" cy="230" r="10"/game-ui-skills/><path class="finish-diamond" d="M910 60 L928 78 L910 96 L892 78 Z"/game-ui-skills/>
+        </svg>
+        <span class="map-stamp stamp-start">START<br><b>01</b></span><span class="map-stamp stamp-relay">RELAY DOOR<br><b>END</b></span>
+        <button type="button" class="route-marker canal-marker" data-action="map-preview" data-value="canal-edge" aria-label="Preview Canal Edge route" aria-pressed="false"><span class="marker-dot">A</span><span><b>CANAL EDGE</b><small>OPEN CROSSING · 2.4 KM DEMO</small></span></button>
+        <button type="button" class="route-marker service-marker" data-action="map-preview" data-value="service-roof" aria-label="Preview Service Roof route" aria-pressed="false"><span class="marker-dot">B</span><span><b>SERVICE ROOF</b><small>COVERED APPROACH · 3.1 KM DEMO</small></span></button>
+        <div class="roof-coordinate">SYNTHETIC ROUTE PLATE / NOT A LEVEL MAP</div>
+      </div>
+      <div class="route-choice">
+        <div class="choice-readout"><span class="choice-label">ROUTE PREVIEW</span><h2 data-bind="routeName">No line selected</h2><p data-bind="routeDetail">Select a red marker to see its route trade-off.</p><label class="edit-field">Margin note <input data-edit="routeNote" type="text" maxlength="50" value="Stay near the north wall" aria-label="Edit the route margin note"></label></div>
+        <div class="choice-action"><button type="button" class="red-action" data-action="map-confirm" aria-describedby="map-confirm-help">Plot selected line</button><button type="button" class="quiet-action" data-action="map-cancel">Clear preview</button><p id="map-confirm-help" class="helper">A confirmed route is held only until reload.</p><p class="inline-feedback" data-bind="routeFeedback">No route is locked.</p></div>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-mission-brief">
+    <section class="brief-screen" aria-labelledby="screen-title">
+      <div class="brief-art-band"><div class="band-caption">COURIER DISPATCH / NORTH RELAY</div><div class="band-corner">FIELD<br>NOTE<br>07</div></div>
+      <article class="brief-sheet">
+        <div class="brief-title-block"><p class="eyebrow">SYNTHETIC DISPATCH / 00:12 WINDOW</p><h1 id="screen-title">North Relay<br>Courier</h1><p class="target-line"><span class="target-mark" aria-hidden="true">↗</span><span><small>TARGET</small><strong>Relay door / East stair exit</strong></span></p></div>
+        <div class="brief-sequence">
+          <p class="eyebrow">OBJECTIVE SEQUENCE / DEMO ONLY</p>
+          <ol>
+            <li><span>01</span><strong>Reach the relay door</strong><small>Keep the roofline in view.</small></li>
+            <li><span>02</span><strong>Carry the sealed packet</strong><small>Route data is invented for this study.</small></li>
+            <li><span>03</span><strong>Leave via the east stair</strong><small>End marker / synthetic waypoint.</small></li>
+          </ol>
+          <label class="edit-field brief-note">Courier note <input data-edit="briefNote" type="text" maxlength="50" value="Packet stays sealed until the stair" aria-label="Edit the courier brief note"></label>
+        </div>
+        <div class="brief-bottom"><div><span class="brief-status" data-bind="briefState">BRIEF NOT ACCEPTED</span><p>Objectives, route details, and page behavior are synthetic. This sheet is a separate intent surface.</p></div><div class="brief-actions"><button type="button" class="red-action" data-action="brief-accept" aria-describedby="brief-help">Accept North Relay Courier brief</button><button type="button" class="quiet-action" data-action="brief-back">Back / cancel brief</button><span class="helper" id="brief-help">Accepting changes only this page session.</span></div></div>
+      </article>
+      <div class="brief-side-note"><b>08 / 41</b><span>UPPER ROOF<br>TO EAST STAIR</span></div>
+    </section>
+  </template>
+
+  <template id="screen-movement-hud">
+    <section class="movement-screen" aria-labelledby="screen-title">
+      <div class="movement-scene" role="img" aria-label="Generated bright rooftop with a red route stripe and distant runner">
+        <div class="scene-topline"><span class="scene-index">NORTH ROOF / TRAVERSE</span><h1 id="screen-title">Keep moving.</h1><span class="scene-objective"><i aria-hidden="true"></i><span><small>NEXT / SYNTHETIC OBJECTIVE</small><b>RELAY ACCESS</b></span></span></div>
+        <div class="movement-crosshair" aria-hidden="true"><span></span></div>
+        <div class="cue-anchor" data-bind-class="cueHidden">
+          <div class="cue-rule"><span>IMMEDIATE CUE / DEMO SCENARIO</span><span data-bind="cueState">READY</span></div>
+          <div class="cue-content"><span class="cue-arrow" aria-hidden="true">↗</span><div><p class="eyebrow">ONE NEXT ACTION</p><h2>Vault the low barrier</h2><span class="demo-key">DEMO KEY / SPACE</span></div></div>
+          <p class="cue-disclaimer">Space is an invented local demo label, not an official binding.</p>
+        </div>
+        <div class="scene-edge-label">VIEW STAYS OPEN / LONG OBJECTIVES LIVE IN THE BRIEF</div>
+      </div>
+      <div class="cue-controls"><div><span class="eyebrow">EDGE CUE / PAGE SESSION</span><p data-bind="cueFeedback">The barrier cue is ready for preview.</p></div><div class="cue-buttons"><button type="button" class="quiet-action" data-action="cue-preview">Preview low barrier cue</button><button type="button" class="red-action" data-action="cue-use" aria-describedby="cue-help">Use cue for this session</button><button type="button" class="quiet-action" data-action="cue-cancel">Cancel cue preview</button><button type="button" class="quiet-action restore-cue" data-action="cue-restore">Restore cue</button><span id="cue-help" class="helper">No traversal input is sent to a game.</span></div></div>
+    </section>
+  </template>
+</body>
+</html>

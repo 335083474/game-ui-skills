@@ -1,0 +1,15 @@
+{
+  "slug": "mini-metro",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "route-editor", "title": "Route Editor", "description": "Edit an open topology map by selecting a route color and two stations, then apply or cancel a local segment." },
+    { "id": "capacity-upgrade", "title": "Capacity Upgrade", "description": "Attach one capacity token to Transfer 05 and read its current and updated link count." },
+    { "id": "day-results", "title": "Day Results", "description": "Read passenger flow and a marked queue on the map, then advance the synthetic service interval." }
+  ],
+  "smokeTests": [
+    { "screenId": "route-editor", "steps": [ { "action": "select", "role": "combobox", "name": "Active route line", "value": "red" }, { "action": "click", "role": "button", "name": "Station Mill" }, { "action": "click", "role": "button", "name": "Station Transfer 05" }, { "action": "click", "role": "button", "name": "Apply route segment" } ], "expectedText": [ "RED ROUTE APPLIED • MILL → TRANSFER 05" ] },
+    { "screenId": "capacity-upgrade", "steps": [ { "action": "click", "role": "button", "name": "Interchange +1 branch" }, { "action": "click", "role": "button", "name": "Reserve upgrade" } ], "expectedText": [ "TRANSFER 05 CAPACITY • 3 → 4 LINKS" ] },
+    { "screenId": "day-results", "steps": [ { "action": "click", "role": "button", "name": "Advance to day 19" } ], "expectedText": [ "DAY 19 READY • LOCAL DEMO" ] }
+  ]
+}

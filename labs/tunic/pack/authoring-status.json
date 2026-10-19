@@ -1,0 +1,41 @@
+{
+  "slug": "tunic",
+  "packageName": "tunic-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "inventory",
+      "title": "Inventory",
+      "description": "A sparse item-slot fragment uses sculpted, blocky silhouettes and restrained shadow; equipment type remains readable by shape."
+    },
+    {
+      "id": "manual",
+      "title": "Instruction Manual",
+      "description": "A standalone paper leaf combines page indexing, simple geometric diagrams, and original unreadable glyphs without borrowing book art."
+    },
+    {
+      "id": "island-map",
+      "title": "Island Map",
+      "description": "An oblique miniature terrain study uses stacked planes and a route marker; it is a map object, not a conventional dashboard panel."
+    }
+  ],
+  "referenceImage": "assets/references/direction-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "The miniature terrain and paper manual are editorial design interpretations, not canonical TUNIC UI or a reconstruction of the game's page art.",
+    "All geometry, glyphs, item marks, landscape, and figures are original SVG studies. No official art or fonts are included.",
+    "The specimens show interface fragments only. Game state, item behavior, map navigation, engine integration, and independent use testing remain for later work."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desert journey UI specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="board">
+    <header class="board-head">
+      <div>
+        <p class="eyebrow">JOURNEY · 2019 PC DIRECTION STUDY</p>
+        <h1>Follow the quiet horizon</h1>
+        <p class="intro-copy">Scene-led gates, named waypoints, and a brief companion signal. Sample actions stay local to this page.</p>
+      </div>
+      <figure class="art">
+        <img src="../reference-atmosphere.png" alt="Original golden desert gate with a long red woven fabric streaming in the wind">
+        <figcaption>Original generated desert and textile plate</figcaption>
+      </figure>
+    </header>
+
+    <section class="specimen-grid" aria-label="Reusable interface specimens">
+      <article class="specimen gate-specimen">
+        <p class="eyebrow">01 · CHAPTER GATES</p>
+        <h2>Gates along the route</h2>
+        <div class="gate-path" role="group" aria-label="Preview a gate">
+          <button type="button" class="gate current" aria-pressed="false" data-gate="Sand Arch">
+            <span class="gate-shape" aria-hidden="true"><span></span></span>
+            <span>Sand Arch</span><small data-state>Here</small>
+          </button>
+          <button type="button" class="gate selected" aria-pressed="true" data-gate="Wind Gate">
+            <span class="gate-shape open" aria-hidden="true"><span></span></span>
+            <span>Wind Gate</span><small data-state>Ahead</small>
+          </button>
+          <button type="button" class="gate distant" aria-pressed="false" data-gate="High Dune">
+            <span class="gate-shape distant-shape" aria-hidden="true"><span></span></span>
+            <span>High Dune</span><small data-state>Distant</small>
+          </button>
+        </div>
+        <div class="commit-row"><span data-preview>Preview: Wind Gate</span><button type="button" class="action" data-action="cross">Cross gate</button></div>
+        <p class="status" role="status" aria-live="polite">Gate selection is a preview only.</p>
+      </article>
+
+      <article class="specimen">
+        <p class="eyebrow">02 · JOURNEY PROGRESS</p>
+        <h2>Named waypoints</h2>
+        <div class="waypoints">
+          <div class="waypoint passed"><span class="waypoint-mark" aria-hidden="true">✓</span><span>Lower Shelf</span><small data-state>Passed</small></div>
+          <span class="route-rule" aria-hidden="true"></span>
+          <div class="waypoint here"><span class="waypoint-mark" aria-hidden="true">●</span><span>Sand Step</span><small data-state>Here</small></div>
+          <span class="route-rule faded" aria-hidden="true"></span>
+          <div class="waypoint ahead"><span class="waypoint-mark" aria-hidden="true">○</span><span>Sunlit Rise</span><small data-state>Ahead</small></div>
+        </div>
+        <p class="progress-note">No percentage shown while total route length is unknown.</p>
+        <button type="button" class="text-action" data-action="advance">Confirm next crossing</button>
+        <p class="status" role="status" aria-live="polite">Progress changes only after an explicit crossing event.</p>
+      </article>
+
+      <article class="specimen">
+        <p class="eyebrow">03 · COMPANION SIGNALS</p>
+        <h2>Choose a brief signal</h2>
+        <div class="signal-options" role="group" aria-label="Preview a local signal">
+          <button type="button" class="signal selected" aria-pressed="true" data-signal="Chime"><span aria-hidden="true">◌</span>Chime</button>
+          <button type="button" class="signal" aria-pressed="false" data-signal="Wave"><span aria-hidden="true">⌁</span>Wave</button>
+          <button type="button" class="signal" aria-pressed="false" data-signal="Glow"><span aria-hidden="true">✧</span>Glow</button>
+        </div>
+        <p class="pending" data-pending>Pending: Chime · local example</p>
+        <button type="button" class="action" data-action="send">Send signal</button>
+        <p class="status" role="status" aria-live="polite">No network connection is represented by this specimen.</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>Original gate and fabric study · no traveler shown</span>
+      <span>Low persistent UI · labels beyond color · local assets</span>
+    </footer>
+  </main>
+  <script src="demo.js"></script>
+</body>
+</html>
+

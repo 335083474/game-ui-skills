@@ -1,0 +1,15 @@
+{
+  "slug": "papers-please",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "inspection", "title": "Document inspection", "description": "Compare a selected field across two fictional papers, name a mismatch, and confirm a separate stamp." },
+    { "id": "rulebook", "title": "Policy handbook", "description": "Use stable page tabs and previous/next controls to read synthetic dated policies." },
+    { "id": "daily-ledger", "title": "Daily ledger", "description": "Inspect one household line and settle the displayed typed arithmetic once." }
+  ],
+  "smokeTests": [
+    { "screenId": "inspection", "steps": [{ "action": "click", "role": "button", "name": "Compare District across both papers" }, { "action": "click", "role": "button", "name": "DENY" }, { "action": "click", "role": "button", "name": "Confirm DENY for case 018" }], "expectedText": ["Case 018 recorded: DENY. District mismatch — Entry Permit says North Quay; Arrival Card says Old Market."] },
+    { "screenId": "rulebook", "steps": [{ "action": "click", "role": "button", "name": "Next rulebook page" }], "expectedText": ["Page 02 · Transit dates."] },
+    { "screenId": "daily-ledger", "steps": [{ "action": "click", "role": "button", "name": "Inspect household line" }, { "action": "click", "role": "button", "name": "Settle ledger: 30 remaining" }], "expectedText": ["Day ledger settled. Closing balance 30."] }
+  ]
+}

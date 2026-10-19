@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#739549"><title>Willowbrook · A little conversation</title>
+  <link rel="stylesheet" href="assets/components/theme.css"><link rel="stylesheet" href="style.css">
+  <script defer src="model.js"></script><script defer src="app.js"></script>
+</head>
+<body class="svui-meadow">
+  <div class="landscape" aria-hidden="true"><div class="cloud cloud-a"></div><div class="cloud cloud-b"></div><div class="far-hills"></div><div class="near-hills"></div></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#dialogue"><span class="farm-mark" aria-hidden="true">W</span><span>Willowbrook<small>A LITTLE FARM, A LITTLE TIME</small></span></a>
+      <nav aria-label="Prototype screens"><a class="nav-link" href="#dialogue" id="nav-dialogue">Conversation</a><a class="nav-link" href="#settings" id="nav-settings">Settings</a></nav>
+    </header>
+    <main>
+      <section id="dialogue-screen" aria-labelledby="dialogue-title">
+        <div class="scene-heading"><div><p class="svui-kicker">Spring 08 · The old footbridge</p><h1 id="dialogue-title" class="svui-heading">A neighborly favor</h1></div><span class="day-badge">4:20 PM<small>A quiet afternoon</small></span></div>
+        <div class="field-scene" aria-label="A simple meadow beside a village footbridge">
+          <div class="scene-path" aria-hidden="true"></div><div class="cottage" aria-hidden="true"><span></span></div><div class="tree tree-one" aria-hidden="true"></div><div class="tree tree-two" aria-hidden="true"></div><div class="fence" aria-hidden="true"></div>
+          <div class="location-label">WILLOWBROOK COMMON</div>
+          <div class="neighbor-token"><span aria-hidden="true">M</span><strong>MARA</strong><small>Village gardener</small></div>
+          <span class="firefly firefly-one" aria-hidden="true"></span><span class="firefly firefly-two" aria-hidden="true"></span>
+        </div>
+        <article class="conversation svui-frame">
+          <div class="speaker-card"><div class="initial-badge" aria-hidden="true">M</div><h2>Mara</h2><p>Village gardener</p><span class="speaker-note">At the footbridge</span></div>
+          <div class="conversation-content">
+            <p class="chapter-tag" id="dialogue-step">01 / A small invitation</p>
+            <div class="speech" aria-live="polite" aria-atomic="true"><p id="npc-text"></p></div>
+            <p id="choice-echo" class="choice-echo" hidden></p>
+            <div class="responses" id="responses" aria-label="Your reply"></div>
+            <div class="dialogue-actions" id="dialogue-actions" hidden><button class="svui-button" id="continue-dialogue" type="button">Continue</button><button class="svui-button svui-button--leaf" id="back-dialogue" type="button">Back to replies</button><button class="text-button" id="restart-dialogue" type="button">Start again</button></div>
+          </div>
+        </article>
+        <p class="screen-footnote">A branching conversation study · Your reply changes Mara's next words. No quest or inventory is changed.</p>
+      </section>
+
+      <section id="settings-screen" aria-labelledby="settings-title" hidden>
+        <div class="scene-heading"><div><p class="svui-kicker">Your corner of the valley</p><h1 id="settings-title" class="svui-heading">Make yourself at home</h1></div><span class="day-badge">PREFERENCES<small>Saved on this browser</small></span></div>
+        <div class="settings-board svui-frame">
+          <header class="settings-header"><div><h2>Settings</h2><p>Settle in, at your own pace.</p></div><span class="save-marker" id="save-marker">Saved preferences</span></header>
+          <div class="settings-layout">
+            <form id="settings-form">
+              <fieldset><legend>01 · Sound</legend><div class="volume-heading"><label for="volume">Master volume</label><output for="volume" id="volume-output">70%</output></div><input type="range" id="volume" min="0" max="100" step="1" aria-describedby="volume-note"><p class="field-note" id="volume-note">Preference only. This silent prototype has no audio playback or audio engine.</p></fieldset>
+              <fieldset><legend>02 · Comfort</legend>
+                <label class="toggle-row" for="large-text"><span><strong>Large text</strong><small>Enlarge dialogue, replies and setting labels.</small></span><span class="toggle-control"><input type="checkbox" id="large-text"><span class="check-box" aria-hidden="true"></span><span class="toggle-state" id="large-state">Off</span></span></label>
+                <label class="toggle-row" for="reduce-motion"><span><strong>Reduce motion</strong><small>Stop the little meadow lights and cloud drift.</small></span><span class="toggle-control"><input type="checkbox" id="reduce-motion"><span class="check-box" aria-hidden="true"></span><span class="toggle-state" id="motion-state">Off</span></span></label>
+              </fieldset>
+              <div class="settings-actions"><button class="svui-button" id="save-settings" type="submit">Save changes</button><button class="svui-button svui-button--leaf" id="cancel-settings" type="button">Cancel changes</button></div>
+              <button class="text-button restore-button" id="restore-defaults" type="button">Restore defaults</button><p class="field-note">Defaults: volume 70%, large text off, reduce motion off. Restore previews these values; choose Save changes to keep them.</p>
+            </form>
+            <aside class="preview-tray" aria-labelledby="preview-title"><p class="svui-kicker">LIVE PREVIEW</p><h3 id="preview-title">A little breathing room</h3><div class="preview-land" aria-hidden="true"><span class="svui-icon svui-icon--strawberry"></span><span class="preview-spark"></span></div><div class="preview-speech"><strong>Mara · Village gardener</strong><p class="sample-copy">"The valley can wait. Take all the time you need."</p></div><p class="preview-caption" id="preview-caption">Standard text · Meadow motion on</p><div class="preview-rules"><strong>Try it here</strong><p>Comfort options change this prototype immediately. Save keeps them after a refresh. Cancel brings back your last saved choices.</p><p>Your device's reduced-motion preference is always respected.</p></div></aside>
+          </div>
+          <p class="settings-status" id="settings-status" role="status" aria-live="polite">Your saved preferences are ready.</p>
+        </div>
+        <p class="screen-footnote">Local preferences only · No account, game engine or audio system is connected.</p>
+      </section>
+    </main>
+    <footer class="site-footer"><span>WILLOWBROOK · NEW SCREEN STUDY 02</span><span id="global-state">Your pace. Your valley.</span></footer>
+  </div>
+</body>
+</html>

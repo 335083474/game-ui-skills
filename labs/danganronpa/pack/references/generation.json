@@ -1,0 +1,8 @@
+{
+  "method":"built-in image_gen",
+  "generatedAt":"2026-10-16",
+  "output":"assets/student-portrait.png",
+  "sourceFile":"[local reference omitted]",
+  "prompt":"Use case: illustration-story. Asset type: reusable fictional student portrait for a graphic mystery trial UI reference package. Create one original 17-year-old student witness with a short asymmetrical black haircut, wide anxious eyes, and a brave-but-unsure expression; chest-up in a plain school jacket with no emblem. Style: graphic manga cutout, stark black-and-white halftone shadows, rough ink edge, one vivid hot-pink accent slash and a small warm-red detail. Composition: centered bust isolated with transparent background, dynamic but readable silhouette suitable for a 72px evidence portrait. Mood: tense, theatrical, pop-art. Constraints: no known character likeness, no school logo, no text, lettering, speech bubble, interface, bear mascot, blood, frame, watermark, or photorealism.",
+  "notes":"Original generated fiction. The output contains no mascot or copied character design and is not a finished screen."
+}

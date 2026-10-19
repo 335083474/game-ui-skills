@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Forest Cache — Reward Choice</title>
+<link rel="stylesheet" href="style.css">
+<main><header><span class="eyebrow">A WAYFARER'S FIND</span><h1>Choose your reward</h1><p>One cache. Three possibilities. Take a moment to read before you claim.</p></header>
+<section class="game-area" aria-label="Reward selection">
+<div class="viewport"><canvas id="game" width="256" height="224" tabindex="0" role="application" aria-label="Reward scene. Arrow keys choose, Enter reviews, Page Up and Page Down read, Escape cancels."></canvas></div>
+<div id="choices" role="group" aria-label="Reward choices"></div>
+<p id="status" role="status" aria-live="polite"></p>
+<div class="controls"><button id="review">Review selected reward</button><button id="cancel">Cancel reward</button><button id="return" hidden>Return to choices</button></div>
+<div class="pager"><button id="prev">Previous text page</button><span id="pageLabel"></span><button id="next">Next text page</button></div>
+<p class="hint">Arrows: choose · Enter / Space: review · PgUp / PgDn: read · Esc: cancel<br>Only one reward per cache. Claim receipts persist in this browser.</p>
+</section>
+<details><summary>Replace reward configuration</summary><p>Edit names, icons, quantities, descriptions and the three options. The event ID identifies one claimable cache. A new event ID is a new cache. Applying the same event ID keeps its receipt.</p><label for="config">Reward JSON</label><textarea id="config" rows="14" spellcheck="false"></textarea><div class="controls"><button id="apply">Apply configuration</button><button id="replacement">Load replacement example</button><button id="defaults">Load forest example</button></div><p id="configStatus" role="status"></p></details>
+<details><summary>Runtime diagnostics</summary><pre id="diagnostics"></pre></details>
+<footer>Native scene 256 × 224 · Local study using authored pixel components</footer></main>
+<dialog id="reviewDialog" aria-labelledby="dialogTitle"><h2 id="dialogTitle"></h2><p id="dialogCount"></p><div id="fullText" tabindex="0"></div><div class="controls"><button id="claim">Claim this reward</button><button id="back">Back to choices</button><button id="dialogCancel">Cancel reward</button></div><p>Claiming takes this reward once and closes the cache.</p></dialog>
+<script src="font-data.js"></script><script src="reward.js"></script></html>

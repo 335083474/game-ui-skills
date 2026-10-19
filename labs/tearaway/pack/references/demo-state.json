@@ -1,0 +1,32 @@
+{
+  "collection-scrapbook": {
+    "pocket": "Collected cutouts",
+    "items": [
+      {"id": "paper-kite", "label": "Paper kite", "state": "available"},
+      {"id": "folded-shell", "label": "Folded shell", "state": "available"},
+      {"id": "red-rosette", "label": "Red rosette", "state": "locked"}
+    ],
+    "selectedId": null,
+    "committedId": null
+  },
+  "paper-outfit": {
+    "figure": "Original folded courier",
+    "pieces": ["Sky cape", "Red collar", "Leaf pin"],
+    "previewedPiece": null,
+    "appliedPiece": null
+  },
+  "folded-world-map": {
+    "stops": [
+      {"id": "reed-bridge", "label": "Reed Bridge", "state": "visited"},
+      {"id": "wind-mill", "label": "Windmill Hill", "state": "new"},
+      {"id": "blue-gate", "label": "Blue Gate", "state": "locked"}
+    ],
+    "previewedStop": null,
+    "committedStop": null
+  },
+  "interactionContract": {
+    "previewIsReversible": true,
+    "commitRequiresExplicitAction": true,
+    "persistence": "none; specimen state exists only in the local page"
+  }
+}

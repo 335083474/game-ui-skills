@@ -1,0 +1,40 @@
+{
+  "loadout": {
+    "slots": [
+      {
+        "id": "shot",
+        "selectedId": "spread"
+      },
+      {
+        "id": "charm",
+        "selectedId": "smoke-dash"
+      },
+      {
+        "id": "super",
+        "selectedId": "beam"
+      }
+    ]
+  },
+  "shop": {
+    "coins": 4,
+    "items": [
+      {
+        "id": "roundabout",
+        "cost": 3,
+        "owned": false
+      },
+      {
+        "id": "extra-heart",
+        "cost": 5,
+        "owned": false
+      }
+    ]
+  },
+  "result": {
+    "grade": "A-",
+    "timeSec": 72,
+    "parryCount": 4,
+    "allObjectivesMet": false
+  }
+}
+

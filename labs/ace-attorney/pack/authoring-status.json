@@ -1,0 +1,41 @@
+{
+  "slug": "ace-attorney",
+  "packageName": "ace-attorney-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "evidence-file",
+      "title": "Evidence file",
+      "description": "Browse numbered synthetic exhibits and inspect their source, date, and facts."
+    },
+    {
+      "id": "cross-examination",
+      "title": "Cross-examination",
+      "description": "Select testimony statements, press for detail, or present a chosen exhibit as a separate action."
+    },
+    {
+      "id": "episode-selection",
+      "title": "Episode selection",
+      "description": "Navigate a numbered case sequence with explicit completion and lock states."
+    }
+  ],
+  "referenceImage": "assets/witness-portrait.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Experimental 2019 HD collection interpretation; not an official or pixel-exact recreation.",
+    "Witness, testimony, exhibits, and episodes are synthetic; official art, quotes, and game files are excluded.",
+    "Title-specific UI search terms were not individually sampled in the frozen research entry; demand remains unverified."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

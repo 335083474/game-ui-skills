@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Folded paper pieces — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+  <script defer src="demo.js"></script>
+</head>
+<body>
+  <main class="paper-studio" aria-labelledby="page-title">
+    <header class="studio-heading">
+      <div>
+        <p class="folio">Paper studio / folio 02</p>
+        <h1 id="page-title">Fold, cut, carry</h1>
+        <p class="intro">A collection of independent paper UI parts, laid out like a maker's table.</p>
+      </div>
+      <span class="studio-stamp">Offline specimen</span>
+    </header>
+
+    <section class="paper-landscape" aria-label="Original folded-paper art reference">
+      <img src="../../references/images/reference-plate.png" alt="A handmade folded-paper courier stands above a paper stream and hills">
+      <div class="landscape-caption"><span>Cutout study</span><strong>Crease · tab · shadow</strong></div>
+      <span class="paper-pin" aria-hidden="true"></span>
+    </section>
+
+    <section class="loose-pieces" aria-label="Reusable paper component specimens">
+      <article class="piece scrapbook-piece" aria-labelledby="book-title">
+        <div class="piece-title"><span class="fold-number">A</span><div><p class="folio">Collection / pocket</p><h2 id="book-title">Scrapbook cutouts</h2></div></div>
+        <div class="cutout-row" data-select-group>
+          <button class="cutout cutout-kite" type="button" data-select data-name="Paper kite" aria-pressed="false"><span class="kite-mark" aria-hidden="true">◇</span><span>Kite</span></button>
+          <button class="cutout cutout-shell" type="button" data-select data-name="Folded shell" aria-pressed="false"><span class="shell-mark" aria-hidden="true">⌒</span><span>Shell</span></button>
+          <button class="cutout cutout-rosette" type="button" data-select data-name="Red rosette, locked" aria-pressed="false" disabled><span class="rosette-mark" aria-hidden="true">✿</span><span>Locked</span></button>
+        </div>
+        <div class="piece-action"><p data-message aria-live="polite">Choose one cutout to preview its paper edge.</p><button type="button" data-apply>Pin to book</button></div>
+      </article>
+
+      <article class="piece outfit-piece" aria-labelledby="outfit-title">
+        <div class="piece-title"><span class="fold-number">B</span><div><p class="folio">Wearable / folded panel</p><h2 id="outfit-title">Paper outfit</h2></div></div>
+        <div class="outfit-layout">
+          <div class="courier-window" role="img" aria-label="Crop of the original folded-paper courier art"><img src="../../references/images/reference-plate.png" alt="" aria-hidden="true"></div>
+          <div class="wearables" data-select-group>
+            <button class="wearable cape" type="button" data-select data-name="Sky cape" aria-pressed="false"><i aria-hidden="true"></i>Sky cape</button>
+            <button class="wearable collar" type="button" data-select data-name="Red collar" aria-pressed="false"><i aria-hidden="true"></i>Red collar</button>
+            <button class="wearable leaf-pin" type="button" data-select data-name="Leaf pin" aria-pressed="false"><i aria-hidden="true"></i>Leaf pin</button>
+          </div>
+        </div>
+        <div class="piece-action"><p data-message aria-live="polite">A paper piece is only a preview until applied.</p><button type="button" data-apply>Fold onto figure</button></div>
+      </article>
+
+      <article class="piece map-piece" aria-labelledby="map-title">
+        <div class="piece-title"><span class="fold-number">C</span><div><p class="folio">Route / accordion strip</p><h2 id="map-title">Folded-world map</h2></div></div>
+        <div class="map-strip" data-select-group>
+          <button class="map-stop stop-visited" type="button" data-select data-name="Reed Bridge, visited" aria-pressed="false"><span class="stop-icon" aria-hidden="true">⌁</span><span>Reed Bridge</span><small>Visited</small></button>
+          <span class="crease-mark" aria-hidden="true"></span>
+          <button class="map-stop stop-new" type="button" data-select data-name="Windmill Hill, new" aria-pressed="false"><span class="stop-icon" aria-hidden="true">✣</span><span>Windmill Hill</span><small>New fold</small></button>
+          <span class="crease-mark" aria-hidden="true"></span>
+          <button class="map-stop stop-locked" type="button" data-select data-name="Blue Gate, locked" aria-pressed="false" disabled><span class="stop-icon" aria-hidden="true">◇</span><span>Blue Gate</span><small>Locked</small></button>
+        </div>
+        <div class="piece-action"><p data-message aria-live="polite">Select a stop, then unfold the route.</p><button type="button" data-apply>Unfold route</button></div>
+      </article>
+    </section>
+    <footer class="studio-footer"><span>Loose specimens, not a screen layout</span><span>Tab · Enter · Space</span><span>Apply actions change this page only</span></footer>
+  </main>
+</body>
+</html>

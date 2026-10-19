@@ -1,0 +1,41 @@
+{
+  "slug": "gris",
+  "packageName": "gris-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "chapter-selection",
+      "title": "Chapter threshold",
+      "description": "A sparse architectural path marks visited, current, and unreached chapters while separating preview from entry."
+    },
+    {
+      "id": "memories",
+      "title": "Memory fragment",
+      "description": "A quiet found-memory detail opens and closes as a view action without changing collection state."
+    },
+    {
+      "id": "pause",
+      "title": "Small pause surface",
+      "description": "A restrained Continue action and two secondary disclosures keep the scene present."
+    }
+  ],
+  "referenceImage": "assets/reference-atmosphere.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original generated architecture is an atmosphere study, not official GRIS artwork or an exact scene.",
+    "The official source describes a low-text experience but does not define the chapter, memory, or pause layouts shown here.",
+    "Example chapter and memory data are synthetic and do not persist."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

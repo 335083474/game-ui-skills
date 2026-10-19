@@ -1,0 +1,15 @@
+{
+  "slug": "the-sims-4",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "needs", "title": "Household needs", "description": "Inspect one selected member's six named meters and switch household member without changing values." },
+    { "id": "build-catalogue", "title": "Build catalogue", "description": "Filter original furniture tiles, preview one item, and commit placement only after confirmation." },
+    { "id": "relationships", "title": "Relationships", "description": "Explore a small labeled relationship graph with a text-list fallback and selected tie detail." }
+  ],
+  "smokeTests": [
+    { "screenId": "needs", "steps": [{ "action": "click", "role": "button", "name": "Select Jo Ren" }], "expectedText": ["Jo Ren selected; need values unchanged."] },
+    { "screenId": "build-catalogue", "steps": [{ "action": "click", "role": "button", "name": "Place Cove Reading Chair" }, { "action": "click", "role": "button", "name": "Confirm placement of Cove Reading Chair for 240 simoleons" }], "expectedText": ["Cove Reading Chair placed. Household budget: 860§."] },
+    { "screenId": "relationships", "steps": [{ "action": "click", "role": "button", "name": "Select tie: Sam Iri and Jo Ren" }], "expectedText": ["Selected tie: Sam Iri — roommates — Jo Ren. They share the household schedule. Jo's trust is steady in this synthetic profile."] }
+  ]
+}

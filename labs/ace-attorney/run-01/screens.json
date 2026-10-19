@@ -1,0 +1,15 @@
+{
+  "slug": "ace-attorney",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "evidence-file", "title": "Evidence file", "description": "Browse numbered synthetic exhibits and inspect their source, date, and facts." },
+    { "id": "cross-examination", "title": "Cross-examination", "description": "Select testimony statements, press for detail, or present a chosen exhibit as a separate action." },
+    { "id": "episode-selection", "title": "Episode selection", "description": "Navigate a numbered case sequence with explicit completion and lock states." }
+  ],
+  "smokeTests": [
+    { "screenId": "evidence-file", "steps": [{ "action": "click", "role": "button", "name": "Select E-03 Wet Station Ticket" }, { "action": "click", "role": "button", "name": "Flag exhibit for testimony" }], "expectedText": ["E-03 flagged for testimony review."] },
+    { "screenId": "cross-examination", "steps": [{ "action": "click", "role": "button", "name": "Select statement 03" }, { "action": "click", "role": "button", "name": "PRESS current statement" }, { "action": "click", "role": "button", "name": "PRESENT evidence" }, { "action": "click", "role": "button", "name": "Choose E-03 · Wet Station Ticket" }, { "action": "click", "role": "button", "name": "Submit E-03 to statement 03" }], "expectedText": ["Timeline conflict: E-03 records 21:10, after the claimed departure before 21:00."] },
+    { "screenId": "episode-selection", "steps": [{ "action": "click", "role": "button", "name": "Continue Case 01" }, { "action": "click", "role": "button", "name": "Mark Case 01 demo complete" }], "expectedText": ["Case 01 complete · A Quiet Archive unlocked."] }
+  ]
+}

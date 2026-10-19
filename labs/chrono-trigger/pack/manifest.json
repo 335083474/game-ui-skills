@@ -1,0 +1,75 @@
+{
+  "name": "chrono-trigger-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/ui-atlas.svg",
+      "bytes": 2158,
+      "sha256": "e85036468928c1c6a6618a7371169ba6552461f0e7575df278b66dd246eb0d7d"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 5530,
+      "sha256": "6991ac847ff377f78a6cfb73a529df8803130818af932ae5bd919ccf72f5c0a0"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 6070,
+      "sha256": "4675e7b17a0e8ae031341ba67b178ecbc1c7028f95d6b26fe6eb4f8cc1333c86"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1275,
+      "sha256": "d40432a57ec45cb35a8ed5d062ba776e4c8f58bbf345d86f16857d5df9835477"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 386,
+      "sha256": "e05835d2984b02af13b15627320c7dc8e0d636f50ea266217397b939d7f7b870"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 85317,
+      "sha256": "3c944b81f003681d4053e9d8a7cd2f96351b53652fc50c2bd5e1482b25e85427"
+    },
+    {
+      "path": "references/images/reference-board.svg",
+      "bytes": 2754,
+      "sha256": "71de619cf5c50c2960051181044858c37f325164cddbd5c58570b40562f7634c"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 806,
+      "sha256": "d466f3031c5e812d1e66e0f6641f82a5c0f268b8967e9bcc0bff3117a9db4351"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1241,
+      "sha256": "afbb94c4f79a9f1557f74769d540b420081e839e9031ff4605fea34fc53bdd8a"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 857,
+      "sha256": "8f207acb12c90cf4225600a8b5d33b49806c11eda9ee1647e9e6bc92ade4ded4"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1336,
+      "sha256": "d36f64d520b61bddace6c3d6c4564f07f5d9c50f9c57d3f73d0dd231422b11a6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2385,
+      "sha256": "8a6fafdcb67749276ec6ad70072d5957a70c4358b42559048a4be63c6b740d40"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 778,
+      "sha256": "e5596dae1f16ac8436b99cd7ad5c8f53be7854c367b3f8c87d38015540ca54f5"
+    }
+  ]
+}

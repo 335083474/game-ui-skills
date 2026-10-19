@@ -1,0 +1,7 @@
+{
+  "schemaVersion":1,
+  "visualReference":{"path":"references/images/style-board.png","kind":"original-generated-context-art","role":"Invented industrial corridor and cyan projection mood reference; not a game screenshot."},
+  "assets":[{"path":"references/images/style-board.png","kind":"original-generated-art","sourceGameAsset":false,"role":"Anonymous suited figure, invented ship corridor, generic equipment projection."}],
+  "fonts":{"copied":false,"cssFallback":"Arial Narrow, Bahnschrift Condensed, Arial, Consolas, sans-serif"},
+  "runtime":{"externalAssets":false,"externalFonts":false,"engineExport":false}
+}

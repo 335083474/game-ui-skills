@@ -1,0 +1,40 @@
+{
+  "slug": "pentiment",
+  "packageName": "pentiment-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "relationship-map",
+      "title": "Relationship map",
+      "description": "A readable web of people, places, and testimony, with uncertainty shown in words as well as line style."
+    },
+    {
+      "id": "investigation-log",
+      "title": "Investigation log",
+      "description": "A chronological record of clues and contradictions that preserves source and confidence."
+    },
+    {
+      "id": "dialogue-exchange",
+      "title": "Dialogue exchange",
+      "description": "A character-forward conversation with clear speaker attribution, response voice, and controlled text width."
+    }
+  ],
+  "referenceImage": "assets/illustrations/pentiment-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated illustration is an original style cue, not canonical source-game UI evidence.",
+    "Title-specific search demand remains unknown; broad catalog observations are not keyword validation."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

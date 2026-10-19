@@ -1,0 +1,10 @@
+{
+  "frozen_vectors_passed": 143,
+  "runtime_truetype_blocked": true,
+  "exact_fixed_point_advances": true,
+  "binary_masks": true,
+  "fallback_warned_and_visible": true,
+  "actual_windows_test": false,
+  "cross_cwd": "/tmp",
+  "python_utf8_mode_disabled": true
+}

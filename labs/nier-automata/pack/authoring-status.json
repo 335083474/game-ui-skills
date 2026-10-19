@@ -1,0 +1,40 @@
+{
+  "slug": "nier-automata",
+  "packageName": "nier-automata-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "chip-loadout",
+      "title": "Chip Loadout",
+      "description": "Slot matrix and capacity-aware chip installation."
+    },
+    {
+      "id": "item-case",
+      "title": "Item Case",
+      "description": "Compact category list, item quantities and a use-target flow."
+    },
+    {
+      "id": "system-settings",
+      "title": "System Settings",
+      "description": "Sparse settings list with toggles and a stepped sensitivity control."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "All names and values are synthetic; chip costs do not claim game balance.",
+    "Vector motifs are original interpretations and not copied game assets."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Component rendering only; full-screen independent use tests follow."
+  }
+}

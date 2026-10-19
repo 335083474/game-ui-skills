@@ -1,0 +1,23 @@
+{
+  "art": {
+    "path": "assets/illustrations/ori-wisps-art.png",
+    "role": "Original forest atmosphere and palette study; crop only and keep UI text off the full image",
+    "provenance": "OpenAI built-in image generation 2026-10-16; see generation.json"
+  },
+  "components": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "role": "Editable node, shard slot, and waypoint specimens"
+  },
+  "fonts": {
+    "bundled": false,
+    "stack": "Georgia / Trebuchet MS / Arial system stacks",
+    "license": "No font files copied"
+  },
+  "externalAssets": [],
+  "useRules": [
+    "No Ori character or recognizable source-game art is included.",
+    "Do not use generic neon cards; keep the cyan and amber glints restrained."
+  ]
+}
+

@@ -1,0 +1,15 @@
+{
+  "slug": "manifold-garden",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"pause","title":"Pause","description":"Keep repeating architecture dominant while a narrow pause menu locks camera state and resumes movement."},
+    {"id":"chapter-gates","title":"Chapter Gates","description":"Enter a compact gate marker while the impossible corridor remains visible around it."},
+    {"id":"spatial-hint","title":"Spatial Hint","description":"Show the blocked landing state at the edge, align gravity, then resume movement."}
+  ],
+  "smokeTests": [
+    {"screenId":"pause","steps":[{"action":"click","role":"button","name":"Resume"}],"expectedText":["Movement resumed · camera input restored."]},
+    {"screenId":"chapter-gates","steps":[{"action":"click","role":"button","name":"Enter Rooted Gate"}],"expectedText":["Entered Rooted Gate · movement restored."]},
+    {"screenId":"spatial-hint","steps":[{"action":"click","role":"button","name":"Rotate gravity clockwise"},{"action":"click","role":"button","name":"Resume movement"}],"expectedText":["Movement resumed · camera input restored."]}
+  ]
+}

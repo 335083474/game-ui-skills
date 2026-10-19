@@ -1,0 +1,40 @@
+{
+  "slug": "littlebigplanet",
+  "packageName": "littlebigplanet-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "sticker-book",
+      "title": "Sticker Book",
+      "description": "An open felt-bound collection presents distinct cutout stickers with available, locked, selected, and placed states."
+    },
+    {
+      "id": "costume-workbench",
+      "title": "Costume Workbench",
+      "description": "A character-led fabric bench separates the worn piece, reversible swatch preview, unavailable options, and explicit apply action."
+    },
+    {
+      "id": "level-pods",
+      "title": "Level Pods",
+      "description": "A small cardboard destination shelf communicates each pod title and progress state, with a separate action to open it."
+    }
+  ],
+  "referenceImage": "references/images/reference-plate.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated original art is a material cue, not canonical LittleBigPlanet artwork or UI.",
+    "No engine export, official font, or search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

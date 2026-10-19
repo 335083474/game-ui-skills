@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path": "references/images/style-board.svg", "kind": "authored-vector-style-board", "role": "Parchment and editable-component grammar; not a game screen."},
+  "atlas": {"path": "assets/art/potion-atlas.png", "mode": "RGBA", "layout": "3 columns by 3 rows; transparent gutters; crop with background-size 300% 300%; positions 0/50/100%."},
+  "assets": [
+    {"id":"ruby-potion","cell":[0,0],"role":"bottle specimen"},
+    {"id":"cobalt-flask","cell":[1,0],"role":"bottle specimen"},
+    {"id":"amber-potion","cell":[2,0],"role":"bottle specimen"},
+    {"id":"sage-bundle","cell":[0,1],"role":"ingredient specimen"},
+    {"id":"red-cap-mushroom","cell":[1,1],"role":"ingredient specimen"},
+    {"id":"mortar-pestle","cell":[2,1],"role":"tool specimen"},
+    {"id":"recipe-scroll","cell":[0,2],"role":"ledger specimen"},
+    {"id":"alembic","cell":[1,2],"role":"workbench specimen"},
+    {"id":"coin-bundle","cell":[2,2],"role":"trade specimen"}
+  ],
+  "generatedArt": {
+    "method":"built-in image_gen",
+    "prompt":"Use case: reusable game UI asset atlas for an original hand-painted alchemy-shop interface study, informed by Potion Craft's parchment craft fantasy but not an official game asset. Create a square 3-by-3 sprite atlas of nine completely separate, clearly isolated objects on a truly transparent background, with wide transparent gutters between each object and no frame, grid, labels, or text. Style: hand-painted 2D storybook illustration with confident dark brown ink contours, muted parchment ochres, sage herbs, brick red and indigo potion glass, subtle paper grain inside objects only, simple readable silhouettes, consistent scale and light from upper left. Objects: (1) squat ruby potion bottle with cork, (2) cobalt potion flask with long neck, (3) round amber potion bottle, (4) sprig of sage leaves, (5) red-capped mushroom, (6) small brass mortar and pestle, (7) folded recipe scroll with blank surface, (8) tiny glass alembic retort, (9) small coin stack tied with twine. Every object fully visible and separated; no shadows extending into other objects; no words, no logo, no hands, no background, no glow. Preserve actual alpha transparency.",
+    "transparencyRequested":true,
+    "officialAsset":false
+  },
+  "screenshots": {"officialScreenshotRedistributed": false, "packageCapture": "pending parent capture"},
+  "fonts": {"copied": false, "cssFallback": "Georgia, Palatino Linotype, serif"}
+}

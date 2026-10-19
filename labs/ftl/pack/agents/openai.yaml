@@ -1,0 +1,4 @@
+interface:
+  display_name: "FTL Ship Systems"
+  short_description: "Room schematics, reactor pips and crew control"
+  default_prompt: "Use $ftl-ui to create a compact spaceship-management interface with explicit room, crew, power, and scrap state."

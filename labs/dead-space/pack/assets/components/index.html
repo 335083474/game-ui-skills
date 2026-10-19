@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Suit Link — diegetic UI specimens</title>
+<link rel="stylesheet" href="theme.css">
+</head>
+<body class="ds-board">
+<header class="ds-hero">
+  <img class="ds-hero-art" src="../../references/images/style-board.png" alt="Original generated industrial ship corridor with an anonymous engineer and cyan equipment projection">
+  <div class="ds-hero-copy">
+    <p class="ds-overline">2023 remake scope / original diegetic study</p>
+    <h1>Suit Link</h1>
+    <p>Three surfaces with different jobs: inspect the suit, commit one kiosk purchase, or track a destination. Values and equipment are synthetic demo state.</p>
+  </div>
+</header>
+<div class="ds-section">
+  <h2>Projection specimens / three work states</h2>
+  <span class="ds-note">Local DOM/CSS illusion · no 3D engine or camera integration</span>
+</div>
+<main class="ds-specimens">
+  <section class="ds-specimen" aria-labelledby="rig-heading">
+    <span class="ds-index">01 / Suit-mounted inventory</span>
+    <h3 id="rig-heading">RIG Inventory</h3>
+    <p class="ds-sub">One pending module; installed equipment stays visible.</p>
+    <div class="ds-status"><span>Utility slot / installed</span><strong id="installed-module">Survey Lens</strong></div>
+    <div class="ds-resource-grid" aria-label="Synthetic suit status">
+      <div class="ds-resource"><span>Hull reserve</span><strong>72/100</strong></div>
+      <div class="ds-resource"><span>Air</span><strong>04:30</strong></div>
+      <div class="ds-resource"><span>Power cells</span><strong>2</strong></div>
+    </div>
+    <div class="ds-slot-grid" role="group" aria-label="Select an installed module or demo option">
+      <button type="button" class="ds-slot" data-module="Arc Tool" data-info="Primary utility / installed demo equipment" aria-pressed="false"><small>TOOL</small><strong>Arc Tool</strong></button>
+      <button type="button" class="ds-slot" data-module="Air Capsule" data-info="Life support / installed demo equipment" aria-pressed="false"><small>LIFE</small><strong>Air Capsule</strong></button>
+      <button type="button" class="ds-slot" data-module="Survey Lens" data-info="Utility slot / currently installed" aria-pressed="true"><small>UTILITY</small><strong>Survey Lens</strong></button>
+      <button type="button" class="ds-slot" data-module="Patch Kit" data-info="Supply count updates when the kiosk demo is used" aria-pressed="false"><small>SUPPLY</small><strong>Patch Kit <span id="patch-count">x1</span></strong></button>
+      <button type="button" class="ds-slot" data-module="Charge Cells" data-info="Supply count updates when the kiosk demo is used" aria-pressed="false"><small>SUPPLY</small><strong>Charge Cells <span id="cell-count">x2</span></strong></button>
+      <button type="button" class="ds-slot" data-module="Tether Coil" data-info="Pending utility replacement / synthetic option" aria-pressed="false"><small>PREVIEW</small><strong>Tether Coil</strong></button>
+    </div>
+    <div class="ds-inspect"><span class="ds-data-label">Selected readout</span><strong id="module-name">Survey Lens</strong><p id="module-info">Utility slot / currently installed</p></div>
+    <div class="ds-actions"><button type="button" class="ds-button" id="module-confirm" disabled>Install module</button><button type="button" class="ds-button secondary" id="module-cancel">Cancel preview</button></div>
+    <p class="ds-live" id="rig-live" aria-live="polite">Survey Lens remains installed.</p>
+  </section>
+
+  <section class="ds-specimen" aria-labelledby="store-heading">
+    <span class="ds-index">02 / Kiosk transaction</span>
+    <h3 id="store-heading">Store Kiosk</h3>
+    <p class="ds-sub">Credit and remaining balance stay beside the purchase action.</p>
+    <div class="ds-kiosk">
+      <div class="ds-credit"><span>Demo credit available</span><strong><span id="credit-balance">48</span> CR</strong></div>
+      <div class="ds-product-list" role="group" aria-label="Select a demo kiosk item">
+        <button type="button" class="ds-product" data-item="Patch Kit" data-key="patchKit" data-price="14" aria-pressed="false"><span><strong>Patch Kit</strong><small>One-use supply / synthetic</small></span><span class="ds-price">14 CR</span></button>
+        <button type="button" class="ds-product" data-item="Charge Cells" data-key="chargeCells" data-price="22" aria-pressed="false"><span><strong>Charge Cells</strong><small>Power supply / synthetic</small></span><span class="ds-price">22 CR</span></button>
+      </div>
+      <div class="ds-preview" id="purchase-preview" aria-live="polite">Select an item to preview its cost.</div>
+      <div class="ds-actions"><button type="button" class="ds-button" id="purchase-confirm" disabled>Purchase</button><button type="button" class="ds-button secondary" id="purchase-cancel">Cancel order</button></div>
+    </div>
+    <div class="ds-stockline"><span>Page-session stock</span><span>Patch Kit <b id="store-patch-count">x1</b> / Cells <b id="store-cell-count">x2</b></span></div>
+    <p class="ds-live" id="store-live" aria-live="polite">No order selected.</p>
+  </section>
+
+  <section class="ds-specimen" aria-labelledby="locator-heading">
+    <span class="ds-index">03 / Spatial guidance</span>
+    <h3 id="locator-heading">Locator</h3>
+    <p class="ds-sub">One target, one bearing vector, one range.</p>
+    <div class="ds-locator">
+      <div class="ds-locator-grid" aria-hidden="true"></div>
+      <svg class="ds-locator-svg" viewBox="0 0 320 154" role="img" aria-label="Synthetic corridor route with a local position and two destination nodes">
+        <path d="M20 112 L85 112 L132 77 L210 77 L280 32" fill="none" stroke="#40545a" stroke-width="2"/game-ui-skills/>
+        <path id="locator-path" d="M20 112 L85 112 L132 77 L210 77 L280 32" fill="none" stroke="#45aeb3" stroke-width="3" stroke-dasharray="8 7"/game-ui-skills/>
+        <circle cx="20" cy="112" r="8" fill="#8cefeb" stroke="#071216" stroke-width="3"/game-ui-skills/>
+        <circle id="cargo-node" cx="280" cy="32" r="7" fill="#f2b35e" stroke="#071216" stroke-width="3"/game-ui-skills/>
+        <circle id="tram-node" cx="210" cy="77" r="6" fill="#40545a" stroke="#a5bec1" stroke-width="2"/game-ui-skills/>
+        <path d="M20 89 L25 101 L20 98 L15 101Z" fill="#8cefeb"/game-ui-skills/>
+      </svg>
+      <div class="ds-locator-info"><div><span>Tracked objective</span><strong id="tracked-name">No target</strong></div><span class="ds-bearing" id="tracked-bearing">—</span></div>
+    </div>
+    <div class="ds-targets" role="group" aria-label="Choose a synthetic locator target">
+      <button class="ds-target" type="button" data-target="Cargo Lift" data-range="86 m" data-bearing="042°" aria-pressed="false"><strong>Cargo Lift</strong><span>86 m / 042°</span></button>
+      <button class="ds-target" type="button" data-target="Tram Access" data-range="124 m" data-bearing="310°" aria-pressed="false"><strong>Tram Access</strong><span>124 m / 310°</span></button>
+    </div>
+    <div class="ds-actions"><button type="button" class="ds-button" id="track-confirm" disabled>Track target</button><button type="button" class="ds-button secondary" id="track-cancel">Clear tracking</button></div>
+    <p class="ds-live" id="locator-live" aria-live="polite">Choose a destination to preview.</p>
+  </section>
+</main>
+<footer class="ds-foot">Original generated context art and original DOM/CSS specimens. No official art, character, weapon, logo, or UI element is included.</footer>
+<script>
+(function(){
+ var installed="Survey Lens",pendingModule=null,credits=48,stock={patchKit:1,chargeCells:2},selectedProduct=null,selectedTarget=null,tracked=null;
+ var moduleButtons=Array.from(document.querySelectorAll(".ds-slot"));
+ function updateCounts(){document.getElementById("patch-count").textContent="x"+stock.patchKit;document.getElementById("cell-count").textContent="x"+stock.chargeCells;document.getElementById("store-patch-count").textContent="x"+stock.patchKit;document.getElementById("store-cell-count").textContent="x"+stock.chargeCells;}
+ moduleButtons.forEach(function(button){button.addEventListener("click",function(){pendingModule=button.dataset.module;moduleButtons.forEach(function(item){item.setAttribute("aria-pressed",String(item===button));});document.getElementById("module-name").textContent=pendingModule;document.getElementById("module-info").textContent=button.dataset.info;document.getElementById("module-confirm").disabled=(pendingModule===installed||pendingModule!=="Tether Coil");document.getElementById("rig-live").textContent=pendingModule===installed?pendingModule+" is already installed; no change is pending.":pendingModule==="Tether Coil"?"Tether Coil is previewed; confirm to replace the utility module.":pendingModule+" selected for inspection only.";});});
+ document.getElementById("module-confirm").addEventListener("click",function(){if(pendingModule!=="Tether Coil"){return;}installed=pendingModule;document.getElementById("installed-module").textContent=installed;document.getElementById("rig-live").textContent=installed+" installed for this page session.";document.getElementById("module-confirm").disabled=true;});
+ document.getElementById("module-cancel").addEventListener("click",function(){pendingModule=installed;moduleButtons.forEach(function(item){item.setAttribute("aria-pressed",String(item.dataset.module===installed));});document.getElementById("module-name").textContent=installed;document.getElementById("module-info").textContent="Utility slot / currently installed";document.getElementById("module-confirm").disabled=true;document.getElementById("rig-live").textContent="Preview cancelled; "+installed+" remains installed.";});
+ var productButtons=Array.from(document.querySelectorAll(".ds-product"));
+ function updateProductPreview(){var preview=document.getElementById("purchase-preview");var button=selectedProduct;var confirm=document.getElementById("purchase-confirm");if(!button){preview.textContent="Select an item to preview its cost.";confirm.disabled=true;return;}var price=Number(button.dataset.price);var remaining=credits-price;preview.textContent=button.dataset.item+" costs "+price+" demo credits. Remaining balance after purchase: "+remaining+" credits.";confirm.disabled=(credits<price);if(credits<price){preview.textContent+=" Balance is too low; order cannot be confirmed.";}}
+ productButtons.forEach(function(button){button.addEventListener("click",function(){selectedProduct=button;productButtons.forEach(function(item){item.setAttribute("aria-pressed",String(item===button));});updateProductPreview();document.getElementById("store-live").textContent=button.dataset.item+" selected for preview.";});});
+ document.getElementById("credit-balance").textContent=credits;updateCounts();
+ document.getElementById("purchase-confirm").addEventListener("click",function(){if(!selectedProduct){return;}var price=Number(selectedProduct.dataset.price);if(credits<price){return;}var item=selectedProduct.dataset.item,key=selectedProduct.dataset.key;credits-=price;stock[key]+=1;document.getElementById("credit-balance").textContent=credits;updateCounts();document.getElementById("store-live").textContent=item+" purchased in this page session. Reload to reset the demo.";selectedProduct=null;productButtons.forEach(function(button){button.setAttribute("aria-pressed","false");});updateProductPreview();});
+ document.getElementById("purchase-cancel").addEventListener("click",function(){selectedProduct=null;productButtons.forEach(function(button){button.setAttribute("aria-pressed","false");});updateProductPreview();document.getElementById("store-live").textContent="Order preview cancelled; credit and stock are unchanged.";});
+ var targetButtons=Array.from(document.querySelectorAll(".ds-target"));
+ targetButtons.forEach(function(button){button.addEventListener("click",function(){selectedTarget=button;targetButtons.forEach(function(item){item.setAttribute("aria-pressed",String(item===button));});document.getElementById("track-confirm").disabled=false;document.getElementById("tracked-name").textContent=button.dataset.target+" / preview";document.getElementById("tracked-bearing").textContent=button.dataset.bearing;document.getElementById("locator-live").textContent=button.dataset.range+" from current location — synthetic preview.";});});
+ document.getElementById("track-confirm").addEventListener("click",function(){if(!selectedTarget){return;}tracked=selectedTarget;document.getElementById("tracked-name").textContent=tracked.dataset.target;document.getElementById("locator-live").textContent=tracked.dataset.target+" tracked for this page session.";});
+ document.getElementById("track-cancel").addEventListener("click",function(){selectedTarget=null;tracked=null;targetButtons.forEach(function(button){button.setAttribute("aria-pressed","false");});document.getElementById("track-confirm").disabled=true;document.getElementById("tracked-name").textContent="No target";document.getElementById("tracked-bearing").textContent="—";document.getElementById("locator-live").textContent="Tracking cleared.";});
+})();
+</script>
+</body>
+</html>

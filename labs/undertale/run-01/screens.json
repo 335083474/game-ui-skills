@@ -1,0 +1,15 @@
+{
+  "slug": "undertale",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "battle-commands", "title": "Battle commands", "description": "Select a compact command with a heart pointer and open a target layer only when needed." },
+    { "id": "items", "title": "Item list", "description": "Inspect item name, quantity, and effect; consume once only after explicit target confirmation." },
+    { "id": "dialogue", "title": "Dialogue", "description": "Read an original framed passage with skippable pacing and a small set of text choices." }
+  ],
+  "smokeTests": [
+    { "screenId": "battle-commands", "steps": [{ "action": "click", "role": "button", "name": "Select STRIKE" }, { "action": "click", "role": "button", "name": "Choose target for STRIKE" }, { "action": "click", "role": "button", "name": "Select Paper Golem" }, { "action": "click", "role": "button", "name": "Confirm STRIKE on Paper Golem" }], "expectedText": ["STRIKE resolved once against Paper Golem: stamina 18 → 12."] },
+    { "screenId": "items", "steps": [{ "action": "click", "role": "button", "name": "Select Mint Biscuit" }, { "action": "click", "role": "button", "name": "Use selected item" }, { "action": "click", "role": "button", "name": "Select Rowan" }, { "action": "click", "role": "button", "name": "Confirm Mint Biscuit on Rowan" }], "expectedText": ["Mint Biscuit used on Rowan: stamina 14 → 22. Quantity: 1."] },
+    { "screenId": "dialogue", "steps": [{ "action": "click", "role": "button", "name": "Continue to choices" }, { "action": "click", "role": "button", "name": "Ask about the hinge" }, { "action": "click", "role": "button", "name": "Confirm selected choice" }], "expectedText": ["The golem points to a loose hinge pin. The door is still shut."] }
+  ]
+}

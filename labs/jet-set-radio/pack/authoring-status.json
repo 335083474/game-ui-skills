@@ -1,0 +1,42 @@
+{
+  "slug": "jet-set-radio",
+  "packageName": "jet-set-radio-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "crew-select",
+      "title": "Crew Select",
+      "description": "A compact crew rail and one expanded dossier separate identity, style, and active selection."
+    },
+    {
+      "id": "city-missions",
+      "title": "City Missions",
+      "description": "A route diagram, district stops, objective count, and time window support a clear route decision."
+    },
+    {
+      "id": "graffiti-results",
+      "title": "Graffiti Results",
+      "description": "A bold score stamp sits above distinct tag coverage, combo continuity, and line-style measures."
+    }
+  ],
+  "referenceImage": "references/images/style-board.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Crew names, districts, route objectives, timers, scores, and interaction effects are synthetic.",
+    "The generated art plate is original context art; it is separate from the primary Steam reference and includes no official character, logo, or copied graffiti.",
+    "The source listing supports the 2012 PC HD scope but does not verify exact UI layout, controls, or score formulas.",
+    "The specimens are local DOM/CSS and demonstrate projected interface patterns only; they do not implement skating gameplay or claim an engine export."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "tearaway",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"collection-scrapbook","title":"Collection Scrapbook","description":"A paper keepsake spread gives the original folded landscape room, with cutouts tucked into a pocket and a separate pin action."},
+    {"id":"paper-outfit","title":"Paper Outfit","description":"The courier remains the focus while small paper pieces preview beside it and a named fold action commits the chosen piece."},
+    {"id":"folded-world-map","title":"Folded World Map","description":"A continuous three-panel accordion route has visited, new, and locked stops, with route preview separate from unfolding."}
+  ],
+  "smokeTests": [
+    {"screenId":"collection-scrapbook","steps":[{"action":"click","role":"button","name":"Select paper kite"},{"action":"click","role":"button","name":"Pin to book"}],"expectedText":["Pinned: Paper kite to the collected cutouts page."]},
+    {"screenId":"paper-outfit","steps":[{"action":"click","role":"button","name":"Preview Red collar"},{"action":"click","role":"button","name":"Fold onto outfit"}],"expectedText":["Folded Red collar onto the courier outfit."]},
+    {"screenId":"folded-world-map","steps":[{"action":"click","role":"button","name":"Preview Windmill Hill stop — new fold"},{"action":"click","role":"button","name":"Unfold route"}],"expectedText":["Unfolded route to Windmill Hill. This route choice is session-only."]}
+  ]
+}

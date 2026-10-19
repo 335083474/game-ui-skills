@@ -1,0 +1,55 @@
+{
+  "name": "manifold-garden-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/components/index.html",
+      "bytes": 3024,
+      "sha256": "20717928ca54e578730bbb5c5569df3dd346aa693f1f1184e2de568b13ebd0bf"
+    },
+    {
+      "path": "assets/references/direction-board.svg",
+      "bytes": 1304,
+      "sha256": "9bcf307f9ab95976fc58167efba0d192e400287ab8b94e1ed238d9d8d57f31f1"
+    },
+    {
+      "path": "assets/tokens.css",
+      "bytes": 3725,
+      "sha256": "8d6aafb39874d1b3b6ec2bcc38670fa46f79199cf2a99a8aff41ea7e2a02b301"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1741,
+      "sha256": "a8820adc1cc3356d220dbdb26533bc4df87882b11ca8efadfb22fbc49fb11ca6"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 94305,
+      "sha256": "5abd0b447ab4b0eaa17dc52466ee85bd181e1106c73e5c58e6bca16ba4478eca"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1449,
+      "sha256": "5263fb7abcb6d4211025d6015bb5eb803a9f5e8b0bc73812f66aa448847e48a1"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 2191,
+      "sha256": "c59e6e8ec7624c2e9b9c4426db7a3a6e998698f83c64fffc918550f4f95f997f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1770,
+      "sha256": "b15c76a3ef86b07012ae8d1bcbeb718efd9ac9b28ef018f688bda5d994d1255b"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1160,
+      "sha256": "53dd91b59913efaa22dc7a107377a7e9e735a60220af1bf10778d680f837e01c"
+    }
+  ]
+}

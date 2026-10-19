@@ -1,0 +1,15 @@
+{
+  "slug": "borderlands-2",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "weapon-comparison", "title": "Weapon comparison", "description": "Compare the equipped Rivet-7 against a focused candidate with named rarity, element, aligned stats, and signed deltas." },
+    { "id": "inventory", "title": "Inventory", "description": "Browse and sort an eight-item bag, inspect one item, and confirm a non-equipped drop explicitly." },
+    { "id": "skill-tree", "title": "Skill tree", "description": "Purchase Quick Hands once, unlock its connected Capacitor Loop prerequisite, and spend the remaining points once." }
+  ],
+  "smokeTests": [
+    { "screenId": "weapon-comparison", "steps": [{ "action": "click", "role": "button", "name": "Focus Arc Slinger" }, { "action": "click", "role": "button", "name": "Equip Arc Slinger" }], "expectedText": ["Equipped item changed: Arc Slinger is now in the equipped slot."] },
+    { "screenId": "inventory", "steps": [{ "action": "click", "role": "button", "name": "Select Arc Slinger" }, { "action": "click", "role": "button", "name": "Drop Arc Slinger" }, { "action": "click", "role": "button", "name": "Confirm drop Arc Slinger" }], "expectedText": ["Dropped Arc Slinger from the bag. Bag count: 7."] },
+    { "screenId": "skill-tree", "steps": [{ "action": "click", "role": "button", "name": "Purchase Quick Hands (1 point)" }, { "action": "click", "role": "button", "name": "Purchase Capacitor Loop (2 points)" }], "expectedText": ["Capacitor Loop purchased. Skill points remaining: 0."] }
+  ]
+}

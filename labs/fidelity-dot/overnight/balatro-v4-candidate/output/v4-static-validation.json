@@ -1,0 +1,11 @@
+{
+  "version": 4,
+  "browserExecuted": false,
+  "actualWindowsExecuted": false,
+  "fontAlphaDerivativesExact": true,
+  "relativeDependenciesPresent": true,
+  "defaultTextBoundsIncludingShadow": true,
+  "sameSceneCommandBuilderOfflinePreviews": true,
+  "offlinePreviewsAreBrowserScreenshots": false,
+  "note": "Native browser raster edges and interaction require recipient testing; prior v3 recipient evidence does not prove v4."
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "1930s rubber-hose cartoon game UI"
+  short_description: "Original cuphead game UI direction"
+  default_prompt: "Use $cuphead-ui to build an original game interface in this visual direction."
+

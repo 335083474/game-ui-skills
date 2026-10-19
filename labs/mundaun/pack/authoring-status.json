@@ -1,0 +1,41 @@
+{
+  "slug": "mundaun",
+  "packageName": "mundaun-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "satchel",
+      "title": "Satchel",
+      "description": "A paper-backed inventory fragment keeps object drawings uneven, tactile, and easy to distinguish at a glance."
+    },
+    {
+      "id": "journal",
+      "title": "Field Journal",
+      "description": "A rough two-column notebook pairs a brief observation with one hand-drawn landmark and keeps the linework legible."
+    },
+    {
+      "id": "trail-map",
+      "title": "Alpine Trail Map",
+      "description": "Hatched ridges, contour rings, and a red-pencil trail communicate terrain and direction without a polished GIS panel."
+    }
+  ],
+  "referenceImage": "assets/references/direction-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Graphite texture and UI anatomy are original interpretations of the official hand-penciled premise, not captures or reconstructions of the game's screens.",
+    "All landscapes, objects, writing, and marks are original vector studies. No in-game scans, official artwork, or custom font files are included.",
+    "The specimens communicate visual rules only. Inventory behavior, journal persistence, map interaction, engine integration, and forward testing remain for later work."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

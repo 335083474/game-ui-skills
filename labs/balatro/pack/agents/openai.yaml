@@ -1,0 +1,4 @@
+interface:
+  display_name: "Balatro UI Style"
+  short_description: "Create consistent retro card-game UI from references"
+  default_prompt: "Use $balatro-ui to create a game interface using the bundled visual references and component rules."

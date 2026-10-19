@@ -1,0 +1,29 @@
+{
+  "art": {
+    "scene": {
+      "path": "assets/art/scene.svg",
+      "provenance": "Original local vector artwork created for this reference package; no game asset or screenshot."
+    },
+    "icons": {
+      "path": "assets/art/icons.svg",
+      "provenance": "Original reusable SVG symbols created for this package."
+    },
+    "reference": {
+      "path": "references/images/style-reference.svg",
+      "provenance": "Original local vector style board; not a game capture."
+    }
+  },
+  "specimens": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "js": "assets/components/demo.js",
+    "scope": "Reusable component fragments and local-only presentation states; not full output screens."
+  },
+  "fonts": {
+    "bundled": false,
+    "remote": false,
+    "stack": "Arial, 'Segoe UI', sans-serif / ui-monospace for telemetry"
+  },
+  "gameAssets": "None.",
+  "runtimeNetworkDependencies": []
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "banner-saga",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "caravan-prep", "title": "Caravan preparation", "description": "A hand-painted snow-coast plate frames three unequal road-party tokens and a stitched provisions ledger. Choosing a speaker previews the consequence; a separate confirmation records it." },
+    { "id": "roadside-choice", "title": "Roadside event", "description": "A short broken-ferry vignette places two grounded choices beside the current food and fatigue counts. Costs and outcomes appear before the player confirms." },
+    { "id": "camp-trade", "title": "Camp trade", "description": "A low-noise barter ledger shows dried-fish stock, condition, price, and remaining food. One purchase can be explicitly confirmed or cancelled." }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "caravan-prep",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Choose Maeve, guide, fatigue 0" },
+        { "action": "click", "role": "button", "name": "Set Maeve as road speaker" },
+        { "action": "click", "role": "button", "name": "Confirm Maeve as road speaker" }
+      ],
+      "expectedText": ["Maeve will speak for the caravan. Supplies remain at 7 food."]
+    },
+    {
+      "screenId": "roadside-choice",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Choose ford the river" },
+        { "action": "click", "role": "button", "name": "Resolve choice: ford the river" },
+        { "action": "click", "role": "button", "name": "Confirm ford: add 1 fatigue to Sigrid" }
+      ],
+      "expectedText": ["The caravan reached the far bank. Sigrid fatigue is now 2. Food remains 7."]
+    },
+    {
+      "screenId": "camp-trade",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Buy 1 dried fish for 2 food" },
+        { "action": "click", "role": "button", "name": "Confirm trade: spend 2 food for 1 dried fish" }
+      ],
+      "expectedText": ["Trade settled: 1 dried fish added; food 5, stock 2."]
+    }
+  ]
+}

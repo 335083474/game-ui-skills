@@ -1,0 +1,15 @@
+{
+  "slug": "dont-starve",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "crafting", "title": "Workbench", "description": "Preview a recipe cost, then craft it and verify the remaining material counts." },
+    { "id": "inventory", "title": "Field pack", "description": "Preview a carried food, eat one serving, and see both its stack and hunger value change." },
+    { "id": "survival-hud", "title": "Nightfall HUD", "description": "Keep hunger, health, sanity, time, and a small lantern action on the edge of an open forest scene." }
+  ],
+  "smokeTests": [
+    { "screenId": "crafting", "steps": [{ "action": "click", "role": "button", "name": "Choose Pocket torch" }, { "action": "click", "role": "button", "name": "Make item" }], "expectedText": ["Pocket torch made. Twig 3 and dry grass 3 remain."] },
+    { "screenId": "inventory", "steps": [{ "action": "click", "role": "button", "name": "Choose Roasted tuber" }, { "action": "click", "role": "button", "name": "Eat selected food" }], "expectedText": ["Roasted tuber eaten. Hunger rises to 82 / 100."] },
+    { "screenId": "survival-hud", "steps": [{ "action": "click", "role": "button", "name": "Light lantern" }], "expectedText": ["Lantern lit. Twig 1 and dry grass 0 remain; the clearing is safer."] }
+  ]
+}

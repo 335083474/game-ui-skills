@@ -1,0 +1,23 @@
+{
+  "art": {
+    "path": "assets/illustrations/curse-monkey-island-art.png",
+    "use": "Original generated local study/crop. Not canonical source UI.",
+    "provenance": "OpenAI built-in image generation; 2026-10-16; see references/generation.json"
+  },
+  "specimens": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "scope": "Reusable fragments, not full application layouts"
+  },
+  "fonts": {
+    "bundled": false,
+    "stack": "Georgia, serif / 'Trebuchet MS', Arial, sans-serif",
+    "license": "System stack; no font files copied"
+  },
+  "external": [],
+  "reuse": [
+    "Use distinct crops, not the full image as a background.",
+    "Use original game-specific character art and interface marks in implementation."
+  ]
+}
+

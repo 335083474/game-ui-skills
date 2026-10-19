@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dce1c7">
+  <title>TUNIC UI Study — Far Shore Field Guide</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <a class="brand" href="#inventory" aria-label="Far Shore field guide, pack">
+        <span class="brand-cube" aria-hidden="true"><i></i><b></b><em></em></span>
+        <span><strong>Far Shore Field Guide</strong><small>Pack · page marks · wayfinding</small></span>
+      </a>
+      <nav class="route-nav" aria-label="Field guide screens">
+        <a href="#inventory">Pack</a>
+        <a href="#manual">Manual</a>
+        <a href="#island-map">Island</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="inventory" class="screen screen-inventory" data-screen aria-labelledby="inventory-title">
+        <header class="screen-intro">
+          <p class="eyebrow">Carried gear · pause to choose</p>
+          <h1 id="inventory-title" tabindex="-1">A small pack for a wide island.</h1>
+          <p>Pick one tool to ready. The stone tray holds shapes you can recognize before reading their names.</p>
+        </header>
+        <div class="inventory-scene">
+          <div class="item-display">
+            <div class="display-orbit" aria-hidden="true"></div>
+            <div class="display-object" data-bind="display-item" aria-hidden="true"><span class="blade-shape"></span></div>
+            <div class="display-caption"><span class="micro">HELD OBJECT</span><strong data-bind="item-name">No item selected</strong><small data-bind="item-use">Select an object from the tray.</small></div>
+          </div>
+          <div class="pack-tray">
+            <div class="tray-head"><span>PACK / 06 SLOTS</span><span>WEIGHT 3.2 KG</span></div>
+            <div class="item-grid">
+              <button type="button" data-select="worn-blade" aria-label="Select worn blade" aria-pressed="false"><span class="item-form blade-shape" aria-hidden="true"></span><strong>Worn blade</strong><small>ATTACK · 1 / 3</small></button>
+              <button type="button" data-select="red-seed" aria-label="Select red seed" aria-pressed="false"><span class="item-form seed-shape" aria-hidden="true"></span><strong>Red seed</strong><small>GROWTH · 01</small></button>
+              <button type="button" data-select="glass-key" aria-label="Select glass key" aria-pressed="false"><span class="item-form key-shape" aria-hidden="true"></span><strong>Glass key</strong><small>TOOL · 1 / 1</small></button>
+              <button type="button" data-select="field-page" aria-label="Select field page" aria-pressed="false"><span class="item-form page-shape" aria-hidden="true"></span><strong>Field page</strong><small>NOTES · 18</small></button>
+              <button type="button" data-select="sun-token" aria-label="Select sun token" aria-pressed="false"><span class="item-form token-shape" aria-hidden="true"></span><strong>Sun token</strong><small>RELIC · 01</small></button>
+              <button type="button" data-select="blue-shard" aria-label="Select blue shard" aria-pressed="false"><span class="item-form shard-shape" aria-hidden="true"></span><strong>Blue shard</strong><small>STONE · 1 / 2</small></button>
+            </div>
+          </div>
+        </div>
+        <div class="equipment-row">
+          <div class="equipment-slot"><span class="micro">ATTACK SLOT</span><strong data-bind="equipped-item">EMPTY</strong></div>
+          <p id="inventory-result" class="action-result" data-result aria-live="polite">Select a carried object to equip it.</p>
+          <button class="primary-action" type="button" data-commit="equip" disabled>Equip selected item</button>
+        </div>
+      </section>
+
+      <section id="manual" class="screen screen-manual" data-screen aria-labelledby="manual-title" hidden>
+        <header class="screen-intro">
+          <p class="eyebrow">Recovered leaf · printed stock</p>
+          <h1 id="manual-title" tabindex="-1">A page for the next step.</h1>
+          <p>Paper stays paper. Choose a leaf from the index, then keep the useful one close.</p>
+        </header>
+        <div class="manual-layout">
+          <aside class="manual-index" aria-label="Manual pages">
+            <p class="micro">LEAF INDEX</p>
+            <button type="button" data-select="movement" aria-label="Select page 18 — Movement" aria-pressed="false"><span>18</span><strong>Movement</strong><small>WALK / CLIMB</small></button>
+            <button type="button" data-select="marks" aria-label="Select page 23 — Marks" aria-pressed="false"><span>23</span><strong>Marks</strong><small>STONE / SIGN</small></button>
+            <button type="button" data-select="secret" aria-label="Select page 31 — Secret" aria-pressed="false"><span>31</span><strong>Secret</strong><small>LOOK AGAIN</small></button>
+            <div class="index-corner">Edges worn smooth · page corners saved.</div>
+          </aside>
+          <article class="paper-leaf">
+            <div class="paper-border">
+              <div class="paper-top"><span>FIELD GUIDE / LEAF <b data-bind="page-number">18</b></span><span>✧</span></div>
+              <h2 data-bind="page-title">A path beneath the bell</h2>
+              <div class="glyph-diagram" aria-label="Three original geometric guide marks">
+                <svg viewBox="0 0 300 100" role="img" aria-label="A hill, a bell tower, and a crossing shown as simple shapes"><path d="m20 70 30-45 30 45zM112 68l37-34 37 34v18h-74zM142 49v37m-30-18h74M222 74h48m-24-46v62m-18-42 18-20 18 20" fill="none" stroke="#46624e" stroke-width="4"/game-ui-skills/><circle cx="50" cy="63" r="5" fill="#d6b751"/game-ui-skills/><circle cx="149" cy="37" r="4" fill="#d6b751"/game-ui-skills/></svg>
+              </div>
+              <p class="paper-copy" data-bind="page-copy">The bell marks the lower crossing. A small mark appears only after the gate has been opened.</p>
+              <div class="paper-tags"><span data-bind="page-tag-one">MOVE</span><span data-bind="page-tag-two">SECRET</span></div>
+              <div class="paper-bottom"><span>INK HAS SOFTENED AT THE FOLD</span><strong data-bind="page-number-bottom">18</strong></div>
+            </div>
+          </article>
+        </div>
+        <div class="bookmark-row"><p id="manual-result" class="action-result" data-result aria-live="polite">Choose a leaf, then save its page mark.</p><button class="primary-action" type="button" data-commit="bookmark" disabled>Bookmark this page</button></div>
+      </section>
+
+      <section id="island-map" class="screen screen-map" data-screen aria-labelledby="map-title" hidden>
+        <header class="screen-intro">
+          <p class="eyebrow">Overlook · the western reach</p>
+          <h1 id="map-title" tabindex="-1">Trace one crossing.</h1>
+          <p>The island is a little model in your hands. Choose a landmark and mark a route across its ledges.</p>
+        </header>
+        <div class="island-model" role="group" aria-label="Miniature isometric island with three route landmarks">
+          <svg viewBox="0 0 1100 500" role="img" aria-label="Oblique miniature island with stacked moss platforms, water, trees, and a dotted route">
+            <rect width="1100" height="500" fill="#8fb8b3"/game-ui-skills/>
+            <path d="m93 276 188-106 252 40 217-118 200 83-15 116-211 120-270-24-230 61z" fill="#304c3f" stroke="#486d54" stroke-width="5"/game-ui-skills/>
+            <path d="m93 259 188-106 252 40 217-118 200 83-15 96-211 120-270-24-230 61z" fill="#82a36d" stroke="#405f49" stroke-width="5"/game-ui-skills/>
+            <path d="m93 259 185-93 117 22-100 94-202 20z" fill="#bcae79" stroke="#516d53" stroke-width="4"/game-ui-skills/>
+            <path d="m380 282 100-94 143-22-67 103-109 53z" fill="#b4a875" stroke="#52694e" stroke-width="4"/game-ui-skills/>
+            <path d="m620 269 69-103 107-61 109 48-132 94-49 51z" fill="#cbb77d" stroke="#52694e" stroke-width="4"/game-ui-skills/>
+            <path d="m280 166 56-31 66 13-51 43zM541 192l78-42 45 9-67 48zM766 148l67-37 73 31-77 43z" fill="#dfcc8a" stroke="#52694e" stroke-width="3"/game-ui-skills/>
+            <g fill="#386b4c" stroke="#2e503c" stroke-width="4"><circle cx="228" cy="202" r="25"/game-ui-skills/><circle cx="251" cy="193" r="23"/game-ui-skills/><circle cx="716" cy="146" r="26"/game-ui-skills/><circle cx="748" cy="139" r="22"/game-ui-skills/><circle cx="888" cy="185" r="26"/game-ui-skills/></g>
+            <path d="M219 229v38m35-43v30m462-83v55m32-60v46m136-27v42" stroke="#604e39" stroke-width="6"/game-ui-skills/>
+            <path d="M208 336 348 293 491 314 633 258 773 247 907 200" fill="none" stroke="#f0d675" stroke-width="6" stroke-dasharray="5 12"/game-ui-skills/>
+            <circle cx="208" cy="336" r="9" fill="#f1e8ca" stroke="#435f48" stroke-width="4"/game-ui-skills/>
+            <circle cx="907" cy="200" r="11" fill="#d5573e" stroke="#f1e8ca" stroke-width="4"/game-ui-skills/>
+          </svg>
+          <span class="model-chip">OVERLOOK / WEST</span>
+          <button class="map-node node-bell" type="button" data-select="bell-tower" aria-label="Select Bell Tower" aria-pressed="false"><span class="node-gem"></span><span>Bell Tower</span></button>
+          <button class="map-node node-quarry" type="button" data-select="stone-quarry" aria-label="Select Stone Quarry" aria-pressed="false"><span class="node-gem"></span><span>Stone Quarry</span></button>
+          <button class="map-node node-grove" type="button" data-select="quiet-grove" aria-label="Select Quiet Grove" aria-pressed="false"><span class="node-gem"></span><span>Quiet Grove</span></button>
+          <span class="model-scale">YOU ◇</span>
+        </div>
+        <div class="map-footer">
+          <div><span class="micro">ROUTE NOTE</span><strong data-bind="map-route">No route marked</strong></div>
+          <p id="map-result" class="action-result" data-result aria-live="polite">Choose a landmark, then set the route.</p>
+          <button class="primary-action" type="button" data-commit="route" disabled>Set route</button>
+        </div>
+      </section>
+    </main>
+    <footer class="prototype-note">Interface study · original objects and guide marks · choices stay in this tab.</footer>
+  </div>
+</body>
+</html>

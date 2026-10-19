@@ -1,0 +1,85 @@
+{
+  "name": "minecraft-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/icons.svg",
+      "bytes": 872,
+      "sha256": "e9e8bec6f67ba8aa862d1936199d98eeb16b3f81223fa14a2966d7d1d0fed062"
+    },
+    {
+      "path": "assets/art/scene.svg",
+      "bytes": 1750,
+      "sha256": "68888a154f9448ecbc7a7c362d47a245d3b8dc8bc9b71f9b26b86323d5897b3d"
+    },
+    {
+      "path": "assets/components/demo.js",
+      "bytes": 990,
+      "sha256": "1c6e3ff7699e08c5ad3313bdb67867d9ed22a691d88299c80c376be343d479bd"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 8772,
+      "sha256": "e0c0586d4488603f9ca2a24773fe6cfd0077ef17b3052c1cd8c288553c88bc39"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 5749,
+      "sha256": "67b8c6d85756ed43c6d2bf8a6685919bd0e964d0a01ca52c5238a4c051d6b2a6"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1601,
+      "sha256": "07f2b888c87797545f297560255e779be30ff3a135905782a30368abb191ae75"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 943,
+      "sha256": "f3298f383916584d7836e2cbe656b5bb2d594f4af5c32d830bf55ac58c32ba1b"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 97632,
+      "sha256": "d0d5a8fc0bbaa5946a1c45129ca8531139b85dd6b8c76e25dfa9fcce334ced9f"
+    },
+    {
+      "path": "references/images/style-reference.svg",
+      "bytes": 3495,
+      "sha256": "6082171decd3d4911a66a143f441364ebec0d4bbd632ccfe780b09fa8c312d06"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1565,
+      "sha256": "06a0d3448bb1c5c4596c81bbd3ba091269726b6afc48bca550ee06bdb1cfae5e"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1642,
+      "sha256": "882b991a4021eb42f17c1a1f32afec2f61b8bc10dc9b6413d929ef78e7c10806"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 819,
+      "sha256": "adea96a29f19d91c6be99601a941529ff1ce0a6b3e79d3e54ccae6d9855cc7d3"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1530,
+      "sha256": "94459e63db7520f403219cdfc96bd210dca9fb88d93b500a102157d0b23b6c04"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2544,
+      "sha256": "2e4ea19692097833ebe9bdaa8a5f18a574ad6431af9c799a211c10a6ba8f86f6"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1126,
+      "sha256": "e38361fc32db481abdb80c270511ddbed4ddab21d333a5b591e5aba5c22b9af9"
+    }
+  ]
+}

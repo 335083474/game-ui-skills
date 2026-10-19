@@ -1,0 +1,48 @@
+{
+  "slug": "gris",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "chapter-selection",
+      "title": "Chapter threshold",
+      "description": "A sparse architectural path marks visited, current, and unreached chapters while separating preview from entry."
+    },
+    {
+      "id": "memories",
+      "title": "Memory fragment",
+      "description": "A quiet found-memory detail opens and closes as a view action without changing collection state."
+    },
+    {
+      "id": "pause",
+      "title": "Small pause surface",
+      "description": "A restrained Continue action and two secondary disclosures keep the scene present."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "chapter-selection",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Stone Steps" },
+        { "action": "click", "role": "button", "name": "Enter chapter" },
+        { "action": "click", "role": "button", "name": "Confirm entry to Stone Steps" }
+      ],
+      "expectedText": ["Local chapter changed to Stone Steps. It resets when this page reloads."]
+    },
+    {
+      "screenId": "memories",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Read" },
+        { "action": "click", "role": "button", "name": "Close fragment" }
+      ],
+      "expectedText": ["Memory closed. No collection state changed."]
+    },
+    {
+      "screenId": "pause",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Continue" }
+      ],
+      "expectedText": ["Continue chosen for this local example; no game session is running."]
+    }
+  ]
+}

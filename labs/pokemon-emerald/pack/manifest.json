@@ -1,0 +1,129 @@
+{
+  "name": "pokemon-emerald-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "style": "Pokemon Emerald GBA",
+  "reference_images": [
+    "references/images/screen-direction.png",
+    "references/images/component-board.png"
+  ],
+  "new_art": {
+    "file": "references/images/screen-direction.png",
+    "method": "built-in image_gen",
+    "prompt_record": "references/generation.json"
+  },
+  "runtime_art": {
+    "method": "CC0 third-party unmodified pixel sprites",
+    "mapping_and_provenance": "references/asset-map.md"
+  },
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 304,
+      "sha256": "0eb81ba0501330669381232f09fab72a6777a24f20cf0f00dd89eecec0931bc9"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 7739,
+      "sha256": "6cd6b3e166d6bb09df5376cc35ada621355921271e1b9553415edcfd252aac32"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 8219,
+      "sha256": "25c40b8f2c6336d90d97eb64668589e1137556016fa60513d25cf3de8631229d"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4488,
+      "sha256": "b66ba46f511a851ab09998b5a5a9fdbb102545a3864cb993095e1745996873a7"
+    },
+    {
+      "path": "assets/fonts/PixelifySans.ttf",
+      "bytes": 79160,
+      "sha256": "9ba86cd010a4de309d263ceff8e8044092c9db7efda869620cb9ff1c4389e8a5"
+    },
+    {
+      "path": "assets/licenses/tiny-creatures-License.txt",
+      "bytes": 703,
+      "sha256": "2e1bcf98eb76cc5c38eeaec6f15a20f3980a075314813985453702f17f650982"
+    },
+    {
+      "path": "assets/licenses/tiny-dungeon-License.txt",
+      "bytes": 570,
+      "sha256": "9f574a2f1f636a3db8a0665ba90212f34e2b5e61ecb533d77c05237766374111"
+    },
+    {
+      "path": "assets/sprites/tiny-creatures.png",
+      "bytes": 11542,
+      "sha256": "1fd68a8434e3269bb10a76e50491dc61ac45b1da4ad543c7588970f2c582ca81"
+    },
+    {
+      "path": "assets/sprites/tiny-dungeon.png",
+      "bytes": 5294,
+      "sha256": "d24e60a41e4ac7a745c0304dfde121143688557f40215f23221c29cfe683825f"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 2071,
+      "sha256": "92def416ed7ea0edf320f4bf3bd45d0fef0dd8db261a1ca9ef3abc14bb0c4cd5"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 4281,
+      "sha256": "07c1ea5d6b9216f3bb95a50b8625fde6ca161e0d2c2bfbc73fb6886503663a5a"
+    },
+    {
+      "path": "references/consistency-checks.md",
+      "bytes": 2959,
+      "sha256": "0f1c5a88dd31f7a12a05c3fe63512785811decbe82a724f01c7f21df8f0feb72"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 9283,
+      "sha256": "4037ca242166937168e821dad16fd9cf76b59c593be3a64b12e3d4dec2424ca7"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 180986,
+      "sha256": "c1f5278b078fe388cc048fb67bb20451c3091c8fd2da02ddc256fb21035fbe5f"
+    },
+    {
+      "path": "references/images/screen-direction.png",
+      "bytes": 1646523,
+      "sha256": "cd9ab5b11511233aa79867fd4bd514f6e27d716677bbf38fdd2da6ea4c88caef"
+    },
+    {
+      "path": "references/patterns-and-state.md",
+      "bytes": 7482,
+      "sha256": "edd9ae343cef4e71432d58bde97d50be3ccab466299f34e9fbe766e0eb5cb3ed"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 2501,
+      "sha256": "bf9ee6e3e1c6deee04d43da94031ee327d0f3a8734f573c85d7b0c73a3bc9b69"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 2088,
+      "sha256": "72df7ac3b1dbf083c94a0f7c0dbd5e522a032bb332d1f530ff3834d58b7d699a"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 3782,
+      "sha256": "a67af65929c760f4a38a3626dc0045151fbd935b74fcef7fff2f8d3e60585d45"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3458,
+      "sha256": "5d67acb989c4967bd5e1b6140d5cf358e88da6c8604dc02c3399bdd846636af1"
+    }
+  ],
+  "runtime_network_dependencies": [],
+  "not_included": [
+    "finished screen layouts",
+    "engine scenes",
+    "Figma source",
+    "hosted generation",
+    "payment service"
+  ]
+}

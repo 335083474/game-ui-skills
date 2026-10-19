@@ -1,0 +1,23 @@
+{
+  "image": {
+    "path": "assets/illustrations/obra-dinn-art.png",
+    "role": "Original dithered art cue, not canonical screenshot",
+    "provenance": "OpenAI image generation 2026-10-16; see generation.json"
+  },
+  "components": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "role": "Modular specimens"
+  },
+  "fonts": {
+    "bundled": false,
+    "stack": "'Courier New', monospace",
+    "license": "System font stack"
+  },
+  "externalAssets": [],
+  "rules": [
+    "Keep critical text monochrome and legible.",
+    "Do not use the image as a full-screen background."
+  ]
+}
+

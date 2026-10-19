@@ -1,0 +1,41 @@
+{
+  "slug": "samorost-3",
+  "packageName": "samorost-3-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "object-combination",
+      "title": "Object Combination",
+      "description": "Two found objects form a reversible pair preview; an explicit combine action reports the result without inventing unknown puzzle logic."
+    },
+    {
+      "id": "pictorial-hints",
+      "title": "Pictorial Hints",
+      "description": "A short ordered sequence of natural symbols carries the clue with an accessible text equivalent and a reveal control."
+    },
+    {
+      "id": "planet-chapters",
+      "title": "Planet Chapters",
+      "description": "A sparse world orbit distinguishes current, visited, and unvisited stops; route selection is committed separately."
+    }
+  ],
+  "referenceImage": "references/images/reference-plate.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated original collage is a material cue, not canonical Samorost artwork, character, or UI.",
+    "Demo objects, planets, routes, and puzzle relationships are synthetic.",
+    "No engine export, official font, or search-demand evidence is included."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

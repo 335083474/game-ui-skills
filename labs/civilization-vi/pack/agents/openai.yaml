@@ -1,0 +1,4 @@
+interface:
+  display_name: "Civilization VI Cartography"
+  short_description: "Hex maps, navy-gold controls and research branches"
+  default_prompt: "Use $civilization-vi-ui to create a cartographic strategy interface with clear hex topology, prerequisites and turn state."

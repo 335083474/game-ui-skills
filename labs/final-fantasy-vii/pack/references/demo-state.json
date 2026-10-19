@@ -1,0 +1,36 @@
+{
+  "kind": "Original demonstration data; simplified menu simulation",
+  "partyOrder": ["rook", "bran", "lyra"],
+  "selectedMemberId": "rook",
+  "gil": 1240,
+  "location": "Freight Yard",
+  "members": [
+    {"id":"rook","name":"Rook","role":"Scout","level":23,"portrait":"portrait-scout","hp":640,"maxHp":892,"mp":41,"maxMp":80,"base":{"strength":30,"vitality":18,"magic":26,"spirit":20},"gear":{"weapon":"steel-sword","armour":"silver-wristguard","accessory":"copper-charm"},"spells":["fire","cure"],"time":100,"limit":22,"status":"Ready"},
+    {"id":"bran","name":"Bran","role":"Guard","level":22,"portrait":"portrait-guard","hp":908,"maxHp":1284,"mp":20,"maxMp":48,"base":{"strength":34,"vitality":25,"magic":12,"spirit":18},"gear":{"weapon":"guard-blade","armour":"iron-band","accessory":"guard-token"},"spells":["fire"],"time":40,"limit":48,"status":"Waiting"},
+    {"id":"lyra","name":"Lyra","role":"Mage","level":22,"portrait":"portrait-mage","hp":410,"maxHp":735,"mp":67,"maxMp":120,"base":{"strength":14,"vitality":14,"magic":38,"spirit":28},"gear":{"weapon":"ash-wand","armour":"cloth-band","accessory":"mage-token"},"spells":["blizzard","cure","flare"],"time":72,"limit":8,"status":"Waiting"}
+  ],
+  "equipment": [
+    {"id":"steel-sword","name":"Steel Sword","slot":"weapon","attack":18,"compatible":["rook"],"owned":1,"art":"steel-sword"},
+    {"id":"alloy-sword","name":"Alloy Sword","slot":"weapon","attack":26,"compatible":["rook"],"owned":1,"art":"steel-sword"},
+    {"id":"silver-wristguard","name":"Silver Wristguard","slot":"armour","defense":14,"magicDefense":4,"compatible":["rook"],"owned":1,"art":"silver-wristguard"},
+    {"id":"reinforced-guard","name":"Reinforced Guard","slot":"armour","defense":24,"magicDefense":6,"compatible":["rook"],"owned":1,"art":"silver-wristguard"},
+    {"id":"copper-charm","name":"Copper Charm","slot":"accessory","magic":0,"compatible":["rook"],"owned":1},
+    {"id":"memory-charm","name":"Memory Charm","slot":"accessory","magic":6,"compatible":["rook"],"owned":1},
+    {"id":"guard-blade","name":"Guard Blade","slot":"weapon","attack":20,"compatible":["bran"],"owned":1,"art":"steel-sword"},
+    {"id":"iron-band","name":"Iron Band","slot":"armour","defense":22,"magicDefense":2,"compatible":["bran"],"owned":1,"art":"silver-wristguard"},
+    {"id":"guard-token","name":"Guard Token","slot":"accessory","magic":0,"compatible":["bran"],"owned":1},
+    {"id":"ash-wand","name":"Ash Wand","slot":"weapon","attack":8,"compatible":["lyra"],"owned":1},
+    {"id":"cloth-band","name":"Cloth Band","slot":"armour","defense":8,"magicDefense":8,"compatible":["lyra"],"owned":1},
+    {"id":"mage-token","name":"Mage Token","slot":"accessory","magic":3,"compatible":["lyra"],"owned":1}
+  ],
+  "items": [{"id":"potion","name":"Potion","quantity":6,"effect":"heal","power":100,"target":"living ally"},{"id":"ether","name":"Ether","quantity":0,"effect":"restore MP","power":20,"target":"living ally"}],
+  "materiaStudy": {"name":"Verdant Orb","art":"green-orb","note":"Visual materia study; no materia progression modeled"},
+  "spells": [
+    {"id":"fire","name":"Fire","mpCost":4,"power":140,"effect":"damage","target":"living enemy"},
+    {"id":"cure","name":"Cure","mpCost":5,"power":180,"effect":"heal","target":"living ally"},
+    {"id":"blizzard","name":"Blizzard","mpCost":4,"power":130,"effect":"damage","target":"living enemy"},
+    {"id":"flare","name":"Flare","mpCost":80,"power":500,"effect":"damage","target":"living enemy"}
+  ],
+  "enemies": [{"id":"drone","name":"Training Drone","hp":420,"maxHp":420},{"id":"sentinel","name":"Yard Sentinel","hp":620,"maxHp":620}],
+  "battle": {"phase":"command","activeMemberId":"rook","pendingCommand":null,"pendingTarget":null,"timeMode":"manual demo; +30 per advance"}
+}

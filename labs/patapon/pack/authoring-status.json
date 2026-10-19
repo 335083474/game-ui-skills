@@ -1,0 +1,41 @@
+{
+  "slug": "patapon",
+  "packageName": "patapon-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "squad-loadout",
+      "title": "Squad loadout",
+      "description": "A unit formation keeps role, count, and equipment readable through repeated shape and text."
+    },
+    {
+      "id": "expedition-select",
+      "title": "Expedition select",
+      "description": "A route choice shows danger and supply cost in a clear rhythm-friendly selection sequence."
+    },
+    {
+      "id": "rhythm-hud",
+      "title": "Rhythm HUD",
+      "description": "Beat prompts use bold symbols, timing window, and text feedback with visual alternatives to sound."
+    }
+  ],
+  "referenceImage": "assets/illustrations/patapon-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated characters are original geometric study subjects, not source-game assets.",
+    "Synthetic behavior must be wired to the final game's actual rhythm and formation state.",
+    "Parent capture and independent fresh implementation review are pending."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "dead-space",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "rig-inventory", "title": "RIG Inventory", "description": "The generated corridor and suited figure frame a suit-mounted module projection with live page-session stock and one pending Utility-slot replacement." },
+    { "id": "store-kiosk", "title": "Store Kiosk", "description": "A balance-first supply terminal previews item price and remaining credit on an order slip before a guarded page-session purchase." },
+    { "id": "locator", "title": "Locator", "description": "A floor-plane bearing vector travels through the corridor between two synthetic destinations, with tracking state separate from selection preview." }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "rig-inventory",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview Tether Coil utility" },
+        { "action": "click", "role": "button", "name": "Install selected utility module" }
+      ],
+      "expectedText": [ "Tether Coil installed in the Utility slot for this page session." ]
+    },
+    {
+      "screenId": "store-kiosk",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview Patch Kit purchase" },
+        { "action": "click", "role": "button", "name": "Confirm selected purchase" }
+      ],
+      "expectedText": [ "Patch Kit purchased for 14 credits; 34 credits remain." ]
+    },
+    {
+      "screenId": "locator",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview Cargo Lift target" },
+        { "action": "click", "role": "button", "name": "Track selected target" }
+      ],
+      "expectedText": [ "Cargo Lift tracked for this page session at 86 m / 042° bearing." ]
+    }
+  ]
+}

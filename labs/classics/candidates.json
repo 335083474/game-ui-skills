@@ -1,0 +1,315 @@
+{
+  "researchedAt": "2026-10-16",
+  "scope": "12 additional directions beyond the original homepage studies",
+  "method": "Primary-source research; visual extraction and priority are design hypotheses, not demand measurements.",
+  "candidates": [
+    {
+      "slug": "final-fantasy-vii",
+      "title": "最终幻想 VII",
+      "version": "原作菜单方向 / 非 Remake",
+      "family": "蓝色 JRPG",
+      "distinguishingUI": "深蓝渐变、细白框、白色指针、紧凑命令列表",
+      "reusableComponents": "队伍状态 / 装备槽 / 指令菜单",
+      "suggestedScreens": "队伍、装备、战斗指令",
+      "whyNew": "把信息密集的 JRPG 菜单补进来。",
+      "priority": 1,
+      "palette": [
+        "#102470",
+        "#3154a1",
+        "#e6eaf3"
+      ],
+      "sources": [
+        {
+          "title": "Square Enix · Steam 图库",
+          "url": "https://store.steampowered.com/app/3837340/"
+        }
+      ],
+      "status": "experimental-reference-skill",
+      "labUrl": "/game-ui-skills/labs/final-fantasy-vii/index.html"
+    },
+    {
+      "slug": "diablo-ii",
+      "title": "暗黑破坏神 II",
+      "version": "经典界面方向 / 重制版分开取样",
+      "family": "哥特装备栏",
+      "distinguishingUI": "石雕金属面板、红蓝资源球、多格物品、暗色压纹",
+      "reusableComponents": "物品格 / 装备位 / 属性提示框",
+      "suggestedScreens": "装备背包、技能树、交易",
+      "whyNew": "验证多尺寸物品与复杂提示框；与现有纸牌卡片区分。",
+      "priority": 1,
+      "palette": [
+        "#24201d",
+        "#6c6453",
+        "#a72424"
+      ],
+      "sources": [
+        {
+          "title": "Blizzard · 原作手册",
+          "url": "https://download.blizzard.com/pub/misc/Diablo%20II%20Manual.pdf"
+        },
+        {
+          "title": "Blizzard · 游戏图库",
+          "url": "https://diablo2.blizzard.com/"
+        }
+      ],
+      "status": "experimental-reference-skill",
+      "labUrl": "/game-ui-skills/labs/diablo-ii/index.html"
+    },
+    {
+      "slug": "pokemon-emerald",
+      "title": "宝可梦 绿宝石",
+      "version": "GBA 版本",
+      "family": "掌机像素",
+      "distinguishingUI": "高对比像素描边、浅色文字框、短指令、队伍列表",
+      "reusableComponents": "对话框 / 血条 / 四选项 / 队伍条目",
+      "suggestedScreens": "战斗指令、队伍、道具袋",
+      "whyNew": "补上低分辨率、按钮导向的小屏交互。",
+      "priority": 1,
+      "palette": [
+        "#346c54",
+        "#f4f1dc",
+        "#394450"
+      ],
+      "sources": [
+        {
+          "title": "Nintendo · GBA 官方页面",
+          "url": "https://www.nintendo.co.jp/n08/bpej/index.html"
+        },
+        {
+          "title": "Nintendo · 游戏画面",
+          "url": "https://www.nintendo.co.jp/n08/bpej/houen/index.html"
+        }
+      ],
+      "status": "experimental-reference-skill",
+      "labUrl": "/game-ui-skills/labs/pokemon-emerald/index.html"
+    },
+    {
+      "slug": "animal-crossing",
+      "title": "集合啦！动物森友会",
+      "version": "New Horizons / Switch 方向",
+      "family": "柔软生活感",
+      "distinguishingUI": "奶油色底、柔和有机轮廓、纸张标签、轻量图标",
+      "reusableComponents": "对话气泡 / 圆形物品槽 / 手机面板",
+      "suggestedScreens": "物品袋、DIY 配方、邮件",
+      "whyNew": "同样温暖，但摆脱星露谷的硬像素木框。",
+      "priority": 1,
+      "palette": [
+        "#f2eedc",
+        "#70b5a6",
+        "#e3c583"
+      ],
+      "sources": [
+        {
+          "title": "Nintendo · 官方页面与画面",
+          "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Animal-Crossing-New-Horizons-1438623.html"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "starcraft",
+      "title": "星际争霸",
+      "version": "原作控制台方向 / Remastered 单独取样",
+      "family": "工业科幻",
+      "distinguishingUI": "硬质金属分区、单位肖像、紧密指令矩阵、信号色",
+      "reusableComponents": "单位详情 / 指令格 / 小地图框",
+      "suggestedScreens": "基地管理、单位面板、快捷键设置",
+      "whyNew": "补上实时策略的持续可见 HUD。",
+      "priority": 1,
+      "palette": [
+        "#242a2d",
+        "#66716b",
+        "#8dbb69"
+      ],
+      "sources": [
+        {
+          "title": "Blizzard · 原作手册",
+          "url": "https://ftp.blizzard.com/pub/misc/StarCraft.PDF"
+        },
+        {
+          "title": "Blizzard · Remastered 图库",
+          "url": "https://starcraftremastered.blizzard.com/en-us/"
+        },
+        {
+          "title": "UI 设计师 · 菜单案例",
+          "url": "https://www.anniedigital.com/work/starcraft-remastered"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "paper-mario",
+      "title": "纸片马力欧：千年之门",
+      "version": "Switch 重制版方向",
+      "family": "纸片拼贴",
+      "distinguishingUI": "纸边叠层、粗描边、贴纸徽章、舞台式层级",
+      "reusableComponents": "叠页 / 徽章 / 对话气泡 / 章节标题",
+      "suggestedScreens": "徽章装备、任务日志、奖励",
+      "whyNew": "补上材质和层叠结构鲜明的轻松卡通。",
+      "priority": 1,
+      "palette": [
+        "#f1dbab",
+        "#d74c38",
+        "#252a32"
+      ],
+      "sources": [
+        {
+          "title": "Nintendo · 官方页面与画面",
+          "url": "https://www.nintendo.com/au/games/nintendo-switch/paper-mario-the-thousand-year-door/"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "earthbound",
+      "title": "EarthBound",
+      "version": "SNES 原作方向",
+      "family": "古怪日常 RPG",
+      "distinguishingUI": "黑底白字、厚实圆角线框、简单命令、明亮背景对比",
+      "reusableComponents": "文字窗 / 命令列表 / 状态小卡",
+      "suggestedScreens": "对话、队伍状态、商店",
+      "whyNew": "用极少装饰形成鲜明识别度，适合低成本实现。",
+      "priority": 2,
+      "palette": [
+        "#202020",
+        "#f3edcf",
+        "#bf586d"
+      ],
+      "sources": [
+        {
+          "title": "Nintendo · SNES 页面与画面",
+          "url": "https://www.nintendo.com/en-gb/Games/Super-Nintendo/EarthBound-771110.html"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "heroes-iii",
+      "title": "魔法门之英雄无敌 III",
+      "version": "Complete 原版方向 / 非 HD 或新重制",
+      "family": "古典策略",
+      "distinguishingUI": "装饰边框、宝石色按钮、英雄头像、密集资源与军队槽",
+      "reusableComponents": "英雄装备 / 兵种栏 / 法术书 / 资源条",
+      "suggestedScreens": "英雄面板、招募、法术书",
+      "whyNew": "补上回合策略与大型复合管理面板。",
+      "priority": 2,
+      "palette": [
+        "#604334",
+        "#bd9b53",
+        "#24385c"
+      ],
+      "sources": [
+        {
+          "title": "GOG · 发行商商店与图库",
+          "url": "https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "warcraft-iii",
+      "title": "魔兽争霸 III",
+      "version": "原版 Reign of Chaos 方向",
+      "family": "雕刻奇幻 RTS",
+      "distinguishingUI": "石木雕刻、阵营边框、英雄头像、技能格与资源条",
+      "reusableComponents": "技能槽 / 单位肖像 / 资源 HUD",
+      "suggestedScreens": "英雄升级、技能选择、单位控制",
+      "whyNew": "适合研究同套结构下的阵营变体；首轮只选一个阵营。",
+      "priority": 2,
+      "palette": [
+        "#403c34",
+        "#9e8a58",
+        "#294c69"
+      ],
+      "sources": [
+        {
+          "title": "Blizzard · 原作手册",
+          "url": "https://ftp.blizzard.com/pub/misc/Warcraft%20III%20Manual.pdf"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "chrono-trigger",
+      "title": "时空之轮",
+      "version": "16-bit 原作方向 / PC UI 需另核对",
+      "family": "轻量 16-bit JRPG",
+      "distinguishingUI": "渐变文字窗、紧凑头像与状态、低装饰菜单",
+      "reusableComponents": "对白窗 / 组队栏 / 战斗命令",
+      "suggestedScreens": "对话、队伍、战斗指令",
+      "whyNew": "与 FFVII 比较更轻的像素叙事 UI，不混用移植版菜单。",
+      "priority": 2,
+      "palette": [
+        "#253756",
+        "#7987a7",
+        "#f3f0dc"
+      ],
+      "sources": [
+        {
+          "title": "Square Enix · Steam 图库",
+          "url": "https://store.steampowered.com/app/613830/"
+        },
+        {
+          "title": "Square Enix · PC 界面改版记录",
+          "url": "https://store.steampowered.com/news/posts/?appgroupname=Chrono+Trigger&appids=613830&enddate=1530115394&feed=steam_community_announcements"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "zelda-alttp",
+      "title": "塞尔达传说：众神的三角力量",
+      "version": "SNES 原作方向",
+      "family": "像素冒险",
+      "distinguishingUI": "常驻简洁 HUD、图标式装备、分区道具子屏幕",
+      "reusableComponents": "道具格 / 装备摘要 / 生命与资源 HUD",
+      "suggestedScreens": "道具切换、装备子屏、探索 HUD",
+      "whyNew": "补上动作冒险中不遮挡场景的少量关键信息。",
+      "priority": 2,
+      "palette": [
+        "#263b54",
+        "#be9b5e",
+        "#e2dfb1"
+      ],
+      "sources": [
+        {
+          "title": "Nintendo · 原作手册",
+          "url": "https://www.nintendo.com/es-es/games/oms/snes-classic/manuals/zelda/manual.pdf"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    },
+    {
+      "slug": "fallout-2",
+      "title": "辐射 2",
+      "version": "原作方向 / 非 Fallout 4 Pip-Boy",
+      "family": "废土仪表盘",
+      "distinguishingUI": "磨损灰绿金属、复古仪器、绿色读数、机械按钮",
+      "reusableComponents": "角色属性 / 交易双栏 / 对话终端",
+      "suggestedScreens": "角色面板、交易、对话",
+      "whyNew": "补上具有实体设备感的复杂 CRPG 信息界面。",
+      "priority": 2,
+      "palette": [
+        "#484d42",
+        "#788365",
+        "#a8c485"
+      ],
+      "sources": [
+        {
+          "title": "Bethesda · Steam 图库",
+          "url": "https://store.steampowered.com/app/38410/Fallout_2_A_Post_Nuclear_Role_Playing_Game/"
+        }
+      ],
+      "status": "research-candidate",
+      "labUrl": null
+    }
+  ]
+}

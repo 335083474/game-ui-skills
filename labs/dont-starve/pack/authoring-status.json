@@ -1,0 +1,37 @@
+{
+  "slug": "dont-starve",
+  "packageName": "dont-starve-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "crafting",
+      "title": "Workbench",
+      "description": "A recipe is an object, a cost, and a small decision about what the dark will take."
+    },
+    {
+      "id": "inventory",
+      "title": "Field Pack",
+      "description": "Rough slots keep the quantity close to its object. Empty space is still useful."
+    },
+    {
+      "id": "survival-hud",
+      "title": "Nightfall HUD",
+      "description": "Three labeled needs, one next action, and a mostly clear patch of forest."
+    }
+  ],
+  "referenceImage": "references/images/reference-direction.webp",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

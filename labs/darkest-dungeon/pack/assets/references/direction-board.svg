@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Original gothic expedition ink study</title><desc id="desc">A ruined arch, etched sky and three anonymous travelers drawn in heavy black and muted red lines.</desc>
+<defs><pattern id="scratch" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(-17)"><path d="M1 0v18M8 0v18M16 0v18" stroke="#c3b391" stroke-opacity=".09"/game-ui-skills/></pattern></defs>
+<rect width="1200" height="260" fill="#171614"/game-ui-skills/><rect width="1200" height="260" fill="url(#scratch)"/game-ui-skills/>
+<path d="M58 260V96Q70 37 137 33Q205 39 217 96V260M92 260V106Q101 67 138 65Q177 67 184 106V260" fill="#090908" stroke="#796b52" stroke-width="3"/game-ui-skills/>
+<path d="M0 210Q130 190 265 220T540 213T820 218T1200 205" fill="none" stroke="#8d2f28" stroke-width="4"/game-ui-skills/>
+<g fill="#0b0b0a" stroke="#c0ad86" stroke-width="2"><path d="M340 230l5-67 20-32 19-7 20 13 9 83 15 10v8h-91z"/game-ui-skills/><path d="M369 128l-14-21 7-33 22-10 24 13 6 24-12 26z"/game-ui-skills/><path d="M540 230l2-78 24-35 24 4 17 36 6 74 13 9v8h-98z"/game-ui-skills/><path d="M569 117l-14-20 8-30 24-11 22 18 1 23-14 20z"/game-ui-skills/><path d="M746 230l7-67 18-37 25-6 18 28 7 82 13 9v8h-94z"/game-ui-skills/><path d="M771 129l-14-22 8-29 23-11 23 13 3 25-16 24z"/game-ui-skills/></g>
+<g fill="none" stroke="#8e3129" stroke-width="2"><path d="M319 74l36 18-26 11 41 18M528 41l22 19-19 16 33 12M714 55l34 16-21 17 40 20M945 75l-32 12 23 19-42 17M1082 35l-25 24 33 17-40 18"/game-ui-skills/></g>
+<path d="M880 260Q918 199 949 151l22 35 28-58 22 51 45-23 35 104z" fill="#0b0b0a" stroke="#75674e" stroke-width="2"/game-ui-skills/>
+</svg>

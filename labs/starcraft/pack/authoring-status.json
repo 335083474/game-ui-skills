@@ -1,0 +1,42 @@
+{
+  "slug": "starcraft",
+  "packageName": "starcraft-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "command-console",
+      "title": "Command Console",
+      "description": "A central battlefield sample with narrow telemetry and the actual command console along its lower edge."
+    },
+    {
+      "id": "unit-roster",
+      "title": "Unit Roster",
+      "description": "A compact roster of original unit portraits, role labels, assignment state, and selected-unit summary."
+    },
+    {
+      "id": "mission-brief",
+      "title": "Mission Brief",
+      "description": "A pre-mission specimen with ordered objectives, sector sketch, comms identity, and launch action."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Example names, item content, statistics, quantities, maps, costs, and outcomes are synthetic.",
+    "Original vector art only; no official game art, logo, font, or screenshot is included.",
+    "The official source identifies the product/edition but does not verify exact UI fidelity or runtime behavior.",
+    "This is a visual reference and component specimen set, not a playable game or engine export."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

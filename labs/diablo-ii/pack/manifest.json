@@ -1,0 +1,134 @@
+{
+  "name": "diablo-ii-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "style": "Diablo II Classic",
+  "reference_images": [
+    "references/images/screen-direction.png",
+    "references/images/component-board.png"
+  ],
+  "new_art": {
+    "file": "assets/items-atlas.png",
+    "method": "built-in image_gen",
+    "prompt_record": "references/generation.json"
+  },
+  "runtime_art": {
+    "method": "built-in image_gen",
+    "mapping_and_provenance": "references/asset-map.md"
+  },
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 251,
+      "sha256": "791671f5c3c18afdf5755278583e029156cf2b0779ecfa7f702d586fac47b126"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 8516,
+      "sha256": "986d247b602098d991ce312ca6eb657dd31424f8e439fa33e938385b6bc07e07"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 9638,
+      "sha256": "3e72fdd0b0467e36225331329e82d1ace286e34c3288311c802f0e1183788a9d"
+    },
+    {
+      "path": "assets/fonts/alegreya-sc/AlegreyaSC-Bold.ttf",
+      "bytes": 378796,
+      "sha256": "3ef96cbf3be7b84d9dff9b1aa1e2ac40eec0cf323ccd0638395cdef9c5a91528"
+    },
+    {
+      "path": "assets/fonts/alegreya-sc/AlegreyaSC-Regular.ttf",
+      "bytes": 367628,
+      "sha256": "5c8fba800b848b851e308dfdfdc573b64135e498db41cbd0b6d78ba9d267d9a1"
+    },
+    {
+      "path": "assets/fonts/alegreya-sc/OFL.txt",
+      "bytes": 4395,
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+    },
+    {
+      "path": "assets/fonts/crimson-text/CrimsonText-Bold.ttf",
+      "bytes": 112796,
+      "sha256": "a3a0765fc5e8d0b49b540a23aefe0184887dd79f06a0bdf4db7035cea6befa93"
+    },
+    {
+      "path": "assets/fonts/crimson-text/CrimsonText-Regular.ttf",
+      "bytes": 107200,
+      "sha256": "48e6c5d5ad1d01599d374ecb817e15890d1feb3b8a3a88e527d44c90389e1f06"
+    },
+    {
+      "path": "assets/fonts/crimson-text/OFL.txt",
+      "bytes": 4393,
+      "sha256": "50fd67cddc097377a5c871e8452b778bc5aedfa3480a705cb27c5e3a078218df"
+    },
+    {
+      "path": "assets/items-atlas.png",
+      "bytes": 1667554,
+      "sha256": "e8ac869b529370e0f6ed0f62a16d9b4fde052306c411618bb92c9daa151d464d"
+    },
+    {
+      "path": "assets/tokens.json",
+      "bytes": 1587,
+      "sha256": "09dc50a44db6c5417226ed0d7f60d3ab112e539ac95fa47ee1646ee3ff5fdf9d"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 2428,
+      "sha256": "b797dcb628d09fe7db6b95e5c17410304943e189e21271c1ce283def87a4b94d"
+    },
+    {
+      "path": "references/consistency-checks.md",
+      "bytes": 1906,
+      "sha256": "076ba93711eb72c98b24221fd62482be6bb77884e428a4780a76b2d3f83690e2"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 7738,
+      "sha256": "91f433345b2617462bcbea61a58ba47f2adea3e6ffaa9d80d26bef843bdda447"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 163261,
+      "sha256": "e33eb22b4a68ee9571cd13618385aaedc886a737acaee5533348cff298b8c8cc"
+    },
+    {
+      "path": "references/images/screen-direction.png",
+      "bytes": 3213609,
+      "sha256": "4221e2859bae098050bd96ac9f8d74b7e0a47426859a6e76def1cbc79ed497a5"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 5753,
+      "sha256": "29b0bf8a0f6afc5310ab0114aa128ce01f0a197134aee1eb2d8c68ecad84e9c4"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 2930,
+      "sha256": "5f96bd2f0e9b61ec04936ba8dee0d20187b3151c12e0df92caea1f7b8c641363"
+    },
+    {
+      "path": "references/style-rules.md",
+      "bytes": 3857,
+      "sha256": "922dd3fb65fa362cb7ce2f908c7a837665844383b0eacbdf4c82fe06bcb4e85a"
+    },
+    {
+      "path": "references/usage.md",
+      "bytes": 1845,
+      "sha256": "92ce9061454cf48fb043bdeeb5fdfb3df6f1b3d14d0e60f870e75d989d78d54c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2434,
+      "sha256": "7ff4a157de99cc1cac50dd5d73da9df8b853f21ef3b2f5fd7aa7d83a53a4cb4d"
+    }
+  ],
+  "runtime_network_dependencies": [],
+  "not_included": [
+    "finished screen layouts",
+    "engine scenes",
+    "Figma source",
+    "hosted generation",
+    "payment service"
+  ]
+}

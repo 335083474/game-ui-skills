@@ -1,0 +1,50 @@
+{
+  "slug": "obra-dinn",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "crew-roster",
+      "title": "Crew roster",
+      "description": "A stable crew index supports sorting by name, location, and identity confidence."
+    },
+    {
+      "id": "investigation-log",
+      "title": "Investigation log",
+      "description": "A chronological deduction record separates observed evidence from inferred fate."
+    },
+    {
+      "id": "chapter-index",
+      "title": "Chapter index",
+      "description": "A ship and deck index reveals access and completion while preserving the investigative route."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "crew-roster",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select Ada Bell, suspected, lower deck" },
+        { "action": "click", "role": "button", "name": "Review identity for Ada Bell" },
+        { "action": "click", "role": "button", "name": "Confirm identity: Ada Bell" }
+      ],
+      "expectedText": ["Ada Bell now marked CONFIRMED in this session. Identity updated once."]
+    },
+    {
+      "screenId": "investigation-log",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Review inference entry" },
+        { "action": "click", "role": "button", "name": "Record inferred note for Night watch" }
+      ],
+      "expectedText": ["Inference added to Night watch: “A shadow crossed the lower stair.”"]
+    },
+    {
+      "screenId": "chapter-index",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select Night watch, lower deck, unlocked, incomplete" },
+        { "action": "click", "role": "button", "name": "Review chapter opening" },
+        { "action": "click", "role": "button", "name": "Mark Night watch record reviewed" }
+      ],
+      "expectedText": ["Night watch record reviewed for this session. Chapter access is still unlocked."]
+    }
+  ]
+}

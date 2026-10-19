@@ -1,0 +1,50 @@
+{
+  "slug": "patapon",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "squad-loadout",
+      "title": "Squad loadout",
+      "description": "A unit formation keeps role, count, and equipment readable through repeated shape and text."
+    },
+    {
+      "id": "expedition-select",
+      "title": "Expedition select",
+      "description": "A route choice shows danger and supply cost in a clear rhythm-friendly selection sequence."
+    },
+    {
+      "id": "rhythm-hud",
+      "title": "Rhythm HUD",
+      "description": "Beat prompts use bold symbols, timing window, and text feedback with visual alternatives to sound."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "squad-loadout",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select Scouts, scout role, 3 units, front formation" },
+        { "action": "click", "role": "button", "name": "Preview Rear line" },
+        { "action": "click", "role": "button", "name": "Review formation change" },
+        { "action": "click", "role": "button", "name": "Apply Scouts to rear formation" }
+      ],
+      "expectedText": ["Scouts moved to rear formation. 3 units stay assigned; change recorded once."]
+    },
+    {
+      "screenId": "expedition-select",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Select Reedstone Pass route, medium danger, costs 2 rations" },
+        { "action": "click", "role": "button", "name": "Review sortie launch" },
+        { "action": "click", "role": "button", "name": "Launch Reedstone Pass · spend 2 rations" }
+      ],
+      "expectedText": ["Sortie launched: Reedstone Pass. 2 rations remain; launch recorded once."]
+    },
+    {
+      "screenId": "rhythm-hud",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Input PATA command" }
+      ],
+      "expectedText": ["Beat 2 of 4 · HIT: PATA. Next command: PON."]
+    }
+  ]
+}

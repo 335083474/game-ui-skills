@@ -1,0 +1,24 @@
+:root{--ink:#171719;--paper:#fff0d0;--accent:#d9463f;--secondary:#3f8b66;--dark:#1b1c20;--light:#fff6df;--display:Georgia, 'Palatino Linotype', serif;--body:Arial, sans-serif;--edge:rgba(30,25,20,.25)}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.5 var(--body)}.board{max-width:1160px;margin:auto;padding:clamp(1rem,4vw,3rem)}
+.board-head{display:grid;grid-template-columns:1fr minmax(220px,34%);gap:2rem;align-items:center;border-bottom:3px double var(--ink);padding-bottom:1.5rem}h1,h2{font-family:var(--display);line-height:1.15}h1{font-size:clamp(2rem,5vw,3rem);margin:.25rem 0}h2{font-size:1.22rem;margin:.25rem 0 1rem}.eyebrow{font-size:.7rem;letter-spacing:.13em;text-transform:uppercase;color:var(--secondary);font-weight:700;margin:0 0 .55rem}
+.art{margin:0;border:2px solid var(--ink);background:var(--light);padding:.35rem;box-shadow:4px 4px 0 var(--accent);transform:rotate(-.5deg)}.art img{width:100%;height:150px;object-fit:cover;display:block}.art figcaption{font-size:.7rem;padding:.3rem}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.5rem 0}.spec{position:relative;min-width:0;border:2px solid var(--ink);background:var(--light);padding:1rem;box-shadow:3px 3px 0 var(--secondary)}.spec:after{content:"";position:absolute;inset:4px;border:1px dashed var(--edge);pointer-events:none}
+.row{position:relative;z-index:1;width:100%;min-height:44px;display:grid;grid-template-columns:1.5rem 1fr auto;gap:.6rem;align-items:center;text-align:left;margin:.5rem 0;padding:.7rem;color:var(--ink);background:var(--paper);border:1px solid var(--edge);font:inherit;cursor:pointer}.row.selected{border:2px solid var(--accent);box-shadow:inset 5px 0 var(--accent)}.row:focus-visible,.commit:focus-visible{outline:3px solid var(--secondary);outline-offset:2px}.row strong,.note strong,.action strong{display:block}.row small{display:block;font-size:.78rem}.symbol,.seal{font-size:1.25rem;color:var(--accent)}.tag{font-size:.62rem;letter-spacing:.08em}
+.note{position:relative;z-index:1;display:flex;gap:.8rem;padding:.85rem;border-left:4px solid var(--accent);background:var(--paper)}.note p,.action p{margin:.25rem 0}.note small{font-size:.66rem;letter-spacing:.06em}.meter{height:9px;background:rgba(20,20,20,.13);border:1px solid var(--edge);margin-top:1rem}.meter span{display:block;width:62%;height:100%;background:var(--secondary)}
+.action{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.85rem;background:var(--paper);border-top:3px solid var(--accent)}.commit{min-height:44px;padding:.6rem .85rem;border:2px solid var(--ink);background:var(--dark);color:var(--light);font-weight:700;cursor:pointer}.status{position:relative;z-index:1;min-height:2.4rem;font-size:.8rem;color:var(--secondary)}footer{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--edge);padding-top:.75rem;font-size:.74rem}
+@media(max-width:760px){.board-head{grid-template-columns:1fr}.art{max-width:420px}.grid{grid-template-columns:1fr}footer{flex-direction:column}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* Direction refinement: two-ink vaudeville handbill and strong cartoon keylines. */
+body{background-color:#fff0d0;background-image:repeating-linear-gradient(0deg,transparent 0 34px,rgba(23,23,25,.025) 34px 35px)}
+.board-head{border-bottom:5px double #171719}
+.board-head h1{font-weight:900;letter-spacing:.015em;text-transform:uppercase}
+.art{border:4px solid #171719;box-shadow:6px 6px 0 #d9463f;filter:grayscale(.35) contrast(1.08)}
+.spec{border:4px double #171719;background:#fff6df;box-shadow:4px 4px 0 #171719}
+.spec:after{inset:7px;border:1px dotted rgba(23,23,25,.45)}
+.row{border:2px solid #171719;background:#fff0d0;box-shadow:2px 2px 0 #171719}
+.row.selected{background:#f8d96f;box-shadow:inset 5px 0 #d9463f}
+.note{border:2px solid #171719;border-left:8px solid #3f8b66;background:#fff0d0}
+.action{border:3px double #171719;background:#fff0d0}
+.commit{border:3px solid #171719;background:#d9463f;color:#fff6df;box-shadow:3px 3px 0 #171719;text-transform:uppercase}
+

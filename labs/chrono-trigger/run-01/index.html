@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071c38">
+  <title>Blue Hour Expedition · UI Study</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#party"><span class="brand-seal" aria-hidden="true">◇</span><span><b>BLUE HOUR EXPEDITION</b><small>THREE TRAVELERS · ONE BRIGHT HOUR</small></span></a>
+      <nav class="screen-nav" aria-label="Game screens"><a href="#party">Party</a><a href="#techs">Techs</a><a href="#battle-orders">Battle orders</a></nav>
+      <span class="sample-tag"><i></i> DEMO STATE</span>
+    </header>
+    <main class="playfield">
+      <div class="top-scan"><span id="screen-kicker">PARTY / THREE SLOTS</span><span>1995 BLUE WINDOW STUDY <b>✦</b></span></div>
+
+      <section class="screen party-screen" id="party" data-screen="party" aria-labelledby="party-title" hidden>
+        <div class="screen-heading"><div><p class="eyebrow">CROSSROADS / COMPANION RECORDS</p><h1 id="party-title">The ones who stayed.</h1></div><div class="route-chip"><span>ROUTE</span><b>GLASSWOOD</b><small>DAY 07 / SAMPLE</small></div></div>
+        <div class="party-layout">
+          <section class="party-pane pane" aria-label="Three-person party">
+            <div class="pane-heading"><b>PARTY / 03</b><small>FOCUS ONE MEMBER</small></div>
+            <div class="party-cards">
+              <button class="member-card focused" data-select="member" data-value="Ryn" aria-label="Ryn" aria-pressed="true"><span class="portrait portrait-a"><svg viewBox="0 0 56 90" role="img" aria-label="Abstract explorer portrait"><use href="./assets/ui-atlas.svg#portrait-a"></use></svg></span><span class="member-info"><span class="member-top"><b>RYN</b><small>LV 18 / EXPLORER</small></span><span class="meter"><em>HP</em><i><b style="width:78%"></b></i><strong class="hp">078 / 100</strong></span><span class="meter mp"><em>MP</em><i><b style="width:55%"></b></i><strong class="mp-value">022 / 040</strong></span><span class="equipment">WIND CLOAK <i>·</i> IRON EDGE</span></span><span class="focus-flag">FOCUS</span></button>
+              <button class="member-card" data-select="member" data-value="Ora" aria-label="Ora" aria-pressed="false"><span class="portrait portrait-b"><svg viewBox="0 0 56 90" role="img" aria-label="Abstract mage portrait"><use href="./assets/ui-atlas.svg#portrait-b"></use></svg></span><span class="member-info"><span class="member-top"><b>ORA</b><small>LV 17 / MAGE</small></span><span class="meter"><em>HP</em><i><b style="width:91%"></b></i><strong class="hp">091 / 100</strong></span><span class="meter mp"><em>MP</em><i><b style="width:72%"></b></i><strong class="mp-value">029 / 040</strong></span><span class="equipment">GLASS CHARM <i>·</i> QUIET COAT</span></span><span class="focus-flag">READY</span></button>
+              <button class="member-card" data-select="member" data-value="Unit-7" aria-label="Unit-7" aria-pressed="false"><span class="portrait portrait-c"><svg viewBox="0 0 56 90" role="img" aria-label="Abstract automaton portrait"><use href="./assets/ui-atlas.svg#portrait-c"></use></svg></span><span class="member-info"><span class="member-top"><b>UNIT-7</b><small>LV 19 / AUTOMATON</small></span><span class="meter"><em>HP</em><i><b style="width:66%"></b></i><strong class="hp">066 / 100</strong></span><span class="meter mp"><em>MP</em><i><b style="width:36%"></b></i><strong class="mp-value">014 / 040</strong></span><span class="equipment">BRASS CORE <i>·</i> TIDE PLATE</span></span><span class="focus-flag">READY</span></button>
+            </div>
+            <div class="party-bottom"><span>LOCAL VALUES / NOT A SOURCE-GAME SAVE</span><img src="./assets/ui-atlas.svg" alt="Original pixel portrait symbols" width="157" height="43"></div>
+          </section>
+          <aside class="focus-pane pane"><div class="pane-heading"><b>FOCUS MEMBER</b><small>SESSION ONLY</small></div><div class="focus-star" aria-hidden="true">✦</div><p class="eyebrow">TRAVEL RECORD</p><h2 data-preview>Ryn</h2><p class="focus-copy">A steady pace, a quick eye, and three maps folded the wrong way.</p><div class="focus-rule"></div><div class="focus-line"><span>PARTY SLOT</span><b data-focus-slot>01 / 03</b></div><div class="focus-line"><span>FOCUS STATUS</span><b class="focus-status">ACTIVE</b></div><button class="commit-button" data-commit="focus" disabled>Set focus to Ryn</button><p class="result-line" data-result aria-live="polite">Choose a traveler, then set focus.</p></aside>
+        </div>
+      </section>
+
+      <section class="screen tech-screen" id="techs" data-screen="techs" aria-labelledby="tech-title" hidden>
+        <div class="screen-heading"><div><p class="eyebrow">COMBINATION STUDY / REQUIREMENTS SHOWN</p><h1 id="tech-title">A note passed between friends.</h1></div><div class="route-chip"><span>MP RESERVE</span><b><span data-mp-total>065</span> / 120</b><small>SAMPLE PARTY TOTAL</small></div></div>
+        <div class="tech-layout">
+          <section class="tech-pane pane" aria-label="Tech combinations"><div class="pane-heading"><b>TECH LIST</b><small>SELECT TO PREVIEW</small></div>
+            <div class="tech-list">
+              <button class="tech-row selected" data-select="tech" data-value="Aether Arc" aria-label="Aether Arc" aria-pressed="true"><span class="tech-gem" aria-hidden="true">✦</span><span class="tech-copy"><b>Aether Arc</b><small>ONE PERSON / RYN</small></span><span class="participant-count">1P</span><span class="tech-cost">04 MP</span></button>
+              <button class="tech-row" data-select="tech" data-value="Twin Flare" aria-label="Twin Flare" aria-pressed="false"><span class="tech-gem" aria-hidden="true">✧</span><span class="tech-copy"><b>Twin Flare</b><small>TWO PEOPLE / RYN + ORA</small></span><span class="participant-count">2P</span><span class="tech-cost">06 MP</span></button>
+              <button class="tech-row" data-select="tech" data-value="Triad Burst" aria-label="Triad Burst" aria-pressed="false"><span class="tech-gem" aria-hidden="true">◇</span><span class="tech-copy"><b>Triad Burst</b><small>THREE PEOPLE / RYN + ORA + UNIT-7</small></span><span class="participant-count">3P</span><span class="tech-cost">09 MP</span></button>
+            </div><div class="tech-note"><span class="note-mark">i</span><span>MP costs and readiness are invented examples. A preview is not an executed Tech.</span></div>
+          </section>
+          <aside class="requirements-pane pane"><div class="pane-heading"><b>REQUIRED PARTICIPANTS</b><small>THIS COMBINATION</small></div><h2 data-preview>Aether Arc</h2><div class="required-members" data-participants><span class="required-member active"><i>R</i> Ryn <b>READY</b></span></div><div class="mp-reserve"><div><span>COMBO COST</span><b data-cost>04 MP</b></div><div><span>AVAILABLE TOTAL</span><b data-mp>065 MP</b></div></div><button class="commit-button" data-commit="reserve" disabled>Reserve Aether Arc · 04 MP</button><p class="result-line" data-result aria-live="polite">Choose a Tech to see its required participants.</p><div class="tech-footer">THE RESERVE IS A PAGE-LOCAL PLANNING STATE</div></aside>
+        </div>
+      </section>
+
+      <section class="screen battle-screen" id="battle-orders" data-screen="battle-orders" aria-labelledby="battle-title" hidden>
+        <div class="screen-heading battle-title"><div><p class="eyebrow">ACTIVE TIME / EXAMPLE QUEUE</p><h1 id="battle-title">A moment to make a plan.</h1></div><div class="route-chip"><span>ENCOUNTER</span><b>VALE SENTINEL</b><small>NO COMBAT SIMULATION</small></div></div>
+        <div class="atb-strip pane"><div class="atb-heading"><b>ACTIVE TIME</b><small>READY AND WAITING ARE LABELED</small><strong data-ready-count>02 / 03 READY</strong></div><div class="atb-members"><div class="atb-slot"><span>RYN</span><i class="meter-ready"><b style="width:100%"></b></i><b class="ready-label">READY</b></div><div class="atb-slot"><span>ORA</span><i class="meter-wait"><b style="width:62%"></b></i><b class="wait-label">WAITING</b></div><div class="atb-slot"><span>UNIT-7</span><i class="meter-ready"><b style="width:83%"></b></i><b class="ready-label">READY</b></div></div></div>
+        <div class="battle-layout">
+          <section class="queue-pane pane"><div class="pane-heading"><b>PARTY COMMAND QUEUE / THREE SLOTS</b><small>EXAMPLE ORDER</small></div><div class="queue-list">
+            <div class="queue-row" data-queue-member="Ryn"><span class="queue-number">01</span><b>Ryn</b><span class="queue-action">STRIKE / VALE SENTINEL</span><span class="queue-state ready">READY</span></div>
+            <div class="queue-row" data-queue-member="Ora"><span class="queue-number">02</span><b>Ora</b><span class="queue-action">TECH / SELECT TECH</span><span class="queue-state waiting">WAITING</span></div>
+            <div class="queue-row" data-queue-member="Unit-7"><span class="queue-number">03</span><b>Unit-7</b><span class="queue-action">ITEM / SELECT ITEM</span><span class="queue-state ready">READY</span></div>
+          </div><div class="queue-note">One command slot changes after confirmation; no timing, damage, or battle result is simulated.</div></section>
+          <aside class="order-pane pane"><div class="pane-heading"><b>ORDER PREVIEW</b><small>SELECT → LOCK</small></div><div class="action-choices"><button class="order-choice chosen" data-select="order" data-value="Strike" aria-label="Strike" aria-pressed="true">Strike</button><button class="order-choice" data-select="order" data-value="Tech" aria-label="Tech" aria-pressed="false">Tech</button><button class="order-choice" data-select="order" data-value="Item" aria-label="Item" aria-pressed="false">Item</button></div><label class="target-picker">COMMAND SLOT<select aria-label="Choose command slot"><option>Ryn</option><option>Ora</option><option>Unit-7</option></select></label><label class="target-picker">TARGET PREVIEW<select aria-label="Choose target"><option>Vale Sentinel</option><option>Glass Warden</option></select></label><button class="commit-button" data-commit="lock" disabled>Lock Strike for Ryn</button><p class="result-line" data-result aria-live="polite">Select an order for the ready slot.</p></aside>
+        </div>
+      </section>
+
+      <p class="lab-caption">Prototype caption: party, Tech names, values, and orders are fictional samples; local controls do not execute a battle or update a save.</p>
+    </main>
+  </div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

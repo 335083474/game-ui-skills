@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100e18">
+  <title>Neighborhood Signal · UI Study</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="field-glow glow-one" aria-hidden="true"></div><div class="field-glow glow-two" aria-hidden="true"></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#goods"><span class="brand-orbit" aria-hidden="true">✳</span><span><b>NEIGHBORHOOD SIGNAL</b><small>FOUR FRIENDS · ONE STRANGE EVENING</small></span></a>
+      <nav class="screen-nav" aria-label="Game screens"><a href="#goods">Goods</a><a href="#party-status">Party status</a><a href="#battle-commands">Battle</a></nav>
+      <span class="sample-tag"><i></i> SAMPLE DATA</span>
+    </header>
+
+    <main class="playfield">
+      <div class="orbit-line"><span id="screen-kicker">POCKETS / GOODS 01</span><span>1994 WINDOW STUDY <b>✦</b></span></div>
+
+      <section class="screen goods-screen" id="goods" data-screen="goods" aria-labelledby="goods-title" hidden>
+        <div class="screen-intro"><div class="eyebrow">BACKPACK CHECK / 6:42 PM</div><h1 id="goods-title">The afternoon kit</h1><p>Ordinary things for an evening that forgot how to be ordinary.</p></div>
+        <div class="goods-layout">
+          <section class="round-window goods-window" aria-label="Goods list">
+            <div class="window-heading"><div><span class="window-dot"></span><b>GOODS</b></div><small>POCKETS / <span data-total>10</span> THINGS</small></div>
+            <div class="goods-columns">
+              <div class="goods-list">
+                <button class="good-row selected" data-select="good" data-value="Maple bar" aria-label="Maple bar" aria-pressed="true"><span class="good-icon cracker" aria-hidden="true">▤</span><span><b>Maple bar</b><small>Snack / sweet and a little sticky</small></span><span class="quantity" data-qty="Maple bar">× 2</span></button>
+                <button class="good-row" data-select="good" data-value="Bus pass" aria-label="Bus pass" aria-pressed="false"><span class="good-icon pass" aria-hidden="true">▣</span><span><b>Bus pass</b><small>Ride / expires at midnight</small></span><span class="quantity" data-qty="Bus pass">× 1</span></button>
+                <button class="good-row" data-select="good" data-value="Old mixtape" aria-label="Old mixtape" aria-pressed="false"><span class="good-icon tape" aria-hidden="true">✳</span><span><b>Old mixtape</b><small>Music / side A is the best one</small></span><span class="quantity" data-qty="Old mixtape">× 3</span></button>
+                <button class="good-row" data-select="good" data-value="Pocket notebook" aria-label="Pocket notebook" aria-pressed="false"><span class="good-icon note" aria-hidden="true">▤</span><span><b>Pocket notebook</b><small>Paper / one page still blank</small></span><span class="quantity" data-qty="Pocket notebook">× 4</span></button>
+              </div>
+              <aside class="good-detail"><div class="detail-sticker" aria-hidden="true">?</div><span class="eyebrow">LOOK INSIDE</span><h2 data-preview>Maple bar</h2><p data-note>Chocolate, nuts, and a wrapper that never stays folded.</p><div class="detail-quantity"><span>IN BAG</span><b data-count>02</b></div><button class="commit-button" data-commit="use" disabled>Use Maple bar</button><p class="result-line" data-result aria-live="polite">Select a thing before using it.</p></aside>
+            </div>
+            <div class="goods-window-foot"><span>DEMO INVENTORY</span><span>KEEP WHAT YOU CAN CARRY</span></div>
+          </section>
+          <aside class="scene-slip"><span class="sticker-star" aria-hidden="true">✷</span><span class="eyebrow">TODAY'S NOTE</span><p>“The corner shop was open. The radio was not.”</p><img src="./assets/ui-atlas.svg" alt="Original everyday object symbols: snack, ticket, signal, and note" width="208" height="56"><small>ALL OBJECTS ARE ORIGINAL EXAMPLES</small></aside>
+        </div>
+      </section>
+
+      <section class="screen party-screen" id="party-status" data-screen="party-status" aria-labelledby="party-title" hidden>
+        <div class="screen-intro status-intro"><div><div class="eyebrow">STATUS CHECK / AFTER THE LONG WALK</div><h1 id="party-title">Everybody made it home.</h1></div><div class="sample-card"><span>STREETLIGHTS</span><b>04 / 04</b><small>STILL AWAKE · SAMPLE</small></div></div>
+        <div class="status-window round-window">
+          <div class="window-heading"><div><span class="window-dot"></span><b>PARTY STATUS</b></div><small>HP / PP + CONDITION · FOUR-PERSON SAMPLE</small></div>
+          <div class="party-rows">
+            <button class="person-row focused" data-select="person" data-value="Alex" aria-label="Alex" aria-pressed="true"><span class="person-badge badge-a" aria-hidden="true">A</span><span class="person-name"><b>Alex</b><small>THE MAP READER · READY</small></span><span class="meter-block"><span>HP <b class="hp-value">078 / 120</b></span><i><b class="hp-bar" style="width:65%"></b></i></span><span class="meter-block pp"><span>PP <b>042 / 070</b></span><i><b style="width:60%"></b></i></span><span class="condition">OK</span></button>
+            <button class="person-row" data-select="person" data-value="Bea" aria-label="Bea" aria-pressed="false"><span class="person-badge badge-b" aria-hidden="true">B</span><span class="person-name"><b>Bea</b><small>THE NIGHT OWL · FOCUSED</small></span><span class="meter-block"><span>HP <b class="hp-value">062 / 110</b></span><i><b class="hp-bar" style="width:56%"></b></i></span><span class="meter-block pp"><span>PP <b>038 / 080</b></span><i><b style="width:47%"></b></i></span><span class="condition">CALM</span></button>
+            <button class="person-row" data-select="person" data-value="Cal" aria-label="Cal" aria-pressed="false"><span class="person-badge badge-c" aria-hidden="true">C</span><span class="person-name"><b>Cal</b><small>THE FIXER · OK</small></span><span class="meter-block"><span>HP <b class="hp-value">091 / 130</b></span><i><b class="hp-bar" style="width:70%"></b></i></span><span class="meter-block pp"><span>PP <b>029 / 060</b></span><i><b style="width:48%"></b></i></span><span class="condition">OK</span></button>
+            <button class="person-row" data-select="person" data-value="Dee" aria-label="Dee" aria-pressed="false"><span class="person-badge badge-d" aria-hidden="true">D</span><span class="person-name"><b>Dee</b><small>THE SKETCHER · OK</small></span><span class="meter-block"><span>HP <b class="hp-value">048 / 100</b></span><i><b class="hp-bar" style="width:48%"></b></i></span><span class="meter-block pp"><span>PP <b>051 / 090</b></span><i><b style="width:56%"></b></i></span><span class="condition">TIRED</span></button>
+          </div>
+          <div class="status-actions"><div class="rolling-trail"><span>ROLLING HP / SAMPLE TRAIL</span><b>031 <i>›</i> 028 <i>›</i> 025 <i>›</i> <em>022</em></b></div><div class="supply-action"><span class="bandage-stock">POCKET BANDAGE <b data-bandages>02</b></span><button class="commit-button" data-commit="heal" disabled>Apply Pocket Bandage to Alex</button></div></div>
+          <p class="result-line" data-result aria-live="polite">Select a party row, then use the sample supply.</p>
+        </div>
+      </section>
+
+      <section class="screen battle-screen" id="battle-commands" data-screen="battle-commands" aria-labelledby="battle-title" hidden>
+        <div class="battle-scene"><div class="scene-moon" aria-hidden="true"></div><div class="scene-rings ring-a" aria-hidden="true"></div><div class="scene-rings ring-b" aria-hidden="true"></div><div class="enemy-shape"><span>◉</span><b>THE RADIO STATIC</b><small>A STRANGE, FICTIONAL ENCOUNTER</small></div></div>
+        <div class="battle-heading"><div><div class="eyebrow">AFTER-DARK ENCOUNTER / LOCAL COMMAND PREVIEW</div><h1 id="battle-title">Choose a way through.</h1></div><div class="psi-meter"><span>PARTY PP SAMPLE</span><b><i data-pp>054</i> / 210</b></div></div>
+        <section class="round-window command-window" aria-label="Battle commands">
+          <div class="command-layout"><div class="command-list"><div class="window-heading"><div><span class="window-dot"></span><b>COMMAND</b></div><small>SELECT ONE</small></div>
+            <button class="battle-command chosen" data-select="action" data-value="Bash" aria-label="Bash" aria-pressed="true"><span class="command-mark mark-orange" aria-hidden="true">✳</span><span><b>Bash</b><small>Physical / a steady swing</small></span><span class="command-type">STR 1</span></button>
+            <button class="battle-command" data-select="action" data-value="PSI Spark" aria-label="PSI Spark" aria-pressed="false"><span class="command-mark mark-violet" aria-hidden="true">✦</span><span><b>PSI Spark</b><small>Energy / reserve 4 PP</small></span><span class="command-type">PSI</span></button>
+            <button class="battle-command" data-select="action" data-value="Goods" aria-label="Goods" aria-pressed="false"><span class="command-mark mark-cyan" aria-hidden="true">▤</span><span><b>Goods</b><small>Open a pocket-sized plan</small></span><span class="command-type">ITEM</span></button>
+            <button class="battle-command" data-select="action" data-value="Guard" aria-label="Guard" aria-pressed="false"><span class="command-mark mark-pink" aria-hidden="true">◈</span><span><b>Guard</b><small>Wait behind a good idea</small></span><span class="command-type">WAIT</span></button>
+          </div>
+          <aside class="battle-preview"><div class="preview-label"><span>PREVIEW / NO DAMAGE ROLLS</span><span class="target-spark">✦</span></div><div class="target-box"><span>FOCUS</span><b>RADIO STATIC</b><small>SHAPE: UNPREDICTABLE</small></div><label class="target-picker">TARGET<select aria-label="Choose a target"><option>Radio Static</option><option>Neon Pigeon</option></select></label><button class="commit-button" data-commit="queue" disabled>Queue Bash for Alex</button><p class="queue-line" data-result aria-live="polite">Select an action and target to build the local queue.</p><div class="queued-count">QUEUE <b data-queue>00</b></div></aside>
+          </div>
+          <div class="command-foot"><span>FIGHT / PSI / GOODS / GUARD</span><span>THE WINDOW STAYS LEGIBLE</span></div>
+        </section>
+      </section>
+
+      <p class="lab-caption">Prototype caption: party, objects, values, and outcomes are invented samples; local interactions do not write a save or simulate combat.</p>
+    </main>
+  </div>
+  <script src="./app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "slug": "katamari",
+  "packageName": "katamari-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "collection-book",
+      "title": "Collection book",
+      "description": "A playful catalog grouped by found-object families, with readable names and personal discovery states."
+    },
+    {
+      "id": "level-select",
+      "title": "Level select",
+      "description": "A bold destination picker with one clear objective, size target, and accessible route choice."
+    },
+    {
+      "id": "roll-results",
+      "title": "Roll results",
+      "description": "A celebratory result reveal that communicates size, new finds, and replay choices without hiding the score."
+    }
+  ],
+  "referenceImage": "assets/illustrations/katamari-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated illustration is an original style cue, not canonical source-game UI evidence.",
+    "Title-specific search demand remains unknown; broad catalog observations are not keyword validation."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

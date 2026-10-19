@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toybox collage and cosmic pop UI — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="specimen-board">
+    <header class="board-head">
+      <div><p class="eyebrow">STYLE SPECIMEN · Katamari Damacy REROLL (2018)</p><h1>Pocket Cosmos Catalog</h1><p class="lede">Editable primitives for toybox collage and cosmic pop ui; not a finished game screen.</p></div>
+      <figure class="art-crop"><img src="../illustrations/katamari-art.png" alt="An original toy planet built from a paper kite, citrus, buttons, a kettle, and found objects"><figcaption>Original generated direction study</figcaption></figure>
+    </header>
+    <section class="specimen-grid" aria-label="Component examples">
+      <article class="specimen">
+        <p class="eyebrow">01 · collection-book</p><h2>Found-object sticker</h2>
+        <button class="choice is-selected" type="button" aria-pressed="true"><span class="marker" aria-hidden="true">◆</span><span><strong>Found-object sticker</strong><small>An item tag with a cutout silhouette, found-state stamp, and playful but legible name.</small></span><span class="state">SELECTED</span></button>
+        <button class="choice" type="button" aria-pressed="false"><span class="marker" aria-hidden="true">◇</span><span><strong>Alternate path</strong><small>Preview the cost before committing.</small></span><span class="state">AVAILABLE</span></button>
+      </article>
+      <article class="specimen">
+        <p class="eyebrow">02 · level-select</p><h2>Destination badge</h2>
+        <div class="record"><span class="record-mark" aria-hidden="true">✦</span><div><strong>Destination badge</strong><p>A large objective circle paired with concise size target and route selector.</p><small>STATUS · RECORDED / FICTIONAL</small></div></div>
+        <div class="meter" role="img" aria-label="Example resource: 7 of 10"><span style="width:70%"></span></div>
+      </article>
+      <article class="specimen">
+        <p class="eyebrow">03 · roll-results</p><h2>Cosmic result seal</h2>
+        <div class="decision"><div><strong>Cosmic result seal</strong><p>An oversized score seal plus compact new-find chips; decorative burst does not carry meaning alone.</p></div><button class="commit" type="button">Preview choice</button></div>
+        <p class="notice" role="status" aria-live="polite">No choice committed. Specimen state only.</p>
+      </article>
+    </section>
+    <footer><span>Make a Little Planet</span><span>Original fictional data · keyboard and pointer ready</span></footer>
+  </main>
+  <script>
+    document.querySelectorAll(".choice").forEach((button) => button.addEventListener("click", () => {
+      document.querySelectorAll(".choice").forEach((item) => { item.classList.remove("is-selected"); item.setAttribute("aria-pressed", "false"); });
+      button.classList.add("is-selected"); button.setAttribute("aria-pressed", "true");
+      document.querySelector(".notice").textContent = button.querySelector("strong").textContent + " selected for preview. No persistent game state changed.";
+    }));
+  </script>
+</body>
+</html>
+

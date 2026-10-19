@@ -1,0 +1,41 @@
+{
+  "slug": "hypnospace-outlaw",
+  "packageName": "hypnospace-outlaw-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "desktop",
+      "title": "Desktop",
+      "description": "Compose an original bright wallpaper and several beveled local windows with working visibility controls."
+    },
+    {
+      "id": "mail",
+      "title": "Mail",
+      "description": "Browse invented inbox rows and update a separate mail detail window, keeping any suspicious link inert."
+    },
+    {
+      "id": "file-library",
+      "title": "File Library",
+      "description": "Inspect original pixel-style file tiles and toggle local demo state without downloading or installing anything."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Wallpaper, pages, mail, filenames, senders, dates, and file states are original fictional demo content.",
+    "Window and file controls update only local prototype state; no files are downloaded or installed.",
+    "A parent-captured component image and independent three-screen implementation are pending."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

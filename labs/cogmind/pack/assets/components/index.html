@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#08100b">
+  <title>Cogmind · ASCII interface component plate</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <main class="terminal">
+    <header class="mast"><div><p class="eyebrow">Experimental reference package / PC ASCII direction</p><h1>COGMIND // GLYPH SYSTEM</h1><p class="mast-sub">Text-first map · attached-part schematic · ordered event buffer</p></div><div class="plate-tag">ORIGINAL SPECIMENS<br>NOT A FULL GAME SCREEN</div></header>
+    <section class="intro"><div><p class="label">Terminal reference / no build pinned</p><p>Actual characters carry the texture. The sample below keeps navigation keys beside the map, values aligned in rows, and status text readable without color.</p></div><span class="originality">NO RASTER TEXT / NO GAME FONT</span></section>
+    <section class="board" aria-label="Reusable ASCII interface components">
+      <div class="board-head"><span>Component bank / synthetic state</span><span>Sector 02 · grid 17 × 9</span></div>
+      <div class="modules">
+        <article class="module equipment-module">
+          <div class="module-head"><div><p class="label">01 / Part slots</p><h2>ATTACHED EQUIPMENT</h2></div><span class="module-code">UNIT / K-08</span></div>
+          <ul class="parts" id="parts">
+            <li><button type="button" data-part="CORE · Micro Reactor · 82% condition"><span class="glyph">[C]</span><span class="part-name">CORE / MICRO REACTOR</span><span class="part-value">82%</span></button></li>
+            <li><button type="button" data-part="PROPULSION · Aluminum Leg · 64% condition"><span class="glyph">[|]</span><span class="part-name">PROPULSION / LEG</span><span class="part-value">64%</span></button></li>
+            <li><button type="button" data-part="UTILITY · Terrain Scanner · 91% condition"><span class="glyph">[?]</span><span class="part-name">UTILITY / SCANNER</span><span class="part-value">91%</span></button></li>
+            <li><button type="button" data-part="UTILITY · Signal Interpreter · 73% condition"><span class="glyph">[&amp;]</span><span class="part-name">UTILITY / SIGNAL</span><span class="part-value">73%</span></button></li>
+            <li><button type="button" data-part="WEAPON · Arc Projector · 58% condition"><span class="glyph">[!]</span><span class="part-name">WEAPON / ARC</span><span class="part-value">58%</span></button></li>
+          </ul>
+          <p class="part-note" id="part-note" role="status">Select a slot · Enter or Space inspects its synthetic condition.</p>
+        </article>
+        <article class="module map-panel">
+          <div class="module-head map-head"><div><p class="label">02 / Spatial glyph grid</p><h2>EXPLORATION MAP</h2></div><span class="coord" id="coord">X 08 / Y 04</span></div>
+          <div class="map-shell">
+            <div id="ascii-map" class="ascii-map" role="grid" aria-label="Synthetic text glyph map. Focus and use arrow keys or h j k l to move, Enter to inspect, Escape to reset." tabindex="0" hidden></div>
+            <pre id="map-fallback" class="map-fallback">#################
+#....%....+....?#
+#..[]...|...^^..#
+#..*...#....&amp;...#
+#...{...@...}...#
+#...|..=..-.....#
+#..?...%........#
+#......&amp;.....&amp;..#
+#..&gt;............#</pre>
+          </div>
+          <div class="keyline"><kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd> or <kbd>H</kbd><kbd>J</kbd><kbd>K</kbd><kbd>L</kbd> move · <kbd>Enter</kbd> inspect · <kbd>Esc</kbd> reset</div>
+          <p class="map-status" id="map-status" role="status">Focus map to move the @ cursor. This is an original synthetic specimen.</p>
+          <div class="legend" aria-label="Glyph legend"><span><b>@</b> unit</span><span><b>+</b> closed door</span><span><b>&amp;</b> data terminal</span><span><b>^</b> hazard</span><span><b>%</b> debris</span><span><b>?</b> unknown</span></div>
+        </article>
+        <article class="module log-module">
+          <div class="module-head"><div><p class="label">03 / Ordered records</p><h2>EVENT BUFFER</h2></div><span class="module-code">NEWEST FIRST</span></div>
+          <ol class="event-log">
+            <li class="warning"><span class="event-glyph">[!]</span><div><span class="event-type">WARNING · E-018</span><p>Heat rise detected at the southern passage.</p><span class="log-id">SYNTHETIC SAMPLE</span></div></li>
+            <li class="discovery"><span class="event-glyph">[+]</span><div><span class="event-type">DISCOVERY · E-017</span><p>An irregular return appears on the east wall.</p><span class="log-id">SYNTHETIC SAMPLE</span></div></li>
+            <li><span class="event-glyph">[i]</span><div><span class="event-type">INFO · E-016</span><p>Position recorded at coordinate 08,04.</p><span class="log-id">SYNTHETIC SAMPLE</span></div></li>
+          </ol>
+        </article>
+      </div>
+      <div class="board-foot"><span>FOCUSABLE TEXT COMPONENTS / ORIGINAL GLYPH SET</span><strong>KEYS ARE VISIBLE BESIDE THE MAP</strong></div>
+    </section>
+    <section class="sheet" aria-label="Additional schematic specimens">
+      <article class="schematic"><h2>PART SLOT SCHEMATIC / EDITABLE TEXT</h2><pre>       [CORE]
+          |
+[PROPULSION]--@--[UTILITY]
+          |
+       [WEAPON]</pre><p class="schematic-note">Simple glyph connections can organize equipment without turning slots into cards.</p></article>
+      <article class="schematic"><h2>GLYPH / STATE PAIRING</h2><pre><span class="active">@</span> UNIT   + DOOR   &amp; DATA
+^ HAZARD  % DEBRIS  ? UNKNOWN</pre><p class="schematic-note">Always pair color or glyph with a text label; the marks alone do not carry status meaning.</p></article>
+    </section>
+    <footer class="folio"><span>SYNTHETIC MAP / EQUIPMENT / EVENT DATA</span><span><b>GREEN INFORMATION · AMBER SELECTION</b> · LOCAL SYSTEM MONOSPACE</span></footer>
+  </main>
+  <script>
+    (()=>{
+      const lines=['#################','#....%....+....?#','#..[]...|...^^..#','#..*...#....&...#','#...{...@...}...#','#...|..=..-.....#','#..?...%........#','#......&.....&..#','#..>............#'];
+      const rows=lines.map(line=>[...line]);const map=document.querySelector('#ascii-map');const fallback=document.querySelector('#map-fallback');
+      let pos={x:8,y:4};
+      const render=()=>{
+        map.replaceChildren();
+        rows.forEach((row,y)=>row.forEach((glyph,x)=>{
+          const cell=document.createElement('span');cell.className='cell';cell.setAttribute('role','gridcell');
+          const value=(x===pos.x&&y===pos.y)?'@':glyph;cell.textContent=value;
+          if(value==='#')cell.classList.add('is-wall');if(value==='+')cell.classList.add('is-door');if(value==='&')cell.classList.add('is-device');if(value==='^')cell.classList.add('is-hazard');if(value==='%')cell.classList.add('is-debris');if(x===pos.x&&y===pos.y)cell.classList.add('is-cursor');
+          map.append(cell);
+        }));
+        document.querySelector('#coord').textContent=`X ${String(pos.x).padStart(2,'0')} / Y ${String(pos.y).padStart(2,'0')}`;
+      };
+      fallback.hidden=true;map.hidden=false;render();
+      map.addEventListener('keydown',event=>{
+        const keys={ArrowUp:[0,-1],k:[0,-1],ArrowDown:[0,1],j:[0,1],ArrowLeft:[-1,0],h:[-1,0],ArrowRight:[1,0],l:[1,0]};
+        const key=event.key.length===1?event.key.toLowerCase():event.key;
+        if(keys[key]){event.preventDefault();const [dx,dy]=keys[key],nextX=pos.x+dx,nextY=pos.y+dy;if(rows[nextY]?.[nextX]&&rows[nextY][nextX]!=='#'){pos={x:nextX,y:nextY};render();document.querySelector('#map-status').textContent=`Cursor moved to X ${pos.x}, Y ${pos.y}. Press Enter to inspect the synthetic cell.`;}else{document.querySelector('#map-status').textContent='Solid boundary. Cursor remains in the map.';}}
+        else if(event.key==='Enter'){event.preventDefault();const glyph=rows[pos.y][pos.x];const labels={'@':'unit marker','+':'closed door','&':'data terminal','^':'hazard','%':'debris','?':'unmapped area','>':'stair','=':'floor marking','-':'floor marking','*':'salvage marker'};document.querySelector('#map-status').textContent=`Inspect ${labels[glyph]||'map passage'} at X ${pos.x}, Y ${pos.y}. Synthetic map only.`;}
+        else if(event.key==='Escape'){pos={x:8,y:4};render();document.querySelector('#map-status').textContent='Cursor returned to origin X 08 / Y 04.';}
+      });
+      document.querySelectorAll('#parts button').forEach(button=>button.addEventListener('click',()=>{document.querySelector('#part-note').textContent=`Selected ${button.dataset.part}. Synthetic example; no game balance implied.`;}));
+    })();
+  </script>
+</body>
+</html>

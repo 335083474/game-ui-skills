@@ -1,0 +1,50 @@
+{
+  "slug": "journey",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {
+      "id": "chapter-gates",
+      "title": "Gates along the route",
+      "description": "A scene-based gate path previews the next destination and requires an explicit crossing action."
+    },
+    {
+      "id": "journey-progress",
+      "title": "Named waypoints",
+      "description": "Passed, current, and ahead locations communicate progress without an invented route percentage."
+    },
+    {
+      "id": "companion-signals",
+      "title": "Companion signal",
+      "description": "Brief signal choices remain previews until an explicit local send action is selected."
+    }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "chapter-gates",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Wind Gate" },
+        { "action": "click", "role": "button", "name": "Cross gate" },
+        { "action": "click", "role": "button", "name": "Confirm crossing to Wind Gate" }
+      ],
+      "expectedText": ["Local route point changed to Wind Gate. No game progress was saved."]
+    },
+    {
+      "screenId": "journey-progress",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Confirm next crossing" },
+        { "action": "click", "role": "button", "name": "Confirm crossing to Sunlit Rise" }
+      ],
+      "expectedText": ["Crossing confirmed. You are now at Sunlit Rise in this local example."]
+    },
+    {
+      "screenId": "companion-signals",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Wave" },
+        { "action": "click", "role": "button", "name": "Send signal" },
+        { "action": "click", "role": "button", "name": "Confirm local Wave" }
+      ],
+      "expectedText": ["Wave is recorded in this local example; no other traveler received it."]
+    }
+  ]
+}

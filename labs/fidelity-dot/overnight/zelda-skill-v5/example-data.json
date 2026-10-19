@@ -1,0 +1,169 @@
+{
+  "title": "ITEM",
+  "selectedIndex": 12,
+  "items": [
+    {
+      "id": "bow",
+      "name": "BOW",
+      "icon": "components/sprite_bow_native.png",
+      "count": 1,
+      "description": "A reusable bow item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "boomerang",
+      "name": "BOOMERANG",
+      "icon": "components/sprite_boomerang_native.png",
+      "count": 1,
+      "description": "A reusable boomerang item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "hookshot",
+      "name": "HOOKSHOT",
+      "icon": "components/sprite_hookshot_native.png",
+      "count": 1,
+      "description": "A reusable hookshot item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "bomb",
+      "name": "BOMB",
+      "icon": "components/sprite_bomb_native.png",
+      "count": 4,
+      "description": "A reusable bomb item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "mushroom",
+      "name": "MUSHROOM",
+      "icon": "components/sprite_mushroom_native.png",
+      "count": 1,
+      "description": "A reusable mushroom item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "fire_rod",
+      "name": "FIRE ROD",
+      "icon": "components/sprite_fire_rod_native.png",
+      "count": 1,
+      "description": "A reusable fire rod item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "ice_rod",
+      "name": "ICE ROD",
+      "icon": "components/sprite_ice_rod_native.png",
+      "count": 1,
+      "description": "A reusable ice rod item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "medallion_lightning",
+      "name": "MEDALLION LIGHTNING",
+      "icon": "components/sprite_medallion_lightning_native.png",
+      "count": 1,
+      "description": "A reusable medallion lightning item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "medallion_flame",
+      "name": "MEDALLION FLAME",
+      "icon": "components/sprite_medallion_flame_native.png",
+      "count": 1,
+      "description": "A reusable medallion flame item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "medallion_quake",
+      "name": "MEDALLION QUAKE",
+      "icon": "components/sprite_medallion_quake_native.png",
+      "count": 1,
+      "description": "A reusable medallion quake item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "lantern",
+      "name": "LANTERN",
+      "icon": "components/sprite_lantern_native.png",
+      "count": 1,
+      "description": "A reusable lantern item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "hammer_gold",
+      "name": "HAMMER GOLD",
+      "icon": "components/sprite_hammer_gold_native.png",
+      "count": 1,
+      "description": "A reusable hammer gold item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "flute_observed",
+      "name": "FLUTE",
+      "icon": "components/sprite_flute_observed_native.png",
+      "count": 1,
+      "description": "A reusable flute observed item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "bug_net",
+      "name": "BUG NET",
+      "icon": "components/sprite_bug_net_native.png",
+      "count": 1,
+      "description": "A reusable bug net item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "book_green",
+      "name": "BOOK GREEN",
+      "icon": "components/sprite_book_green_native.png",
+      "count": 1,
+      "description": "A reusable book green item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "bottle_red",
+      "name": "BOTTLE RED",
+      "icon": "components/sprite_bottle_red_native.png",
+      "count": 1,
+      "description": "A reusable bottle red item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "cane_red",
+      "name": "CANE RED",
+      "icon": "components/sprite_cane_red_native.png",
+      "count": 1,
+      "description": "A reusable cane red item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "cane_blue",
+      "name": "CANE BLUE",
+      "icon": "components/sprite_cane_blue_native.png",
+      "count": 1,
+      "description": "A reusable cane blue item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "cape_red",
+      "name": "CAPE RED",
+      "icon": "components/sprite_cape_red_native.png",
+      "count": 1,
+      "description": "A reusable cape red item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "mirror",
+      "name": "MIRROR",
+      "icon": "components/sprite_mirror_native.png",
+      "count": 1,
+      "description": "A reusable mirror item. Select it to inspect its properties. Change this description in the editor."
+    }
+  ],
+  "equipment": [
+    {
+      "id": "sword_metal",
+      "name": "SWORD METAL",
+      "icon": "components/sprite_sword_metal_native.png",
+      "count": 4,
+      "description": "A reusable sword metal item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "shield_gold",
+      "name": "SHIELD GOLD",
+      "icon": "components/sprite_shield_gold_native.png",
+      "count": 1,
+      "description": "A reusable shield gold item. Select it to inspect its properties. Change this description in the editor."
+    },
+    {
+      "id": "armor_red",
+      "name": "ARMOR RED",
+      "icon": "components/sprite_armor_red_native.png",
+      "count": 1,
+      "description": "A reusable armor red item. Select it to inspect its properties. Change this description in the editor."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const context = { module: { exports: {} } };
+vm.runInNewContext(fs.readFileSync(path.join(__dirname,'model.js'),'utf8'),context);
+const M = context.module.exports;
+let checks = 0;
+function check(name,fn){ fn(); checks++; console.log('PASS '+name); }
+check('Fresh state validates',()=>assert.ok(M.valid(M.fresh())));
+check('Malformed saved data rejected',()=>{assert.equal(M.valid({}),false);const s=M.fresh();s.hp=61;assert.equal(M.valid(s),false);});
+check('Each reward grants exactly once, including after switching',()=>{for(const id of ['coins','potion','crystal']){const s=M.fresh();assert.ok(M.claim(s,id).ok);assert.equal(s.rewardId,id);const snapshot=JSON.stringify(s);for(const next of ['coins','potion','crystal']){assert.equal(M.claim(s,next).ok,false);assert.equal(JSON.stringify(s),snapshot);}assert.ok(M.valid(s));}});
+check('Reward numerical effects',()=>{let s=M.fresh();M.claim(s,'coins');assert.equal(s.coins,74);s=M.fresh();M.claim(s,'potion');assert.equal(s.hp,52);s=M.fresh();M.claim(s,'crystal');assert.equal(s.luck,2);assert.equal(s.inventory.crystal,2);});
+check('Potion consumes, caps health, rejects full health',()=>{const s=M.fresh();assert.ok(M.usePotion(s).ok);assert.equal(s.hp,52);assert.equal(s.inventory.potion,1);assert.ok(M.usePotion(s).ok);assert.equal(s.hp,60);assert.equal(s.inventory.potion,0);s.inventory.potion=1;const snapshot=JSON.stringify(s);assert.equal(M.usePotion(s).ok,false);assert.equal(JSON.stringify(s),snapshot);assert.equal(M.potionReason(s),'Health is already full');});
+check('Zero potion rejects without mutation',()=>{const s=M.fresh();s.inventory.potion=0;const snapshot=JSON.stringify(s);assert.equal(M.usePotion(s).ok,false);assert.equal(JSON.stringify(s),snapshot);assert.equal(M.potionReason(s),'No potions left');});
+check('Purchases change balance, stock and quantities',()=>{const s=M.fresh();assert.ok(M.buy(s,'potion').ok);assert.equal(s.coins,16);assert.equal(s.stock.potion,2);assert.equal(s.inventory.potion,3);assert.ok(M.buy(s,'crystal').ok);assert.equal(s.coins,4);assert.equal(s.stock.crystal,0);assert.equal(s.luck,2);});
+check('Sold out and insufficient funds never mutate state',()=>{const s=M.fresh();M.buy(s,'crystal');const after=JSON.stringify(s);assert.equal(M.buy(s,'crystal').ok,false);assert.equal(JSON.stringify(s),after);M.buy(s,'potion');const before=JSON.stringify(s);assert.equal(M.buy(s,'key').ok,false);assert.equal(JSON.stringify(s),before);assert.ok(s.coins>=0);});
+check('State roundtrip preserves reward claim',()=>{const s=M.fresh();M.claim(s,'coins');const restored=JSON.parse(JSON.stringify(s));assert.ok(M.valid(restored));assert.equal(M.claim(restored,'potion').ok,false);});
+check('All HTML/CSS resources are local and exist',()=>{const files=['index.html','styles.css','assets/components/theme.css'];for(const file of files){const text=fs.readFileSync(path.join(__dirname,file),'utf8');const refs=[...text.matchAll(/(?:src|href)="([^"#]+)"|url\(['"]?([^)'"\s]+)['"]?\)/g)].map(m=>m[1]||m[2]);for(const ref of refs){assert.equal(/^https?:/.test(ref),false);assert.ok(fs.existsSync(path.resolve(__dirname,path.dirname(file),ref)),file+' -> '+ref);}}});
+check('View templates render routes and clear stale filtered details in a DOM stub',()=>{
+  const elements = {};
+  for(const id of ['#screen','#hud','#feedback','#reset']) elements[id]={innerHTML:'',textContent:'',classList:{toggle(){}},listeners:{},addEventListener(name,fn){this.listeners[name]=fn;},querySelector(){return{focus(){}};}};
+  const anchors=['reward','inventory','shop'].map(route=>({dataset:{route},setAttribute(){},removeAttribute(){}}));
+  const events={};const store={};const location={hash:'#reward'};
+  const sandbox={window:{addEventListener(name,fn){events[name]=fn;}},location,history:{replaceState(a,b,hash){location.hash=hash;}},document:{querySelector(q){return elements[q];},querySelectorAll(){return anchors;}},localStorage:{getItem(k){return store[k]||null;},setItem(k,v){store[k]=v;}}};
+  vm.createContext(sandbox);
+  vm.runInContext(fs.readFileSync(path.join(__dirname,'model.js'),'utf8'),sandbox);
+  vm.runInContext(fs.readFileSync(path.join(__dirname,'app.js'),'utf8'),sandbox);
+  assert.match(elements['#screen'].innerHTML,/Choose your reward/);
+  location.hash='#inventory';events.hashchange();assert.match(elements['#screen'].innerHTML,/Healing potion/);
+  const click=dataset=>elements['#screen'].listeners.click({target:{closest(){return{dataset};}}});
+  click({filter:'treasures'});
+  const details=elements['#screen'].innerHTML.split('Selected item details')[1];assert.match(details,/Lucky crystal/);assert.doesNotMatch(details,/Healing potion/);
+  location.hash='#shop';events.hashchange();assert.match(elements['#screen'].innerHTML,/Buy item/);
+  click({buy:'potion'});assert.match(elements['#hud'].innerHTML,/>16<\/strong>/);assert.match(elements['#feedback'].textContent,/Purchased Healing potion/);
+});
+console.log(`${checks} checks passed. Browser layout and browser integration not tested by this script.`);

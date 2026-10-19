@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "visualReference": {"path":"references/images/style-board.svg","kind":"authored-vector-style-board","role":"Cartographic and interface component grammar; not a game screenshot."},
+  "atlas": {"path":"assets/art/civ-atlas.png","mode":"RGBA","layout":"3 columns by 3 rows; 0/50/100% crop positions in each axis."},
+  "assets": [
+    {"id":"river-hex","cell":[0,0],"role":"terrain tile"},
+    {"id":"desert-hex","cell":[1,0],"role":"terrain tile"},
+    {"id":"forest-hill-hex","cell":[2,0],"role":"terrain tile"},
+    {"id":"compass","cell":[0,1],"role":"map direction medallion"},
+    {"id":"science-laurel","cell":[1,1],"role":"research node symbol"},
+    {"id":"amphitheater","cell":[2,1],"role":"city production icon"},
+    {"id":"trade-coin","cell":[0,2],"role":"trade resource specimen"},
+    {"id":"diplomatic-shield","cell":[1,2],"role":"diplomacy seal"},
+    {"id":"rolled-map","cell":[2,2],"role":"map detail specimen"}
+  ],
+  "generatedArt": {
+    "method":"built-in image_gen",
+    "prompt":"Use case: reusable asset atlas for an original grand-strategy civilization interface study, informed by Civilization VI's broad illustrated cartography but not an official Firaxis asset. Create a square 3-by-3 atlas of nine separate, isolated terrain and civic symbols on a true transparent background with broad gutters: (1) lush green hex tile with tiny original river, (2) tawny desert hex tile, (3) forested hill hex tile, (4) small blue-and-gold compass rose, (5) laurel-framed science flask icon, (6) tiny stone amphitheater icon, (7) golden trade coin with blank center, (8) blue enamel shield-shaped diplomatic seal with a simple abstract sun, (9) rolled map tied with cord. Style: polished hand-painted miniature atlas illustration with engraved cartographic contours, crisp hex tile edges, parchment gold, deep navy enamel, natural greens and stone; clear top-down/isometric-lite readable silhouettes. Keep all nine independent and fully visible. No people, no branded symbols, no recognizable real flags, no text, no background, no frame, no connecting lines, no shadows touching other cells. Preserve actual alpha transparency.",
+    "transparencyRequested":true,
+    "officialAsset":false
+  },
+  "fonts":{"copied":false,"cssFallback":"Arial, Segoe UI, Georgia, serif"},
+  "screenshots":{"officialRedistributed":false,"packageCapture":"pending parent capture"}
+}

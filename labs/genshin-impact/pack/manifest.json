@@ -1,0 +1,90 @@
+{
+  "name": "genshin-impact-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "assets/art/hero-illustration.svg",
+      "bytes": 2431,
+      "sha256": "9255de720b9b09eeb16626d7df8152c556c57717eb7e9b0638140fc12bdb7080"
+    },
+    {
+      "path": "assets/art/icons.svg",
+      "bytes": 7447,
+      "sha256": "8927e9efb7188e0c335e2eff4e9df2ba5f778fd6bd840c311a8dc91ee1405f3b"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 4994,
+      "sha256": "4943eb8489c8fe6f7eab4a32d405fee8b4046b34bb186044128ff7ecabc26949"
+    },
+    {
+      "path": "assets/components/showcase.js",
+      "bytes": 2879,
+      "sha256": "cb347b5c197e880d538c296420331a51a2ae221765c88f84ab88f40240760cba"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 8607,
+      "sha256": "3bf53a6a145aa71570767c65b6a0df595ad529026114a42cc717dc798db78d4b"
+    },
+    {
+      "path": "assets/tokens.css",
+      "bytes": 194,
+      "sha256": "991f7845066b962b1a0be6b35ca6b7e08b59722789786809a5ef16fc0cc90048"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1202,
+      "sha256": "896016ef96acde2dba22f8fb8e17ad21ee7ea54f44cbbe28816404c4453713bb"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 1017,
+      "sha256": "bdf5d142b4f048e42b504ee11fbb1b0fb21131e9714a3fcd0a78d785882bdd56"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 80964,
+      "sha256": "a662708609691b6caf21ef059ee653bb7cf72b49aae4c5e9a4457a8dd53f6fa1"
+    },
+    {
+      "path": "references/images/reference-direction.webp",
+      "bytes": 35220,
+      "sha256": "66d1fc5c1841fe2021d523f4368c0eed9f09fc0fdf9b5ded9fd874cbd4f114b0"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 1086,
+      "sha256": "5d5894fc0772e27273745d13350d4e03ec43acd6e4166f29c76aeec6ee31fef7"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 1083,
+      "sha256": "91a24e75a4b4653d0c9e1a6fd14bf4cf8c3de58945c1a2bb416bf0002820ee14"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 840,
+      "sha256": "b8d9f04386573b53dd3601b38abcabd4d1f58c66ddd42dd3fd582b15ec81e07e"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 1366,
+      "sha256": "387e0635c4ebf725858ac8826f1b03e9107436469aeaf00f097cd2bd9cd1f732"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2012,
+      "sha256": "be69730f4909915f27d85fe3be799f02d7b5df2c996c268116b7ddcaddcab8f5"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 966,
+      "sha256": "ab9e39a0b685e81590dd311ae0eb50dfe8088e59b0f4ba739ba0191aeac6c435"
+    }
+  ]
+}

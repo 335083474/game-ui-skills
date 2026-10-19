@@ -1,0 +1,8 @@
+{
+  "assets":[
+    {"path":"references/images/style-reference.svg","role":"Standalone command-box and heart-pointer visual reference","provenance":"Authored native SVG; code-native black / white UI language","use":"Isolated command group only; not a full screen or official capture."},
+    {"path":"assets/components/index.html","role":"Editable command, item-list, dialogue-frame, and pointer specimens","provenance":"Authored HTML / CSS / JS","use":"Open locally; one control group changes specimen selection only."},
+    {"path":"assets/components/theme.css","role":"Original square frame, command choice, cursor, item row, and dialogue styling","provenance":"Authored package code","use":"Copy the primitives; keep full text and accessible choice labels."}
+  ],
+  "notBundled":["official sprites", "game dialogue", "screenshots", "font binaries", "soundtrack", "finished target-screen layouts"]
+}

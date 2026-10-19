@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Patchwork modules — component specimens</title>
+  <link rel="stylesheet" href="theme.css">
+  <script defer src="demo.js"></script>
+</head>
+<body>
+  <main class="workbench" aria-labelledby="page-title">
+    <header class="bench-heading">
+      <div>
+        <p class="eyebrow">Craft atlas / specimen 01</p>
+        <h1 id="page-title">Patchwork modules</h1>
+        <p class="intro">Small parts for a sticker book, costume bench, and level-pod shelf.</p>
+      </div>
+      <span class="local-tag">Local preview · no save</span>
+    </header>
+    <section class="material-window" aria-label="Original felt and cardboard art reference">
+      <img src="../../references/images/reference-plate.png" alt="An original felt explorer beside a stitched patch and cardboard pod">
+      <div class="window-note"><span>Material study</span><strong>Felt · thread · card</strong></div>
+    </section>
+    <section class="specimen-grid" aria-label="Reusable component specimens">
+      <article class="specimen sticker-module" aria-labelledby="sticker-title">
+        <div class="module-head">
+          <span class="index-button" aria-hidden="true">01</span>
+          <div><p class="eyebrow">Sticker-book piece</p><h2 id="sticker-title">Choose a patch</h2></div>
+        </div>
+        <div class="patch-row" data-select-group>
+          <button class="patch patch-sun" type="button" data-select data-name="Sun patch" aria-pressed="false"><span>Sun</span></button>
+          <button class="patch patch-wave" type="button" data-select data-name="Wave patch" aria-pressed="false"><span>Wave</span></button>
+          <button class="patch patch-star" type="button" data-select data-name="Star patch · locked" aria-pressed="false" aria-label="Star patch, locked" disabled><span>Star</span></button>
+        </div>
+        <div class="module-foot">
+          <p class="state-copy" data-message aria-live="polite">Choose a patch to preview it.</p>
+          <button class="wood-action" type="button" data-apply>Pin patch</button>
+        </div>
+      </article>
+      <article class="specimen costume-module" aria-labelledby="costume-title">
+        <div class="module-head">
+          <span class="index-button" aria-hidden="true">02</span>
+          <div><p class="eyebrow">Costume-workbench piece</p><h2 id="costume-title">Fabric swatches</h2></div>
+        </div>
+        <div class="costume-sample">
+          <img src="../../references/images/reference-plate.png" alt="" aria-hidden="true">
+          <div class="swatch-stack" data-select-group>
+            <button class="swatch swatch-tide" type="button" data-select data-name="Tide blue" aria-pressed="false">Tide</button>
+            <button class="swatch swatch-berry" type="button" data-select data-name="Berry red" aria-pressed="false">Berry</button>
+            <button class="swatch swatch-gold" type="button" data-select data-name="Marigold" aria-pressed="false">Gold</button>
+          </div>
+        </div>
+        <div class="module-foot">
+          <p class="state-copy" data-message aria-live="polite">Swatches are previews until applied.</p>
+          <button class="wood-action" type="button" data-apply>Apply dye</button>
+        </div>
+      </article>
+      <article class="specimen pod-module" aria-labelledby="pod-title">
+        <div class="module-head">
+          <span class="index-button" aria-hidden="true">03</span>
+          <div><p class="eyebrow">Level-pod piece</p><h2 id="pod-title">Cardboard shelf</h2></div>
+        </div>
+        <div class="pod-row" data-select-group>
+          <button class="pod pod-played" type="button" data-select data-name="Cloud Garden · played" aria-pressed="false"><span class="pod-hole" aria-hidden="true">☁</span><span>Cloud<br>Garden</span></button>
+          <button class="pod pod-new" type="button" data-select data-name="Button Hollow · new" aria-pressed="false"><span class="pod-hole" aria-hidden="true">✿</span><span>Button<br>Hollow</span></button>
+          <button class="pod pod-locked" type="button" data-select data-name="Night Loom · locked" aria-pressed="false" disabled><span class="pod-hole" aria-hidden="true">◌</span><span>Night<br>Loom</span></button>
+        </div>
+        <div class="module-foot">
+          <p class="state-copy" data-message aria-live="polite">Choose a pod to preview its status.</p>
+          <button class="wood-action" type="button" data-apply>Open pod</button>
+        </div>
+      </article>
+    </section>
+    <footer class="bench-footer"><span>Components only</span><span>Keyboard: Tab · Enter · Space</span><span>Selection requires an explicit apply action</span></footer>
+  </main>
+</body>
+</html>

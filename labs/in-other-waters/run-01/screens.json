@@ -1,0 +1,15 @@
+{
+  "slug": "in-other-waters",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "scanner", "title": "Scanner", "description": "Select a synthetic return across radial and contour instruments, then mark it in local notes." },
+    { "id": "specimen-catalog", "title": "Specimen Catalog", "description": "Browse fictional sample marks and edit a page-local observation note." },
+    { "id": "field-log", "title": "Field Log", "description": "Review ordered invented records, distinguish observation from interpretation, and add a local note." }
+  ],
+  "smokeTests": [
+    { "screenId": "scanner", "steps": [ { "action": "click", "role": "button", "name": "Select R-02 moving speck" }, { "action": "click", "role": "button", "name": "Mark return in local notes" } ], "expectedText": [ "R-02 MARKED IN LOCAL NOTES" ] },
+    { "screenId": "specimen-catalog", "steps": [ { "action": "click", "role": "button", "name": "S-03 Dapple float" }, { "action": "fill", "role": "textbox", "name": "Observation note", "value": "Pale edge response; shape not classified." }, { "action": "click", "role": "button", "name": "Save note for this page" } ], "expectedText": [ "NOTE SAVED TO THIS PAGE · S-03" ] },
+    { "screenId": "field-log", "steps": [ { "action": "fill", "role": "textbox", "name": "Interpretation note", "value": "A gentle current may be lifting the shelf edge." }, { "action": "click", "role": "button", "name": "Add interpretation to local log" } ], "expectedText": [ "LOCAL NOTE ADDED TO 08:12 ENTRY." ] }
+  ]
+}

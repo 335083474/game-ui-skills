@@ -1,0 +1,10 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: transparent game item sprite atlas. ONE landscape image, 1536x1024, EXACTLY THREE columns and TWO rows of equal 512x512 square cells. Reference images define style only, not edit targets. SIX original items centered in regular cells at x=16.667%,50%,83.333% and y=25%,75%. Every item fully inside its cell with at least 15% transparent gutter on each side; similar visual weight. Real transparent RGBA background. No text, labels, borders, panels, numerical counts, logos, watermarks, checkerboard or decorative objects in the gaps. This is a reusable 3x2 CSS sprite sheet; clean cell placement is essential. Style strongly inspired by the attached Slay the Spire-style approved studies: bold hand-painted dungeon-fantasy art, rough confident dark outlines, broad angular painted highlights, parchment and old gold, deep charcoal shadows. NOT pixel art, NOT photoreal or polished 3D. Exact cell order: row1 left weathered brown coin pouch and a few old gold coins; row1 middle round red healing potion, cork and thick ivory glass rim; row1 right angular glowing green luck crystal; row2 left curled parchment scroll with dark red wax seal; row2 middle antique iron dungeon key with old gold details; row2 right small bronze sun-medallion relic on a red cord. Each is a distinct complete item. Match the rendering and materials of the supplied references.",
+  "references": [
+    "D:\\SEA\\game-ui-skills\\public\\previews\\slay-the-spire.png",
+    "D:\\SEA\\game-ui-skills\\public\\style-studies\\v2\\slay-the-spire.png"
+  ],
+  "defaultSource": "[local reference omitted]",
+  "workspaceOutput": "skill-packages/slay-the-spire-ui/assets/items-atlas.png"
+}

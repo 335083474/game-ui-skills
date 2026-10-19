@@ -1,0 +1,111 @@
+{
+  "name": "stardew-valley-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "style": "Stardew Valley",
+  "reference_images": [
+    "references/images/reward-direction.png",
+    "references/images/component-direction.png",
+    "references/images/component-board.png"
+  ],
+  "new_art": {
+    "file": "assets/items-atlas.png",
+    "method": "built-in image_gen",
+    "prompt_record": "references/generation.json"
+  },
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 315,
+      "sha256": "d3c71eb712c88276f5affd4771979ab22109cbceb1ca01b4a39fe7e1df9bcbfa"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 6353,
+      "sha256": "79476d52d36160141881249272f8e3e9cbc0f94ce7d3b4ee5630de086ba2734c"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 9755,
+      "sha256": "9506e8248c814fc76c7a9140d2f32a47e0fa16b21ea474d2f3de2f88956b3fcc"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4488,
+      "sha256": "b66ba46f511a851ab09998b5a5a9fdbb102545a3864cb993095e1745996873a7"
+    },
+    {
+      "path": "assets/fonts/PixelifySans.ttf",
+      "bytes": 79160,
+      "sha256": "9ba86cd010a4de309d263ceff8e8044092c9db7efda869620cb9ff1c4389e8a5"
+    },
+    {
+      "path": "assets/items-atlas.png",
+      "bytes": 1424822,
+      "sha256": "732a5e945e619a6b2c1b087b8d73117b728e6f42a70943d5859ed97d3b8762c9"
+    },
+    {
+      "path": "assets/tokens.json",
+      "bytes": 2043,
+      "sha256": "7a5d5ece320ecf2e9aeab1c130fcba542eb4477699f2f642a15536dc1ad7a41f"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 2117,
+      "sha256": "d7e0c491a7bfe4609e8ac62b9d7eae3399433bf1428c73c5352b866952471848"
+    },
+    {
+      "path": "references/asset-map.md",
+      "bytes": 3309,
+      "sha256": "818c4162cf6c141add4ab1d71e8be072bcb560ca9cc75bcb8153cb9ed5205d76"
+    },
+    {
+      "path": "references/consistency-checks.md",
+      "bytes": 2581,
+      "sha256": "72768bb0752a88cc9e10ebc35c918b8596cc7c19796798ff4edae98cab145b30"
+    },
+    {
+      "path": "references/generation.json",
+      "bytes": 1873,
+      "sha256": "a063767654c698cc790de00e891eab24da43acc37c71e8f1c5c6390e14dcfd38"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 181607,
+      "sha256": "f4635f73b34ad64dcd5a1abd0cbee9e894d697fd9c8ef34e367e2faf4ba0166f"
+    },
+    {
+      "path": "references/images/component-direction.png",
+      "bytes": 1596688,
+      "sha256": "d54939b345cbce51af07d04f50b8310137ade62f39a3c5703559f727171a34d4"
+    },
+    {
+      "path": "references/images/reward-direction.png",
+      "bytes": 1772785,
+      "sha256": "7f0ddf0e3558d9baf63424234c4f11494f0897d84497fa9bf87c4ba5f6bc9a9a"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 3135,
+      "sha256": "d07cc204d1839842578a63ae7a5d48ed669ec120fc757c65edb84d9f8acfe15e"
+    },
+    {
+      "path": "references/style-rules.md",
+      "bytes": 3878,
+      "sha256": "ba241634c3282d87178335af2737723ed1729b4d3b8af730054edc3abfe8a03a"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4065,
+      "sha256": "def9f6edd8d70dae314a38845da78f1d0c2077a785913dfb2122699581329da6"
+    }
+  ],
+  "runtime_network_dependencies": [],
+  "not_included": [
+    "finished screen layouts",
+    "engine scenes",
+    "Figma source",
+    "hosted generation",
+    "payment service"
+  ]
+}

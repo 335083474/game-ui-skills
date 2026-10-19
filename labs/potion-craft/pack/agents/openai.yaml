@@ -1,0 +1,4 @@
+interface:
+  display_name: "Potion Craft Alchemy"
+  short_description: "Parchment maps, botanical ingredients and potion trade"
+  default_prompt: "Use $potion-craft-ui to build a hand-drawn alchemy map and connected recipe or trade interfaces with coherent ingredients and stock."

@@ -1,0 +1,8 @@
+{
+  "assets": [
+    {"path":"assets/woodcut-creatures.png","role":"Reusable original illustration atlas and style reference","provenance":"Built-in image generation; exact prompt in generation.json","license":"Generated for this package; no external font or game art bundled","use":"Four horizontal crops: owl 0%, mouse 33.33%, boar 66.67%, moth 100%; CSS background-size 400% 100% on a 3:1 atlas."},
+    {"path":"assets/components/index.html","role":"Editable isolated primitive specimens","provenance":"Authored package code","use":"Open locally; specimen selection toggles are illustrative only."},
+    {"path":"assets/components/theme.css","role":"Original paper, ink, wood, and focus primitives","provenance":"Authored package code","use":"Copy needed rules and adjust only within the selected edition direction."}
+  ],
+  "notBundled": ["official screenshots", "extracted cards or game files", "game logo", "font binaries", "finished target-screen layouts"]
+}

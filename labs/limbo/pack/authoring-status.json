@@ -1,0 +1,41 @@
+{
+  "slug": "limbo",
+  "packageName": "limbo-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "pause",
+      "title": "Pause veil",
+      "description": "A sparse pause surface keeps the scene visible and gives Resume a clear, explicit action."
+    },
+    {
+      "id": "chapters",
+      "title": "Chapter path",
+      "description": "A quiet checkpoint path marks current, completed, and unknown chapters, with a separate commit to start."
+    },
+    {
+      "id": "context-hints",
+      "title": "Contextual hint",
+      "description": "A transient action prompt can be inspected, dismissed, and restored without implying a permanent HUD."
+    }
+  ],
+  "referenceImage": "assets/reference-atmosphere.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Original generated atmosphere is a mood study, not an official LIMBO asset or exact scene.",
+    "The official source page does not define the chapter, pause, or hint behavior shown here.",
+    "Demo state is synthetic and does not persist or control a game."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

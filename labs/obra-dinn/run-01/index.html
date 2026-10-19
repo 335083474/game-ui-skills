@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1110">
+  <title>The Lantern Ledger — Crew roster</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-style="obra-dinn">
+  <header class="ledger-head">
+    <a class="ledger-brand" href="#crew-roster" aria-label="The Lantern Ledger home"><span class="ledger-mark" aria-hidden="true">[L]</span><span><small>SHIPBOARD RECORD</small><strong>THE LANTERN LEDGER</strong></span></a>
+    <nav class="record-nav" aria-label="Investigation records">
+      <a href="#crew-roster" data-screen="crew-roster">01 / Crew</a>
+      <a href="#investigation-log" data-screen="investigation-log">02 / Evidence</a>
+      <a href="#chapter-index" data-screen="chapter-index">03 / Chapters</a>
+    </nav>
+    <span class="ship-date">RETURN VOYAGE<br><b>NIGHT WATCH · 02</b></span>
+  </header>
+  <main id="screen" tabindex="-1"></main>
+  <footer class="ledger-foot"><span>ALL NAMES AND RECORDS ARE FICTIONAL</span><span>SESSION NOTES RESET ON RELOAD</span></footer>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title">
+    <p class="eyebrow">ENTRY REVIEW · READ BEFORE WRITING</p>
+    <h2 id="confirm-title">Confirm record change?</h2>
+    <p id="confirm-copy"></p>
+    <div class="dialog-actions"><button type="button" class="ledger-button quiet" data-cancel>Cancel entry</button><button type="button" class="ledger-button inverted" data-confirm>Confirm entry</button></div>
+  </dialog>
+</body>
+</html>

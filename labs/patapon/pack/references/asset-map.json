@@ -1,0 +1,23 @@
+{
+  "art": {
+    "path": "assets/illustrations/patapon-art.png",
+    "role": "Original flat silhouette direction plate, not source-game character art",
+    "provenance": "OpenAI built-in image generation; see generation.json"
+  },
+  "components": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "scope": "Reusable specimens only"
+  },
+  "fonts": {
+    "bundled": false,
+    "stack": "Trebuchet MS, Arial, sans-serif",
+    "license": "System font stack; no fonts copied"
+  },
+  "externalAssets": [],
+  "rules": [
+    "Do not depend on audio alone for a beat.",
+    "Do not use the illustration as a full-screen background."
+  ]
+}
+

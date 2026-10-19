@@ -1,0 +1,36 @@
+{
+  "slug": "jet-set-radio",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    { "id": "crew-select", "title": "Crew Select", "description": "A generated street-art scene anchors a large crew callout, hand-marked roster strip, editable margin note, and explicit preview-to-lock dossier." },
+    { "id": "city-missions", "title": "City Missions", "description": "A dark urban route chart gives the selected line visible motion through synthetic stops, with route-specific risk and tag timing below the map." },
+    { "id": "graffiti-results", "title": "Graffiti Results", "description": "An oversized score burst and stamp lead into three independent run measures; the synthetic reward mark has a preview, cancel, and one-stamp guard." }
+  ],
+  "smokeTests": [
+    {
+      "screenId": "crew-select",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview Arlo / line cutter" },
+        { "action": "click", "role": "button", "name": "Lock selected crew" }
+      ],
+      "expectedText": [ "Arlo is locked as active crew for this page session." ]
+    },
+    {
+      "screenId": "city-missions",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview North Arcade Switchback route" },
+        { "action": "click", "role": "button", "name": "Tag in to selected route" }
+      ],
+      "expectedText": [ "North Arcade Switchback locked for this page session." ]
+    },
+    {
+      "screenId": "graffiti-results",
+      "steps": [
+        { "action": "click", "role": "button", "name": "Preview demo run stamp" },
+        { "action": "click", "role": "button", "name": "Stamp demo result for this session" }
+      ],
+      "expectedText": [ "Synthetic run result stamped once this page session." ]
+    }
+  ]
+}

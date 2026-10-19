@@ -1,0 +1,40 @@
+{
+  "slug": "banner-saga",
+  "packageName": "banner-saga-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "caravan-prep",
+      "title": "Caravan preparation",
+      "description": "A compact roster, provisions ledger, and road-party selection before departure."
+    },
+    {
+      "id": "roadside-choice",
+      "title": "Roadside event",
+      "description": "A consequential travel vignette with a short narrative, two grounded choices, and visible supplies at stake."
+    },
+    {
+      "id": "camp-trade",
+      "title": "Camp trade",
+      "description": "A low-noise barter table that keeps scarcity, item condition, and accept/cancel consequences legible."
+    }
+  ],
+  "referenceImage": "assets/illustrations/banner-saga-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Generated illustration is an original style cue, not canonical source-game UI evidence.",
+    "Title-specific search demand remains unknown; broad catalog observations are not keyword validation."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

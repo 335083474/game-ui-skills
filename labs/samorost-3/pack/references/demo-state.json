@@ -1,0 +1,34 @@
+{
+  "object-combination": {
+    "objects": [
+      {"id": "amber-shell", "label": "Amber shell", "state": "available"},
+      {"id": "moss-ring", "label": "Moss ring", "state": "available"},
+      {"id": "pale-cap", "label": "Pale cap", "state": "available"}
+    ],
+    "selectedIds": [],
+    "result": "unknown until combine action"
+  },
+  "pictorial-hints": {
+    "sequence": [
+      {"id": "root", "accessibleLabel": "Root hollow"},
+      {"id": "shell", "accessibleLabel": "Amber shell"},
+      {"id": "ring", "accessibleLabel": "Moss ring"}
+    ],
+    "revealed": false,
+    "textEquivalent": "Follow the root hollow to the amber shell and moss ring."
+  },
+  "planet-chapters": {
+    "worlds": [
+      {"id": "fern-moon", "label": "Fern Moon", "state": "current"},
+      {"id": "amber-orchard", "label": "Amber Orchard", "state": "visited"},
+      {"id": "quiet-reef", "label": "Quiet Reef", "state": "unvisited"}
+    ],
+    "previewedId": null,
+    "committedId": null
+  },
+  "interactionContract": {
+    "previewIsReversible": true,
+    "commitRequiresExplicitAction": true,
+    "persistence": "none; specimen state exists only in the local page"
+  }
+}

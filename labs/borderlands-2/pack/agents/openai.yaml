@@ -1,0 +1,4 @@
+interface:
+  display_name: "Borderlands 2 Loot UI"
+  short_description: "Build inked weapon, inventory, and skill-tree interfaces"
+  default_prompt: "Use the borderlands-2-ui reference package to build original cel-shaded looter-shooter screens."

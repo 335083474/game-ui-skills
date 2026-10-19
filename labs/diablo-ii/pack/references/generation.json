@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "created": "2026-10-16",
+  "package": "diablo-ii-ui",
+  "mode": "built-in image_gen",
+  "provenance": "Original generated interpretations. No official game screenshot or extracted item art.",
+  "assets": [
+    {
+      "path": "references/images/screen-direction.png",
+      "kind": "ui-mockup",
+      "width": 1536,
+      "height": 1024,
+      "transparent": false,
+      "prompt": "Use case: ui-mockup. Asset type: visual direction reference for a Diablo II (original 2000 classic, not Resurrected, III or IV) inspired offline game UI skill. Create one 1536x1024 landscape image of a complete dense classic gothic equipment menu. This is an original interpretation, no Blizzard logo or copied screenshot. Straight-on flat screen, not photographed, no devices. Dense dark roughly carved charcoal stone frame and cold hammered tarnished iron bevels, highly restrained aged gold serif titles, tiny crisp pale-gray statistic text. A central equipment silhouette arrangement, helmet above torso, weapon at left, round shield at right, small amulet and ring slots, belt/glove/boot slots, all sunken dark square grid cells. Backpack below is exactly 10 columns by 4 rows, thin stone grid, with sparse multi-cell gritty hand-painted item sprites including sword, helmet, red potion and amulet. Left narrow stat list with compact numbers and names. Bottom left red life globe and bottom right blue mana globe nested in heavy clawlike dark metal, a narrow belt row between, small mechanical buttons. Make the equipment grid and carved frames dominate. Palette near black and graphite, warm iron-gray, old gold, with only deep blood red and cobalt blue saturated. Clear visual density like a late 1990s/2000 PC dark fantasy action RPG bitmap menu. Text is supporting small serif body only: Inventory, Level 12, Strength 45, Dexterity 35, Life 120, Mana 65, Gold 840. Avoid modern dashboards, floating cards, large rounded rectangles, neon, glows outside globes, giant typography, glossy mobile-game buttons, fullbleed character illustration, Diablo III or IV interface. One coherent screen, no multiple variants.",
+      "sourcePath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a141d9-0b80-7ba2-a8b2-e80c9fc80628\\exec-20124cdd-c1da-425a-bead-cc7d27c8bd17.png",
+      "inspection": "Carved dark stone and iron, restrained old-gold serif, body slots, backpack and red/blue globes. Generated geometry and empty decorative rail are not exact implementation requirements."
+    },
+    {
+      "path": "assets/items-atlas.png",
+      "kind": "stylized-concept",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha": {
+        "minimum": 0,
+        "maximum": 254,
+        "fullyTransparentPixels": 1312318,
+        "totalPixels": 1572864
+      },
+      "columns": 3,
+      "rows": 2,
+      "cellWidth": 512,
+      "cellHeight": 512,
+      "mapping": [
+        [
+          "sword",
+          "hornless iron helmet",
+          "red potion"
+        ],
+        [
+          "round shield",
+          "amulet",
+          "flame skill emblem"
+        ]
+      ],
+      "sourcePath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a141d9-0b80-7ba2-a8b2-e80c9fc80628\\exec-f147196c-29b4-4e01-b66f-e161f7208986.png",
+      "prompt": "Edit this original six-item transparent atlas. Preserve the six painted items, their style, their correct order and the exact 1536x1024 canvas split into 3 columns x2 rows of exact512x512 cells. The items must be substantially SMALLER within their cells: reduce every item's current visible size by 25 percent, and center each item exactly in its own cell. Absolute requirement: every visible pixel of each subject stays within a 352x352 central safe square (80-pixel completely transparent gutter on every edge of its 512 cell); sword may be 352px tall, never 450px tall; amulet chain must start at least80px below row2 boundary. Cells top row sword, hornless helmet, red potion; bottom row round shield, amulet, flame emblem. Correct centers at (256,256),(768,256),(1280,256),(256,768),(768,768),(1280,768). Real RGBA transparency everywhere outside subject silhouettes, no black/gray backdrop, no drop shadows, no glow, no text or labels, no grid. Preserve original gritty iron/wood/gold paint and crisp isolated silhouettes. Output1536x1024.",
+      "editInputSourcePath": "C:\\Users\\Administrator\\.codex\\generated_images\\01a141d9-0b80-7ba2-a8b2-e80c9fc80628\\exec-c0e097fb-2159-4fc9-912b-4047edb873d6.png",
+      "originalGenerationPrompt": "Use case: stylized-concept. Asset type: transparent UI item sprite atlas for original 2000-era gothic dark fantasy inventory. Create exactly one 1536x1024 PNG with genuine RGBA transparent background. Layout is a mathematically equal 3 columns by 2 rows atlas, each cell exactly 512x512. Six isolated original gritty hand-painted item icons, NO dividers. Top row: (0,0) one straight iron one-handed sword, blade up slightly diagonal; (1,0) one hornless closed iron helmet with modest nasal guard, no horns or wings; (2,0) one small red health potion in glass bottle with cork. Bottom row: (0,1) one battered round wooden shield with iron rim; (1,1) one old-gold pendant amulet on a short chain, amber stone; (2,1) one engraved square iron skill emblem containing a painted orange flame symbol. Original late-1990s/2000 bitmap-RPG inventory paint style, gritty muted steel and worn brown surfaces, strong readable silhouettes, crisp edges at small sizes, restrained highlights, NOT photoreal or 3D render. Every subject centered within its exact 512x512 cell, each stays inside a centered 330x360 pixel safe area for generous completely transparent gutters; consistent perceptual size and light from upper-left. Atlas regions: sword center256,256; helmet center768,256; potion center1280,256; shield center256,768; amulet center768,768; flame emblem center1280,768. No text, numbers, labels, captions, logo, frames around items other than skill emblem, background color, checkerboard, drop shadow outside item, floor, tabletop, backdrop, glows or extra objects. True transparency outside all six subjects, including gutters.",
+      "iterationReason": "Initial atlas had overly large sword and amulet with tight gutters. Targeted built-in edit shrank and recentered all six subjects. Original output retained at generated source path, not shipped.",
+      "visibleCellBoundsAlphaAbove10": [
+        [
+          117,
+          84,
+          401,
+          416
+        ],
+        [
+          146,
+          127,
+          363,
+          397
+        ],
+        [
+          175,
+          147,
+          337,
+          382
+        ],
+        [
+          113,
+          100,
+          399,
+          388
+        ],
+        [
+          152,
+          83,
+          362,
+          383
+        ],
+        [
+          130,
+          114,
+          383,
+          364
+        ]
+      ],
+      "inspection": "Exact canvas and equal cells, correct subjects/order, real alpha and transparent inter-item gutters. No generated art was modified in Python; Pillow was used for read-only size, alpha and bounds inspection."
+    }
+  ],
+  "componentBoard": {
+    "source": "assets/components/index.html",
+    "stylesheet": "assets/components/theme.css",
+    "screenshotPath": "references/images/component-board.png",
+    "captureMethod": "Root integration agent captures actual browser rendering before freeze. Not generated art."
+  },
+  "fonts": {
+    "source": "Existing local slay-the-spire-ui/assets/fonts copied with OFL license files",
+    "families": [
+      "Alegreya SC Regular/Bold",
+      "Crimson Text Regular/Bold"
+    ],
+    "note": "Substitute fonts only; no existing package styling or screenshots copied."
+  }
+}

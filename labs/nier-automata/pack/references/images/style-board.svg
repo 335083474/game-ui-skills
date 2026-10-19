@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="880" viewBox="0 0 1440 880" role="img" aria-labelledby="title desc">
+<title id="title">NieR:Automata beige system visual reference</title><desc id="desc">An authored component study showing warm beige grid, horizontal category rail, selected row, chip matrix and restrained score line.</desc>
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#2f2d25" stroke-opacity=".045" stroke-width="1"/game-ui-skills/></pattern></defs>
+<rect width="1440" height="880" fill="#c9c3ae"/game-ui-skills/><rect width="1440" height="880" fill="url(#grid)"/game-ui-skills/>
+<text x="92" y="94" fill="#292821" font-family="Arial,sans-serif" font-size="22" letter-spacing="5">UI DIRECTION / 2017 ORIGINAL</text>
+<text x="92" y="158" fill="#292821" font-family="Arial,sans-serif" font-size="42" font-weight="300">Warm system / quiet instrument</text>
+<text x="92" y="205" fill="#706e62" font-family="Arial,sans-serif" font-size="18">Flat beige • faint grid • low-color state cues • measured horizontal rules</text>
+<line x1="92" y1="250" x2="1348" y2="250" stroke="#8f8b7a"/game-ui-skills/>
+<g font-family="Arial,sans-serif" font-size="18" fill="#504e45"><text x="106" y="302">CHIPS</text><text x="246" y="302">ITEMS</text><text x="372" y="302">SYSTEM</text></g>
+<rect x="101" y="317" width="66" height="3" fill="#171713"/game-ui-skills/>
+<rect x="92" y="352" width="620" height="384" fill="#d6d0bc" fill-opacity=".54" stroke="#a8a392"/game-ui-skills/>
+<text x="124" y="394" fill="#706e62" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">MEMORY SLOTS / 28 OF 64</text>
+<g stroke="#706e62" fill="none"><rect x="124" y="426" width="78" height="78"/game-ui-skills/><rect x="220" y="426" width="78" height="78"/game-ui-skills/><rect x="316" y="426" width="78" height="78"/game-ui-skills/><rect x="412" y="426" width="78" height="78"/game-ui-skills/><rect x="508" y="426" width="78" height="78"/game-ui-skills/><rect x="604" y="426" width="78" height="78"/game-ui-skills/></g>
+<g fill="#292821" font-family="Arial,sans-serif" font-size="13"><text x="139" y="552">AUTO</text><text x="235" y="552">SHOCK</text><text x="330" y="552">HEAL</text><text x="426" y="552">DROP</text></g>
+<rect x="92" y="612" width="620" height="64" fill="#d6d0bc" fill-opacity=".44"/game-ui-skills/><rect x="92" y="612" width="3" height="64" fill="#171713"/game-ui-skills/>
+<text x="124" y="651" fill="#292821" font-family="Arial,sans-serif" font-size="19">Weapon Attack +3</text><text x="656" y="651" text-anchor="end" fill="#706e62" font-family="Arial,sans-serif" font-size="17">8 units</text>
+<rect x="766" y="352" width="582" height="384" fill="#d6d0bc" fill-opacity=".48" stroke="#a8a392"/game-ui-skills/>
+<text x="798" y="394" fill="#706e62" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">SYSTEM / SPECIMENS</text>
+<line x1="798" y1="426" x2="1316" y2="426" stroke="#a8a392"/game-ui-skills/>
+<text x="798" y="472" fill="#292821" font-family="Arial,sans-serif" font-size="20">Auto-use</text><text x="1316" y="472" text-anchor="end" fill="#292821" font-family="Arial,sans-serif" font-size="18">ON</text>
+<line x1="798" y1="494" x2="1316" y2="494" stroke="#a8a392"/game-ui-skills/>
+<text x="798" y="544" fill="#292821" font-family="Arial,sans-serif" font-size="20">Camera sensitivity</text><text x="1316" y="544" text-anchor="end" fill="#292821" font-family="Arial,sans-serif" font-size="18">5 / 10</text>
+<g stroke="#6d695a" stroke-width="2"><line x1="798" y1="632" x2="986" y2="632"/game-ui-skills/><line x1="1000" y1="632" x2="1190" y2="632"/game-ui-skills/><line x1="1204" y1="632" x2="1316" y2="632"/game-ui-skills/><line x1="1316" y1="620" x2="1316" y2="644"/game-ui-skills/></g>
+<text x="92" y="815" fill="#706e62" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">AUTHORED STYLE BOARD / NOT AN OFFICIAL SCREENSHOT</text>
+</svg>

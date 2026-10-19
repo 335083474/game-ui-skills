@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Original repeating architecture study</title><desc id="desc">A quiet green world of impossible square arches, mirrored stairs and a small tree, drawn as repeating perspective structure.</desc>
+<rect width="1200" height="260" fill="#dfe5da"/game-ui-skills/><path d="M0 226L284 70l292 160 303-165 321 163v32H0z" fill="#a9c2ab"/game-ui-skills/>
+<path d="M0 204L287 43l293 162 298-164 322 165" fill="none" stroke="#526f67" stroke-width="3"/game-ui-skills/>
+<g fill="none" stroke="#45665c" stroke-width="5"><path d="M73 205V86L200 13l127 73v119M112 225V106l88-51 88 51v119M145 242V125l55-32 55 32v117"/game-ui-skills/><path d="M850 205V77L975 7l125 70v128M888 224V102l87-50 87 50v122M922 240V122l53-31 54 31v118"/game-ui-skills/></g>
+<g fill="none" stroke="#79988b" stroke-width="2"><path d="M200 13v42l127 72v-43M287 43v63l293 166M975 7v45l125 73V77M580 205v55"/game-ui-skills/><path d="M0 204l287 20 293-18 298 12 322-14M0 228l287 14 293-11 298 11 322-13"/game-ui-skills/></g>
+<path d="M546 222l35-20 35 20v29h-70z" fill="#e4e5d9" stroke="#526f67" stroke-width="2"/game-ui-skills/><path d="M575 206v-30m0 9l-12-10m12 2l12-12m-12 28l-15-10m15 5l16-11" fill="none" stroke="#538056" stroke-width="4"/game-ui-skills/>
+<path d="M436 244l30-17 31 17M705 244l26-15 27 15" fill="none" stroke="#e7bb4f" stroke-width="2"/game-ui-skills/>
+</svg>

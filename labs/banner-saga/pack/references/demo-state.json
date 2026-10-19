@@ -1,0 +1,53 @@
+{
+  "caravan": {
+    "id": "caravan-01",
+    "members": [
+      {
+        "id": "sigrid",
+        "role": "scout",
+        "fatigue": 1
+      },
+      {
+        "id": "oren",
+        "role": "guard",
+        "fatigue": 3
+      },
+      {
+        "id": "maeve",
+        "role": "guide",
+        "fatigue": 0
+      }
+    ],
+    "supplies": {
+      "food": 7,
+      "daysToNextShelter": 4
+    }
+  },
+  "event": {
+    "id": "broken-ferry",
+    "choices": [
+      {
+        "id": "pay-ferryman",
+        "cost": {
+          "supplies": 2
+        }
+      },
+      {
+        "id": "ford-river",
+        "cost": {
+          "fatigue": 1
+        }
+      }
+    ]
+  },
+  "trade": {
+    "stock": [
+      {
+        "id": "dried-fish",
+        "quantity": 3,
+        "price": 2
+      }
+    ]
+  }
+}
+

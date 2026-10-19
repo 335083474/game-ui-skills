@@ -1,0 +1,52 @@
+{
+  "case": {
+    "id": "bells-at-vespers",
+    "day": "day-03",
+    "people": [
+      {
+        "id": "marta",
+        "relation": "witness"
+      },
+      {
+        "id": "prior",
+        "relation": "subject"
+      },
+      {
+        "id": "leon",
+        "relation": "neighbor"
+      }
+    ]
+  },
+  "clues": [
+    {
+      "id": "wax-fragment",
+      "source": "vestry floor",
+      "confidence": "uncertain",
+      "supports": [
+        "prior"
+      ]
+    },
+    {
+      "id": "bell-book",
+      "source": "sacristy ledger",
+      "confidence": "recorded",
+      "supports": [
+        "marta"
+      ]
+    }
+  ],
+  "dialogue": {
+    "speakerId": "marta",
+    "responses": [
+      {
+        "id": "ask-bell-time",
+        "voice": "careful"
+      },
+      {
+        "id": "challenge-account",
+        "voice": "direct"
+      }
+    ]
+  }
+}
+

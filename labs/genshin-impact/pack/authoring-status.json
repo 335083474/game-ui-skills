@@ -1,0 +1,37 @@
+{
+  "slug": "genshin-impact",
+  "packageName": "genshin-impact-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "character",
+      "title": "Traveler Profile",
+      "description": "An original traveler profile keeps the name, role, and essential attributes beside the figure."
+    },
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "description": "Each gear slot gets a clear icon, a short name, and the one stat worth comparing."
+    },
+    {
+      "id": "quest-journal",
+      "title": "Travel Journal",
+      "description": "Keep one current objective distinct from optional discoveries and completed notes."
+    }
+  ],
+  "referenceImage": "references/images/reference-direction.webp",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

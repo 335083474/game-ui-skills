@@ -1,0 +1,40 @@
+{
+  "slug": "cogmind",
+  "packageName": "cogmind-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "equipment",
+      "title": "Equipment",
+      "description": "Inspect a glyph-coded slot schematic with synthetic condition values and keyboard-accessible row selection."
+    },
+    {
+      "id": "exploration-map",
+      "title": "Exploration Map",
+      "description": "Navigate an actual text-glyph grid with coordinates, a visible legend, and a clear keyboard contract."
+    },
+    {
+      "id": "event-log",
+      "title": "Event Log",
+      "description": "Review ordered fictional events with labeled information, warning, and discovery marks."
+    }
+  ],
+  "referenceImage": "references/images/style-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "Map, part labels, condition values, and events are synthetic and do not identify a specific Cogmind build.",
+    "A parent-captured component image and independent three-screen implementation are pending."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

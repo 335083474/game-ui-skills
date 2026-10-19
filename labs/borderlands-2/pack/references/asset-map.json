@@ -1,0 +1,56 @@
+{
+  "assets": [
+    {
+      "path": "assets/comic-weapons.png",
+      "role": "Three original reusable weapon silhouettes and style reference",
+      "provenance": "Built-in image_gen; full prompt in generation.json",
+      "use": "Three horizontal atlas cells for rivet launcher, pulse pistol, and coil rifle; crop consistently and never treat as official gear."
+    },
+    {
+      "path": "assets/components/index.html",
+      "role": "Editable weapon plate, rarity marker, delta, and skill node primitive specimens",
+      "provenance": "Authored package code",
+      "use": "Open locally; selection only changes specimen state."
+    },
+    {
+      "path": "assets/components/theme.css",
+      "role": "Original angular plate, ink edge, hatching, rarity, and stat styling",
+      "provenance": "Authored package code",
+      "use": "Reuse primitives while preserving clear current / candidate comparison."
+    }
+  ],
+  "notBundled": [
+    "official game weapons",
+    "character art",
+    "screenshots",
+    "font binaries",
+    "finished target-screen layouts"
+  ],
+  "atlasCoordinates": {
+    "source": "assets/comic-weapons.png",
+    "width": 2172,
+    "height": 724,
+    "method": "SVG viewBox viewport with original PNG image, no raster modification",
+    "crops": {
+      "rivet": [
+        5,
+        0,
+        650,
+        724
+      ],
+      "pulse": [
+        655,
+        0,
+        495,
+        724
+      ],
+      "coil": [
+        1160,
+        0,
+        1010,
+        724
+      ]
+    },
+    "note": "Objects are not evenly spaced; do not split this atlas into equal thirds."
+  }
+}

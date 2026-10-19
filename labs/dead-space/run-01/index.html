@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071216">
+  <title>Suit Link — Dead Space (2023) UI study</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-style="dead-space">
+  <header class="ds-header">
+    <a class="ds-brand" href="#rig-inventory" aria-label="Suit Link home, RIG inventory"><span class="brand-notch" aria-hidden="true"></span><span><strong>SUIT LINK</strong><small>2023 REMAKE SCOPE / ORIGINAL DIEGETIC STUDY</small></span></a>
+    <nav aria-label="Demo screens" class="ds-nav">
+      <a href="#rig-inventory" data-route="rig-inventory">01 / RIG</a>
+      <a href="#store-kiosk" data-route="store-kiosk">02 / KIOSK</a>
+      <a href="#locator" data-route="locator">03 / LOCATOR</a>
+    </nav>
+    <span class="link-state"><i aria-hidden="true"></i> LOCAL LINK</span>
+  </header>
+  <div id="feedback" class="feedback" role="status" aria-live="polite" tabindex="-1">Synthetic equipment and page-session values · reload resets</div>
+  <main id="screen-root" tabindex="-1"></main>
+  <footer class="ds-footer"><span>ORIGINAL WEB PROJECTION STUDY</span><span>Generated context art · DOM / CSS only · no 3D or camera integration</span></footer>
+
+  <template id="screen-rig-inventory">
+    <section class="rig-screen" aria-labelledby="screen-title">
+      <div class="rig-scene">
+        <div class="rig-scan" aria-hidden="true"></div>
+        <div class="rig-scene-label"><span>USG / SUIT SYSTEMS</span><span>CONNECTION 04:17:08</span></div>
+        <div class="rig-projection">
+          <div class="projection-cross cross-a" aria-hidden="true"></div><div class="projection-cross cross-b" aria-hidden="true"></div>
+          <div class="projection-heading"><p class="eyebrow">SUIT-MOUNTED EQUIPMENT / SYNTHETIC</p><h1 id="screen-title">RIG<br>INVENTORY</h1><span class="serial-mark">S-07<br>UTILITY</span></div>
+          <div class="resource-line" aria-label="Synthetic suit resources">
+            <div><span>HULL RESERVE</span><b>72<small>/100</small></b><i><u></u></i></div>
+            <div><span>AIR SUPPLY</span><b>04:30</b><i><u></u></i></div>
+            <div><span>POWER CELLS</span><b>02</b><i><u></u></i></div>
+          </div>
+          <div class="utility-inspection">
+            <div class="utility-lock"><span class="lock-label">UTILITY SLOT / INSTALLED</span><span class="lock-status" data-bind="utilityStatus">STABLE</span><strong data-bind="utilityInstalled">SURVEY LENS</strong><small data-bind="utilitySubline">Current suit module / synthetic</small></div>
+            <div class="utility-readout"><span class="readout-label">PENDING REPLACEMENT</span><strong data-bind="utilityPending">NO MODULE PREVIEWED</strong><p data-bind="utilityFeedback">Survey Lens remains in the Utility slot.</p></div>
+          </div>
+          <div class="module-rail" role="group" aria-label="Utility module selection">
+            <div class="rail-module installed-module"><span class="module-id">SLOT / 03</span><b>SURVEY LENS</b><small>INSTALLED / UTILITY</small></div>
+            <span class="rail-arrow" aria-hidden="true">›</span>
+            <button type="button" class="rail-module pending-module" data-action="utility-preview" data-value="tether-coil" aria-label="Preview Tether Coil utility" aria-pressed="false"><span class="module-id">OPTION / A</span><b>TETHER COIL</b><small>UTILITY MODULE / DEMO</small></button>
+            <button type="button" class="rail-module neutral-module" data-action="utility-preview" data-value="survey-lens" aria-label="Preview Survey Lens utility" aria-pressed="false"><span class="module-id">OPTION / B</span><b>SURVEY LENS</b><small>ALREADY INSTALLED</small></button>
+          </div>
+          <label class="rig-note">SUIT CHECKLIST NOTE <input data-edit="suitNote" type="text" maxlength="46" value="Check the utility slot before leaving" aria-label="Edit the suit checklist note"></label>
+          <div class="rig-actions"><button type="button" class="projection-action" data-action="utility-install" aria-describedby="rig-help">Install selected utility module</button><button type="button" class="projection-quiet" data-action="utility-cancel">Cancel module preview</button><p class="help-text" id="rig-help">Preview Tether Coil before installing; Survey Lens is already installed. The replacement lasts for this page session only.</p></div>
+          <div class="projection-foot"><span>PAGE STOCK / PATCH KIT <b data-bind="patchStock">x1</b></span><span>CHARGE CELLS <b data-bind="cellStock">x2</b></span></div>
+        </div>
+        <div class="rig-art-note">GENERATED CORRIDOR PLATE / ORIGINAL CONTEXT ART</div>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-store-kiosk">
+    <section class="store-screen" aria-labelledby="screen-title">
+      <div class="kiosk-scene">
+        <div class="kiosk-art" aria-hidden="true"></div><div class="kiosk-shade" aria-hidden="true"></div>
+        <div class="kiosk-terminal">
+          <div class="terminal-top"><div><p class="eyebrow">SHIP / LOCAL KIOSK DEMO</p><h1 id="screen-title">SUPPLY<br>TERMINAL</h1></div><div class="credit-display"><span>DEMO CREDIT</span><strong><b data-bind="credits">48</b><small>CR</small></strong><i>AVAILABLE</i></div></div>
+          <div class="terminal-main">
+            <div class="supply-list" role="group" aria-label="Synthetic kiosk supply choices">
+              <div class="list-heading"><span>AVAILABLE STOCK</span><span>ONE PURCHASE / ITEM</span></div>
+              <button type="button" class="supply-row" data-action="item-preview" data-value="patch-kit" aria-label="Preview Patch Kit purchase" aria-pressed="false">
+                <span class="item-glyph glyph-patch" aria-hidden="true">+</span><span class="item-name"><b>PATCH KIT</b><small>One-use repair supply / synthetic</small></span><span class="item-count">STOCK <b data-bind="patchStock">x1</b></span><span class="item-price">14<small>CR</small></span>
+              </button>
+              <button type="button" class="supply-row" data-action="item-preview" data-value="charge-cells" aria-label="Preview Charge Cells purchase" aria-pressed="false">
+                <span class="item-glyph glyph-cell" aria-hidden="true">Ⅱ</span><span class="item-name"><b>CHARGE CELLS</b><small>Power supply / synthetic</small></span><span class="item-count">STOCK <b data-bind="cellStock">x2</b></span><span class="item-price">22<small>CR</small></span>
+              </button>
+              <p class="purchase-guard" id="purchase-guard" data-bind="purchaseGuard">Each supply can be purchased once per page session.</p>
+            </div>
+            <aside class="order-slip" aria-label="Purchase preview and confirmation">
+              <div class="slip-top"><span>ORDER PREVIEW</span><span class="slip-stamp" aria-hidden="true">LOCAL</span></div>
+              <div class="slip-item"><small>SELECTED ITEM</small><strong data-bind="purchaseName">NO ITEM</strong></div>
+              <div class="slip-math"><span>PRICE</span><b data-bind="purchasePrice">— CR</b></div>
+              <div class="slip-math remaining"><span>REMAINING CREDIT</span><b data-bind="remainingCredits">48 CR</b></div>
+              <p class="slip-warning" data-bind="purchaseFeedback">Select a supply to preview its cost before purchase.</p>
+              <label class="rig-note kiosk-note">KIOSK NOTE <input data-edit="kioskNote" type="text" maxlength="38" value="Keep one repair kit in reserve" aria-label="Edit the kiosk purchase note"></label>
+              <div class="kiosk-actions"><button type="button" class="projection-action" data-action="purchase-confirm" aria-describedby="purchase-help">Confirm selected purchase</button><button type="button" class="projection-quiet" data-action="purchase-cancel">Cancel order preview</button></div>
+              <p class="help-text" id="purchase-help">A confirmed order changes only page-session credit and stock. No real purchase occurs.</p>
+            </aside>
+          </div>
+          <div class="terminal-bottom"><span>TERMINAL STATE / WEB SPECIMEN</span><span>NO CURRENCY OR REAL INVENTORY</span></div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <template id="screen-locator">
+    <section class="locator-screen" aria-labelledby="screen-title">
+      <div class="locator-scene">
+        <div class="locator-vignette" aria-hidden="true"></div><div class="locator-grid" aria-hidden="true"></div>
+        <svg class="locator-vector" viewBox="0 0 1000 560" preserveAspectRatio="none" role="img" aria-label="Synthetic locator bearing path through an industrial corridor">
+          <path class="floor-guide guide-a" d="M30 490 L500 332 L970 490"/game-ui-skills/><path class="floor-guide guide-b" d="M80 560 L500 332 L920 560"/game-ui-skills/><path class="vector-dash" d="M120 442 L290 410 L420 350 L560 330 L720 250 L864 154"/game-ui-skills/><path class="vector-active" data-bind-class="vectorActive" d="M120 442 L290 410 L420 350 L560 330 L720 250 L864 154"/game-ui-skills/><circle class="vector-origin" cx="120" cy="442" r="13"/game-ui-skills/><circle class="vector-turn" cx="560" cy="330" r="10"/game-ui-skills/><path class="vector-end" d="M864 136 L882 154 L864 172 L846 154 Z"/game-ui-skills/>
+        </svg>
+        <div class="locator-head"><p class="eyebrow">WAYFINDER / SPATIAL GUIDANCE</p><h1 id="screen-title">LOCATOR</h1><span class="locator-scope">SYNTHETIC<br>BEARING STUDY</span></div>
+        <div class="tracked-readout"><span class="readout-label" data-bind="trackedState">TRACKED OBJECTIVE</span><strong data-bind="trackedName">NO TARGET</strong><div><b data-bind="trackedBearing">—</b><small data-bind="trackedRange">Select a destination</small></div><p data-bind="locatorFeedback">Choose one target below to preview its bearing.</p></div>
+        <span class="locator-landmark landmark-start">YOU / SUIT LINK</span><span class="locator-landmark landmark-turn">CARGO SPINE</span><span class="locator-landmark landmark-dest">DESTINATION VECTOR</span>
+        <div class="locator-note">RANGE AND BEARING ARE ILLUSTRATIVE / NOT GAME MEASUREMENTS</div>
+      </div>
+      <div class="target-selector">
+        <div class="target-label"><span>DESTINATION TARGETS</span><small>SELECT / PREVIEW / TRACK</small></div>
+        <button type="button" class="target-choice" data-action="locator-preview" data-value="cargo-lift" aria-label="Preview Cargo Lift target" aria-pressed="false"><span class="target-shape" aria-hidden="true">01</span><span><b>CARGO LIFT</b><small>86 M / 042° BEARING</small></span></button>
+        <button type="button" class="target-choice" data-action="locator-preview" data-value="tram-access" aria-label="Preview Tram Access target" aria-pressed="false"><span class="target-shape" aria-hidden="true">02</span><span><b>TRAM ACCESS</b><small>124 M / 310° BEARING</small></span></button>
+        <div class="target-actions"><button type="button" class="projection-action" data-action="locator-confirm" aria-describedby="locator-help">Track selected target</button><button type="button" class="projection-quiet" data-action="locator-cancel" aria-describedby="locator-help">Clear tracking preview</button><span class="help-text" id="locator-help">Choose a destination to enable tracking. Cancel clears only an unconfirmed preview.</span></div>
+      </div>
+      <label class="locator-edit">ROUTE MARGIN NOTE <input data-edit="locatorNote" type="text" maxlength="42" value="Follow the lit side of the cargo spine" aria-label="Edit the locator margin note"></label>
+    </section>
+  </template>
+</body>
+</html>

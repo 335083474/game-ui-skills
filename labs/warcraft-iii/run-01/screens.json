@@ -1,0 +1,15 @@
+{
+  "slug": "warcraft-iii",
+  "model": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "screens": [
+    {"id":"command-console","title":"Command Console","description":"A central Human forest battlefield places a carved stone-and-wood command matrix directly below the selected hero and order readout."},
+    {"id":"hero-inventory","title":"Hero Inventory","description":"A Paladin's equipment board and travel satchel select and equip the Stormguard Shield, increasing armor."},
+    {"id":"quest-log","title":"Quest Log","description":"A parchment scroll tracks the three western ridge signals and unlocks the Watchtower Seal reward at completion."}
+  ],
+  "smokeTests": [
+    {"screenId":"command-console","steps":[{"action":"click","role":"button","name":"Order: Move to Old Bridge"}],"expectedText":["Move to Old Bridge","Captain Rowan · order issued: Move to Old Bridge.","OLD BRIDGE"]},
+    {"screenId":"hero-inventory","steps":[{"action":"click","role":"button","name":"Select Stormguard Shield"},{"action":"click","role":"button","name":"Equip selected item"}],"expectedText":["Stormguard Shield equipped. Defense is now 13.","Stormguard Shield","13"]},
+    {"screenId":"quest-log","steps":[{"action":"click","role":"button","name":"Mark West Beacon"},{"action":"click","role":"button","name":"Claim Watchtower Seal"}],"expectedText":["Watchtower Seal claimed. Rowan receives 180 gold.","1,420","3 / 3 MARKED"]}
+  ]
+}

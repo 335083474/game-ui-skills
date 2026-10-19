@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" role="img" aria-labelledby="title desc">
+  <title id="title">Original illustrated interview frame placeholder</title>
+  <desc id="desc">A simple fictional interview silhouette on a monitor. It is an illustration, not game footage or a real person.</desc>
+  <defs><pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3H4" stroke="#d2c48d" stroke-opacity=".17"/game-ui-skills/></pattern><radialGradient id="vignette"><stop stop-color="#59604a"/game-ui-skills/><stop offset="1" stop-color="#20251e"/game-ui-skills/></radialGradient></defs>
+  <rect width="480" height="270" fill="url(#vignette)"/game-ui-skills/>
+  <path d="M0 227h480M0 58h480" stroke="#a79a6c" stroke-opacity=".28"/game-ui-skills/>
+  <path d="M188 270v-60q0-25 24-40l21-13 8-34q-20-10-16-36l5-34q4-29 34-30 32 1 36 30l4 34q3 26-17 36l7 35 23 15q23 15 23 38v59" fill="#111611" stroke="#999071" stroke-width="3"/game-ui-skills/>
+  <path d="M235 103h45M233 112h48M238 122h39" stroke="#a18e5d" stroke-opacity=".52"/game-ui-skills/>
+  <rect width="480" height="270" fill="url(#lines)"/game-ui-skills/>
+  <rect x="10" y="10" width="194" height="20" fill="#171d17" opacity=".92"/game-ui-skills/>
+  <text x="18" y="24" fill="#e5d8b4" font-family="Consolas,monospace" font-size="10" letter-spacing="1.2">ORIGINAL ILLUSTRATION / NO FOOTAGE</text>
+</svg>

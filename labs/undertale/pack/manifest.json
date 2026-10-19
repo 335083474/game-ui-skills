@@ -1,0 +1,75 @@
+{
+  "name": "undertale-ui",
+  "version": "1.0.0",
+  "status": "experimental-reference-workflow",
+  "authorModel": "gpt-6-luna",
+  "reasoningEffort": "max",
+  "runtimeNetworkDependencies": [],
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 257,
+      "sha256": "3fa38144db2bbd05f1e1c2eb27232b5b3917510c5fdbcdb85271f7f5cd944ea1"
+    },
+    {
+      "path": "assets/components/index.html",
+      "bytes": 2604,
+      "sha256": "3b533861bfc6d5f65ac75d154596b71bccc55d41307d7c1af12b4eb031a8ef48"
+    },
+    {
+      "path": "assets/components/theme.css",
+      "bytes": 3205,
+      "sha256": "f4dbf21133abfa0d757f4d5669f0d7d76c43c18595c6ac1eb19edb9e1fedf912"
+    },
+    {
+      "path": "authoring-status.json",
+      "bytes": 1513,
+      "sha256": "c51ce9edf0ab2bf032bfb5138497e4f8ddd731a8cd4f3d2a2ea6ebb98b5967e5"
+    },
+    {
+      "path": "references/asset-map.json",
+      "bytes": 901,
+      "sha256": "dadcd6de23e47b7a9b0753283271760487416297ddf4bb889eb65d155139bd18"
+    },
+    {
+      "path": "references/images/component-board.png",
+      "bytes": 60528,
+      "sha256": "797f2c57f41b2fcdd62c790efea372d651b4772f6c85b0d848774a83279049b8"
+    },
+    {
+      "path": "references/images/style-reference.svg",
+      "bytes": 1529,
+      "sha256": "2d732b0e59f5cdc8c9b50506d8fb298d667a3f0ffd48df90fb7a40c39fe646c7"
+    },
+    {
+      "path": "references/screen-patterns.md",
+      "bytes": 2115,
+      "sha256": "09c3f03da1329c4a3d89a15c6d0c30d0fd5983ad2eaec35a1ef74cb8622f4d1e"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 898,
+      "sha256": "d77507511603bbd0945d3051a8595e385dd667aa3104f6251dff193f3511809c"
+    },
+    {
+      "path": "references/tokens.json",
+      "bytes": 939,
+      "sha256": "12e3da1c49a319c15bd0575804c1f2c3fc3f906ca255fb4cebf6a8776e3640ac"
+    },
+    {
+      "path": "references/visual-rules.md",
+      "bytes": 3627,
+      "sha256": "86b821d8fcc2d5c534d01e7f2593f154c604643f13bca4c9d7d21eed264654a6"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2407,
+      "sha256": "2387dfe2ac084e4e5b8b3547dab8f673353f21ecb01995f7bcd098f134e98e7e"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 956,
+      "sha256": "9366c8a14fe89f386dd2e00b324b2d5062cfe356fb82a127740e69fd728d5d05"
+    }
+  ]
+}

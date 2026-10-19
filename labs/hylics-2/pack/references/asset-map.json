@@ -1,0 +1,20 @@
+{
+  "art": {
+    "path": "references/images/reference-plate.png",
+    "role": "Original generated clay and figure study; not canonical source-game art or UI.",
+    "provenance": "Built-in image generation, 2026-10-16; see references/generation.json."
+  },
+  "specimens": {
+    "html": "assets/components/index.html",
+    "css": "assets/components/theme.css",
+    "js": "assets/components/demo.js",
+    "scope": "Party, gesture, and curio fragments; not a finished game screen."
+  },
+  "fonts": {
+    "bundled": false,
+    "stack": "Arial Black, Trebuchet MS, sans-serif / Trebuchet MS, Arial, sans-serif",
+    "license": "Local system fonts; no font files copied."
+  },
+  "runtimeDependencies": [],
+  "sourceGameAssets": "None."
+}

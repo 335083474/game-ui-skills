@@ -1,0 +1,37 @@
+{
+  "slug": "chrono-trigger",
+  "packageName": "chrono-trigger-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "party",
+      "title": "Three-person party",
+      "description": "Three compact party records with portraits, HP/MP labels, equipment summaries, and one focused member."
+    },
+    {
+      "id": "techs",
+      "title": "Tech combinations",
+      "description": "A Tech list that distinguishes one-person, two-person, and three-person combinations and shows required participants."
+    },
+    {
+      "id": "battle-orders",
+      "title": "ATB battle orders",
+      "description": "An active-time strip beside a three-member command queue, with clear ready/waiting states and a target preview."
+    }
+  ],
+  "referenceImage": "references/images/reference-board.svg",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}

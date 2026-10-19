@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">Original clear-line desert study</title><desc id="desc">Flat ochre dunes, a pale sun, a ringed ruin and a small traveler drawn with narrow green contours.</desc>
+<rect width="1200" height="260" fill="#eddcb5"/game-ui-skills/><circle cx="960" cy="72" r="48" fill="#e8b457"/game-ui-skills/>
+<path d="M0 159Q162 84 307 148T575 127T864 153T1200 111V260H0z" fill="#d8bd86"/game-ui-skills/><path d="M0 203Q164 145 309 182T611 164T913 195T1200 157V260H0z" fill="#cbaa73"/game-ui-skills/><path d="M0 236Q184 197 376 220T758 207T1200 224V260H0z" fill="#f2e8d0"/game-ui-skills/>
+<g fill="none" stroke="#394944" stroke-width="3"><circle cx="743" cy="130" r="52"/game-ui-skills/><path d="M691 131h104M743 79v104M708 94l71 73M779 96l-72 73M700 186h86M707 194h72"/game-ui-skills/></g>
+<g fill="none" stroke="#51564d" stroke-width="2"><path d="M42 153q106-43 196-13M74 173q118-40 221-15M828 180q99-38 210-12M883 204q128-41 247-13"/game-ui-skills/></g>
+<g fill="#f2e8d0" stroke="#31433f" stroke-width="2"><path d="M494 179l18-12 19 12 7 34h-52z"/game-ui-skills/><path d="M494 168l11-13 23 1 11 14z"/game-ui-skills/><path d="M487 210h60"/game-ui-skills/></g>
+<path d="M521 184l19 13-18 13" fill="none" stroke="#a9533e" stroke-width="2"/game-ui-skills/><path d="M0 258h1200" stroke="#45524c" stroke-width="2"/game-ui-skills/>
+</svg>

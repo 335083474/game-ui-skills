@@ -1,0 +1,8 @@
+{
+  "method":"built-in image_gen",
+  "generatedAt":"2026-10-16",
+  "output":"assets/archivist-portrait.png",
+  "sourceFile":"[local reference omitted]",
+  "prompt":"Use case: illustration-story. Asset type: reusable original portrait for a literary RPG character dossier. Create an entirely fictional middle-aged woman street archivist, short windblown hair, pronounced cheekbones, one eyebrow raised as if she doubts the speaker; shoulders visible in a worn coat. Medium: visibly painterly oil impasto, broad palette-knife and bristle marks, loose broken anatomy and abstracted facial planes; image must read as a painting rather than a realistic photograph. Palette: petrol blue, dusty brick red, nicotine ochre, chalk white and black-green. Composition: one centered chest-up portrait on transparent background, generous edge separation, face still legible in a small portrait frame. Avoid resemblance to any celebrity, actor, public figure, game character, or existing portrait. No writing, captions, frame, interface, logo, extra subjects, photorealism, or watermark.",
+  "notes":"This was the retained second generation. The earlier output was discarded from the package. This art is not a finished screen or an official game character."
+}

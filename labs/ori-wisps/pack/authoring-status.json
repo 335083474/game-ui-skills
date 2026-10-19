@@ -1,0 +1,43 @@
+{
+  "slug": "ori-wisps",
+  "packageName": "ori-wisps-ui",
+  "ready": true,
+  "screens": [
+    {
+      "id": "abilities",
+      "title": "Ability configuration",
+      "description": "A compact skill constellation and selected ability details with cost, prerequisite, and equip action."
+    },
+    {
+      "id": "shards",
+      "title": "Spirit shard loadout",
+      "description": "A limited slot layout compares equipped shards and makes replacement reversible before apply."
+    },
+    {
+      "id": "forest-map",
+      "title": "Forest map",
+      "description": "A layered location map with discovered route, current position, and accessible region labels."
+    }
+  ],
+  "referenceImage": "assets/illustrations/ori-wisps-art.png",
+  "componentEntry": "assets/components/index.html",
+  "limitations": [
+    "The forest and moth spirit are original generated references; no Ori character or exact game environment is included.",
+    "Blind Forest UI research is excluded as evidence for Will of the Wisps.",
+    "Synthetic state must be wired to product data.",
+    "Parent component capture is pending.",
+    "Fresh forward implementation QA is pending."
+  ],
+  "componentCapture": {
+    "path": "references/images/component-board.png",
+    "method": "actual browser screenshot via CUA",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "checkedAt": "2026-10-16",
+    "horizontalOverflow": false,
+    "brokenImages": [],
+    "scope": "Parent-reviewed component rendering; independent full-screen usage follows."
+  }
+}
