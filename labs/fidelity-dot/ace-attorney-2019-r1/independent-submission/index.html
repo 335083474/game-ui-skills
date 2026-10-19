@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<title>证物提交确认 · AA2019-submission-repair-r1</title>
+<link rel="stylesheet" href="submission.css">
+</head>
+<body class="notranslate">
+<header class="top" id="pageHeader"><strong>证物提交确认</strong><span>AA2019-submission-repair-r1 · 独立初稿＋dot返工 · 候审</span></header>
+<div id="viewport">
+<main id="stage" aria-label="证物提交界面">
+<img id="room" alt="" src="assets/room-v03.png">
+<div id="selectionLayer">
+<img id="panel" alt="" src="assets/panel.svg">
+<div class="tab" id="tab">Submit Evidence</div>
+<div id="previewFrame"><img id="preview" alt=""></div>
+<h1 id="itemName"></h1><p id="description" tabindex="0" aria-label="证物说明，可滚动"></p>
+<div id="slots" role="group" aria-label="可选择的证物"></div>
+<div class="stageFooter"><span id="stageHint">← → 选择　Enter 查看详情　S 提交</span><button id="submitBtn" type="button">提交证物</button></div>
+</div>
+<section id="stepPanel" role="dialog" aria-modal="true" aria-labelledby="stepTitle" tabindex="-1" hidden>
+<div class="stepPaper" aria-hidden="true"></div>
+<p class="eyebrow" id="stepTag"></p>
+<h2 id="stepTitle"></h2>
+<img id="stepIcon" alt="">
+<div class="stepName" id="stepName"></div>
+<p class="stepDesc" id="stepDesc" tabindex="0" aria-label="所选证物说明，可滚动"></p>
+<div class="stepActions" id="stepActions"></div>
+</section>
+</main>
+</div>
+<p id="sizeNotice" role="status" hidden>需要横屏及至少960×540实际舞台空间；舞台空间不足时暂停交互。请扩大窗口或切换横屏。</p>
+<section class="workspace" id="workspace" aria-label="数据编辑器">
+<div class="workspaceHead"><h2>候选证物数据</h2><p>修改JSON后校验导入，或修改submission-data.js作为启动数据。非法导入保留旧数据；刷新还原启动数据。</p></div>
+<div class="toolRow"><button type="button" id="loadBtn">载入当前 JSON</button><button type="button" id="importBtn">校验并应用 JSON</button><button type="button" id="exportBtn">导出当前 JSON</button><button type="button" id="detailsBtn">查看完整文字</button></div>
+<label for="jsonEditor">完整候选数据（1–6项；不自动保存）</label>
+<textarea id="jsonEditor" spellcheck="false" rows="12"></textarea>
+<p id="status" role="status" aria-live="polite"></p>
+</section>
+<dialog id="detailDialog" aria-labelledby="detailTitle">
+<h2 id="detailTitle">证物完整文字</h2>
+<div id="detailText" tabindex="0" aria-label="完整名称及说明，可滚动"></div>
+<div class="toolRow"><button type="button" id="closeDetail">关闭详情 (Esc)</button></div>
+</dialog>
+<script src="submission-data.js"></script>
+<script src="submission.js"></script>
+</body>
+</html>

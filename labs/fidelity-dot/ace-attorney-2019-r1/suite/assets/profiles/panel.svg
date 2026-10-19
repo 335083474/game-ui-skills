@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="974" height="412" viewBox="0 0 974 412">
+<defs><pattern id="woven" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#268bb3"/><path d="M0 0h3v3H0zm3 3h3v3H3z" fill="#64b5ce" opacity=".18"/></pattern></defs>
+<path d="M2 2H211L222 15H972V410H2Z" fill="url(#woven)" stroke="#fff" stroke-width="2"/>
+<path d="M6 33H211L221 19H968V279H6Z" fill="#f6f5f0"/>
+<path d="M680 386H971V409H657Z" fill="#f6f5f0"/>
+</svg>

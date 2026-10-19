@@ -1,0 +1,10 @@
+BUILD REPORT — independent submission UI
+Input frozen ZIP SHA-256: c5b5bd62ee0294e6719bd2c797f75e38a590df1aa49e489483c368c00ecfaa9c
+Input frozen ZIP byte size: 16627946
+Input frozen ZIP: read only; unchanged by this generation.
+New version: AA2019-submission-v0.1
+HTML literal src/href paths checked: 5; missing: 0
+Copied shared asset bytes verified identical to input ZIP: 9/9
+JavaScript syntax: node --check passed for submission.js and submission-data.js
+Runtime browser rendering, interactivity, accessibility, font layout: not verified by these checks.
+Commercial permission and receiver acceptance: not established.

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AA2019-profiles-v0.4 · Profiles research candidate</title>
+<link rel="stylesheet" href="evidence.css"><link rel="stylesheet" href="profiles.css">
+<script defer src="profiles-data.js"></script><script defer src="profiles.js"></script>
+</head>
+<body>
+<p class="notice">AA2019-profiles-v0.4 · Research candidate · Pending review · Not for sale</p>
+<p id="sizeNotice" hidden>Landscape preview requires a stage of at least 960 × 540. The editor remains available.</p>
+<main id="viewport"><div id="stage" tabindex="-1" translate="no">
+<img class="room" src="assets/profiles/room.png" alt="">
+<section id="record" aria-label="Profiles record">
+<img class="panel" src="assets/profiles/panel.svg" alt="">
+<div id="tabLabel">Profiles</div>
+<div id="previewBox"><img id="preview" alt="Selected profile"></div>
+<h1 id="itemName"></h1><div id="description" tabindex="0"></div>
+<div id="profilePointer" aria-hidden="true"></div>
+<div id="rail" role="group" aria-label="Profile slots"></div>
+<nav id="profileActions" aria-label="Record controls">
+<button id="backRecord" type="button" aria-label="Back: close this record"><span class="key round" aria-hidden="true">B</span>Back</button>
+<a id="evidenceLink" href="index.html"><span class="key" aria-hidden="true">R</span>Evidence</a>
+</nav>
+</section>
+</div></main>
+<button id="openRecord" type="button" hidden>Open Profiles record</button>
+<p id="diagnostic" role="status" aria-live="polite"></p>
+<button id="fullText" type="button" hidden>Read full profile text</button>
+<details id="tools" class="tools"><summary>Review / edit — outside game image</summary>
+<p><a href="index.html">Evidence example</a>. Back closes this record locally; it does not implement a game conversation. Navigating to Evidence reloads that page's startup data. Export edits before leaving.</p>
+<p id="collectionStatus" role="status"></p>
+<button id="addItem" type="button">Add profile</button><button id="deleteItem" type="button">Remove selected profile</button>
+<form id="editor">
+<label>Name (maximum 300)<input id="nameEdit" maxlength="300"></label>
+<label>Age (blank = unspecified; integer 0–150)<input id="ageEdit" type="number" min="0" max="150" step="1"></label>
+<label>Description (maximum 20000)<textarea id="descriptionEdit" rows="5" maxlength="20000"></textarea></label>
+<label>Independent portrait<select id="portraitEdit">
+<option value="p01">Portrait 01</option><option value="p02">Portrait 02</option><option value="p03">Portrait 03</option><option value="p04">Portrait 04</option><option value="p05">Portrait 05</option><option value="p06">Portrait 06</option><option value="p07">Portrait 07</option><option value="p08">Portrait 08</option><option value="p09">Portrait 09</option><option value="dee">Dee replacement</option>
+</select></label>
+<button id="applyItem" type="submit">Apply selected profile</button>
+<p id="editStatus" role="status" aria-live="polite"></p>
+</form>
+<label>Whole collection JSON<textarea id="jsonEdit" rows="12" spellcheck="false"></textarea></label>
+<button id="loadJson" type="button">Load current JSON</button>
+<button id="importJson" type="button">Import JSON from text</button>
+<label>Import JSON file (maximum 2,000,000 bytes)<input id="importFile" type="file" accept=".json,application/json"></label>
+<button id="export" type="button">Export JSON</button>
+</details>
+<dialog id="detail" aria-labelledby="detailTitle"><h2 id="detailTitle"></h2><pre id="detailBody" tabindex="0"></pre><button id="closeDetail" type="button">Close / Escape</button></dialog>
+</body></html>

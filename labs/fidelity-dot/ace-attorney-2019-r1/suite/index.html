@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AA2019-editable-v0.4 · Evidence research candidate</title>
+<link rel="stylesheet" href="evidence.css">
+<script defer src="evidence-contract.js"></script>
+<script defer src="evidence-data.js"></script>
+<script defer src="evidence.js"></script>
+</head>
+<body>
+<p class="notice">AA2019-editable-v0.4 · Research candidate · Pending review · Not for sale</p>
+<p id="sizeNotice" hidden>Landscape preview requires a stage of at least 960 × 540. The editor remains available.</p>
+<main id="viewport">
+ <div id="stage" tabindex="-1" translate="no">
+  <img class="room" src="assets/room-v03.png" alt="">
+  <img class="panel" src="assets/panel.svg" alt="">
+  <div id="tabLabel">Evidence</div>
+  <div id="previewBox"><img id="preview" alt="Selected evidence"></div>
+  <h1 id="itemName"></h1>
+  <div id="description" tabindex="0"></div>
+  <div id="rail" role="group" aria-label="Evidence slots"></div>
+ </div>
+</main>
+<p id="diagnostic" role="status" aria-live="polite"></p>
+<button id="fullText" type="button" hidden>Read full evidence text</button>
+<details id="tools" class="tools"><summary>Review / edit — outside game image</summary>
+ <p id="collectionStatus" role="status"></p>
+ <button id="addItem" type="button">Add evidence</button>
+ <button id="deleteItem" type="button">Remove selected evidence</button>
+ <form id="editor">
+  <label>Selected evidence name (maximum 300)<input id="nameEdit" maxlength="300"></label>
+  <label>Description (maximum 20000)<textarea id="descriptionEdit" maxlength="20000" rows="5"></textarea></label>
+  <label>Independent replacement icon<select id="iconEdit"><option value="badge">Badge</option><option value="statue">Statuette</option><option value="shards">Shards</option><option value="note">Note</option><option value="phone">Phone</option><option value="envelope">Envelope</option></select></label>
+  <button id="applyItem" type="submit">Apply selected item</button>
+  <p id="editStatus" role="status" aria-live="polite"></p>
+ </form>
+ <hr>
+ <label>Whole collection JSON<textarea id="jsonEdit" rows="12" spellcheck="false" aria-describedby="jsonHelp"></textarea></label>
+ <p id="jsonHelp">0–10 items. Edit all values here, then Import JSON. Invalid input leaves the current collection unchanged. Load current JSON replaces only this text area.</p>
+ <button id="loadJson" type="button">Load current JSON</button>
+ <button id="importJson" type="button">Import JSON from text</button>
+ <label>Import a JSON file (maximum 2,000,000 bytes)<input id="importFile" type="file" accept=".json,application/json"></label>
+ <button id="export" type="button">Export JSON</button>
+</details>
+<dialog id="detail" aria-labelledby="detailTitle"><h2 id="detailTitle"></h2><pre id="detailBody" tabindex="0"></pre><button id="closeDetail" type="button">Close / Escape</button></dialog>
+</body></html>

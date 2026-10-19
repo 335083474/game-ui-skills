@@ -1,0 +1,52 @@
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:#11151b;color:#f4f3e9;font:16px/1.5 Georgia,"Times New Roman",serif}
+.top{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:10px 20px;background:#212b34;border-bottom:2px solid #607f91}
+.top span{font:13px Arial,sans-serif;color:#bbc2c8}
+#viewport{position:relative;overflow:hidden;margin:0 auto;background:#07111c}
+#stage{position:absolute;left:0;top:0;width:1280px;height:720px;transform-origin:0 0;font-family:"Times New Roman",Times,serif;color:#171717}
+#room{position:absolute;inset:0;width:1280px;height:720px;object-fit:cover}
+#selectionLayer{position:absolute;inset:0}
+#panel{position:absolute;left:152px;top:60px;width:974px;height:412px;pointer-events:none}
+.tab{position:absolute;top:63px;left:160px;color:white;font-size:22px;line-height:28px}
+#previewFrame{position:absolute;left:182px;top:109px;width:209px;height:208px;background:#bfbfbf;display:grid;place-items:center}
+#preview{width:186px;height:186px;object-fit:contain}
+#itemName{position:absolute;top:116px;left:412px;width:684px;height:52px;padding:0 11px;margin:0;font-size:40px;line-height:48px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:linear-gradient(transparent 6px,#ffc51d 6px 37px,transparent 37px)}
+#description{position:absolute;top:182px;left:412px;width:684px;height:137px;padding:0 11px;margin:0;white-space:pre-wrap;overflow-wrap:anywhere;overflow:auto;font-size:34px;line-height:45px;scrollbar-width:thin;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5' height='45'%3E%3Cpath d='M0 44H3' stroke='%23646464'/%3E%3C/svg%3E")}
+#slots{position:absolute;left:190px;top:350px;display:grid;grid-template-columns:repeat(6,90px);height:90px}
+.slot{position:relative;border:0;background:#123d56aa;width:90px;height:90px;padding:0;cursor:pointer}
+.slot:before{content:"";position:absolute;inset:2px;background:linear-gradient(white,white) left top/10px 2px no-repeat,linear-gradient(white,white) left top/2px 10px no-repeat,linear-gradient(white,white) right top/10px 2px no-repeat,linear-gradient(white,white) right top/2px 10px no-repeat,linear-gradient(white,white) left bottom/10px 2px no-repeat,linear-gradient(white,white) left bottom/2px 10px no-repeat,linear-gradient(white,white) right bottom/10px 2px no-repeat,linear-gradient(white,white) right bottom/2px 10px no-repeat}
+.slot>img:first-child{position:absolute;top:7px;left:7px;width:76px;height:76px;object-fit:contain}
+.slot .corners{position:absolute;inset:0;width:90px;height:90px;opacity:0;pointer-events:none}
+.slot[aria-pressed=true] .corners{opacity:1}
+.slot[aria-pressed=true]{background:#3b5a6ecc}
+.slot:hover{filter:brightness(1.2)}
+.slot:focus-visible{outline:3px dotted #fff;outline-offset:3px}
+.stageFooter{position:absolute;left:192px;top:492px;width:886px;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#fff;text-shadow:0 2px 3px #000;font-size:23px}
+.stageFooter button,.stepActions button{min-height:44px;padding:5px 18px;border:1px solid #36586c;border-radius:0;background:#f4f1e5;color:#17212a;font:25px/32px "Times New Roman",Times,serif;cursor:pointer;box-shadow:none;text-shadow:none}
+.stageFooter button:hover,.stepActions button:hover{background:#fff4bd}
+#stepPanel{position:absolute;left:152px;top:60px;width:974px;height:500px;z-index:5;color:#171717;border:2px solid #557b91;background-color:#24506a;background-image:repeating-linear-gradient(0deg,transparent 0 3px,#315b73 3px 4px),repeating-linear-gradient(90deg,transparent 0 3px,#1e465e 3px 4px);box-shadow:0 3px 0 #142d3d}
+.stepPaper{position:absolute;left:18px;right:18px;top:42px;bottom:94px;background:#f7f5ec;border:1px solid #69818e;pointer-events:none}
+.eyebrow{position:absolute;left:12px;top:2px;height:30px;line-height:28px;margin:0;color:white;font-size:22px}
+#stepTitle{position:absolute;left:28px;top:49px;right:28px;height:44px;margin:0;color:#171717;font-size:34px;line-height:42px;font-weight:400}
+#stepIcon{position:absolute;left:28px;top:108px;width:186px;height:186px;object-fit:contain;background:#bfbfbf;padding:5px}
+.stepName{position:absolute;left:242px;top:108px;width:684px;height:52px;padding:0 11px;font-size:36px;line-height:48px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:linear-gradient(transparent 6px,#ffc51d 6px 37px,transparent 37px)}
+.stepDesc{position:absolute;left:242px;top:174px;width:684px;height:200px;margin:0;padding:0 11px;white-space:pre-wrap;overflow-wrap:anywhere;overflow:auto;font-size:26px;line-height:36px;scrollbar-width:thin;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5' height='36'%3E%3Cpath d='M0 35H3' stroke='%23646464'/%3E%3C/svg%3E")}
+.stepActions{position:absolute;left:28px;right:28px;bottom:22px;height:48px;display:flex;justify-content:flex-end;align-items:center;gap:18px}
+.stepActions button.primary{background:#ffe18b}
+.stepActions button.primary:hover{background:#fff0b4}
+button:focus-visible,textarea:focus-visible,[tabindex="0"]:focus-visible{outline:3px solid #efbd13;outline-offset:3px}
+#stepPanel:focus-visible{outline:3px solid white;outline-offset:3px}
+.workspace{max-width:1050px;margin:25px auto;padding:18px 24px;border:1px solid #75808a;background:#202831}
+.workspace h2{margin:0}.workspace p{margin:5px 0 14px}.workspaceHead p{color:#d1d3d6}
+.toolRow{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
+.toolRow button{padding:8px 12px;border:1px solid #c2c8cc;background:#dce0e3;color:#17232c;border-radius:0;cursor:pointer}
+.workspace label{display:block;margin:8px 0}
+.workspace textarea{width:100%;min-height:250px;background:#101820;color:#e9ecec;padding:12px;font:14px/1.45 monospace;resize:vertical}
+#status{min-height:24px;white-space:pre-wrap;overflow-wrap:anywhere}
+#sizeNotice{padding:10px;text-align:center;color:#ffe4a1}
+dialog{width:min(860px,94vw);max-height:85vh;padding:20px;color:#171717;background:#f7f5ec;border:3px solid #375d73}
+dialog::backdrop{background:#000a}
+#detailTitle{margin:0 0 12px;font:28px/36px "Times New Roman",Times,serif;background:#ffe18b}
+#detailText{white-space:pre-wrap;overflow-wrap:anywhere;overflow:auto;max-height:55vh;font:20px/1.5 "Times New Roman",Times,serif}
+@media(max-width:700px){.top{flex-direction:column;align-items:flex-start}}

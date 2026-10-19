@@ -1,0 +1,11 @@
+#record{position:absolute;inset:0}
+#preview{width:209px;height:208px;object-fit:contain}
+.slot img.icon{left:2px;top:2px;width:86px;height:86px;object-fit:contain}
+#profilePointer{position:absolute;top:338px;width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:11px solid #f6f5f0;pointer-events:none}
+#profileActions{position:absolute;left:844px;top:445px;width:270px;height:24px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+#profileActions button,#profileActions a{font:22px/24px "Times New Roman",Times,serif;color:#333;text-decoration:none;border:0;background:transparent;padding:0 4px;white-space:nowrap}
+#profileActions .key{display:inline-block;color:#fff;background:#288caf;font:bold 16px/18px Georgia,serif;min-width:17px;text-align:center;margin-right:4px}
+#profileActions .round{border-radius:50%}
+#profileActions button:focus-visible,#profileActions a:focus-visible{outline:2px dotted #174868;outline-offset:2px}
+#openRecord{margin:8px 16px}
+.tools a{color:#b9e1ff}

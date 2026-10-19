@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="pink" x2="1" y2=".3"><stop stop-color="#f8d9eb"/><stop offset=".23" stop-color="#d995c4"/><stop offset=".65" stop-color="#bd6a9f"/><stop offset="1" stop-color="#68345e"/></linearGradient>
+<linearGradient id="screen" x2=".7" y2="1"><stop stop-color="#afb6c9"/><stop offset=".25" stop-color="#36384d"/><stop offset="1" stop-color="#181e32"/></linearGradient>
+</defs>
+<path d="M54 18C28 17 12 40 13 64c1 9 7 10 13 2l24-41" fill="none" stroke="#49314f" stroke-width="4"/>
+<path d="M54 18C28 17 12 40 13 64c1 9 7 10 13 2l24-41" fill="none" stroke="#d48db6" stroke-width="1.8"/>
+<g transform="rotate(18 56 50)" stroke-linejoin="round">
+<path d="M44 7 65 6 75 13 75 88 67 94 40 90 36 84 36 16Z" fill="#693e63" stroke="#30283e" stroke-width="1.6"/>
+<path d="M40 12 65 9 71 15 71 86 64 91 39 87 36 81 36 19Z" fill="url(#pink)" stroke="#44364e" stroke-width="1.5"/>
+<path d="M42 15 64 13 67 17 67 42 40 42 40 19Z" fill="#eae0ec" stroke="#684c70"/>
+<path d="m44 19 19-1v20H43Z" fill="url(#screen)" stroke="#352d45"/>
+<path d="m44 20 18-1-18 15Z" fill="#ccd2dd" opacity=".26" stroke="none"/>
+<path d="m49 10 9-1" stroke="#f8eef6" stroke-width="2.5"/>
+<path d="M45 48h17l2 4-3 5H46l-4-5Z" fill="#eee1eb" stroke="#694568"/>
+<ellipse cx="53" cy="52" rx="5" ry="3.5" fill="#b874a8" stroke="#694568"/>
+<g fill="#f6dfed" stroke="#865780" stroke-width=".8">
+<rect x="41" y="61" width="7" height="4" rx="1"/><rect x="51" y="61" width="7" height="4" rx="1"/><rect x="61" y="61" width="6" height="4" rx="1"/>
+<rect x="41" y="68" width="7" height="4" rx="1"/><rect x="51" y="68" width="7" height="4" rx="1"/><rect x="61" y="68" width="6" height="4" rx="1"/>
+<rect x="41" y="75" width="7" height="4" rx="1"/><rect x="51" y="75" width="7" height="4" rx="1"/><rect x="61" y="75" width="6" height="4" rx="1"/>
+</g>
+<path d="m40 23-1 57 4 5m27-65-1 63" fill="none" stroke="#ffe8f4" stroke-width="1.4"/>
+<path d="m49 85 10 1" stroke="#663c61" stroke-width="1.5"/>
+</g></svg>

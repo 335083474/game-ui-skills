@@ -1,0 +1,39 @@
+{
+  "game": "Phoenix Wright: Ace Attorney Trilogy",
+  "version": "2019 HD / research r1",
+  "mainPackage": {
+    "files": 38,
+    "sha256": "c5b5bd62ee0294e6719bd2c797f75e38a590df1aa49e489483c368c00ecfaa9c",
+    "path": "downloads/AA2019-two-pages-frozen.zip"
+  },
+  "independentCase": {
+    "files": 16,
+    "sha256": "44316bcf36da06291aad3ac0b5708cb2b4b35c7615825fc37f6a915b34bbc98b",
+    "path": "downloads/AA2019-independent-submission-repaired.zip",
+    "firstPassAccepted": false,
+    "originalOutputSha256": "ebd6b522eadb6e39fa035db26d57c83f86f465565c42fa129c5d4241248e90ee",
+    "repairProducer": "Dot ordinary web chat"
+  },
+  "reviewerAccepted": true,
+  "releaseIdentityCheck": "PASS: local page previews, runtime and browser-downloaded ZIP hashes verified",
+  "customerReady": false,
+  "commercialRightsCleared": false,
+  "actualPublisher": "main receiving chat",
+  "dotPublished": false,
+  "originalReferencesIncluded": false,
+  "codexProductionAuthorized": false,
+  "scope": "Editable research reference only; declared visual approximations and independent failure/repair lineage retained",
+  "reviewedStates": [
+    "selection",
+    "confirmation",
+    "cancel Enter/Space/Escape/mouse",
+    "confirmation Enter/Space/mouse",
+    "result",
+    "full text",
+    "focus containment and return",
+    "1/6 items",
+    "300/20000 full export",
+    "invalid imports retain old data",
+    "960x540 stage and portrait suspension/restoration"
+  ]
+}
