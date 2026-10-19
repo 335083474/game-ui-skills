@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" translate="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google" content="notranslate"><title>ACNH shop candidate v0.1</title><link rel="stylesheet" href="shop.css"></head>
+<body class="notranslate"><p id="sizeNotice" tabindex="-1" hidden>Landscape desktop preview requires an actual stage of at least 960 × 540. Editor and full text remain available below.</p>
+<main id="viewport"><section id="stage" aria-label="Shop quantity selection">
+<img id="room" src="assets/shop-background.png" alt="">
+<section id="shelf" aria-label="Goods"><h1 id="category"></h1><span class="up" aria-hidden="true">⌃</span><div id="goods"></div><span class="down" aria-hidden="true">⌄</span></section>
+<div id="wallet" aria-label="Bells"><span aria-hidden="true">★</span><output id="balance"></output></div>
+<section id="speech"><span id="speaker"></span><div id="speechText"><div id="productLine"><span id="productName"></span><span>?</span></div><p id="dialogue"></p></div></section>
+<section id="choicePanel" aria-label="Quantity"><div id="choices"></div></section>
+<div id="gameControls"><button id="cancel">B Cancel</button><button id="select">A Select</button></div>
+</section></main>
+<section class="review" aria-label="Review and editing">
+<p>ACNH-shop-v0.1 · Research candidate · New artwork and substitute fonts · Not accepted or licensed for commercial use</p>
+<nav><a href="index.html">Pockets v0.3</a> <button id="reopen">Open purchase choices</button> <button id="full">Read all text</button> <button id="export">Export JSON</button></nav>
+<p id="status" role="status"></p><button id="diagnostic" hidden></button>
+<details><summary>Review / edit complete JSON</summary><label for="editor">Editable shop data</label><textarea id="editor" spellcheck="false"></textarea><button id="apply">Apply JSON</button><label>Import JSON <input id="import" type="file" accept=".json,application/json"></label><p id="editError" role="alert"></p></details>
+</section>
+<dialog id="detail"><h2>Complete shop text and state</h2><pre id="fullText" tabindex="0"></pre><button id="closeDetail">Close</button></dialog>
+<script src="shop-data.js"></script><script src="shop.js"></script></body></html>

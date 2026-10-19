@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google" content="notranslate"><title>ACNH-pockets-v0.3 · Research candidate</title><link rel="stylesheet" href="pockets.css"></head>
+<body class="notranslate">
+<div id="viewport"><main id="stage" aria-label="Pockets research screen">
+<img id="background" src="assets/background.png" alt="">
+<section id="pockets" aria-label="Pockets">
+<img id="panel" src="assets/pocket-panel.svg" alt="">
+<div id="slots" role="group" aria-label="Pocket items"></div>
+<div id="itemLabel" aria-live="polite"></div>
+<img id="hand" src="assets/hand.svg" alt="">
+<button id="confirm" type="button"><span aria-hidden="true" class="plus">+</span> Confirm</button>
+<div id="bottomControls"><button id="cancel" type="button"><span class="key">B</span> Cancel</button><button id="select" type="button"><span class="key">A</span> Select</button></div>
+</section>
+</main></div>
+<p id="sizeNotice" role="status" tabindex="-1" hidden>Landscape only. At least 960×540 stage space is required. The stage is inactive at smaller sizes.</p>
+<section id="review" aria-label="Review and edit">
+<h1>ACNH-pockets-v0.3 · Single-screen research candidate</h1>
+<p>Newly drawn/generated approximations. Not official assets. No commercial clearance or acceptance claimed.</p>
+<div class="tools"><button id="openPockets" type="button" hidden>Open pockets</button><button id="full" type="button">Read full item text</button><button id="load" type="button">Load current JSON</button><button id="apply" type="button">Validate and apply JSON</button><button id="export" type="button">Export JSON</button></div>
+<label for="editor">Editable data; up to 40 items with unique slots 0–39</label><textarea id="editor" rows="12" spellcheck="false"></textarea>
+<p id="status" role="status" aria-live="polite"></p>
+</section>
+<dialog id="detail" aria-labelledby="detailTitle"><h2 id="detailTitle">Item details</h2><div id="detailViewport" class="iconViewport"><img id="detailIcon" alt=""></div><pre id="detailText" tabindex="0"></pre><button id="closeDetail" type="button">Close (Esc)</button></dialog>
+<script src="pockets-data.js"></script><script src="pockets.js"></script>
+</body></html>

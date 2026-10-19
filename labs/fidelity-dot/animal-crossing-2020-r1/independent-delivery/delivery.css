@@ -1,0 +1,53 @@
+/* ACNH-delivery-research repair-r1. Original independent layout, repaired by dot. */
+*{box-sizing:border-box}html{overflow-y:scroll}body{margin:0;min-width:0;background:#292921;color:#fff8df;font-family:"Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif}button,textarea,input{font:inherit}button{cursor:pointer}button:disabled{opacity:.48;cursor:not-allowed}[hidden]{display:none!important}
+#viewport{position:relative;margin:auto;max-width:100%;overflow:hidden}
+#stage{position:absolute;width:1280px;height:720px;left:0;top:0;transform-origin:top left;color:#746c54}
+#scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#head{position:absolute;left:179px;top:22px;width:925px;height:77px;padding:12px 50px;background:#fff9db;border-radius:47% 43% 42% 46% / 58% 48% 54% 46%;display:flex;align-items:center;justify-content:space-between;gap:24px;box-shadow:0 5px 0 #cabd8740}
+#heading{font-size:37px;font-weight:bold;white-space:nowrap;max-width:590px;min-width:0;overflow:hidden;text-overflow:ellipsis}
+#requester{background:#e8912a;padding:9px 22px;border-radius:55% 43% 52% 48%;color:#5d3a1f;font-size:24px;max-width:260px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#candidatePanel,#deliveryPanel{position:absolute;background:#fffbe7;box-shadow:0 5px 0 #645b3440;border-radius:11% 9% 8% 12% / 9% 12% 10% 11%;padding:25px 24px 20px}
+#candidatePanel{left:155px;top:115px;width:467px;height:406px}
+#deliveryPanel{left:644px;top:115px;width:480px;height:406px}
+h2{font-size:29px;line-height:35px;height:35px;margin:0 0 10px;font-weight:bold;white-space:nowrap}
+#candidateList{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,124px);gap:10px 8px;height:270px;padding:6px;overflow:hidden}
+.candidate{position:relative;width:100%;height:124px;min-width:0;border:0;border-radius:44% 50% 45% 48% / 45% 43% 48% 48%;background:#f9edb9;color:#776647;display:grid;grid-template-rows:58px 22px 32px;justify-items:center;align-items:center;padding:6px;font-size:18px;font-weight:bold}
+.candidate:hover,.candidate:focus-visible{background:#ffdf00}
+.candidate:focus-visible,.entry button:focus-visible,#submit:focus-visible,#candidatePager button:focus-visible{outline:3px dashed #008f9f;outline-offset:2px}
+.candidate img{width:58px;height:58px;object-fit:contain}
+.candidate .candidateName{display:block;width:100%;height:22px;line-height:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.candidate small{display:block;width:100%;height:32px;font-size:16px;line-height:16px;color:#008ea5;font-variant-numeric:tabular-nums;white-space:nowrap;text-align:center}
+.candidate small span{display:block;height:16px;line-height:16px}
+.candidate:focus-visible:before{content:"";position:absolute;width:30px;height:30px;left:2px;top:29px;background:url("assets/hand.svg") center/contain no-repeat;z-index:2;pointer-events:none}
+#candidatePager{display:flex;height:36px;align-items:center;justify-content:space-between;gap:6px;margin-top:8px;padding:0 6px}
+#candidatePager button{height:32px;min-width:88px;border:0;border-radius:20px;background:#ffed9b;color:#746144;padding:3px 10px;font-size:17px;line-height:24px}
+#candidatePageLabel{font-size:17px;line-height:24px;white-space:nowrap}
+#entryList{position:relative;height:260px;overflow-y:auto;overflow-x:hidden;padding:6px;scrollbar-gutter:stable}
+.entry{position:relative;display:grid;grid-template-columns:48px minmax(0,1fr);grid-template-rows:56px 36px;gap:4px 10px;align-items:center;min-height:110px;padding:6px;border-bottom:3px dotted #dcd4ab}
+.entry>img{width:48px;height:53px;object-fit:contain;grid-column:1;grid-row:1 / 3}
+.entryName{grid-column:2;grid-row:1;min-width:0;height:56px}
+.entryName strong{display:block;height:24px;line-height:24px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:20px;color:#00aabd}
+.entryName small{display:block;font-size:15px;line-height:16px;height:32px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.entryName small span{display:block;height:16px;line-height:16px}
+.entryName .shortage{color:#a83d21;font-weight:bold}
+.quantityControls{grid-column:2;grid-row:2;display:grid;grid-template-columns:36px 66px 36px 36px;column-gap:8px;align-items:center;justify-content:start;height:36px}
+.entry button{border:0;color:#746144;background:#ffed9b;border-radius:50%;font-size:22px;line-height:34px;height:34px;width:36px;padding:0}
+.entry .remove{background:#ecd6a8}
+.entry output{display:block;width:66px;height:34px;line-height:34px;white-space:nowrap;text-align:center;font-size:22px;font-variant-numeric:tabular-nums}
+.emptyState{padding:65px 10px;text-align:center;color:#a49a79;font-size:23px;white-space:pre-line;grid-column:1 / -1}
+#foot{display:grid;grid-template-columns:minmax(0,1fr) 190px;align-items:center;gap:8px;margin-top:8px;height:48px;font-size:18px;line-height:21px}
+#subtotal{min-width:0;white-space:pre-line;font-variant-numeric:tabular-nums}
+#submit{border:0;background:#ffdf00;border-radius:40px;padding:8px 12px;font-size:23px;line-height:28px;height:44px;color:#665a39;font-weight:bold;white-space:nowrap}
+#speech{position:absolute;left:202px;top:542px;width:880px;height:124px;background:#fffbe7;border-radius:14% 17% 13% 12% / 32% 28% 30% 27%;padding:23px 48px 15px}
+#speaker{position:absolute;left:18px;top:-19px;background:#e8912a;color:#5d3a1f;padding:5px 28px;border-radius:50%;transform:rotate(-5deg);font-size:21px;max-width:240px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+#message{white-space:pre-wrap;overflow:hidden;text-overflow:ellipsis;margin:0;font-size:24px;line-height:1.45;max-height:86px;overflow-wrap:anywhere}
+#hints{position:absolute;right:28px;bottom:6px;color:#fffbea;font-weight:bold;font-size:17px;text-shadow:0 2px 5px #423b2d}
+.review{width:min(1040px,100%);margin:20px auto;padding:18px;overflow-wrap:anywhere}
+.review nav{display:flex;flex-wrap:wrap;gap:6px}.review button,.review a{background:#fff9e3;color:#3d493b;border:1px solid #aa9a7a;border-radius:8px;padding:10px;text-decoration:none}
+.review textarea{display:block;width:100%;max-width:100%;height:340px;margin:12px 0;background:#fffdf4;color:#303025;font:15px/1.5 monospace}
+.review details{margin-top:18px}.review label{display:block;margin-top:8px}.review #error{color:#ffc7af}
+#textDiagnostic{display:block;margin-top:10px;max-width:100%;text-align:left;white-space:normal;line-height:1.5}
+#sizeNotice{background:#fff0a1;color:#4b3c2a;padding:12px;margin:0}
+dialog{width:min(740px,92vw);max-height:85vh;background:#fffbe7;color:#6f654d;border:3px solid #c8b980;border-radius:30px;padding:24px}
+dialog::backdrop{background:#24231bc9}dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;overflow:auto;max-height:58vh;font:20px/1.5 "Trebuchet MS",sans-serif}
+dialog button{background:#ffdf00;color:#675432;border:0;border-radius:25px;font-size:20px;padding:10px 19px;margin:5px}.dialogActions{display:flex;justify-content:flex-end;flex-wrap:wrap}

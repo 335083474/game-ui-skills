@@ -1,0 +1,51 @@
+/* ACNH-pockets-v0.3: scrollbar-aware layout; no horizontal overflow masking. */
+*{box-sizing:border-box}[hidden]{display:none!important}
+:root{--cream:#fffbe6;--teal:#43b9ad;--yellow:#fff0a3;--ink:#786b46;--rounded:"Arial Rounded MT Bold","Trebuchet MS",Arial,sans-serif}
+html{overflow-y:scroll}
+body{min-width:0;margin:0;background:#192b24;color:#f5f2de;font:16px/1.5 var(--rounded)}
+button{font:inherit;cursor:pointer}button:disabled{cursor:default}
+#viewport{max-width:100%;min-width:0;position:relative;margin:auto;overflow:hidden;background:#5f9944}
+#stage{position:absolute;left:0;top:0;width:1280px;height:720px;transform-origin:0 0}
+#background{position:absolute;inset:0;width:1280px;height:720px;object-fit:cover}
+#pockets{position:absolute;inset:0}
+#panel{position:absolute;left:210px;top:34px;width:860px;height:370px;pointer-events:none}
+#slots{position:absolute;inset:0;pointer-events:none}
+.slot{position:absolute;width:64px;height:68px;transform:translate(-50%,-50%);padding:0;border:0;background:transparent;border-radius:50%;pointer-events:auto}
+.slot .disc{position:absolute;width:48px;height:58px;left:8px;top:5px;border-radius:50%;background:#f5c419}
+.slot .iconViewport{position:absolute;left:0;top:0;width:64px;height:68px;overflow:hidden;pointer-events:none}
+.iconViewport>img{display:block;position:absolute;left:0;top:0;width:100%;height:100%;object-fit:contain;max-width:none;pointer-events:none}
+.slot .iconViewport[data-icon="scorpion"]{width:55.25px;left:4.375px}
+.iconViewport[data-icon="scorpion"]>img{left:-23.7179487179%;top:-25.5208333333%;width:147.4358974359%;height:142.3958333333%;object-fit:fill}
+.slot.tool .disc{display:none}
+.slot.dimmed .item{opacity:.27}
+.slot .star{position:absolute;right:2px;top:0;width:17px;height:17px;background:#f6d47d;opacity:.33;clip-path:polygon(50% 0,62% 34%,100% 38%,72% 62%,82% 100%,50% 78%,18% 100%,28% 62%,0 38%,38% 34%);pointer-events:none}
+.slot .check{position:absolute;left:6px;top:8px;border-radius:50%;width:17px;height:17px;background:#b9d8b7;color:#fffbe6;font:700 14px/17px Arial;opacity:.5}
+.slot[aria-pressed="true"] .disc{background:#1dc3b0;box-shadow:0 0 0 6px #f6d326}
+.slot.tool[aria-pressed="true"] .disc{display:block;background:#8ed8c5;box-shadow:0 0 0 4px #f6d326}
+.slot:hover:not(:disabled){filter:brightness(1.08)}
+.slot:focus-visible{outline:3px dashed #66714c;outline-offset:2px}
+.qty{position:absolute;right:0;bottom:0;max-width:62px;overflow:hidden;border-radius:10px;padding:0 3px;background:#fffbe6;color:#6c6242;font:bold 16px/20px var(--rounded)}
+#itemLabel{position:absolute;z-index:3;width:180px;height:66px;border-radius:47% 42% 38% 45%/40% 43% 48% 49%;padding:10px 18px;background:var(--teal);color:var(--cream);font:700 34px/46px var(--rounded);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}
+#hand{position:absolute;z-index:4;width:56px;height:56px;pointer-events:none;transform:rotate(-5deg)}
+#confirm{position:absolute;left:779px;top:382px;width:240px;height:112px;border:0;border-radius:46% 44% 42% 47%/44% 49% 46% 48%;background:var(--yellow);color:var(--ink);font:700 32px/40px var(--rounded);display:flex;align-items:center;justify-content:center;gap:5px}
+.plus{display:inline-grid;place-items:center;width:29px;height:29px;border-radius:50%;background:var(--ink);color:var(--yellow);font:700 29px/29px Arial}
+#confirm:hover{background:#ffe582}#confirm:disabled{opacity:.55}
+#bottomControls{position:absolute;right:38px;bottom:8px;display:flex;gap:6px}
+#bottomControls button{display:flex;align-items:center;gap:4px;height:42px;border:0;border-radius:22px;background:var(--cream);padding:3px 10px 3px 6px;color:#827c66;font:700 27px/34px var(--rounded)}
+.key{display:inline-grid;place-items:center;width:29px;height:29px;border-radius:50%;background:#827c66;color:var(--cream);font:700 24px/29px Arial}
+#confirm:focus-visible,#bottomControls button:focus-visible{outline:3px solid #236e65;outline-offset:4px}
+#sizeNotice{margin:12px auto;padding:12px;max-width:900px;color:#fff0a3}
+#review{width:min(1040px,100%);max-width:100%;min-width:0;overflow-wrap:anywhere;margin:24px auto;padding:20px;background:#243c31;border:1px solid #70836a}
+#review h1{font-size:20px;margin:0 0 8px}#review p{margin:10px 0}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.tools button,dialog button{border:1px solid #627e66;border-radius:8px;padding:8px 12px;background:var(--cream);color:#564e37}
+#review label{display:block}#editor{width:100%;padding:10px;min-height:220px;background:#14241d;color:#f5f2de;font:14px/1.5 monospace}
+#status{white-space:pre-wrap;overflow-wrap:anywhere;min-height:24px}
+dialog{width:min(700px,92vw);max-height:85vh;padding:24px;border:0;border-radius:24px;background:var(--cream);color:#5d553b}
+dialog::backdrop{background:#14281ab8}dialog h2{margin:0 0 12px;font-size:24px}
+#detailViewport{position:relative;display:block;width:112px;height:112px;overflow:hidden;margin:0 auto 10px;background:radial-gradient(ellipse at center,#f8e6a2 68%,transparent 70%)}
+#detailViewport[data-icon="scorpion"]{width:91px;height:112px}
+#detailText{max-height:42vh;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font:18px/1.5 var(--rounded)}
+.tools button:focus-visible,dialog button:focus-visible,textarea:focus-visible,pre:focus-visible{outline:3px solid #54c9b3;outline-offset:3px}
+.tools>*{min-width:0;max-width:100%;overflow-wrap:anywhere}
+#editor{min-width:0;max-width:100%}

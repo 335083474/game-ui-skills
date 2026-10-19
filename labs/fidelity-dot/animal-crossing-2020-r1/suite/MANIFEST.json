@@ -1,0 +1,166 @@
+{
+  "kind": "receiver-generated exact byte inventory",
+  "contentFiles": 32,
+  "files": [
+    {
+      "name": "assets/axe.svg",
+      "bytes": 338,
+      "sha256": "1be0d3627a4e020910df23d102af6879cac1c44a72ec537db6c430391800120f"
+    },
+    {
+      "name": "assets/background.png",
+      "bytes": 2234680,
+      "sha256": "8b92ba364af1d61c11db577d46896d67a8b7b7a20ea78ddd68394ed6b4adee56"
+    },
+    {
+      "name": "assets/customization-kit.png",
+      "bytes": 1267605,
+      "sha256": "38905c943183505f4e6aa3de63807232de8084b23e342c1b4c780b1d59557ccf"
+    },
+    {
+      "name": "assets/fishing-rod.svg",
+      "bytes": 401,
+      "sha256": "03d20966f67d56856ed4aa06b656956e819ba8012794c04e3a45b0281a7cadd7"
+    },
+    {
+      "name": "assets/hand.svg",
+      "bytes": 641,
+      "sha256": "0ce56de144906a15306aa1f478ab775d2ab80f8d7cb396d814f5a38c2723ccba"
+    },
+    {
+      "name": "assets/ladder.svg",
+      "bytes": 311,
+      "sha256": "07c79945cd5dfc93d35a24ab8c7f9542ae57af464971743c9305cc419c24e1ab"
+    },
+    {
+      "name": "assets/net.svg",
+      "bytes": 464,
+      "sha256": "e52f54d2f372ec325e4bbea3b9bb179abcd569af584228a8de1bbaf270a76469"
+    },
+    {
+      "name": "assets/pocket-panel.svg",
+      "bytes": 348,
+      "sha256": "79980ba690ba06ef7efe053dbb0c7c0b98f7bbe3217554f95a5edc6c796ac7ac"
+    },
+    {
+      "name": "assets/scorpion.png",
+      "bytes": 734454,
+      "sha256": "f50368aef90113677a2fb6d8a96075a93a3243ba15120cbce35c592b45acbd80"
+    },
+    {
+      "name": "assets/shop-background.png",
+      "bytes": 1927293,
+      "sha256": "cc2c95b92ce5f8c2113091eee9f0bdc4658f7671437650bc212acfc979a1ef4e"
+    },
+    {
+      "name": "assets/shop-sapling.svg",
+      "bytes": 562,
+      "sha256": "795ed3365cdae836d14e95a887e5c328418a68b0c35518f6568c53147fa05ee9"
+    },
+    {
+      "name": "assets/shop-seed.svg",
+      "bytes": 565,
+      "sha256": "bc87716ec6cea53b69216996f3a9ff4d0d6d6a569f639644fecc36f02f78310d"
+    },
+    {
+      "name": "assets/shovel.svg",
+      "bytes": 405,
+      "sha256": "17d619241f687f2c44b9628bf3178ec2e538839603a8c6bb72012be7f870521b"
+    },
+    {
+      "name": "assets/slingshot.svg",
+      "bytes": 399,
+      "sha256": "0fc9249cae3a0ae8a7483296376d514ca40c55bdea68653811fbec94c8812aff"
+    },
+    {
+      "name": "assets/watering-can.svg",
+      "bytes": 452,
+      "sha256": "214386d0f6363c2439f4383198cfa737e963f8699ea382dc0142b9367f82a275"
+    },
+    {
+      "name": "COMPONENTS.md",
+      "bytes": 2480,
+      "sha256": "f5f95efbd4e2130904b57c57b5f95290145f93a727b037d7a19f1a50574d4172"
+    },
+    {
+      "name": "DATA-CONTRACT.md",
+      "bytes": 6290,
+      "sha256": "88e95ca3724843fdb3d9b16c647f7906035f4a8901e1845552f9e4a30013d4b1"
+    },
+    {
+      "name": "index.html",
+      "bytes": 2294,
+      "sha256": "dde6a2889b86d526e3f9bd989202dbf65001250dd13d478ac370f0fc4a93aad5"
+    },
+    {
+      "name": "INHERITANCE.md",
+      "bytes": 4197,
+      "sha256": "d958e1c6303fa2d048e9c6e1606fa6e499f2e1d6fc8f2790b1eabde0960f136d"
+    },
+    {
+      "name": "pockets-data.js",
+      "bytes": 658,
+      "sha256": "98454b3473579203b9e6a24e6913fa3815b82341e2010ef2e40043a6f00f928c"
+    },
+    {
+      "name": "pockets.css",
+      "bytes": 5448,
+      "sha256": "cb29382a125f5b0e8a22c87ca3a91394e6e54230099971e632069fb34b133ab7"
+    },
+    {
+      "name": "pockets.js",
+      "bytes": 11847,
+      "sha256": "4426ac9ddc277a91ff89a25dc392026a9c79d324b822eaee7288ef5f781b7c3f"
+    },
+    {
+      "name": "README.md",
+      "bytes": 5950,
+      "sha256": "f23b7ba8a963bfd4b81557f723e4f559520560338ed75d859c5cb424b569e6a8"
+    },
+    {
+      "name": "SHOP-COMPONENTS.md",
+      "bytes": 3559,
+      "sha256": "6459e79088b4b50a6dbd7309af3c1065a57a75fe2fc63dbaffcc56468d1df36e"
+    },
+    {
+      "name": "shop-data.js",
+      "bytes": 1456,
+      "sha256": "2e92db2b9d65e52996453aadffed2ff285c5a423e38594d61287a5994139a492"
+    },
+    {
+      "name": "shop.css",
+      "bytes": 5124,
+      "sha256": "c7d42ddb1e1ac9c2aad1246263cc075b24cc3af269b03d9ccb4e79c957465d92"
+    },
+    {
+      "name": "shop.html",
+      "bytes": 2277,
+      "sha256": "01f993ad0ebe297986df121978861762457eabc3bf3c7836c71ded8fa289f60c"
+    },
+    {
+      "name": "shop.js",
+      "bytes": 12558,
+      "sha256": "4cf2a109f8c9bc437411c75b91414a8d86ddd4a86218f7ff6fdb9fc8390f1267"
+    },
+    {
+      "name": "SKILL.md",
+      "bytes": 6970,
+      "sha256": "71457ffc2f92f71654e645a406dccae5c061bd95560ecd7317ddf2ee754d81ad"
+    },
+    {
+      "name": "SOURCES.md",
+      "bytes": 5025,
+      "sha256": "d0e608570b055560ff334e15899868166a88626973a1d920eb8459ebd06a3c9d"
+    },
+    {
+      "name": "SUITE-README.md",
+      "bytes": 5195,
+      "sha256": "450b7ce6354b1bbc9aaea15fa8c3df97095a29ce12a5eb881e96803499fa3fc0"
+    },
+    {
+      "name": "TOKENS.md",
+      "bytes": 4364,
+      "sha256": "18069c573ee91b87398e9d7c0f14cc1b5aef27ae11d3b44d5faeccf105e99a38"
+    }
+  ]
+}
