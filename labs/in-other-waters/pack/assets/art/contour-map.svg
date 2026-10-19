@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-labelledby="title desc">
   <title id="title">Original alien-ocean contour illustration</title>
   <desc id="desc">Layered cyan seafloor contour lines with an original yellow dotted route and three circular sample marks.</desc>
-  <defs><pattern id="mist" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#57bdb5" opacity=".28"/game-ui-skills/><circle cx="9" cy="9" r=".45" fill="#a8975d" opacity=".23"/game-ui-skills/></pattern><linearGradient id="sea" x2="1" y2="1"><stop stop-color="#d6eeea"/game-ui-skills/><stop offset="1" stop-color="#f4f0dd"/game-ui-skills/></linearGradient></defs>
-  <rect width="720" height="380" fill="url(#sea)"/game-ui-skills/><rect width="720" height="380" fill="url(#mist)"/game-ui-skills/>
+  <defs><pattern id="mist" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#57bdb5" opacity=".28"/><circle cx="9" cy="9" r=".45" fill="#a8975d" opacity=".23"/></pattern><linearGradient id="sea" x2="1" y2="1"><stop stop-color="#d6eeea"/><stop offset="1" stop-color="#f4f0dd"/></linearGradient></defs>
+  <rect width="720" height="380" fill="url(#sea)"/><rect width="720" height="380" fill="url(#mist)"/>
   <g fill="none" stroke="#43aaa4" stroke-width="2" opacity=".78">
-    <path d="M-15 83C65 32 150 48 215 82s142 48 201 6 184-53 334-5"/game-ui-skills/><path d="M-18 109C66 61 151 74 215 107s144 50 207 13 180-52 326-11"/game-ui-skills/><path d="M-20 137C63 92 151 101 214 132s146 52 214 20 175-49 321-16"/game-ui-skills/><path d="M-19 166C72 124 156 129 220 159s148 51 216 24 169-47 314-21"/game-ui-skills/>
-    <path d="M-10 278C87 210 166 216 247 251s142 81 220 55 150-79 268-53"/game-ui-skills/><path d="M-12 305C83 240 164 243 246 276s145 76 221 51 151-73 270-50"/game-ui-skills/><path d="M-10 333C84 269 167 270 248 303s146 70 225 47 147-68 269-48"/game-ui-skills/><path d="M-8 359C91 301 173 301 253 331s143 64 222 43 148-61 270-44"/game-ui-skills/>
-    <path d="M118 201c25-29 72-42 111-25s51 51 31 78-71 34-108 13-57-42-34-66z"/game-ui-skills/><path d="M139 201c18-21 53-30 79-17s34 36 19 54-51 23-77 9-38-29-21-46z"/game-ui-skills/>
-    <path d="M449 191c34-29 87-33 119-10s30 57-4 76-85 17-114-9-30-43-1-57z"/game-ui-skills/><path d="M467 190c25-20 61-22 82-6s19 37-6 49-58 11-77-6-21-25 1-37z"/game-ui-skills/>
+    <path d="M-15 83C65 32 150 48 215 82s142 48 201 6 184-53 334-5"/><path d="M-18 109C66 61 151 74 215 107s144 50 207 13 180-52 326-11"/><path d="M-20 137C63 92 151 101 214 132s146 52 214 20 175-49 321-16"/><path d="M-19 166C72 124 156 129 220 159s148 51 216 24 169-47 314-21"/>
+    <path d="M-10 278C87 210 166 216 247 251s142 81 220 55 150-79 268-53"/><path d="M-12 305C83 240 164 243 246 276s145 76 221 51 151-73 270-50"/><path d="M-10 333C84 269 167 270 248 303s146 70 225 47 147-68 269-48"/><path d="M-8 359C91 301 173 301 253 331s143 64 222 43 148-61 270-44"/>
+    <path d="M118 201c25-29 72-42 111-25s51 51 31 78-71 34-108 13-57-42-34-66z"/><path d="M139 201c18-21 53-30 79-17s34 36 19 54-51 23-77 9-38-29-21-46z"/>
+    <path d="M449 191c34-29 87-33 119-10s30 57-4 76-85 17-114-9-30-43-1-57z"/><path d="M467 190c25-20 61-22 82-6s19 37-6 49-58 11-77-6-21-25 1-37z"/>
   </g>
-  <path d="M156 248C245 232 298 261 361 232s88-78 145-70 75 42 135 20" fill="none" stroke="#e1bf4d" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/game-ui-skills/>
-  <g fill="#1e5955" stroke="#f7f3e1" stroke-width="4"><circle cx="156" cy="248" r="8"/game-ui-skills/><circle cx="361" cy="232" r="8"/game-ui-skills/><circle cx="641" cy="182" r="8"/game-ui-skills/></g>
-  <circle cx="156" cy="248" r="15" fill="none" stroke="#e1bf4d" stroke-width="2"/game-ui-skills/>
-  <g stroke="#337d77" stroke-width="1"><path d="M53 23v16m0-8h16M674 340v16m0-8h-16M351 18v12m0-6h12"/game-ui-skills/></g>
+  <path d="M156 248C245 232 298 261 361 232s88-78 145-70 75 42 135 20" fill="none" stroke="#e1bf4d" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <g fill="#1e5955" stroke="#f7f3e1" stroke-width="4"><circle cx="156" cy="248" r="8"/><circle cx="361" cy="232" r="8"/><circle cx="641" cy="182" r="8"/></g>
+  <circle cx="156" cy="248" r="15" fill="none" stroke="#e1bf4d" stroke-width="2"/>
+  <g stroke="#337d77" stroke-width="1"><path d="M53 23v16m0-8h16M674 340v16m0-8h-16M351 18v12m0-6h12"/></g>
 </svg>

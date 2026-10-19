@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
-  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".055" numOctaves="3" seed="17"/game-ui-skills/><feColorMatrix type="saturate" values="0"/game-ui-skills/><feComponentTransfer><feFuncA type="linear" slope=".15"/game-ui-skills/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/game-ui-skills/></filter></defs>
-  <rect width="640" height="480" fill="#10191e"/game-ui-skills/>
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".055" numOctaves="3" seed="17"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".15"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter></defs>
+  <rect width="640" height="480" fill="#10191e"/>
   <g stroke="#0b1117" stroke-width="9" filter="url(#grain)">
-    <path fill="#1c292e" d="M-14 5 208-8 229 90 213 115 3 128Z"/game-ui-skills/>
-    <path fill="#202b31" d="m225-10 237 9-2 124-211-8-18-25Z"/game-ui-skills/>
-    <path fill="#17242a" d="m474-4 179 8-2 113-176 4Z"/game-ui-skills/>
-    <path fill="#243036" d="m-18 137 116-6 18 130-127 2Z"/game-ui-skills/>
-    <path fill="#18252c" d="m116 133 252-8 12 133-246 13Z"/game-ui-skills/>
-    <path fill="#202c32" d="m385 134 277-8-8 125-254 12Z"/game-ui-skills/>
-    <path fill="#1e2b30" d="m-12 283 215-8 21 112-232 15Z"/game-ui-skills/>
-    <path fill="#263139" d="m228 280 241-8-12 121-218-3Z"/game-ui-skills/>
-    <path fill="#19262c" d="m483 272 173-5-3 127-183-1Z"/game-ui-skills/>
-    <path fill="#1c292f" d="m-15 416 131-6 6 83-135-3Z"/game-ui-skills/>
-    <path fill="#253039" d="m139 408 247-2-6 90-241-2Z"/game-ui-skills/>
-    <path fill="#1b282d" d="m397 414 264-6-5 91-263-1Z"/game-ui-skills/>
+    <path fill="#1c292e" d="M-14 5 208-8 229 90 213 115 3 128Z"/>
+    <path fill="#202b31" d="m225-10 237 9-2 124-211-8-18-25Z"/>
+    <path fill="#17242a" d="m474-4 179 8-2 113-176 4Z"/>
+    <path fill="#243036" d="m-18 137 116-6 18 130-127 2Z"/>
+    <path fill="#18252c" d="m116 133 252-8 12 133-246 13Z"/>
+    <path fill="#202c32" d="m385 134 277-8-8 125-254 12Z"/>
+    <path fill="#1e2b30" d="m-12 283 215-8 21 112-232 15Z"/>
+    <path fill="#263139" d="m228 280 241-8-12 121-218-3Z"/>
+    <path fill="#19262c" d="m483 272 173-5-3 127-183-1Z"/>
+    <path fill="#1c292f" d="m-15 416 131-6 6 83-135-3Z"/>
+    <path fill="#253039" d="m139 408 247-2-6 90-241-2Z"/>
+    <path fill="#1b282d" d="m397 414 264-6-5 91-263-1Z"/>
   </g>
-  <g fill="none" stroke="#567078" stroke-width="2" opacity=".13"><path d="m5 143 86-3m35 1 236-9m-350 156 192-7m38 8 213-9m-444 141 106-4m24-2 229-3"/game-ui-skills/></g>
+  <g fill="none" stroke="#567078" stroke-width="2" opacity=".13"><path d="m5 143 86-3m35 1 236-9m-350 156 192-7m38 8 213-9m-444 141 106-4m24-2 229-3"/></g>
 </svg>

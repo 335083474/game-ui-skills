@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
 <title id="title">Original Alpine pencil landscape study</title><desc id="desc">A small mountain shelter, firs, layered ridges and crosshatch marks drawn in graphite.</desc>
-<defs><pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(39)"><path d="M0 0v8M4 0v8" stroke="#4e4d48" stroke-opacity=".25"/game-ui-skills/></pattern></defs>
-<rect width="1200" height="260" fill="#e8e5dc"/game-ui-skills/>
-<path d="M0 192L144 71l86 86L375 39l152 153L668 66l155 132L963 54l237 148v58H0z" fill="#d7d5ce" stroke="#4e4d48" stroke-width="3"/game-ui-skills/>
-<path d="M144 71l27 43 32-17 27 60M375 39l40 55 36-18 52 91M668 66l32 58 43-19 80 93M963 54l44 68 39-24 77 61" fill="none" stroke="#45443f" stroke-width="2"/game-ui-skills/>
-<path d="M0 202l144-131v57L48 216M375 39l70 78 62 70M668 66l40 71 115 61M963 54l80 75 95 73" fill="url(#h)"/game-ui-skills/>
-<path d="M0 218q130-31 253 0t239-3 235 8 239-12 234 8v49H0z" fill="#c7c5bd" stroke="#57564f" stroke-width="2"/game-ui-skills/>
-<g fill="none" stroke="#343431" stroke-width="2"><path d="M470 214v-46l29-23 29 23v46zM463 173h72M494 173v41M499 154v-20m-15 19v-15m29 14v-17"/game-ui-skills/><path d="M489 193q10-10 20 0v21h-20z" fill="#b8b5ab"/game-ui-skills/><path d="M169 219l18-47 19 47m-32-13h27m-24-10h20m-17-10h14M209 223l16-41 17 41m-28-13h25m-22-10h19m-16-9h13M815 215l18-48 18 48m-31-13h26m-23-10h20m-17-10h14M842 221l16-42 17 42m-28-13h25m-22-10h19m-16-9h13"/game-ui-skills/></g>
-<path d="M0 231q150-24 294 1t282-3 304 2 320-1" fill="none" stroke="#9a473d" stroke-width="2"/game-ui-skills/>
+<defs><pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(39)"><path d="M0 0v8M4 0v8" stroke="#4e4d48" stroke-opacity=".25"/></pattern></defs>
+<rect width="1200" height="260" fill="#e8e5dc"/>
+<path d="M0 192L144 71l86 86L375 39l152 153L668 66l155 132L963 54l237 148v58H0z" fill="#d7d5ce" stroke="#4e4d48" stroke-width="3"/>
+<path d="M144 71l27 43 32-17 27 60M375 39l40 55 36-18 52 91M668 66l32 58 43-19 80 93M963 54l44 68 39-24 77 61" fill="none" stroke="#45443f" stroke-width="2"/>
+<path d="M0 202l144-131v57L48 216M375 39l70 78 62 70M668 66l40 71 115 61M963 54l80 75 95 73" fill="url(#h)"/>
+<path d="M0 218q130-31 253 0t239-3 235 8 239-12 234 8v49H0z" fill="#c7c5bd" stroke="#57564f" stroke-width="2"/>
+<g fill="none" stroke="#343431" stroke-width="2"><path d="M470 214v-46l29-23 29 23v46zM463 173h72M494 173v41M499 154v-20m-15 19v-15m29 14v-17"/><path d="M489 193q10-10 20 0v21h-20z" fill="#b8b5ab"/><path d="M169 219l18-47 19 47m-32-13h27m-24-10h20m-17-10h14M209 223l16-41 17 41m-28-13h25m-22-10h19m-16-9h13M815 215l18-48 18 48m-31-13h26m-23-10h20m-17-10h14M842 221l16-42 17 42m-28-13h25m-22-10h19m-16-9h13"/></g>
+<path d="M0 231q150-24 294 1t282-3 304 2 320-1" fill="none" stroke="#9a473d" stroke-width="2"/>
 </svg>

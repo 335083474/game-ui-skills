@@ -228,7 +228,7 @@
         '<button class="secondary" type="button" data-action="cancel-action" data-focus="cancel-action">Cancel action</button></div>'
       : "";
     const guardNames = state.guarded.length ? state.guarded.join(", ") : "None";
-    const bpRows = members.map(function (member) { return member.name + " " + state.focusBp[member.name] + "/game-ui-skills/3"; }).join(" · ");
+    const bpRows = members.map(function (member) { return member.name + " " + state.focusBp[member.name] + "/3"; }).join(" · ");
     return '<main class="screen battle-screen">' + nav("battle-orders") +
       '<section class="scene battle-scene" aria-labelledby="screen-title"><div class="screen-intro"><p class="eyebrow">TURN ' +
       String(state.turnNumber).padStart(2, "0") + ' · SAMPLE BATTLE</p><h1 id="screen-title" tabindex="-1">The plaza becomes a stage.</h1>' +

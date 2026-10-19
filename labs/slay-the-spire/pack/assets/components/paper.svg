@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
-  <defs><filter id="fiber"><feTurbulence type="fractalNoise" baseFrequency=".32" numOctaves="4" seed="31"/game-ui-skills/><feColorMatrix type="saturate" values="0"/game-ui-skills/><feComponentTransfer><feFuncA type="linear" slope=".22"/game-ui-skills/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/game-ui-skills/></filter></defs>
-  <rect width="320" height="320" fill="#cfb17b" filter="url(#fiber)"/game-ui-skills/>
-  <g fill="#70502b" opacity=".08"><path d="m12 30 25-8-7 18-14 6zm260 15 20 4-6 17-15-8zM54 180l23-8 7 11-24 4zm159 72 17-12 12 4-14 17zM11 279l12 9-9 11-10-2z"/game-ui-skills/></g>
+  <defs><filter id="fiber"><feTurbulence type="fractalNoise" baseFrequency=".32" numOctaves="4" seed="31"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".22"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter></defs>
+  <rect width="320" height="320" fill="#cfb17b" filter="url(#fiber)"/>
+  <g fill="#70502b" opacity=".08"><path d="m12 30 25-8-7 18-14 6zm260 15 20 4-6 17-15-8zM54 180l23-8 7 11-24 4zm159 72 17-12 12 4-14 17zM11 279l12 9-9 11-10-2z"/></g>
 </svg>

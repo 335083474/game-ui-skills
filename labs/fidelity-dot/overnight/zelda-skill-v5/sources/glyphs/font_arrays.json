@@ -580,7 +580,7 @@
           "bearingX": 0,
           "bearingY": 0
         },
-        "/game-ui-skills/": {
+        "/": {
           "rows": [
             "001",
             "001",
@@ -1359,7 +1359,7 @@
           "bearingX": 0,
           "bearingY": 0
         },
-        "/game-ui-skills/": {
+        "/": {
           "rows": [
             "00001",
             "00010",

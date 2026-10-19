@@ -21,10 +21,10 @@ function draw(){diagnostics=[];activePaths=new Set();ctx.clearRect(0,0,256,224);
  let pages=1;const v=current();image(v.icon,200,23);const nameLines=lines(v.name,64,'display6');const namePage=Math.floor(page)%Math.max(1,nameLines.length);text(nameLines[namePage],177,48);text('×'+v.count,177,40,'compact5');text('×'+data.equipment[0].count,177,172,'compact5');
  if(screen==='inventory'){data.items.forEach((v,i)=>{const x=LAYOUT.inventory_origin[0]+i%5*LAYOUT.inventory_spacing[0],y=LAYOUT.inventory_origin[1]+Math.floor(i/5)*LAYOUT.inventory_spacing[1];image(v.icon,x,y);if(i===index){ctx.strokeStyle='#f8f8f0';ctx.strokeRect(x-2+.5,y-2+.5,20,20)}});pages=Math.max(1,nameLines.length);}else{pages=paged(v.name+'\nCOUNT '+v.count+'\n'+v.description,29,30,120,9,'display6',10,nameLines.length);}
  if(lines(data.title,128,'compact5').length>1)diagnostics.push('Title exceeds native rail width; full title retained in JSON and full text dialog');
- text('PAGE '+(page+1)+'/game-ui-skills/'+pages,30,125,'compact5');if(nameLines.length>1)text('+',237,40,'compact5');
+ text('PAGE '+(page+1)+'/'+pages,30,125,'compact5');if(nameLines.length>1)text('+',237,40,'compact5');
  $('prevPage').disabled=page===0;$('nextPage').disabled=page>=pages-1;
  const missing=Array.from(badImages).filter(p=>activePaths.has(p)).map(v=>'Missing asset: '+v);$('diagnostics').textContent=[...new Set([...diagnostics,...missing])].join('\n');
- $('status').textContent=(screen==='inventory'?'Inventory '+(index+1)+'/game-ui-skills/'+data.items.length:'Equipment '+(equipmentIndex+1)+'/game-ui-skills/'+data.equipment.length)+': '+v.name+' · Count '+v.count+' · Text page '+(page+1)+'/game-ui-skills/'+pages+(nameLines.length>1?' · Full name retained in full text':'');
+ $('status').textContent=(screen==='inventory'?'Inventory '+(index+1)+'/'+data.items.length:'Equipment '+(equipmentIndex+1)+'/'+data.equipment.length)+': '+v.name+' · Count '+v.count+' · Text page '+(page+1)+'/'+pages+(nameLines.length>1?' · Full name retained in full text':'');
  canvas.setAttribute('aria-label',screen+': '+v.name+', count '+v.count+'. Arrow keys select, Enter full text.');
 }
 function sync(){const v=current();for(const k of ['name','icon','count','description'])$(k).value=v[k];data.selectedIndex=index;$('json').value=JSON.stringify(data,null,2);$('add').disabled=data.items.length>=20;$('remove').disabled=data.items.length<=2||screen!=='inventory';draw();}

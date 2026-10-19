@@ -2,50 +2,50 @@
   <title id="title">Original archival database interface study</title>
   <desc id="desc">A warm paper-colored records terminal with invented search results and a clearly labeled illustrated placeholder, not actual footage.</desc>
   <defs>
-    <pattern id="paper" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#d7c8a5"/game-ui-skills/><path d="M0 2h4M6 8h3" stroke="#bcae8e" stroke-width=".6" opacity=".45"/game-ui-skills/><circle cx="8" cy="3" r=".45" fill="#93866d" opacity=".35"/game-ui-skills/></pattern>
-    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H4" stroke="#d8c88d" stroke-opacity=".18"/game-ui-skills/></pattern>
-    <linearGradient id="plastic" x2="0" y2="1"><stop stop-color="#777966"/game-ui-skills/><stop offset="1" stop-color="#484c3e"/game-ui-skills/></linearGradient>
-    <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#4d5542"/game-ui-skills/><stop offset="1" stop-color="#282d25"/game-ui-skills/></linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="1.4"/game-ui-skills/></filter>
+    <pattern id="paper" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#d7c8a5"/><path d="M0 2h4M6 8h3" stroke="#bcae8e" stroke-width=".6" opacity=".45"/><circle cx="8" cy="3" r=".45" fill="#93866d" opacity=".35"/></pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 3.5H4" stroke="#d8c88d" stroke-opacity=".18"/></pattern>
+    <linearGradient id="plastic" x2="0" y2="1"><stop stop-color="#777966"/><stop offset="1" stop-color="#484c3e"/></linearGradient>
+    <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#4d5542"/><stop offset="1" stop-color="#282d25"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.4"/></filter>
   </defs>
-  <rect width="1200" height="760" fill="url(#paper)"/game-ui-skills/>
-  <path d="M42 42h1116v676H42z" fill="#817b68" opacity=".25"/game-ui-skills/>
-  <rect x="52" y="48" width="1096" height="650" rx="7" fill="url(#plastic)" stroke="#383a31" stroke-width="8"/game-ui-skills/>
-  <rect x="79" y="78" width="1042" height="586" fill="#b9ad8c" stroke="#272b24" stroke-width="3"/game-ui-skills/>
-  <rect x="93" y="91" width="1014" height="45" fill="#383e34"/game-ui-skills/>
+  <rect width="1200" height="760" fill="url(#paper)"/>
+  <path d="M42 42h1116v676H42z" fill="#817b68" opacity=".25"/>
+  <rect x="52" y="48" width="1096" height="650" rx="7" fill="url(#plastic)" stroke="#383a31" stroke-width="8"/>
+  <rect x="79" y="78" width="1042" height="586" fill="#b9ad8c" stroke="#272b24" stroke-width="3"/>
+  <rect x="93" y="91" width="1014" height="45" fill="#383e34"/>
   <text x="113" y="120" fill="#e3d7b7" font-family="Consolas,monospace" font-size="18" letter-spacing="3">CIVIL RECORDS / INTERVIEW INDEX</text>
   <text x="1040" y="119" text-anchor="end" fill="#c5c19d" font-family="Consolas,monospace" font-size="13">CASE 08 — SAMPLE</text>
-  <rect x="95" y="150" width="500" height="60" fill="#e1d5b5" stroke="#766e58"/game-ui-skills/>
+  <rect x="95" y="150" width="500" height="60" fill="#e1d5b5" stroke="#766e58"/>
   <text x="112" y="174" fill="#67614d" font-family="Consolas,monospace" font-size="12" letter-spacing="2">SEARCH TRANSCRIPT</text>
-  <rect x="111" y="181" width="420" height="21" fill="#f0e6cc" stroke="#989078"/game-ui-skills/>
+  <rect x="111" y="181" width="420" height="21" fill="#f0e6cc" stroke="#989078"/>
   <text x="122" y="196" fill="#302f28" font-family="Consolas,monospace" font-size="14">envelope</text>
-  <rect x="545" y="181" width="37" height="21" fill="#a34937"/game-ui-skills/>
-  <path d="M557 187h13m-5-5 5 5-5 5" fill="none" stroke="#fff0d0" stroke-width="1.6"/game-ui-skills/>
-  <rect x="95" y="223" width="500" height="391" fill="#d8cba9" stroke="#746b55"/game-ui-skills/>
+  <rect x="545" y="181" width="37" height="21" fill="#a34937"/>
+  <path d="M557 187h13m-5-5 5 5-5 5" fill="none" stroke="#fff0d0" stroke-width="1.6"/>
+  <rect x="95" y="223" width="500" height="391" fill="#d8cba9" stroke="#746b55"/>
   <text x="112" y="248" fill="#5d5948" font-family="Consolas,monospace" font-size="12" letter-spacing="2">3 MATCHES / SORT: INDEX</text>
   <g font-family="Consolas,monospace">
-    <rect x="107" y="265" width="476" height="91" fill="#e8ddc1" stroke="#b1a486"/game-ui-skills/>
-    <rect x="107" y="265" width="5" height="91" fill="#a34937"/game-ui-skills/>
+    <rect x="107" y="265" width="476" height="91" fill="#e8ddc1" stroke="#b1a486"/>
+    <rect x="107" y="265" width="5" height="91" fill="#a34937"/>
     <text x="126" y="289" fill="#7f3428" font-size="13">08-A / MORNING INTERVIEW</text><text x="126" y="315" fill="#353329" font-size="13">“The blue envelope was still on</text><text x="126" y="335" fill="#353329" font-size="13">the desk when I came back.”</text>
-    <rect x="107" y="367" width="476" height="82" fill="#d1c39f" stroke="#b1a486"/game-ui-skills/>
+    <rect x="107" y="367" width="476" height="82" fill="#d1c39f" stroke="#b1a486"/>
     <text x="126" y="391" fill="#6b654f" font-size="13">08-B / FOLLOW-UP</text><text x="126" y="416" fill="#353329" font-size="13">“I remember the station clock...”</text>
-    <rect x="107" y="460" width="476" height="82" fill="#d1c39f" stroke="#b1a486"/game-ui-skills/>
+    <rect x="107" y="460" width="476" height="82" fill="#d1c39f" stroke="#b1a486"/>
     <text x="126" y="484" fill="#6b654f" font-size="13">08-C / ROOM CHECK</text><text x="126" y="509" fill="#353329" font-size="13">“There was a key beside the cup.”</text>
     <text x="108" y="583" fill="#716b58" font-size="10" letter-spacing="1.2">SAMPLE TEXT / FICTIONAL / LOCALLY SEARCHABLE</text>
   </g>
-  <rect x="618" y="150" width="489" height="337" fill="url(#glass)" stroke="#d2c5a2" stroke-width="5"/game-ui-skills/>
-  <rect x="626" y="158" width="473" height="321" fill="url(#scan)"/game-ui-skills/>
-  <path d="M764 478v-59q0-28 25-44l24-14 9-49q-22-12-18-42l7-48q5-38 45-39t47 39l5 48q2 29-20 42l8 49 27 17q24 14 24 42v58" fill="#151a16" stroke="#929278" stroke-width="3"/game-ui-skills/>
-  <path d="M860 208h14M859 222h17M858 236h18M844 285h36" stroke="#aa9b74" stroke-width="2" opacity=".6"/game-ui-skills/>
-  <rect x="640" y="173" width="236" height="22" fill="#1c211b" opacity=".86"/game-ui-skills/>
+  <rect x="618" y="150" width="489" height="337" fill="url(#glass)" stroke="#d2c5a2" stroke-width="5"/>
+  <rect x="626" y="158" width="473" height="321" fill="url(#scan)"/>
+  <path d="M764 478v-59q0-28 25-44l24-14 9-49q-22-12-18-42l7-48q5-38 45-39t47 39l5 48q2 29-20 42l8 49 27 17q24 14 24 42v58" fill="#151a16" stroke="#929278" stroke-width="3"/>
+  <path d="M860 208h14M859 222h17M858 236h18M844 285h36" stroke="#aa9b74" stroke-width="2" opacity=".6"/>
+  <rect x="640" y="173" width="236" height="22" fill="#1c211b" opacity=".86"/>
   <text x="650" y="188" fill="#d7c78d" font-family="Consolas,monospace" font-size="10" letter-spacing="1.1">ILLUSTRATED PLACEHOLDER / NOT FOOTAGE</text>
-  <rect x="619" y="501" width="488" height="113" fill="#e1d5b5" stroke="#746b55"/game-ui-skills/>
+  <rect x="619" y="501" width="488" height="113" fill="#e1d5b5" stroke="#746b55"/>
   <text x="638" y="527" fill="#6c3f32" font-family="Consolas,monospace" font-size="13" letter-spacing="1.5">SIMULATED CLIP STATE — NO VIDEO FILE</text>
   <text x="638" y="554" fill="#34332b" font-family="Consolas,monospace" font-size="13">08-A · MORNING INTERVIEW · METADATA ONLY</text>
-  <rect x="638" y="570" width="34" height="23" rx="2" fill="#a34937"/game-ui-skills/><path d="M650 576v11l10-5.5z" fill="#f2e3c7"/game-ui-skills/>
+  <rect x="638" y="570" width="34" height="23" rx="2" fill="#a34937"/><path d="M650 576v11l10-5.5z" fill="#f2e3c7"/>
   <text x="683" y="586" fill="#5e5947" font-family="Consolas,monospace" font-size="11">SELECT / DOES NOT PLAY MEDIA</text>
-  <path d="M97 635h1010" stroke="#82785e"/game-ui-skills/>
+  <path d="M97 635h1010" stroke="#82785e"/>
   <text x="100" y="653" fill="#e1d4ae" font-family="Consolas,monospace" font-size="10" letter-spacing="2">ORIGINAL COMPONENT STUDY · NOT A GAME SCREEN</text>
-  <rect x="735" y="663" width="245" height="14" rx="7" fill="#3e4138"/game-ui-skills/>
-  <circle cx="1060" cy="671" r="6" fill="#b76342"/game-ui-skills/>
+  <rect x="735" y="663" width="245" height="14" rx="7" fill="#3e4138"/>
+  <circle cx="1060" cy="671" r="6" fill="#b76342"/>
 </svg>
