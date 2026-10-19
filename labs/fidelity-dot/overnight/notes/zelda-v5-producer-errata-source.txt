@@ -1,0 +1,57 @@
+Zelda Skill v5 制作方文档更正与来源说明
+日期：2026-10-18 UTC
+
+1. 适用的冻结文件
+本说明仅对应 zelda-skill-v5-complete.zip：
+文件大小：120487 字节
+SHA-256：ae7e3289638215b675f59d5c7c29f623c016272665a0a4d7ba421e8cc60907ef
+
+本说明由该候选包的制作方提供。“制作方”不指任天堂或原游戏官方。本说明独立于 ZIP，不修改、替换或重新打包上述冻结文件。其他哈希的文件不能据此视为同一版本。
+
+2. 背景重建入口更正
+已直接核对上述 ZIP 的目录和 build_assets.py。
+ZIP 内没有以下两个脚本：
+sources/background/generate_background.py
+sources/background/render_from_matrix.py
+
+撤回 README.md、SOURCES.md、SKILL.md 及其他随包文档中将这两个路径或“可选背景重置生成器”描述为 v5 可用入口的文字。它们不是此冻结 v5 的可执行功能；不应从旧包补入后仍称为同一冻结版本。
+
+此 v5 唯一随包、受支持的背景重建入口是根目录 build_assets.py。它直接读取当前背景矩阵和调色板，不重新推断地形，不调用缺失的重置生成器，也不覆写这两个输入 JSON。
+
+3. 实际命令、输入与输出
+需要已可用的 Python 3 和 Pillow。脚本以自身所在目录为根目录，并显式以 UTF-8 读取 JSON；不依赖调用者的当前工作目录，也不要求系统编码或环境变量改为 UTF-8。
+
+Windows 命令示例（将 C:\zelda-skill-v5 替换为实际解压目录的绝对路径）：
+python "C:\zelda-skill-v5\build_assets.py"
+
+macOS/Linux 命令示例（替换为实际绝对路径）：
+python "/absolute/path/to/zelda-skill-v5/build_assets.py"
+
+当前读取的输入：
+- sources/background/palette.json
+- sources/background/map_indices.json
+- sources/sprites/palette.json
+- sources/sprites/sprite_grids.json
+- sources/panels.json
+
+当前写入或替换的输出：
+- components/background_native.png（256×224）
+- components/sprite_<名称>_native.png（当前 29 个独立组件）
+- components/panel_<标识>_native.png（当前 5 个面板）
+
+因此，即使只改背景，运行该脚本也会重新生成精灵和面板的原生 PNG。它不生成 4 倍图、不重建字体、不更新 JSON 的浏览器绑定，也不生成浏览器截图。重建后刷新页面以加载更新的 PNG。render_preview.py 是另一个离线初始状态预览入口，不是替代的背景源重建入口；离线渲染不证明浏览器交互通过。
+
+4. 参考对象与来源边界
+参考对象为 The Legend of Zelda: A Link to the Past，1991 年 SNES/SFC 作品，中文名称《塞尔达传说：众神的三角力量》。本候选包不是以 Switch 版界面为参考。
+
+实际参考材料是用户提供的一张 256×224 英文物品栏截图。该截图的公开发布网址、最初发布者、捕获方式及具体游戏构建/版本号均未获得确认；不为其编造下载地址、出处或构建信息。原截图不随此 v5 ZIP 分发，也不是运行或重建包内组件所需的输入。
+
+5. 图像、字形与权利说明
+v5 中分发的界面图像、精灵、面板、背景及位图字形是新编写的程序化绘制或可编辑像素矩阵近似稿。它们不是从原截图、ROM 或官方素材包中提取的原版资源，不是官方字体，也不是像素精确复原。背景被面板遮挡的地理部分包含推断。
+
+像素矩阵、调色板、字形数组和渲染代码描述的是这些近似稿的生成方式。素材元数据中未公开或未记录的底层模型名称/版本记为未知；不据此补造特定模型或图片生成器来源。
+
+新编写源文件或程序化生成不等于获得原游戏名称、设计、可识别图案或其他相关权利的商业授权。本说明及该包均不授予或保证商业使用权，不代表任天堂认可。任何外部分发或商业使用仍需自行核实适用权利与许可。
+
+6. 验收状态
+本说明只更正文档入口与来源记录，不宣布候选包整体验收通过。浏览器实测、独立接收方复验、下载文件大小/哈希校验及视觉验收是不同事项；本说明不替代其中任何一项。
