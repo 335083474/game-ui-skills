@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<title>New drawn empty socket</title>
+<defs><radialGradient id="r" cx="43%" cy="34%"><stop stop-color="#505251"/><stop offset=".67" stop-color="#292b2b"/><stop offset="1" stop-color="#111414"/></radialGradient></defs>
+<circle cx="16" cy="16" r="15" fill="url(#r)"/>
+<circle cx="16" cy="16" r="11" fill="#161919" stroke="#3e4140" stroke-width="2"/>
+<circle cx="16" cy="16" r="6" fill="#303433"/>
+</svg>

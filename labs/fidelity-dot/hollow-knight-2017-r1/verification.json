@@ -1,0 +1,58 @@
+{
+  "version": "Hollow-Knight-2017-reference-r1",
+  "status": "TECHNICAL_REFERENCE_REVIEW_PASSED",
+  "reviewerAccepted": true,
+  "customerReady": false,
+  "commercialRightsCleared": false,
+  "originalScreenshotIncluded": false,
+  "suiteZipSha256": "e858586d62aba8795990537b7e5c61519d3a7193635f4538647e2ed72a3874a8",
+  "independentCaseZipSha256": "e81060ea590a8136cb5af608a648bfa148c2827b9abcb437c0654b6c9726e4a2",
+  "scope": "Editable static reference research UI; independent case had documented failure then Dot repair and receiver regression; not first-pass unchanged independent success",
+  "publisher": "Main receiving chat; Dot produced/repaired assets and docs",
+  "testedEnvironment": "Desktop browser, landscape stage minimum960x540; portrait disabled",
+  "limits": [
+    "No commercial clearance",
+    "No engine integration",
+    "No confirmed official fonts",
+    "Save/Pause/Expedition are visual-language extensions"
+  ],
+  "acceptedAt": "2026-10-19T17:45:46.445Z",
+  "acceptanceScope": "Specific frozen research reference packages; editable runtime, independent production with documented Dot repair, and local preview/download consistency. Not a commercial-license or first-pass independent success certification.",
+  "gates": [
+    {
+      "gate": 1,
+      "status": "通过",
+      "scope": "Technical reference scope; complete private evidence retained"
+    },
+    {
+      "gate": 2,
+      "status": "通过",
+      "scope": "Technical reference scope; complete private evidence retained"
+    },
+    {
+      "gate": 3,
+      "status": "通过",
+      "scope": "Technical reference scope; complete private evidence retained"
+    },
+    {
+      "gate": 4,
+      "status": "通过",
+      "scope": "Independent context16 new screen, actual original failure retained; Dot action-clearance-r1 repaired case accepted after receiver regression"
+    },
+    {
+      "gate": 5,
+      "status": "通过",
+      "scope": "Technical reference scope; complete private evidence retained"
+    },
+    {
+      "gate": 6,
+      "status": "通过",
+      "scope": "Technical reference scope; complete private evidence retained"
+    },
+    {
+      "gate": 7,
+      "status": "通过",
+      "scope": "Local five entrypoints and both real downloaded ZIP hashes checked; public readback required after deployment"
+    }
+  ]
+}

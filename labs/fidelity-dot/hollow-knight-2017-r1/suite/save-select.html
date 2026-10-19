@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate"><title>Save Selection — research prototype</title>
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="save-select.css">
+<script defer src="save-select-data.js"></script><script defer src="save-select.js"></script>
+</head>
+<body class="notranslate">
+<div class="draft">Research draft · NOT ACCEPTED · NOT FOR SALE · Save Selection v0.1</div>
+<main id="viewport" aria-label="Save selection menu">
+<p id="sizeNotice" role="status" hidden></p>
+<div id="stage">
+<img class="background" src="assets/background.svg" alt=""><div class="veil"></div>
+<img class="frame" src="assets/frame.svg" alt="">
+<h1 id="menuTitle">Select Save</h1>
+<p class="hint">Choose a vessel to begin your journey</p>
+<div class="save-rule" aria-hidden="true"></div>
+<div id="saveSlots" role="group" aria-label="Three save slots"></div>
+<section id="saveDetails" aria-live="polite" aria-label="Selected save information">
+<h2 id="saveName"></h2><p id="saveInfo"></p><p id="saveDescription"></p>
+<div class="save-actions"><button id="primaryAction" type="button"></button><button id="deleteAction" type="button">Delete</button></div>
+</section>
+<p id="stageStatus" role="status"></p>
+</div></main>
+<details class="tools"><summary>Review / edit save data (outside game view)</summary>
+<form id="saveEditor">
+<label>Menu title <input id="editTitle" maxlength="300"></label>
+<label>Selected slot <output id="editSlot"></output></label>
+<label>Occupied <input id="editOccupied" type="checkbox"></label>
+<label>Save name <input id="editName" maxlength="300"></label>
+<label>Location <input id="editLocation" maxlength="300"></label>
+<label>Play time (minutes) <input id="editMinutes" type="number" min="0" max="999999" step="1"></label>
+<label>Completion (0–112%) <input id="editCompletion" type="number" min="0" max="112" step="1"></label>
+<label>Description <textarea id="editDescription" rows="4" maxlength="20000"></textarea></label>
+<button type="submit">Apply edits</button><button id="exportSaves" type="button">Export JSON</button>
+<label>Import JSON <input id="importSaves" type="file" accept=".json,application/json"></label>
+<p id="editStatus" role="status"></p>
+</form></details>
+<dialog id="confirmDelete" aria-labelledby="confirmTitle" aria-describedby="confirmBody">
+<h2 id="confirmTitle">Delete save?</h2><p id="confirmBody"></p>
+<div class="dialogActions"><button type="button" id="cancelDelete">Cancel</button><button type="button" id="confirmDeleteButton">Delete this save</button></div>
+</dialog>
+<dialog id="actionDialog" aria-labelledby="actionTitle">
+<h2 id="actionTitle"></h2><p id="actionBody"></p><button id="closeAction" type="button">Close</button>
+</dialog>
+</body></html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 400" width="100" height="400">
+<title>New drawn worn nail replacement</title>
+<defs><linearGradient id="steel"><stop stop-color="#66677d"/><stop offset=".48" stop-color="#a8a2b5"/><stop offset=".53" stop-color="#c0b8ca"/><stop offset="1" stop-color="#858297"/></linearGradient></defs>
+<path d="M40 8 Q49 4 59 8 L59 90 L87 91 L51 391 L12 91 L40 89Z" fill="url(#steel)" stroke="#090b13" stroke-width="5" stroke-linejoin="round"/>
+<path d="M48 12 L48 88 L28 95 L50 371" fill="none" stroke="#d3c8d6" stroke-opacity=".48" stroke-width="3"/>
+<path d="M40 25 L54 40 L57 65 M17 141 L41 165 L74 182 M19 150 L38 158 L46 169 M30 229 L46 224 L65 257 M43 297 L59 312" fill="none" stroke="#1b1b29" stroke-width="4"/>
+<path d="M43 165 L48 181 M46 225 L44 239" fill="none" stroke="#343143" stroke-width="2"/>
+</svg>

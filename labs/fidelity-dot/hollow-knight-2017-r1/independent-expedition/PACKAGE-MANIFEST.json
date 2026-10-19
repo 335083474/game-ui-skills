@@ -1,0 +1,89 @@
+{
+  "version": "HK-expedition-action-clearance-r1",
+  "producer": "Context16 original5files; Dot CSS+README repair; receiver verbatim assembly and metadata",
+  "contentFiles": 16,
+  "manifestRule": "Lists16files,excludes self;17inZIP",
+  "reviewerAccepted": false,
+  "files": [
+    {
+      "path": "assets/background.svg",
+      "bytes": 845,
+      "sha256": "ce1e1d2cce5144c1eb3a10eed4ca7b297c7aabf1a4d5a6a5e83d651f6a5632b9"
+    },
+    {
+      "path": "assets/frame.svg",
+      "bytes": 6213,
+      "sha256": "461b2289ecd47c50548d5b3d60a62aa25ce98af7b758b1b5b7e7231bc2a3eaf1"
+    },
+    {
+      "path": "assets/inventory/crest.svg",
+      "bytes": 930,
+      "sha256": "f4980892c24645c8cb54889f8896991914b46ecba12f4ace1d1677a01ab25f2c"
+    },
+    {
+      "path": "assets/inventory/focus.svg",
+      "bytes": 1350,
+      "sha256": "785e49edb65aba625b3002a0d780353cbae314468ad2878efe31d36a4c2f3edc"
+    },
+    {
+      "path": "assets/inventory/geo.svg",
+      "bytes": 669,
+      "sha256": "094785fc7b6340f44c212346c7250d623c6ad68df5321ce4b4b3f8ad0becccaa"
+    },
+    {
+      "path": "assets/inventory/old-nail.svg",
+      "bytes": 856,
+      "sha256": "5c6840be776602818d3238198f9e423354b244b140f62826247c4004bac02ead"
+    },
+    {
+      "path": "assets/inventory/scroll.svg",
+      "bytes": 1067,
+      "sha256": "c64f14ac7bb83d8f84547a3b6fe0b5aa49b4bab6899e7e9099e2a8db2ee4ef87"
+    },
+    {
+      "path": "assets/inventory/spirit.svg",
+      "bytes": 669,
+      "sha256": "fefe00aed75e9663ed5e50fd54ec0a09c12993b785fc6cb8ab16bdeacf3ce547"
+    },
+    {
+      "path": "assets/selection.svg",
+      "bytes": 821,
+      "sha256": "3993fb311138f71ad6070c9ff724afd58aed2d8e782fc0ee7669a4ac1f4d39a5"
+    },
+    {
+      "path": "assets/socket.svg",
+      "bytes": 485,
+      "sha256": "762c9a9b45971b5cb99335c04f65aceef7878cf3757d7c0c0004d952698cc061"
+    },
+    {
+      "path": "expedition-data.js",
+      "bytes": 1393,
+      "sha256": "0a962e25afd743b7561e93984ce325940932906a76f18921f1405e0b2160ba50"
+    },
+    {
+      "path": "EXPEDITION-README.md",
+      "bytes": 9780,
+      "sha256": "bd63dfe138307e22078ec1de2412c4021536b5a4fccca7d1eb3ed23c17a37d71"
+    },
+    {
+      "path": "expedition.css",
+      "bytes": 3717,
+      "sha256": "55807424c9b9c0e132511c4249a3673e4b23eff9f40b86965d0d013219546a73"
+    },
+    {
+      "path": "expedition.html",
+      "bytes": 3940,
+      "sha256": "364d7e102cae9e10f4428b68a00d31c08d66dc77926fdc5d940d4f5bad92b1ef"
+    },
+    {
+      "path": "expedition.js",
+      "bytes": 12056,
+      "sha256": "f10b8f83797d949bd095bee477100d921a8ca642aa52391b1dbf32f70358f361"
+    },
+    {
+      "path": "style.css",
+      "bytes": 4889,
+      "sha256": "183baab4fd8705e72ada338899cd1099e07e2f0d543c5da5af08107faaadccc6"
+    }
+  ]
+}

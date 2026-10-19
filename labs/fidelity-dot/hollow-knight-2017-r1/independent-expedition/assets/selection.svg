@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="142" viewBox="0 0 142 142">
+<title>New drawn four-corner selection overlay</title>
+<defs><g id="c" fill="none" stroke="#fffdf5" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 36 C5 31 12 26 10 21 C5 10 12 8 18 13 C24 18 29 13 33 13 C40 13 41 6 36 6 C32 6 33 11 36 10"/>
+<path d="M10 25 C15 23 18 29 15 32 C12 35 10 31 12 29 M15 13 C18 9 23 10 24 13"/>
+</g></defs>
+<use href="#c"/><use href="#c" transform="translate(142 0) scale(-1 1)"/>
+<use href="#c" transform="translate(0 142) scale(1 -1)"/><use href="#c" transform="translate(142 142) scale(-1 -1)"/>
+<g fill="#fffdf5"><path d="M8 31 L8 40 L11 34 Z"/><path d="M134 31 L134 40 L131 34 Z"/><path d="M8 111 L8 102 L11 108 Z"/><path d="M134 111 L134 102 L131 108 Z"/></g>
+</svg>

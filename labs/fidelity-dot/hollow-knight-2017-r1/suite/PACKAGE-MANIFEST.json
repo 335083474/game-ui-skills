@@ -1,0 +1,196 @@
+{
+  "version": "HK-suite-four-pages-doc-r1-final-candidate",
+  "createdAt": "2026-10-19T16:59:39.264936+00:00",
+  "receiverAccepted": false,
+  "customerReady": false,
+  "scope": "Editable reference research UI; no commercial rights or engine integration asserted",
+  "producer": "Dot original+repairs, independent contexts6and12; see SOURCES.md",
+  "receiverContribution": "Verbatim assembly, historical-manifest separation, current manifest and testing only",
+  "manifestRule": "Lists all36 content files; excludes this PACKAGE-MANIFEST.json to avoid self-hash. ZIP contains37 files.",
+  "inputZipSha256": [
+    "a224133e2778ef8fa2a47e60817c3d3c7f886c1e6f155955d03d5d82869d1ae6",
+    "d29d61eb6cbe5e4f8b1d0374b36a847646b944379ab629aeebb53b91646f0551"
+  ],
+  "files": [
+    {
+      "path": "CANDIDATE-SKILL.md",
+      "bytes": 6735,
+      "sha256": "d57153159e9af8adb8e524c7101c06c120761e017205d1d77428ef73fc989f1e"
+    },
+    {
+      "path": "COMPONENTS.md",
+      "bytes": 7740,
+      "sha256": "48f5f04b403b6530f90ff3f90b3f49b1e1482e23b9ecf70ebd0d2aa9da140366"
+    },
+    {
+      "path": "CROSS-SCREEN-SAFETY-ADDENDUM-r1.md",
+      "bytes": 5534,
+      "sha256": "0ffefed6140a60ca6aadb2a522264fabf8cc324105ded7c24d1705e424042a7f"
+    },
+    {
+      "path": "README-NEW.md",
+      "bytes": 8490,
+      "sha256": "11b901cdafcff804d5e871daf4942c9bd5d824774ec543e71a0423c3e337b8fa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8341,
+      "sha256": "394eb4c991ca104ec6af2856bb0fc6c1792966b213241a4b37f41bd28900f98a"
+    },
+    {
+      "path": "SAVE-SELECT-README.md",
+      "bytes": 3961,
+      "sha256": "e53cc28b5ee6235a67d7192085bbc1690bf4427276389250101b40a82e01a695"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4962,
+      "sha256": "3d1fda5a395e460294b8aa603b2d7d47f6c598176922bb2e24e8938129616d91"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 9188,
+      "sha256": "c03e94cb19de3ef0979dab718dffa4abb35692aece6b0ac7df3b211c4c55a33a"
+    },
+    {
+      "path": "app.js",
+      "bytes": 9327,
+      "sha256": "888976de7118c9094af61da360339466adffc8edad724d21adc5934a45931cb6"
+    },
+    {
+      "path": "assets/background.svg",
+      "bytes": 845,
+      "sha256": "ce1e1d2cce5144c1eb3a10eed4ca7b297c7aabf1a4d5a6a5e83d651f6a5632b9"
+    },
+    {
+      "path": "assets/frame.svg",
+      "bytes": 6213,
+      "sha256": "461b2289ecd47c50548d5b3d60a62aa25ce98af7b758b1b5b7e7231bc2a3eaf1"
+    },
+    {
+      "path": "assets/inventory/crest.svg",
+      "bytes": 930,
+      "sha256": "f4980892c24645c8cb54889f8896991914b46ecba12f4ace1d1677a01ab25f2c"
+    },
+    {
+      "path": "assets/inventory/focus.svg",
+      "bytes": 1350,
+      "sha256": "785e49edb65aba625b3002a0d780353cbae314468ad2878efe31d36a4c2f3edc"
+    },
+    {
+      "path": "assets/inventory/geo.svg",
+      "bytes": 669,
+      "sha256": "094785fc7b6340f44c212346c7250d623c6ad68df5321ce4b4b3f8ad0becccaa"
+    },
+    {
+      "path": "assets/inventory/old-nail.svg",
+      "bytes": 856,
+      "sha256": "5c6840be776602818d3238198f9e423354b244b140f62826247c4004bac02ead"
+    },
+    {
+      "path": "assets/inventory/reservoirs.svg",
+      "bytes": 681,
+      "sha256": "e50c9b1ffb57a92dfad7f94d5efc4747bb53abcfb266e2fbce7e6061427517d6"
+    },
+    {
+      "path": "assets/inventory/scroll.svg",
+      "bytes": 1067,
+      "sha256": "c64f14ac7bb83d8f84547a3b6fe0b5aa49b4bab6899e7e9099e2a8db2ee4ef87"
+    },
+    {
+      "path": "assets/inventory/spirit.svg",
+      "bytes": 669,
+      "sha256": "fefe00aed75e9663ed5e50fd54ec0a09c12993b785fc6cb8ab16bdeacf3ce547"
+    },
+    {
+      "path": "assets/selection.svg",
+      "bytes": 821,
+      "sha256": "3993fb311138f71ad6070c9ff724afd58aed2d8e782fc0ee7669a4ac1f4d39a5"
+    },
+    {
+      "path": "assets/socket.svg",
+      "bytes": 485,
+      "sha256": "762c9a9b45971b5cb99335c04f65aceef7878cf3757d7c0c0004d952698cc061"
+    },
+    {
+      "path": "assets/soul-catcher.png",
+      "bytes": 1311275,
+      "sha256": "508ae108de8004efa83160ff604dff00d88dcaed837d89727ee9044ba9acf036"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2596,
+      "sha256": "663174273e93268bfb5785bb20bedfcc2308a6b3752c0832444a747edcf0be79"
+    },
+    {
+      "path": "inventory-data.js",
+      "bytes": 1425,
+      "sha256": "3a1a315a1c3cd6487e6dfec3b38fbaddbcc799b28ddd6753f914d11f4c7c437c"
+    },
+    {
+      "path": "inventory.css",
+      "bytes": 2899,
+      "sha256": "54e42d5b31a8cf57591611fc8997e6fc1daf8b7262c2eb5437fbb13eaf57e6f7"
+    },
+    {
+      "path": "inventory.html",
+      "bytes": 2673,
+      "sha256": "bc1fb424f29324d4c71e277673f2c25be69de9afb43644e54e3b6623c7a135d7"
+    },
+    {
+      "path": "inventory.js",
+      "bytes": 8503,
+      "sha256": "52681d3e9f0174f1578bc0c718b7b82313125fa65f20e960ef98a98246c9fef4"
+    },
+    {
+      "path": "pause-options.css",
+      "bytes": 3144,
+      "sha256": "c7204b8b0278f4859103945756bfe835231db8dd5ba1a03808c9a6e84eb95073"
+    },
+    {
+      "path": "pause-options.html",
+      "bytes": 4270,
+      "sha256": "b96e778000cc96c76804b751f969522df09b3c388d0f43e033bc0a1588ebea4b"
+    },
+    {
+      "path": "pause-options.js",
+      "bytes": 8323,
+      "sha256": "46d7e58dc170c1eeffab693b3a94615d3bc0f1039df2da74cb24ee4955377612"
+    },
+    {
+      "path": "save-select-data.js",
+      "bytes": 651,
+      "sha256": "5b0c7b5e0cc8d5e386871920418d6d3f43df61f40e000d2bfc773fbc5dfa0ff5"
+    },
+    {
+      "path": "save-select.css",
+      "bytes": 5138,
+      "sha256": "a2e80e49468835f1fe9b98e4c1df5b1937134b770cd10758830c66ca5309a674"
+    },
+    {
+      "path": "save-select.html",
+      "bytes": 2875,
+      "sha256": "e9d81b1deabc4c94ea7fb50c35a8be774efc0b223c83ea96d79bc057d32824be"
+    },
+    {
+      "path": "save-select.js",
+      "bytes": 13062,
+      "sha256": "9f27df20e3c3a849b51552df50e432713513d5c26d8c58a432d98d95d704c770"
+    },
+    {
+      "path": "shared-style.css",
+      "bytes": 4889,
+      "sha256": "183baab4fd8705e72ada338899cd1099e07e2f0d543c5da5af08107faaadccc6"
+    },
+    {
+      "path": "style.css",
+      "bytes": 4889,
+      "sha256": "183baab4fd8705e72ada338899cd1099e07e2f0d543c5da5af08107faaadccc6"
+    },
+    {
+      "path": "tokens.json",
+      "bytes": 1833,
+      "sha256": "c18e14db0991ff15dd5f14b9d1896e453b4fe495c0f6afc55671ff16587caa55"
+    }
+  ]
+}

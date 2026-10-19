@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 230" width="390" height="230">
+<title>New drawn muted inventory silhouettes</title>
+<path d="M90 8 C28 5 5 66 12 121 C17 168 47 203 89 226 C139 196 171 146 171 102 C171 52 142 8 90 8Z" fill="#25283d" stroke="#30364d" stroke-width="3"/>
+<path d="M83 24 C35 29 27 69 30 113 C34 149 54 182 89 201 C125 175 145 144 144 105 C144 65 128 35 107 27 C133 64 128 139 88 177 C53 141 45 79 83 24Z" fill="#202337"/>
+<circle cx="350" cy="140" r="45" fill="#2a3046" stroke="#313a52" stroke-width="3"/>
+<circle cx="350" cy="140" r="34" fill="none" stroke="#333b55" stroke-width="7"/>
+<circle cx="350" cy="140" r="24" fill="#22283c"/>
+</svg>

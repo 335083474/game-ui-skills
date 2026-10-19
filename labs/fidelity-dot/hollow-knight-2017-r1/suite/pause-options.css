@@ -1,0 +1,38 @@
+/* Independent Pause & Options source, with Dot status repair r1.
+   Shared r2 title and all frame assets remain unchanged.
+   #stageStatus is now outside #viewport and #stage in normal document flow. */
+#viewport{height:calc(100dvh - 75px)}
+#stage .view{position:absolute;z-index:3}
+#pauseView{left:440px;top:195px;width:1040px;height:725px;text-align:center}
+.openingMark{height:58px;display:flex;gap:36px;align-items:center;justify-content:center;font-size:30px;opacity:.85}
+.openingMark img{height:26px;width:26px}
+#panelHeading{font-size:48px;font-weight:400;margin:0;height:68px;line-height:68px}
+#intro{margin:6px auto 18px;width:790px;height:76px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font-size:27px;line-height:1.3}
+#optionList{margin:auto;width:690px;display:grid;gap:12px}
+.menuOption,.sliderLine{min-height:72px;width:100%;font:35px/1.25 "Times New Roman",Georgia,serif;color:#f4f3ee}
+.menuOption{position:relative;cursor:pointer;background:transparent;border:0;padding:8px 66px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.menuOption img{position:absolute;left:13px;top:2px;width:66px;height:66px;opacity:0}
+.menuOption:is(:focus-visible,:hover) img{opacity:1}
+.menuOption:is(:focus-visible,:hover){text-shadow:0 0 14px #9eaaca}
+.sliderLine{display:grid;grid-template-columns:255px 1fr 80px;gap:15px;align-items:center;text-align:left;padding:0 10px}
+.sliderLine label{font-size:32px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sliderLine output{text-align:right;font-size:30px}
+.sliderLine input{width:100%;accent-color:#cdd6e7;cursor:pointer}
+.sliderLine:focus-within{background:radial-gradient(ellipse,#44547655,transparent 75%)}
+.hint{margin:20px 0 0;color:#b9becd;font-size:22px}
+/* Unscaled diagnostic, full content retained. It cannot intersect stage artwork. */
+#stageStatus{position:static;inset:auto;z-index:auto;box-sizing:border-box;width:auto;height:auto;max-height:none;min-height:0;margin:12px 16px;padding:8px 0;overflow:visible;text-align:left;font:16px/1.6 "Times New Roman",Georgia,serif;color:#d9b988;white-space:pre-wrap;overflow-wrap:anywhere;scroll-margin-block:16px}
+#stageStatus:empty{display:none}
+#stageStatus:focus-visible{outline:2px solid #e7edf9;outline-offset:4px}
+#otherView{left:500px;top:310px;width:920px;text-align:center}
+#otherHeading{font-weight:400;font-size:50px}
+#otherDescription{font-size:30px;line-height:1.4;white-space:pre-wrap;overflow-wrap:anywhere;max-height:310px;overflow:auto}
+#backPause{font:30px Georgia,serif;margin-top:40px}
+.tools button,dialog button,#backPause{background:#14151b;color:#f4f3ee;border:1px solid #8b91a0;padding:9px 17px;cursor:pointer}
+button:focus-visible,input:focus-visible{outline:2px solid #e7edf9;outline-offset:4px}
+dialog{font-size:23px;line-height:1.5}
+dialog h2{font-weight:400}
+#helpBody{white-space:pre-wrap;overflow-wrap:anywhere;max-width:700px;max-height:52vh;overflow:auto}
+.dialogActions{display:flex;gap:24px}
+#fullBody{white-space:pre-wrap;overflow-wrap:anywhere;font:21px/1.4 Georgia,serif;max-height:50vh;overflow:auto}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}

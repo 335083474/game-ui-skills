@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<title>Inventory-v0.1 — research draft</title>
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="inventory.css">
+<script defer src="inventory-data.js"></script><script defer src="inventory.js"></script>
+</head>
+<body class="notranslate">
+<div class="draft">Research draft · NOT ACCEPTED · NOT FOR SALE · Inventory-v0.1</div>
+<main id="viewport" aria-label="Inventory menu">
+<p id="sizeNotice" role="status" hidden></p>
+<div id="stage">
+<img class="background" src="assets/background.svg" alt=""><div class="veil"></div>
+<img class="frame" src="assets/frame.svg" alt="">
+<div class="nav left"><b>LT</b> Map</div>
+<a class="nav right" href="index.html">Charms <b>RT</b></a>
+<h1 id="menuTitle">Inventory</h1>
+<img class="reservoirs" src="assets/inventory/reservoirs.svg" alt="Two muted equipment silhouettes">
+<div class="inv-divider first"></div><div class="inv-divider second"></div>
+<div id="items" role="group" aria-label="Inventory items"></div>
+<div class="geo"><img src="assets/inventory/geo.svg" alt="Geo"><span id="geoValue"></span></div>
+<section id="invDetail" aria-label="Selected item">
+<h2 id="invName"></h2><div class="inv-action">Press <button id="inspect" aria-label="Inspect complete item description">X</button></div>
+<div id="invDescription" tabindex="0"></div>
+<button id="invFull" hidden>Read full text / full titles</button>
+</section>
+<div id="assetWarning" role="status"></div>
+</div>
+</main>
+<details class="tools"><summary>Review / edit Inventory data</summary>
+<form id="invEditor">
+<label>Menu title <input id="editTitle" maxlength="300"></label>
+<label>Geo <input id="editGeo" type="number" min="0" max="999999" step="1"></label>
+<label>Selected item <output id="editIndex"></output></label>
+<label>Name <input id="editName" maxlength="300"></label>
+<label>Relative icon path <input id="editIcon"></label>
+<label>Item quantity (blank means no badge)<input id="editQuantity" type="number" min="0" max="9999" step="1"></label>
+<label>Description<textarea id="editDescription" rows="6"></textarea></label>
+<button type="submit">Apply</button><button type="button" id="invExport">Export JSON</button>
+<label>Import JSON <input type="file" id="invImport" accept="application/json,.json"></label>
+<p id="invStatus" role="status"></p>
+</form></details>
+<dialog id="dialog" aria-labelledby="dialogTitle"><h2 id="dialogTitle"></h2><div id="dialogBody"></div><form method="dialog"><button autofocus>Close</button></form></dialog>
+</body></html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<title>HK editable v0.2 — research draft</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="app.js"></script>
+</head>
+<body class="notranslate">
+<div class="draft">Research draft · NOT ACCEPTED · NOT FOR SALE · HK-editable-v0.2</div>
+<main id="viewport" aria-label="Charm menu">
+<p id="sizeNotice" role="status" hidden></p>
+<div id="stage">
+<img class="background" src="assets/background.svg" alt="">
+<div class="veil"></div>
+<img class="frame" src="assets/frame.svg" alt="">
+<div class="nav left"><b>LT</b> Inventory</div>
+<div class="nav right">Map <b>RT</b></div>
+<h1 id="menuTitle">Charms</h1>
+<div class="equipped-label">Equipped</div>
+<img class="equipped" src="assets/socket.svg" alt="One equipped marker">
+<div class="notches-label">Notches</div>
+<div class="notches" aria-label="Three notches"><img src="assets/socket.svg" alt=""><img src="assets/socket.svg" alt=""><img src="assets/socket.svg" alt=""></div>
+<div class="divider"></div>
+<div id="grid" role="group" aria-label="Charm slots"></div>
+<section id="detail" aria-label="Selected charm">
+<h2 id="charmTitle"></h2>
+<div class="cost">Cost <span id="costDots"></span></div>
+<img id="preview" alt="">
+<div id="description" tabindex="0"></div>
+<button id="fullText" hidden>Read full text / full titles</button>
+</section>
+<div id="assetWarning" role="status"></div>
+</div>
+</main>
+<details class="tools">
+<summary>Review / edit data (outside game view)</summary>
+<form id="editor">
+<label>Menu title <input id="titleInput" maxlength="300"></label>
+<label>Selected slot <output id="slotNumber"></output></label>
+<label>Has charm <input id="ownedInput" type="checkbox"></label>
+<label>Name <input id="nameInput" maxlength="300"></label>
+<label>Relative icon path <input id="iconInput"></label>
+<label>Cost (0–9) <input id="costInput" type="number" min="0" max="9" step="1"></label>
+<label>Description (blank line separates paragraphs)<textarea id="descriptionInput" rows="6"></textarea></label>
+<button type="submit">Apply</button>
+<button id="export" type="button">Export JSON</button>
+<label>Import JSON <input id="import" type="file" accept="application/json,.json"></label>
+<p id="status" role="status"></p>
+</form>
+</details>
+<dialog id="dialog" aria-labelledby="dialogTitle">
+<h2 id="dialogTitle"></h2><div id="dialogBody"></div>
+<form method="dialog"><button autofocus>Close</button></form>
+</dialog>
+</body></html>

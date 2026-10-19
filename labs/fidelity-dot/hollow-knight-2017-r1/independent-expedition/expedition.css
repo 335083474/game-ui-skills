@@ -1,0 +1,27 @@
+#viewport{height:calc(100dvh - 76px)}
+#stage :is(section,nav){position:absolute;z-index:3}
+#resultHeader{left:390px;top:168px;width:1140px;text-align:center}
+.ornament{font-size:29px;color:#aebdd4;letter-spacing:15px;height:44px}
+#resultHeading{font-weight:400;font-size:64px;line-height:78px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:0}
+#resultNote{font-size:26px;line-height:1.38;white-space:pre-wrap;overflow:auto;overflow-wrap:anywhere;height:76px;margin:8px auto 0;width:970px}
+#statistics{left:365px;top:403px;width:1190px;height:135px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+.stat{text-align:center;min-width:0;border-top:1px solid #aab1ba;border-bottom:1px solid #5a606b;padding:15px 10px}
+.stat-label,.stat-value{display:block;overflow:auto;overflow-wrap:anywhere;max-height:52px;line-height:1.25}
+.stat-label{font-size:28px;color:#b9c4d3}.stat-value{font-size:35px}
+#rewardArea{left:310px;top:560px;width:1300px;height:265px}
+#rewardHeading{text-align:center;font-weight:400;font-size:33px;line-height:43px;margin:0 0 12px}
+#rewardList{position:absolute;top:65px;left:0;width:500px;height:179px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,83px);gap:8px 14px}
+.reward{position:relative;border:0;background:none;color:#fff;cursor:pointer;min-width:0;padding:4px;display:flex;align-items:center;justify-content:center}
+.reward .socket{position:absolute;width:52px;height:52px;opacity:.45}.reward .reward-icon{position:relative;width:65px;height:65px;object-fit:contain}.reward .selection{position:absolute;width:95px;height:80px;opacity:0}
+.reward[aria-pressed=true] .selection{opacity:1}.reward:focus-visible,.action:focus-visible{outline:2px dotted #dbe4f2;outline-offset:1px}
+#rewardDetail{position:absolute;left:570px;top:66px;width:725px;height:200px;display:grid;grid-template-columns:142px 1fr;grid-template-rows:62px 1fr;column-gap:21px}
+#rewardPreview{grid-row:span 2;width:135px;height:135px;object-fit:contain;align-self:start}
+#rewardName{margin:0;font-size:34px;line-height:55px;font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#rewardDescription{font-size:25px;line-height:1.3;overflow:auto;overflow-wrap:anywhere;white-space:pre-wrap;height:140px}
+#actions{left:570px;top:850px;width:780px;height:76px;display:flex;gap:80px;justify-content:center}
+.action{position:relative;background:transparent;border:0;cursor:pointer;color:#fff;font:36px Georgia,serif;width:220px;height:66px}
+.action img{position:absolute;left:0;top:1px;width:64px;height:64px;opacity:0}.action:is(:hover,:focus-visible) img{opacity:1}.action span{position:relative}
+#reviewNotice{margin:12px 16px 0;color:#e8c78a;white-space:pre-wrap;overflow-wrap:anywhere;font:16px/1.5 system-ui}#reviewNotice:empty{display:none}
+#readAll{margin:9px 16px;padding:9px 13px;background:#171923;color:white;border:1px solid #adb7c8;cursor:pointer}
+.tools select{width:100%;font:inherit}.tools #statEditor{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.tools .editorActions{display:flex;flex-wrap:wrap;align-items:end;gap:12px}.tools .editorActions label{max-width:300px}
+#infoBody{max-height:52vh;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font:20px/1.5 Georgia,serif}dialog h2{font-weight:400;overflow-wrap:anywhere}dialog p{white-space:pre-wrap;overflow-wrap:anywhere;font:21px/1.5 Georgia,serif}.dialogActions{display:flex;flex-wrap:wrap;gap:18px}dialog button,.tools button{background:#161924;color:white;border:1px solid #aaa;padding:9px 17px;cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #e1ebff;outline-offset:2px}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<title>New approximate cavern silhouette, not original scenery</title>
+<rect width="1920" height="1080" fill="#121321"/>
+<g fill="#292638"><path d="M400 0 L570 0 L537 165 L563 282 L510 453 L524 700 L460 900 L417 860 L439 610 L415 428 L445 205 Z"/><path d="M1030 0 L1170 0 L1133 185 L1177 349 L1115 554 L1158 846 L1096 900 L1075 682 L1090 408 L1049 184 Z"/><path d="M1300 0 L1460 0 L1412 255 L1440 504 L1388 818 L1334 875 L1350 600 L1318 318 Z"/></g>
+<g stroke="#37303c" stroke-width="14" fill="none"><path d="M510 935 Q850 835 1200 923 T1920 940"/><path d="M535 970 Q840 885 1270 961 T1920 980"/></g>
+<g fill="#171821"><path d="M0 810 Q200 702 390 930 L510 1080 H0 Z"/><path d="M1480 1010 Q1530 810 1690 850 Q1780 700 1920 810 V1080 H1480Z"/></g>
+</svg>

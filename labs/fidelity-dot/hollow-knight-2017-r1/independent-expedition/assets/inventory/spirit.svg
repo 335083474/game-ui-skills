@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 88" width="120" height="88">
+<title>New drawn pale spirit replacement</title>
+<path d="M15 26 Q37 6 67 14 Q85 17 104 12 Q117 13 107 22 L88 29 Q110 25 115 30 Q121 37 99 41 L87 45 Q111 45 114 51 Q117 58 94 58 L87 62 Q108 65 105 70 Q101 76 82 70 Q69 76 46 73 Q17 75 9 58 Q4 43 15 26Z" fill="#dddce6" stroke="#252531" stroke-width="4"/>
+<path d="M19 30 Q38 14 64 19" fill="none" stroke="#fcf4f1" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="25" cy="48" rx="5" ry="11" transform="rotate(20 25 48)" fill="#2a3040"/>
+<ellipse cx="53" cy="52" rx="9" ry="13" transform="rotate(36 53 52)" fill="#2a3040"/>
+</svg>
